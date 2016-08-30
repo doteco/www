@@ -1,29 +1,54 @@
 <html>
 <head>
 	<title>.eco: NIC</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<style>
 body {
 	background-color: #a20f42;
 	color: white;
 	text-align: center;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 h1 img {
-	width: 50%;
+	width: 40%;
+	max-width: 800px;
+	margin-bottom: 1em;
 }
 
-a {
+.tag-line p {
+	font-size: 16px; font-size: 4vw;
+	font-weight: bold;
+	margin: 0em;
+}
+
+.contact-us {
+	margin: 2em;
+	font-size: 12px; font-size: 2vw;
+}
+
+.contact-us a {
 	color: #fdcd19;
 }
-
-	</style>
+</style>
 </head>
 <body>
-	<h1><img src="img/doteco_white.png"></h1>
-	<p>A commitment to sustainability.</p>
-	<p>Check back soon.</p>
-	<section class="contact-us">
-		<a href="mailto:support@doteco.org">support@doteco.org</a>
+	<section class="content">
+		<h1><img src="img/doteco_white.png"></h1>
+		<section class="tag-line">
+			<p>A commitment to sustainability.</p>
+			<p>Check back soon.</p>
+		</section>
+		<section class="contact-us">
+			<a href="mailto:support@doteco.org">support@doteco.org</a>
+		</section>
 	</section>
 </body>
 </html>
