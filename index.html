@@ -1,14 +1,20 @@
 <html>
 <head>
 	<title>.eco: NIC</title>
+	<script src="https://use.typekit.net/omm1ggb.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<style>
 body {
 	background-color: #a20f42;
 	color: white;
 	text-align: center;
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "effra","Lato",sans-serif;
 }
 
 .content {
@@ -19,13 +25,13 @@ body {
 	transform: translateY(-50%) translateX(-50%);
 }
 
-h1 img {
+.logo img {
 	width: 40%;
 	max-width: 800px;
 	margin-bottom: 1em;
 }
 
-.tag-line p {
+.tag-line h2 {
 	font-size: 16px; font-size: 4vw;
 	font-weight: bold;
 	margin: 0em;
@@ -51,10 +57,12 @@ footer {
 </head>
 <body>
 	<section class="content">
-		<h1><img src="img/doteco_white.png"></h1>
+		<div class="logo">
+			<img src="img/doteco_white.png">
+		</div>
 		<section class="tag-line">
-			<p>A commitment to sustainability.</p>
-			<p>Check back soon.</p>
+			<h2>A commitment to sustainability.</h2>
+			<h2>Check back soon.</h2>
 		</section>
 		<section class="contact-us">
 			<p><a href="mailto:learnmore@doteco.org">learnmore@doteco.org</a></p>
