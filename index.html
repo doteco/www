@@ -6,41 +6,49 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<style>
+section, article, aside, footer, header, nav, hgroup {
+  display: block;
+}
+
 body {
-	background-color: #a20f42;
-	color: white;
-	text-align: center;
+	font-size: 100%;
 	font-family: "Lato", sans-serif;
-	position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "effra","Lato",sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1.875em;
+}
+
+footer {
+	font-size: 0.875em;
+}
+
+body {
+	background-color: #a20f42;
+	color: white;
+	text-align: center;
+	position: relative;
+	height: 100%;
+}
+
+.tag-line h1 {
+	margin: 0em;
 }
 
 .content {
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	width: 70%;
-	transform: translateY(-50%) translateX(-50%);
-}
-
-.logo img {
-	width: 40%;
-	max-width: 800px;
-	margin-bottom: 1em;
-}
-
-.tag-line h2 {
-	font-size: 16px; font-size: 4vw;
-	font-weight: bold;
-	margin: 0em;
-}
-
-.contact-us {
-	margin: 2em;
-	font-size: 12px; font-size: 2vw;
+	width: 100%;
+	transform: translateY(-50%);
 }
 
 a {
@@ -50,8 +58,42 @@ a {
 footer {
 	position: absolute;
 	bottom: 0;
+	left: 0;
 	width: 100%;
-	font-size: 9px; font-size: 1vw
+}
+
+footer p, footer address {
+	margin: 0.4;
+}
+
+.tag-line {
+	margin-bottom: 6em;
+}
+
+.logo img {
+	width: 40%;
+	max-width: 800px;
+	margin-bottom: 4em;
+}
+
+.contact-us h2 {
+	font-weight: normal;
+}
+
+@media only screen and (orientation: landscape) {
+	.logo img {
+		width: 22%;
+		margin-bottom: 2em;
+	}
+	h1 {
+		font-size: 2.25em;
+	}
+	h2 {
+		font-size: 1.25em;
+	}
+	.tag-line {
+		margin-bottom: 2.5em;
+	}
 }
 
 </style>
@@ -62,11 +104,11 @@ footer {
 			<img src="img/doteco_white.png">
 		</div>
 		<section class="tag-line">
-			<h2>A commitment to sustainability.</h2>
-			<h2>Check back soon.</h2>
+			<h1>A commitment to sustainability.</h1>
+			<h1>Check back soon.</h1>
 		</section>
 		<section class="contact-us">
-			<p><a href="mailto:learnmore@doteco.org">learnmore@doteco.org</a></p>
+			<h2><a href="mailto:learnmore@doteco.org">learnmore@doteco.org</a></h2>
 		</section>
 	</section>
 	<footer>
@@ -77,8 +119,8 @@ footer {
 			<a href="https://www.iana.org/domains/root/db/eco.html">IANA delegation record</a> |
 			<a href="assets/DNSSECPracticesStatement.pdf" download>DNSSEC practice statement (PDF)</a>
 		</p>
-		<p><address>Abuse point of contact c/o Big Room Inc. #332 - 237 Keefer St Vancouver BC Canada V6A 1X6
-		 | T: 1-604-682-6673 | E: <a href="mailto:abuse@doteco.org">abuse@doteco.org</a></address></p>
+		<address>Abuse point of contact c/o Big Room Inc. #332 - 237 Keefer St Vancouver BC Canada V6A 1X6
+		 | T: 1-604-682-6673 | E: <a href="mailto:abuse@doteco.org">abuse@doteco.org</a></address>
 	</footer>
 </body>
 </html>
