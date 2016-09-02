@@ -2,8 +2,6 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>.eco: NIC</title>
-	<script src="https://use.typekit.net/omm1ggb.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<style>
 section, article, aside, footer, header, nav, hgroup {
@@ -13,6 +11,7 @@ section, article, aside, footer, header, nav, hgroup {
 body {
 	font-size: 100%;
 	font-family: "Lato", sans-serif;
+	margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,11 +32,14 @@ footer {
 }
 
 body {
-	background-color: #a20f42;
 	color: white;
 	text-align: center;
 	position: relative;
 	height: 100%;
+}
+
+body, footer {
+	background-color: #a20f42;
 }
 
 .tag-line h1 {
@@ -60,10 +62,11 @@ footer {
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	z-index: 10;
 }
 
 footer p, footer address {
-	margin: 0.4;
+	margin-bottom: 0.4em;
 }
 
 .tag-line {
@@ -97,6 +100,8 @@ footer p, footer address {
 }
 
 </style>
+<script src="https://use.typekit.net/omm1ggb.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
 	<section class="content">
