@@ -1,0 +1,18 @@
+:root {
+	--ruby: #9F1744;
+
+}
+
+/*
+
+TODO: text has an outline... bootstrap var?
+
+*/
+
+#doteco .navbar {
+	background-color: var(--ruby);
+}
+
+#doteco .navbar a {
+	color: white;
+}
