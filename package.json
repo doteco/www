@@ -4,11 +4,13 @@
   "description": "",
   "main": "modernizr.js",
   "dependencies": {
-    "modernizr": "^3.3.1"
+    "modernizr": "^3.3.1",
+    "node-sass": "^3.10.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss nic/css/main.css"
   },
   "repository": {
     "type": "git",
