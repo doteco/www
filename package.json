@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/main.scss nic/css/main.css"
+    "build-css": "node-sass --include-path scss scss/index.scss nic/css/index.css"
   },
   "repository": {
     "type": "git",
