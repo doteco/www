@@ -1,7 +1,7 @@
-:root {
-	--ruby: #9F1744;
-
-}
+$doteco-ruby: #9F1744;
+$doteco-sapphire: #454A73;
+$doteco-charcoal: #403B3E;
+$doteco-citrine: #FCCC37;
 
 /*
 
@@ -9,10 +9,29 @@ TODO: text has an outline... bootstrap var?
 
 */
 
-#doteco .navbar {
-	background-color: var(--ruby);
-}
 
-#doteco .navbar a {
-	color: white;
+#doteco {
+
+	color: $doteco-charcoal;
+
+	.navbar {
+		background-color: $doteco-ruby;
+
+		a {
+			color: white;
+		}
+
+		.active a {
+			color: $doteco-citrine;
+			background: none;
+		}
+	}
+
+	.section-title {
+		color: $doteco-ruby;
+	}
+	.faq-entry h3 {
+		color: $doteco-sapphire;
+	}
+
 }
