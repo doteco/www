@@ -11,17 +11,14 @@ TODO: text has an outline... bootstrap var?
 
 	.bordered-box {
 		border: 1px solid white;
-		padding: 3px 12px;
 		border-radius: 2px;
+		display: block;
+		padding: 12px 0;
+		font-size: 60%;
 	}
 
 	.navbar {
 		background-color: $doteco-ruby;
-
-		.navbar-brand img {
-			height: 150%;
-			margin-top: -15%;
-		}
 
 		a {
 			color: white;
@@ -32,27 +29,42 @@ TODO: text has an outline... bootstrap var?
 			background: none;
 		}
 
-		.bordered-box {
-			font-size: small;
+		.navbar-brand img {
+			height: 150%;
+			margin-top: -15%;
 		}
 
-		.social-facebook {
+		li {
+			text-align: center;
+			font-size: 200%;
+		}
+
+		.social {
 			a {
-				padding-top: 22%;
-				padding-bottom: 0;
+				padding: 0 3px;
+				display: inline-block;
 			}
 			img {
 				height: 25px;
 			}
 		}
 
-		.social-twitter {
-			a {
-				padding-top: 22%;
-				padding-bottom: 0;
+		@media only screen and (min-width: 768px) {
+			li {
+				text-align: left;
+				font-size: 14px;
 			}
-			img {
-				height: 25px;
+
+			.bordered-box {
+				padding: 4px 12px;
+				font-size: 13px;
+				display: inline;
+			}
+
+			.social {
+				a {
+					padding-top: 1em;
+				}
 			}
 		}
 	}
