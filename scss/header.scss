@@ -12,6 +12,11 @@ TODO: text has an outline... bootstrap var?
 	.navbar {
 		background-color: $doteco-ruby;
 
+		.navbar-brand img {
+			height: 150%;
+			margin-top: -15%;
+		}
+
 		a {
 			color: white;
 		}
