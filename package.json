@@ -5,12 +5,14 @@
   "main": "modernizr.js",
   "dependencies": {
     "modernizr": "^3.3.1",
-    "node-sass": "^3.10.1"
+    "node-sass": "^3.10.1",
+    "nodemon": "^1.11.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/index.scss nic/css/index.css"
+    "build-css": "node-sass --include-path scss scss/index.scss nic/css/index.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
