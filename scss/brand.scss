@@ -4,12 +4,16 @@ $font-header: "Open Sans",sans-serif;
 $font-header-weight: 700;
 
 body {
-	font: $font-body;
+	font-family: $font-body;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font: $font-header;
+  font-family: $font-header;
   font-weight: $font-header-weight;
 }
 
 // Colours
+$doteco-ruby: #9F1744;
+$doteco-sapphire: #454A73;
+$doteco-charcoal: #403B3E;
+$doteco-citrine: #FCCC37;
