@@ -9,6 +9,12 @@ TODO: text has an outline... bootstrap var?
 
 	color: $doteco-charcoal;
 
+	.bordered-box {
+		border: 1px solid white;
+		padding: 3px 12px;
+		border-radius: 2px;
+	}
+
 	.navbar {
 		background-color: $doteco-ruby;
 
@@ -24,6 +30,10 @@ TODO: text has an outline... bootstrap var?
 		.active a {
 			color: $doteco-citrine;
 			background: none;
+		}
+
+		.bordered-box {
+			font-size: small;
 		}
 	}
 
