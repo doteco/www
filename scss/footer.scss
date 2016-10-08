@@ -3,24 +3,36 @@
 	    width: 100%;
 	    background-color: $doteco-ruby;
 	    color: white;
-    	margin: 1rem 0;
+
+	    a, a:visited {
+	    	color: white;
+	    }
+	    a:hover {
+	    	text-decoration: none;
+	    }
 
 	    .bcorp-logo {
 	    	height: 14ex;
+	    	margin: 0 auto;
+	    	display: block;
 	    }
 
 	    ul {
 	    	text-align: center;
-	    	margin: 0;
 	    	padding: 0;
 	    	list-style-type: none;
 	    	line-height: 1.6em;
+	    	margin: 1rem 0;
 	    }
 
-	    @media only screen and (orientation: landscape) {
+	    // TODO: use bootstrap @screen-sm-min
+	    @media only screen and (min-width: 768px) {
+	    	font-size: 80%;
+	    	.bcorp-logo {
+	    		display: inline-block;
+	    	}
 	    	ul {
 	    		text-align: left;
-	    		font-size: 80%;
 	    	}
 		}
 	}
