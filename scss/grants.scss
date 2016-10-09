@@ -1,0 +1,31 @@
+#doteco {
+
+	.underlined-form {
+		.form-control:not(textarea) {
+			box-shadow: none;
+			border: 0;
+			border-radius: 0;
+			border-bottom: 2px solid $doteco-charcoal;
+			padding: 0;
+		}
+	}
+
+	.section-apply-form {
+		// TODO: need different structure so bg goes to edges of page?
+		// background-color: $doteco-marrow;
+
+		h1 {
+			color: $doteco-fireopal;
+			font-size: 30px; // decrease
+		}
+
+		h5 {
+			margin: 25px 0 10px;
+		}
+
+		.submit-application {
+			margin-top: 20px;
+		}
+
+	}
+}

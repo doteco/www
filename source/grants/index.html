@@ -2,17 +2,17 @@
 title: .eco Apply
 ---
 
-<div class="grants-intro">
+<div class="section section-apply-intro">
 	<p>Introducing .eco, a new top-level domain name created by and for the environmental community. .eco will launch in early 2017, but before it does, we’re giving away up to 500. Eco domains to the environmental movement.</p>
 
 	<p>Unlike other top-level domains, .eco will ONLY be available to organizations, business and people committed to positive change for the planet. Endorsed by over 50 environmental organizations including WWF and Greenpeace, .eco is a trusted verified symbol for you and others working on environmental issues.</p>
 
 	<p>Once .eco goes live to the public in the new year, securing names will become competitive and potentially expensive. So apply before December 16, 2016 for up to three .eco domain names for your organization or upcoming campaign.</p>
 </div>
-<div class="">
+<div class="section section-apply-form">
 	<h1>Apply now for your .eco grant</h1>
 
-	<form>
+	<form class="underlined-form">
 		<div class="row">
 			<div class="col-xs-6 form-group">
 				<input type="text" class="form-control" id="name" placeholder="Name">
@@ -38,11 +38,92 @@ title: .eco Apply
 		</div>
 
 
-		Are you applying on behalf of an organization?
+		<div class="row">
+			<div class="col-xs-12 form-group">
+				<h5>Are you applying on behalf of an organization?</h5>
 
-		Is environmental work central to your mission?
+				<div class="btn-group" data-toggle="buttons">
+					<label class="btn btn-primary active">
+						<input type="radio" name="behalfOrganization" id="yes" autocomplete="off" checked> Yes
+					</label>
+					<label class="btn btn-primary">
+						<input type="radio" name="behalfOrganization" id="no" autocomplete="off"> No
+					</label>
+				</div>
+			</div>
+		</div>
 
-		Is your organization a member of a recognized coalition with an environmental mission?
+		<div class="row">
+			<div class="col-xs-12 form-group">
+				<h5>Is environmental work central to your mission?</h5>
+
+				<div class="btn-group" data-toggle="buttons">
+					<label class="btn btn-primary active">
+						<input type="radio" name="environmentalMission" id="yes" autocomplete="off" checked> Yes
+					</label>
+					<label class="btn btn-primary">
+						<input type="radio" name="environmentalMission" id="no" autocomplete="off"> No
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<h5>Is your organization a member of a recognized coalition with an environmental mission?</h5>
+
+				<div class="btn-group" data-toggle="buttons">
+					<label class="btn btn-primary active">
+						<input type="radio" name="environmentalCoalition" id="yes" autocomplete="off" checked> Yes
+					</label>
+					<label class="btn btn-primary">
+						<input type="radio" name="environmentalCoalition" id="no" autocomplete="off"> No
+					</label>
+				</div>
+				<!-- TODO: if yes, which ones? -->
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-xs-12">
+				<h5>Which .eco domain name(s) are you applying for, in order of preference?</h5>
+				<p>Read about the domains you can apply for:</p>
+				<p>Organizations can apply for up to three domains.</p>
+				<p>Apply for an keyword or phrase, but no trademarks or organization names.</p>
+			</div>
+
+			<div class="col-xs-4 form-group">
+				<input type="text" class="form-control" id="preference1" placeholder="Preference #1">
+			</div>
+			<div class="col-xs-4 form-group">
+				<input type="text" class="form-control" id="preference2" placeholder="Preference #2">
+			</div>
+			<div class="col-xs-4 form-group">
+				<input type="text" class="form-control" id="preference3" placeholder="Preference #3">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<h5>In 150 words or less, describe how your organization will use its .eco domain.</h5>
+				<p>For example, will the domain become a campaign microsite or home to a specific project? Please include your project description, goals and when you plan to launch.</p>
+				<textarea class="form-control" rows="3"></textarea>
+			</div>
+		</div>
+
+		<button type="submit" class="submit-application btn btn-primary">Submit Application</button>
 
 	</form>
+
+
 </div>
+
+<!-- TODO
+<div class="section section-apply-quotes">
+
+“This is a quote from someone involved with an environmental organization. It has no meaning. It’s here to legitimize what we’re doing with all this.”
+
+“This is another quote. It also means nothing. We just needed something to take up the space where real words would.”
+</div>
+-->
