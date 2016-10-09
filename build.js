@@ -5,12 +5,19 @@ var sass = require('metalsmith-sass');
 var watch = require('metalsmith-watch');
 var serve = require('metalsmith-serve');
 
-Metalsmith(__dirname)
+console.log('Building for environment:', process.env.NODE_ENV || 'DEV');
+
+var options = {
+  "ga-tracking-id": process.env.NODE_ENV === "PRD" ? "UA-2825422-14" : "UA-2825422-15",
+  watch: ! process.env.NODE_ENV
+};
+
+var ms = Metalsmith(__dirname)
   .metadata({
     "site-root": "/new",
     "img-root": "/img",
     "css-root": "/css",
-    "ga-tracking-id": "UA-2825422-15"
+    "ga-tracking-id": options["ga-tracking-id"]
   })
   .source('./source')
   .destination('./public/new/')
@@ -27,8 +34,10 @@ Metalsmith(__dirname)
     engine: 'handlebars',
     partials: "layouts/partials",
     default: 'default.html'
-  }))
-  .use(serve({
+  }));
+
+if (options.watch) {
+  ms.use(serve({
     "document_root": "public"
   }))
   .use(watch({
@@ -38,6 +47,8 @@ Metalsmith(__dirname)
       "layouts/**/*": "**/*"
     }
   }))
-  .build(function(err, files) {
+}
+
+ms.build(function(err, files) {
     if (err) { throw err; }
-  });
+});
