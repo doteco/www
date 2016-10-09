@@ -6,6 +6,7 @@
   "dependencies": {
     "handlebars": "^4.0.5",
     "metalsmith": "^2.2.0",
+    "metalsmith-discover-helpers": "^0.1.0",
     "metalsmith-layouts": "^1.6.5",
     "modernizr": "^3.3.1",
     "node-sass": "^3.10.1",
