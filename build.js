@@ -17,7 +17,8 @@ var ms = Metalsmith(__dirname)
     "site-root": "/new",
     "img-root": "/img",
     "css-root": "/css",
-    "ga-tracking-id": options["ga-tracking-id"]
+    "ga-tracking-id": options["ga-tracking-id"],
+    "livereload": options.watch
   })
   .source('./source')
   .destination('./public/new/')
@@ -45,7 +46,8 @@ if (options.watch) {
       "scss/**/*": true,
       "${source}/**/*": true,
       "layouts/**/*": "**/*"
-    }
+    },
+    livereload: true
   }))
 }
 
