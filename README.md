@@ -1,5 +1,6 @@
-# www
-.Eco Website
+# .eco Website
+
+This is the website for [nic.eco](http://nic.eco).
 
 ## Setup
 
