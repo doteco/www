@@ -15,7 +15,7 @@ Metalsmith(__dirname)
   .destination('./public/new/')
   .clean(false)
   .use(sass({
-    file: '../scss/index.scss',
+    file: '../scss/main.scss',
     outputDir: '../css',
     "include-path": '../scss'
   }))
