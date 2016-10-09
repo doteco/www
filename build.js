@@ -1,6 +1,8 @@
 var Metalsmith  = require('metalsmith');
 var layouts     = require('metalsmith-layouts');
 var discoverHelpers = require('metalsmith-discover-helpers')
+var watch = require('metalsmith-watch');
+var serve = require('metalsmith-serve');
 
 Metalsmith(__dirname)
   .metadata({
@@ -14,6 +16,15 @@ Metalsmith(__dirname)
   .use(layouts({
     engine: 'handlebars',
     default: 'default.html'
+  }))
+  .use(serve({
+    "document_root": "nic"
+  }))
+  .use(watch({
+    paths: {
+      "${source}/**/*": true,
+      "layouts/**/*": "**/*"
+    }
   }))
   .build(function(err, files) {
     if (err) { throw err; }
