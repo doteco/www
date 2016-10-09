@@ -12,7 +12,7 @@ Metalsmith(__dirname)
     "css-root": "/css"
   })
   .source('./source')
-  .destination('./nic/new/')
+  .destination('./public/new/')
   .clean(false)
   .use(sass({
     file: '../scss/index.scss',
@@ -27,7 +27,7 @@ Metalsmith(__dirname)
     default: 'default.html'
   }))
   .use(serve({
-    "document_root": "nic"
+    "document_root": "public"
   }))
   .use(watch({
     paths: {
