@@ -9,7 +9,8 @@ Metalsmith(__dirname)
   .metadata({
     "site-root": "/new",
     "img-root": "/img",
-    "css-root": "/css"
+    "css-root": "/css",
+    "ga-tracking-id": "UA-2825422-15"
   })
   .source('./source')
   .destination('./public/new/')
