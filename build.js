@@ -14,7 +14,7 @@ Metalsmith(__dirname)
   })
   .source('./source')
   .destination('./public/new/')
-  .clean(false)
+  .clean(true)
   .use(sass({
     file: '../scss/main.scss',
     outputDir: '../css',
@@ -25,6 +25,7 @@ Metalsmith(__dirname)
   }))
   .use(layouts({
     engine: 'handlebars',
+    partials: "layouts/partials",
     default: 'default.html'
   }))
   .use(serve({
