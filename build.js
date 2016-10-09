@@ -6,6 +6,9 @@ var serve = require('metalsmith-serve');
 
 Metalsmith(__dirname)
   .metadata({
+    "site-root": "/new",
+    "img-root": "/img",
+    "css-root": "/css"
   })
   .source('./source')
   .destination('./nic/new/')
