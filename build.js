@@ -24,9 +24,9 @@ var ms = Metalsmith(__dirname)
   .destination('./public/new/')
   .clean(true)
   .use(sass({
-    file: '../scss/main.scss',
+    files: ['../scss/main.scss'],
     outputDir: '../css',
-    "include-path": '../scss'
+    includePaths: ['../scss']
   }))
   .use(discoverHelpers({
     directory: './helpers'
@@ -39,11 +39,12 @@ var ms = Metalsmith(__dirname)
 
 if (options.watch) {
   ms.use(serve({
-    "document_root": "public"
+    "document_root": "public",
+    verbose: true
   }))
   .use(watch({
     paths: {
-      "scss/**/*": true,
+      "scss/**/*": "main.scss",
       "${source}/**/*": true,
       "layouts/**/*": "**/*"
     },
