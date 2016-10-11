@@ -1,7 +1,6 @@
 var Metalsmith  = require('metalsmith');
 var layouts     = require('metalsmith-layouts');
 var discoverHelpers = require('metalsmith-discover-helpers')
-var sass = require('metalsmith-sass');
 var watch = require('metalsmith-watch');
 var serve = require('metalsmith-serve');
 
@@ -23,11 +22,6 @@ var ms = Metalsmith(__dirname)
   .source('./source')
   .destination('./public/new/')
   .clean(true)
-  .use(sass({
-    files: ['../scss/main.scss'],
-    outputDir: '../css',
-    includePaths: ['../scss']
-  }))
   .use(discoverHelpers({
     directory: './helpers'
   }))
@@ -44,7 +38,6 @@ if (options.watch) {
   }))
   .use(watch({
     paths: {
-      "scss/**/*": "main.scss",
       "${source}/**/*": true,
       "layouts/**/*": "**/*"
     },
