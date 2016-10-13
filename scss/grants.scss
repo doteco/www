@@ -2,14 +2,16 @@
 	.hero-grants {
 		background-image: url('/img/solar-panel-trees.jpg');
 		background-size: 100%;
-		height: 370px;
-		margin-bottom: 20px;
 
 		h1 {
 			color: white;
 			margin-top: 0;
-			padding-top: 100px;
+			padding: 1em 0;
 		}
+	}
+
+	.section-apply-intro {
+		padding: 2.5em inherit;
 	}
 
 	.underlined-form {
@@ -26,9 +28,8 @@
 		// TODO: need different structure so bg goes to edges of page?
 		background-color: $doteco-marrow;
 
-		h1 {
+		h3 {
 			color: $doteco-fireopal;
-			font-size: 30px; // decrease
 		}
 
 		h5 {
