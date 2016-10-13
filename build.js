@@ -33,7 +33,8 @@ var ms = Metalsmith(__dirname)
   .use(layouts({
     engine: 'handlebars',
     partials: "layouts/partials",
-    default: 'default.html'
+    default: 'default.html',
+    pattern: "**/*.html"
   }));
 
 if (options.watch) {
@@ -45,7 +46,7 @@ if (options.watch) {
     paths: {
       "${source}/**/*": true,
       "scss/**/*": "main.scss",
-      "layouts/**/*": "**/*"
+      "layouts/**/*": "**/*.html"
     },
     livereload: true
   }))
