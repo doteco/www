@@ -1,6 +1,7 @@
 var Metalsmith  = require('metalsmith');
 var layouts     = require('metalsmith-layouts');
-var discoverHelpers = require('metalsmith-discover-helpers')
+var discoverHelpers = require('metalsmith-discover-helpers');
+var sass = require('metalsmith-sass');
 var watch = require('metalsmith-watch');
 var serve = require('metalsmith-serve');
 
@@ -25,6 +26,10 @@ var ms = Metalsmith(__dirname)
   .use(discoverHelpers({
     directory: './helpers'
   }))
+  .use(sass({
+    includePaths: ['/Users/owen/dev/doteco/www/scss'],
+    outputDir: '../css',
+  }))
   .use(layouts({
     engine: 'handlebars',
     partials: "layouts/partials",
@@ -39,6 +44,7 @@ if (options.watch) {
   .use(watch({
     paths: {
       "${source}/**/*": true,
+      "scss/**/*": "main.scss",
       "layouts/**/*": "**/*"
     },
     livereload: true
