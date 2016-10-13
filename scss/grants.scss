@@ -11,7 +11,8 @@
 	}
 
 	.section-apply-intro {
-		padding: 2.5em inherit;
+		padding-top: 2.5em;
+		padding-bottom: 2.5em;
 	}
 
 	.underlined-form {
@@ -25,8 +26,9 @@
 	}
 
 	.section-apply-form {
-		// TODO: need different structure so bg goes to edges of page?
 		background-color: $doteco-marrow;
+		padding-top: 2.5em;
+		padding-bottom: 2.5em;
 
 		h3 {
 			color: $doteco-fireopal;
@@ -38,6 +40,7 @@
 
 		.submit-application {
 			margin-top: 20px;
+			float: right;
 		}
 
 		input {
