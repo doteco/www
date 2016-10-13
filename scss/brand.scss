@@ -3,15 +3,6 @@ $font-body: "Lato", sans-serif;
 $font-header: "Open Sans",sans-serif;
 $font-header-weight: 700;
 
-body {
-	font-family: $font-body;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font-header;
-  font-weight: $font-header-weight;
-}
-
 // Colours
 $doteco-ruby: #9F1744;
 $doteco-sapphire: #454A73;
@@ -20,3 +11,31 @@ $doteco-citrine: #FCCC37;
 $doteco-marrow: #EAECE6;
 $doteco-amethyst: #501D4C;
 $doteco-fireopal: #FE7635;
+
+body {
+	font-family: $font-body;
+}
+
+#doteco {
+
+	h1, h2, h3, h4, h5, h6 {
+	  font-family: $font-header;
+	  font-weight: $font-header-weight;
+	}
+
+
+	.section-title {
+		color: $doteco-ruby;
+		font-size: 30px; // decrease
+		margin: 30px 0 0;
+	}
+
+	h1 {
+		font-size: 72px; // vary per screen size
+	}
+
+	button {
+		background-color: $doteco-fireopal;
+		border: none;
+	}
+}

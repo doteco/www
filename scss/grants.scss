@@ -1,4 +1,16 @@
 #doteco {
+	.hero-grants {
+		background-image: url('/img/solar-panel-trees.jpg');
+		background-size: 100%;
+		height: 370px;
+		margin-bottom: 20px;
+
+		h1 {
+			color: white;
+			margin-top: 0;
+			padding-top: 100px;
+		}
+	}
 
 	.underlined-form {
 		.form-control:not(textarea) {
@@ -12,7 +24,7 @@
 
 	.section-apply-form {
 		// TODO: need different structure so bg goes to edges of page?
-		// background-color: $doteco-marrow;
+		background-color: $doteco-marrow;
 
 		h1 {
 			color: $doteco-fireopal;
@@ -25,6 +37,10 @@
 
 		.submit-application {
 			margin-top: 20px;
+		}
+
+		input {
+			background-color: $doteco-marrow;
 		}
 
 	}

@@ -19,6 +19,7 @@ TODO: text has an outline... bootstrap var?
 
 	.navbar {
 		background-color: $doteco-ruby;
+		margin-bottom: 0;
 
 		a {
 			color: white;
@@ -68,18 +69,4 @@ TODO: text has an outline... bootstrap var?
 			}
 		}
 	}
-
-	.section-title {
-		color: $doteco-ruby;
-		font-size: 30px; // decrease
-		margin: 30px 0 0;
-	}
-
-	.faq-entry h3 {
-		color: $doteco-sapphire;
-		font-size: 16px; // decrease
-		margin-top: 50px;
-		margin-bottom: 20px;
-	}
-
 }
