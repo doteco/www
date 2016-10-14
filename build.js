@@ -27,7 +27,7 @@ var ms = Metalsmith(__dirname)
     directory: './helpers'
   }))
   .use(sass({
-    includePaths: ['/Users/owen/dev/doteco/www/scss'],
+    includePaths: ['./scss'],
     outputDir: '../css',
   }))
   .use(layouts({
