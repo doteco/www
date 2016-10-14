@@ -1,3 +1,11 @@
 language: node_js
 node_js:
   - "6"
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: "test.nic.eco"
+  skip_cleanup: false
+  region: "us-west-2"
+  local_dir: public
