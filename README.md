@@ -1,6 +1,6 @@
-# .eco Website
+# .eco Website [![Build Status](https://travis-ci.org/doteco/www.svg?branch=master)](https://travis-ci.org/doteco/www)
 
-This is the website for [nic.eco](http://nic.eco).
+This is the website for [nic.eco](http://nic.eco). 
 
 ## Setup
 
