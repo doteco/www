@@ -46,6 +46,25 @@
 		input {
 			background-color: $doteco-marrow;
 		}
+	}
 
+	.section-apply-quotes {
+		padding-top: 2em;
+		padding-bottom: 2em;
+
+		blockquote {
+			border: none;
+			font-size: 2.25em;
+			color: $doteco-sapphire;
+		}
+
+		img {
+			width: 60%;
+		}
+
+		.leaf-icon {
+			transform: rotate(30deg);
+			float: right;
+		}
 	}
 }
