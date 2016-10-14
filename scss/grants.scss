@@ -10,7 +10,7 @@
 		}
 	}
 
-	.section-apply-intro {
+	.section-grants-intro {
 		padding-top: 2.5em;
 		padding-bottom: 2.5em;
 	}
@@ -25,7 +25,7 @@
 		}
 	}
 
-	.section-apply-form {
+	.section-grants-form {
 		background-color: $doteco-marrow;
 		padding-top: 2.5em;
 		padding-bottom: 2.5em;
@@ -48,7 +48,7 @@
 		}
 	}
 
-	.section-apply-quotes {
+	.section-grants-quotes {
 		padding-top: 2em;
 		padding-bottom: 2em;
 
@@ -65,6 +65,20 @@
 		.leaf-icon {
 			transform: rotate(30deg);
 			float: right;
+		}
+	}
+
+	.section-grants-logos {
+		background-color: $doteco-marrow;
+		padding-top: 2.5em;
+		padding-bottom: 2.5em;
+
+		h3 {
+			color: $doteco-ruby;
+		}
+
+		img {
+			width: 100%;
 		}
 	}
 }
