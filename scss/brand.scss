@@ -29,22 +29,22 @@ $doteco-fireopal: #FE7635;
 	}
 
 	h1 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 
 	h2 {
-		font-size: 2.625em;
+		font-size: 2em;
 	}
 
-	h3 {
-		font-size: 1.75em;
+	h3, blockquote {
+		font-size: 1.5em;
 	}
 
 	h5 {
 		font-size: 1em;
 	}
 
-	@media only screen and (min-width: 768px) {
+	@media (min-width: 768px) {
 		h1 {
 			font-size: 4.5em;
 		}
@@ -53,12 +53,12 @@ $doteco-fireopal: #FE7635;
 			font-size: 3.125em;
 		}
 
-		h3 {
+		h3, blockquote {
 			font-size: 2.25em;
 		}
 	}
 
-	body, h1, h2, h3, h4, h5 {
+	body, h1, h2, h3, h4, h5, blockquote {
 		line-height: 1.2;
 	}
 
@@ -67,7 +67,7 @@ $doteco-fireopal: #FE7635;
 		border: none;
 	}
 
-	h1, h2, h3, h4, h5 {
+	h1, h2, h3, h4, h5, blockquote {
 		color: $doteco-sapphire;
 	}
 
@@ -81,6 +81,10 @@ $doteco-fireopal: #FE7635;
 
 	a:hover, a:visited {
 		color: $doteco-sapphire;
+	}
+
+	blockquote {
+		border: none;
 	}
 
 	.jumbotron {
