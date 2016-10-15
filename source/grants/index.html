@@ -24,10 +24,10 @@ title: .eco Apply
 	<form class="underlined-form">
 		<div class="row">
 			<div class="col-md-4 form-group">
-				<input type="text" class="form-control" id="firstname" placeholder="First Name">
+				<input type="text" class="form-control" id="firstname" placeholder="First name">
 			</div>
 			<div class="col-md-4 form-group">
-				<input type="text" class="form-control" id="name" placeholder="Last Name">
+				<input type="text" class="form-control" id="name" placeholder="Last name">
 			</div>
 			<div class="col-md-4 form-group">
 				<input type="email" class="form-control" id="email" placeholder="Email">
@@ -47,10 +47,10 @@ title: .eco Apply
 		</div>
 
 		<div class="row">
-			<div class="col-md-12 form-group">
-				<h5>Are you applying on behalf of an organization?</h5>
+			<div class="col-md-12 form-group toggle-group">
+				<label for="behalfOrganization-group">Are you applying on behalf of an organization?</label>
 
-				<div class="btn-group" data-toggle="buttons">
+				<div id="behalfOrganization-group" class="btn-group" role="group" data-toggle="buttons">
 					<label class="btn btn-primary active">
 						<input type="radio" name="behalfOrganization" id="yes" autocomplete="off" checked> Yes
 					</label>
@@ -62,10 +62,10 @@ title: .eco Apply
 		</div>
 
 		<div class="row">
-			<div class="col-md-12 form-group">
-				<h5>Is environmental work central to your mission?</h5>
+			<div class="col-md-12 form-group toggle-group">
+				<label for="environmentalMission-group">Is environmental work central to your mission?</label>
 
-				<div class="btn-group" data-toggle="buttons">
+				<div id="environmentalMission-group" class="btn-group" role="group" data-toggle="buttons">
 					<label class="btn btn-primary active">
 						<input type="radio" name="environmentalMission" id="yes" autocomplete="off" checked> Yes
 					</label>
@@ -77,10 +77,10 @@ title: .eco Apply
 		</div>
 
 		<div class="row">
-			<div class="col-md-12">
-				<h5>Is your organization a member of a recognized coalition with an environmental mission?</h5>
+			<div class="col-md-12 form-group toggle-group">
+				<label for="environmentalCoalition-group">Is your organization a member of a recognized coalition with an environmental mission?</label>
 
-				<div class="btn-group" data-toggle="buttons">
+				<div id="environmentalCoalition-group" class="btn-group" role="group" data-toggle="buttons">
 					<label class="btn btn-primary active">
 						<input type="radio" name="environmentalCoalition" id="yes" autocomplete="off" checked> Yes
 					</label>
@@ -88,17 +88,17 @@ title: .eco Apply
 						<input type="radio" name="environmentalCoalition" id="no" autocomplete="off"> No
 					</label>
 				</div>
-				<!-- TODO: if yes, which ones? -->
+				<div class="form-group">
+					<input type="text" class="form-control" id="environmentalCoalition-define" placeholder="If yes, which one(s)?">
+				</div>
 			</div>
 		</div>
 
 
-		<div class="row">
+		<div class="row form-group">
 			<div class="col-md-12">
-				<h5>Which .eco domain name(s) are you applying for, in order of preference?</h5>
-				<p>Read about the domains you can apply for:</p>
-				<p>Organizations can apply for up to three domains.</p>
-				<p>Apply for an keyword or phrase, but no trademarks or organization names.</p>
+				<label for="preference1">Which .eco domain name(s) are you applying for, in order of preference?</label>
+				<p><small><a href="#faq-kinds-of-domain-names">Read about the domains you can apply for</a>. Organizations can apply for up to three domains. Apply for an keyword or phrase, but no trademarks or organization names.</small></p>
 			</div>
 
 			<div class="col-md-4 form-group">
@@ -113,10 +113,10 @@ title: .eco Apply
 		</div>
 
 		<div class="row">
-			<div class="col-md-12">
-				<h5>In 150 words or less, describe how your organization will use its .eco domain.</h5>
-				<p>For example, will the domain become a campaign microsite or home to a specific project? Please include your project description, goals and when you plan to launch.</p>
-				<textarea class="form-control" rows="3"></textarea>
+			<div class="col-md-12 form-group">
+				<label for="name-goal-description">In 150 words or less, describe how your organization will use its .eco domain.</label>
+				<p><small>For example, will the domain become a campaign microsite or home to a specific project? Please include your project description, goals and when you plan to launch.</small></p>
+				<textarea id="name-goal-description" class="form-control" rows="3"></textarea>
 			</div>
 		</div>
 
@@ -202,7 +202,7 @@ title: .eco Apply
 	</div>
 
 	<div class="faq-question">
-		<h5>What kinds of domain names can I apply for?</h5>
+		<h5><a name="faq-kinds-of-domain-names">What kinds of domain names can I apply for?</a></h5>
 		<p>Think common or generic nouns, or verbs, that represent your organization or campaign. If you organize around climate issues, you might consider applying for ClimateAction.eco, Biodiversity.eco or ClimateNeutral.eco. Launching a campaign to protect honey bees? Apply for bee.eco. You get the idea. On February 1, 2017 you’ll get the opportunity to secure your organization’s name. Today, you’re applying for campaign keywords.</p>
 	</div>
 

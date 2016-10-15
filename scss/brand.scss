@@ -26,7 +26,6 @@ $doteco-fireopal: #FE7635;
 
 	body {
 		font-size: 12pt;
-		line-height: 1.2;
 	}
 
 	h1 {
@@ -45,6 +44,10 @@ $doteco-fireopal: #FE7635;
 		font-size: 1em;
 	}
 
+	body, h1, h2, h3, h4, h5 {
+		line-height: 1.2;
+	}
+
 	form button {
 		background-color: $doteco-fireopal;
 		border: none;
@@ -52,6 +55,10 @@ $doteco-fireopal: #FE7635;
 
 	h1, h2, h3, h4, h5 {
 		color: $doteco-sapphire;
+	}
+
+	h3, h4, h5 {
+		margin-bottom: 1em;
 	}
 
 	a {
@@ -101,5 +108,14 @@ $doteco-fireopal: #FE7635;
 			background-color: $doteco-charcoal;
 			color: white;
 		}
+	}
+
+	.toggle-group label {
+		display: block;
+		margin-bottom: 0.5em;
+	}
+
+	form .row {
+		margin-bottom: 1em;
 	}
 }
