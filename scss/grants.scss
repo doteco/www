@@ -1,7 +1,7 @@
 #doteco {
 	.hero-grants {
 		background-image: url('/img/solar-panel-trees.jpg');
-		background-size: 100%;
+		background-size: cover;
 
 		h1 {
 			color: white;
@@ -77,8 +77,8 @@
 			color: $doteco-ruby;
 		}
 
-		img {
-			width: 100%;
+		.friends-of-the-earth-logo {
+			width: 50%;
 		}
 	}
 }
