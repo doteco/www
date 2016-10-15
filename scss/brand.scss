@@ -50,4 +50,17 @@ $doteco-fireopal: #FE7635;
 		background-color: $doteco-fireopal;
 		border: none;
 	}
+
+	.btn-group {
+		.btn-primary {
+			background-color: transparent;
+			color: inherit;
+			border-color: $doteco-charcoal;
+		}
+
+		.btn-primary.active {
+			background-color: $doteco-charcoal;
+			color: white;
+		}
+	}
 }
