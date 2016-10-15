@@ -6,7 +6,9 @@
 
 	    a, a:visited {
 	    	color: white;
+	    	text-decoration: none;
 	    }
+
 	    a:hover {
 	    	color: $doteco-citrine;
 	    }
@@ -17,8 +19,12 @@
 	    	display: block;
 	    }
 
+	    .copyright, ul {
+			text-align: center;
+			font-size: 80%;
+	    }
+
 	    ul {
-	    	text-align: center;
 	    	padding: 0;
 	    	list-style-type: none;
 	    	line-height: 1.6em;
@@ -27,11 +33,10 @@
 
 	    // TODO: use bootstrap @screen-sm-min
 	    @media only screen and (min-width: 768px) {
-	    	font-size: 80%;
 	    	.bcorp-logo {
 	    		display: inline-block;
 	    	}
-	    	ul {
+	    	.copyright, ul {
 	    		text-align: left;
 	    	}
 		}
