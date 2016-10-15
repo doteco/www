@@ -41,8 +41,22 @@
 	}
 
 	.section-grants-logos {
-		.friends-of-the-earth-logo {
+		.img-responsive {
+			margin: auto;
+			padding: 1em;
+		}
+
+		.img-square {
 			width: 50%;
+		}
+		.img-rectangle {
+			width: 75%;
+		}
+		.logo-greenpeace {
+			padding-top: 60px;
+		}
+		.logo-ran {
+			width: 60%;
 		}
 	}
 
