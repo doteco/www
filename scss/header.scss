@@ -25,6 +25,10 @@ TODO: text has an outline... bootstrap var?
 			color: white;
 		}
 
+		a:hover {
+			color: $doteco-citrine;
+		}
+
 		.active a {
 			color: $doteco-citrine;
 			background: none;

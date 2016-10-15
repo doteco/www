@@ -24,14 +24,9 @@ $doteco-fireopal: #FE7635;
 	  font-weight: $font-header-weight;
 	}
 
-	.section-title {
-		color: $doteco-ruby;
-		font-size: 30px; // decrease
-		margin: 30px 0 0;
-	}
-
 	body {
-		font-size: 16px;
+		font-size: 12pt;
+		line-height: 1.2;
 	}
 
 	h1 {
@@ -46,9 +41,53 @@ $doteco-fireopal: #FE7635;
 		font-size: 2.25em;
 	}
 
+	h5 {
+		font-size: 1em;
+	}
+
 	form button {
 		background-color: $doteco-fireopal;
 		border: none;
+	}
+
+	h1, h2, h3, h4, h5 {
+		color: $doteco-sapphire;
+	}
+
+	a {
+		color: $doteco-ruby;
+	}
+
+	a:hover, a:visited {
+		color: $doteco-sapphire;
+	}
+
+	.jumbotron {
+		color: white;
+
+		h1, h2, h3, h4, h5 {
+			color: white;
+		}
+	}
+
+	.inverted {
+		background-color: $doteco-marrow;
+
+		h1, h2, h3, h4, h5 {
+			color: $doteco-fireopal;
+		}
+
+		form {
+			button {
+				background-color: $doteco-fireopal;
+				border: none;
+			}
+
+			button:hover {
+				background-color: $doteco-charcoal;
+				color: white;
+			}
+		}
 	}
 
 	.btn-group {

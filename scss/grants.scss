@@ -2,7 +2,6 @@
 	.hero-grants {
 		background-image: url('/img/solar-panel-trees.jpg');
 		background-size: cover;
-		color: white;
 
 		h1 {
 			margin-top: 0;
@@ -26,17 +25,8 @@
 	}
 
 	.section-grants-form {
-		background-color: $doteco-marrow;
 		padding-top: 2.5em;
 		padding-bottom: 2.5em;
-
-		h3 {
-			color: $doteco-fireopal;
-		}
-
-		h5 {
-			margin: 25px 0 10px;
-		}
 
 		.submit-application {
 			margin-top: 20px;
@@ -69,13 +59,8 @@
 	}
 
 	.section-grants-logos {
-		background-color: $doteco-marrow;
 		padding-top: 2.5em;
 		padding-bottom: 2.5em;
-
-		h3 {
-			color: $doteco-ruby;
-		}
 
 		.friends-of-the-earth-logo {
 			width: 50%;
