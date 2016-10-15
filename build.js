@@ -14,21 +14,20 @@ var options = {
 
 var ms = Metalsmith(__dirname)
   .metadata({
-    "site-root": "/new",
     "img-root": "/img",
     "css-root": "/css",
     "ga-tracking-id": options["ga-tracking-id"],
     "livereload": options.watch
   })
   .source('./source')
-  .destination('./public/new/')
-  .clean(true)
+  .destination('./public/')
+  .clean(false)
   .use(discoverHelpers({
     directory: './helpers'
   }))
   .use(sass({
     includePaths: ['./scss'],
-    outputDir: '../css',
+    outputDir: 'css',
   }))
   .use(layouts({
     engine: 'handlebars',

@@ -10,4 +10,8 @@ node_modules
 .npm
 
 public/css
-public/new/
+public/contact/
+public/faq/
+public/grants/
+public/home/
+public/registrar/
