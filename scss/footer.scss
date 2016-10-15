@@ -1,44 +1,44 @@
 #doteco {
 	.footer {
-	    width: 100%;
-	    background-color: $doteco-ruby;
-	    color: white;
+		width: 100%;
+		background-color: $doteco-ruby;
+		color: white;
 
-	    a, a:visited {
-	    	color: white;
-	    	text-decoration: none;
-	    }
+		a, a:visited {
+			color: white;
+			text-decoration: none;
+		}
 
-	    a:hover {
-	    	color: $doteco-citrine;
-	    }
+		a:hover {
+			color: $doteco-citrine;
+		}
 
-	    .bcorp-logo {
-	    	height: 14ex;
-	    	margin: 0 auto;
-	    	display: block;
-	    }
+		.bcorp-logo {
+			height: 14ex;
+			margin: 0 auto;
+			display: block;
+		}
 
-	    .copyright, ul {
+		.copyright, ul {
 			text-align: center;
 			font-size: 80%;
-	    }
+		}
 
-	    ul {
-	    	padding: 0;
-	    	list-style-type: none;
-	    	line-height: 1.6em;
-	    	margin: 1rem 0;
-	    }
+		ul {
+			padding: 0;
+			list-style-type: none;
+			line-height: 1.6em;
+			margin: 1rem 0;
+		}
 
-	    // TODO: use bootstrap @screen-sm-min
-	    @media only screen and (min-width: 768px) {
-	    	.bcorp-logo {
-	    		display: inline-block;
-	    	}
-	    	.copyright, ul {
-	    		text-align: left;
-	    	}
+		// TODO: use bootstrap @screen-sm-min
+		@media only screen and (min-width: 768px) {
+			.bcorp-logo {
+				display: inline-block;
+			}
+			.copyright, ul {
+				text-align: left;
+			}
 		}
 	}
 }
