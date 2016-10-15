@@ -71,6 +71,7 @@ $doteco-fireopal: #FE7635;
 
 	.jumbotron {
 		color: white;
+		margin-bottom: 0;
 
 		h1, h2, h3, h4, h5 {
 			color: white;
@@ -117,5 +118,10 @@ $doteco-fireopal: #FE7635;
 
 	form .row {
 		margin-bottom: 1em;
+	}
+
+	.section {
+		padding-top: 2em;
+		padding-bottom: 2em;
 	}
 }
