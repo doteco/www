@@ -134,8 +134,15 @@ $doteco-fireopal: #FE7635;
 		margin-bottom: 0.5em;
 	}
 
-	form .row {
+	fieldset {
 		margin-bottom: 1em;
+	}
+
+	legend {
+		border: none;
+		font-size: initial;
+		margin-bottom: 5px;
+		font-weight: 700;
 	}
 
 	.section {

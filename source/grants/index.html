@@ -40,106 +40,101 @@ title: .eco Apply
 <div class="container">
 	<h3>Apply now for your .eco grant</h3>
 
-
-
 	<form class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdepMQ6clhMD6NLizouSa5-zUzxYL-oGiUT8fpfTnZKPeYC1w/formResponse" target="_self" method="POST">
-		<div class="row">
-			<div class="col-md-4 form-group">
-				<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.2043089067" >
+		<fieldset class="row">
+			<div class="col-sm-6 col-md-4 form-group">
+				<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.2043089067" required>
 			</div>
-			<div class="col-md-4 form-group">
-				<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.1163436292">
+			<div class="col-sm-6 col-md-4 form-group">
+				<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.1163436292" required>
 			</div>
-			<div class="col-md-4 form-group">
-				<input type="email" class="form-control" id="email" placeholder="Email" name="entry.1028347451">
+			<div class="col-sm-6 col-md-4 form-group">
+				<input type="email" class="form-control" id="email" placeholder="Email" name="entry.1028347451" required>
 			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-4 form-group">
-				<input type="text" class="form-control" id="orgName" placeholder="Organization name" name="entry.2074079034">
+			<div class="col-sm-6 col-md-4 form-group">
+				<input type="text" class="form-control" id="orgName" placeholder="Organization name" name="entry.2074079034" required>
 			</div>
-			<div class="col-md-4 form-group">
+			<div class="col-sm-6 col-md-4 form-group">
 				<input type="text" class="form-control" id="orgWeb" placeholder="Organization web address" name="entry.833594046">
 			</div>
-			<div class="col-md-4 form-group">
+			<div class="col-sm-6 col-md-4 form-group">
 				<input type="text" class="form-control" id="country" placeholder="Country" name="entry.1141790738">
 			</div>
-		</div>
+		</fieldset>
 
-		<div class="row">
+		<fieldset class="row">
 			<div class="col-md-12 form-group toggle-group">
-				<label for="behalfOrganization-group">Are you applying on behalf of an organization?</label>
+				<legend>Are you applying on behalf of an organization?</legend>
 
 				<div id="behalfOrganization-group" class="btn-group" role="group" data-toggle="buttons">
 					<label class="btn btn-primary active">
-						<input type="radio" name="behalfOrganization" id="yes" autocomplete="off" checked> Yes
+						<input type="radio" name="entry.772977534" value="Yes" checked> Yes
 					</label>
 					<label class="btn btn-primary">
-						<input type="radio" name="behalfOrganization" id="no" autocomplete="off"> No
+						<input type="radio" name="entry.772977534" value="No" name=""> No
 					</label>
 				</div>
 			</div>
-		</div>
+		</fieldset>
 
-		<div class="row">
+		<fieldset class="row">
 			<div class="col-md-12 form-group toggle-group">
-				<label for="environmentalMission-group">Is environmental work central to your mission?</label>
+				<legend>Is environmental work central to your mission?</legend>
 
 				<div id="environmentalMission-group" class="btn-group" role="group" data-toggle="buttons">
 					<label class="btn btn-primary active">
-						<input type="radio" name="environmentalMission" id="yes" autocomplete="off" checked> Yes
+						<input type="radio" name="entry.173292386" value="Yes" checked> Yes
 					</label>
 					<label class="btn btn-primary">
-						<input type="radio" name="environmentalMission" id="no" autocomplete="off"> No
+						<input type="radio" name="entry.173292386" value="No"> No
 					</label>
 				</div>
 			</div>
-		</div>
+		</fieldset>
 
-		<div class="row">
+		<fieldset class="row">
 			<div class="col-md-12 form-group toggle-group">
-				<label for="environmentalCoalition-group">Is your organization a member of a recognized coalition with an environmental mission?</label>
+				<legend>Is your organization a member of a recognized coalition with an environmental mission?</legend>
 
 				<div id="environmentalCoalition-group" class="btn-group" role="group" data-toggle="buttons">
 					<label class="btn btn-primary active">
-						<input type="radio" name="environmentalCoalition" id="yes" autocomplete="off" checked> Yes
+						<input type="radio" name="entry.1776085385" value="Yes" checked> Yes
 					</label>
 					<label class="btn btn-primary">
-						<input type="radio" name="environmentalCoalition" id="no" autocomplete="off"> No
+						<input type="radio" name="entry.1776085385" value="No"> No
 					</label>
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" id="environmentalCoalition-define" placeholder="If yes, which one(s)?">
+					<input type="text" class="form-control" id="environmentalCoalition-define" placeholder="If yes, which one(s)?" name="entry.1981283228">
 				</div>
 			</div>
-		</div>
+		</fieldset>
 
 
-		<div class="row form-group">
+		<fieldset class="row form-group">
 			<div class="col-md-12">
-				<label for="preference1">Which .eco domain name(s) are you applying for, in order of preference?</label>
+				<legend>Which .eco domain name(s) are you applying for, in order of preference?</legend>
 				<p><small><a href="#faq-kinds-of-domain-names">Read about the domains you can apply for</a>. Organizations can apply for up to three domains. Apply for a keyword or phrase, but no trademarks or organization names.</small></p>
 			</div>
 
-			<div class="col-md-4 form-group">
-				<input type="text" class="form-control" id="preference1" placeholder="Preference #1">
+			<div class="col-sm-6 col-md-4 form-group">
+				<input type="text" class="form-control" id="preference1" placeholder="Preference #1" name="entry.1915638321" required>
 			</div>
-			<div class="col-md-4 form-group">
-				<input type="text" class="form-control" id="preference2" placeholder="Preference #2">
+			<div class="col-sm-6 col-md-4 form-group">
+				<input type="text" class="form-control" id="preference2" placeholder="Preference #2" name="entry.236387873">
 			</div>
-			<div class="col-md-4 form-group">
-				<input type="text" class="form-control" id="preference3" placeholder="Preference #3">
+			<div class="col-sm-6 col-md-4 form-group">
+				<input type="text" class="form-control" id="preference3" placeholder="Preference #3" name="entry.828953831">
 			</div>
-		</div>
+		</fieldset>
 
-		<div class="row">
+		<fieldset class="row">
 			<div class="col-md-12 form-group">
 				<label for="name-goal-description">In 150 words or less, describe how your organization will use its .eco domain.</label>
 				<p><small>For example, will the domain become a campaign microsite or home to a specific project? Please include your project description, goals and when you plan to launch.</small></p>
-				<textarea id="name-goal-description" class="form-control" rows="3"></textarea>
+				<textarea id="name-goal-description" class="form-control" rows="3" name="entry.1312805616" required></textarea>
 			</div>
-		</div>
+		</fieldset>
 
 		<button type="submit" class="submit-application btn btn-primary">Submit Application</button>
 
