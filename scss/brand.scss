@@ -116,6 +116,22 @@ $doteco-fireopal: #FE7635;
 		}
 	}
 
+	.confirmation-alert {
+		background-color: $doteco-sapphire;
+
+		h1, h2, h3, h4, h5, p, span, button {
+			color: white;
+		}
+
+		.btn {
+			background-color: $doteco-charcoal;
+		}
+
+		.confirmation-alert-content {
+			margin: 0 20%;
+		}
+	}
+
 	.btn-group {
 		.btn-primary {
 			background-color: transparent;

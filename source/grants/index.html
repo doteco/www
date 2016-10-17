@@ -36,20 +36,45 @@ title: .eco Apply
 	</div>
 </div>
 
-<div class="section section-grants-form inverted">
+<div id="section-grants-form" class="section section-grants-form inverted">
 <div class="container">
 	<h3>Apply now for your .eco grant</h3>
 
-	<form class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdepMQ6clhMD6NLizouSa5-zUzxYL-oGiUT8fpfTnZKPeYC1w/formResponse" target="_self" method="POST">
+	<script type="text/javascript">
+		var submitted = false;
+		var keywordGrantFormOnload = function () {
+			if (submitted) {
+				$("#keyword-grants-confirmation-alert").removeClass("hidden");
+				$("#keyword-grants-form .submit-application").button("reset");
+				_gaq.push(['_trackPageview', '/grants/success']);
+				// $("#section-grants-form").addClass("fade").addClass("hidden");
+				// $("#keyword-grants-confirmation").removeClass("hidden");
+				// $('html, body').animate({
+				// 	scrollTop: $("#keyword-grants-confirmation").offset().top
+				// }, 500)
+				// $("#keyword-grants-form-dialog").modal("show");
+				// $("#keyword-grants-form").trigger("reset");
+				// $("#section-grants-form").hide();
+				submitted = false;
+			}
+		};
+		var keywordGrantFormOnSubmit = function () {
+			submitted = true;
+			$("#keyword-grants-form .submit-application").button("loading");
+			return true;
+		}
+	</script>
+	<iframe id="keyword-grants-form-iframe" name="keyword-grants-form-iframe" class="hidden" onload="keywordGrantFormOnload()"></iframe>
+	<form id="keyword-grants-form" class="underlined-form" role="form" action="https://docs.google.com/forms/d/e/1FAIpQLSdepMQ6clhMD6NLizouSa5-zUzxYL-oGiUT8fpfTnZKPeYC1w/formResponse" target="keyword-grants-form-iframe" method="POST" onsubmit="keywordGrantFormOnSubmit()">
 		<fieldset class="row">
+			<div class="col-sm-6 col-md-4 form-group">
+				<input type="email" class="form-control" id="email" placeholder="Email" name="entry.1028347451" required>
+			</div>
 			<div class="col-sm-6 col-md-4 form-group">
 				<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.2043089067" required>
 			</div>
 			<div class="col-sm-6 col-md-4 form-group">
 				<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.1163436292" required>
-			</div>
-			<div class="col-sm-6 col-md-4 form-group">
-				<input type="email" class="form-control" id="email" placeholder="Email" name="entry.1028347451" required>
 			</div>
 			<div class="col-sm-6 col-md-4 form-group">
 				<input type="text" class="form-control" id="orgName" placeholder="Organization name" name="entry.2074079034" required>
@@ -136,11 +161,53 @@ title: .eco Apply
 			</div>
 		</fieldset>
 
-		<button type="submit" class="submit-application btn btn-primary">Submit Application</button>
+		<div class="clearfix form-group">
+			<button type="submit" class="submit-application btn btn-primary pull-right" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Application">Submit Application</button>
+			<button type="button" class="processing-application btn btn-primary pull-right disabled hidden"><i class="fa fa-circle-o-notch fa-spin"></i> Processing Application</button>
+		</div>
 
 	</form>
+
+	<div id="keyword-grants-confirmation-alert" class="alert alert-dismissible fade in confirmation-alert hidden" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">×</span>
+		</button>
+		<div class="confirmation-alert-content">
+			<h3>Thank you for your application!</h3>
+			<p>We will let you know if your application is successful by December 31, 2016.</p>
+			<p class="clearfix">
+				<button type="button" class="btn btn-default pull-right" data-dismiss="alert">Close</button>
+			</p>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="keyword-grants-form-dialog" tabindex="-1" role="dialog" aria-labelledby="keyword-grants-form-dialog-label">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="keyword-grants-form-dialog-label">Thank you for your application</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<p>We will let you know if your application is successful by December 31, 2016.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 </div>
 </div>
+
+<div id="keyword-grants-confirmation" class="section inverted hidden">
+	<div class="container">
+		<h3 class="modal-title" id="keyword-grants-form-dialog-label">Thank you for your application</h3>
+		<p>We will let you know if your application is successful by December 31, 2016.</p>
+	</div>
+</div>
+
 
 <div class="section section-grants-quotes container">
 	<div class="row">
