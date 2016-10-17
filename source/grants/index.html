@@ -44,7 +44,7 @@ title: .eco Apply
 		var submitted = false;
 		var keywordGrantFormOnload = function () {
 			if (submitted) {
-				$("#keyword-grants-confirmation-alert").removeClass("hidden");
+				$("#keyword-grants-confirmation-alert").collapse("show");
 				$("#keyword-grants-form .submit-application").button("reset");
 				ga('send', 'event', 'Grants Form', 'submit');
 				submitted = false;
@@ -160,15 +160,15 @@ title: .eco Apply
 
 	</form>
 
-	<div id="keyword-grants-confirmation-alert" class="alert alert-dismissible fade in confirmation-alert hidden" role="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+	<div id="keyword-grants-confirmation-alert" class="alert alert-dismissible fade confirmation-alert collapse" role="alert" aria-expanded="false">
+		<button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#keyword-grants-confirmation-alert" aria-expanded="false" aria-controls="collapseExample">
 			<span aria-hidden="true">×</span>
 		</button>
 		<div class="confirmation-alert-content">
 			<h3>Thank you for your application!</h3>
 			<p>We will let you know if your application is successful by December 31, 2016.</p>
 			<p class="clearfix">
-				<button type="button" class="btn btn-default pull-right" data-dismiss="alert">Close</button>
+				<button type="button" class="btn btn-default pull-right" data-toggle="collapse" data-target="#keyword-grants-confirmation-alert" aria-expanded="false" aria-controls="collapseExample">Close</button>
 			</p>
 		</div>
 	</div>
