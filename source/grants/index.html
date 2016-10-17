@@ -46,7 +46,7 @@ title: .eco Apply
 			if (submitted) {
 				$("#keyword-grants-confirmation-alert").removeClass("hidden");
 				$("#keyword-grants-form .submit-application").button("reset");
-				_gaq.push(['_trackPageview', '/grants/success']);
+				ga('send', 'event', 'Grants Form', 'submit');
 				submitted = false;
 			}
 		};
