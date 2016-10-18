@@ -17,6 +17,7 @@ $doteco-fireopal: #FE7635;
 
 	body {
 		font-family: $font-body;
+		color: $doteco-charcoal;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -94,6 +95,12 @@ $doteco-fireopal: #FE7635;
 		h1, h2, h3, h4, h5 {
 			color: white;
 		}
+	}
+	.hero-caption {
+		float: right;
+		font-size: small;
+		margin-right: 1em;
+		margin-top: 0.5em;
 	}
 
 	.inverted {
