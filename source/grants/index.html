@@ -50,6 +50,7 @@ page_url: http://nic.eco/grants/
 				$("#keyword-grants-confirmation-alert").collapse("show");
 				$("#keyword-grants-form .submit-application").button("reset");
 				ga('send', 'event', 'Grants Form', 'submit');
+				fbq('track', 'CompleteRegistration');
 				submitted = false;
 			}
 		};
