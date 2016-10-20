@@ -6,6 +6,8 @@
     "handlebars": "^4.0.5",
     "html-validator": "^2.0.1",
     "html-validator-cli": "^3.0.2",
+    "imagemin": "^5.2.2",
+    "imagemin-cli": "^3.0.0",
     "metalsmith": "^2.2.0",
     "metalsmith-discover-helpers": "^0.1.0",
     "metalsmith-layouts": "^1.6.5",

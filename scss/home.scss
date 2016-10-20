@@ -1,6 +1,7 @@
 #doteco {
 	.home-hero {
-		// background-image: url('/img/');
+		background-image: url('/img/beach-trash-hero-HOME.jpg');
+		background-size: cover;
 	}
 
 	.home-about h2 {
@@ -9,5 +10,20 @@
 
 	.eco-word-image {
 		width: 100%;
+	}
+
+	.home-quote {
+		padding: 0;
+
+		blockquote {
+			padding-top: 2em;
+			padding-bottom: 2em;
+			font-size: 2em;
+			color: $doteco-ruby;
+		}
+
+		img {
+			width: 100%;
+		}
 	}
 }

@@ -26,13 +26,22 @@
 	}
 
 	.section-grants-quotes {
-		img {
-			width: 60%;
-		}
-
 		.leaf-icon {
+			margin-top: 1em;
 			transform: rotate(30deg);
 			float: right;
+			width: 80%;
+		}
+
+		.windmill-icon {
+			margin-top: 2em;
+			width: 90%;
+		}
+
+		blockquote {
+			@extend h3;
+			font-family: $font-body;
+			font-weight: normal;
 		}
 	}
 
