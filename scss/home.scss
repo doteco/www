@@ -8,6 +8,10 @@
 			margin-bottom: 3em;
 		}
 
+		p {
+			margin-bottom: 1em;
+		}
+
 		.underlined-form .form-control {
 			color: white;
 			border-bottom: 2px solid white;
@@ -56,7 +60,6 @@
 		blockquote {
 			padding-top: 2em;
 			padding-bottom: 2em;
-			font-size: 2em;
 			color: $doteco-ruby;
 		}
 
