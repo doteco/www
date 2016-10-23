@@ -1,6 +1,6 @@
 #doteco {
 	.home-hero {
-		background-image: url('/img/beach-trash-hero.jpg');
+		background-image: url('/img/home/beach-trash-hero.jpg');
 		background-size: cover;
 
 		.container {
@@ -65,6 +65,17 @@
 
 		img {
 			width: 100%;
+		}
+	}
+
+	.home-orgs {
+		.img-responsive {
+			margin: auto;
+			padding: 1em;
+		}
+
+		.logo-greenpeace {
+			padding-top: 60px;
 		}
 	}
 }
