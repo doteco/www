@@ -65,8 +65,22 @@
 
 		img {
 			width: 100%;
+			margin-top: 4em;
 		}
 	}
+
+	blockquote {
+		font-size: 1.5em;
+		line-height: 1.5;
+	}
+
+	@media (min-width: 992px) {
+		blockquote {
+			font-size: 1.95em;
+			line-height: 1.4;
+		}
+	}
+
 
 	.home-orgs {
 		.img-responsive {
