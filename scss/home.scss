@@ -83,13 +83,20 @@
 
 
 	.home-orgs {
+		.logos {
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
+
 		.img-responsive {
 			margin: auto;
 			padding: 1em;
+			height: 130px;
 		}
 
 		.logo-greenpeace {
-			padding-top: 60px;
+			padding-top: 50px;
+			height: auto;
 		}
 	}
 }
