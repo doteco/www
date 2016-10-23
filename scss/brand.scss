@@ -2,6 +2,7 @@
 $font-body: "Lato", sans-serif;
 $font-header: "Open Sans",sans-serif;
 $font-header-weight: 700;
+$font-subheader-weight: 300;
 
 // Colours
 $doteco-ruby: #9F1744;
@@ -23,6 +24,14 @@ $doteco-fireopal: #FE7635;
 	h1, h2, h3, h4, h5, h6 {
 	  font-family: $font-header;
 	  font-weight: $font-header-weight;
+	}
+
+	.subheader {
+		font-family: $font-header;
+		font-weight: $font-subheader-weight;
+		font-size: 2em;
+		line-height: 1.4;
+		margin-bottom: 1em;
 	}
 
 	body, input, textarea {
@@ -55,13 +64,18 @@ $doteco-fireopal: #FE7635;
 		}
 
 		h2 {
-			font-size: 3.125em;
+			font-size: 2.625em;
 			line-height: 1.35;
 		}
 
 		h3 {
 			font-size: 2.25em;
 			line-height: 1.4;
+		}
+
+		.subheader {
+			font-size: 2.625em;
+			line-height: 1.35;
 		}
 	}
 
@@ -187,5 +201,16 @@ $doteco-fireopal: #FE7635;
 
 	.content-section {
 		margin-bottom: 2em;
+	}
+
+	.underlined-form {
+		.form-control:not(textarea) {
+			box-shadow: none;
+			border: 0;
+			border-radius: 0;
+			border-bottom: 2px solid $doteco-charcoal;
+			padding: 0;
+			background-color: transparent;
+		}
 	}
 }

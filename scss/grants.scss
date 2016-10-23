@@ -9,22 +9,6 @@
 		}
 	}
 
-	.underlined-form {
-		.form-control:not(textarea) {
-			box-shadow: none;
-			border: 0;
-			border-radius: 0;
-			border-bottom: 2px solid $doteco-charcoal;
-			padding: 0;
-		}
-	}
-
-	.section-grants-form {
-		input {
-			background-color: $doteco-marrow;
-		}
-	}
-
 	.section-grants-quotes {
 		.leaf-icon {
 			margin-top: 1em;

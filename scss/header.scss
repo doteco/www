@@ -21,6 +21,26 @@ TODO: text has an outline... bootstrap var?
 		background-color: $doteco-ruby;
 		margin-bottom: 0;
 
+		.icon-bar {
+			background-color: white;
+		}
+
+		.navbar-toggle:focus {
+			background-color: $doteco-ruby;
+		}
+
+		.navbar-toggle {
+			border-color: white;
+		}
+
+		.navbar-toggle:hover {
+			background-color: white;
+
+			.icon-bar {
+				background-color: $doteco-ruby;
+			}
+		}
+
 		a {
 			color: white;
 		}

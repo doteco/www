@@ -1,11 +1,34 @@
 #doteco {
 	.home-hero {
-		background-image: url('/img/beach-trash-hero-HOME.jpg');
+		background-image: url('/img/beach-trash-hero.jpg');
 		background-size: cover;
-	}
 
-	.home-about h2 {
-		color: $doteco-ruby;
+		.container {
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
+
+		.underlined-form .form-control {
+			color: white;
+			border-bottom: 2px solid white;
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
+
+		.btn-default {
+			background-color: $doteco-citrine;
+			font-weight: bold;
+			padding: 1em;
+			width: 100%;
+		}
+		.btn-default:hover {
+			background-color: white;
+		}
+
+		.form-control::-webkit-input-placeholder { color: white; }
+		.form-control:-moz-placeholder { color: white; }
+		.form-control::-moz-placeholder { color: white; }
+		.form-control:-ms-input-placeholder { color: white; }
 	}
 
 	.eco-word-image {
