@@ -85,6 +85,13 @@
 		a {
 			border: none;
 		}
+		a::after {
+    		content: ">";
+		}
+		img {
+			width: 60%;
+			margin: auto;
+		}
 	}
 
 	.home-orgs {
