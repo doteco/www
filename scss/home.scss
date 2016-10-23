@@ -31,8 +31,23 @@
 		.form-control:-ms-input-placeholder { color: white; }
 	}
 
+	.section-label {
+		background-color: $doteco-sapphire;
+		text-transform: uppercase;
+		color: white;
+		font-weight: bold;
+		display: inline-block;
+		padding: 0.2em 1em;
+	}
+
+	.inverted .section-label {
+		background-color: $doteco-fireopal;
+	}
+
 	.eco-word-image {
 		width: 100%;
+		margin-top: 1em;
+		margin-bottom: 1em;
 	}
 
 	.home-quote {
