@@ -83,6 +83,17 @@
 
 	.launch-timeline {
 		.nav-tabs {
+			.tab-header:after {
+			    content: "\f078";
+			    font-family: FontAwesome;
+			    margin-left: 1em;
+			}
+			.active .tab-header:after {
+			    content: "\f077";
+			    font-family: FontAwesome;
+			    margin-left: 1em;
+			}
+
 			a {
 				border: none;
 				color: $doteco-sapphire;
@@ -115,6 +126,7 @@
 		}
 
 		.tab-content {
+			margin-top: 1em;
 			margin-bottom: 3em;
 		}
 	}
