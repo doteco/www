@@ -84,13 +84,28 @@
 	.launch-timeline {
 		a {
 			border: none;
+			color: $doteco-sapphire;
+
+			.glyphicon {
+				margin-left: 1em;
+			}
 		}
-		a::after {
-    		content: ">";
-		}
+		// a::after {
+  //   		content: "\2304";
+  //   		font-size: 2em;
+		// }
 		img {
 			width: 60%;
 			margin: auto;
+			margin-top: 1em;
+			margin-bottom: 2em;
+		}
+		.clock-icon {
+			width: 35%;
+			margin-bottom: 1em;
+		}
+		.www-icon {
+			width: 40%;
 		}
 	}
 
