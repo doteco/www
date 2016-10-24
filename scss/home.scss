@@ -82,26 +82,40 @@
 	}
 
 	.launch-timeline {
-		a {
-			border: none;
-			color: $doteco-sapphire;
+		.nav-tabs {
+			a {
+				// border: none;
+				color: $doteco-sapphire;
+				font-weight: bold;
 
-			.glyphicon {
-				margin-left: 1em;
+				i {
+					margin-left: 1em;
+				}
+			}
+			img {
+				width: 50%;
+				margin: auto;
+				margin-top: 2em;
+				margin-bottom: 3em;
+			}
+			.clock-icon {
+				width: 35%;
+				margin-bottom: 2em;
+			}
+			.www-icon {
+				width: 40%;
+			}
+			.fa-chevron-right {
+				position: absolute;
+				top: 1.7em;
+				font-size: 2.2em;
+				right: -0.4em;
+				color: $doteco-charcoal;
 			}
 		}
-		img {
-			width: 60%;
-			margin: auto;
-			margin-top: 1em;
-			margin-bottom: 2em;
-		}
-		.clock-icon {
-			width: 35%;
-			margin-bottom: 1em;
-		}
-		.www-icon {
-			width: 40%;
+
+		.tab-content {
+			margin-bottom: 3em;
 		}
 	}
 
