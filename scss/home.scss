@@ -134,6 +134,19 @@
 		.tab-pane {
 			margin-bottom: 2em;
 		}
+
+		@media (max-width: 768px) {
+			.tab-pane {
+				display: block;
+				opacity: 100;
+			}
+		}
+
+		@media (min-width: 768px) {
+			.tab-pane {
+				margin-left: 2.6em;
+			}
+		}
 	}
 
 	.home-orgs {
