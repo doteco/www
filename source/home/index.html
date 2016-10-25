@@ -7,8 +7,8 @@ active: home
 	var submitted = false;
 	var homeFormOnload = function () {
 		if (submitted) {
-			// $("#keyword-grants-confirmation-alert").collapse("show");
-			$("submit-subscriber").button("reset");
+			$("#home-confirmation-alert").collapse("show");
+			$(".submit-subscriber").button("reset");
 			ga('send', 'event', 'Register interest', 'submit');
 			fbq('track', 'CompleteRegistration');
 			submitted = false;
@@ -46,6 +46,20 @@ active: home
 </div>
 
 <iframe id="home-form-iframe" name="home-form-iframe" class="hidden" onload="homeFormOnload()"></iframe>
+
+<div id="home-confirmation-alert" class="alert alert-dismissible fade confirmation-alert collapse" role="alert" aria-expanded="false">
+	<button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#home-confirmation-alert" aria-expanded="false">
+		<span aria-hidden="true">×</span>
+	</button>
+	<div class="confirmation-alert-content">
+		<h3>Thank you for your interest in learning more about .eco!</h3>
+		<p>We will contact you soon with news about our plans.</p>
+		<p class="clearfix">
+			<button type="button" class="btn btn-default pull-right" data-toggle="collapse" data-target="#home-confirmation-alert" aria-expanded="false">Close</button>
+		</p>
+	</div>
+</div>
+
 
 <div class="section home-about">
 	<div class="container">
