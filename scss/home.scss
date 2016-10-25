@@ -19,13 +19,14 @@
 			margin-bottom: 1em;
 		}
 
-		.btn-default {
+		.btn-primary {
 			background-color: $doteco-citrine;
 			font-weight: bold;
 			padding: 1em;
 			width: 100%;
+			color: $doteco-charcoal;
 		}
-		.btn-default:hover {
+		.btn-primary:hover {
 			background-color: white;
 		}
 
