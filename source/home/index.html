@@ -3,6 +3,24 @@ title: .eco Domain Registry
 active: home
 ---
 
+<script type="text/javascript">
+	var submitted = false;
+	var homeFormOnload = function () {
+		if (submitted) {
+			// $("#keyword-grants-confirmation-alert").collapse("show");
+			$("submit-subscriber").button("reset");
+			ga('send', 'event', 'Register interest', 'submit');
+			fbq('track', 'CompleteRegistration');
+			submitted = false;
+		}
+	};
+	var homeFormSubmit = function () {
+		submitted = true;
+		$(".submit-subscriber").button("loading");
+		return true;
+	};
+</script>
+
 <div class="section home-hero jumbotron">
 	<div class="container">
 		<div class="row">
@@ -11,13 +29,7 @@ active: home
 				<p class="subheader">Sign up today to make sure you know all the latest about .Eco.</p>
 			</div>
 		</div>
-		<script>
-		var SubscriberSubmit = function () {
-			console.log('Submitting');
-			return false;
-		};
-		</script>
-		<form class="underlined-form" action="http://doteco.us2.list-manage.com/subscribe/post" method="post" onsubmit="SubscriberSubmit()">
+		<form class="underlined-form home-form" action="http://doteco.us2.list-manage.com/subscribe/post" target="home-form-iframe" method="post" onsubmit="homeFormSubmit()">
 			<input type="hidden" name="u" value="cb974a25e9eebd219a5ee132b">
 			<input type="hidden" name="id" value="61dc9a1d7c">
 			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cb974a25e9eebd219a5ee132b_61dc9a1d7c" tabindex="-1" value=""></div>
@@ -26,12 +38,14 @@ active: home
 					<input type="email" autocapitalize="off" autocorrect="off" class="form-control " name="MERGE0" size="25" id="MERGE0" placeholder="Enter your email..." required>
 				</div>
 				<div class="col-sm-4 col-md-3">
-					<button type="submit" class="btn btn-primary" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Registering">Register your interest</button>
+					<button type="submit" class="btn btn-primary submit-subscriber" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Registering">Register your interest</button>
 				</div>
 			</fieldset>
 		</form>
 	</div>
 </div>
+
+<iframe id="home-form-iframe" name="home-form-iframe" class="hidden" onload="homeFormOnload()"></iframe>
 
 <div class="section home-about">
 	<div class="container">
