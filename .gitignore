@@ -9,6 +9,7 @@ node_modules
 # Optional npm cache directory
 .npm
 
+public/index.html
 public/css
 public/contact/
 public/faq/
