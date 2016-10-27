@@ -9,8 +9,18 @@
 		}
 	}
 
-	.registrar-why img {
-		height: 120px;
-		margin: auto;
+	.registrar-why {
+		padding-bottom: 3em;
+
+		img {
+			height: 120px;
+			margin: auto;
+			margin-bottom: 2em;
+		}
+
+		.image-row {
+			margin-top: 2em;
+			margin-bottom: 2em;
+		}
 	}
 }
