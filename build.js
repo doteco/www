@@ -1,5 +1,6 @@
 var Metalsmith  = require('metalsmith');
 var layouts     = require('metalsmith-layouts');
+var inplace     = require('metalsmith-in-place');
 var discoverHelpers = require('metalsmith-discover-helpers');
 var sass = require('metalsmith-sass');
 var watch = require('metalsmith-watch');
@@ -33,6 +34,10 @@ var ms = Metalsmith(__dirname)
     engine: 'handlebars',
     partials: "layouts/partials",
     default: 'default.html',
+    pattern: "**/*.html"
+  }))
+  .use(inplace({
+    engine: 'handlebars',
     pattern: "**/*.html"
   }));
 
