@@ -2,6 +2,11 @@
 	.registrar-hero {
 		background-image: url('/img/windmill-hill-brown.jpeg');
 		background-size: cover;
+
+		.container {
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
 	}
 
 	.registrar-why img {
