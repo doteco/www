@@ -51,39 +51,71 @@ active: registrar
 
 		<p>The process to become a .eco registrar is simple. Get started today by providing a minimal amount of information.</p>
 
-		<form id="keyword-grants-form" class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdepMQ6clhMD6NLizouSa5-zUzxYL-oGiUT8fpfTnZKPeYC1w/formResponse" target="keyword-grants-form-iframe" method="POST" onsubmit="keywordGrantFormOnSubmit()">
+		<form id="registrar-form" class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLScNP97K6EwjwP_etQ1Q2x2p2d9XUC27z7IJMde6yMdDRarrRg/formResponse" target="registrar-form-iframe" method="POST" onsubmit="registrarFormOnSubmit()">
 			<fieldset class="row">
 				<div class="col-sm-6 form-group">
-					<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.2043089067" required>
+					<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.1410965494" required>
 				</div>
 				<div class="col-sm-6 form-group">
-					<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.1163436292" required>
+					<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.1256265228" required>
 				</div>
 				<div class="col-sm-6 form-group">
-					<input type="email" class="form-control" id="email" placeholder="Email" name="entry.1028347451" required>
+					<input type="email" class="form-control" id="email" placeholder="Email" name="entry.148246978" required>
 				</div>
 				<div class="col-sm-6 form-group">
-					<input type="tel" class="form-control" id="telephoneNumber" placeholder="Telephone #" name="entry.833594046">
+					<input type="tel" class="form-control" id="telephoneNumber" placeholder="Telephone #" name="entry.610931773">
 				</div>
 				<div class="col-sm-6 form-group">
-					<input type="text" class="form-control" id="companyName" placeholder="Company name" name="entry.2074079034" required>
+					<input type="text" class="form-control" id="companyName" placeholder="Company name" name="entry.386020707" required>
 				</div>
 				<div class="col-sm-6 form-group">
-					<input type="text" class="form-control" id="title" placeholder="Title" name="entry.1141790738">
+					<input type="text" class="form-control" id="title" placeholder="Title" name="entry.281552723">
 				</div>
 			</fieldset>
 
 			<div class="clearfix form-group">
-				<button type="submit" class="submit-application btn btn-primary pull-right" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Application">Submit Application</button>
+				<button type="submit" class="submit-registrar btn btn-primary pull-right" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing">Submit</button>
 			</div>
-
 		</form>
+
+		<div id="registar-confirmation-alert" class="alert alert-dismissible fade confirmation-alert collapse" role="alert" aria-expanded="false">
+			<button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#registar-confirmation-alert" aria-expanded="false">
+				<span aria-hidden="true">×</span>
+			</button>
+			<div class="confirmation-alert-content">
+				<h3>Thank you for your interest in becoming a .eco registrar!</h3>
+				<p>We will follow up with you soon.</p>
+				<p class="clearfix">
+					<button type="button" class="btn btn-default pull-right" data-toggle="collapse" data-target="#registar-confirmation-alert" aria-expanded="false">Close</button>
+				</p>
+			</div>
+		</div>
 
 		<p>We have partnered with Afilias to provide .eco registry services. Existing ICANN accredited registrars whom are already a partner of Afilias may onboard .eco directly through your ORM account, or contact us at <a href="mailto:sales@bigroom.ca">sales@bigroom.ca</a> for more information.</p>
 
 		<p><a href="/faq/">Learn more about .eco</a></p>
 	</div>
 </div>
+
+<script type="text/javascript">
+	var submitted = false;
+	var registrarFormOnload = function () {
+		if (submitted) {
+			$("#registar-confirmation-alert").collapse("show");
+			$(".submit-registrar").button("reset");
+			ga('send', 'event', 'Registrar form', 'submit');
+			fbq('track', 'CompleteRegistration');
+			submitted = false;
+		}
+	};
+	var registrarFormOnSubmit = function () {
+		submitted = true;
+		$(".submit-registrar").button("loading");
+		return true;
+	};
+</script>
+
+<iframe id="registrar-form-iframe" name="registrar-form-iframe" class="hidden" onload="registrarFormOnload()"></iframe>
 
 <div class="section registrar-become">
 	<div class="container">
