@@ -1,6 +1,10 @@
 language: node_js
 node_js:
   - "6"
+branches:
+  only:
+  - master
+  - production
 env:
   NODE_ENV: PRD
 deploy:
