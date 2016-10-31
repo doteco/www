@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "node ./build.js",
-    "test": "NODE_ENV=TST npm run build"
+    "test": "npm run build"
   },
   "repository": {
     "type": "git",
