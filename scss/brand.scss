@@ -105,6 +105,10 @@ $doteco-fireopal: #FE7635;
 	blockquote {
 		border: none;
 		margin-bottom: 0;
+
+		footer, small {
+			font-size: 70%;
+		}
 	}
 
 	.jumbotron {
