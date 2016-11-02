@@ -11,6 +11,7 @@ node_modules
 
 public/index.html
 public/css
+public/champions/
 public/contact/
 public/faq/
 public/grants/

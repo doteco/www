@@ -1,0 +1,21 @@
+#doteco {
+	.champion-terms {
+		dt {
+			float: left;
+  			clear: left;
+  			margin-right: 0.4em;
+		}
+		dd {
+			// display: inline-block;
+			margin-bottom: 1em;
+		}
+		li {
+			margin-bottom: 1em;
+			list-style: none;
+			counter-increment: list;
+		}
+		li:before {
+			content: "(" counter(list, lower-alpha) ") ";
+		}
+	}
+}
