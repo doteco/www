@@ -11,19 +11,20 @@
 
 	.section-grants-quotes {
 		.leaf-icon {
-			margin-top: 1em;
+			margin-top: 2em;
 			transform: rotate(30deg);
 			float: right;
-			width: 80%;
+			width: 70%;
 		}
 
 		.windmill-icon {
 			margin-top: 2em;
-			width: 90%;
+			width: 80%;
 		}
 
 		blockquote {
 			color: $doteco-sapphire;
+			margin: 1em 0;
 		}
 	}
 
