@@ -1,4 +1,14 @@
 #doteco {
+	.hero-champion {
+		background-image: url('/img/flower-hero.jpg');
+		background-size: cover;
+
+		.container {
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
+	}
+
 	.champion-terms {
 		dt {
 			float: left;
