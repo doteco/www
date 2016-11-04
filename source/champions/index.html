@@ -26,7 +26,25 @@ title: .eco Champion Program
 	<div class="container">
 	<p>For us to offer you a domain, please complete we need you to fill out the form below. Once we receive it, the Registry will be in contact with you to complete the process.</p>
 
-	<form class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfncphMd0tiQQgw_qk9wL410stA3Vvo_qaSnc8QmMt7P8Uwgg/formResponse">
+	<script type="text/javascript">
+		var submitted = false;
+		var championIFrameOnload = function () {
+			if (submitted) {
+				$("#champions-confirmation-alert").collapse("show");
+				$("#champions-form .submit-application").button("reset");
+				ga('send', 'event', 'Champions Form', 'submit');
+				fbq('track', 'CompleteRegistration');
+				submitted = false;
+			}
+		};
+		var championsFormOnSubmit = function () {
+			submitted = true;
+			$("#champions-form .submit-application").button("loading");
+			return true;
+		}
+	</script>
+
+	<form id="champions-form" class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfncphMd0tiQQgw_qk9wL410stA3Vvo_qaSnc8QmMt7P8Uwgg/formResponse" target="champions-form-iframe" onsubmit="championsFormOnSubmit()">
 		<fieldset class="row">
 			<div class="col-sm-6 form-group">
 				<input type="text" class="form-control" id="domain" placeholder="Requested domain" name="entry.1317856971" required>
@@ -81,5 +99,21 @@ title: .eco Champion Program
 			</p>
 		</div>
 	</form>
+
+	<iframe id="champions-form-iframe" name="champions-form-iframe" class="hidden" onload="championIFrameOnload()"></iframe>
+
+	<div id="champions-confirmation-alert" class="alert alert-dismissible fade confirmation-alert collapse" role="alert" aria-expanded="false">
+		<button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#champions-confirmation-alert" aria-expanded="false">
+			<span aria-hidden="true">×</span>
+		</button>
+		<div class="confirmation-alert-content">
+			<h3>Thank you for your application!</h3>
+			<p>We are excited to have you as a .eco champion.</p>
+			<p class="clearfix">
+				<button type="button" class="btn btn-default pull-right" data-toggle="collapse" data-target="#champions-confirmation-alert" aria-expanded="false">Close</button>
+			</p>
+		</div>
+	</div>
+
 	</div>
 </div>
