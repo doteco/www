@@ -52,7 +52,7 @@
 		.section {
 			display: none;
 		}
-		&:lang(en) .section:lang(en), &:lang(fr) .section:lang(fr) {
+		&:lang(en) .section:lang(en), &:lang(fr) .section:lang(fr), &:lang(de) .section:lang(de) {
 			display: block;
 		}
 	}
