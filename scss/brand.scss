@@ -210,4 +210,17 @@ $doteco-fireopal: #FE7635;
 			background-color: transparent;
 		}
 	}
+
+	.twitter-typeahead {
+		width: 100%;
+		.tt-menu {
+			background-color: white;
+			width: 100%;
+		}
+		.tt-selectable:hover {
+			background-color: #403B3E;
+			color: white;
+			cursor: pointer;
+		}
+	}
 }
