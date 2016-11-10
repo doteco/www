@@ -11,10 +11,10 @@
 
 	.section-grants-quotes {
 		.leaf-icon {
-			margin-top: 1em;
+			margin-top: 2em;
 			transform: rotate(30deg);
 			float: right;
-			width: 80%;
+			width: 70%;
 		}
 
 		.windmill-icon {
@@ -24,6 +24,7 @@
 
 		blockquote {
 			color: $doteco-sapphire;
+			margin: 1em 0;
 		}
 	}
 
@@ -45,5 +46,19 @@
 		.logo-ran {
 			width: 60%;
 		}
+	}
+
+	.container-multilingual {
+		.section {
+			display: none;
+		}
+		&:lang(en) .section:lang(en), &:lang(fr) .section:lang(fr), &:lang(de) .section:lang(de), &:lang(es) .section:lang(es) {
+			display: block;
+		}
+	}
+
+	#dropdown-language {
+		border: none;
+		margin-top: 0.5em;
 	}
 }

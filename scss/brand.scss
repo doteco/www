@@ -105,6 +105,10 @@ $doteco-fireopal: #FE7635;
 	blockquote {
 		border: none;
 		margin-bottom: 0;
+
+		footer, small {
+			font-size: 70%;
+		}
 	}
 
 	.jumbotron {
@@ -204,6 +208,19 @@ $doteco-fireopal: #FE7635;
 			border-bottom: 2px solid $doteco-charcoal;
 			padding: 0;
 			background-color: transparent;
+		}
+	}
+
+	.twitter-typeahead {
+		width: 100%;
+		.tt-menu {
+			background-color: white;
+			width: 100%;
+		}
+		.tt-selectable:hover, .tt-cursor {
+			background-color: #403B3E;
+			color: white;
+			cursor: pointer;
 		}
 	}
 }
