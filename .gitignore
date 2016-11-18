@@ -10,6 +10,7 @@ node_modules
 .npm
 
 public/index.html
+public/404.html
 public/css
 public/champions/
 public/contact/

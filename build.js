@@ -44,7 +44,10 @@ var ms = Metalsmith(__dirname)
 if (options.watch) {
   ms.use(serve({
     "document_root": "public",
-    verbose: true
+    verbose: true,
+    http_error_files: {
+      404: "/404.html"
+    }
   }))
   .use(watch({
     paths: {
