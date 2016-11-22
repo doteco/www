@@ -5,7 +5,6 @@
   "devDependencies": {
     "handlebars": "^4.0.6",
     "html-validator": "^2.0.4",
-    "html-validator-cli": "^3.0.4",
     "imagemin": "^5.2.2",
     "imagemin-cli": "^3.0.0",
     "jstransformer-handlebars": "^1.0.0",
@@ -21,7 +20,7 @@
   "scripts": {
     "build": "node ./build.js",
     "test": "npm run build",
-    "validate": "node ./node_modules/.bin/html-validator --verbose"
+    "validate": "node ./html-validate.js"
   },
   "repository": {
     "type": "git",
