@@ -20,6 +20,7 @@
   },
   "scripts": {
     "build": "node ./build.js",
+    "minify": "node ./imagemin.js",
     "test": "npm run build",
     "validate": "node ./html-validate.js"
   },
