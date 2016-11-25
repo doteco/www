@@ -31,5 +31,10 @@
   "bugs": {
     "url": "https://github.com/doteco/www/issues"
   },
-  "homepage": "https://github.com/doteco/www#readme"
+  "homepage": "https://github.com/doteco/www#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "corejs-typeahead": "^1.0.1",
+    "jquery": "^3.1.1"
+  }
 }
