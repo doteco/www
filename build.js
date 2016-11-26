@@ -18,6 +18,7 @@ let ms = Metalsmith(__dirname)
   .metadata({
     "img-root": "/img",
     "css-root": "/css",
+    "site-url": "https://nic.eco",
     "ga-tracking-id": options["ga-tracking-id"],
     "livereload": options.watch
   })
