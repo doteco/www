@@ -1,19 +1,20 @@
-var Metalsmith  = require('metalsmith');
-var layouts     = require('metalsmith-layouts');
-var inplace     = require('metalsmith-in-place');
-var discoverHelpers = require('metalsmith-discover-helpers');
-var sass = require('metalsmith-sass');
-var watch = require('metalsmith-watch');
-var serve = require('metalsmith-serve');
+const Metalsmith  = require('metalsmith');
+const layouts     = require('metalsmith-layouts');
+const inplace     = require('metalsmith-in-place');
+const discoverHelpers = require('metalsmith-discover-helpers');
+const sass = require('metalsmith-sass');
+const watch = require('metalsmith-watch');
+const serve = require('metalsmith-serve');
+const imagemin = require('metalsmith-imagemin/lib/node6');
 
 console.log('Building for environment:', process.env.NODE_ENV || 'DEV');
 
-var options = {
+let options = {
   "ga-tracking-id": process.env.NODE_ENV === "PRD" ? "UA-2825422-14" : "UA-2825422-15",
   watch: ! process.env.NODE_ENV
 };
 
-var ms = Metalsmith(__dirname)
+let ms = Metalsmith(__dirname)
   .metadata({
     "img-root": "/img",
     "css-root": "/css",
@@ -39,6 +40,11 @@ var ms = Metalsmith(__dirname)
   .use(inplace({
     engine: 'handlebars',
     pattern: "**/*.html"
+  }))
+  .use(imagemin({
+    mozjpeg: { },
+    pngquant: { },
+    svgo: { }
   }));
 
 if (options.watch) {
