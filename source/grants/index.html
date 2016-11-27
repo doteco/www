@@ -132,33 +132,53 @@ active: grants
 				submitted = false;
 			}
 		};
-		var keywordGrantFormOnSubmit = function () {
-			submitted = true;
-			$("#keyword-grants-form .submit-application").button("loading");
-			return true;
+		var keywordGrantFormOnSubmit = function (e) {
+			if (! e.isDefaultPrevented()) {
+				submitted = true;
+				$("#keyword-grants-form .submit-application").button("loading");
+				return true;
+			}
 		}
 	</script>
-	<iframe id="keyword-grants-form-iframe" name="keyword-grants-form-iframe" class="hidden" onload="keywordGrantFormOnload()"></iframe>
-	<form id="keyword-grants-form" class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdepMQ6clhMD6NLizouSa5-zUzxYL-oGiUT8fpfTnZKPeYC1w/formResponse" target="keyword-grants-form-iframe" method="POST" onsubmit="keywordGrantFormOnSubmit()">
-		<fieldset class="row">
-			<div class="col-sm-6 col-md-4 form-group">
-				<input type="email" class="form-control" id="email" placeholder="Email" name="entry.1028347451" required>
+	<iframe id="keyword-grants-form-iframe" name="keyword-grants-form-iframe" class="hidden" onload="keywordGrantFormOnload"></iframe>
+	<form id="keyword-grants-form" class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdepMQ6clhMD6NLizouSa5-zUzxYL-oGiUT8fpfTnZKPeYC1w/formResponse" target="keyword-grants-form-iframe" method="POST" onsubmit="keywordGrantFormOnSubmit" data-toggle="validator">
+		<fieldset>
+		<div class="row">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="firstname" title="First name" placeholder="First name" name="entry.2043089067" data-error="Please enter your first name." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 col-md-4 form-group">
-				<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.2043089067" required>
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="lastname" title="Last name" placeholder="Last name" name="entry.1163436292" data-error="Please enter your last name." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 col-md-4 form-group">
-				<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.1163436292" required>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="email" class="form-control" id="email" title="Email" placeholder="Email" name="entry.1028347451" data-error="Please specify a valid email address." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 col-md-4 form-group">
-				<input type="text" class="form-control" id="orgName" placeholder="Organization name" name="entry.2074079034" required>
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="orgName" title="Organization name" placeholder="Organization name" name="entry.2074079034" data-error="Please enter your organization name." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 col-md-4 form-group">
-				<input type="text" class="form-control" id="orgWeb" placeholder="Organization web address" name="entry.833594046">
+		</div>
+		<div class="row">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control typeahead" id="country" title="Country" placeholder="Country" name="entry.1141790738" data-error="Please enter the country you're based in." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 col-md-4 form-group">
-				<input type="text" class="form-control typeahead" id="country" placeholder="Country" name="entry.1141790738">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="orgWeb" title="Organization web site" placeholder="Organization web site" name="entry.833594046">
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
+		</div>
 		</fieldset>
 
 		<div class="row">
@@ -217,8 +237,10 @@ active: grants
 				<small><a href="#faq-kinds-of-domain-names">Read about the domains you can apply for</a>. Organizations can apply for up to three domains. Apply for a keyword or phrase, but no trademarks or organization names.</small>
 			</p>
 
-			<div class="col-sm-6 col-md-4 form-group">
-				<input type="text" class="form-control" id="preference1" placeholder="Preference #1" name="entry.1915638321" required>
+			<div class="col-sm-6 col-md-4 form-group has-feedback">
+				<input type="text" class="form-control" id="preference1" placeholder="Preference #1" name="entry.1915638321" data-error="Please enter the .eco name you are applying for." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
 			<div class="col-sm-6 col-md-4 form-group">
 				<input type="text" class="form-control" id="preference2" placeholder="Preference #2" name="entry.236387873">
@@ -232,7 +254,9 @@ active: grants
 			<fieldset class="col-md-12 form-group">
 				<label for="name-goal-description">In 150 words or less, describe how your organization will use its .eco domain.</label>
 				<p><small>For example, will the domain become a campaign microsite or home to a specific project? Please include your project description, goals and when you plan to launch.</small></p>
-				<textarea id="name-goal-description" class="form-control" rows="3" name="entry.1312805616" required></textarea>
+				<textarea id="name-goal-description" class="form-control" rows="3" name="entry.1312805616" data-error="Please describe how you will use your .eco name." required></textarea>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</fieldset>
 		</div>
 
