@@ -99,8 +99,6 @@ $('#country.typeahead').typeahead({
 		var submitted = false;
 		var form = $(".iframe-form");
 		form.submit(function (e) {
-			console.log(e);
-
 			if (! e.isDefaultPrevented()) {
 				submitted = true;
 				form.find(".submit-application").button("loading");
@@ -108,7 +106,8 @@ $('#country.typeahead').typeahead({
 			}
 		});
 
-		$(".iframe-form-iframe").on("load", function () {
+		$(".iframe-form-iframe").on("load", function (e) {
+			console.log(e);
 			if (submitted) {
 				$(".confirmation-alert").collapse("show");
 				$("body").animate({scrollTop: $(".confirmation-alert").offset().top - 100}, 2000);

@@ -227,6 +227,9 @@ $doteco-fireopal: #FE7635;
 		.btn.focus {
 			outline: 5px auto $doteco-fireopal;
 		}
+		.btn.disabled {
+			opacity: 0.8;
+		}
 	}
 
 	.twitter-typeahead {
