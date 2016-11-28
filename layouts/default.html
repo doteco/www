@@ -85,6 +85,7 @@ $('#country.typeahead').typeahead({
 	})(jQuery);
 </script>
 <script>
+	// email obfuscation
 	(function ($) {
 		$(".email-link").html(function () {
 			var email = $(this).data("name") + "@" + $(this).data("domain");
@@ -92,6 +93,34 @@ $('#country.typeahead').typeahead({
 		});
 	})(jQuery);
 </script>
+<script type="text/javascript">
+	// handle form post to iframe
+	(function ($) {
+		var submitted = false;
+		var form = $(".iframe-form");
+		form.submit(function (e) {
+			console.log(e);
+
+			if (! e.isDefaultPrevented()) {
+				submitted = true;
+				form.find(".submit-application").button("loading");
+				return true;
+			}
+		});
+
+		$(".iframe-form-iframe").on("load", function () {
+			if (submitted) {
+				$(".confirmation-alert").collapse("show");
+				$("body").animate({scrollTop: $(".confirmation-alert").offset().top - 100}, 2000);
+				form.find(".submit-application").button("reset");
+				ga('send', 'event', form.attr("id"), 'submit');
+				fbq('track', 'CompleteRegistration');
+				submitted = false;
+			}
+		});
+	})(jQuery);
+</script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

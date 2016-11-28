@@ -121,27 +121,8 @@ active: grants
 <div class="container">
 	<h3>Apply now for your .eco grant</h3>
 
-	<script type="text/javascript">
-		var submitted = false;
-		var keywordGrantFormOnload = function () {
-			if (submitted) {
-				$("#keyword-grants-confirmation-alert").collapse("show");
-				$("#keyword-grants-form .submit-application").button("reset");
-				ga('send', 'event', 'Grants Form', 'submit');
-				fbq('track', 'CompleteRegistration');
-				submitted = false;
-			}
-		};
-		var keywordGrantFormOnSubmit = function (e) {
-			if (! e.isDefaultPrevented()) {
-				submitted = true;
-				$("#keyword-grants-form .submit-application").button("loading");
-				return true;
-			}
-		}
-	</script>
-	<iframe id="keyword-grants-form-iframe" name="keyword-grants-form-iframe" class="hidden" onload="keywordGrantFormOnload"></iframe>
-	<form id="keyword-grants-form" class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdepMQ6clhMD6NLizouSa5-zUzxYL-oGiUT8fpfTnZKPeYC1w/formResponse" target="keyword-grants-form-iframe" method="POST" onsubmit="keywordGrantFormOnSubmit" data-toggle="validator">
+	<iframe id="keyword-grants-form-iframe" name="keyword-grants-form-iframe" class="iframe-form-iframe hidden"></iframe>
+	<form id="keyword-grants-form" class="underlined-form iframe-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdepMQ6clhMD6NLizouSa5-zUzxYL-oGiUT8fpfTnZKPeYC1w/formResponse" target="keyword-grants-form-iframe" method="POST" data-toggle="validator">
 		<fieldset>
 		<div class="row">
 			<div class="col-sm-6 form-group has-feedback">
