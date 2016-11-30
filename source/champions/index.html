@@ -28,67 +28,77 @@ og-image: opengraph/flower-og.jpg
 	<div class="container">
 	<p>For us to offer you a domain, please complete we need you to fill out the form below. Once we receive it, the Registry will be in contact with you to complete the process.</p>
 
-	<script type="text/javascript">
-		var submitted = false;
-		var championIFrameOnload = function () {
-			if (submitted) {
-				$("#champions-confirmation-alert").collapse("show");
-				$("#champions-form .submit-application").button("reset");
-				ga('send', 'event', 'Champions Form', 'submit');
-				fbq('track', 'CompleteRegistration');
-				submitted = false;
-			}
-		};
-		var championsFormOnSubmit = function () {
-			submitted = true;
-			$("#champions-form .submit-application").button("loading");
-			return true;
-		}
-	</script>
-
-	<form id="champions-form" class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfncphMd0tiQQgw_qk9wL410stA3Vvo_qaSnc8QmMt7P8Uwgg/formResponse" target="champions-form-iframe" onsubmit="championsFormOnSubmit()">
+	<form id="champions-form" class="underlined-form iframe-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfncphMd0tiQQgw_qk9wL410stA3Vvo_qaSnc8QmMt7P8Uwgg/formResponse" target="champions-form-iframe" data-toggle="validator">
 		<fieldset class="row">
-			<div class="col-sm-6 form-group">
-				<input type="text" class="form-control" id="domain" placeholder="Requested domain" name="entry.1317856971" required>
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="domain" placeholder="Requested domain" name="entry.1317856971" data-error="Please enter the domain you are requesting." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 form-group">
-				<input type="email" class="form-control" id="email" placeholder="Email" name="entry.2012520212" required>
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="email" class="form-control" id="email" placeholder="Email" name="entry.2012520212" data-error="Please enter a valid email address." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
 		</fieldset>
 
 		<fieldset class="row">
-			<div class="col-sm-6 form-group">
-				<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.1228877702" required>
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.1228877702" data-error="Please enter your first name." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 form-group">
-				<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.634429040" required>
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.634429040" data-error="Please enter your last name." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
 		</fieldset>
 
 		<fieldset class="row">
-			<div class="col-sm-6 form-group">
-				<input type="text" class="form-control" id="orgName" placeholder="Company or organization name" name="entry.413719518" required>
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="orgName" placeholder="Company or organization name" name="entry.413719518" data-error="Please enter your company or organization name." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 form-group">
-				<input type="text" class="form-control" id="telephone" placeholder="Telephone #" name="entry.1967100250" required>
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="telephone" placeholder="Telephone #" name="entry.1967100250" data-error="Please enter your telephone number." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
 		</fieldset>
-		<fieldset class="row">
-			<div class="col-sm-6 form-group">
-				<input type="text" class="form-control" id="address" placeholder="Street address" name="entry.112046119">
+		<fieldset>
+		<div class="row">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="address" placeholder="Street address" name="entry.112046119" data-error="Please enter your address." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 form-group">
-				<input type="text" class="form-control" id="city" placeholder="City" name="entry.510315261">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="city" placeholder="City" name="entry.510315261" data-error="Please enter your city." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 form-group">
-				<input type="text" class="form-control" id="state" placeholder="State or province" name="entry.443177162">
+		</div>
+		<div class="row">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="state" placeholder="State or province" name="entry.443177162" data-error="Please enter your state or province." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 form-group">
-				<input type="text" class="form-control typeahead" id="country" placeholder="Country" name="entry.1896895702">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control typeahead" id="country" placeholder="Country" name="entry.1896895702" data-error="Please enter your country." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="col-sm-6 form-group">
-				<input type="text" class="form-control" id="zipcode" placeholder="Zip or postal code" name="entry.888281446">
+		</div>
+		<div class="row">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="zipcode" placeholder="Zip or postal code" name="entry.888281446" data-error="Please enter your zip or postal code." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
 			</div>
+		</div>
 		</fieldset>
 
 		<div class="clearfix form-group">
@@ -98,7 +108,7 @@ og-image: opengraph/flower-og.jpg
 		</div>
 	</form>
 
-	<iframe id="champions-form-iframe" name="champions-form-iframe" class="hidden" onload="championIFrameOnload()"></iframe>
+	<iframe id="champions-form-iframe" name="champions-form-iframe" class="iframe-form-iframe hidden"></iframe>
 
 	<div id="champions-confirmation-alert" class="alert alert-dismissible fade confirmation-alert collapse" role="alert" aria-expanded="false">
 		<button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#champions-confirmation-alert" aria-expanded="false">
