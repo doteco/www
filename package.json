@@ -3,22 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
-    "handlebars": "^4.0.6",
-    "html-validator": "^2.0.4",
-    "imagemin": "^5.2.2",
-    "imagemin-cli": "^3.0.0",
-    "jstransformer-handlebars": "^1.0.0",
-    "metalsmith": "^2.3.0",
-    "metalsmith-discover-helpers": "^0.1.0",
-    "metalsmith-in-place": "^1.4.4",
-    "metalsmith-layouts": "^1.7.0",
-    "metalsmith-sass": "^1.3.0",
+    "handlebars": "4.0.6",
+    "html-validator": "2.0.4",
+    "imagemin": "github:stfsy/imagemin",
+    "imagemin-mozjpeg": "6.0.0",
+    "imagemin-pngquant": "5.0.0",
+    "jstransformer-handlebars": "1.0.0",
+    "metalsmith": "2.3.0",
+    "metalsmith-discover-helpers": "0.1.0",
+    "metalsmith-imagemin": "3.0.0",
+    "metalsmith-in-place": "1.4.4",
+    "metalsmith-layouts": "1.7.0",
+    "metalsmith-sass": "1.3.0",
     "metalsmith-serve": "0.0.7",
-    "metalsmith-watch": "^1.0.3",
-    "node-fs-extra": "^0.8.1"
+    "metalsmith-watch": "1.0.3",
+    "node-fs-extra": "0.8.1"
   },
   "scripts": {
     "build": "node ./build.js",
+    "minify": "node ./imagemin.js",
     "test": "npm run build",
     "validate": "node ./html-validate.js"
   },
@@ -31,5 +34,12 @@
   "bugs": {
     "url": "https://github.com/doteco/www/issues"
   },
-  "homepage": "https://github.com/doteco/www#readme"
+  "homepage": "https://github.com/doteco/www#readme",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "bootstrap-validator": "0.11.5",
+    "corejs-typeahead": "1.0.1",
+    "font-awesome": "4.7.0",
+    "jquery": "3.1.1"
+  }
 }

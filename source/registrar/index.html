@@ -1,5 +1,8 @@
 ---
 title: .eco - Registrars
+description: If you are interested in become a registrar for the .eco domain, please let us know.
+page-path: registrar/
+og-image: opengraph/windmill-hill-brown-og.jpg
 active: registrar
 ---
 
@@ -51,26 +54,42 @@ active: registrar
 
 		<p>The process to become a .eco registrar is simple. Get started today by providing a minimal amount of information.</p>
 
-		<form id="registrar-form" class="underlined-form" action="https://docs.google.com/forms/d/e/1FAIpQLScNP97K6EwjwP_etQ1Q2x2p2d9XUC27z7IJMde6yMdDRarrRg/formResponse" target="registrar-form-iframe" method="POST" onsubmit="registrarFormOnSubmit()">
-			<fieldset class="row">
-				<div class="col-sm-6 form-group">
-					<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.1410965494" required>
+		<form id="registrar-form" class="underlined-form iframe-form" action="https://docs.google.com/forms/d/e/1FAIpQLScNP97K6EwjwP_etQ1Q2x2p2d9XUC27z7IJMde6yMdDRarrRg/formResponse" target="registrar-form-iframe" method="POST" data-toggle="validator">
+			<fieldset>
+			<div class="row">
+				<div class="col-sm-6 form-group has-feedback">
+					<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.1410965494" data-error="Please enter your first name." required>
+					<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="col-sm-6 form-group has-feedback">
+					<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.1256265228" data-error="Please enter your last name." required>
+					<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+					<div class="help-block with-errors"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 form-group has-feedback">
+					<input type="email" class="form-control" id="email" placeholder="Email" name="entry.148246978" data-error="Please enter a valid email address." required>
+					<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+					<div class="help-block with-errors"></div>
 				</div>
 				<div class="col-sm-6 form-group">
-					<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.1256265228" required>
+					<input type="tel" class="form-control" id="telephoneNumber" placeholder="Telephone #" name="entry.610931773" data-error="Please enter a telephone number.">
+					<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+					<div class="help-block with-errors"></div>
 				</div>
-				<div class="col-sm-6 form-group">
-					<input type="email" class="form-control" id="email" placeholder="Email" name="entry.148246978" required>
-				</div>
-				<div class="col-sm-6 form-group">
-					<input type="tel" class="form-control" id="telephoneNumber" placeholder="Telephone #" name="entry.610931773">
-				</div>
-				<div class="col-sm-6 form-group">
-					<input type="text" class="form-control" id="companyName" placeholder="Company name" name="entry.386020707" required>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 form-group has-feedback">
+					<input type="text" class="form-control" id="companyName" placeholder="Company name" name="entry.386020707" data-error="Please enter your company name." required>
+					<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+					<div class="help-block with-errors"></div>
 				</div>
 				<div class="col-sm-6 form-group">
 					<input type="text" class="form-control" id="title" placeholder="Title" name="entry.281552723">
 				</div>
+			</div>
 			</fieldset>
 
 			<div class="clearfix form-group">
@@ -91,30 +110,12 @@ active: registrar
 			</div>
 		</div>
 
-		<p>We have partnered with Afilias to provide .eco registry services. Existing ICANN accredited registrars who are already a partner of Afilias may onboard .eco directly through their account in Afilias' Online Registrar Management System (ORMS) beginning in December 2016. Alternately, contact us directly at <a href="mailto:sales@bigroom.ca">sales@bigroom.ca</a> for more information.</p>
+		<p>We have partnered with Afilias to provide .eco registry services. Existing ICANN accredited registrars who are already a partner of Afilias may onboard .eco directly through their account in Afilias' Online Registrar Management System (ORMS) beginning in December 2016. Alternately, contact us directly at <span class="email-link" data-name="sales" data-domain="doteco.org"></span> for more information.</p>
 		<p><a href="/faq/">Learn more about .eco</a></p>
 	</div>
 </div>
 
-<script type="text/javascript">
-	var submitted = false;
-	var registrarFormOnload = function () {
-		if (submitted) {
-			$("#registar-confirmation-alert").collapse("show");
-			$(".submit-registrar").button("reset");
-			ga('send', 'event', 'Registrar form', 'submit');
-			fbq('track', 'CompleteRegistration');
-			submitted = false;
-		}
-	};
-	var registrarFormOnSubmit = function () {
-		submitted = true;
-		$(".submit-registrar").button("loading");
-		return true;
-	};
-</script>
-
-<iframe id="registrar-form-iframe" name="registrar-form-iframe" class="hidden" onload="registrarFormOnload()"></iframe>
+<iframe id="registrar-form-iframe" name="registrar-form-iframe" class="iframe-form-iframe hidden"></iframe>
 
 <div class="section registrar-become">
 	<div class="container">
@@ -129,7 +130,7 @@ active: registrar
 					Canada V6A1X6<br/>
 
 					T: <a href="tel:+16046826673">+1 604 682 6673</a> (9am - 5pm PT Mon-Fri)<br/>
-					E: <a href="mailto:learnmore@doteco.org">learnmore@doteco.org</a><br/>
+					E: <span class="email-link" data-name="learnmore" data-domain="doteco.org"></span><br/>
 				</address>
 			</div>
 			<div class="col-sm-6">
@@ -139,7 +140,7 @@ active: registrar
 					VP, Business Development<br/>
 
 					T: <a href="tel:+16046826673">+1 604 682 6673</a> (9am - 5pm ET Mon-Fri)<br/>
-					E: <a href="mailto:sales@bigroom.ca">sales@bigroom.ca</a><br/>
+					E: <span class="email-link" data-name="sales" data-domain="doteco.org"></span><br/>
 				</address>
 			</div>
 		</div>

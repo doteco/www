@@ -209,6 +209,27 @@ $doteco-fireopal: #FE7635;
 			padding: 0;
 			background-color: transparent;
 		}
+
+		.has-error .form-control {
+			border-color: $doteco-ruby;
+		}
+		.has-error .help-block {
+			color: $doteco-ruby;
+		}
+
+		.form-control-feedback {
+			right: 0.5em;
+		}
+		.form-control:focus {
+			box-shadow: 0 4px 2px -2px gray;
+		}
+
+		.btn.focus {
+			outline: 5px auto $doteco-fireopal;
+		}
+		.btn.disabled {
+			opacity: 0.8;
+		}
 	}
 
 	.twitter-typeahead {

@@ -4,11 +4,15 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{description}}">
+	<meta name="keywords" content="domains,registry,top-level domain,TLD,ECO,.eco,environmental action,sustainability,ngo">
+	<meta name="author" content="BigRoom.ca">
+
 	<meta property="og:title" content="{{title}}">
 	<meta property="og:description" content="{{description}}">
-	<meta property="og:url" content="{{page_url}}">
+	<meta property="og:url" content="{{site-url}}/{{page-path}}">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="http://nic.eco/img/17952881455_81fd720bc1_b.jpg">
+	<meta property="og:image" content="{{site-url}}/img/{{og-image}}">
 	<meta property="fb:app_id" content="1859906154237189">
 
 	<title>{{title}}</title>
@@ -16,7 +20,7 @@
 	<!-- Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -50,10 +54,12 @@
 	{{> footer }}
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/0.11.1/typeahead.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.0.1/typeahead.bundle.min.js"></script>
 <script>
+(function ($) {
 var countries = new Bloodhound({
   datumTokenizer: Bloodhound.tokenizers.whitespace,
   queryTokenizer: Bloodhound.tokenizers.whitespace,
@@ -67,6 +73,7 @@ $('#country.typeahead').typeahead({
   highlight: true,
   source: countries
 });
+})(jQuery);
 </script>
 <script>
 	(function ($) {
@@ -74,9 +81,44 @@ $('#country.typeahead').typeahead({
 			console.log('here', e.currentTarget.lang);
 			$(".container-multilingual").attr("lang", e.currentTarget.lang);
 			e.preventDefault();
-		})
+		});
 	})(jQuery);
 </script>
+<script>
+	// email obfuscation
+	(function ($) {
+		$(".email-link").html(function () {
+			var email = $(this).data("name") + "@" + $(this).data("domain");
+			return "<a href=\"mailto:" + email +"\">" + email + "</a>";
+		});
+	})(jQuery);
+</script>
+<script type="text/javascript">
+	// handle form post to iframe
+	(function ($) {
+		var submitted = false;
+		var form = $(".iframe-form");
+		form.submit(function (e) {
+			if (! e.isDefaultPrevented()) {
+				submitted = true;
+				form.find(".submit-application").button("loading");
+				return true;
+			}
+		});
+
+		$(".iframe-form-iframe").on("load", function (e) {
+			if (submitted) {
+				$(".confirmation-alert").collapse("show");
+				$("body").animate({scrollTop: $(".confirmation-alert").offset().top - 100}, 200);
+				form.find(".submit-application").button("reset");
+				ga('send', 'event', form.attr("id"), 'submit');
+				fbq('track', 'CompleteRegistration');
+				submitted = false;
+			}
+		});
+	})(jQuery);
+</script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
