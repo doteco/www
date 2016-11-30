@@ -107,10 +107,9 @@ $('#country.typeahead').typeahead({
 		});
 
 		$(".iframe-form-iframe").on("load", function (e) {
-			console.log(e);
 			if (submitted) {
 				$(".confirmation-alert").collapse("show");
-				$("body").animate({scrollTop: $(".confirmation-alert").offset().top - 100}, 2000);
+				$("body").animate({scrollTop: $(".confirmation-alert").offset().top - 100}, 200);
 				form.find(".submit-application").button("reset");
 				ga('send', 'event', form.attr("id"), 'submit');
 				fbq('track', 'CompleteRegistration');
