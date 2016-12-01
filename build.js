@@ -19,6 +19,7 @@ let ms = Metalsmith(__dirname)
     "img-root": "/img",
     "css-root": "/css",
     "site-url": "https://nic.eco",
+    "twitter-id": "@doteco",
     "ga-tracking-id": options["ga-tracking-id"],
     "livereload": options.watch
   })
