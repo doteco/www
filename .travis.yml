@@ -7,7 +7,7 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-    bucket: "test.nic.eco"
+    bucket: "test.home.eco"
     skip_cleanup: true
     region: "us-west-2"
     local_dir: public

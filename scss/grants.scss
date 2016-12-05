@@ -12,7 +12,7 @@
 	.section-grants-quotes {
 		.leaf-icon {
 			margin-top: 2em;
-			transform: rotate(30deg);
+			@include transform(rotate(30deg));
 			float: right;
 			width: 70%;
 		}
