@@ -7,18 +7,34 @@ const watch = require('metalsmith-watch');
 const serve = require('metalsmith-serve');
 const imagemin = require('metalsmith-imagemin/lib/node6');
 
-console.log('Building for environment:', process.env.NODE_ENV || 'DEV');
+let env = process.env.NODE_ENV || 'DEV';
+console.log('Building for environment:', env);
 
-let options = {
-  "ga-tracking-id": process.env.NODE_ENV === "PRD" ? "UA-2825422-14" : "UA-2825422-15",
-  watch: ! process.env.NODE_ENV
-};
+const env_options = {
+  DEV: {
+    "ga-tracking-id": "UA-2825422-15",
+    "site-url": "http://localhost:8080",
+    "watch": true
+  },
+  TST: {
+    "ga-tracking-id": "UA-2825422-15",
+    "site-url": "http://test.home.eco",
+    "watch": false
+  },
+  PRD: {
+    "ga-tracking-id": "UA-2825422-14",
+    "site-url": "https://nic.eco",
+    "watch": false
+  }
+}
+
+let options = env_options[env];
 
 let ms = Metalsmith(__dirname)
   .metadata({
     "img-root": "/img",
     "css-root": "/css",
-    "site-url": "https://nic.eco",
+    "site-url": options["site-url"],
     "twitter-id": "@doteco",
     "ga-tracking-id": options["ga-tracking-id"],
     "livereload": options.watch
