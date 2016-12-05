@@ -29,6 +29,7 @@ const env_options = {
 }
 
 let options = env_options[env];
+console.log('Using options:', options);
 
 let ms = Metalsmith(__dirname)
   .metadata({
