@@ -1,6 +1,7 @@
 #doteco {
 	.footer {
 		width: 100%;
+		padding: 1em 0;
 		background-color: $doteco-ruby;
 		color: white;
 
@@ -19,7 +20,7 @@
 			display: block;
 		}
 
-		.copyright, ul {
+		ul {
 			text-align: center;
 			font-size: 80%;
 		}
