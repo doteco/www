@@ -23,7 +23,7 @@ const env_options = {
   },
   PRD: {
     "ga-tracking-id": "UA-2825422-14",
-    "site-url": "https://nic.eco",
+    "site-url": "https://home.eco",
     "watch": false
   }
 }
