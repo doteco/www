@@ -1,10 +1,10 @@
 # .eco Website [![Build Status](https://travis-ci.org/doteco/www.svg?branch=master)](https://travis-ci.org/doteco/www)
 
-This is the website for [nic.eco](http://nic.eco). 
+This is the website for [home.eco](https://home.eco).
 
 ## Setup
 
-1. For OSX, install [Homebrew](http://brew.sh/) 
+1. For OSX, install [Homebrew](http://brew.sh/)
 2. Install [git](https://git-scm.com/downloads) `brew install git` (or use the GitHub Desktop client)
 2. Install [node.js](http://nodejs.org) `brew install node` (or install directly from http://nodejs.org)
 2. Clone the repo `git clone git@github.com:doteco/www.git`

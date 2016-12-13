@@ -5,6 +5,8 @@ const discoverHelpers = require('metalsmith-discover-helpers');
 const sass = require('metalsmith-sass');
 const watch = require('metalsmith-watch');
 const serve = require('metalsmith-serve');
+const sitemap = require('metalsmith-sitemap');
+const robots = require('metalsmith-robots');
 const imagemin = require('metalsmith-imagemin/lib/node6');
 
 let env = process.env.NODE_ENV || 'DEV';
@@ -23,7 +25,7 @@ const env_options = {
   },
   PRD: {
     "ga-tracking-id": "UA-2825422-14",
-    "site-url": "https://nic.eco",
+    "site-url": "https://home.eco",
     "watch": false
   }
 }
@@ -59,6 +61,14 @@ let ms = Metalsmith(__dirname)
   .use(inplace({
     engine: 'handlebars',
     pattern: "**/*.html"
+  }))
+  .use(sitemap({
+    hostname: options["site-url"],
+    omitIndex: true
+  }))
+  .use(robots({
+    disallow: ['champions/*'],
+    sitemap: options["site-url"] + "sitemap.xml"
   }))
   .use(imagemin({
     mozjpeg: { },
