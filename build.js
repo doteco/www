@@ -8,6 +8,7 @@ const serve = require('metalsmith-serve');
 const sitemap = require('metalsmith-sitemap');
 const robots = require('metalsmith-robots');
 const imagemin = require('metalsmith-imagemin/lib/node6');
+const fingerprint = require('metalsmith-fingerprint-ignore');
 
 let env = process.env.NODE_ENV || 'DEV';
 console.log('Building for environment:', env);
@@ -36,7 +37,6 @@ console.log('Using options:', options);
 let ms = Metalsmith(__dirname)
   .metadata({
     "img-root": "/img",
-    "css-root": "/css",
     "site-url": options["site-url"],
     "twitter-id": "@doteco",
     "ga-tracking-id": options["ga-tracking-id"],
@@ -52,6 +52,9 @@ let ms = Metalsmith(__dirname)
     includePaths: ['./scss'],
     outputDir: 'css',
   }))
+  .use(fingerprint({
+    pattern: 'css/main.css'
+  }))
   .use(layouts({
     engine: 'handlebars',
     partials: "layouts/partials",
@@ -62,6 +65,11 @@ let ms = Metalsmith(__dirname)
     engine: 'handlebars',
     pattern: "**/*.html"
   }))
+  .use(imagemin({
+    mozjpeg: { },
+    pngquant: { },
+    svgo: { }
+  }))
   .use(sitemap({
     hostname: options["site-url"],
     omitIndex: true
@@ -69,11 +77,6 @@ let ms = Metalsmith(__dirname)
   .use(robots({
     disallow: ['champions/*', 'mobile/*', 'm/*'],
     sitemap: options["site-url"] + "sitemap.xml"
-  }))
-  .use(imagemin({
-    mozjpeg: { },
-    pngquant: { },
-    svgo: { }
   }));
 
 if (options.watch) {
