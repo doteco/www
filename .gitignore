@@ -13,6 +13,8 @@ node_modules
 
 public/index.html
 public/404.html
+public/robots.txt
+public/sitemap.xml
 public/css
 public/champions/
 public/contact/
