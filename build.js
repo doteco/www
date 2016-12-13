@@ -67,7 +67,7 @@ let ms = Metalsmith(__dirname)
     omitIndex: true
   }))
   .use(robots({
-    disallow: ['champions/*'],
+    disallow: ['champions/*', 'mobile/*', 'm/*'],
     sitemap: options["site-url"] + "sitemap.xml"
   }))
   .use(imagemin({
