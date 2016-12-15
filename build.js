@@ -1,14 +1,15 @@
 const Metalsmith  = require('metalsmith');
-const layouts     = require('metalsmith-layouts');
-const inplace     = require('metalsmith-in-place');
 const discoverHelpers = require('metalsmith-discover-helpers');
+const imagemin = require('metalsmith-imagemin/lib/node6');
+const inplace     = require('metalsmith-in-place');
+const fingerprint = require('metalsmith-fingerprint-ignore');
+const layouts     = require('metalsmith-layouts');
 const sass = require('metalsmith-sass');
-const watch = require('metalsmith-watch');
 const serve = require('metalsmith-serve');
 const sitemap = require('metalsmith-sitemap');
+const redirect = require('metalsmith-redirect');
 const robots = require('metalsmith-robots');
-const imagemin = require('metalsmith-imagemin/lib/node6');
-const fingerprint = require('metalsmith-fingerprint-ignore');
+const watch = require('metalsmith-watch');
 
 let env = process.env.NODE_ENV || 'DEV';
 console.log('Building for environment:', env);
@@ -69,6 +70,9 @@ let ms = Metalsmith(__dirname)
     mozjpeg: { },
     pngquant: { },
     svgo: { }
+  }))
+  .use(redirect({
+    '/registrar': '/registrars'
   }))
   .use(sitemap({
     hostname: options["site-url"],
