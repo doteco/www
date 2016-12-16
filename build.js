@@ -4,6 +4,7 @@ const imagemin = require('metalsmith-imagemin/lib/node6');
 const inplace     = require('metalsmith-in-place');
 const fingerprint = require('metalsmith-fingerprint-ignore');
 const layouts     = require('metalsmith-layouts');
+const markdown = require('metalsmith-markdownit');
 const sass = require('metalsmith-sass');
 const serve = require('metalsmith-serve');
 const sitemap = require('metalsmith-sitemap');
@@ -55,6 +56,9 @@ let ms = Metalsmith(__dirname)
   }))
   .use(fingerprint({
     pattern: 'css/main.css'
+  }))
+  .use(markdown({
+    html: true
   }))
   .use(layouts({
     engine: 'handlebars',
