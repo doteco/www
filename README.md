@@ -14,9 +14,22 @@ Simple updates to the website can be made directly through the [Github.com user 
 
 Typically, you will be editing either HTML files (with a `.html` extension) or Markdown files (with a `.md` extension). If you find the need to edit a file with a different extension, please check with a developer.
 
+### File structure
+
+* Most of the pages that you will change are in the `/source` folder. This folder contains the content
+* The overall layout for the website is stored in `/layouts`. `default.html` is the layout that is currently used for all pages. Reusable sections (headers, footers, timeline, etc) are stored under `/layouts/partials`.
+* Images are stored under `/public/img/`
+* CSS is built using the [SASS preprocessor](http://sass-lang.com/) and are stored in `/scss`
+
 ### Markdown
 
 Markdown is a simple markup language that can be used to provide some basic style and structure to a webpage. To see examples of how use Markdown, check out this [MarkdownIT Demo](https://markdown-it.github.io/). Markdown files (like this one) will render using the applied styles and structure directly in the Github interface.
+
+### Committing changes
+
+When committing a change to the site, please include a meaningful comment. One sentence describing the change is sufficient. Having good comments makes it easy for us to be able to review the nature of the change at a glance without digging into the details.
+
+The recommended approach is to prefix the comment with the area of the site being changed. Eg. `champions: updated acceptance terms`.
 
 ## Deploying Changes
 
