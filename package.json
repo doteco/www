@@ -4,7 +4,7 @@
   "description": "",
   "devDependencies": {
     "handlebars": "4.0.6",
-    "html-validator": "2.0.4",
+    "html-validator": "2.2.0",
     "imagemin": "github:stfsy/imagemin",
     "imagemin-mozjpeg": "6.0.0",
     "imagemin-pngquant": "5.0.0",
