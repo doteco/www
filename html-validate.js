@@ -1,15 +1,14 @@
 const fs = require('fs-extra');
+const path = require('path');
 const validator = require('html-validator');
 
-// var files = [
-// 	'./public/index.html',
-// 	'./public/champions/index.html',
-// 	'./public/contact/index.html',
-// 	'./public/faq/index.html',
-// ];
+var skipFiles = [
+	'public/registrar/index.html'
+];
 
 var skip = [
-	'Attribute “color” not allowed on element “link” at this point.'
+	'Attribute “color” not allowed on element “link” at this point.',
+	'Illegal character in query: “|” is not allowed.'
 ];
 
 const validate = function (file) {
@@ -26,9 +25,9 @@ const validate = function (file) {
 		});
 	}).then((results) => {
 		console.log('Validating', file);
-		// console.log(data);
+		// console.log(results);
 		results.messages.filter((entry) => {
-			return ! skip.includes(entry.message);
+			return ! skip.some(s => entry.message.includes(s));
 		}).map((entry) => {
 			console.log(`${entry.type.toUpperCase()}: ${entry.message} (line: ${entry.lastLine})`);
 		});
@@ -39,7 +38,10 @@ const validate = function (file) {
 new Promise((resolve, reject) => {
 	let files = [];
 	fs.walk('./public')
-		.on('data', (file) => file.path.endsWith('.html') ? files.push(file.path) : null)
+		.on('data', (file) => {
+			let skipFile = skipFiles.some(s => s === path.relative(process.cwd(), file.path));
+			return file.path.endsWith('.html') && ! skipFile ? files.push(file.path) : null;
+		})
 		.on('end', () => resolve(files));
 }).then((files) => {
 	Promise.all(files.map(validate))

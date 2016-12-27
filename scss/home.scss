@@ -57,6 +57,11 @@
 
 	.home-video {
 		margin: 2em 0;
+
+		iframe {
+			width: 100%;
+			border: none;
+		}
 	}
 
 	.home-quote {
