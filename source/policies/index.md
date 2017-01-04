@@ -9,7 +9,9 @@ private: true
 
 <div class="section container section-policies">
 
-### Registry policies
+## Registry policies
+
+The following policies set out the purpose and principles of the .eco gTLD. The policies will be implemented and managed by Big Room as the .eco Registry, in coordination with the Dot ECO Global Community Organization (the ".eco Organization"), as the recognized member organization for .eco and .eco Registrants.
 
 * [Complete Registry Policies](/assets/policies/eco-Registry-Policies_v1.2_20161228.pdf)
 * [Dispute Policies](/assets/policies/dispute-policies.pdf)
@@ -19,11 +21,5 @@ private: true
 * [Privacy, WHOIS and Acceptable Use Policies](/assets/policies/privacy-whois-acceptable-use.pdf)
 * [Registration Rules](/assets/policies/registration-rules.pdf)
 * [Reserved Names Policy](/assets/policies/reserved-names-policy.pdf)
-* [Uniform Rapid Suspension (URS)](/policies/)
-
-### Corporate policies
-
-* [Environmental policy](/impact/)
-* [Privacy policy](/privacy/)
 
 </div>
