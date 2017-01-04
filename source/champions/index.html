@@ -29,25 +29,12 @@ private: true
 	<form id="champions-form" class="underlined-form iframe-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfncphMd0tiQQgw_qk9wL410stA3Vvo_qaSnc8QmMt7P8Uwgg/formResponse" target="champions-form-iframe" data-toggle="validator">
 		<fieldset class="row">
 			<div class="col-sm-6 form-group has-feedback">
-				<input type="text" class="form-control" id="domain" placeholder="Requested domain" name="entry.1317856971" data-error="Please enter the domain you are requesting." required>
+				<input type="text" class="form-control" id="domain" placeholder="Requested domain" aria-label="Requested domain" name="entry.1317856971" data-error="Please enter the domain you are requesting." required>
 				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 				<div class="help-block with-errors"></div>
 			</div>
 			<div class="col-sm-6 form-group has-feedback">
-				<input type="email" class="form-control" id="email" placeholder="Email" name="entry.2012520212" data-error="Please enter a valid email address." required>
-				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-				<div class="help-block with-errors"></div>
-			</div>
-		</fieldset>
-
-		<fieldset class="row">
-			<div class="col-sm-6 form-group has-feedback">
-				<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.1228877702" data-error="Please enter your first name." required>
-				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-				<div class="help-block with-errors"></div>
-			</div>
-			<div class="col-sm-6 form-group has-feedback">
-				<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.634429040" data-error="Please enter your last name." required>
+				<input type="email" class="form-control" id="email" placeholder="Email" aria-label="Email address" name="entry.2012520212" data-error="Please enter a valid email address." required>
 				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 				<div class="help-block with-errors"></div>
 			</div>
@@ -55,12 +42,25 @@ private: true
 
 		<fieldset class="row">
 			<div class="col-sm-6 form-group has-feedback">
-				<input type="text" class="form-control" id="orgName" placeholder="Company or organization name" name="entry.413719518" data-error="Please enter your company or organization name." required>
+				<input type="text" class="form-control" id="firstname" placeholder="First name" aria-label="First name" name="entry.1228877702" data-error="Please enter your first name." required>
 				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 				<div class="help-block with-errors"></div>
 			</div>
 			<div class="col-sm-6 form-group has-feedback">
-				<input type="text" class="form-control" id="telephone" placeholder="Telephone #" name="entry.1967100250" data-error="Please enter your telephone number." required>
+				<input type="text" class="form-control" id="lastname" placeholder="Last name" aria-label="Last name" name="entry.634429040" data-error="Please enter your last name." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
+			</div>
+		</fieldset>
+
+		<fieldset class="row">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="orgName" placeholder="Company or organization name" aria-label="Company or organization name" name="entry.413719518" data-error="Please enter your company or organization name." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
+			</div>
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="telephone" placeholder="Telephone #" name="entry.1967100250" aria-label="Telephone number" data-error="Please enter your telephone number." required>
 				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 				<div class="help-block with-errors"></div>
 			</div>
@@ -68,31 +68,31 @@ private: true
 		<fieldset>
 		<div class="row">
 			<div class="col-sm-6 form-group has-feedback">
-				<input type="text" class="form-control" id="address" placeholder="Street address" name="entry.112046119" data-error="Please enter your address." required>
+				<input type="text" class="form-control" id="address" placeholder="Street address" aria-label="Street address" name="entry.112046119" data-error="Please enter your address." required>
 				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 				<div class="help-block with-errors"></div>
 			</div>
 			<div class="col-sm-6 form-group has-feedback">
-				<input type="text" class="form-control" id="city" placeholder="City" name="entry.510315261" data-error="Please enter your city." required>
-				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-				<div class="help-block with-errors"></div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6 form-group has-feedback">
-				<input type="text" class="form-control" id="state" placeholder="State or province" name="entry.443177162" data-error="Please enter your state or province." required>
-				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-				<div class="help-block with-errors"></div>
-			</div>
-			<div class="col-sm-6 form-group has-feedback">
-				<input type="text" class="form-control typeahead" id="country" placeholder="Country" name="entry.1896895702" data-error="Please enter your country." required>
+				<input type="text" class="form-control" id="city" placeholder="City" aria-label="City" name="entry.510315261" data-error="Please enter your city." required>
 				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 				<div class="help-block with-errors"></div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-6 form-group has-feedback">
-				<input type="text" class="form-control" id="zipcode" placeholder="Zip or postal code" name="entry.888281446" data-error="Please enter your zip or postal code." required>
+				<input type="text" class="form-control" id="state" placeholder="State or province" aria-label="State or province" name="entry.443177162" data-error="Please enter your state or province." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
+			</div>
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control typeahead" id="country" placeholder="Country" aria-label="Country" name="entry.1896895702" data-error="Please enter your country." required>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 form-group has-feedback">
+				<input type="text" class="form-control" id="zipcode" placeholder="Zip or postal code" aria-label="Zip or postal code" name="entry.888281446" data-error="Please enter your zip or postal code." required>
 				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 				<div class="help-block with-errors"></div>
 			</div>

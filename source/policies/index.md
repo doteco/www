@@ -1,6 +1,6 @@
 ---
 title: .eco - Policies
-description: Registrar and Corporate policies for the .eco registry.
+description: Registry policies for the .eco registry.
 page-path: policies/
 og-image: opengraph/windmill-sunflowers-og.jpg
 active: policies
