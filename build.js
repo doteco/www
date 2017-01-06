@@ -41,6 +41,7 @@ console.log('Using options:', options);
 
 let ms = Metalsmith(__dirname)
   .metadata({
+    "year": new Date().getFullYear(),
     "img-root": "/img",
     "site-url": options["site-url"],
     "twitter-id": "@doteco",
