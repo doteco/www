@@ -1,46 +1,27 @@
 #doteco {
 	.launch-timeline {
-		.nav-tabs {
-			.tab-header:after {
-			    content: "\f078";
-			    font-family: FontAwesome;
-			    margin-left: 1em;
-			}
-			.active .tab-header:after {
-			    content: "\f077";
-			    font-family: FontAwesome;
-			    margin-left: 1em;
-			}
+		h3 {
+			margin-bottom: 0;
+		}
 
-			a {
-				border: none;
-				color: $doteco-sapphire;
-				font-weight: bold;
-
-				i {
-					margin-left: 1em;
-				}
-			}
-			img {
-				width: 50%;
-				margin: auto;
-				margin-top: 2em;
-				margin-bottom: 3em;
-			}
-			.clock-icon {
-				width: 35%;
-				margin-bottom: 2em;
-			}
-			.www-icon {
-				width: 40%;
-			}
-			.fa-chevron-right {
-				position: absolute;
-				top: 1.7em;
-				font-size: 2.2em;
-				right: -0.4em;
-				color: $doteco-charcoal;
-			}
+		img {
+			width: 50%;
+			margin: auto;
+			margin-top: 2em;
+			margin-bottom: 3em;
+		}
+		.clock-icon {
+			width: 35%;
+			margin-bottom: 2em;
+		}
+		.www-icon {
+			width: 40%;
+		}
+		.fa-chevron-down {
+			text-align: center;
+			display: block;
+			font-size: 2.2em;
+			color: $doteco-charcoal;
 		}
 
 		.tab-content {

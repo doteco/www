@@ -98,7 +98,7 @@ if (options.watch) {
   .use(watch({
     paths: {
       "${source}/**/*": true,
-      "scss/**/*": "main.scss",
+      "scss/**/*": "{main.scss,**/*.html}",
       "layouts/**/*": "**/*.html"
     },
     livereload: true
