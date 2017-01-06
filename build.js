@@ -19,17 +19,20 @@ const env_options = {
   DEV: {
     "ga-tracking-id": "UA-2825422-15",
     "site-url": "http://localhost:8080",
-    "watch": true
+    "watch": true,
+    "pixel": false
   },
   TST: {
     "ga-tracking-id": "UA-2825422-15",
     "site-url": "http://test.home.eco",
-    "watch": false
+    "watch": false,
+    "pixel": false
   },
   PRD: {
     "ga-tracking-id": "UA-2825422-14",
     "site-url": "https://home.eco",
-    "watch": false
+    "watch": false,
+    "pixel": true
   }
 }
 
@@ -42,7 +45,8 @@ let ms = Metalsmith(__dirname)
     "site-url": options["site-url"],
     "twitter-id": "@doteco",
     "ga-tracking-id": options["ga-tracking-id"],
-    "livereload": options.watch
+    "livereload": options.watch,
+    "pixel": options.pixel
   })
   .source('./source')
   .destination('./public/')
