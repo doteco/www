@@ -7,32 +7,57 @@ active: home
 changefreq: daily
 priority: 1
 ---
+<div class ="carousel" id="carousel-example-generic" data-ride="carousel" data-interval="false">
 
-<div class="section home-hero jumbotron">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-8 col-md-6">
-				<h2>Be the first to know</h2>
-				<p class="subheader">Sign up today to make sure you know all the latest about .eco.</p>
+	<ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	</ol>
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<div class="section home-hero jumbotron">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-6">
+							<h2>Be the first to know</h2>
+							<p class="subheader">Sign up today to make sure you know all the latest about .eco.</p>
+						</div>
+					</div>
+
+					<form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="underlined-form home-form iframe-form" action="//eco.us2.list-manage.com/subscribe/post?u=cb974a25e9eebd219a5ee132b&amp;id=61dc9a1d7c" target="home-form-iframe" method="post">
+						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cb974a25e9eebd219a5ee132b_61dc9a1d7c" tabindex="-1" value=""></div>
+						<fieldset class="row">
+							<div class="col-sm-6 col-md-4 form-group has-feedback">
+								<input type="email" class="form-control " name="EMAIL" size="25" id="mce-EMAIL" placeholder="Enter your email..." aria-label="Email address" title="Email" data-error="Please enter a valid email address." required>
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="col-sm-4 col-md-3">
+								<button type="submit" class="btn btn-primary submit-subscriber" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Registering">Register your interest</button>
+							</div>
+						</fieldset>
+					</form>
+				</div>
 			</div>
 		</div>
 
-		<form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="underlined-form home-form iframe-form" action="//eco.us2.list-manage.com/subscribe/post?u=cb974a25e9eebd219a5ee132b&amp;id=61dc9a1d7c" target="home-form-iframe" method="post">
-			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cb974a25e9eebd219a5ee132b_61dc9a1d7c" tabindex="-1" value=""></div>
-			<fieldset class="row">
-				<div class="col-sm-6 col-md-4 form-group has-feedback">
-					<input type="email" class="form-control " name="EMAIL" size="25" id="mce-EMAIL" placeholder="Enter your email..." aria-label="Email address" title="Email" data-error="Please enter a valid email address." required>
-					<div class="help-block with-errors"></div>
-				</div>
-				<div class="col-sm-4 col-md-3">
-					<button type="submit" class="btn btn-primary submit-subscriber" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Registering">Register your interest</button>
-				</div>
-			</fieldset>
-		</form>
+		<div class="item jumbotron ">
+			<div class="container">
+
+			</div>
+		</div>
+
+
 	</div>
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		 </a>
+		 <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		 </a>
 </div>
 
 <iframe id="home-form-iframe" name="home-form-iframe" class="iframe-form-iframe hidden"></iframe>
+
 
 <div id="home-confirmation-alert" class="alert alert-dismissible fade confirmation-alert collapse" role="alert" aria-expanded="false">
 	<button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#home-confirmation-alert" aria-expanded="false">
