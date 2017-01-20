@@ -20,6 +20,12 @@
 			display: block;
 		}
 
+		.climate-smart {
+			height: 8ex;
+			margin: 1rem auto;
+			display: block;
+		}
+
 		ul {
 			text-align: center;
 			font-size: 80%;
@@ -37,6 +43,11 @@
 			.bcorp-logo {
 				display: inline-block;
 			}
+
+			.climate-smart {
+				display: inline-block;
+			}
+
 			.copyright, ul {
 				text-align: left;
 			}
