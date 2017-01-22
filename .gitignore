@@ -10,6 +10,7 @@ node_modules
 
 # Optional npm cache directory
 .npm
+yarn.lock
 
 public/index.html
 public/404.html
