@@ -52,6 +52,11 @@ TODO: text has an outline... bootstrap var?
 		.active a {
 			color: $doteco-citrine;
 			background: none;
+
+			li a {
+				color:white;
+			}
+
 		}
 
 		.navbar-brand img {
@@ -71,6 +76,26 @@ TODO: text has an outline... bootstrap var?
 			}
 			img {
 				height: 25px;
+			}
+		}
+
+		.dropdown {
+			ul {
+				background-color:$doteco-ruby;
+
+			}
+
+			.dropdown-toggle{
+				background-color:$doteco-ruby;
+				}
+
+			a:hover{
+				background-color:$doteco-ruby;
+				color: $doteco-citrine;
+			}
+
+			.dropdown-link{
+				color: white;
 			}
 		}
 

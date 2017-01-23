@@ -12,8 +12,16 @@
 				</a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li class="{{#equal active "registrars"}}active{{/equal}}"><a href="/registrars/">Registrars</a></li>
+				<ul class="nav navbar-nav">		
+					<li class="dropdown {{#equal active "registrars"}}active{{/equal}}">
+			          <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registrars <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a class="dropdown-link" href="/registrars">Registrars</a></li>
+			            <li><a class="dropdown-link" href="/registrars/funding">Funding</a></li>
+			            <li><a class="dropdown-link" href="/registrars/policies">Policies</a></li>
+			            <li><a class="dropdown-link" href="/registrars/resources">Resources</a></li>
+			          </ul>
+			        </li>
 					<li class="{{#equal active "grants"}}active{{/equal}}"><a href="/grants/">Domain Grants</a></li>
 					<li><a href="https://news.home.eco/">News</a></li>
 					<li class="{{#equal active "faq"}}active{{/equal}}"><a href="/faq/">FAQ</a></li>
