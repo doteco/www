@@ -112,4 +112,29 @@
 			height: auto;
 		}
 	}
+
+	.home-jumbo {
+		background-color: $doteco-sapphire;
+
+		.container {
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
+
+		.subheader {
+			color: $doteco-citrine;
+		}
+
+		.btn-primary {
+			background-color: $doteco-citrine;
+			font-weight: bold;
+			padding: 1em;
+			color: $doteco-charcoal;
+		}
+
+		.btn-primary:hover {
+			background-color: white;
+		}
+
+	}
 }
