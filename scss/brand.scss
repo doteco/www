@@ -13,9 +13,7 @@ $doteco-marrow: #EAECE6;
 $doteco-amethyst: #501D4C;
 $doteco-fireopal: #FE7635;
 
-
 #doteco {
-
 	body {
 		color: $doteco-charcoal;
 		font-family: $font-body;
@@ -210,6 +208,7 @@ $doteco-fireopal: #FE7635;
 		.has-error .form-control {
 			border-color: $doteco-ruby;
 		}
+
 		.has-error .help-block {
 			color: $doteco-ruby;
 		}
@@ -217,6 +216,7 @@ $doteco-fireopal: #FE7635;
 		.form-control-feedback {
 			right: 0.5em;
 		}
+
 		.form-control:focus {
 			box-shadow: 0 4px 2px -2px gray;
 		}
@@ -224,6 +224,7 @@ $doteco-fireopal: #FE7635;
 		.btn.focus {
 			outline: 5px auto $doteco-fireopal;
 		}
+
 		.btn.disabled {
 			opacity: 0.8;
 		}
@@ -231,10 +232,12 @@ $doteco-fireopal: #FE7635;
 
 	.twitter-typeahead {
 		width: 100%;
+
 		.tt-menu {
 			background-color: white;
 			width: 100%;
 		}
+
 		.tt-selectable:hover, .tt-cursor {
 			background-color: #403B3E;
 			color: white;
