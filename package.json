@@ -23,12 +23,12 @@
     "metalsmith-sitemap": "1.2.0",
     "metalsmith-watch": "1.0.3",
     "node-fs-extra": "0.8.1",
-    "sass-lint": "1.10.2"
+    "stylelint": "7.7.1"
   },
   "scripts": {
     "build": "node ./build.js",
     "minify": "node ./imagemin.js",
-    "sass:lint": "sass-lint 'scss/*.scss' -v -q",
+    "stylelint": "stylelint 'scss/*.scss' --syntax scss",
     "test": "npm run build",
     "validate": "node ./html-validate.js"
   },
