@@ -1,0 +1,29 @@
+#doteco {
+	.policies-jumbo {
+		background-image: url('/img/windmill-hill-brown.jpeg');
+		background-size: cover;
+	}
+
+	.criteria-icon {
+		margin: auto;
+		width: 4em;
+		height: 4em;
+	}
+
+	.file-icon {
+		margin: auto;
+		height: 3em;
+	}
+
+	.button-panel {
+		a {
+			color: $doteco-sapphire;
+		}
+	}
+
+	.registrar-header {
+		h1 {
+			color: $doteco-sapphire;
+		}
+	}
+}
