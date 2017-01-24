@@ -2,6 +2,7 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "color-hex-case": null,
+    "declaration-no-important": true,
     "font-family-name-quotes": "always-where-recommended",
     "function-url-quotes": "always",
     "indentation": "tab",
@@ -12,6 +13,7 @@
     }],
     "selector-attribute-quotes": "always",
     "selector-list-comma-newline-after": "always-multi-line",
+    "selector-max-compound-selectors": 3,
     "string-quotes": "single"
   }
 }
