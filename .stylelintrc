@@ -3,8 +3,14 @@
   "rules": {
     "color-hex-case": null,
     "font-family-name-quotes": "always-where-recommended",
+    "function-url-quotes": "always",
     "indentation": "tab",
     "no-missing-end-of-source-newline": null,
-    "selector-list-comma-newline-after": "always-multi-line"
+    "no-unsupported-browser-features": [true, {
+      "browsers": "> 1%, last 2 versions, not OperaMini all, ie >= 9"
+    }],
+    "selector-attribute-quotes": "always",
+    "selector-list-comma-newline-after": "always-multi-line",
+    "string-quotes": "single"
   }
 }
