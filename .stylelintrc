@@ -2,6 +2,7 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "color-hex-case": null,
+    "font-family-name-quotes": "always-where-recommended",
     "indentation": "tab",
     "no-missing-end-of-source-newline": null,
     "selector-list-comma-newline-after": "always-multi-line"

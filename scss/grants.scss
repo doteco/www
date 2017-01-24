@@ -11,8 +11,9 @@
 
 	.section-grants-quotes {
 		.leaf-icon {
-			margin-top: 2em;
 			@include transform(rotate(30deg));
+
+			margin-top: 2em;
 			float: right;
 			width: 70%;
 		}
@@ -32,6 +33,7 @@
 		.grants-logos {
 			margin: 1em 0;
 		}
+
 		.img-responsive {
 			margin: auto;
 			padding: 1em;
@@ -40,12 +42,15 @@
 		.img-square {
 			width: 50%;
 		}
+
 		.img-rectangle {
 			width: 75%;
 		}
+
 		.logo-greenpeace {
 			padding-top: 60px;
 		}
+
 		.logo-ran {
 			width: 60%;
 		}
@@ -55,6 +60,7 @@
 		.section {
 			display: none;
 		}
+
 		&:lang(en) .section:lang(en), &:lang(fr) .section:lang(fr), &:lang(de) .section:lang(de), &:lang(es) .section:lang(es) {
 			display: block;
 		}
