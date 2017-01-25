@@ -1,3 +1,4 @@
+/* stylelint-disable indentation  */
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -10,10 +11,11 @@
 	     -o-transform: $transforms;
 	    -ms-transform: $transforms;
 	-webkit-transform: $transforms;
-          transform: $transforms;
+            transform: $transforms;
 }
+/* stylelint-enable */
 
 // rotate
 @mixin rotate ($deg) {
-  @include transform(rotate(#{$deg}deg));
+	@include transform(rotate(#{$deg}deg));
 }

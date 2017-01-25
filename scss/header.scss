@@ -1,12 +1,4 @@
-/*
-
-TODO: text has an outline... bootstrap var?
-
-*/
-
-
 #doteco {
-
 	color: $doteco-charcoal;
 
 	.bordered-box {
@@ -52,6 +44,10 @@ TODO: text has an outline... bootstrap var?
 		.active a {
 			color: $doteco-citrine;
 			background: none;
+
+			li a {
+				color: white;
+			}
 		}
 
 		.navbar-brand img {
@@ -69,8 +65,30 @@ TODO: text has an outline... bootstrap var?
 				padding: 0 3px;
 				display: inline-block;
 			}
+
 			img {
 				height: 25px;
+			}
+		}
+
+		.dropdown {
+			ul {
+				background-color: $doteco-ruby;
+			}
+
+			.dropdown-toggle {
+				background-color: $doteco-ruby;
+			}
+
+			a:hover {
+				background-color: $doteco-ruby;
+				color: $doteco-citrine;
+			}
+
+			.dropdown-link {
+				color: white;
+				margin-bottom: 5px;
+				padding: 3px 25px;
 			}
 		}
 
@@ -86,10 +104,8 @@ TODO: text has an outline... bootstrap var?
 				display: inline;
 			}
 
-			.social {
-				a {
-					padding-top: 1em;
-				}
+			.social a {
+				padding-top: 1em;
 			}
 		}
 	}

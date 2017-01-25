@@ -1,6 +1,6 @@
 // Fonts
-$font-body: "Lato", sans-serif;
-$font-header: "Open Sans", sans-serif;
+$font-body: 'Lato', sans-serif;
+$font-header: 'Open Sans', sans-serif;
 $font-header-weight: 700;
 $font-subheader-weight: 300;
 
@@ -13,17 +13,15 @@ $doteco-marrow: #EAECE6;
 $doteco-amethyst: #501D4C;
 $doteco-fireopal: #FE7635;
 
-
 #doteco {
-
 	body {
-		font-family: $font-body;
 		color: $doteco-charcoal;
+		font-family: $font-body;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-	  font-family: $font-header;
-	  font-weight: $font-header-weight;
+		font-family: $font-header;
+		font-weight: $font-header-weight;
 	}
 
 	.subheader, blockquote {
@@ -73,8 +71,8 @@ $doteco-fireopal: #FE7635;
 
 	@media (min-width: 1200px) {
 		.container {
-    		width: 970px;
-    	}
+			width: 970px;
+		}
 	}
 
 	body, h4, h5 {
@@ -83,7 +81,7 @@ $doteco-fireopal: #FE7635;
 
 	form button {
 		background-color: $doteco-fireopal;
-		border: none;
+		border: 0;
 	}
 
 	h1, h2, h3, h4, h5 {
@@ -115,6 +113,7 @@ $doteco-fireopal: #FE7635;
 			color: white;
 		}
 	}
+
 	.hero-caption {
 		float: right;
 		font-size: small;
@@ -132,7 +131,7 @@ $doteco-fireopal: #FE7635;
 		form {
 			button {
 				background-color: $doteco-fireopal;
-				border: none;
+				border: 0;
 			}
 
 			button:hover {
@@ -209,6 +208,7 @@ $doteco-fireopal: #FE7635;
 		.has-error .form-control {
 			border-color: $doteco-ruby;
 		}
+
 		.has-error .help-block {
 			color: $doteco-ruby;
 		}
@@ -216,6 +216,7 @@ $doteco-fireopal: #FE7635;
 		.form-control-feedback {
 			right: 0.5em;
 		}
+
 		.form-control:focus {
 			box-shadow: 0 4px 2px -2px gray;
 		}
@@ -223,6 +224,7 @@ $doteco-fireopal: #FE7635;
 		.btn.focus {
 			outline: 5px auto $doteco-fireopal;
 		}
+
 		.btn.disabled {
 			opacity: 0.8;
 		}
@@ -230,10 +232,12 @@ $doteco-fireopal: #FE7635;
 
 	.twitter-typeahead {
 		width: 100%;
+
 		.tt-menu {
 			background-color: white;
 			width: 100%;
 		}
+
 		.tt-selectable:hover, .tt-cursor {
 			background-color: #403B3E;
 			color: white;
