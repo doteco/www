@@ -138,10 +138,21 @@
 		}
 	}
 
-	.icon-row img {
-		height: 7em;
-		width: 7em;
-		margin-top: 3em;
+	.icon-row {
+		margin-top: 1.5em;
 		margin-bottom: 1em;
+
+		p {
+			margin-top: 0.5em;
+		}
+
+		img {
+			height: 5em;
+			margin-bottom: 0.5em;
+		}
+
+		.icon-text {
+			margin-top: 1.5em;
+		}
 	}
 }
