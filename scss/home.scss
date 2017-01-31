@@ -104,13 +104,21 @@
 
 		.img-responsive {
 			margin: auto;
-			padding: 1em;
-			height: 130px;
+			vertical-align: middle;
+			margin-bottom: 10px;
 		}
 
-		.logo-greenpeace {
-			padding-top: 50px;
-			height: auto;
+		.logo-wbcsd {
+			padding: 10px 0;
+		}
+
+		.logo-gri {
+			height: 90px;
+		}
+
+		.logo-cdp {
+			padding-top: 10px;
+			height: 80px;
 		}
 	}
 
