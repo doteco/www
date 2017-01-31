@@ -9,6 +9,16 @@
 		}
 	}
 
+	.champion-header {
+		background-color: $doteco-sapphire;
+	}
+
+	.champion-summary {
+		a {
+			color: $doteco-sapphire;
+		}
+	}
+
 	.champion-terms {
 		dt {
 			float: left;
