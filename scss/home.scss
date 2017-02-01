@@ -1,7 +1,5 @@
 #doteco {
 	.carousel {
-		background-color: $doteco-sapphire;
-
 		.container {
 			margin-top: 4em;
 			margin-bottom: 3em;
@@ -30,7 +28,6 @@
 		.item {
 			height: 400px;
 			background-size: cover;
-			background-attachment: local;
 		}
 
 		a {
@@ -52,7 +49,7 @@
 			}
 
 			.home-business {
-				background-size: 800px;
+				background-size: 130vh;
 			}
 		}
 	}
@@ -76,10 +73,6 @@
 			color: $doteco-charcoal;
 			margin-top: 0.5em;
 		}
-	}
-
-	.home-all {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/img/carousel/hands-cropped.jpg');
 	}
 
 	.home-business {
