@@ -29,6 +29,8 @@
 
 		.item {
 			height: 400px;
+			background-size: cover;
+			background-attachment: local;
 		}
 
 		a {
@@ -36,15 +38,17 @@
 		}
 
 		@media (max-width: 768px) {
+			.container {
+				margin-top: 2em;
+				margin-bottom: 3em;
+			}
+
 			.carousel-control {
 				height: 60px;
 				width: 40%;
 				top: 85%;
 				background-image: none;
-			}
-
-			a {
-				height: 30px;
+				z-index: 1000;
 			}
 		}
 	}
@@ -72,27 +76,22 @@
 
 	.home-all {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/img/carousel/hands-cropped.jpg');
-		background-size: cover;
 	}
 
 	.home-business {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/qure9nsy_cm-lukas-budimaier.jpg');
-		background-size: cover;
 	}
 
 	.home-government {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/iStock-490400454.jpg');
-		background-size: cover;
 	}
 
 	.home-people {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-people-cropped.jpg');
-		background-size: cover;
 	}
 
 	.home-you {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-you2-cropped.jpeg');
-		background-size: cover;
 	}
 
 	.section-label {
