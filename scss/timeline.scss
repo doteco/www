@@ -5,19 +5,10 @@
 		}
 
 		img {
-			width: 50%;
+			width: 60%;
 			margin: auto;
-			margin-top: 2em;
-			margin-bottom: 3em;
-		}
-
-		.clock-icon {
-			width: 35%;
+			margin-top: 1em;
 			margin-bottom: 2em;
-		}
-
-		.www-icon {
-			width: 40%;
 		}
 
 		.fa-chevron-down {
@@ -25,6 +16,11 @@
 			display: block;
 			font-size: 2.2em;
 			color: $doteco-charcoal;
+		}
+
+		.clock-icon {
+			width: 55%;
+			margin-top: 2em;
 		}
 
 		.tab-content {
