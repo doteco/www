@@ -53,6 +53,16 @@
 				background-size: 130vh;
 			}
 		}
+
+		@media (max-width: 1160px) and (min-width: 768px) {
+			.carousel-control {
+				height: 60px;
+				width: 40%;
+				top: 80%;
+				background-image: none;
+				z-index: 1000;
+			}
+		}
 	}
 
 	.sunrise {
@@ -77,18 +87,22 @@
 	}
 
 	.home-business {
+		background-image: url('/img/carousel/qure9nsy_cm-lukas-budimaier.jpg');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/qure9nsy_cm-lukas-budimaier.jpg');
 	}
 
 	.home-government {
+		background-image: url('/img/carousel/iStock-490400454.jpg');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/iStock-490400454.jpg');
 	}
 
 	.home-people {
+		background-image: url('/img/carousel/for-people-cropped.jpg');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-people-cropped.jpg');
 	}
 
 	.home-you {
+		background-image: url('/img/carousel/for-you2-cropped.jpeg');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-you2-cropped.jpeg');
 	}
 
