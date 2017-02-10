@@ -37,17 +37,16 @@
 			color: white;
 		}
 
-		a:hover {
-			color: $doteco-citrine;
+		.navbar-links {
+			a:hover {
+				color: $doteco-ruby;
+				background-color: $doteco-marrow;
+			}
 		}
 
-		.active a {
-			color: $doteco-citrine;
-			background: none;
-
-			li a {
-				color: white;
-			}
+		.active {
+			color: $doteco-ruby;
+			background: $doteco-marrow;
 		}
 
 		.navbar-brand img {
@@ -73,22 +72,29 @@
 
 		.dropdown {
 			ul {
-				background-color: $doteco-ruby;
-			}
-
-			.dropdown-toggle {
-				background-color: $doteco-ruby;
+				background-color: $doteco-marrow;
 			}
 
 			a:hover {
-				background-color: $doteco-ruby;
-				color: $doteco-citrine;
+				background-color: $doteco-marrow;
+				color: $doteco-ruby;
 			}
 
 			.dropdown-link {
-				color: white;
+				color: black;
 				margin-bottom: 5px;
-				padding: 3px 25px;
+				padding: 3px 15px;
+			}
+
+			.dropdown-menu {
+				border: none;
+			}
+		}
+
+		.open {
+			.dropdown-toggle {
+				background-color: $doteco-marrow;
+				color: $doteco-ruby;
 			}
 		}
 
@@ -106,6 +112,20 @@
 
 			.social a {
 				padding-top: 1em;
+			}
+		}
+
+		@media only screen and (max-width: 768px) {
+			.dropdown-link {
+				font-size: 0.7em;
+			}
+
+			.navbar-links li {
+				text-align: left;
+			}
+
+			.navbar-links {
+				margin-top: 0;
 			}
 		}
 	}
