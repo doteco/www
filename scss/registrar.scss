@@ -9,6 +9,13 @@
 		}
 	}
 
+	.registrar-header {
+		color: white;
+		background-image: url('/img/iStock-603187076-header.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/iStock-603187076-header.jpg');
+		background-size: cover;
+	}
+
 	.registrar-why {
 		img {
 			height: 120px;
@@ -28,7 +35,7 @@
 
 	.registrar-resource {
 		width: 100%;
-		margin: 0.5em;
+		margin: 0.5em 0;
 		padding: 2em;
 		text-align: center;
 		white-space: normal;

@@ -81,7 +81,8 @@ let ms = Metalsmith(__dirname)
     svgo: { }
   }))
   .use(redirect({
-    '/registrar': '/registrars'
+    '/registrar': '/registrars',
+    '/policies' : '/registrars/policies'
   }))
   .use(sitemap({
     hostname: options["site-url"],

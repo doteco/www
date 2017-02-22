@@ -29,7 +29,7 @@
   "scripts": {
     "build": "node ./build.js",
     "minify": "node ./imagemin.js",
-    "stylelint": "stylelint 'scss/*.scss' --syntax scss",
+    "stylelint": "stylelint 'scss/*.scss' --syntax scss || true",
     "test": "npm run build",
     "validate": "node ./html-validate.js"
   },

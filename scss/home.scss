@@ -1,33 +1,19 @@
 #doteco {
-	#carousel-home .jumbotron {
-		height: 560px;
-	}
-
-	.home-hero {
-		background-image: url('/img/home/beach-trash-hero.jpg');
-		background-size: cover;
-
+	.carousel {
 		.container {
-			margin-top: 3em;
+			margin-top: 4em;
 			margin-bottom: 3em;
 		}
 
-		p {
-			margin-bottom: 1em;
-		}
-
-		.underlined-form .form-control {
-			color: white;
-			border-bottom: 2px solid white;
-			margin-top: 1em;
-			margin-bottom: 1em;
+		.subheader {
+			color: $doteco-citrine;
+			font-size: 1.7em;
 		}
 
 		.btn-primary {
 			background-color: $doteco-citrine;
 			font-weight: bold;
 			padding: 1em;
-			width: 100%;
 			color: $doteco-charcoal;
 		}
 
@@ -35,10 +21,89 @@
 			background-color: white;
 		}
 
-		.form-control::-webkit-input-placeholder { color: white; }
-		.form-control:-moz-placeholder { color: white; }
-		.form-control::-moz-placeholder { color: white; }
-		.form-control:-ms-input-placeholder { color: white; }
+		h1 {
+			color: white;
+		}
+
+		.item {
+			height: 400px;
+			background-size: cover;
+		}
+
+		a {
+			color: $doteco-citrine;
+		}
+
+		@media (max-width: 768px) {
+			.container {
+				margin-top: 2em;
+				margin-bottom: 3em;
+			}
+
+			.carousel-control {
+				height: 60px;
+				width: 40%;
+				top: 85%;
+				background-image: none;
+				z-index: 1000;
+			}
+
+			.home-business {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/qure9nsy_cm-lukas-budimaier-mobile.jpeg');
+				background-size: 130vh;
+			}
+		}
+
+		@media (max-width: 1160px) and (min-width: 768px) {
+			.carousel-control {
+				height: 60px;
+				width: 40%;
+				top: 80%;
+				background-image: none;
+				z-index: 1000;
+			}
+		}
+	}
+
+	.sunrise {
+		background-color: $doteco-sapphire;
+		padding: 2em;
+
+		h3 {
+			color: white;
+			margin: 0;
+		}
+
+		p {
+			color: white;
+			font-size: 1.5em;
+		}
+
+		.btn-primary {
+			background-color: $doteco-citrine;
+			color: $doteco-charcoal;
+			margin-top: 0.5em;
+		}
+	}
+
+	.home-business {
+		background-image: url('/img/carousel/qure9nsy_cm-lukas-budimaier.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/qure9nsy_cm-lukas-budimaier.jpg');
+	}
+
+	.home-government {
+		background-image: url('/img/carousel/iStock-490400454.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/iStock-490400454.jpg');
+	}
+
+	.home-people {
+		background-image: url('/img/carousel/for-people-cropped.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-people-cropped.jpg');
+	}
+
+	.home-you {
+		background-image: url('/img/carousel/for-you2-cropped.jpeg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-you2-cropped.jpeg');
 	}
 
 	.section-label {
@@ -104,37 +169,39 @@
 
 		.img-responsive {
 			margin: auto;
-			padding: 1em;
-			height: 130px;
+			vertical-align: middle;
+			margin-bottom: 10px;
 		}
 
-		.logo-greenpeace {
-			padding-top: 50px;
-			height: auto;
+		.logo-wbcsd {
+			padding: 10px 0;
+		}
+
+		.logo-gri {
+			height: 90px;
+		}
+
+		.logo-cdp {
+			padding-top: 10px;
+			height: 80px;
 		}
 	}
 
-	.home-jumbo {
-		background-color: $doteco-sapphire;
+	.icon-row {
+		margin-top: 1.5em;
+		margin-bottom: 1em;
 
-		.container {
-			margin-top: 3em;
-			margin-bottom: 3em;
+		p {
+			margin-top: 0.5em;
 		}
 
-		.subheader {
-			color: $doteco-citrine;
+		img {
+			height: 5em;
+			margin-bottom: 0.5em;
 		}
 
-		.btn-primary {
-			background-color: $doteco-citrine;
-			font-weight: bold;
-			padding: 1em;
-			color: $doteco-charcoal;
-		}
-
-		.btn-primary:hover {
-			background-color: white;
+		.icon-text {
+			margin-top: 1.5em;
 		}
 	}
 }

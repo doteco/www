@@ -60,3 +60,10 @@ By default, all commits are made to the *master* branch. To promote changes to t
 2. In the directory where the repo was cloned into, run `npm install`
 3. In the same directory, run `npm run build`
 4. Browse to [http://localhost:8080](http://localhost:8080)
+
+### Coding Standards
+
+For CSS/SCSS, we are using [stylelint](https://stylelint.io/) to ensure that our CSS stays clean and error-free. Please run `npm run stylelint` before committing after making changes to the stylesheets and correct any violations you notice. There is a [stylelint plugin for Sublime](https://github.com/kungfusheep/SublimeLinter-contrib-stylelint) that helps ensure that violations are caught directly in the editor.
+
+We are using a stylelint rule set, specified in .stylelintrc, that are based on [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard). We may add additional rules (property ordering, etc) as we move forward.
+
