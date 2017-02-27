@@ -1,53 +1,53 @@
-const Metalsmith  = require('metalsmith');
-const discoverHelpers = require('metalsmith-discover-helpers');
-const imagemin = require('metalsmith-imagemin/lib/node6');
-const inplace     = require('metalsmith-in-place');
-const fingerprint = require('metalsmith-fingerprint-ignore');
-const layouts     = require('metalsmith-layouts');
-const markdown = require('metalsmith-markdownit');
-const sass = require('metalsmith-sass');
-const serve = require('metalsmith-serve');
-const sitemap = require('metalsmith-sitemap');
-const redirect = require('metalsmith-redirect');
-const robots = require('metalsmith-robots');
-const watch = require('metalsmith-watch');
+const Metalsmith = require('metalsmith')
+const discoverHelpers = require('metalsmith-discover-helpers')
+const imagemin = require('metalsmith-imagemin/lib/node6')
+const inplace = require('metalsmith-in-place')
+const fingerprint = require('metalsmith-fingerprint-ignore')
+const layouts = require('metalsmith-layouts')
+const markdown = require('metalsmith-markdownit')
+const sass = require('metalsmith-sass')
+const serve = require('metalsmith-serve')
+const sitemap = require('metalsmith-sitemap')
+const redirect = require('metalsmith-redirect')
+const robots = require('metalsmith-robots')
+const watch = require('metalsmith-watch')
 
-let env = process.env.NODE_ENV || 'DEV';
-console.log('Building for environment:', env);
+let env = process.env.NODE_ENV || 'DEV'
+console.log('Building for environment:', env)
 
 const env_options = {
   DEV: {
-    "ga-tracking-id": "UA-2825422-15",
-    "site-url": "http://localhost:8080",
-    "watch": true,
-    "pixel": false
+    'ga-tracking-id': 'UA-2825422-15',
+    'site-url': 'http://localhost:8080',
+    'watch': true,
+    'pixel': false
   },
   TST: {
-    "ga-tracking-id": "UA-2825422-15",
-    "site-url": "http://test.home.eco",
-    "watch": false,
-    "pixel": false
+    'ga-tracking-id': 'UA-2825422-15',
+    'site-url': 'http://test.home.eco',
+    'watch': false,
+    'pixel': false
   },
   PRD: {
-    "ga-tracking-id": "UA-2825422-14",
-    "site-url": "https://home.eco",
-    "watch": false,
-    "pixel": true
+    'ga-tracking-id': 'UA-2825422-14',
+    'site-url': 'https://home.eco',
+    'watch': false,
+    'pixel': true
   }
 }
 
-let options = env_options[env];
-console.log('Using options:', options);
+let options = env_options[env]
+console.log('Using options:', options)
 
 let ms = Metalsmith(__dirname)
   .metadata({
-    "year": new Date().getFullYear(),
-    "img-root": "/img",
-    "site-url": options["site-url"],
-    "twitter-id": "@doteco",
-    "ga-tracking-id": options["ga-tracking-id"],
-    "livereload": options.watch,
-    "pixel": options.pixel
+    'year': new Date().getFullYear(),
+    'img-root': '/img',
+    'site-url': options['site-url'],
+    'twitter-id': '@doteco',
+    'ga-tracking-id': options['ga-tracking-id'],
+    'livereload': options.watch,
+    'pixel': options.pixel
   })
   .source('./source')
   .destination('./public/')
@@ -57,7 +57,7 @@ let ms = Metalsmith(__dirname)
   }))
   .use(sass({
     includePaths: ['./scss'],
-    outputDir: 'css',
+    outputDir: 'css'
   }))
   .use(fingerprint({
     pattern: 'css/main.css'
@@ -67,50 +67,52 @@ let ms = Metalsmith(__dirname)
   }))
   .use(layouts({
     engine: 'handlebars',
-    partials: "layouts/partials",
+    partials: 'layouts/partials',
     default: 'default.html',
-    pattern: "**/*.html"
+    pattern: '**/*.html'
   }))
   .use(inplace({
     engine: 'handlebars',
-    pattern: "**/*.html"
+    pattern: '**/*.html'
   }))
   .use(imagemin({
-    mozjpeg: { },
+    mozjpeg: {
+      quality: 40
+    },
     pngquant: { },
     svgo: { }
   }))
   .use(redirect({
     '/registrar': '/registrars',
-    '/policies' : '/registrars/policies'
+    '/policies': '/registrars/policies'
   }))
   .use(sitemap({
-    hostname: options["site-url"],
+    hostname: options['site-url'],
     omitIndex: true
   }))
   .use(robots({
     disallow: ['champions/*', 'mobile/*', 'm/*'],
-    sitemap: options["site-url"] + "sitemap.xml"
-  }));
+    sitemap: options['site-url'] + 'sitemap.xml'
+  }))
 
 if (options.watch) {
   ms.use(serve({
-    "document_root": "public",
+    'document_root': 'public',
     verbose: true,
     http_error_files: {
-      404: "/404.html"
+      404: '/404.html'
     }
   }))
   .use(watch({
     paths: {
-      "${source}/**/*": true,
-      "scss/**/*": "{main.scss,**/*.html}",
-      "layouts/**/*": "**/*.html"
+      '${source}/**/*': true,
+      'scss/**/*': '{main.scss,**/*.html}',
+      'layouts/**/*': '**/*.html'
     },
     livereload: true
   }))
 }
 
-ms.build(function(err, files) {
-    if (err) { throw err; }
-});
+ms.build(function (err, files) {
+  if (err) { throw err }
+})

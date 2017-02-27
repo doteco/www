@@ -5,7 +5,7 @@
   "devDependencies": {
     "handlebars": "4.0.6",
     "html-validator": "2.2.0",
-    "imagemin": "github:stfsy/imagemin",
+    "imagemin": "github:ImageOptimizer/imagemin",
     "imagemin-mozjpeg": "6.0.0",
     "imagemin-pngquant": "5.0.0",
     "jstransformer-handlebars": "1.0.0",
