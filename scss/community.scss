@@ -1,5 +1,12 @@
 #doteco {
 	.community-header {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/activist.jpg');
+		background-size: cover;
+
+		.container {
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
 		h1 {
 			font-size: 4em;
 		}
@@ -7,5 +14,8 @@
 		.subheader {
 			font-size: 1.875em;
 		}
+	}
+	.btn-reserve {
+		width: 16em;
 	}
 }

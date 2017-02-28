@@ -79,10 +79,11 @@ $doteco-fireopal: #FE7635;
 		line-height: 1.56;
 	}
 
-	button {
-		background-color: $doteco-fireopal;
-		border: 0;
-	}
+	.btn-primary {
+        background-color: $doteco-fireopal;
+        border: 0;
+        color: white;
+    }
 
 	h1, h2, h3, h4, h5 {
 		color: $doteco-sapphire;
@@ -128,15 +129,9 @@ $doteco-fireopal: #FE7635;
 			color: $doteco-fireopal;
 		}
 
-		button {
-			background-color: $doteco-fireopal;
-			border: 0;
-		}
-
-		button:hover {
-			background-color: $doteco-charcoal;
-			color: white;
-		}
+        .btn-primary:hover {
+            background-color: $doteco-charcoal;
+        }
 	}
 
 	.confirmation-alert {
