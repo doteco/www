@@ -8,12 +8,14 @@
 			margin-bottom: 3em;
 		}
 
-		h1 {
-			font-size: 4em;
-		}
+		@media (min-width: 768px) {
+			h1 {
+				font-size: 4em;
+			}
 
-		.subheader {
-			font-size: 1.875em;
+			.subheader {
+				font-size: 1.875em;
+			}
 		}
 	}
 }
