@@ -57,7 +57,7 @@ $('#country.typeahead').typeahead({
 				$("body").animate({scrollTop: $(".confirmation-alert").offset().top - 100}, 200);
 				form.find(".submit-application").button("reset");
 				ga('send', 'event', form.attr("id"), 'submit');
-				fbq('track', 'CompleteRegistration');
+				typeof fbq !== 'undefined' && fbq('track', 'CompleteRegistration');
 				submitted = false;
 			}
 		});
