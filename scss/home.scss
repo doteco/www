@@ -48,10 +48,10 @@
 				z-index: 1000;
 			}
 
-			.home-business {
+			/*.home-business {
 				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/qure9nsy_cm-lukas-budimaier-mobile.jpeg');
 				background-size: 130vh;
-			}
+			}*/
 		}
 
 		@media (max-width: 1160px) and (min-width: 768px) {
@@ -87,18 +87,18 @@
 	}
 
 	.home-business {
-		background-image: url('/img/carousel/qure9nsy_cm-lukas-budimaier.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/qure9nsy_cm-lukas-budimaier.jpg');
+		background-image: url('/img/carousel/woman-shopping.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.jpg');
 	}
 
 	.home-government {
-		background-image: url('/img/carousel/iStock-490400454.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/iStock-490400454.jpg');
+		background-image: url('/img/carousel/salish-sea.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/salish-sea.jpg');
 	}
 
 	.home-people {
-		background-image: url('/img/carousel/for-people-cropped.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-people-cropped.jpg');
+		background-image: url('/img/carousel/daniel-fox.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/daniel-fox.jpg');
 	}
 
 	.home-you {
