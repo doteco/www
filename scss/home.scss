@@ -26,7 +26,7 @@
 		}
 
 		.item {
-			height: 400px;
+			height: 450px;
 			background-size: cover;
 		}
 
@@ -34,9 +34,16 @@
 			color: $doteco-citrine;
 		}
 
+		.carousel-link {
+			border: 1px solid $doteco-citrine;
+			border-radius: 20px;
+			padding: 0.5em;
+			margin: auto;
+		}
+
 		@media (max-width: 768px) {
 			.container {
-				margin-top: 2em;
+				margin-top: 1em;
 				margin-bottom: 3em;
 			}
 
@@ -46,6 +53,10 @@
 				top: 85%;
 				background-image: none;
 				z-index: 1000;
+			}
+
+			.item {
+				background-position: center;
 			}
 
 			/*.home-business {
@@ -61,6 +72,10 @@
 				top: 80%;
 				background-image: none;
 				z-index: 1000;
+			}
+
+			.container {
+				margin-top: 2em;
 			}
 		}
 	}
