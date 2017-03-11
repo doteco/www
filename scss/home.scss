@@ -26,7 +26,7 @@
 		}
 
 		.item {
-			height: 400px;
+			height: 450px;
 			background-size: cover;
 		}
 
@@ -34,9 +34,16 @@
 			color: $doteco-citrine;
 		}
 
+		.carousel-link {
+			border: 1px solid $doteco-citrine;
+			border-radius: 20px;
+			padding: 0.5em;
+			margin: auto;
+		}
+
 		@media (max-width: 768px) {
 			.container {
-				margin-top: 2em;
+				margin-top: 1em;
 				margin-bottom: 3em;
 			}
 
@@ -48,10 +55,14 @@
 				z-index: 1000;
 			}
 
-			.home-business {
+			.item {
+				background-position: center;
+			}
+
+			/*.home-business {
 				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/qure9nsy_cm-lukas-budimaier-mobile.jpeg');
 				background-size: 130vh;
-			}
+			}*/
 		}
 
 		@media (max-width: 1160px) and (min-width: 768px) {
@@ -61,6 +72,10 @@
 				top: 80%;
 				background-image: none;
 				z-index: 1000;
+			}
+
+			.container {
+				margin-top: 2em;
 			}
 		}
 	}
@@ -87,18 +102,18 @@
 	}
 
 	.home-business {
-		background-image: url('/img/carousel/qure9nsy_cm-lukas-budimaier.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/qure9nsy_cm-lukas-budimaier.jpg');
+		background-image: url('/img/carousel/woman-shopping.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.jpg');
 	}
 
 	.home-government {
-		background-image: url('/img/carousel/iStock-490400454.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/iStock-490400454.jpg');
+		background-image: url('/img/carousel/salish-sea.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/salish-sea.jpg');
 	}
 
 	.home-people {
-		background-image: url('/img/carousel/for-people-cropped.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-people-cropped.jpg');
+		background-image: url('/img/carousel/daniel-fox.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/daniel-fox.jpg');
 	}
 
 	.home-you {
