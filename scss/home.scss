@@ -10,6 +10,12 @@
 			font-size: 1.7em;
 		}
 
+		.sub-subheader {
+			color: $doteco-citrine;
+			font-weight: 300;
+			font-style: italic;
+		}
+
 		.btn-primary {
 			background-color: $doteco-citrine;
 			font-weight: bold;
@@ -36,9 +42,15 @@
 
 		.carousel-link {
 			border: 1px solid $doteco-citrine;
-			border-radius: 20px;
-			padding: 0.5em;
+			border-radius: 30px;
+			padding: 0.6em 1.5em;
 			margin: auto;
+		}
+
+		.carousel-link:hover {
+			background-color: $doteco-citrine;
+			text-decoration: none;
+			color: white;
 		}
 
 		@media (max-width: 768px) {
@@ -112,8 +124,8 @@
 	}
 
 	.home-people {
-		background-image: url('/img/carousel/daniel-fox.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/daniel-fox.jpg');
+		background-image: url('/img/carousel/daniel-fox2.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/daniel-fox2.jpg');
 	}
 
 	.home-you {
