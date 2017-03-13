@@ -36,9 +36,15 @@
 
 		.carousel-link {
 			border: 1px solid $doteco-citrine;
-			border-radius: 20px;
-			padding: 0.5em;
+			border-radius: 30px;
+			padding: 0.6em 1.5em;
 			margin: auto;
+		}
+
+		.carousel-link:hover {
+			background-color: $doteco-citrine;
+			text-decoration: none;
+			color: white;
 		}
 
 		@media (max-width: 768px) {
