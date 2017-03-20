@@ -39,4 +39,38 @@
 			list-style: none;
 		}
 	}
+
+	.champions-logo {
+		border-style: solid;
+		border-width: 1px;
+		border-color: $doteco-charcoal;
+		padding: 1rem 1rem;
+		height: auto;
+
+		.champions-url {
+			color: $doteco-charcoal;
+			text-align: center;
+			margin: 1rem;
+		}
+
+		p {
+			color: $doteco-ruby;
+			margin-top: 2rem;
+		}
+	}
+
+	.champions-logo:hover {
+		background-color: $doteco-ruby;
+		border-style: none;
+		opacity: 0.7;
+
+		p {
+			color: white;
+		}
+	}
+
+	.registrar-logo {
+		margin: 2rem;
+	}
+
 }
