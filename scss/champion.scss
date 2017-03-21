@@ -16,6 +16,7 @@
 	.champion-summary {
 		a {
 			color: $doteco-sapphire;
+
 		}
 	}
 
@@ -60,9 +61,9 @@
 	}
 
 	.champions-logo:hover {
-		background-color: $doteco-ruby;
+		background-color: rgba(159, 23, 68, 1.0);
 		border-style: none;
-		opacity: 0.7;
+		opacity: 0.6;
 
 		p {
 			color: white;
