@@ -44,7 +44,7 @@
 	.champions-logo {
 		border-style: solid;
 		border-width: 1px;
-		border-color: $doteco-charcoal;
+		border-color: silver;
 		padding: 1rem 1rem;
 		height: auto;
 
@@ -61,12 +61,15 @@
 	}
 
 	.champions-logo:hover {
-		background-color: rgba(159, 23, 68, 1.0);
+		background-color: rgba(159, 23, 68, 0.7);
 		border-style: none;
-		opacity: 0.6;
 
 		p {
 			color: white;
+		}
+
+		a {
+			text-decoration: none;
 		}
 	}
 
