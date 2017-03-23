@@ -47,11 +47,20 @@
 		border-color: silver;
 		padding: 1rem 1rem;
 		height: auto;
+		margin-bottom: 1rem;
 
 		.champions-url {
 			color: $doteco-charcoal;
 			text-align: center;
 			margin: 1rem;
+		}
+
+		img {
+			height: 100px;
+			width: auto;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
 		}
 
 		p {
@@ -62,7 +71,7 @@
 
 	.champions-logo:hover {
 		background-color: rgba(159, 23, 68, 0.7);
-		border-style: none;
+		border-color: white;
 
 		p {
 			color: white;
