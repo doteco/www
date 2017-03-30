@@ -87,6 +87,11 @@ $doteco-fireopal: #FE7635;
 		padding: 0.75em 1.25em;
 	}
 
+	.btn-primary:hover {
+		background-color: $doteco-charcoal;
+		color: white;
+	}
+
 	h1, h2, h3, h4, h5 {
 		color: $doteco-sapphire;
 	}
@@ -129,11 +134,6 @@ $doteco-fireopal: #FE7635;
 
 		h1, h2, h3, h4, h5, .subheader, .title {
 			color: $doteco-fireopal;
-		}
-
-		.btn-primary:hover {
-			background-color: $doteco-charcoal;
-			color: white;
 		}
 	}
 
