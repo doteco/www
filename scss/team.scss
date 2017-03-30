@@ -1,0 +1,21 @@
+#doteco {
+	.team-header {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/team.jpg');
+		background-size: cover;
+
+		.container {
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
+
+		@media (min-width: 768px) {
+			h1 {
+				font-size: 4em;
+			}
+
+			.subheader {
+				font-size: 1.875em;
+			}
+		}
+	}
+}
