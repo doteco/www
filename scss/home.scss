@@ -105,6 +105,11 @@
 			color: $doteco-charcoal;
 			margin-top: 0.5em;
 		}
+
+		.btn-primary:hover {
+			background-color: $doteco-charcoal;
+			color: white;
+		}
 	}
 
 	.home-business {
@@ -125,6 +130,10 @@
 	.home-you {
 		background-image: url('/img/carousel/for-you2-cropped.jpeg');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-you2-cropped.jpeg');
+	}
+
+	.home-diagram .champions-logo:hover {
+		background-color: white;
 	}
 
 	.section-label {
