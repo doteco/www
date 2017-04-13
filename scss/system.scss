@@ -1,0 +1,15 @@
+#doteco {
+
+	.system-header {
+		color: white;
+		background-image: url('/img/system-header.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/system-header.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+
+		p {
+			font-weight: 300;
+			margin: 6rem 0;
+		}
+	}
+}
