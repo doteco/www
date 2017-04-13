@@ -12,4 +12,133 @@
 			margin: 6rem 0;
 		}
 	}
+
+	.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -2rem 0 0 -2rem;
+    justify-content: flex-start;
+  }
+
+  .grid__cell {
+    flex: 0 0 100%; // always stack on mobile (flex-basis 100%)
+    padding: 2rem 0 0 2rem;
+    min-width: 0; // allow width to be restricted (https://css-tricks.com/flexbox-truncated-text/)
+  }
+
+   .grid--m1d3 > .grid__cell {
+    flex: 0 0 100%;
+  }
+
+	.profile-tile {
+    display: block;
+    height: 15rem;
+    border: 1px solid $doteco-grey;
+    border-radius: $common-border-radius;
+    background-image: url('/img/profile-header-default-30.png');
+    background-color: $doteco-charcoal;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .profile-tile__wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    border-radius: $common-border-radius;
+  }
+
+  .profile-tile:not([data-custom-bg]):hover .profile-tile__wrapper {
+    background-color: rgba($doteco-ruby, 0.3);
+  }
+
+  .profile-tile[data-custom-bg] .profile-tile__wrapper {
+    background-color: none;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.85) 100%);
+  }
+
+  .profile-tile[data-custom-bg]:hover .profile-tile__wrapper {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.85) 100%);
+  }
+
+  .profile-tile__label {
+    color: rgba(white, 0.7);
+    font-size: 2rem;
+    font-weight: 300;
+    word-wrap: break-word;
+
+    strong {
+      font-weight: 400;
+      color: white;
+    }
+  }
+
+  .profile-tile--empty {
+    background-image: none;
+    background-color: $doteco-ruby;
+    color: white;
+    border: none;
+
+    &:hover {
+      text-decoration: none;
+      background-color: $doteco-ruby-dark;
+    }
+  }
+
+  .profile-tile--empty__message {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .profile-tile--empty .profile-tile__wrapper {
+    padding: 1rem;
+    position: relative;
+    background: none;
+
+    &:hover {
+      background-image: none;
+    }
+  }
+
+  .profile-tile--empty__cta {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .profile-tile--empty__arrow {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    top: inherit;
+    font-size: 2.5rem;
+  }
+
+  @media (min-width: 767px) {
+    .profile-tile {
+      height: 30rem;
+    }
+
+    .profile-tile--empty .profile-tile__wrapper {
+      padding: 2rem;
+    }
+
+    .profile-tile--empty__message {
+      font-size: 2rem;
+      margin-bottom: 4rem;
+    }
+
+    .profile-tile--empty__cta {
+      font-size: 2.2rem;
+    }
+
+    .profile-tile--empty__arrow {
+      font-size: 4rem;
+    }
+  }
 }
