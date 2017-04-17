@@ -222,12 +222,37 @@
 		}
 
 		img {
-			height: 5em;
-			margin-bottom: 0.5em;
+			height: 6em;
 		}
 
 		.icon-text {
-			margin-top: 1.5em;
+			padding-right: 0;
+			padding-left: 0;
+			margin-top: 3rem;
+		}
+
+		.text-center {
+			margin-bottom: 0;
+			margin-top: 10px;
+		}
+
+	}
+
+	.home-header {
+		color: black;
+		background-image: url('/img/home-header.jpg');
+		background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('/img/home-header.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+
+		h3 {
+			color: $doteco-sapphire;
+		}
+
+		p {
+			font-weight: 300;
+			font-size: 1.7rem;
 		}
 	}
+
 }
