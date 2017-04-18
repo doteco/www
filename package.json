@@ -30,6 +30,7 @@
     "build": "node ./build.js",
     "minify": "node ./imagemin.js",
     "stylelint": "stylelint 'scss/*.scss' --syntax scss || true",
+    "stylelint:fix": "stylelint 'scss/*.scss' --fix --syntax scss",
     "test": "npm run build",
     "validate": "node ./html-validate.js"
   },
