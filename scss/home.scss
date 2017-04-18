@@ -127,7 +127,7 @@
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-you2-cropped.jpeg');
 	}
 
-	.home-diagram .champions-logo:hover {
+	.home-who .champions-logo:hover {
 		background-color: white;
 	}
 
@@ -242,7 +242,7 @@
 		background-image: url('/img/home-header.jpg');
 		background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/img/home-header.jpg');
 		background-size: cover;
-		background-attachment: fixed;
+		background-position-y: -50px;
 
 		h3 {
 			color: $doteco-sapphire;
@@ -256,5 +256,18 @@
 
 	.case-study-title {
 		padding-left: 0;
+	}
+
+	.home-signup {
+		h2, p {
+			margin-bottom: 2rem;
+		}
+	}
+
+	.home-casestudy {
+		h4 {
+			margin-bottom: 1rem;
+		}
+		margin-bottom: 3rem;
 	}
 }
