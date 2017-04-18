@@ -14,6 +14,7 @@ $doteco-amethyst: #501D4C;
 $doteco-fireopal: #FE7635;
 $doteco-grey: #B2B2B2;
 $doteco-ruby-dark: #521429;
+$doteco-gray: #B7B7B7;
 
 //Border
 $common-border-radius: 2px;
@@ -22,11 +23,6 @@ $common-border-radius: 2px;
 	body {
 		color: $doteco-charcoal;
 		font-family: $font-body;
-	}
-
-	/* .muted-gray for timeline */
-	.muted-gray {
-		color: #B7B7B7;
 	}
 
 	h1, h2, h3, h4, h5, h6 {

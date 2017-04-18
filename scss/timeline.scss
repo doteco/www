@@ -3,6 +3,10 @@
 		h2, h3, h5 {
 			color: $doteco-sapphire;
 		}
+		h3.timeline-past, h5.timeline-past, p.timeline-past {
+			color: $doteco-gray;
+		}
+
 		h3 {
 			margin-bottom: 0;
 		}
