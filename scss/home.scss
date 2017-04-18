@@ -127,7 +127,7 @@
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-you2-cropped.jpeg');
 	}
 
-	.home-diagram .champions-logo:hover {
+	.home-who .champions-logo:hover {
 		background-color: white;
 	}
 
@@ -222,12 +222,52 @@
 		}
 
 		img {
-			height: 5em;
-			margin-bottom: 0.5em;
+			height: 6em;
 		}
 
 		.icon-text {
-			margin-top: 1.5em;
+			padding-right: 0;
+			padding-left: 0;
+			margin-top: 3rem;
 		}
+
+		.text-center {
+			margin-bottom: 0;
+			margin-top: 10px;
+		}
+	}
+
+	.home-header {
+		color: black;
+		background-image: url('/img/home-header.jpg');
+		background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/img/home-header.jpg');
+		background-size: cover;
+		background-position-y: -50px;
+
+		h3 {
+			color: $doteco-sapphire;
+		}
+
+		p {
+			font-weight: 400;
+			font-size: 1.7rem;
+		}
+	}
+
+	.case-study-title {
+		padding-left: 0;
+	}
+
+	.home-signup {
+		h2, p {
+			margin-bottom: 2rem;
+		}
+	}
+
+	.home-casestudy {
+		h4 {
+			margin-bottom: 1rem;
+		}
+		margin-bottom: 3rem;
 	}
 }

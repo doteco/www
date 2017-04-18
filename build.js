@@ -93,7 +93,7 @@ let ms = Metalsmith(__dirname)
   }))
   .use(robots({
     disallow: ['champions/*', 'mobile/*', 'm/*'],
-    sitemap: options['site-url'] + 'sitemap.xml'
+    sitemap: options['site-url'] + '/sitemap.xml'
   }))
 
 if (options.watch) {
