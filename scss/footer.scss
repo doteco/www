@@ -38,6 +38,10 @@
 			margin: 1rem 0;
 		}
 
+		.address-small {
+			font-size: 0.8em;
+		}
+
 		// TODO: use bootstrap @screen-sm-min
 		@media only screen and (min-width: 768px) {
 			.bcorp-logo {
