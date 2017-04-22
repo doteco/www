@@ -25,12 +25,25 @@
 		min-width: 0; // allow width to be restricted (https://css-tricks.com/flexbox-truncated-text/)
 	}
 
+	.grid--m2d2 > .grid__cell {
+    flex: 0 0 (100% / 2);
+  	}
+
+  	.grid--m2d3 > .grid__cell {
+    flex: 0 0 (100% / 2);
+  	}
+
 	.grid--m1d3 > .grid__cell {
 		flex: 0 0 100%;
 	}
 
+	 .grid--m2d4 > .grid__cell {
+    	flex: 0 0 (100% / 2);
+  	}
+
 	.profile-tile {
 		display: block;
+		margin-top: 2rem;
 		height: 15rem;
 		border: 1px solid $doteco-grey;
 		border-radius: $common-border-radius;
@@ -139,5 +152,34 @@
 		.profile-tile--empty__arrow {
 			font-size: 4rem;
 		}
+
+		 // do not stack on desktop
+    	.grid__cell {
+      		flex: 1 1 0%; // let autosize based on siblings
+    	}
+
+    	.grid--m1d2 > .grid__cell {
+      		flex: 0 0 (100% / 2); // 2 per row
+    	}
+
+    	.grid--m1d3 > .grid__cell {
+     	 	flex: 0 0 (100% / 3); // 3 per row
+    	}
+
+    	.grid--m2d2 > .grid__cell {
+      		flex: 0 0 (100% / 2);
+    	}
+
+    	.grid--m2d3 > .grid__cell {
+      		flex: 0 0 (100% / 3);
+    	}
+
+    	.grid--m1d3 > .grid__cell {
+      		flex: 0 0 (100% / 3);
+    	}
+
+    	.grid--m2d4 > .grid__cell {
+      		flex: 0 0 (100% / 4);
+    	}
 	}
 }

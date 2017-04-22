@@ -16,6 +16,16 @@
 		padding-top: 0.5em;
 	}
 
+	.social-media-box {
+		background-color: $doteco-marrow;
+		border-radius: 10px;
+		padding: 1em;
+	}
+
+	.inverted .social-media-box {
+		background-color: white;
+	}
+
 	@media (max-width: 768px) {
 		.logo-adjust-med {
 			padding-top: 0.3em;
