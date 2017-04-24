@@ -35,14 +35,15 @@
 		}
 
 		.carousel-link {
-			border: 1px solid $doteco-citrine;
+			background-color: $doteco-citrine;
+			color: $doteco-charcoal;
 			border-radius: 30px;
-			padding: 0.6em 1.5em;
+			padding: 0.75em 1.5em;
 			margin: auto;
 		}
 
 		.carousel-link:hover {
-			background-color: $doteco-citrine;
+			background-color: $doteco-charcoal;
 			text-decoration: none;
 			color: white;
 		}
@@ -241,9 +242,9 @@
 	.home-header {
 		color: black;
 		background-image: url('/img/home-header.jpg');
-		background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/img/home-header.jpg');
+		background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/img/home-header.jpg');
 		background-size: cover;
-		background-position-y: -50px;
+		/* background-position-y: -50px; */
 
 		h3 {
 			color: $doteco-fireopal;

@@ -60,7 +60,7 @@
 
 		.social {
 			a {
-				padding: 0 3px;
+				padding: 0 5px;
 				display: inline-block;
 			}
 
@@ -95,6 +95,17 @@
 				background-color: $doteco-marrow;
 				color: $doteco-ruby;
 			}
+		}
+
+		a.get-btn {
+			background-color: $doteco-marrow;
+			margin: 0 15px;
+			color: $doteco-ruby;
+		}
+
+		.get-btn:hover {
+			background-color: #7F0B38;
+			color: white;
 		}
 
 		@media only screen and (min-width: 768px) {
