@@ -239,23 +239,6 @@
 		}
 	}
 
-	.home-header {
-		color: black;
-		background-image: url('/img/home-header.jpg');
-		background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/img/home-header.jpg');
-		background-size: cover;
-		/* background-position-y: -50px; */
-
-		h3 {
-			color: $doteco-fireopal;
-		}
-
-		p {
-			font-weight: 400;
-			font-size: 1.7rem;
-		}
-	}
-
 	.case-study-title {
 		padding-left: 0;
 	}
