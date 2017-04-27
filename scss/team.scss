@@ -2,14 +2,15 @@
 	.team-header {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/team.jpg');
 		background-size: cover;
+		background-attachment: fixed;
 
 		.container {
-			margin-top: 3em;
-			margin-bottom: 3em;
+			margin-top: 6em;
+			margin-bottom: 6em;
 
 		}
 
-		@media (min-width: 768px) {
+	@media (min-width: 768px) {
 			h1 {
 				font-size: 4em;
 			}
