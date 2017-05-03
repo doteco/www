@@ -1,0 +1,59 @@
+#doteco {
+	.press-header {
+		color: white;
+		background-image: url('/img/press.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/press.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+
+		p {
+			font-weight: 300;
+			margin: 2rem 0;
+		}
+	}
+
+	.press-date {
+		text-align: right;
+		color: $doteco-charcoal;
+		padding: 1em;
+	}
+
+	.press-article {
+		border-style: solid;
+		border-width: 1px;
+		border-color: silver;
+		padding: 1.3rem;
+		height: auto;
+		margin-bottom: 1rem;
+		position: relative;
+		background-color: white;
+
+		.press-title {
+			margin-top: 2rem;
+
+			a {
+				color: $doteco-charcoal;
+				font-weight: 500;
+			}
+		}
+
+		img {
+			height: 60px;
+			width: auto;
+			float: left;
+
+		}
+	}
+
+	.press-article:hover {
+		border-color: $doteco-ruby;
+
+		p {
+			color: $doteco-ruby;
+		}
+
+		a {
+			text-decoration: none;
+		}
+	}
+}
