@@ -1,6 +1,6 @@
 const Metalsmith = require('metalsmith')
 const discoverHelpers = require('metalsmith-discover-helpers')
-const imagemin = require('metalsmith-imagemin/lib/node6')
+const imagemin = require('metalsmith-imagemin')
 const inplace = require('metalsmith-in-place')
 const fingerprint = require('metalsmith-fingerprint-ignore')
 const layouts = require('metalsmith-layouts')

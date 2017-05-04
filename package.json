@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
-    "handlebars": "4.0.6",
+    "handlebars": "4.0.8",
     "html-validator": "2.2.0",
     "imagemin": "github:ImageOptimizer/imagemin",
     "imagemin-mozjpeg": "6.0.0",
@@ -12,7 +12,7 @@
     "metalsmith": "2.3.0",
     "metalsmith-discover-helpers": "0.1.0",
     "metalsmith-fingerprint-ignore": "1.1.2",
-    "metalsmith-imagemin": "3.0.0",
+    "metalsmith-imagemin": "4.0.0",
     "metalsmith-in-place": "1.4.4",
     "metalsmith-layouts": "1.7.0",
     "metalsmith-markdownit": "0.4.0",
@@ -22,8 +22,8 @@
     "metalsmith-serve": "0.0.7",
     "metalsmith-sitemap": "1.2.0",
     "metalsmith-watch": "1.0.3",
-    "node-fs-extra": "0.8.1",
-    "stylelint": "7.9.0",
+    "node-fs-extra": "0.8.2",
+    "stylelint": "7.10.1",
     "stylelint-config-standard": "16.0.0"
   },
   "scripts": {
@@ -47,8 +47,8 @@
   "dependencies": {
     "bootstrap": "3.3.7",
     "bootstrap-validator": "0.11.9",
-    "corejs-typeahead": "1.0.1",
+    "corejs-typeahead": "1.1.1",
     "font-awesome": "4.7.0",
-    "jquery": "3.1.1"
+    "jquery": "3.2.1"
   }
 }
