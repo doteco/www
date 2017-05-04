@@ -13,35 +13,49 @@
 	}
 
 	.press-date {
-		text-align: right;
 		color: $doteco-charcoal;
-		padding: 1em;
+		background-color: #a3a3a3;
+		color: white;
+		display: inline-block;
+		padding: 0.4em 1em;
+		float: right;
+		letter-spacing: 0.4px;
+		font-size: 1.4rem;
 	}
 
 	.press-article {
 		border-style: solid;
 		border-width: 1px;
 		border-color: silver;
-		padding: 1.3rem;
+		padding: 1.5rem;
 		height: auto;
-		margin-bottom: 1rem;
 		position: relative;
 		background-color: white;
-
-		.press-title {
-			margin-top: 2rem;
+		margin-bottom: 1.4em;
 
 			a {
 				color: $doteco-charcoal;
 				font-weight: 500;
+				font-size: 1.3em;
 			}
+
+		.press-title {
+			margin-top: 2rem;
+		}
+
+		.article-subheader {
+			color: gray;
+			font-size: 1.6rem;
+			font-style: italic;
 		}
 
 		img {
-			height: 60px;
-			width: auto;
+			width: 25%;
 			float: left;
+		}
 
+		p {
+			color: $doteco-charcoal;
 		}
 	}
 
@@ -56,4 +70,28 @@
 			text-decoration: none;
 		}
 	}
+
+		@media (max-width: 1160px) {
+			.press-date {
+				float: none;
+			}
+
+			.press-article {
+				margin-right: 1em;
+				margin-left: 1em;
+
+				img {
+					float: none;
+					margin-left: auto;
+					margin-right: auto;
+					display: block;
+				}
+
+			}
+
+			.press-title {
+				text-align: center;
+			}
+
+		}
 }
