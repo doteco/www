@@ -30,7 +30,7 @@
   		filter: grayscale(100%);
 	}
 
-	img:hover {
+	.headshots:hover {
    		transition: filter .3s ease-in-out;
   		-webkit-filter: grayscale(0%);
   		filter: grayscale(0%);
@@ -40,5 +40,4 @@
 		color: black;
 		font-style: italic;
 	}
-
 }
