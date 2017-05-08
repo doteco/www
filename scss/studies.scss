@@ -37,4 +37,17 @@
 			font-size: 1.8rem;
 		}
 	}
+
+	.studyabroad-header {
+		color: white;
+		background-image: url('/img/study-abroad.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/study-abroad.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+
+		p {
+			font-weight: 300;
+			font-size: 1.8rem;
+		}
+	}
 }
