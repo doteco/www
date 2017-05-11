@@ -50,4 +50,17 @@
 			font-size: 1.8rem;
 		}
 	}
+
+	.vonwong-header {
+		color: white;
+		background-image: url('/img/vonwong.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/vonwong.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+
+		p {
+			font-weight: 300;
+			font-size: 1.8rem;
+		}
+	}
 }
