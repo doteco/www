@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
-    "handlebars": "4.0.8",
+    "handlebars": "4.0.10",
     "html-validator": "2.2.0",
     "imagemin": "github:ImageOptimizer/imagemin",
     "imagemin-mozjpeg": "6.0.0",
@@ -14,7 +14,7 @@
     "metalsmith-fingerprint-ignore": "1.1.2",
     "metalsmith-imagemin": "4.0.0",
     "metalsmith-in-place": "1.4.4",
-    "metalsmith-layouts": "1.7.0",
+    "metalsmith-layouts": "1.8.1",
     "metalsmith-markdownit": "0.4.0",
     "metalsmith-redirect": "2.1.0",
     "metalsmith-robots": "1.0.1",
