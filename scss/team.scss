@@ -7,10 +7,9 @@
 		.container {
 			margin-top: 6em;
 			margin-bottom: 6em;
-
 		}
 
-	@media (min-width: 768px) {
+		@media (min-width: 768px) {
 			h1 {
 				font-size: 4em;
 			}
@@ -25,15 +24,12 @@
 		width: 100%;
 		margin: auto;
 		padding-top: 1em;
-
-		-webkit-filter: grayscale(100%);
-  		filter: grayscale(100%);
+		filter: grayscale(100%);
 	}
 
 	.headshots:hover {
-   		transition: filter .3s ease-in-out;
-  		-webkit-filter: grayscale(0%);
-  		filter: grayscale(0%);
+		transition: filter .3s ease-in-out;
+		filter: grayscale(0%);
 	}
 
 	#team-subheader {

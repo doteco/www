@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
+    "autoprefixer": "7.1.1",
     "handlebars": "4.0.10",
     "html-validator": "2.2.0",
     "imagemin": "github:ImageOptimizer/imagemin",
@@ -10,6 +11,7 @@
     "imagemin-pngquant": "5.0.0",
     "jstransformer-handlebars": "1.0.0",
     "metalsmith": "2.3.0",
+    "metalsmith-autoprefixer": "1.1.1",
     "metalsmith-discover-helpers": "0.1.0",
     "metalsmith-fingerprint-ignore": "1.1.2",
     "metalsmith-imagemin": "4.0.0",
