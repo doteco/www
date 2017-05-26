@@ -64,22 +64,29 @@ priority: 1
 
  </div>
 
- <div class="section sunrise">
+ <div class="section search">
  	<div class="container">
  		<h3>Looking to get a .eco domain?</h3>
 
  		<p>Search to see if the domain that you're looking for is available.</p>
 
- 		<input type="text" id="search" class="domain-search" name="search" placeholder="search .eco domains" autocomplete="off" autofocus autocapitalize="off" autocorrect="off">
- 		<a href="#" class="btn btn-primary pull-right">Search</a>
-
-		<div id="results"></div>
+ 		<div class="row">
+ 			<div class="col-sm-8">
+		 		<input type="text" id="search" class="domain-search" name="search" placeholder="search .eco domains" autocomplete="off" autofocus autocapitalize="off" autocorrect="off">
+		 		<div id="results"></div>
+		 	</div>
+		 	<div class="col-sm-4">
+	 			<a id="search-btn" href="#" class="btn btn-primary btn-search disabled">Get .eco</a>
+	 		</div>
+		</div>
  	</div>
  </div>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/domainr-search-box/0.0.14/domainr-search-box.min.js"></script>
 <script>
-  var buyDomain = function(result) {
+  var searchButton = document.getElementById('search-btn')
+
+  var buyDomain = function (result) {
   }
 
   var searchBox = new domainr.SearchBox({
@@ -89,12 +96,19 @@ priority: 1
     defaults: ['eco'],
     limit: 1,
     onSelect: buyDomain
-  });
+  })
 
-  var defaultRenderer = searchBox._renderer;
+  var defaultRenderer = searchBox._renderer
   var renderSearchResults = function (state) {
-    ga('send', 'event', 'Search', 'domain', state.query);
-    return defaultRenderer(state);
+    ga('send', 'event', 'Search', 'domain', state.query)
+    if (state.results[0] && state.results[0].status.indexOf('inactive') >= 0) {
+    	removeClass(searchButton, 'disabled')
+    } else {
+    	console.log('adding class')
+    	addClass(searchButton, 'disabled')
+    }
+    console.log(state)
+    return defaultRenderer(state)
   }
   searchBox._renderer = renderSearchResults
 </script>

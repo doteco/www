@@ -45,7 +45,7 @@
 }
 
 .domainr-results .deleting, .domainr-results .expiring, .domainr-results .marketed, .domainr-results .priced,.domainr-results .transferable {
-	color:#090;
+	color: #090;
 }
 
 .domainr-results .reserved::after {
@@ -128,7 +128,7 @@
 }
 
 .domain-search {
-	width: 75%;
+	width: 100%;
 	line-height: 1em;
 	margin-top: 1em;
 	padding: 1em 5%;
@@ -140,8 +140,7 @@
 }
 
 .domainr-result {
-	font-size: 1.4em;
-	line-height: 2em;
-	padding-left: 1em;
+	line-height: 1em;
+	padding: 1em 5%;
 }
 

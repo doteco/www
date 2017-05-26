@@ -55,19 +55,4 @@
 			width: 60%;
 		}
 	}
-
-	.container-multilingual {
-		.section {
-			display: none;
-		}
-
-		&:lang(en) .section:lang(en), &:lang(fr) .section:lang(fr), &:lang(de) .section:lang(de), &:lang(es) .section:lang(es) {
-			display: block;
-		}
-	}
-
-	#dropdown-language {
-		border: none;
-		margin-top: 0.5em;
-	}
 }

@@ -49,7 +49,6 @@
   "dependencies": {
     "bootstrap": "3.3.7",
     "bootstrap-validator": "0.11.9",
-    "corejs-typeahead": "1.1.1",
     "font-awesome": "4.7.0",
     "jquery": "3.2.1"
   }
