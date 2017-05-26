@@ -27,24 +27,24 @@ const validate = function (file) {
     })
   }).then((results) => {
     console.log('Validating', file)
-		// console.log(results);
+    // console.log(results);
     results.messages.filter((entry) => {
       return !skip.some(s => entry.message.includes(s))
     }).map((entry) => {
       console.log(`${entry.type.toUpperCase()}: ${entry.message} (line: ${entry.lastLine})`)
     })
     console.log()
+  }).catch((err) => {
+    console.log('Failed to validate', file, err)
   })
 }
 
 new Promise((resolve, reject) => {
   let files = []
-  fs.walk('./public')
-		.on('data', (file) => {
-  let skipFile = skipFiles.some(s => s === path.relative(process.cwd(), file.path))
-  return file.path.endsWith('.html') && !skipFile ? files.push(file.path) : null
-})
-		.on('end', () => resolve(files))
+  fs.walk('./public').on('data', (file) => {
+    let skipFile = skipFiles.some(s => s === path.relative(process.cwd(), file.path))
+    return file.path.endsWith('.html') && !skipFile ? files.push(file.path) : null
+  }).on('end', () => resolve(files))
 }).then((files) => {
   Promise.all(files.map(validate))
 })
