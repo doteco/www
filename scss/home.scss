@@ -110,6 +110,35 @@
 		}
 	}
 
+	.registrar-modal-header {
+		border: none;
+
+		.modal-title {
+			margin: 1rem;
+		}
+	}
+
+	.registrar-logo.namecom-logo {
+		margin-top: 4rem;
+	}
+
+	.registrar-logo.hexonet-logo {
+		margin-top: 4rem;
+	}
+
+	.registrar-logo.moniker-logo {
+		width: 50%;
+		margin: 1.5rem 7rem;
+	}
+
+	.registrar-button {
+		height: 10rem;
+
+		&:hover {
+			background-color: $doteco-fireopal;
+		}
+	}
+
 	.home-business {
 		background-image: url('/img/carousel/woman-shopping.jpg');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.jpg');

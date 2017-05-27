@@ -75,43 +75,12 @@ priority: 1
 		 		<input type="text" id="search" class="domain-search" name="search" placeholder="search .eco domains" autocomplete="off" autofocus autocapitalize="off" autocorrect="off">
 		 		<div id="results"></div>
 		 	</div>
-		 	<div class="col-sm-4">
+		 	<div class="col-sm-4 hidden-xs">
 	 			<a id="search-btn" href="#" class="btn btn-primary btn-search disabled">Get .eco</a>
 	 		</div>
 		</div>
  	</div>
  </div>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/domainr-search-box/0.0.14/domainr-search-box.min.js"></script>
-<script>
-  var searchButton = document.getElementById('search-btn')
-
-  var buyDomain = function (result) {
-  }
-
-  var searchBox = new domainr.SearchBox({
-    clientId: '01830e705e5d494a8748103f1b066cd3',
-    observe: document.getElementById('search'),
-    renderTo: document.getElementById('results'),
-    defaults: ['eco'],
-    limit: 1,
-    onSelect: buyDomain
-  })
-
-  var defaultRenderer = searchBox._renderer
-  var renderSearchResults = function (state) {
-    ga('send', 'event', 'Search', 'domain', state.query)
-    if (state.results[0] && state.results[0].status.indexOf('inactive') >= 0) {
-    	removeClass(searchButton, 'disabled')
-    } else {
-    	console.log('adding class')
-    	addClass(searchButton, 'disabled')
-    }
-    console.log(state)
-    return defaultRenderer(state)
-  }
-  searchBox._renderer = renderSearchResults
-</script>
 
 <div class="section home-diagram">
 	<div class="container">
@@ -165,8 +134,6 @@ priority: 1
 		</div>
 	</div>
 </div>
-
-<!-- {{> timeline }} -->
 
 <div class="section home-who">
 	<div class="container">
@@ -396,4 +363,126 @@ priority: 1
 		</p>
 	</div>
 </div>
+
+<div id="registrar-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header registrar-modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title">Which domain registrar would you like to buy the .eco domain from?</h3>
+      </div>
+      <div class="modal-body">
+      	<div class="row">
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="name.com" target="_blank">
+					<img src="/img/registrar_logos/name.png" alt="name.com logo" class="registrar-logo namecom-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="namecheap" target="_blank">
+					<img src="/img/registrar_logos/name-cheap.png" alt="Namecheap logo" class="registrar-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="gandi" target="_blank">
+					<img src="/img/registrar_logos/gandi.png" alt="Gandi logo" class="registrar-logo">
+				</a>
+			</div>
+        </div>
+      	<div class="row">
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="hexonet" target="_blank">
+					<img src="/img/registrar_logos/HEXONET-logo_BW.png" alt="Hexonet logo" class="registrar-logo hexonet-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="moniker" target="_blank">
+					<img src="/img/registrar_logos/moniker.png" alt="Moniker logo" class="registrar-logo moniker-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="opendomains" target="_blank">
+					<img src="/img/registrar_logos/only-domains.png" alt="Open Domains logo" class="registrar-logo">
+				</a>
+			</div>
+        </div>
+      	<div class="row">
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="uniregistry" target="_blank">
+					<img src="/img/registrar_logos/uniregistry.png" alt="Uniregistry logo" class="registrar-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="uniteddomains" target="_blank">
+					<img src="/img/registrar_logos/united-domains.png" alt="United Domains logo" class="registrar-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="webnames" target="_blank">
+					<img src="/img/registrar_logos/Webnames-Logo-BW2.png" alt="Webnames logo" class="registrar-logo logo-adjust-med">
+				</a>
+			</div>
+        </div>
+
+        <div class="row">
+        	<div class="col-xs-12">
+        		<h4 class="pull-right"><a href="/registrars/partners/">See all registrars ></a></h4>
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/domainr-search-box/0.0.14/domainr-search-box.min.js"></script>
+<script>
+  var searchButton = document.getElementById('search-btn')
+  var registrarLinks = {
+  	'name.com': 'https://api.domainr.com/v2/register?registrar=name.com&domain=',
+  	'namecheap': 'https://api.domainr.com/v2/register?registrar=namecheap.com&domain=',
+  	'gandi': 'https://v4.gandi.net/domain/buy/result/?tld=eco&domain_list=',
+  	'hexonet': 'https://eco.hexonet.net/#/query=',
+  	'moniker': 'https://www.moniker.com/domains/searchresult?query=',
+  	'opendomains': 'https://www.onlydomains.com/domain/frontSearch?domain=',
+  	'uniregistry': 'https://api.domainr.com/v2/register?registrar=uniregistry.com&domain=',
+  	'uniteddomains': 'https://www.uniteddomains.com/searchresult/?domain=',
+  	'webnames': 'https://api.domainr.com/v2/register?registrar=webnames.ca&domain='
+  }
+
+  var buyDomain = function (result) {
+  	$('.registrar-button a').each(function () {
+  		var link = $(this)
+  		var registrar = link.data('registrar')
+  		var href = registrarLinks[registrar] + result.domain
+		$(this).attr('href', href)
+  	})
+  	$('#registrar-modal').modal()
+  }
+
+  searchButton.addEventListener('click', function (event) {
+  	buyDomain({ domain: $(".domainr-result").data("domain") })
+  	event.preventDefault()
+  })
+
+  var searchBox = new domainr.SearchBox({
+    clientId: '01830e705e5d494a8748103f1b066cd3',
+    observe: document.getElementById('search'),
+    renderTo: document.getElementById('results'),
+    defaults: ['eco'],
+    limit: 1,
+    onSelect: buyDomain
+  })
+
+  var defaultRenderer = searchBox._renderer
+  var renderSearchResults = function (state) {
+    ga('send', 'event', 'Search', 'domain', state.query)
+    if (state.results[0] && state.results[0].status.indexOf('inactive') >= 0) {
+    	removeClass(searchButton, 'disabled')
+    } else {
+    	addClass(searchButton, 'disabled')
+    }
+    return defaultRenderer(state)
+  }
+  searchBox._renderer = renderSearchResults
+</script>
 

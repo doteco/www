@@ -3,7 +3,7 @@
 	width: 100%;
 	text-align: left;
 	text-shadow: none;
-	z-index: 99999;
+	z-index: 2;
 }
 
 .domainr-results {
@@ -30,9 +30,7 @@
 .domainr-result::after {
 	float: right;
 	opacity: 0.5;
-	font-weight: 400;
-	font-size: 60%;
-	line-height: inherit;
+	font-size: 80%;
 }
 
 .domainr-result:hover {
@@ -62,7 +60,7 @@
 }
 
 .domainr-results .inactive:not(.reserved)::after {
-	content: 'buy now';
+	content: 'available';
 }
 
 .domainr-results .active:not(.reserved)::after {
