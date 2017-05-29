@@ -7,9 +7,6 @@
     "function-url-quotes": "always",
     "indentation": "tab",
     "max-nesting-depth": 3,
-    "no-unsupported-browser-features": [true, {
-      "browsers": "> 1%, last 2 versions, not OperaMini all, ie >= 9"
-    }],
     "selector-attribute-quotes": "always",
     "selector-list-comma-newline-after": "always-multi-line",
     "selector-max-compound-selectors": 3,

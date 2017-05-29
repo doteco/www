@@ -1,4 +1,5 @@
 const Metalsmith = require('metalsmith')
+const autoprefixer = require('metalsmith-autoprefixer')
 const discoverHelpers = require('metalsmith-discover-helpers')
 const imagemin = require('metalsmith-imagemin')
 const inplace = require('metalsmith-in-place')
@@ -57,8 +58,10 @@ let ms = Metalsmith(__dirname)
   }))
   .use(sass({
     includePaths: ['./scss'],
-    outputDir: 'css'
+    outputDir: 'css',
+    outputStyle: 'compressed'
   }))
+  .use(autoprefixer())
   .use(fingerprint({
     pattern: 'css/main.css'
   }))

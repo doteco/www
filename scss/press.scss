@@ -13,7 +13,6 @@
 	}
 
 	.press-date {
-		color: $doteco-charcoal;
 		background-color: #a3a3a3;
 		color: white;
 		display: inline-block;
@@ -33,11 +32,11 @@
 		background-color: white;
 		margin-bottom: 1.4em;
 
-			a {
-				color: $doteco-charcoal;
-				font-weight: 500;
-				font-size: 1.3em;
-			}
+		a {
+			color: $doteco-charcoal;
+			font-weight: 500;
+			font-size: 1.3em;
+		}
 
 		.press-title {
 			margin-top: 2rem;
@@ -72,27 +71,25 @@
 		}
 	}
 
-		@media (max-width: 1160px) {
-			.press-date {
-				float: none;
-			}
-
-			.press-article {
-				margin-right: 1em;
-				margin-left: 1em;
-
-				img {
-					float: none;
-					margin-left: auto;
-					margin-right: auto;
-					display: block;
-				}
-
-			}
-
-			.press-title {
-				text-align: center;
-			}
-
+	@media (max-width: 1160px) {
+		.press-date {
+			float: none;
 		}
+
+		.press-article {
+			margin-right: 1em;
+			margin-left: 1em;
+
+			img {
+				float: none;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+		}
+
+		.press-title {
+			text-align: center;
+		}
+	}
 }

@@ -82,7 +82,7 @@
 		}
 	}
 
-	.sunrise {
+	.search {
 		background-color: $doteco-sapphire;
 		padding: 2em;
 
@@ -100,12 +100,42 @@
 		.btn-primary {
 			background-color: $doteco-citrine;
 			color: $doteco-charcoal;
-			margin-top: 0.5em;
+			margin-top: 1em;
+			padding: 1em 3em;
 		}
 
 		.btn-primary:hover {
 			background-color: $doteco-charcoal;
 			color: white;
+		}
+	}
+
+	.registrar-modal-header {
+		border: none;
+
+		.modal-title {
+			margin: 1rem;
+		}
+	}
+
+	.registrar-logo.namecom-logo {
+		margin-top: 4rem;
+	}
+
+	.registrar-logo.hexonet-logo {
+		margin-top: 4rem;
+	}
+
+	.registrar-logo.moniker-logo {
+		width: 50%;
+		margin: 1.5rem 7rem;
+	}
+
+	.registrar-button {
+		height: 10rem;
+
+		&:hover {
+			background-color: $doteco-fireopal;
 		}
 	}
 
@@ -253,6 +283,7 @@
 		h4 {
 			margin-bottom: 0.4rem;
 		}
+
 		margin-bottom: 0.5rem;
 		font-size: 1.6rem;
 	}
@@ -261,6 +292,5 @@
 		color: $doteco-charcoal;
 		font-size: 1.7rem;
 		text-align: center;
-		font-style: italic;
 	}
 }
