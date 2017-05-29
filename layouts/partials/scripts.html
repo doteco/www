@@ -80,6 +80,14 @@ $('#home-carousel').on('slid.bs.carousel', function () {
 	$('.registrar-button a').click(function () {
 	  ga('send', 'event', 'Registrars', 'click', $(this).data('registrar'))
 	})
+	$('.registrar-see-all').click(function () {
+	  ga('send', 'event', {
+        eventCategory: 'Registrars',
+        eventAction: 'click',
+        eventLabel: 'other',
+        transport: 'beacon'
+      })
+	})
   })(jQuery)
 </script>
 

@@ -426,7 +426,7 @@ priority: 1
 
         <div class="row">
         	<div class="col-xs-12">
-        		<h4 class="pull-right"><a href="/registrars/partners/">See all registrars ></a></h4>
+        		<h4 class="pull-right"><a href="/registrars/partners/" class="registrar-see-all">See all registrars ></a></h4>
         	</div>
         </div>
       </div>
@@ -457,6 +457,7 @@ priority: 1
       $(this).attr('href', href)
     })
     $('#registrar-modal').modal()
+    ga('send', 'pageview', '/?domain=' + result.domain)
   }
 
   searchButton.addEventListener('click', function (event) {
