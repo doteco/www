@@ -21,19 +21,22 @@ const env_options = {
     'ga-tracking-id': 'UA-2825422-15',
     'site-url': 'http://localhost:8080',
     'watch': true,
-    'pixel': false
+    'pixel': false,
+    'trustmark': 'https://test-trust.profiles.eco'
   },
   TST: {
     'ga-tracking-id': 'UA-2825422-15',
     'site-url': 'http://test.home.eco',
     'watch': false,
-    'pixel': false
+    'pixel': false,
+    'trustmark': 'https://test-trust.profiles.eco'
   },
   PRD: {
     'ga-tracking-id': 'UA-2825422-14',
     'site-url': 'https://home.eco',
     'watch': false,
-    'pixel': true
+    'pixel': true,
+    'trustmark': 'https://trust.profiles.eco'
   }
 }
 
@@ -48,7 +51,8 @@ let ms = Metalsmith(__dirname)
     'twitter-id': '@doteco',
     'ga-tracking-id': options['ga-tracking-id'],
     'livereload': options.watch,
-    'pixel': options.pixel
+    'pixel': options.pixel,
+    'trustmark': options.trustmark
   })
   .source('./source')
   .destination('./public/')

@@ -14,18 +14,6 @@
 			color: $doteco-citrine;
 		}
 
-		.bcorp-logo {
-			height: 9ex;
-			margin: 0 auto;
-			display: block;
-		}
-
-		.climate-smart {
-			height: 6ex;
-			margin: 1rem auto;
-			display: block;
-		}
-
 		ul {
 			text-align: center;
 			font-size: 80%;
@@ -44,21 +32,37 @@
 
 		h5 {
 			margin-bottom: 0.2em;
+			color: $doteco-citrine;
+			text-transform: uppercase;
 		}
 
-		// TODO: use bootstrap @screen-sm-min
-		@media only screen and (min-width: 768px) {
-			.bcorp-logo {
-				display: block;
-			}
+		.bcorp-logo, .climate-smart, .eco-trustmark {
+			display: block;
+			margin: 1rem auto;
+		}
 
-			.climate-smart {
-				display: block;
-			}
+		.bcorp-logo {
+			height: 7ex;
+		}
 
-			.copyright, ul {
-				text-align: left;
+		.climate-smart {
+			height: 6ex;
+			margin: 1.4rem auto;
+		}
+
+		.eco-trustmark {
+			width: 40%;
+		}
+
+		@media (min-width: 768px) {
+			.eco-trustmark {
+				width: 75%;
+				margin: 1rem auto;
 			}
+		}
+
+		.copyright, ul {
+			text-align: left;
 		}
 	}
 }
