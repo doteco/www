@@ -22,21 +22,27 @@ const env_options = {
     'site-url': 'http://localhost:8080',
     'watch': true,
     'pixel': false,
-    'trustmark': 'https://test-trust.profiles.eco'
+    'trustmark': 'https://test-trust.profiles.eco',
+    'intercomAppID': 'gt94nkkh',
+    'imagemin': false
   },
   TST: {
     'ga-tracking-id': 'UA-2825422-15',
     'site-url': 'http://test.home.eco',
     'watch': false,
     'pixel': false,
-    'trustmark': 'https://test-trust.profiles.eco'
+    'trustmark': 'https://test-trust.profiles.eco',
+    'intercomAppID': 'gt94nkkh',
+    'imagemin': true
   },
   PRD: {
     'ga-tracking-id': 'UA-2825422-14',
     'site-url': 'https://home.eco',
     'watch': false,
     'pixel': true,
-    'trustmark': 'https://trust.profiles.eco'
+    'trustmark': 'https://trust.profiles.eco',
+    'intercomAppID': 'gt94nkkh',
+    'imagemin': true
   }
 }
 
@@ -52,7 +58,8 @@ let ms = Metalsmith(__dirname)
     'ga-tracking-id': options['ga-tracking-id'],
     'livereload': options.watch,
     'pixel': options.pixel,
-    'trustmark': options.trustmark
+    'trustmark': options.trustmark,
+    'intercomAppID': options.intercomAppID
   })
   .source('./source')
   .destination('./public/')
@@ -82,13 +89,6 @@ let ms = Metalsmith(__dirname)
     engine: 'handlebars',
     pattern: '**/*.html'
   }))
-  .use(imagemin({
-    mozjpeg: {
-      quality: 40
-    },
-    pngquant: { },
-    svgo: { }
-  }))
   .use(redirect({
     '/grants': '/community/grants',
     '/policies': '/registrars/policies',
@@ -102,6 +102,16 @@ let ms = Metalsmith(__dirname)
     disallow: ['champions/*', 'mobile/*', 'm/*'],
     sitemap: options['site-url'] + '/sitemap.xml'
   }))
+
+if (options.imagemin) {
+  ms.use(imagemin({
+    mozjpeg: {
+      quality: 40
+    },
+    pngquant: { },
+    svgo: { }
+  }))
+}
 
 if (options.watch) {
   ms.use(serve({
