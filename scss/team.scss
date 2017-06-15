@@ -13,23 +13,12 @@
 			h1 {
 				font-size: 4em;
 			}
-
-			.subheader {
-				font-size: 1.875em;
-			}
 		}
 	}
 
 	.headshots {
 		width: 100%;
-		margin: auto;
-		padding-top: 1em;
-		filter: grayscale(100%);
-	}
-
-	.headshots:hover {
-		transition: filter 0.3s ease-in-out;
-		filter: grayscale(0%);
+		margin-bottom: 2em;
 	}
 
 	#team-subheader {
