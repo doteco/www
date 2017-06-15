@@ -41,7 +41,7 @@ const env_options = {
     'watch': false,
     'pixel': true,
     'trustmark': 'https://trust.profiles.eco',
-    'intercomAppID': 'gt94nkkh',
+    'intercomAppID': 'hsovcclh',
     'imagemin': true
   }
 }
