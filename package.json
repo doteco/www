@@ -13,7 +13,7 @@
     "metalsmith": "2.3.0",
     "metalsmith-autoprefixer": "1.1.1",
     "metalsmith-discover-helpers": "0.1.0",
-    "metalsmith-fingerprint-ignore": "1.1.2",
+    "metalsmith-fingerprint-ignore": "2.0.0",
     "metalsmith-imagemin": "4.0.0",
     "metalsmith-in-place": "1.4.4",
     "metalsmith-layouts": "1.8.1",
@@ -25,7 +25,7 @@
     "metalsmith-sitemap": "1.2.0",
     "metalsmith-watch": "1.0.3",
     "node-fs-extra": "0.8.2",
-    "stylelint": "7.11.0",
+    "stylelint": "7.11.1",
     "stylelint-config-standard": "16.0.0"
   },
   "scripts": {
