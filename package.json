@@ -6,7 +6,7 @@
     "autoprefixer": "7.1.1",
     "fast-csv": "2.4.0",
     "handlebars": "4.0.10",
-    "html-validator": "2.2.0",
+    "html-validator": "2.2.2",
     "imagemin": "5.3.1",
     "imagemin-mozjpeg": "6.0.0",
     "imagemin-pngquant": "5.0.1",
@@ -26,7 +26,7 @@
     "metalsmith-sitemap": "1.2.0",
     "metalsmith-watch": "1.0.3",
     "node-fs-extra": "0.8.2",
-    "stylelint": "7.11.1",
+    "stylelint": "7.12.0",
     "stylelint-config-standard": "16.0.0"
   },
   "scripts": {
