@@ -6,6 +6,7 @@ og-image: opengraph/windmill-sunflowers-og.jpg
 active: names
 data: makeoffer.csv
 ---
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
 
 <div class="jumbotron premiums-header">
 	<div class="container">
@@ -27,23 +28,28 @@ data: makeoffer.csv
 
 	<h1 class="title">Premium .eco domain list</h1>
 
-	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
-	<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js" async></script>
-
 	<table class="premiums-table">
 		<thead>
-			<th>Name</th><th>Length</th><th>Language</th><th></th>
+			<th>Name</th><th>Length</th><th class="hidden-xs">Language</th><th></th>
 		</thead>
 		<tbody>
 			{{#each rows}}<tr>
-				<td>{{Name}}.eco</td><td>{{Length}}</td><td>{{Language}}</td><td><a href="/names/inquire?name={{Name}}">Inquire</a></td>
+				<td>{{Name}}.eco</td><td class="text-right">{{Length}}</td><td class="hidden-xs">{{expandLang Language}}</td><td><a href="/names/inquire?name={{Name}}">Inquire</a></td>
 			</tr>{{/each}}
 		</tbody>
 	</table>
 </div>
 
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js" async></script>
 <script>
 $(window).ready(function() {
-    $('.premiums-table').DataTable();
-} );
+  $('.premiums-table').DataTable({
+    'columns': [
+      null,
+      { className: 'text-right hidden-xs' },
+      { className: 'hidden-xs' },
+      null
+    ]
+  })
+})
 </script>
