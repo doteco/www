@@ -49,6 +49,30 @@ const env_options = {
 let options = env_options[env]
 console.log('Using options:', options)
 
+const csv = require('fast-csv')
+
+const csvLoader = (opts) => {
+  return (files, metalsmith, done) => {
+    return Promise.all(Object.keys(files).map(file => {
+      const meta = files[file]
+      if (meta.data) {
+        const csvFile = metalsmith.path(metalsmith.source(), file, '..', meta.data)
+
+        const rows = []
+        return new Promise((resolve, reject) => {
+          csv.fromPath(csvFile, { headers: true }).on('data', (data) => {
+            rows.push(data)
+          }).on('end', () => {
+            meta.rows = rows
+            console.log('Loaded file:', csvFile, 'rows:', meta.rows.length)
+            resolve()
+          })
+        })
+      }
+    })).then(() => done())
+  }
+}
+
 let ms = Metalsmith(__dirname)
   .metadata({
     'year': new Date().getFullYear(),
@@ -61,6 +85,7 @@ let ms = Metalsmith(__dirname)
     'trustmark': options.trustmark,
     'intercomAppID': options.intercomAppID
   })
+  .use(csvLoader())
   .source('./source')
   .destination('./public/')
   .clean(false)
