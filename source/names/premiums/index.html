@@ -10,7 +10,7 @@ data: makeoffer.csv
 
 <div class="jumbotron premiums-header">
 	<div class="container">
-		<h1>Premium .eco names</h1>
+		<h1>Super premium names</h1>
 	</div>
 </div>
 
@@ -26,19 +26,90 @@ data: makeoffer.csv
 
 <div class="section container section-policies">
 
-	<h1 class="title">Premium .eco domain list</h1>
+	<h1 class="title">Super premium .eco domain list</h1>
 
-	<table class="premiums-table">
+	<table class="premiums-table stripe">
 		<thead>
-			<th>Name</th><th>Length</th><th class="hidden-xs">Language</th><th></th>
+			<th>Name</th><th>Category</th><th>Subcategory</th><th class="hidden-xs">Language</th><th>Length</th>
 		</thead>
 		<tbody>
 			{{#each rows}}<tr>
-				<td>{{Name}}.eco</td><td class="text-right">{{Length}}</td><td class="hidden-xs">{{expandLang Language}}</td><td><a href="/names/inquire?name={{Name}}">Inquire</a></td>
+				<td><a class="getquote-link" href="/names/inquire?name={{Name}}" title="Get a quote">{{Name}}.eco</a></td><td class="hidden-xs">{{Category}}</td><td class="hidden-xs">{{Subcategory}}</td><td class="hidden-xs">{{expandLang Language}}</td><td class="text-right">{{Length}}</td>
 			</tr>{{/each}}
 		</tbody>
 	</table>
 </div>
+
+<div id="makeoffer-modal" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header makeoffer-modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title">Please provide the details below to get a quote</h3>
+      </div>
+      <div class="modal-body">
+      	<div class="row">
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="name.com" target="_blank">
+					<img src="/img/registrar_logos/name.png" alt="name.com logo" class="registrar-logo namecom-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="namecheap" target="_blank">
+					<img src="/img/registrar_logos/name-cheap.png" alt="Namecheap logo" class="registrar-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="gandi" target="_blank">
+					<img src="/img/registrar_logos/gandi.png" alt="Gandi logo" class="registrar-logo">
+				</a>
+			</div>
+        </div>
+      	<div class="row">
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="hexonet" target="_blank">
+					<img src="/img/registrar_logos/HEXONET-logo_BW.png" alt="Hexonet logo" class="registrar-logo hexonet-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="moniker" target="_blank">
+					<img src="/img/registrar_logos/moniker.png" alt="Moniker logo" class="registrar-logo moniker-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="onlydomains" target="_blank">
+					<img src="/img/registrar_logos/only-domains.png" alt="Only Domains logo" class="registrar-logo">
+				</a>
+			</div>
+        </div>
+      	<div class="row">
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="uniregistry" target="_blank">
+					<img src="/img/registrar_logos/uniregistry.png" alt="Uniregistry logo" class="registrar-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="uniteddomains" target="_blank">
+					<img src="/img/registrar_logos/united-domains.png" alt="United Domains logo" class="registrar-logo">
+				</a>
+			</div>
+			<div class="col-sm-4 registrar-button">
+				<a data-registrar="webnames" target="_blank">
+					<img src="/img/registrar_logos/Webnames-Logo-BW2.png" alt="Webnames logo" class="registrar-logo logo-adjust-med">
+				</a>
+			</div>
+        </div>
+
+        <div class="row">
+        	<div class="col-xs-12">
+        		<h4 class="pull-right"><a href="/registrars/partners/" class="registrar-see-all">Get a quote</a></h4>
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js" async></script>
 <script>
@@ -46,10 +117,17 @@ $(window).ready(function() {
   $('.premiums-table').DataTable({
     'columns': [
       null,
-      { className: 'text-right hidden-xs' },
       { className: 'hidden-xs' },
-      null
+      { className: 'hidden-xs' },
+      { className: 'hidden-xs' },
+      { className: 'text-right hidden-xs' }
     ]
+  })
+
+  $('.getquote-link').on('click', function (e) {
+  	console.log(e)
+  	e.preventDefault()
+  	$('#makeoffer-modal').modal()
   })
 })
 </script>
