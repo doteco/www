@@ -11,4 +11,18 @@
 		text-align: center;
 		margin: 0 1.1em;
 	}
+
+	.dataTables_length, .dataTables_filter {
+		text-align: left;
+	}
+
+	.dataTables_length {
+		display: none;
+	}
+
+	@media (min-width: 768px) {
+		.dataTables_length {
+			display: inline-block;
+		}
+	}
 }
