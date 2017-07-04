@@ -69,7 +69,8 @@ data: makeoffer.csv
 		</div>
 		<div class="modal-footer">
 			<div class="clearfix form-group">
-				<button type="submit" class="submit-makeoffer btn btn-primary pull-right" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing">Get a quote</button>
+				<button type="submit" class="submit-application btn btn-primary pull-right" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Submitting">Get a quote</button>
+				<span class="submit-thanks">Thank you for requesting a quote. We will get back to you soon to follow up.</span>
 			</div>
 	    </div>
 	  </form>
@@ -81,9 +82,9 @@ data: makeoffer.csv
 
 <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 <script>
-$(window).ready(function() {
+(function ($) {
   $('.premiums-table').DataTable({
-  	'autoWidth': false,
+    'autoWidth': false,
     'columns': [
       null,
       { className: 'hidden-xs' },
@@ -94,8 +95,13 @@ $(window).ready(function() {
   })
 
   $('.getquote-link').on('click', function (e) {
-  	e.preventDefault()
-  	$('#makeoffer-modal').modal()
+    e.preventDefault()
+    $('#makeoffer-modal').modal()
   })
-})
+
+  $(".iframe-form-iframe").on("load", function (e) {
+  	$('.submit-application').hide()
+  	$('.submit-thanks').show()
+  })
+}(jQuery))
 </script>

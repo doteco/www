@@ -4,6 +4,8 @@
 		padding: 1em 0;
 		background-color: $doteco-ruby;
 		color: white;
+		font-size: 80%;
+		line-height: 1.6em;
 
 		a, a:visited {
 			color: white;
@@ -16,13 +18,8 @@
 
 		ul {
 			text-align: center;
-			font-size: 80%;
-		}
-
-		ul {
 			padding: 0;
 			list-style-type: none;
-			line-height: 1.6em;
 			margin: 1rem 0;
 		}
 

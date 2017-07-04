@@ -1,5 +1,5 @@
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" async></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
 <script>
 var addClass = function (el, className) {
   if (el.classList) {
@@ -31,7 +31,7 @@ var removeClass = function (el, className) {
 	(function ($) {
 		var submitted = false;
 		var form = $(".iframe-form");
-		form.submit(function (e) {
+		form.validator().on('submit', function (e) {
 			if (! e.isDefaultPrevented()) {
 				submitted = true;
 				form.find(".submit-application").button("loading");
@@ -41,8 +41,11 @@ var removeClass = function (el, className) {
 
 		$(".iframe-form-iframe").on("load", function (e) {
 			if (submitted) {
-				$(".confirmation-alert").collapse("show");
-				$("body").animate({scrollTop: $(".confirmation-alert").offset().top - 100}, 200);
+				var confirmationAlert = $(".confirmation-alert")
+				if (confirmationAlert.length) {
+					confirmationAlert.collapse("show");
+					$("body").animate({scrollTop: confirmationAlert.offset().top - 100}, 200);
+				}
 				form.find(".submit-application").button("reset");
 				ga('send', 'event', form.attr("id"), 'submit');
 				typeof fbq !== 'undefined' && fbq('track', 'CompleteRegistration');
