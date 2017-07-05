@@ -21,6 +21,7 @@ data: makeoffer.csv
 		<p>
 			Please contact us if you're interested in any of these names by clicking the associated click and completing the form. We will follow up to discuss the sale.
 		</p>
+		<p>Looking for a name that's not on the list? Visit <a href="https://www.get.eco">get.eco</a> to find the .eco name you're looking for.
 	</div>
 </div>
 
@@ -85,6 +86,7 @@ data: makeoffer.csv
 (function ($) {
   $('.premiums-table').DataTable({
     'autoWidth': false,
+    'lengthMenu': [ [10, 25, 50, -1], [10, 25, 50, 'All'] ],
     'columns': [
       null,
       { className: 'hidden-xs' },
@@ -94,7 +96,7 @@ data: makeoffer.csv
     ]
   })
 
-  $('.getquote-link').on('click', function (e) {
+  $('.premiums-table').on('click', '.getquote-link', function (e) {
     e.preventDefault()
     $('#makeoffer-modal').modal()
   })
