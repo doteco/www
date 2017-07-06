@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
-    "autoprefixer": "7.1.1",
+    "autoprefixer": "7.1.2",
     "fast-csv": "2.4.0",
     "handlebars": "4.0.10",
     "html-validator": "2.2.2",
