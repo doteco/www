@@ -5,6 +5,14 @@
 
 	.premiums-table {
 		width: 100%;
+
+		td, th {
+			padding: 0.5rem;
+		}
+
+		th {
+			padding-right: 3rem;
+		}
 	}
 
 	.makeoffer-modal-title {
@@ -14,15 +22,35 @@
 
 	.dataTables_length, .dataTables_filter {
 		text-align: left;
+		float: none;
+	}
+
+	.dataTables_filter input[type='search'] {
+		width: 100%;
 	}
 
 	.dataTables_length {
 		display: none;
 	}
 
+	.pagination > .active > a {
+		background-color: $doteco-marrow;
+		border-color: #ddd;
+	}
+
 	@media (min-width: 768px) {
 		.dataTables_length {
-			display: inline-block;
+			float: right;
+			display: block;
+		}
+
+		.dt-bootstrap .col-sm-6:first-child {
+			float: right;
+		}
+
+		.dataTables_filter {
+			float: none;
+			display: block;
 		}
 	}
 

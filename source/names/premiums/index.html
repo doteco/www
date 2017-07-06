@@ -6,22 +6,21 @@ og-image: opengraph/windmill-sunflowers-og.jpg
 active: names
 data: makeoffer.csv
 ---
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
 
 <div class="jumbotron premiums-header">
 	<div class="container">
-		<h1>Super premium names</h1>
+		<h1>Super premium .eco domain names</h1>
 	</div>
 </div>
 
 <div class="section inverted">
 	<div class="container">
 		<p>
-			These .eco domain names are reserved by the registry for sale to the right organization. These exclusive names are not directly available for purchase from a registrar.</p>
+			These .eco domain names are reserved by the .eco registry for sale to the right organization. These exclusive names are not directly available for purchase from a registrar, but can be obtained by contacting us.</p>
 		<p>
-			Please contact us if you're interested in any of these names by clicking the associated click and completing the form. We will follow up to discuss the sale.
+			Please let us know if you're interested in any of these super premiums by clicking on the associated domain name and then completing the form. We will then follow up with you to discuss the sale.
 		</p>
-		<p>Looking for a name that's not on the list? Visit <a href="https://www.get.eco">get.eco</a> to find the .eco name you're looking for.
 	</div>
 </div>
 
@@ -29,9 +28,9 @@ data: makeoffer.csv
 
 	<h1 class="title">Super premium .eco domain list</h1>
 
-	<table class="premiums-table stripe">
+	<table class="premiums-table table-striped table-bordered">
 		<thead>
-			<th>Name</th><th>Category</th><th>Subcategory</th><th class="hidden-xs">Language</th><th>Length</th>
+			<th>Name</th><th class="hidden-xs">Category</th><th class="hidden-xs">Subcategory</th><th class="hidden-xs">Language</th><th class="hidden-xs">Length</th>
 		</thead>
 		<tbody>
 			{{#each rows}}<tr>
@@ -39,6 +38,11 @@ data: makeoffer.csv
 			</tr>{{/each}}
 		</tbody>
 	</table>
+
+	<div class="alert alert-warning" role="alert">
+	<p>Looking for a name that's not on the list? Visit <a href="https://www.get.eco">get.eco</a> to find the .eco name you're looking for.
+	</div>
+
 </div>
 
 <div id="makeoffer-modal" class="modal" tabindex="-1" role="dialog">
@@ -82,6 +86,7 @@ data: makeoffer.csv
 <iframe id="makeoffer-form-iframe" name="makeoffer-form-iframe" class="iframe-form-iframe hidden"></iframe>
 
 <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
 <script>
 (function ($) {
   $('.premiums-table').DataTable({
@@ -93,7 +98,10 @@ data: makeoffer.csv
       { className: 'hidden-xs' },
       { className: 'hidden-xs' },
       { className: 'text-right hidden-xs' }
-    ]
+    ],
+	'language': {
+      'zeroRecords': '<a href="https://www.get.eco">No matching .eco domains found. Find it at get.eco.</a>'
+  	}
   })
 
   $('.premiums-table').on('click', '.getquote-link', function (e) {
