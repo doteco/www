@@ -10,7 +10,8 @@ var skipFiles = [
 
 var skip = [
   'Attribute “color” not allowed on element “link” at this point.',
-  'Illegal character in query: “|” is not allowed.'
+  'Illegal character in query: “|” is not allowed.',
+  'The “frameborder” attribute on the “iframe” element is obsolete.'
 ]
 
 const validate = function (file) {

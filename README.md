@@ -67,3 +67,9 @@ For CSS/SCSS, we are using [stylelint](https://stylelint.io/) to ensure that our
 
 We are using a stylelint rule set, specified in .stylelintrc, that are based on [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard). We may add additional rules (property ordering, etc) as we move forward.
 
+### Deploying to production
+
+1. Switch to production branch: `git checkout production`
+1. Ensure you have the latest: `git pull`
+1. Merge in changes from master: `git merge master`
+1. `git push`

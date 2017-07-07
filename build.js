@@ -1,5 +1,6 @@
 const Metalsmith = require('metalsmith')
 const autoprefixer = require('metalsmith-autoprefixer')
+const csvLoader = require('./helpers/csvLoader')
 const discoverHelpers = require('metalsmith-discover-helpers')
 const imagemin = require('metalsmith-imagemin')
 const inplace = require('metalsmith-in-place')
@@ -61,6 +62,7 @@ let ms = Metalsmith(__dirname)
     'trustmark': options.trustmark,
     'intercomAppID': options.intercomAppID
   })
+  .use(csvLoader())
   .source('./source')
   .destination('./public/')
   .clean(false)
