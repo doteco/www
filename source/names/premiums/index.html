@@ -33,9 +33,13 @@ data: makeoffer.csv
 			<th>Name</th><th class="hidden-xs">Category</th><th class="hidden-xs">Subcategory</th><th class="hidden-xs">Language</th><th class="hidden-xs">Length</th></tr>
 		</thead>
 		<tbody>
-			{{#each rows}}<tr>
+			{{#each rows}}
+			{{#nameAvailable this}}
+			<tr>
 				<td><a class="getquote-link" href="/names/premiums?name={{Name}}" title="Get a quote" rel="nofollow">{{Name}}.eco</a></td><td class="hidden-xs">{{Category}}</td><td class="hidden-xs">{{Subcategory}}</td><td class="hidden-xs">{{expandLang Language}}</td><td class="text-right">{{Length}}</td>
-			</tr>{{/each}}
+			</tr>
+			{{/nameAvailable}}
+			{{/each}}
 		</tbody>
 	</table>
 
