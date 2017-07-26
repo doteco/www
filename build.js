@@ -107,6 +107,7 @@ let ms = Metalsmith(__dirname)
 
 if (options.imagemin) {
   ms.use(imagemin({
+    cwd: 'source/img',
     mozjpeg: {
       quality: 40
     },
