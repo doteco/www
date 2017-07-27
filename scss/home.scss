@@ -139,6 +139,11 @@
 		}
 	}
 
+	.home-tigerday {
+		background-image: url('/img/tigerday/tigerday-hero.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/tigerday/tigerday-hero.jpg');
+	}
+
 	.home-business {
 		background-image: url('/img/carousel/woman-shopping.jpg');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.jpg');
