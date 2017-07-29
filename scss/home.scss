@@ -110,6 +110,36 @@
 		}
 	}
 
+	.recent {
+		background-color: $doteco-marrow;
+	    padding: 2rem 0;
+	    color: $doteco-sapphire;
+	}
+
+	.registered-domain {
+		padding: 0 1rem;
+	}
+
+	.registered-domains {
+		height: 2.5rem;
+		overflow: hidden;
+	}
+
+	.recently-registered {
+	    text-transform: uppercase;
+	    font-weight: bold;
+	    z-index: 2;
+	    background-color: $doteco-marrow;
+		font-size: 1rem;
+    }
+
+	@media (min-width: 768px) {
+		.recently-registered {
+			font-size: 1.6rem;
+		}
+	}
+
+
 	.registrar-modal-header {
 		border: none;
 

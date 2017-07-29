@@ -91,6 +91,22 @@ priority: 1
 		</div>
  	</div>
  </div>
+ <div class="section recent">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="recently-registered col-xs-4 col-sm-3">Recently registered:</div>
+ 			<div class="col-xs-8 col-sm-9 registered-domains">
+ 				<div id="registered-domains" class="registered-domains">
+ 					<span class="registered-domain">testing-0721.eco</span> &#8226;
+ 					<span class="registered-domain">testing-0720.eco</span> &#8226;
+ 					<span class="registered-domain">johnrogers.eco</span> &#8226;
+ 					<span class="registered-domain">porkbuntest.eco</span> &#8226;
+ 					<span class="registered-domain">treehuggersinc.eco</span>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
 
 <div class="section home-diagram">
 	<div class="container">
@@ -497,4 +513,11 @@ priority: 1
     return defaultRenderer(state)
   }
   searchBox._renderer = renderSearchResults
+
+  $.getJSON('{{profiles}}/_api/domains/recent?count=5', function (domains) {
+  	console.log(domains)
+  	$('#registered-domains').animate({'margin-left': '-=520'}, 20000, 'linear', function () {
+  		console.log('animation done')
+  	});
+  })
 </script>
