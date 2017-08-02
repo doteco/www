@@ -512,10 +512,18 @@ priority: 1
   }
   searchBox._renderer = renderSearchResults
 
-  $.getJSON('{{profiles}}/_api/domains/recent?count=5', function (domains) {
-  	console.log(domains)
-  	$('#registered-domains').animate({'margin-left': '-=520'}, 20000, 'linear', function () {
-  		console.log('animation done')
-  	});
+  $.getJSON('{{profiles}}/_api/domains/recent?count=50', function (domains) {
+  	var html = ''
+  	var width = 0
+  	for (i = 0; i < domains.length; i++) {
+  	    html += '<span class="registered-domain">' + domains[i] + '</span> &#8226; '
+  	    width += domains[i].length + 2
+  	}
+  	$('#registered-domains').html(html)
+
+  	setTimeout(function () {
+	  	$('#registered-domains').animate({'margin-left': '-=' + width + 'rem' }, 80000, 'linear')
+  	}, 3000)
+
   })
 </script>
