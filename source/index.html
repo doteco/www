@@ -60,23 +60,21 @@ priority: 1
 				<p class="subheader">for those committed to positive change for the planet</p>
 			</div>
  		</div>
-
  	</div>
 
 
  	<a hidden class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
- 		    <span class="glyphicon glyphicon-chevron-left"></span>
+		<span class="glyphicon glyphicon-chevron-left"></span>
  	 </a>
 
  	<a class="right carousel-control" href="#home-carousel" role="button" data-slide="next">
- 		    <span class="glyphicon glyphicon-chevron-right"></span>
+		<span class="glyphicon glyphicon-chevron-right"></span>
  	</a>
-
  </div>
 
  <div class="section search">
  	<div class="container">
- 		<h3>Show your good side with a .eco domain name</h3>
+ 		<h1 class="subheader">Show your good side with a .eco domain name</h1>
 
  		<p>Search to see if the domain name you're looking for is available.</p>
 
@@ -89,6 +87,17 @@ priority: 1
 	 			<a id="search-btn" href="#" class="btn btn-primary btn-search disabled">Get your .eco</a>
 	 		</div>
 		</div>
+ 	</div>
+ </div>
+ <div class="section recent">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="recently-registered col-xs-4 col-sm-3">Recently registered:</div>
+ 			<div class="col-xs-8 col-sm-9 registered-domains">
+ 				<div id="registered-domains" class="registered-domains">
+ 				</div>
+ 			</div>
+ 		</div>
  	</div>
  </div>
 
@@ -497,4 +506,21 @@ priority: 1
     return defaultRenderer(state)
   }
   searchBox._renderer = renderSearchResults
+
+  $.getJSON('{{profiles}}/_api/domains/recent?count=50', function (domains) {
+  	var html = ''
+  	var width = 0
+  	for (i = 0; i < domains.length; i++) {
+  	    html += '<span class="registered-domain">' + domains[i] + '</span> &#8226; '
+  	    width += domains[i].length + 2
+  	}
+  	$('#registered-domains').html(html)
+
+  	setTimeout(function () {
+	  	$('#registered-domains').animate({'margin-left': '-=' + width + 'rem' }, 80000, 'linear', function () {
+	  		$('.recent').hide()
+	  	})
+  	}, 3000)
+
+  })
 </script>

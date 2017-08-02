@@ -23,6 +23,7 @@ const env_options = {
     'site-url': 'http://localhost:8080',
     'watch': true,
     'pixel': false,
+    'profiles': 'https://test.profiles.eco',
     'trustmark': 'https://test-trust.profiles.eco',
     'intercomAppID': 'gt94nkkh',
     'imagemin': false
@@ -32,6 +33,7 @@ const env_options = {
     'site-url': 'http://test.home.eco',
     'watch': false,
     'pixel': false,
+    'profiles': 'https://test.profiles.eco',
     'trustmark': 'https://test-trust.profiles.eco',
     'intercomAppID': 'gt94nkkh',
     'imagemin': true
@@ -41,6 +43,7 @@ const env_options = {
     'site-url': 'https://home.eco',
     'watch': false,
     'pixel': true,
+    'profiles': 'https://profiles.eco',
     'trustmark': 'https://trust.profiles.eco',
     'intercomAppID': 'hsovcclh',
     'imagemin': true
@@ -59,6 +62,7 @@ let ms = Metalsmith(__dirname)
     'ga-tracking-id': options['ga-tracking-id'],
     'livereload': options.watch,
     'pixel': options.pixel,
+    'profiles': options.profiles,
     'trustmark': options.trustmark,
     'intercomAppID': options.intercomAppID
   })
