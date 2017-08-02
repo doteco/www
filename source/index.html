@@ -95,11 +95,6 @@ priority: 1
  			<div class="recently-registered col-xs-4 col-sm-3">Recently registered:</div>
  			<div class="col-xs-8 col-sm-9 registered-domains">
  				<div id="registered-domains" class="registered-domains">
- 					<span class="registered-domain">testing-0721.eco</span> &#8226;
- 					<span class="registered-domain">testing-0720.eco</span> &#8226;
- 					<span class="registered-domain">johnrogers.eco</span> &#8226;
- 					<span class="registered-domain">porkbuntest.eco</span> &#8226;
- 					<span class="registered-domain">treehuggersinc.eco</span>
  				</div>
  			</div>
  		</div>
@@ -522,7 +517,9 @@ priority: 1
   	$('#registered-domains').html(html)
 
   	setTimeout(function () {
-	  	$('#registered-domains').animate({'margin-left': '-=' + width + 'rem' }, 80000, 'linear')
+	  	$('#registered-domains').animate({'margin-left': '-=' + width + 'rem' }, 80000, 'linear', function () {
+	  		$('.recent').hide()
+	  	})
   	}, 3000)
 
   })
