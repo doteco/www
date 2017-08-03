@@ -90,6 +90,10 @@
 			}
 		}
 
+		.dropdown:hover .dropdown-menu {
+			display: block;
+		}
+
 		.open {
 			.dropdown-toggle {
 				background-color: $doteco-marrow;
