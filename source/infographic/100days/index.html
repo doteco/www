@@ -2,9 +2,9 @@
 title: 100 days of .eco | .eco
 description: Stats and infographic covering the first 100 days of .eco.
 page-path: infographic/100days
-og-image: opengraph/windmill-sunflowers-og.jpg
-og-width: 1200
-og-height: 600
+og-image: opengraph/first-100days-og.png
+og-width: 1134
+og-height: 625
 ---
 	<div class="section container infographic">
 		<h1 class="title">Tracking our first 100 days in the wild</h1>
@@ -13,7 +13,7 @@ og-height: 600
 		<strong>On Thursday, August 3 2017</strong>, .eco — the new domain ending for those committed to positive change for the planet –  passed 100 days of being in the wild.  Getting through the first three months of running a new organization, launching a new product, or being a newly elected political official is a milestone. To mark this achievement, we created a sweet infographic for your viewing pleasure. We’re proud of what the.eco community has achieved in our first 100 days and are delighted to tell you what we’ve been up to.
 		</p>
 
-		<a href="/img/infographic/infographic-first100-small.png"><img src="/img/infographic/infographic-first100-small.png" alt="First 100 days of .eco infographic" style="width: 100%" /></a>
+		<a href="/img/infographic/infographic-first100-small.png"><img src="/img/infographic/infographic-first100-footer-01.png" alt="First 100 days of .eco infographic" style="width: 100%" /></a>
 
 		<h2>A closer look at the data</h2>
 
@@ -47,5 +47,18 @@ og-height: 600
 		<textarea class="infographic-embed" readonly>
 <a href="https://home.eco/img/infographic/infographic-first100-small.png"><img src="https://home.eco/img/infographic/infographic-first100-small.png" alt="First 100 days of .eco infographic" style="width: 100%" /></a>
 		</textarea>
-		<button class="btn btn-default infographic-copy" data-clipboard-target=".infographic-embed">Copy &lt;/&gt;</button>
+		<button class="btn btn-default infographic-copy" data-clipboard-target=".infographic-embed">Copy &lt;/&gt;</button><span hidden class="infographic-copied"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Copied</span>
 	</div>
+
+<script src="/js/clipboard.min.js"></script>
+<script>
+  const clipboard = new Clipboard('.infographic-copy')
+  clipboard.on('success', e => {
+    const button = e.trigger
+    const copiedLabel = button.nextSibling
+    copiedLabel.removeAttribute('hidden')
+    setTimeout(() => {
+      copiedLabel.setAttribute('hidden', '')
+    }, 700)
+  })
+</script>
