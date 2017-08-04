@@ -84,7 +84,7 @@ priority: 1
  	<div class="container">
  		<div class="row">
  			<div class="recently-registered col-xs-4 col-sm-3">Recently registered:</div>
- 			<div class="col-xs-8 col-sm-9 registered-domains">
+ 			<div class="col-xs-8 col-sm-9">
  				<div id="registered-domains" class="registered-domains">
  				</div>
  			</div>
@@ -492,20 +492,36 @@ priority: 1
   }
   searchBox._renderer = renderSearchResults
 
-  $.getJSON('{{profiles}}/_api/domains/recent?count=50', function (domains) {
+  var registeredDomains = $('#registered-domains')
+
+  var showRecent = function (domains, count) {
   	var html = ''
-  	var width = 0
-  	for (i = 0; i < domains.length; i++) {
-  	    html += '<span class="registered-domain">' + domains[i] + '</span> &#8226; '
-  	    width += domains[i].length + 2
+  	var length = 0
+  	var maxWidth = registeredDomains.parent().width() / 10
+
+	while (length < maxWidth) {
+		var idx = (count + 1) % domains.length
+		length += domains[idx].length + 3
+
+		if (length < maxWidth) {
+			if (html.length) {
+				html += ' &#8226; '
+			}
+	  	    html += '<a href="https://profiles.eco/' + domains[idx] + '" class="registered-domain">' + domains[count] + '</a>'
+	  	    count = idx
+  		}
   	}
-  	$('#registered-domains').html(html)
 
-  	setTimeout(function () {
-	  	$('#registered-domains').animate({'margin-left': '-=' + width + 'rem' }, 80000, 'linear', function () {
-	  		$('.recent').hide()
-	  	})
-  	}, 3000)
+	registeredDomains.html(html).fadeIn(function () {
+	  	setTimeout(function () {
+			registeredDomains.fadeToggle(function () {
+			showRecent(domains, count)
+			})
+	  	}, 4000)
+	})
+  }
 
+  $.getJSON('{{profiles}}/_api/domains/recent?count=50', function (domains) {
+  	showRecent(domains, 0)
   })
 </script>
