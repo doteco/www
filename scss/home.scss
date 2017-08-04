@@ -168,6 +168,11 @@
 		}
 	}
 
+	.home-100days {
+		background-image: url('/img/carousel/100days.png');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/100days.png');
+	}
+
 	.home-business {
 		background-image: url('/img/carousel/woman-shopping.jpg');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.jpg');
