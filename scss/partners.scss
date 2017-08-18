@@ -1,9 +1,19 @@
 #doteco {
+	.registrar:hover, .registrar:active {
+		text-decoration: none;
+	}
+
 	.registrar-logo {
 		margin: auto;
 		width: 85%;
 		margin-top: 1em;
 		margin-bottom: 3em;
+		background-color: white;
+	}
+
+	.registrar-name {
+		text-align: center;
+		color: transparent;
 	}
 
 	.logo-adjust-big {
