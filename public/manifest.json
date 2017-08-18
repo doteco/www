@@ -1,5 +1,7 @@
 {
 	"name": ".eco",
+	"short_name": "home.eco",
+	"description": "Home of the .eco registry",
 	"icons": [
 		{
 			"src": "\/android-chrome-192x192.png",
