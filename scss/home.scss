@@ -125,19 +125,18 @@
 	}
 
 	.recently-registered {
-	    text-transform: uppercase;
-	    font-weight: bold;
-	    z-index: 2;
-	    background-color: $doteco-marrow;
+		text-transform: uppercase;
+		font-weight: bold;
+		z-index: 2;
+		background-color: $doteco-marrow;
 		font-size: 1rem;
-    }
+	}
 
 	@media (min-width: 768px) {
 		.recently-registered {
 			font-size: 1.6rem;
 		}
 	}
-
 
 	.registrar-modal-header {
 		border: none;
