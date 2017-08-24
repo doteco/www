@@ -146,30 +146,27 @@
 		}
 	}
 
-	.registrar-logo.namecom-logo {
-		margin-top: 4rem;
-	}
-
-	.registrar-logo.hexonet-logo {
-		margin-top: 4rem;
+	.page-home .registrar-logo {
+		margin: 0;
 	}
 
 	.registrar-logo.moniker-logo {
 		width: 50%;
-		margin: 1.5rem 7rem;
 	}
 
 	.registrar-button {
 		height: 10rem;
 
 		a {
-			display: block;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
 			width: 100%;
-			height: 100%;
+			height: 10rem;
 		}
 
 		a:hover {
-			background-color: $doteco-fireopal;
+			background-color: rgba($doteco-fireopal, 0.5);
 		}
 	}
 
