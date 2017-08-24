@@ -162,7 +162,13 @@
 	.registrar-button {
 		height: 10rem;
 
-		&:hover {
+		a {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+
+		a:hover {
 			background-color: $doteco-fireopal;
 		}
 	}
