@@ -1,12 +1,12 @@
 #doteco {
 	.team-header {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/team.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('/img/windmill-sunflowers.jpg');
 		background-size: cover;
 		background-attachment: fixed;
 
 		.container {
-			margin-top: 6em;
-			margin-bottom: 6em;
+			margin-top: 2em;
+			margin-bottom: 3em;
 		}
 
 		@media (min-width: 768px) {
