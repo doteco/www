@@ -98,7 +98,25 @@ let ms = Metalsmith(__dirname)
   .use(redirect({
     '/grants': '/community/grants',
     '/policies': '/registrars/policies',
-    '/registrar': '/registrars'
+    '/registrar': '/registrars',
+    '/': 'https://go.eco/',
+    '/about/story': 'https://go.eco/our_story/',
+    '/about/team': 'https://go.eco/our_story/',
+    '/about/press': 'https://go.eco/contact-us-2-2/',
+    '/names/premiums': 'https://go.eco/quality/',
+    '/contact': 'https://go.eco/contact-us-2/',
+    '/registrars': 'https://go.eco/eco_registrars/',
+    '/registrars/resources': 'https://go.eco/eco_registrars/',
+    '/registrars/funding': 'https://go.eco/eco_registrars/',
+    '/registrars/partners': 'https://go.eco/eco_registrars_list/',
+    '/privacy': 'https://go.eco/privacy_policy/',
+    '/studies/goodonyou': 'https://go.eco/contact-us-2-2/',
+    '/studies/koala': 'https://go.eco/contact-us-2-2/',
+    '/studies/voltstack': 'https://go.eco/contact-us-2-2/',
+    '/studies/salishsea': 'https://go.eco/contact-us-2-2/',
+    '/studies/studyabroad': 'https://go.eco/contact-us-2-2/',
+    '/faq': 'https://support.home.eco',
+    '/impact': 'https://go.eco/environmental_policy-2/'
   }))
   .use(sitemap({
     hostname: options['site-url'],

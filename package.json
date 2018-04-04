@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
-    "autoprefixer": "7.1.2",
-    "fast-csv": "2.4.0",
-    "handlebars": "4.0.10",
-    "html-validator": "2.2.2",
+    "autoprefixer": "8.0.0",
+    "fast-csv": "2.4.1",
+    "handlebars": "4.0.11",
+    "html-validator": "2.2.3",
     "imagemin": "github:markadrake/imagemin",
-    "imagemin-mozjpeg": "6.0.0",
+    "imagemin-mozjpeg": "7.0.0",
     "imagemin-pngquant": "5.0.1",
-    "jstransformer-handlebars": "1.0.0",
+    "jstransformer-handlebars": "1.1.0",
     "metalsmith": "2.3.0",
-    "metalsmith-autoprefixer": "1.1.1",
+    "metalsmith-autoprefixer": "1.1.2",
     "metalsmith-discover-helpers": "0.1.0",
     "metalsmith-fingerprint-ignore": "2.0.0",
     "metalsmith-imagemin": "4.0.0",
@@ -21,13 +21,13 @@
     "metalsmith-markdownit": "0.4.0",
     "metalsmith-redirect": "2.1.0",
     "metalsmith-robots": "1.0.1",
-    "metalsmith-sass": "1.4.0",
+    "metalsmith-sass": "1.5.1",
     "metalsmith-serve": "0.0.7",
     "metalsmith-sitemap": "1.2.0",
     "metalsmith-watch": "1.0.3",
     "node-fs-extra": "0.8.2",
-    "stylelint": "8.0.0",
-    "stylelint-config-standard": "17.0.0"
+    "stylelint": "9.1.1",
+    "stylelint-config-standard": "18.1.0"
   },
   "scripts": {
     "build": "node ./build.js",
@@ -54,6 +54,6 @@
     "bootstrap-validator": "0.11.9",
     "clipboard": "1.7.1",
     "font-awesome": "4.7.0",
-    "jquery": "3.2.1"
+    "jquery": "3.3.1"
   }
 }
