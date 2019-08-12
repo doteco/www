@@ -17,7 +17,7 @@ const watch = require('metalsmith-watch')
 let env = process.env.NODE_ENV || 'DEV'
 console.log('Building for environment:', env)
 
-const env_options = {
+const ENV_OPTIONS = {
   DEV: {
     'ga-tracking-id': 'UA-2825422-15',
     'site-url': 'http://localhost:8080',
@@ -50,7 +50,7 @@ const env_options = {
   }
 }
 
-let options = env_options[env]
+let options = ENV_OPTIONS[env]
 console.log('Using options:', options)
 
 let ms = Metalsmith(__dirname)
@@ -99,7 +99,7 @@ let ms = Metalsmith(__dirname)
     '/grants': '/community/grants',
     '/policies': '/registrars/policies',
     '/registrar': '/registrars',
-    '/': 'https://go.eco/',
+    // '/': 'https://go.eco/',
     '/about/story': 'https://go.eco/our_story/',
     '/about/team': 'https://go.eco/our_story/',
     '/about/press': 'https://go.eco/contact-us-2-2/',
@@ -138,24 +138,25 @@ if (options.imagemin) {
   }))
 }
 
+ms.build(function (err, files) {
+  if (err) { throw err }
+})
+
 if (options.watch) {
   ms.use(serve({
-    'document_root': 'public',
+    document_root: 'public',
     verbose: true,
     http_error_files: {
       404: '/404.html'
     }
   }))
-  .use(watch({
-    paths: {
-      '${source}/**/*': true,
-      'scss/**/*': '{main.scss,**/*.html}',
-      'layouts/**/*': '**/*.html'
-    },
-    livereload: true
-  }))
+    .use(watch({
+      paths: {
+        /* eslint no-template-curly-in-string: 0 */
+        '${source}/**/*': true,
+        'scss/**/*': '{main.scss,**/*.html}',
+        'layouts/**/*': '**/*.html'
+      },
+      livereload: true
+    }))
 }
-
-ms.build(function (err, files) {
-  if (err) { throw err }
-})
