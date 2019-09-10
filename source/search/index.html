@@ -1,0 +1,56 @@
+---
+title: Search for a .eco domain to make your own
+description: Search for a .eco domain and choose your registrar to buy it.
+page-path: /search
+og-image: opengraph/tiger-og.png
+og-width: 1134
+og-height: 625
+active: home
+changefreq: daily
+priority: 1
+---
+
+<div class="section search">
+ <div class="container">
+   <h1 class="subheader">Show your good side with a .eco domain name</h1>
+
+   <p>Search to see if the domain name you're looking for is available.</p>
+
+   <div class="row">
+     <div class="col-sm-8">
+       <input type="text" id="search" class="domain-search" name="search" placeholder="Find your .eco domain name" autocomplete="off" autocapitalize="off" autocorrect="off" tabindex="-1">
+       <div id="results"></div>
+     </div>
+     <div class="col-sm-4">
+       <a id="search-btn" href="#" class="btn btn-primary btn-search">Get your .eco</a>
+     </div>
+   </div>
+ </div>
+</div>
+
+<div class="section registrars">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</div>
+
+<script>
+  function loadRegistrars () {
+    var url = 'https://test-search.home.eco/status'
+    return window.fetch(url).then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to load search data: ${response.statusText}`)
+      }
+      return response.json().then(r => r.registrars)
+    })
+  }
+
+  loadRegistrars().then(registrars => {
+    console.log('loaded', registrars)
+    $.each(registrars, function (idx, registrar) {
+      console.log(registrar)
+      $('.registrars .row').append('<div class="col-sm-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + registrar.url + '" rel="noopener"><img src="/img/registrar_logos/' + (registrar.logo === 'yes' ? 'name.png' : registrar.logo) + '" alt="' + registrar.registrar + '" class="registrar-logo" /></a></div>')
+    })
+  })
+</script>
