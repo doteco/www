@@ -43,9 +43,9 @@ priority: 1
 </div>
 
 <script>
+  var searchURL = 'https://test-search.home.eco/status'
   function loadRegistrars () {
-    var url = 'https://test-search.home.eco/status'
-    return window.fetch(url).then(response => {
+    return window.fetch(searchURL).then(response => {
       if (!response.ok) {
         throw new Error(`Failed to load search data: ${response.statusText}`)
       }
@@ -64,11 +64,19 @@ priority: 1
     priorityRegistrars.sort((registrar1, registrar2) => registrar1.priority - registrar2.priority)
 
     const otherRegistrars = registrars.filter(registrar => !registrar.priority)
-    priorityRegistrars.forEach(function (registrar) {
-      $('.registrars.priority .row').append(registrarLogoDiv(registrar))
+    priorityRegistrars.forEach(registrar => {
+      document.querySelector('.registrars.priority .row').insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
     })
-    otherRegistrars.forEach(function (registrar) {
-      $('.registrars.inverted .row').append(registrarLogoDiv(registrar))
+    otherRegistrars.forEach(registrar => {
+      document.querySelector('.registrars.inverted .row').insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
     })
   })
+
+  document.querySelector('.btn-search').addEventListener('click', function () {
+    const query = document.querySelector('.domain-search').value
+    return window.fetch(searchURL + '?domain=' + query).then(response => {
+      return response.json().then(r => console.log(r))
+    })
+  })
+
 </script>

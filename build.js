@@ -103,7 +103,7 @@ let ms = Metalsmith(__dirname)
     '/about/story': 'https://go.eco/our_story/',
     '/about/team': 'https://go.eco/our_story/',
     '/about/press': 'https://go.eco/contact-us-2-2/',
-    '/names/premiums': 'https://go.eco/quality/',
+    // '/names/premiums': 'https://go.eco/quality/',
     '/contact': 'https://go.eco/contact-us-2/',
     '/registrars': 'https://go.eco/eco_registrars/',
     '/registrars/resources': 'https://go.eco/eco_registrars/',
