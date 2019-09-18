@@ -28,7 +28,14 @@ priority: 1
  </div>
 </div>
 
-<div class="section registrars">
+<div class="section registrars priority">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</div>
+
+<div class="section registrars inverted">
   <div class="container">
     <div class="row">
     </div>
@@ -46,11 +53,22 @@ priority: 1
     })
   }
 
+  function registrarLogoDiv (registrar) {
+    return '<div class="col-sm-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + registrar.url + '" rel="noopener"><img src="/img/registrar_logos/' + (registrar.logo === 'yes' ? 'name.png' : registrar.logo) + '" alt="' + registrar.registrar + '" class="registrar-logo" /></a></div>'
+  }
+
   loadRegistrars().then(registrars => {
     console.log('loaded', registrars)
-    $.each(registrars, function (idx, registrar) {
-      console.log(registrar)
-      $('.registrars .row').append('<div class="col-sm-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + registrar.url + '" rel="noopener"><img src="/img/registrar_logos/' + (registrar.logo === 'yes' ? 'name.png' : registrar.logo) + '" alt="' + registrar.registrar + '" class="registrar-logo" /></a></div>')
+
+    const priorityRegistrars = registrars.filter(registrar => registrar.priority)
+    priorityRegistrars.sort((registrar1, registrar2) => registrar1.priority - registrar2.priority)
+
+    const otherRegistrars = registrars.filter(registrar => !registrar.priority)
+    priorityRegistrars.forEach(function (registrar) {
+      $('.registrars.priority .row').append(registrarLogoDiv(registrar))
+    })
+    otherRegistrars.forEach(function (registrar) {
+      $('.registrars.inverted .row').append(registrarLogoDiv(registrar))
     })
   })
 </script>

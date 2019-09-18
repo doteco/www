@@ -108,7 +108,7 @@ let ms = Metalsmith(__dirname)
     '/registrars': 'https://go.eco/eco_registrars/',
     '/registrars/resources': 'https://go.eco/eco_registrars/',
     '/registrars/funding': 'https://go.eco/eco_registrars/',
-    '/registrars/partners': 'https://go.eco/eco_registrars_list/',
+    // '/registrars/partners': 'https://go.eco/eco_registrars_list/',
     '/privacy': 'https://go.eco/privacy_policy/',
     '/studies/goodonyou': 'https://go.eco/contact-us-2-2/',
     '/studies/koala': 'https://go.eco/contact-us-2-2/',
