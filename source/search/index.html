@@ -54,7 +54,7 @@ priority: 1
   }
 
   function registrarLogoDiv (registrar) {
-    return '<div class="col-sm-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + registrar.url + '" rel="noopener"><img src="/img/registrar_logos/' + (registrar.logo === 'yes' ? 'name.png' : registrar.logo) + '" alt="' + registrar.registrar + '" class="registrar-logo" /></a></div>'
+    return '<div class="col-sm-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + registrar.url + '" rel="noopener"><img src="https://cdn.profiles.eco/registrars/logos/' + (registrar.logo === 'yes' ? 'name.png' : registrar.logo) + '" alt="' + registrar.registrar + '" class="registrar-logo" /></a></div>'
   }
 
   loadRegistrars().then(registrars => {
