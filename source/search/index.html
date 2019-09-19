@@ -61,13 +61,13 @@ priority: 1
     console.log('loaded', registrars)
 
     const priorityRegistrars = registrars.filter(registrar => registrar.priority)
-    priorityRegistrars.sort((registrar1, registrar2) => registrar1.priority - registrar2.priority)
+    priorityRegistrars.sort((registrar1, registrar2) => registrar2.priority - registrar1.priority)
 
-    const otherRegistrars = registrars.filter(registrar => !registrar.priority)
     priorityRegistrars.forEach(registrar => {
       document.querySelector('.registrars.priority .row').insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
     })
-    otherRegistrars.forEach(registrar => {
+    registrars.sort((registrar1, registrar2) => registrar2.label.localeCompare(registrar1.label))
+    registrars.forEach(registrar => {
       document.querySelector('.registrars.inverted .row').insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
     })
   })
