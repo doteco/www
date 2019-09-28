@@ -16,15 +16,17 @@ priority: 1
 
    <p>Search to see if the domain name you're looking for is available.</p>
 
+   <form method="get">
    <div class="row">
      <div class="col-sm-8">
-       <input type="text" id="search" class="domain-search" name="search" placeholder="Find your .eco domain name" autocomplete="off" autocapitalize="off" autocorrect="off" tabindex="-1">
+       <input type="text" id="search" class="domain-search" name="domain" placeholder="Find your .eco domain name" autocomplete="off" autocapitalize="off" autocorrect="off" tabindex="-1" autofocus>
        <div id="results"></div>
      </div>
      <div class="col-sm-4">
-       <a id="search-btn" href="#" class="btn btn-primary btn-search">Get your .eco</a>
+       <button id="search-btn" class="btn btn-primary btn-search" type="submit">Get your .eco</button>
      </div>
    </div>
+   </form>
  </div>
 </div>
 
@@ -43,23 +45,13 @@ priority: 1
 </div>
 
 <script>
-  var searchURL = 'https://test-search.home.eco/status'
-  function loadRegistrars () {
-    return window.fetch(searchURL).then(response => {
-      if (!response.ok) {
-        throw new Error(`Failed to load search data: ${response.statusText}`)
-      }
-      return response.json().then(r => r.registrars)
-    })
-  }
+  const searchURL = 'https://test-search.home.eco/status'
 
   function registrarLogoDiv (registrar) {
-    return '<div class="col-sm-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + registrar.url + '" rel="noopener"><img src="https://cdn.profiles.eco/registrars/logos/' + (registrar.logo === 'yes' ? 'name.png' : registrar.logo) + '" alt="' + registrar.registrar + '" class="registrar-logo" /></a></div>'
+    return '<div class="col-sm-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + registrar.url + '" rel="noopener" class="registrar"><img src="https://cdn.profiles.eco/registrars/logos/' + (registrar.logo === 'yes' ? 'name.png' : registrar.logo) + '" alt="' + registrar.registrar + '" class="registrar-logo" /></a></div>'
   }
 
-  loadRegistrars().then(registrars => {
-    console.log('loaded', registrars)
-
+  function showRegistrars (registrars) {
     const priorityRegistrars = registrars.filter(registrar => registrar.priority)
     priorityRegistrars.sort((registrar1, registrar2) => registrar2.priority - registrar1.priority)
 
@@ -70,13 +62,43 @@ priority: 1
     registrars.forEach(registrar => {
       document.querySelector('.registrars.inverted .row').insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
     })
-  })
+  }
 
-  document.querySelector('.btn-search').addEventListener('click', function () {
-    const query = document.querySelector('.domain-search').value
-    return window.fetch(searchURL + '?domain=' + query).then(response => {
-      return response.json().then(r => console.log(r))
+  function search (domain) {
+    return window.fetch(searchURL + '?domain=' + domain).then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to load search data: ${response.statusText}`)
+      }
+
+      return response.json().then(r => {
+        console.log(r)
+        const output = document.querySelector('.domain-search-output')
+        if (! r.domain) {
+          output.innerText = 'We cannot find that name. Please check your search and try again'
+        }
+        document.querySelector('.domain-search').value = r.domain
+
+        showRegistrars(r.registrars || {})
+      })
     })
+  }
+
+  document.querySelector('.btn-search').addEventListener('click', function (e) {
+    e.preventDefault()
+    const domain = document.querySelector('.domain-search').value
+    return search(domain)
   })
 
+  document.querySelector('.domain-search').addEventListener('keyUp', function (e) {
+    if (e.keyCode === 13) {
+      e.preventDefault()
+      document.querySelector('.btn-search').click()
+    }
+  })
+
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.has('domain')) {
+    const domain = urlParams.get('domain')
+    search(domain)
+  }
 </script>
