@@ -14,16 +14,18 @@ priority: 1
  <div class="container">
    <h1 class="subheader">Show your good side with a .eco domain name</h1>
 
-   <p>Search to see if the domain name you're looking for is available.</p>
-
-   <form method="get">
+   <form method="get" class="search-form">
      <div class="row">
+       <div class="col-sm-2"></div>
        <div class="col-sm-8">
-         <input type="text" id="search" class="domain-search" name="domain" placeholder="Find your .eco domain name" autocomplete="off" autocapitalize="off" autocorrect="off" tabindex="-1" autofocus>
+         <div class="input-group">
+           <input type="text" class="form-control domain-search" name="domain" placeholder="Find your .eco domain name" autocomplete="off" autocapitalize="off" autocorrect="off" tabindex="-1" autofocus>
+           <span class="input-group-btn">
+             <button class="btn btn-search" type="button"><span class="glyphicon glyphicon-search"></span></button>
+           </span>
+          </div>
        </div>
-       <div class="col-sm-4">
-         <button id="search-btn" class="btn btn-primary btn-search" type="submit">Get your .eco</button>
-       </div>
+       <div class="col-sm-2"></div>
      </div>
    </form>
  </div>
@@ -31,19 +33,19 @@ priority: 1
 
 <div class="section search-results">
   <div class="container">
-    <!-- <div class="row">
-    </div> -->
   </div>
 </div>
 
 <div class="section registrars priority">
   <div class="container">
+    <h3 class="registars-header">Our top retailers</h3>
     <div class="row">
     </div>
   </div>
 </div>
 
 <div class="section registrars inverted">
+  <h3 class="registars-header">Find a retailer</h3>
   <div class="container">
     <div class="row">
     </div>
@@ -77,11 +79,12 @@ priority: 1
 
   function searchResultMessage (r, searchDomain) {
     if (! r.domain) {
-      return `We cannot find ${searchDomain}. Please try a different .eco name`
+      return `We cannot find <span class="searched-domain">${searchDomain}</span>. Please try a different .eco name`
     }
     if (r.summary === 'inactive') {
-      return `${searchDomain} is available`
+      return `<span class="searched-domain">${searchDomain}</span> is available`
     }
+    return `<span class="searched-domain">${searchDomain}</span> is already taken.<br/>Please try a different .eco name`
   }
 
   function search (domain) {
@@ -100,7 +103,7 @@ priority: 1
         const message = searchResultMessage(r, document.querySelector('.domain-search').value)
         searchResultsRow.innerHTML = `<span class='domain-search-output title'>${message}</span>`
 
-        showRegistrars(r.registrars || {})
+        showRegistrars(r.registrars || [])
       })
     })
   }
