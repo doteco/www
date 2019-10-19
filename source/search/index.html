@@ -36,7 +36,7 @@ priority: 1
   </div>
 </div>
 
-<div class="section registrars priority">
+<div class="section registrars priority" style="display:none">
   <div class="container">
     <h3 class="registars-header">Our top retailers</h3>
     <div class="row">
@@ -44,7 +44,7 @@ priority: 1
   </div>
 </div>
 
-<div class="section registrars inverted">
+<div class="section registrars inverted" style="display:none">
   <h3 class="registars-header">Find a retailer</h3>
   <div class="container">
     <div class="row">
@@ -63,12 +63,14 @@ priority: 1
     const priorityRegistrars = registrars.filter(registrar => registrar.priority)
     priorityRegistrars.sort((registrar1, registrar2) => registrar2.priority - registrar1.priority)
 
+    document.querySelector('.registrars.priority').style.display = registrars.length > 0 ? '' : 'none'
     const priorityRegistrarsRow = document.querySelector('.registrars.priority .row')
     priorityRegistrarsRow.innerHTML = ""
     priorityRegistrars.forEach(registrar => {
       priorityRegistrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
     })
 
+    document.querySelector('.registrars.inverted').style.display = registrars.length > 0 ? '' : 'none'
     const registrarsRow = document.querySelector('.registrars.inverted .row')
     registrarsRow.innerHTML = ""
     registrars.sort((registrar1, registrar2) => registrar2.label.localeCompare(registrar1.label))
