@@ -31,23 +31,23 @@ priority: 1
  </div>
 </div>
 
-<div class="section search-results">
-  <div class="container">
+<div class="section">
+  <div class="container search-results">
   </div>
 </div>
 
-<div class="section registrars priority" hidden>
-  <div class="container">
+<div class="section registrars" hidden>
+  <div class="container registrars-priority">
     <h3 class="registars-header">Our top retailers</h3>
-    <div class="row">
+    <div class="row registrars-row">
     </div>
   </div>
 </div>
 
 <div class="section registrars inverted" hidden>
-  <h3 class="registars-header">Find a retailer</h3>
-  <div class="container">
-    <div class="row">
+  <div class="container registrars-all">
+    <h3 class="registars-header">Find a retailer</h3>
+    <div class="row registrars-row">
     </div>
   </div>
 </div>
@@ -63,15 +63,16 @@ priority: 1
     const priorityRegistrars = registrars.filter(registrar => registrar.priority)
     priorityRegistrars.sort((registrar1, registrar2) => registrar2.priority - registrar1.priority)
 
-    document.querySelector('.registrars.priority').hidden = !(registrars.length > 0)
-    const priorityRegistrarsRow = document.querySelector('.registrars.priority .row')
+    document.querySelectorAll('.registrars').forEach(el => {
+      registrars.length ? el.removeAttribute('hidden') : el.setAttribute('hidden', '')
+    })
+    const priorityRegistrarsRow = document.querySelector('.registrars-priority .row')
     priorityRegistrarsRow.innerHTML = ""
     priorityRegistrars.forEach(registrar => {
       priorityRegistrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
     })
 
-    document.querySelector('.registrars.inverted').hidden = !(registrars.length > 0)
-    const registrarsRow = document.querySelector('.registrars.inverted .row')
+    const registrarsRow = document.querySelector('.registrars-all .registrars-row')
     registrarsRow.innerHTML = ""
     registrars.sort((registrar1, registrar2) => registrar2.label.localeCompare(registrar1.label))
     registrars.forEach(registrar => {
@@ -101,7 +102,7 @@ priority: 1
           document.querySelector('.domain-search').value = r.domain
         }
 
-        const searchResultsRow = document.querySelector('.search-results .container')
+        const searchResultsRow = document.querySelector('.search-results')
         const message = searchResultMessage(r, document.querySelector('.domain-search').value)
         searchResultsRow.innerHTML = `<span class='domain-search-output title'>${message}</span>`
 
