@@ -47,6 +47,8 @@ priority: 1
 <div class="section registrars inverted" hidden>
   <div class="container registrars-all">
     <h3 class="registars-header">Find a retailer</h3>
+    <div class="row registrars-filter">
+    </div>
     <div class="row registrars-row">
     </div>
   </div>
@@ -57,6 +59,20 @@ priority: 1
 
   function registrarLogoDiv (registrar) {
     return '<div class="col-sm-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + registrar.url + '" rel="noopener" class="registrar"><img src="https://cdn.profiles.eco/registrars/logos/' + (registrar.logo === 'yes' ? 'name.png' : registrar.logo) + '" alt="' + registrar.registrar + '" class="registrar-logo" /></a></div>'
+  }
+
+  function generateFilterHtml (id, defaultItem, items) {
+    const options = items.map(item => `<option value=${item}>${item}</option>`)
+    return `<div class="col-sm-3"><select id="{$id}"><option value="${defaultItem}">${defaultItem}</option>${options}</select></div>`
+  }
+
+  function uniqueFilterItems(registrars, field) {
+    const itemsAll = registrars.map(registrar => {
+      return registrar[field]
+    })
+    const itemsUnique = Array.from(new Set(itemsAll.flat())).filter(item => item.length > 0)
+    itemsUnique.sort()
+    return itemsUnique
   }
 
   function showRegistrars (registrars) {
@@ -78,6 +94,19 @@ priority: 1
     registrars.forEach(registrar => {
       registrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
     })
+
+    const registrarsFilterRow = document.querySelector('.registrars-filter')
+    registrarsFilterRow.innerHTML = ""
+
+    const languages = uniqueFilterItems(registrars, 'languages')
+    const currencies = uniqueFilterItems(registrars, 'currencies')
+    const regions = uniqueFilterItems(registrars, 'region')
+    const envPolicy = ['Yes']
+
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', 'Environmental policy', envPolicy))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', 'Currency', currencies))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', 'Language', languages))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', 'Region', regions))
   }
 
   function searchResultMessage (r, searchDomain) {
