@@ -1,0 +1,62 @@
+.search {
+  background-color: $doteco-sapphire;
+  padding: 2em;
+}
+
+.search-header {
+  color: white !important;
+}
+
+.search-form {
+  margin: 4rem 0;
+}
+
+.btn-search {
+  border: 1px #454B73 solid;
+  font-size: 2.25rem;
+  background-color: $doteco-citrine;
+  font-weight: bold;
+  color: $doteco-charcoal;
+}
+
+.btn-search:hover {
+  background-color: $doteco-charcoal;
+  color: white;
+}
+
+.searched-domain {
+  font-weight: bold;
+  color: $doteco-sapphire;
+}
+
+.search-results {
+  text-align: center;
+  padding: 4rem;
+}
+
+.registars-header {
+  text-align: center;
+}
+
+.registrars-filter {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: $doteco-gray;
+  border-radius: 5px;
+}
+
+.registrar-logo.moniker-logo {
+  width: 50%;
+}
+
+.registrar-button {
+  height: 12rem;
+
+  a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 10rem;
+  }
+}

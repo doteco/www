@@ -86,35 +86,4 @@
 	.subscribe {
 		margin-top: 4rem;
 	}
-
-	.search-results {
-		text-align: center;
-		padding: 4rem;
-	}
-
-	.btn-search {
-		border: 1px #454B73 solid;
-		font-size: 2.25rem;
-		background-color: $doteco-citrine;
-		font-weight: bold;
-		color: $doteco-charcoal;
-	}
-
-	.btn-search:hover {
-		background-color: $doteco-charcoal;
-		color: white;
-	}
-
-	.registars-header {
-		text-align: center;
-	}
-
-	.search-form {
-		margin: 4rem 0;
-	}
-
-	.searched-domain {
-		font-weight: bold;
-		color: $doteco-sapphire;
-	}
 }

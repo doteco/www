@@ -12,7 +12,7 @@ priority: 1
 
 <div class="section search">
  <div class="container">
-   <h1 class="subheader">Show your good side with a .eco domain name</h1>
+   <h1 class="subheader search-header">Show your good side with a .eco domain name</h1>
 
    <form method="get" class="search-form">
      <div class="row">
@@ -63,7 +63,7 @@ priority: 1
 
   function generateFilterHtml (id, defaultItem, items) {
     const options = items.map(item => `<option value=${item}>${item}</option>`)
-    return `<div class="col-sm-3"><select id="{$id}"><option value="${defaultItem}">${defaultItem}</option>${options}</select></div>`
+    return `<div class="col-sm-3"><select id="${id}"><option value="${defaultItem}">${defaultItem}</option>${options}</select></div>`
   }
 
   function uniqueFilterItems(registrars, field) {

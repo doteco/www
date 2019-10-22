@@ -82,33 +82,6 @@
 		}
 	}
 
-	.search {
-		background-color: $doteco-sapphire;
-		padding: 2em;
-
-		h1 {
-			color: white;
-		}
-
-		p {
-			color: white;
-			font-size: 1.1em;
-			font-weight: 300;
-		}
-
-		.btn-primary {
-			background-color: $doteco-citrine;
-			color: $doteco-charcoal;
-			margin-top: 1em;
-			padding: 1em 3em;
-		}
-
-		.btn-primary:hover {
-			background-color: $doteco-charcoal;
-			color: white;
-		}
-	}
-
 	.recent {
 		background-color: $doteco-marrow;
 		padding: 2rem 0;
@@ -148,22 +121,6 @@
 
 	.page-home .registrar-logo {
 		margin: 0 auto;
-	}
-
-	.registrar-logo.moniker-logo {
-		width: 50%;
-	}
-
-	.registrar-button {
-		height: 10rem;
-
-		a {
-			display: table-cell;
-			vertical-align: middle;
-			text-align: center;
-			width: 100%;
-			height: 10rem;
-		}
 	}
 
 	.home-100days {
