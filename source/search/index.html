@@ -62,8 +62,8 @@ priority: 1
   }
 
   function generateFilterHtml (id, defaultItem, items) {
-    const options = items.map(item => `<option value=${item}>${item}</option>`)
-    return `<div class="col-sm-3"><select id="${id}"><option value="${defaultItem}">${defaultItem}</option>${options}</select></div>`
+    const options = items.map(item => `<option value="${item}">${item}</option>`)
+    return `<div class="col-sm-3"><select id="${id}" class="registrar-filter"><option value="" selected>${defaultItem}</option>${options}</select></div>`
   }
 
   function uniqueFilterItems(registrars, field) {
@@ -73,6 +73,54 @@ priority: 1
     const itemsUnique = Array.from(new Set(itemsAll.flat())).filter(item => item.length > 0)
     itemsUnique.sort()
     return itemsUnique
+  }
+
+  function filterRegistrars (registrars) {
+    const policyFilter = document.querySelector('#filter-policy').value
+    const currencyFilter = document.querySelector('#filter-currency').value
+    const languageFilter = document.querySelector('#filter-language').value
+    const regionFilter = document.querySelector('#filter-region').value
+    console.log('Filters:', regionFilter, languageFilter, currencyFilter, policyFilter)
+    let filteredRegistrars = registrars
+    if (regionFilter.length > 0) {
+      filteredRegistrars = filteredRegistrars.filter(registrar => registrar.region === regionFilter)
+    }
+    if (languageFilter.length > 0) {
+      filteredRegistrars = filteredRegistrars.filter(registrar => registrar.languages.includes(languageFilter))
+    }
+    if (currencyFilter.length > 0) {
+      filteredRegistrars = filteredRegistrars.filter(registrar => registrar.currencies.includes(currencyFilter))
+    }
+    if (policyFilter.length > 0) {
+      filteredRegistrars = filteredRegistrars.filter(registrar => registrar.envPolicy.length > 0)
+    }
+    showAllRegistrars(filteredRegistrars)
+  }
+
+  function addFilters (registrars) {
+    const registrarsFilterRow = document.querySelector('.registrars-filter')
+    registrarsFilterRow.innerHTML = ""
+
+    const languages = uniqueFilterItems(registrars, 'languages')
+    const currencies = uniqueFilterItems(registrars, 'currencies')
+    const regions = uniqueFilterItems(registrars, 'region')
+    const envPolicy = ['Yes']
+
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', 'Environmental policy', envPolicy))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', 'Currency', currencies))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', 'Language', languages))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', 'Region', regions))
+
+    document.querySelectorAll('.registrar-filter').forEach(el => el.addEventListener('change', () => filterRegistrars(registrars)))
+  }
+
+  function showAllRegistrars (registrars) {
+    const registrarsRow = document.querySelector('.registrars-all .registrars-row')
+    registrarsRow.innerHTML = ""
+    registrars.sort((registrar1, registrar2) => registrar2.label.localeCompare(registrar1.label))
+    registrars.forEach(registrar => {
+      registrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
+    })
   }
 
   function showRegistrars (registrars) {
@@ -87,26 +135,7 @@ priority: 1
     priorityRegistrars.forEach(registrar => {
       priorityRegistrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
     })
-
-    const registrarsRow = document.querySelector('.registrars-all .registrars-row')
-    registrarsRow.innerHTML = ""
-    registrars.sort((registrar1, registrar2) => registrar2.label.localeCompare(registrar1.label))
-    registrars.forEach(registrar => {
-      registrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
-    })
-
-    const registrarsFilterRow = document.querySelector('.registrars-filter')
-    registrarsFilterRow.innerHTML = ""
-
-    const languages = uniqueFilterItems(registrars, 'languages')
-    const currencies = uniqueFilterItems(registrars, 'currencies')
-    const regions = uniqueFilterItems(registrars, 'region')
-    const envPolicy = ['Yes']
-
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', 'Environmental policy', envPolicy))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', 'Currency', currencies))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', 'Language', languages))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', 'Region', regions))
+    showAllRegistrars(registrars)
   }
 
   function searchResultMessage (r, searchDomain) {
@@ -135,7 +164,9 @@ priority: 1
         const message = searchResultMessage(r, document.querySelector('.domain-search').value)
         searchResultsRow.innerHTML = `<span class='domain-search-output title'>${message}</span>`
 
-        showRegistrars(r.registrars || [])
+        const registrars = r.registrars || []
+        showRegistrars(registrars)
+        addFilters(registrars)
       })
     })
   }
