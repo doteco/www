@@ -83,7 +83,7 @@ priority: 1
     console.log('Filters:', regionFilter, languageFilter, currencyFilter, policyFilter)
     let filteredRegistrars = registrars
     if (regionFilter.length > 0) {
-      filteredRegistrars = filteredRegistrars.filter(registrar => registrar.region === regionFilter)
+      filteredRegistrars = filteredRegistrars.filter(registrar => registrar.region.includes(regionFilter))
     }
     if (languageFilter.length > 0) {
       filteredRegistrars = filteredRegistrars.filter(registrar => registrar.languages.includes(languageFilter))
