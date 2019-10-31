@@ -55,15 +55,20 @@ priority: 1
 </div>
 
 <script>
-  const searchURL = 'https://test-search.home.eco/status'
+  const searchURL = 'https://test-search.home.eco'
 
-  function registrarLogoDiv (registrar) {
-    return '<div class="col-sm-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + registrar.url + '" rel="noopener" class="registrar"><img src="https://cdn.profiles.eco/registrars/logos/' + (registrar.logo === 'yes' ? 'name.png' : registrar.logo) + '" alt="' + registrar.registrar + '" class="registrar-logo" /></a></div>'
+  function registrarLogoDiv (registrar, domain) {
+    const goUrl = searchURL + '/go?registrar=' + encodeURIComponent(registrar.registrar) + '&domain=' + encodeURIComponent(domain)
+    return '<div class="col-sm-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + goUrl + '" rel="noopener" class="registrar"><img src="https://cdn.profiles.eco/registrars/logos/' + (registrar.logo === 'yes' ? 'name.png' : registrar.logo) + '" alt="' + registrar.registrar + '" class="registrar-logo" /></a></div>'
   }
 
   function generateFilterHtml (id, defaultItem, items) {
     const options = items.map(item => `<option value="${item}">${item}</option>`)
     return `<div class="col-sm-3"><select id="${id}" class="registrar-filter"><option value="" selected>${defaultItem}</option>${options}</select></div>`
+  }
+
+  function searchDomain () {
+    return document.querySelector('.domain-search').value
   }
 
   function uniqueFilterItems(registrars, field) {
@@ -94,7 +99,7 @@ priority: 1
     if (policyFilter.length > 0) {
       filteredRegistrars = filteredRegistrars.filter(registrar => registrar.envPolicy.length > 0)
     }
-    showAllRegistrars(filteredRegistrars)
+    showAllRegistrars(filteredRegistrars, searchDomain())
   }
 
   function addFilters (registrars) {
@@ -114,16 +119,16 @@ priority: 1
     document.querySelectorAll('.registrar-filter').forEach(el => el.addEventListener('change', () => filterRegistrars(registrars)))
   }
 
-  function showAllRegistrars (registrars) {
+  function showAllRegistrars (registrars, domain) {
     const registrarsRow = document.querySelector('.registrars-all .registrars-row')
     registrarsRow.innerHTML = ""
     registrars.sort((registrar1, registrar2) => registrar2.label.localeCompare(registrar1.label))
     registrars.forEach(registrar => {
-      registrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
+      registrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar, domain))
     })
   }
 
-  function showRegistrars (registrars) {
+  function showRegistrars (registrars, domain) {
     const priorityRegistrars = registrars.filter(registrar => registrar.priority)
     priorityRegistrars.sort((registrar1, registrar2) => registrar2.priority - registrar1.priority)
 
@@ -133,9 +138,9 @@ priority: 1
     const priorityRegistrarsRow = document.querySelector('.registrars-priority .row')
     priorityRegistrarsRow.innerHTML = ""
     priorityRegistrars.forEach(registrar => {
-      priorityRegistrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar))
+      priorityRegistrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar, domain))
     })
-    showAllRegistrars(registrars)
+    showAllRegistrars(registrars, domain)
   }
 
   function searchResultMessage (r, searchDomain) {
@@ -149,7 +154,7 @@ priority: 1
   }
 
   function search (domain) {
-    return window.fetch(searchURL + '?domain=' + domain).then(response => {
+    return window.fetch(searchURL + '/status?domain=' + domain).then(response => {
       if (!response.ok) {
         throw new Error(`Failed to load search data: ${response.statusText}`)
       }
@@ -161,11 +166,11 @@ priority: 1
         }
 
         const searchResultsRow = document.querySelector('.search-results')
-        const message = searchResultMessage(r, document.querySelector('.domain-search').value)
+        const message = searchResultMessage(r, searchDomain())
         searchResultsRow.innerHTML = `<span class='domain-search-output title'>${message}</span>`
 
         const registrars = r.registrars || []
-        showRegistrars(registrars)
+        showRegistrars(registrars, r.domain)
         addFilters(registrars)
       })
     })
@@ -173,14 +178,14 @@ priority: 1
 
   document.querySelector('.btn-search').addEventListener('click', function (e) {
     e.preventDefault()
-    const domain = document.querySelector('.domain-search').value
-    return search(domain)
+    return search(searchDomain())
   })
 
   document.querySelector('.domain-search').addEventListener('keyUp', function (e) {
     if (e.keyCode === 13) {
       e.preventDefault()
       document.querySelector('.btn-search').click()
+      return false
     }
   })
 
