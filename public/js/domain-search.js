@@ -124,7 +124,7 @@ document.querySelector('.btn-search').addEventListener('click', function (e) {
   return search(searchDomain())
 })
 
-document.querySelector('.domain-search').addEventListener('keyUp', function (e) {
+document.querySelector('.domain-search').addEventListener('keydown', function (e) {
   if (e.keyCode === 13) {
     e.preventDefault()
     document.querySelector('.btn-search').click()
