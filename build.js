@@ -14,57 +14,57 @@ const redirect = require('metalsmith-redirect')
 const robots = require('metalsmith-robots')
 const watch = require('metalsmith-watch')
 
-let env = process.env.NODE_ENV || 'DEV'
+const env = process.env.NODE_ENV || 'DEV'
 console.log('Building for environment:', env)
 
 const ENV_OPTIONS = {
   DEV: {
     'ga-tracking-id': 'UA-2825422-15',
     'site-url': 'http://localhost:8080',
-    'watch': true,
-    'pixel': false,
-    'profiles': 'https://test.profiles.eco',
-    'trustmark': 'https://test-trust.profiles.eco',
-    'intercomAppID': 'gt94nkkh',
-    'imagemin': false
+    watch: true,
+    pixel: false,
+    profiles: 'https://test.profiles.eco',
+    trustmark: 'https://test-trust.profiles.eco',
+    intercomAppID: 'gt94nkkh',
+    imagemin: false
   },
   TST: {
     'ga-tracking-id': 'UA-2825422-15',
     'site-url': 'http://test.home.eco',
-    'watch': false,
-    'pixel': false,
-    'profiles': 'https://test.profiles.eco',
-    'trustmark': 'https://test-trust.profiles.eco',
-    'intercomAppID': 'gt94nkkh',
-    'imagemin': true
+    watch: false,
+    pixel: false,
+    profiles: 'https://test.profiles.eco',
+    trustmark: 'https://test-trust.profiles.eco',
+    intercomAppID: 'gt94nkkh',
+    imagemin: true
   },
   PRD: {
     'ga-tracking-id': 'UA-2825422-14',
     'site-url': 'https://home.eco',
-    'watch': false,
-    'pixel': true,
-    'profiles': 'https://profiles.eco',
-    'trustmark': 'https://trust.profiles.eco',
-    'intercomAppID': 'hsovcclh',
-    'imagemin': true
+    watch: false,
+    pixel: true,
+    profiles: 'https://profiles.eco',
+    trustmark: 'https://trust.profiles.eco',
+    intercomAppID: 'hsovcclh',
+    imagemin: true
   }
 }
 
-let options = ENV_OPTIONS[env]
+const options = ENV_OPTIONS[env]
 console.log('Using options:', options)
 
-let ms = Metalsmith(__dirname)
+const ms = Metalsmith(__dirname)
   .metadata({
-    'year': new Date().getFullYear(),
+    year: new Date().getFullYear(),
     'img-root': '/img',
     'site-url': options['site-url'],
     'twitter-id': '@doteco',
     'ga-tracking-id': options['ga-tracking-id'],
-    'livereload': options.watch,
-    'pixel': options.pixel,
-    'profiles': options.profiles,
-    'trustmark': options.trustmark,
-    'intercomAppID': options.intercomAppID
+    livereload: options.watch,
+    pixel: options.pixel,
+    profiles: options.profiles,
+    trustmark: options.trustmark,
+    intercomAppID: options.intercomAppID
   })
   .use(csvLoader())
   .source('./source')
@@ -99,24 +99,7 @@ let ms = Metalsmith(__dirname)
     '/grants': '/community/grants',
     '/policies': '/registrars/policies',
     '/registrar': '/registrars',
-    // '/': 'https://go.eco/',
-    '/about/story': 'https://go.eco/our_story/',
-    '/about/team': 'https://go.eco/our_story/',
-    '/about/press': 'https://go.eco/contact-us-2-2/',
-    // '/names/premiums': 'https://go.eco/quality/',
-    '/contact': 'https://go.eco/contact-us-2/',
-    '/registrars': 'https://go.eco/eco_registrars/',
-    '/registrars/resources': 'https://go.eco/eco_registrars/',
-    '/registrars/funding': 'https://go.eco/eco_registrars/',
-    // '/registrars/partners': 'https://go.eco/eco_registrars_list/',
-    '/privacy': 'https://go.eco/privacy_policy/',
-    '/studies/goodonyou': 'https://go.eco/contact-us-2-2/',
-    '/studies/koala': 'https://go.eco/contact-us-2-2/',
-    '/studies/voltstack': 'https://go.eco/contact-us-2-2/',
-    '/studies/salishsea': 'https://go.eco/contact-us-2-2/',
-    '/studies/studyabroad': 'https://go.eco/contact-us-2-2/',
-    '/faq': 'https://support.home.eco',
-    '/impact': 'https://go.eco/environmental_policy-2/'
+    '/faq': 'https://support.home.eco'
   }))
   .use(sitemap({
     hostname: options['site-url'],
