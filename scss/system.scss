@@ -72,11 +72,11 @@
 
 	.profile-tile[data-custom-bg] .profile-tile__wrapper {
 		background-color: none;
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.85) 100%);
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
 	}
 
 	.profile-tile[data-custom-bg]:hover .profile-tile__wrapper {
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.85) 100%);
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.7) 100%);
 	}
 
 	.profile-tile__label {
