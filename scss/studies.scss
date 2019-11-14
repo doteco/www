@@ -1,60 +1,8 @@
 #doteco {
-	.voltstack-header {
-		color: white;
-		background-image: url('/img/voltstack.png');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/voltstack.png');
-		background-size: cover;
-		background-attachment: fixed;
-
-		p {
-			font-weight: 300;
-			font-size: 1.8rem;
-		}
-	}
-
 	.GOY-header {
 		color: white;
 		background-image: url('/img/good-on-you.jpg');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/good-on-you.jpg');
-		background-size: cover;
-		background-attachment: fixed;
-
-		p {
-			font-weight: 300;
-			font-size: 1.8rem;
-		}
-	}
-
-	.salishsea-header {
-		color: white;
-		background-image: url('/img/salish-sea.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/salish-sea.jpg');
-		background-size: cover;
-		background-attachment: fixed;
-
-		p {
-			font-weight: 300;
-			font-size: 1.8rem;
-		}
-	}
-
-	.studyabroad-header {
-		color: white;
-		background-image: url('/img/study-abroad.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/study-abroad.jpg');
-		background-size: cover;
-		background-attachment: fixed;
-
-		p {
-			font-weight: 300;
-			font-size: 1.8rem;
-		}
-	}
-
-	.vonwong-header {
-		color: white;
-		background-image: url('/img/vonwong.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/vonwong.jpg');
 		background-size: cover;
 		background-attachment: fixed;
 
@@ -79,5 +27,12 @@
 
 	.study-video {
 		margin-bottom: 2em;
+	}
+
+	.goodonyou-casestudy {
+		background-image: url('/img/good-on-you.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/good-on-you.jpg');
+		background-size: cover;
+		background-attachment: fixed;		
 	}
 }

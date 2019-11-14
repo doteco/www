@@ -119,8 +119,9 @@
 		}
 	}
 
-	.page-home .registrar-logo {
-		margin: 0 auto;
+	.page-home .press-logo {
+		width: 80%;
+		margin: 1em auto;
 	}
 
 	.home-100days {
@@ -160,6 +161,10 @@
 		display: inline-block;
 		padding: 0.2em 1em;
 		margin: 2.2rem 0;
+	}
+
+	.section-label a {
+		color: white;
 	}
 
 	.inverted .section-label {
@@ -262,6 +267,8 @@
 		padding-left: 0;
 	}
 
+
+
 	.home-signup {
 		h2, p {
 			margin-bottom: 2rem;
@@ -269,12 +276,12 @@
 	}
 
 	.home-casestudy {
-		h4 {
-			margin-bottom: 0.4rem;
-		}
+		padding: 3rem;
+		text-align: center;
 
-		margin-bottom: 0.5rem;
-		font-size: 1.6rem;
+		a {
+			color: white;
+		}
 	}
 
 	.logo-quote {
