@@ -39,7 +39,7 @@ const ENV_OPTIONS = {
     imagemin: true
   },
   PRD: {
-    'ga-tracking-id': 'UA-2825422-14',
+    'ga-tracking-id': 'UA-2825422-23',
     'site-url': 'https://go.eco',
     watch: false,
     pixel: true,
