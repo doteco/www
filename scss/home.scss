@@ -26,7 +26,7 @@
 		}
 
 		.item {
-			height: 450px;
+			height: 400px;
 			background-size: cover;
 		}
 
@@ -82,33 +82,6 @@
 		}
 	}
 
-	.search {
-		background-color: $doteco-sapphire;
-		padding: 2em;
-
-		h1 {
-			color: white;
-		}
-
-		p {
-			color: white;
-			font-size: 1.1em;
-			font-weight: 300;
-		}
-
-		.btn-primary {
-			background-color: $doteco-citrine;
-			color: $doteco-charcoal;
-			margin-top: 1em;
-			padding: 1em 3em;
-		}
-
-		.btn-primary:hover {
-			background-color: $doteco-charcoal;
-			color: white;
-		}
-	}
-
 	.recent {
 		background-color: $doteco-marrow;
 		padding: 2rem 0;
@@ -146,28 +119,9 @@
 		}
 	}
 
-	.page-home .registrar-logo {
-		margin: 0 auto;
-	}
-
-	.registrar-logo.moniker-logo {
-		width: 50%;
-	}
-
-	.registrar-button {
-		height: 10rem;
-
-		a {
-			display: table-cell;
-			vertical-align: middle;
-			text-align: center;
-			width: 100%;
-			height: 10rem;
-		}
-
-		a:hover {
-			background-color: rgba($doteco-fireopal, 0.5);
-		}
+	.page-home .press-logo {
+		width: 80%;
+		margin: 1em auto;
 	}
 
 	.home-100days {
@@ -207,6 +161,10 @@
 		display: inline-block;
 		padding: 0.2em 1em;
 		margin: 2.2rem 0;
+	}
+
+	.section-label a {
+		color: white;
 	}
 
 	.inverted .section-label {
@@ -305,10 +263,6 @@
 		}
 	}
 
-	.case-study-title {
-		padding-left: 0;
-	}
-
 	.home-signup {
 		h2, p {
 			margin-bottom: 2rem;
@@ -316,17 +270,32 @@
 	}
 
 	.home-casestudy {
+		padding: 3rem;
+		text-align: center;
+		border: 1px solid white;
+		cursor: pointer;
+
 		h4 {
-			margin-bottom: 0.4rem;
+			margin: 2rem;
 		}
 
-		margin-bottom: 0.5rem;
-		font-size: 1.6rem;
+		a {
+			color: white;
+		}
+	}
+
+	.home-casestudy:hover {
+		border: 1px solid $doteco-fireopal;
+
 	}
 
 	.logo-quote {
 		color: $doteco-charcoal;
 		font-size: 1.7rem;
 		text-align: center;
+	}
+
+	.community-profiles__container.grid {
+		margin-bottom: 2rem;
 	}
 }

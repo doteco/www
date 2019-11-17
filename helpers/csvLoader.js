@@ -9,7 +9,7 @@ module.exports = (opts) => {
 
         const rows = []
         return new Promise((resolve, reject) => {
-          csv.fromPath(csvFile, { headers: true }).on('data', (data) => {
+          csv.parseFile(csvFile, { headers: true }).on('data', (data) => {
             rows.push(data)
           }).on('end', () => {
             meta.rows = rows
