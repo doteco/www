@@ -7,17 +7,7 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY_ID
     secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: "test.home.eco"
-    skip_cleanup: true
-    region: "us-west-2"
-    local_dir: public/css
-    upload_dir: css
-    on:
-      branch: master
-  - provider: s3
-    access_key_id: $AWS_ACCESS_KEY_ID
-    secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: "test.home.eco"
+    bucket: "test.go.eco"
     skip_cleanup: true
     region: "us-west-2"
     local_dir: public
@@ -26,17 +16,7 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY_ID
     secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: "home.eco"
-    skip_cleanup: true
-    region: "us-west-2"
-    local_dir: public/css
-    upload_dir: css
-    on:
-      branch: production
-  - provider: s3
-    access_key_id: $AWS_ACCESS_KEY_ID
-    secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: "home.eco"
+    bucket: "go.eco"
     skip_cleanup: true
     region: "us-west-2"
     local_dir: public

@@ -30,7 +30,7 @@ const ENV_OPTIONS = {
   },
   TST: {
     'ga-tracking-id': 'UA-2825422-15',
-    'site-url': 'http://test.home.eco',
+    'site-url': 'http://test.go.eco',
     watch: false,
     pixel: false,
     profiles: 'https://test.profiles.eco',
@@ -40,7 +40,7 @@ const ENV_OPTIONS = {
   },
   PRD: {
     'ga-tracking-id': 'UA-2825422-14',
-    'site-url': 'https://home.eco',
+    'site-url': 'https://go.eco',
     watch: false,
     pixel: true,
     profiles: 'https://profiles.eco',
