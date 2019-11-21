@@ -96,9 +96,9 @@ const ms = Metalsmith(__dirname)
     pattern: '**/*.html'
   }))
   .use(redirect({
-    '/grants': '/community/grants',
-    '/policies': '/registrars/policies',
-    '/registrar': '/registrars',
+    '/grants': '/community/grants/',
+    '/policies': '/registrars/policies/',
+    '/registrar': '/registrars/',
     '/faq': 'https://support.home.eco'
   }))
   .use(sitemap({
