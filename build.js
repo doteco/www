@@ -39,7 +39,7 @@ const ENV_OPTIONS = {
     imagemin: true
   },
   PRD: {
-    'ga-tracking-id': 'UA-2825422-14',
+    'ga-tracking-id': 'UA-2825422-23',
     'site-url': 'https://go.eco',
     watch: false,
     pixel: true,
@@ -96,9 +96,9 @@ const ms = Metalsmith(__dirname)
     pattern: '**/*.html'
   }))
   .use(redirect({
-    '/grants': '/community/grants',
-    '/policies': '/registrars/policies',
-    '/registrar': '/registrars',
+    '/grants': '/community/grants/',
+    '/policies': '/registrars/policies/',
+    '/registrar': '/registrars/',
     '/faq': 'https://support.home.eco'
   }))
   .use(sitemap({

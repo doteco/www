@@ -18,7 +18,7 @@ const validate = function (file) {
   return new Promise((resolve, reject) => {
     fs.readFile(file, (err, data) => err ? reject(err) : resolve(data))
   }).then((data) => {
-    let options = {
+    const options = {
       data: data,
       format: 'json'
     }
@@ -41,9 +41,9 @@ const validate = function (file) {
 }
 
 new Promise((resolve, reject) => {
-  let files = []
+  const files = []
   fs.walk('./public').on('data', (file) => {
-    let skipFile = skipFiles.some(s => s === path.relative(process.cwd(), file.path))
+    const skipFile = skipFiles.some(s => s === path.relative(process.cwd(), file.path))
     return file.path.endsWith('.html') && !skipFile ? files.push(file.path) : null
   }).on('end', () => resolve(files))
 }).then((files) => {
