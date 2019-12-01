@@ -26,7 +26,8 @@ const ENV_OPTIONS = {
     profiles: 'https://test.profiles.eco',
     trustmark: 'https://test-trust.profiles.eco',
     intercomAppID: 'gt94nkkh',
-    imagemin: false
+    imagemin: false,
+    searchUrl: 'https://test-search.home.eco'
   },
   TST: {
     'ga-tracking-id': 'UA-2825422-15',
@@ -36,7 +37,8 @@ const ENV_OPTIONS = {
     profiles: 'https://test.profiles.eco',
     trustmark: 'https://test-trust.profiles.eco',
     intercomAppID: 'gt94nkkh',
-    imagemin: true
+    imagemin: true,
+    searchUrl: 'https://test-search.home.eco'
   },
   PRD: {
     'ga-tracking-id': 'UA-2825422-23',
@@ -46,7 +48,8 @@ const ENV_OPTIONS = {
     profiles: 'https://profiles.eco',
     trustmark: 'https://trust.profiles.eco',
     intercomAppID: 'hsovcclh',
-    imagemin: true
+    imagemin: true,
+    searchUrl: 'https://search.home.eco'
   }
 }
 

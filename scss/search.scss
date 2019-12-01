@@ -19,7 +19,7 @@
 }
 
 .btn-search {
-	border: 1px #454B73 solid;
+	border: 1px $doteco-charcoal solid;
 	font-size: 2.25rem;
 	background-color: $doteco-citrine;
 	font-weight: bold;
@@ -52,18 +52,23 @@
 	border-radius: 5px;
 }
 
-.registrar-logo.moniker-logo {
-	width: 50%;
+.registrar-button {
+	height: 16rem;
+  display: table;
+  vertical-align: middle;
 }
 
-.registrar-button {
-	height: 12rem;
+.registrar-button a {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height: 5rem;
+}
 
-	a {
-		display: table-cell;
-		vertical-align: middle;
-		text-align: center;
-		width: 100%;
-		height: 10rem;
-	}
+.registrar-logo {
+  width: 75%;
+}
+
+.registrar-logo:hover {
+  width: 80%;
 }

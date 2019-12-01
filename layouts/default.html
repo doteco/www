@@ -62,7 +62,7 @@
 	    "contactType": "customer service"
 	  }],
 	  "sameAs": [
-	    "https://www.facebook.com/EnvironmentalDomain/",
+	    "https://www.facebook.com/DotEcoDomain/",
 	    "https://www.instagram.com/dot_eco_domain/",
 	    "https://www.linkedin.com/company/15215049",
 	    "https://twitter.com/doteco",
@@ -72,6 +72,21 @@
 	</script>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	{{#if ga-tracking-id}}
+	<script>
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', '{{ga-tracking-id}}', 'auto');
+	ga('require', 'eventTracker');
+	ga('require', 'maxScrollTracker');
+	ga('require', 'outboundFormTracker');
+	ga('require', 'outboundLinkTracker');
+	ga('require', 'pageVisibilityTracker');
+	ga('require', 'urlChangeTracker');
+	ga('send', 'pageview');
+	</script>
+	<script async src="https://www.google-analytics.com/analytics.js"></script>
+	<script async src="/js/autotrack.js"></script>
+	{{/if}}
 </head>
 <body{{#if active}} class="page-{{active}}"{{/if}}>
 

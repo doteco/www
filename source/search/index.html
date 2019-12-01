@@ -54,3 +54,29 @@ priority: 1
   </div>
 </div>
 <script src="/js/domain-search.js"></script>
+<script>
+	domainSearch({
+		searchUrl: 'https://test-search.home.eco',
+		onSearch: function (domain) {
+{{#if ga-tracking-id}}
+      ga('send', {
+        hitType: 'event',
+        eventAction: 'search',
+        eventCategory: 'domain-search',
+        eventLabel: domain
+      })
+{{/if}}
+		},
+		onClick: function (registrar, href) {
+{{#if ga-tracking-id}}
+      ga('send', {
+        hitType: 'event',
+        eventAction: 'click',
+        eventCategory: 'registrar',
+        eventLabel: registrar,
+        transport: 'beacon'
+      })
+{{/if}}
+		}
+	})
+</script>
