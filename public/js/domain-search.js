@@ -44,6 +44,7 @@ window.domainSearch = function (config) {
       filteredRegistrars = filteredRegistrars.filter(registrar => registrar.envPolicy.length > 0)
     }
     showAllRegistrars(filteredRegistrars, searchDomain())
+    config.onFilter([regionFilter, languageFilter, currencyFilter, policyFilter])
   }
 
   function addFilters (registrars) {

@@ -67,7 +67,8 @@ const ms = Metalsmith(__dirname)
     pixel: options.pixel,
     profiles: options.profiles,
     trustmark: options.trustmark,
-    intercomAppID: options.intercomAppID
+    intercomAppID: options.intercomAppID,
+    searchUrl: options.searchUrl
   })
   .use(csvLoader())
   .source('./source')

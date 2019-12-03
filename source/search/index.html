@@ -56,7 +56,7 @@ priority: 1
 <script src="/js/domain-search.js"></script>
 <script>
 	domainSearch({
-		searchUrl: 'https://test-search.home.eco',
+		searchUrl: '{{ searchUrl }}',
 		onSearch: function (domain) {
 {{#if ga-tracking-id}}
       ga('send', {
@@ -64,6 +64,16 @@ priority: 1
         eventAction: 'search',
         eventCategory: 'domain-search',
         eventLabel: domain
+      })
+{{/if}}
+		},
+		onFilter: function (filters) {
+{{#if ga-tracking-id}}
+      ga('send', {
+        hitType: 'event',
+        eventAction: 'select',
+        eventCategory: 'registrar-filter',
+        eventLabel: filters.filter(f => f && f.length > 0).join(',')
       })
 {{/if}}
 		},
