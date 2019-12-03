@@ -67,6 +67,16 @@ priority: 1
       })
 {{/if}}
 		},
+		onFilter: function (filters) {
+{{#if ga-tracking-id}}
+      ga('send', {
+        hitType: 'event',
+        eventAction: 'select',
+        eventCategory: 'registrar-filter',
+        eventLabel: filters.filter(f => f && f.length > 0).join(',')
+      })
+{{/if}}
+		},
 		onClick: function (registrar, href) {
 {{#if ga-tracking-id}}
       ga('send', {
