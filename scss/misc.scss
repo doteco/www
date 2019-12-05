@@ -13,7 +13,9 @@
 		}
 	}
 
-	.section-contact h2 {
-		margin-bottom: 1em;
+	.section-contact {
+		.col-md-6 {
+			margin-bottom: 4rem;
+		}
 	}
 }
