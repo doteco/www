@@ -91,12 +91,22 @@ window.domainSearch = function (config) {
     showAllRegistrars(registrars, domain)
   }
 
+  function showReservedForm (response) {
+    const isReserved = response.summary === 'reserved'
+    const reservedForm = document.querySelector('.domain-reserved')
+    isReserved ? reservedForm.removeAttribute('hidden') : reservedForm.setAttribute('hidden', '')
+    document.getElementById('makeoffer-domain').value = response.domain
+  }
+
   function searchResultMessage (r, searchDomain) {
     if (!r.domain) {
       return `We cannot find <span class="searched-domain">${searchDomain}</span>. Please try a different .eco name`
     }
     if (r.summary === 'inactive' || r.summary === 'premium') {
       return `<span class="searched-domain">${searchDomain}</span> is available`
+    }
+    if (r.summary === 'reserved') {
+      return `<span class="searched-domain">${searchDomain}</span> is a great name!`
     }
     return `<span class="searched-domain">${searchDomain}</span> is already taken.<br/>Please try a different .eco name`
   }
@@ -125,6 +135,7 @@ window.domainSearch = function (config) {
         const registrars = r.registrars || []
         showRegistrars(registrars, r.domain)
         addFilters(registrars)
+        showReservedForm(r)
       })
     }).catch(ex => {
       console.error(`Failed to load search data: ${ex}`)
