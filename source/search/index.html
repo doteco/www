@@ -54,13 +54,13 @@ priority: 1
   </div>
 </div>
 
-<div class="section domain-reserved inverted" hidden>
+<div class="section domain-reserved" hidden>
   <div class="container">
-    <h3 class="registars-header">Interested in this name?</h3>
-    <p class="text-center">This domain is available <strong>exclusively</strong> through go.eco. Contact us using the form below or <a href="javascript:Intercom('show');">on chat</a>.</p>
     <div class="row">
-      <div class="col-sm-3"></div>
-      <div class="col-sm-6">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8 well well-lg">
+        <h3 class="registars-header">Interested in this name?</h3>
+        <p class="text-center">This domain is available <strong>exclusively</strong> through go.eco. Contact us using the form below or <a href="javascript:Intercom('show');">on chat</a>.</p>
         <form id="makeoffer-form" class="underlined-form iframe-form" action="https://docs.google.com/forms/d/e/1FAIpQLScjnQNdyxwhKLM0s7l8h3AKp66WcTY72Qrw5JMC3s9m_k7uVA/formResponse" target="makeoffer-form-iframe" method="POST" data-toggle="validator">
           <fieldset>
             <input id="makeoffer-domain" type="hidden" name="entry.1812657841" value="" />
@@ -77,11 +77,11 @@ priority: 1
           </fieldset>
           <div class="clearfix form-group">
             <button type="submit" class="submit-application btn btn-primary pull-right" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Submitting">Contact us</button>
-            <span class="submit-thanks">Thanks for getting in touch! We will get back to you soon.</span>
+            <span class="submit-thanks" hidden="true">Thanks for getting in touch! We will get back to you soon.</span>
           </div>
         </form>
       </div>
-      <div class="col-sm-3"></div>
+      <div class="col-sm-2"></div>
     </div>
   </div>
 </div>
@@ -121,10 +121,16 @@ priority: 1
         transport: 'beacon'
       })
 {{/if}}
-		}
+		},
+    onReservedSubmit: function (domain) {
+      {{#if ga-tracking-id}}
+            ga('send', {
+              hitType: 'event',
+              eventAction: 'submit',
+              eventCategory: 'makeoffer',
+              eventLabel: domain
+            })
+      {{/if}}
+    }
 	})
-  $(".iframe-form-iframe").on("load", function (e) {
-  	$('.submit-application').hide()
-  	$('.submit-thanks').show()
-  })
 </script>
