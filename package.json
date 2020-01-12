@@ -4,8 +4,8 @@
   "description": "",
   "devDependencies": {
     "autoprefixer": "9.7.3",
-    "fast-csv": "3.4.0",
-    "handlebars": "4.5.3",
+    "fast-csv": "4.0.2",
+    "handlebars": "4.7.1",
     "html-validator": "5.0.0",
     "imagemin": "7.0.1",
     "imagemin-mozjpeg": "8.0.0",
@@ -27,7 +27,7 @@
     "metalsmith-watch": "1.0.3",
     "node-fs-extra": "0.8.2",
     "node-sass": "4.13.0",
-    "stylelint": "12.0.0",
+    "stylelint": "13.0.0",
     "stylelint-config-standard": "19.0.0"
   },
   "scripts": {
