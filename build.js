@@ -110,7 +110,7 @@ const ms = Metalsmith(__dirname)
     omitIndex: true
   }))
   .use(robots({
-    disallow: ['champions/*', 'mobile/*', 'm/*', 'names/premiums?name=*'],
+    disallow: ['/champions/*', '/mobile/*', '/m/*', '/names/premiums?name=*'],
     sitemap: options['site-url'] + '/sitemap.xml'
   }))
 

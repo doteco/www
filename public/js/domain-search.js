@@ -76,13 +76,16 @@ window.domainSearch = function (config) {
     })
   }
 
+  function toggleVisibility (el, isVisible) {
+    isVisible ? el.removeAttribute('hidden') : el.setAttribute('hidden', '')
+  }
+
   function showRegistrars (registrars, domain) {
     const priorityRegistrars = registrars.filter(registrar => registrar.priority)
     priorityRegistrars.sort((registrar1, registrar2) => registrar2.priority - registrar1.priority)
 
-    document.querySelectorAll('.registrars').forEach(el => {
-      registrars.length ? el.removeAttribute('hidden') : el.setAttribute('hidden', '')
-    })
+    document.querySelectorAll('.registrars').forEach(el => toggleVisibility(el, registrars.length))
+
     const priorityRegistrarsRow = document.querySelector('.registrars-priority .row')
     priorityRegistrarsRow.innerHTML = ''
     priorityRegistrars.forEach(registrar => {
@@ -91,12 +94,24 @@ window.domainSearch = function (config) {
     showAllRegistrars(registrars, domain)
   }
 
+  function toggleReservedForm (isReserved, domain) {
+    const reservedForm = document.querySelector('.domain-reserved')
+    toggleVisibility(reservedForm, isReserved)
+    if (isReserved) {
+      toggleVisibility(document.querySelector('.submit-thanks'), false)
+      document.getElementById('makeoffer-domain').value = domain
+    }
+  }
+
   function searchResultMessage (r, searchDomain) {
     if (!r.domain) {
       return `We cannot find <span class="searched-domain">${searchDomain}</span>. Please try a different .eco name`
     }
     if (r.summary === 'inactive' || r.summary === 'premium') {
       return `<span class="searched-domain">${searchDomain}</span> is available`
+    }
+    if (r.summary === 'reserved') {
+      return `<span class="searched-domain">${searchDomain}</span> is a great name!`
     }
     return `<span class="searched-domain">${searchDomain}</span> is already taken.<br/>Please try a different .eco name`
   }
@@ -125,6 +140,7 @@ window.domainSearch = function (config) {
         const registrars = r.registrars || []
         showRegistrars(registrars, r.domain)
         addFilters(registrars)
+        toggleReservedForm(r.summary === 'reserved', r.domain)
       })
     }).catch(ex => {
       console.error(`Failed to load search data: ${ex}`)
@@ -144,10 +160,18 @@ window.domainSearch = function (config) {
     }
   })
 
+  document.querySelector('.iframe-form-iframe').addEventListener('load', function (e) {
+    document.querySelector('.submit-application').disabled = true
+    toggleVisibility(document.querySelector('.submit-thanks'), true)
+  })
+
+  document.querySelector('.submit-application').addEventListener('submit', function (e) {
+    config.onReservedSubmit(searchDomain())
+  })
+
   const urlParams = new URLSearchParams(window.location.search)
   if (urlParams.has('domain')) {
     const domain = urlParams.get('domain')
-    console.log('searching for', domain)
     search(domain)
   }
 }
