@@ -158,7 +158,6 @@ window.domainSearch = function (config) {
   const urlParams = new URLSearchParams(window.location.search)
   if (urlParams.has('domain')) {
     const domain = urlParams.get('domain')
-    console.log('searching for', domain)
     search(domain)
   }
 }
