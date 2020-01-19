@@ -122,13 +122,13 @@ priority: 1
       })
 {{/if}}
 		},
-    onReservedSubmit: function (domain) {
+    onReservedSubmit: function (r) {
       {{#if ga-tracking-id}}
             ga('send', {
               hitType: 'event',
               eventAction: 'submit',
               eventCategory: 'makeoffer',
-              eventLabel: domain
+              eventLabel: r && r.domain
             })
       {{/if}}
     }
