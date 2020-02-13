@@ -99,19 +99,23 @@ const ms = Metalsmith(__dirname)
     engine: 'handlebars',
     pattern: '**/*.html'
   }))
-  .use(redirect({
-    '/grants': '/community/grants/',
-    '/policies': '/registrars/policies/',
-    '/registrar': '/registrars/',
-    '/faq': 'https://support.home.eco'
-  }))
   .use(sitemap({
+    privateProperty: 'exclude',
     hostname: options['site-url'],
     omitIndex: true
   }))
   .use(robots({
-    disallow: ['/champions/*', '/mobile/*', '/m/*', '/names/premiums?name=*'],
+    disallow: ['/mobile/*', '/m/*'],
     sitemap: options['site-url'] + '/sitemap.xml'
+  }))
+  .use(redirect({
+    frontmatter: true,
+    redirections: {
+      '/grants': '/',
+      '/policies': '/registrars/policies/',
+      '/registrar': '/registrars/',
+      '/faq': 'https://support.home.eco'
+    }
   }))
 
 if (options.imagemin) {
