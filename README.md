@@ -1,6 +1,6 @@
 # .eco Website [![Build Status](https://travis-ci.org/doteco/www.svg?branch=master)](https://travis-ci.org/doteco/www)
 
-This is the website for [home.eco](https://www.home.eco).
+This is the website for [go.eco](https://www.go.eco).
 
 ## Updating the web site
 
@@ -33,19 +33,19 @@ The recommended approach is to prefix the comment with the area of the site bein
 
 ## Deploying Changes
 
-Deploying the website is taken care of by [TravisCI](https://travis-ci.org/doteco/www). Every time a change is committed it will be automatically deployed to the test site: [test.home.eco](https://test.home.eco).
+Deploying the website is taken care of by [TravisCI](https://travis-ci.org/doteco/www). Every time a change is committed it will be automatically deployed to the test site: [test.go.eco](https://test.go.eco).
 
-**Please make sure that sure that you verify your changes on [test.home.eco](https://test.home.eco) after committing your changes.**
+**Please make sure that sure that you verify your changes on [test.go.eco](https://test.go.eco) after committing your changes.**
 
-By default, all commits are made to the *master* branch. To promote changes to the production site [www.home.eco](https://www.home.eco), the *master* branch will need to be merged with the *production* branch. To do this, please follow these instructions:
+By default, all commits are made to the *master* branch. To promote changes to the production site [www.go.eco](https://www.go.eco), the *master* branch will need to be merged with the *production* branch. To do this, please follow these instructions:
 
 1. From the [main screen](https://github.com/doteco/www), click on the **New Pull Request** button
 2. In the **base:** dropdown, choose _production_
-3. Review the changes that will be deployed by scrolling down the page. Make sure that it includes your changes and any other changes that you have verified on [test.home.eco](https://test.home.eco).
+3. Review the changes that will be deployed by scrolling down the page. Make sure that it includes your changes and any other changes that you have verified on [test.go.eco](https://test.go.eco).
 4. Enter a comment for your commit and then
 5. Click on the **Merge pull request** button.
 6. Click on the **Confirm merge** button.
-7. Once your changes have been deployed by TravisCI to the production site, check out [www.home.eco](https://test.home.eco) to verify that they have been deployed successfully.
+7. Once your changes have been deployed by TravisCI to the production site, check out [www.go.eco](https://test.go.eco) to verify that they have been deployed successfully.
 
 
 ## Developer Instructions
