@@ -2,12 +2,12 @@
     "name": "",
     "icons": [
         {
-            "src": "https://home.eco/img/tigerday/android-chrome-192x192.png",
+            "src": "https://go.eco/img/tigerday/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "https://home.eco/img/tigerday/android-chrome-512x512.png",
+            "src": "https://go.eco/img/tigerday/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
