@@ -18,4 +18,17 @@
 			margin-bottom: 4rem;
 		}
 	}
+
+	.contact-header {
+		color: white;
+		background-image: url('/img/windmill-sunflowers.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/windmill-sunflowers.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+
+		.container {
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
+	}
 }
