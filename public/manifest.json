@@ -1,6 +1,7 @@
 {
 	"name": ".eco",
 	"short_name": "go.eco",
+	"start_url": "/",
 	"description": "Home of the .eco registry",
 	"icons": [
 		{
