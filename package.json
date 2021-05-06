@@ -5,7 +5,7 @@
   "devDependencies": {
     "autoprefixer": "9.8.0",
     "fast-csv": "4.3.0",
-    "handlebars": "4.7.6",
+    "handlebars": "4.7.7",
     "html-validator": "5.1.14",
     "imagemin": "7.0.1",
     "imagemin-mozjpeg": "8.0.0",
