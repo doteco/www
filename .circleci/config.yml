@@ -1,0 +1,41 @@
+version: 2.1
+orbs:
+  aws-s3: circleci/aws-s3@3.0.0
+workflows:
+ version: 2
+ test:
+   jobs:
+     - build:
+        context: TEST
+        bucket: 's3://test.bigroom.eco/'
+        filters:
+          branches:
+            only: master
+ production:
+   jobs:
+     - build:
+        context: PROD
+        bucket: 's3://bigroom.eco/'
+        filters:
+          branches:
+            only: production
+jobs:
+  build:
+    parameters:
+      bucket:
+        type: string
+    docker:
+    # Image tags available here: https://circleci.com/docs/2.0/docker-image-tags.json
+    - image: $NODE_IMAGE
+    steps:
+    - checkout
+
+    # Build
+    - run: npm install
+    - run: npm run build
+
+    # Deployment
+    - aws-s3/sync:
+        # arguments: --acl public-read --cache-control "max-age=86400"
+        from: public
+        to: << parameters.bucket >>
