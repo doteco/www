@@ -7,7 +7,7 @@ workflows:
    jobs:
      - build:
         context: TEST
-        bucket: 's3://test.bigroom.eco/'
+        bucket: 's3://test.go.eco/'
         filters:
           branches:
             only: master
@@ -15,7 +15,7 @@ workflows:
    jobs:
      - build:
         context: PROD
-        bucket: 's3://bigroom.eco/'
+        bucket: 's3://www.go.eco/'
         filters:
           branches:
             only: production
