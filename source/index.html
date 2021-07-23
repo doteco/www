@@ -250,20 +250,6 @@ priority: 1
 		</div>
 	</div>
 </div>
-<script
-  src="https://browser.sentry-cdn.com/6.10.0/bundle.min.js"
-  integrity="sha384-nsIkfmMh0uiqg+AwegHcT1SMiPNWnhZmjFDwTshLTxur6ZPNaGT8vwT+vHwI5Jag"
-  crossorigin="anonymous"
-></script>
-<script>
-if (typeof Sentry !== 'undefined') {
-	Sentry.init({
-	  dsn: "{{sentryDSN}}"
-	})
-}
-throw new Error('expected!!')
-</script>
-
 <script>
 	function search () {
 		window.location = '/search/?domain=' + document.querySelector('.domain-search').value
