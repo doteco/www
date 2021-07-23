@@ -1,8 +1,8 @@
 ---
 title: The home of .eco, the domain for the environmental community
-description: Home page of the .eco domain registry. Learn more about how you can get your own .eco domain name.
+description: Learn more about how you can get your own .eco domain name.
 page-path:
-og-image: opengraph/tiger-og.png
+og-image: opengraph/salishsea-og.png
 og-width: 1134
 og-height: 625
 active: home
@@ -250,6 +250,19 @@ priority: 1
 		</div>
 	</div>
 </div>
+<script
+  src="https://browser.sentry-cdn.com/6.10.0/bundle.min.js"
+  integrity="sha384-nsIkfmMh0uiqg+AwegHcT1SMiPNWnhZmjFDwTshLTxur6ZPNaGT8vwT+vHwI5Jag"
+  crossorigin="anonymous"
+></script>
+<script>
+if (typeof Sentry !== 'undefined') {
+	Sentry.init({
+	  dsn: "{{sentryDSN}}"
+	})
+}
+throw new Error('expected!!')
+</script>
 
 <script>
 	function search () {
