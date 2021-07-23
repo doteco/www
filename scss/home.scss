@@ -191,6 +191,12 @@
 		line-height: 1.5;
 	}
 
+	.home-support-photo {
+		border-radius: 50%;
+		width: 60%;
+		display: block;
+	}
+
 	@media (min-width: 992px) {
 		blockquote {
 			font-size: 1.95em;
@@ -216,13 +222,20 @@
 	.home-orgs {
 		.logos {
 			margin-top: 3em;
-			margin-bottom: 3em;
 		}
 
 		.img-responsive {
 			margin: auto;
 			vertical-align: middle;
-			margin-bottom: 10px;
+			margin-bottom: 4rem;
+		}
+
+		.logo-iucn {
+			width: 60%;
+		}
+
+		.logo-green {
+			width: 80%;
 		}
 
 		.logo-wbcsd {
