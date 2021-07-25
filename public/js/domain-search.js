@@ -111,7 +111,7 @@ window.domainSearch = function (config) {
       return `<span class="searched-domain">${searchDomain}</span> is available`
     }
     if (r.summary === 'reserved') {
-      return `<span class="searched-domain">${searchDomain}</span> is a great name!`
+      return `<span class="searched-domain">${searchDomain}</span> is a great name!<br/> Please contact us about pricing.`
     }
     return `<span class="searched-domain">${searchDomain}</span> is already taken.<br/>Please try a different .eco name`
   }
