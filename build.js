@@ -119,6 +119,7 @@ const ms = Metalsmith(__dirname)
       '/policies': '/registrars/policies/',
       '/registrar': '/registrars/',
       '/faq': 'https://support.go.eco',
+      '/names/premiums/': '/',
       '/partners/institute-of-public-environmental-affairs/': 'https://org.eco/'
     }
   }))

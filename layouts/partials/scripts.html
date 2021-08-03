@@ -1,23 +1,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
 <script>
-var addClass = function (el, className) {
-  if (el.classList) {
-    el.classList.add(className)
-  } else {
-    el.className += ' ' + className
-  }
-}
-
-var removeClass = function (el, className) {
-  if (el.classList) {
-    el.classList.remove(className)
-  } else {
-    el.className = el.className.replace(new RegExp('(^|\\b)' + className + '(\\b|$)', 'gi'), ' ')
-  }
-}
-</script>
-<script>
 	// email obfuscation
 	(function ($) {
 		$(".email-link").html(function () {
@@ -26,50 +9,12 @@ var removeClass = function (el, className) {
 		});
 	})(jQuery);
 </script>
-<script type="text/javascript">
-	// handle form post to iframe
-	(function ($) {
-		var submitted = false;
-		var form = $(".iframe-form");
-		form.validator().on('submit', function (e) {
-			if (! e.isDefaultPrevented()) {
-				submitted = true;
-				form.find(".submit-application").button("loading");
-				return true;
-			}
-		});
-
-		$(".iframe-form-iframe").on("load", function (e) {
-			if (submitted) {
-				var confirmationAlert = $(".confirmation-alert")
-				if (confirmationAlert.length) {
-					confirmationAlert.collapse("show");
-					$("body").animate({scrollTop: confirmationAlert.offset().top - 100}, 200);
-				}
-				form.find(".submit-application").button("reset");
-				ga('send', 'event', form.attr("id"), 'submit');
-				typeof fbq !== 'undefined' && fbq('track', 'CompleteRegistration');
-				submitted = false;
-			}
-		});
-	})(jQuery);
-</script>
 
 <script>
 $('#home-carousel').on('slid.bs.carousel', function () {
 	curSlide = $('.active');
-	if(curSlide.is( ':first-child' )) {
-		$('.left').hide();
-		return;
-	} else {
-		$('.left').show();
-	}
-	if (curSlide.is( ':last-child' )) {
-		$('.right').hide();
-		return;
-	} else {
-		$('.right').show();
-	}
+	$('.left').toggle( !curSlide.is( ':first-child' ) )
+	$('.right').toggle( !curSlide.is( ':last-child' ) )
 });
 </script>
 
