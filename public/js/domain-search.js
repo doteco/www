@@ -123,6 +123,9 @@ window.domainSearch = function (config) {
     if (!domain || domain.trim().length === 0 || domain.trim() === '.eco') {
       return false
     }
+    domain = domain.replace(/\..+$/, '')
+    domain += '.eco'
+
     config.onSearch(domain)
     return window.fetch(config.searchUrl + '/status?domain=' + domain).then(response => {
       if (!response.ok) {
