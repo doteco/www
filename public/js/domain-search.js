@@ -113,6 +113,9 @@ window.domainSearch = function (config) {
     if (r.summary === 'reserved') {
       return `<span class="searched-domain">${searchDomain}</span> is a great name!<br/> Please contact us about pricing.`
     }
+    if (r.summary === 'disallowed' || r.summary === 'invalid') {
+      return `<span class="searched-domain">${searchDomain}</span> is an invalid name.<br/>Please try a different .eco name.`
+    }
     return `<span class="searched-domain">${searchDomain}</span> is already taken.<br/>Please try a different .eco name`
   }
 
