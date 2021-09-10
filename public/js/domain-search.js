@@ -56,10 +56,10 @@ window.domainSearch = function (config) {
     const regions = uniqueFilterItems(registrars, 'region')
     const envPolicy = ['Yes']
 
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', 'Environmental policy', envPolicy))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', 'Currency', currencies))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', 'Language', languages))
     registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', 'Region', regions))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', 'Environmental policy', envPolicy))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', 'Language', languages))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', 'Currency', currencies))
 
     document.querySelectorAll('.registrar-filter').forEach(el => el.addEventListener('change', () => filterRegistrars(registrars)))
   }
