@@ -1,4 +1,5 @@
-# .eco Website [![Build Status](https://travis-ci.org/doteco/www.svg?branch=master)](https://travis-ci.org/doteco/www)
+# .eco Website [![Build Status](https://circleci.com/gh/doteco/www.svg?style=svg)](https://app.circleci.com/pipelines/github/doteco/www) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 This is the website for [go.eco](https://www.go.eco).
 
@@ -33,7 +34,7 @@ The recommended approach is to prefix the comment with the area of the site bein
 
 ## Deploying Changes
 
-Deploying the website is taken care of by [TravisCI](https://travis-ci.org/doteco/www). Every time a change is committed it will be automatically deployed to the test site: [test.go.eco](https://test.go.eco).
+Deploying the website is taken care of by [CircleCI](https://app.circleci.com/pipelines/github/doteco/www). Every time a change is committed it will be automatically deployed to the test site: [test.go.eco](https://test.go.eco).
 
 **Please make sure that sure that you verify your changes on [test.go.eco](https://test.go.eco) after committing your changes.**
 
