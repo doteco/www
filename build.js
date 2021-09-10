@@ -91,7 +91,7 @@ const ms = Metalsmith(__dirname)
   }))
   .use(autoprefixer())
   .use(fingerprint({
-    pattern: 'css/main.css'
+    pattern: '{css/main.css,js/domain-search.js}'
   }))
   .use(markdown({
     html: true
