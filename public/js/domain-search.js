@@ -123,7 +123,7 @@ window.domainSearch = function (config) {
     if (!domain || domain.trim().length === 0 || domain.trim() === '.eco') {
       return false
     }
-    domain = domain.replace(/\..+$/, '')
+    domain = domain.replace(/\..+$/, '').replace(/\s/, '')
     domain += '.eco'
 
     config.onSearch(domain)
