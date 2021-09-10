@@ -5,8 +5,20 @@ const validator = require('html-validator')
 
 var skipFiles = [
   'public/registrar/index.html',
+  'public/faq/index.html',
   'public/grants/index.html',
-  'public/policies/index.html'
+  'public/policies/index.html',
+  'public/champions/index.html',
+  'public/champions/terms/index.html',
+  'public/community/grants/index.html',
+  'public/community/tradenames/index.html',
+  'public/studies/salishsea/index.html',
+  'public/names/premiums/index.html',
+  'public/infographic/100days/index.html',
+  'public/partners/institute-of-public-environmental-affairs/index.html',
+  'public/studies/studyabroad/index.html',
+  'public/studies/voltstack/index.html',
+  'public/studies/vonwong/index.html'
 ]
 
 var skip = [
