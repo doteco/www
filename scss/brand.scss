@@ -12,9 +12,9 @@ $doteco-citrine: #FCCC37;
 $doteco-marrow: #EAECE6;
 $doteco-amethyst: #501D4C;
 $doteco-fireopal: #FE7635;
+$doteco-fireopal-header: #d6632d;
 $doteco-grey: #B2B2B2;
 $doteco-ruby-dark: #521429;
-$doteco-gray: #B7B7B7;
 
 //Border
 $common-border-radius: 2px;
@@ -144,7 +144,7 @@ $common-border-radius: 2px;
 		background-color: $doteco-marrow;
 
 		h1, h2, h3, h4, h5, .subheader, .title {
-			color: $doteco-fireopal;
+			color: $doteco-fireopal-header;
 		}
 	}
 

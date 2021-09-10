@@ -280,25 +280,6 @@
 		}
 	}
 
-	.home-casestudy {
-		padding: 3rem;
-		text-align: center;
-		border: 1px solid white;
-		cursor: pointer;
-
-		h4 {
-			margin: 2rem;
-		}
-
-		a {
-			color: white;
-		}
-	}
-
-	.home-casestudy:hover {
-		border: 1px solid $doteco-fireopal;
-	}
-
 	.logo-quote {
 		color: $doteco-charcoal;
 		font-size: 1.7rem;
