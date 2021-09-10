@@ -1,4 +1,5 @@
-const fs = require('fs-extra')
+const { readFile } = require('fs/promises')
+const klaw = require('klaw')
 const path = require('path')
 const validator = require('html-validator')
 
@@ -15,20 +16,15 @@ var skip = [
 ]
 
 const validate = function (file) {
-  return new Promise((resolve, reject) => {
-    fs.readFile(file, (err, data) => err ? reject(err) : resolve(data))
-  }).then((data) => {
+  return readFile(file, { encoding: 'utf8' }).then((data) => {
     const options = {
       data: data,
       format: 'json'
     }
 
-    return new Promise((resolve, reject) => {
-      validator(options, (err, data) => err ? reject(err) : resolve(data))
-    })
+    return validator(options)
   }).then((results) => {
-    console.log('Validating', file)
-    // console.log(results);
+    console.log('Validation results:', file)
     results.messages.filter((entry) => {
       return !skip.some(s => entry.message.includes(s))
     }).map((entry) => {
@@ -42,7 +38,7 @@ const validate = function (file) {
 
 new Promise((resolve, reject) => {
   const files = []
-  fs.walk('./public').on('data', (file) => {
+  klaw('./public').on('data', (file) => {
     const skipFile = skipFiles.some(s => s === path.relative(process.cwd(), file.path))
     return file.path.endsWith('.html') && !skipFile ? files.push(file.path) : null
   }).on('end', () => resolve(files))

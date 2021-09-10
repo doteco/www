@@ -12,6 +12,7 @@
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-pngquant": "9.0.2",
     "jstransformer-handlebars": "1.1.0",
+    "klaw": "3.0.0",
     "metalsmith": "2.3.0",
     "metalsmith-autoprefixer": "1.1.2",
     "metalsmith-discover-helpers": "0.1.1",
@@ -26,7 +27,6 @@
     "metalsmith-serve": "0.0.7",
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "1.0.3",
-    "node-fs-extra": "0.8.2",
     "node-sass": "6.0.1",
     "stylelint": "13.13.1",
     "stylelint-config-standard": "22.0.0"
