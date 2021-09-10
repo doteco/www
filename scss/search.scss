@@ -58,7 +58,7 @@
 .registrar-button {
 	height: 16rem;
 	display: table;
-	vertical-align: middle;
+	margin: auto;
 }
 
 .registrar-button a {
@@ -74,4 +74,17 @@
 
 .registrar-logo:hover {
 	width: 80%;
+}
+
+.registrar-name {
+	text-align: center;
+	color: transparent;
+	z-index: -1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.registrars-priority {
+	background-color: #fff;
 }

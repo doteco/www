@@ -3,7 +3,7 @@ window.domainSearch = function (config) {
 
   function registrarLogoDiv (registrar, domain) {
     const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + '&domain=' + encodeURIComponent(domain)
-    return '<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="' + registrar.registrar + '" href="' + goUrl + '" rel="noopener" class="registrar-link"><img src="https://cdn.profiles.eco/registrars/logos/' + registrar.logo + '" alt="' + registrar.label + '" class="registrar-logo" /></a></div>'
+    return `<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="${registrar.label}" class="registrar-logo" /><span class="registrar-name">${registrar.label}</span></a></div>`
   }
 
   function generateFilterHtml (id, defaultItem, items) {
