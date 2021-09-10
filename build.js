@@ -28,7 +28,8 @@ const ENV_OPTIONS = {
     intercomAppID: 'gt94nkkh',
     imagemin: false,
     searchUrl: 'https://test-search.go.eco',
-    sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451'
+    sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451',
+    noindex: true
   },
   TST: {
     'ga-tracking-id': 'UA-2825422-15',
@@ -40,7 +41,8 @@ const ENV_OPTIONS = {
     intercomAppID: 'gt94nkkh',
     imagemin: true,
     searchUrl: 'https://test-search.go.eco',
-    sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451'
+    sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451',
+    noindex: true
   },
   PRD: {
     'ga-tracking-id': 'UA-2825422-23',
@@ -72,7 +74,8 @@ const ms = Metalsmith(__dirname)
     trustmark: options.trustmark,
     intercomAppID: options.intercomAppID,
     searchUrl: options.searchUrl,
-    sentryDSN: options.sentryDSN
+    sentryDSN: options.sentryDSN,
+    noindex: options.noindex
   })
   .use(csvLoader())
   .source('./source')
