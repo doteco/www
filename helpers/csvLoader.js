@@ -18,6 +18,7 @@ module.exports = (opts) => {
           })
         })
       }
+      return null
     })).then(() => done())
   }
 }

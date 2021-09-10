@@ -3,7 +3,7 @@ const klaw = require('klaw')
 const path = require('path')
 const validator = require('html-validator')
 
-var skipFiles = [
+const skipFiles = [
   'public/registrar/index.html',
   'public/faq/index.html',
   'public/grants/index.html',
@@ -21,7 +21,7 @@ var skipFiles = [
   'public/studies/vonwong/index.html'
 ]
 
-var skip = [
+const skip = [
   'Attribute “color” not allowed on element “link” at this point.',
   'Illegal character in query: “|” is not allowed.',
   'The “frameborder” attribute on the “iframe” element is obsolete.'
@@ -40,7 +40,7 @@ const validate = function (file) {
     results.messages.filter((entry) => {
       return !skip.some(s => entry.message.includes(s))
     }).map((entry) => {
-      console.log(`${entry.type.toUpperCase()}: ${entry.message} (line: ${entry.lastLine})`)
+      return console.log(`${entry.type.toUpperCase()}: ${entry.message} (line: ${entry.lastLine})`)
     })
     console.log()
   }).catch((err) => {
