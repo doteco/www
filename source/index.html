@@ -268,36 +268,65 @@ priority: 1
     }
   })
 
-  var registeredDomains = $('#registered-domains')
+  var registeredDomains = document.getElementById('registered-domains')
+
+	var fadeIn = function(elem, timing, delta, cb) {
+		var opacity = 0
+		fadeInterval = setInterval(function() {
+			opacity += delta
+			elem.style.opacity = opacity
+
+			if (opacity >= 1) {
+				clearInterval(fadeInterval);
+				if (cb) { cb() }
+			}
+		}, timing)
+	}
+
+	var fadeOut = function(elem, timing, delta, cb) {
+		var opacity = 1
+		fadeInterval = setInterval(function() {
+			opacity -= delta
+			elem.style.opacity = opacity
+
+			if (opacity <= 0) {
+				clearInterval(fadeInterval);
+				if (cb) { cb() }
+			}
+		}, timing)
+	}
 
   var showRecent = function (domains, count) {
   	var html = ''
   	var length = 0
-  	var maxWidth = registeredDomains.parent().width() / 10
+  	var maxWidth = registeredDomains.parentElement.clientWidth / 10
 
-	while (length < maxWidth) {
-		var idx = (count + 1) % domains.length
-		length += domains[idx].length + 3
+		while (length < maxWidth) {
+			var idx = (count + 1) % domains.length
+			length += domains[idx].length + 3
 
-		if (length < maxWidth) {
-			if (html.length) {
-				html += ' &#8226; '
-			}
-	  	    html += '<a href="https://profiles.eco/' + domains[count] + '" class="registered-domain">' + domains[count] + '</a>'
-	  	    count = idx
+			if (length < maxWidth) {
+				if (html.length) {
+					html += ' &#8226; '
+				}
+  	    html += '<a href="https://profiles.eco/' + domains[count] + '" class="registered-domain">' + domains[count] + '</a>'
+  	    count = idx
   		}
   	}
 
-	registeredDomains.html(html).fadeIn(function () {
-	  	setTimeout(function () {
-			registeredDomains.fadeToggle(function () {
-			showRecent(domains, count)
-			})
-	  	}, 4000)
-	})
+		registeredDomains.innerHTML = html
+		fadeIn(registeredDomains, 40, 0.1, function() {
+			setTimeout(function () {
+				fadeOut(registeredDomains, 40, 0.1, function () {
+					showRecent(domains, count)
+				})
+			}, 5000)
+		})
   }
 
-  $.getJSON('{{profiles}}/_api/domains/recent?count=50', function (domains) {
-  	showRecent(domains, 0)
-  })
+	if (window.fetch) {
+		window.fetch('{{profiles}}/_api/domains/recent?count=50').then(response => response.json()).then(domains => showRecent(domains, 0))
+	} else {
+		document.querySelector('.section.recent').style.display = 'none'
+	}
 </script>
