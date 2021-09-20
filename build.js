@@ -29,7 +29,8 @@ const ENV_OPTIONS = {
     imagemin: false,
     searchUrl: 'https://test-search.go.eco',
     sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451',
-    noindex: true
+    noindex: true,
+    makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse'
   },
   TST: {
     'ga-tracking-id': 'UA-2825422-15',
@@ -42,7 +43,8 @@ const ENV_OPTIONS = {
     imagemin: true,
     searchUrl: 'https://test-search.go.eco',
     sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451',
-    noindex: true
+    noindex: true,
+    makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse'
   },
   PRD: {
     'ga-tracking-id': 'UA-2825422-23',
@@ -54,7 +56,8 @@ const ENV_OPTIONS = {
     intercomAppID: 'hsovcclh',
     imagemin: true,
     searchUrl: 'https://search.go.eco',
-    sentryDSN: 'https://b58e840db28c47409688bc4dded2c97a@o72378.ingest.sentry.io/5877454'
+    sentryDSN: 'https://b58e840db28c47409688bc4dded2c97a@o72378.ingest.sentry.io/5877454',
+    makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScjnQNdyxwhKLM0s7l8h3AKp66WcTY72Qrw5JMC3s9m_k7uVA/formResponse'
   }
 }
 
@@ -75,7 +78,8 @@ const ms = Metalsmith(__dirname)
     intercomAppID: options.intercomAppID,
     searchUrl: options.searchUrl,
     sentryDSN: options.sentryDSN,
-    noindex: options.noindex
+    noindex: options.noindex,
+    makeOfferForm: options.makeOfferForm
   })
   .use(csvLoader())
   .source('./source')
