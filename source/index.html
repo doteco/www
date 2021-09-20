@@ -83,8 +83,8 @@ priority: 1
  <div class="section recent">
  	<div class="container">
  		<div class="row">
- 			<div class="recently-registered col-xs-4 col-sm-3">Recently registered:</div>
- 			<div class="col-xs-8 col-sm-9">
+ 			<div class="recently-registered col-xs-3">Recently registered:</div>
+ 			<div class="col-xs-9">
  				<div id="registered-domains" class="registered-domains">
  				</div>
  			</div>
@@ -312,7 +312,7 @@ $('#home-carousel').on('slid.bs.carousel', function () {
 			var idx = (count + 1) % domains.length
 			length += domains[idx].length + 3
 
-			if (length < maxWidth) {
+			if (length < maxWidth || html.length === 0) {
 				if (html.length) {
 					html += ' &#8226; '
 				}
