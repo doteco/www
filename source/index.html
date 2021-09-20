@@ -327,12 +327,16 @@ $('#home-carousel').on('slid.bs.carousel', function () {
 				fadeOut(registeredDomains, 40, 0.1, function () {
 					showRecent(domains, count)
 				})
-			}, 5000)
+			}, 3000)
 		})
   }
 
 	if (window.fetch) {
-		window.fetch('{{profiles}}/_api/domains/recent?count=50').then(response => response.json()).then(domains => showRecent(domains, 0))
+		window.fetch('{{profiles}}/_api/domains/recent?count=50').then(function (response) {
+			return response.json()
+		}).then(function (domains) {
+			return showRecent(domains, 0)
+		})
 	} else {
 		document.querySelector('.section.recent').style.display = 'none'
 	}

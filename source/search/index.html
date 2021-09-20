@@ -158,7 +158,6 @@ priority: 1
 				}
 				form.find(".submit-application").button("reset");
 				ga('send', 'event', form.attr("id"), 'submit');
-				typeof fbq !== 'undefined' && fbq('track', 'CompleteRegistration');
 				submitted = false;
 			}
 		});
