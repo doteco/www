@@ -10,14 +10,6 @@
 	})(jQuery);
 </script>
 
-<script>
-$('#home-carousel').on('slid.bs.carousel', function () {
-	curSlide = $('.active');
-	$('.left').toggle( !curSlide.is( ':first-child' ) )
-	$('.right').toggle( !curSlide.is( ':last-child' ) )
-});
-</script>
-
 {{#if intercomAppID }}
 <script>
   window.intercomSettings = {
