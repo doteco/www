@@ -2,12 +2,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
 <script>
 	// email obfuscation
-	(function ($) {
-		$(".email-link").html(function () {
-			var email = $(this).data("name") + "@" + $(this).data("domain");
-			return "<a href=\"mailto:" + email +"\">" + email + "</a>";
-		});
-	})(jQuery);
+	document.querySelectorAll(".email-link").forEach(function (el) {
+		var email = el.dataset.name + "@" + el.dataset.domain;
+		el.innerHTML = "<a href=\"mailto:" + email +"\">" + email + "</a>";
+	});
 </script>
 
 {{#if intercomAppID }}
