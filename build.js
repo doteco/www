@@ -124,6 +124,7 @@ const ms = Metalsmith(__dirname)
     redirections: {
       '/grants': '/',
       '/registrars/policies/': '/policies/',
+      '/registrars/funding/': '/registrars/',
       '/registrar': '/registrars/',
       '/faq': 'https://support.go.eco',
       '/names/premiums/': '/search/',
