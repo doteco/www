@@ -151,11 +151,6 @@ priority: 1
 
 		$(".iframe-form-iframe").on("load", function (e) {
 			if (submitted) {
-				var confirmationAlert = $(".confirmation-alert")
-				if (confirmationAlert.length) {
-					confirmationAlert.collapse("show");
-					$("body").animate({scrollTop: confirmationAlert.offset().top - 100}, 200);
-				}
 				form.find(".submit-application").button("reset");
 				ga('send', 'event', form.attr("id"), 'submit');
 				submitted = false;
