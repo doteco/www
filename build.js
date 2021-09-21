@@ -122,6 +122,9 @@ const ms = Metalsmith(__dirname)
   .use(redirect({
     frontmatter: true,
     redirections: {
+      '/about/marketing/': '/about/story/',
+      '/about/press/': '/about/story/',
+      '/about/team/': '/about/story/',
       '/grants': '/',
       '/registrars/policies/': '/policies/',
       '/registrars/funding/': '/registrars/',
