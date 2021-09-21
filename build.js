@@ -123,10 +123,10 @@ const ms = Metalsmith(__dirname)
     frontmatter: true,
     redirections: {
       '/grants': '/',
-      '/policies': '/registrars/policies/',
+      '/registrars/policies/': '/policies/',
       '/registrar': '/registrars/',
       '/faq': 'https://support.go.eco',
-      '/names/premiums/': '/',
+      '/names/premiums/': '/search/',
       '/partners/institute-of-public-environmental-affairs/': 'https://org.eco/'
     }
   }))
