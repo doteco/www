@@ -85,52 +85,54 @@ active: home
 </div>
 <iframe id="makeoffer-form-iframe" name="makeoffer-form-iframe" class="iframe-form-iframe hidden"></iframe>
 
-<script src="/{{ fingerprint.[js/domain-search.js] }}"></script>
+<!-- <script src="/{{ fingerprint.[js/domain-search.js] }}"></script> -->
 <script>
-	domainSearch({
-		searchUrl: '{{ searchUrl }}',
-		onSearch: function (domain) {
-{{#if ga-tracking-id}}
-      ga('send', {
-        hitType: 'event',
-        eventAction: 'search',
-        eventCategory: 'domain-search',
-        eventLabel: domain
-      })
-{{/if}}
-		},
-		onFilter: function (filters) {
-{{#if ga-tracking-id}}
-      ga('send', {
-        hitType: 'event',
-        eventAction: 'select',
-        eventCategory: 'registrar-filter',
-        eventLabel: filters.filter(f => f && f.length > 0).join(',')
-      })
-{{/if}}
-		},
-		onClick: function (registrar, href) {
-{{#if ga-tracking-id}}
-      ga('send', {
-        hitType: 'event',
-        eventAction: 'click',
-        eventCategory: 'registrar',
-        eventLabel: registrar,
-        transport: 'beacon'
-      })
-{{/if}}
-		},
-    onReservedSubmit: function (r) {
-      {{#if ga-tracking-id}}
-            ga('send', {
-              hitType: 'event',
-              eventAction: 'submit',
-              eventCategory: 'makeoffer',
-              eventLabel: r && r.domain
-            })
-      {{/if}}
-    }
-	})
+  if (typeof domainSearch === 'function') {
+  	domainSearch({
+  		searchUrl: '{{ searchUrl }}',
+  		onSearch: function (domain) {
+  {{#if ga-tracking-id}}
+        ga('send', {
+          hitType: 'event',
+          eventAction: 'search',
+          eventCategory: 'domain-search',
+          eventLabel: domain
+        })
+  {{/if}}
+  		},
+  		onFilter: function (filters) {
+  {{#if ga-tracking-id}}
+        ga('send', {
+          hitType: 'event',
+          eventAction: 'select',
+          eventCategory: 'registrar-filter',
+          eventLabel: filters.filter(f => f && f.length > 0).join(',')
+        })
+  {{/if}}
+  		},
+  		onClick: function (registrar, href) {
+  {{#if ga-tracking-id}}
+        ga('send', {
+          hitType: 'event',
+          eventAction: 'click',
+          eventCategory: 'registrar',
+          eventLabel: registrar,
+          transport: 'beacon'
+        })
+  {{/if}}
+  		},
+      onReservedSubmit: function (r) {
+        {{#if ga-tracking-id}}
+              ga('send', {
+                hitType: 'event',
+                eventAction: 'submit',
+                eventCategory: 'makeoffer',
+                eventLabel: r && r.domain
+              })
+        {{/if}}
+      }
+  	})
+  }
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
 <script>
