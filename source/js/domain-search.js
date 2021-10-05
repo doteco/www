@@ -181,3 +181,11 @@ window.domainSearch = function (config) {
     search(domain)
   }
 }
+
+window.fetchRegistrars = function (config) {
+  function fetchRegistrars () {
+    return window.fetch(config.searchUrl + '/registrars').then(response => response.json())
+  }
+
+  return fetchRegistrars()
+}

@@ -52,6 +52,10 @@ active: registrars
 		<p>In November 2021, the .eco registry will transition to CIRA’s Fury platform. For information on this transition, please contact <span class="email-link" data-name="support" data-domain="go.eco"></span>.</p>
 
 		<p>If you are looking to buy a .eco domain name, please search on <a href="https://go.eco/search/">go.eco</a> to see if the name you are looking for is available.</p>
+
+		<h3>Accredited Registrars</h3>
+
+		<div id="registrar-list"></div>
 	</div>
 </div>
 
@@ -59,14 +63,40 @@ active: registrars
 	<div class="container">
 		<h2>Get in touch</h2>
 
-				<address>
-					<strong>Big Room Inc.</strong><br/>
-					1231 Pacific Boulevard, Suite 581<br/>
-					Vancouver, BC<br/>
-					Canada V6Z 0E2<br/>
-					T: <a href="tel:+16046826673">+1 604 682 6673</a> (9am - 5pm PT Mon-Fri)<br/>
-					E: <span class="email-link" data-name="support" data-domain="go.eco"></span><br/>
-					<a href="https://bigroom.eco">bigroom.eco</a><br />
-				</address>
+		<address>
+			<strong>Big Room Inc.</strong><br/>
+			1231 Pacific Boulevard, Suite 581<br/>
+			Vancouver, BC<br/>
+			Canada V6Z 0E2<br/>
+			T: <a href="tel:+16046826673">+1 604 682 6673</a> (9am - 5pm PT Mon-Fri)<br/>
+			E: <span class="email-link" data-name="support" data-domain="go.eco"></span><br/>
+			<a href="https://bigroom.eco">bigroom.eco</a><br />
+		</address>
 	</div>
 </div>
+
+<script src="/{{ fingerprint.[js/domain-search.js] }}"></script>
+<script>
+	if (typeof domainSearch === 'function') {
+		function registrarColHtml (registrars) {
+			const registrarHtml = registrars.map(registrar => {
+				return `<li><a data-registrar="${registrar.registrar}" rel="noopener" href="${registrar.url}">${registrar.label}</a></li>`
+			})
+			return `<div class="col-sm-4"><ul>${registrarHtml.join('\n')}</ul></div>`
+		}
+		fetchRegistrars({
+  		searchUrl: '{{ searchUrl }}',
+		}).then(response => {
+			const registrars = response.registrars
+			registrars.sort((registrar1, registrar2) => registrar1.label.localeCompare(registrar2.label))
+
+			const registrarLists = [
+				registrars.slice(0, registrars.length / 3),
+				registrars.slice(registrars.length / 3, registrars.length / 3 * 2),
+				registrars.slice(registrars.length / 3 * 2, registrars.length),
+			]
+
+			document.getElementById('registrar-list').innerHTML = `<div class="row">${registrarLists.map(rl => registrarColHtml(rl)).join('\n')}</div>`
+		})
+	}
+</script>
