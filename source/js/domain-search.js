@@ -41,7 +41,7 @@ window.domainSearch = function (config) {
       filteredRegistrars = filteredRegistrars.filter(registrar => registrar.currencies.includes(currencyFilter))
     }
     if (policyFilter.length > 0) {
-      filteredRegistrars = filteredRegistrars.filter(registrar => registrar.envPolicy.length > 0)
+      filteredRegistrars = filteredRegistrars.filter(registrar => registrar.envPolicy)
     }
     showAllRegistrars(filteredRegistrars, searchDomain())
     config.onFilter([regionFilter, languageFilter, currencyFilter, policyFilter])
