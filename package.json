@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
-    "autoprefixer": "10.3.4",
+    "autoprefixer": "10.3.7",
     "fast-csv": "4.3.6",
     "handlebars": "4.7.7",
     "html-validator": "5.1.17",
@@ -27,7 +27,7 @@
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "1.0.3",
     "node-sass": "6.0.1",
-    "standard": "16.0.3",
+    "standard": "16.0.4",
     "stylelint": "13.13.1",
     "stylelint-config-standard": "22.0.0"
   },
@@ -57,13 +57,11 @@
   },
   "homepage": "https://github.com/doteco/www#readme",
   "dependencies": {
-    "@sentry/browser": "6.13.1",
-    "@sentry/tracing": "6.13.1",
+    "@sentry/browser": "6.13.3",
     "autotrack": "2.4.1",
     "bootstrap": "3.4.1",
     "bootstrap-validator": "0.11.9",
     "clipboard": "2.0.8",
-    "font-awesome": "4.7.0",
     "jquery": "3.6.0"
   }
 }
