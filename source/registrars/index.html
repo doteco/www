@@ -79,16 +79,16 @@ active: registrars
 <script>
 	if (typeof domainSearch === 'function') {
 		function registrarColHtml (registrars) {
-			const registrarHtml = registrars.map(registrar => {
-				return `<li><a data-registrar="${registrar.registrar}" rel="noopener" href="${registrar.url}">${registrar.label}</a></li>`
+			const registrarHtml = registrars.map(function (registrar) {
+				return '<li><a data-registrar="' + registrar.registrar + '" rel="noopener" href="' + registrar.url + '">' + registrar.label + '</a></li>'
 			})
-			return `<div class="col-sm-4"><ul>${registrarHtml.join('\n')}</ul></div>`
+			return '<div class="col-sm-4"><ul>' + registrarHtml.join('\n') + '</ul></div>'
 		}
 		fetchRegistrars({
   		searchUrl: '{{ searchUrl }}',
-		}).then(response => {
+		}).then(function(response) {
 			const registrars = response.registrars
-			registrars.sort((registrar1, registrar2) => registrar1.label.localeCompare(registrar2.label))
+			registrars.sort(function(registrar1, registrar2) { return registrar1.label.localeCompare(registrar2.label) })
 
 			const registrarLists = [
 				registrars.slice(0, registrars.length / 3),
@@ -96,7 +96,7 @@ active: registrars
 				registrars.slice(registrars.length / 3 * 2, registrars.length),
 			]
 
-			document.getElementById('registrar-list').innerHTML = `<div class="row">${registrarLists.map(rl => registrarColHtml(rl)).join('\n')}</div>`
+			document.getElementById('registrar-list').innerHTML = '<div class="row">' + registrarLists.map(function (rl) {return registrarColHtml(rl) }).join('\n') + '</div>'
 		})
 	}
 </script>
