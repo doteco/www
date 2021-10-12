@@ -29,8 +29,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
 
-	<!-- Bootstrap -->
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/bootstrap/3.4.1/bootstrap.min.css">
 	<link rel="stylesheet" href="/{{ fingerprint.[css/main.css] }}">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -66,28 +65,7 @@
 	  ]
 	}
 	</script>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="/js/jquery-3.6.0.min.js"></script>
-	{{#if ga-tracking-id}}
-	<script>
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', '{{ga-tracking-id}}', 'auto');
-	ga('require', 'eventTracker');
-	ga('require', 'maxScrollTracker');
-	ga('require', 'outboundFormTracker');
-	ga('require', 'outboundLinkTracker');
-	ga('require', 'pageVisibilityTracker');
-	ga('require', 'urlChangeTracker');
-	ga('send', 'pageview');
-	</script>
-	<script async src="https://www.google-analytics.com/analytics.js"></script>
-	<script async src="/js/autotrack.js"></script>
-	{{/if}}
-	<script
-	  src="https://browser.sentry-cdn.com/6.13.1/bundle.min.js"
-	  integrity="sha384-vUP3nL55ipf9vVr3gDgKyDuYwcwOC8nZGAksntVhezPcr2QXl1Ls81oolaVSkPm+"
-	  crossorigin="anonymous"
-	></script>
+	<script src="/js/sentry/6.13.3/bundle.min.js"></script>
 	<script>
 	if (typeof Sentry !== 'undefined') {
 		Sentry.init({
@@ -95,6 +73,17 @@
 		})
 	}
 	</script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="/js/jquery-3.6.0.min.js"></script>
+	{{#if ga-tracking-id}}
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ga-tracking-id}}"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', '{{ga-tracking-id}}');
+	</script>
+	{{/if}}
 </head>
 <body{{#if active}} class="page-{{active}}"{{/if}}>
 

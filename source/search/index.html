@@ -92,49 +92,41 @@ active: home
   		searchUrl: '{{ searchUrl }}',
   		onSearch: function (domain) {
   {{#if ga-tracking-id}}
-        ga('send', {
-          hitType: 'event',
-          eventAction: 'search',
-          eventCategory: 'domain-search',
-          eventLabel: domain
+        gtag('event', 'search', {
+          event_category: 'domain-search',
+          event_label: domain
         })
   {{/if}}
   		},
   		onFilter: function (filters) {
   {{#if ga-tracking-id}}
-        ga('send', {
-          hitType: 'event',
-          eventAction: 'select',
-          eventCategory: 'registrar-filter',
-          eventLabel: filters.filter(f => f && f.length > 0).join(',')
+        gtag('event', 'select', {
+          event_category: 'registrar-filter',
+          event_label: filters.filter(f => f && f.length > 0).join(',')
         })
   {{/if}}
   		},
   		onClick: function (registrar, href) {
   {{#if ga-tracking-id}}
-        ga('send', {
-          hitType: 'event',
-          eventAction: 'click',
-          eventCategory: 'registrar',
-          eventLabel: registrar,
+        gtag('event', 'click', {
+          event_category: 'registrar',
+          event_label: registrar,
           transport: 'beacon'
         })
   {{/if}}
   		},
       onReservedSubmit: function (r) {
-        {{#if ga-tracking-id}}
-              ga('send', {
-                hitType: 'event',
-                eventAction: 'submit',
-                eventCategory: 'makeoffer',
-                eventLabel: r && r.domain
-              })
-        {{/if}}
+  {{#if ga-tracking-id}}
+        gtag('event', 'submit', {
+          event_category: 'makeoffer',
+          event_label: r && r.domain
+        })
+  {{/if}}
       }
   	})
   }
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+<script src="/js/bootstrap-validator-0.11.9.min.js"></script>
 <script>
 	// handle form post to iframe
 	(function ($) {

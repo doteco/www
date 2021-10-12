@@ -58,7 +58,6 @@
   "homepage": "https://github.com/doteco/www#readme",
   "dependencies": {
     "@sentry/browser": "6.13.3",
-    "autotrack": "2.4.1",
     "bootstrap": "3.4.1",
     "bootstrap-validator": "0.11.9",
     "clipboard": "2.0.8",
