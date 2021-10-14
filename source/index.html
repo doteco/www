@@ -253,11 +253,13 @@ priority: 1
 	</div>
 </div>
 <script>
-$('#home-carousel').on('slid.bs.carousel', function () {
-	curSlide = $('.active');
-	$('.left').toggle( !curSlide.is( ':first-child' ) )
-	$('.right').toggle( !curSlide.is( ':last-child' ) )
-});
+if ('undefined' !== typeof jQuery) {
+	$('#home-carousel').on('slid.bs.carousel', function () {
+		curSlide = $('.active');
+		$('.left').toggle( !curSlide.is( ':first-child' ) )
+		$('.right').toggle( !curSlide.is( ':last-child' ) )
+	});	
+}
 </script>
 <script>
 	function search () {
