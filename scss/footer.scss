@@ -4,8 +4,11 @@
 		padding: 1em 0;
 		background-color: $doteco-ruby;
 		color: white;
-		font-size: 80%;
 		line-height: 1.6em;
+
+ 		@media (min-width: 768px) {
+			font-size: 80%;
+		}
 
 		a, a:visited {
 			color: white;
@@ -23,8 +26,8 @@
 			margin: 1rem 0;
 		}
 
-		.address-small {
-			font-size: 0.75em;
+		li {
+			margin: 4px 0;
 		}
 
 		h5 {
@@ -33,33 +36,14 @@
 			text-transform: uppercase;
 		}
 
-		.bcorp-logo, .climate-smart, .eco-trustmark {
-			display: block;
-			margin: 1rem auto;
-		}
-
-		.bcorp-logo {
-			height: 7ex;
-		}
-
-		.climate-smart {
-			height: 6ex;
-			margin: 1.4rem auto;
+		.copyright, ul {
+			text-align: left;
 		}
 
 		.eco-trustmark {
-			width: 40%;
-		}
-
-		@media (min-width: 768px) {
-			.eco-trustmark {
-				width: 75%;
-				margin: 1rem auto;
-			}
-		}
-
-		.copyright, ul {
-			text-align: left;
+			max-width: 48px;
+			width: 20%;
+			margin: 1.5rem 16px;
 		}
 	}
 }
