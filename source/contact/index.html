@@ -19,7 +19,7 @@ active: contact
 	<div class="row">
 		<div class="col-md-6">
 			<h4>Support requests</h4>
-			<p>If you need help registering a .eco domain name or have any other questions, <a href="javascript:Intercom('show');">feel free to chat with us</a>.</p>
+			<p>If you need help registering a .eco domain name or have any other questions, <a id="chat-link">feel free to chat with us</a>.</p>
 			<p>You can also visit the <a href="https://support.go.eco">.eco support site</a> to find answers to common questions.</p>
 			<p>To contact us by email, write to: <span class="email-link" data-name="support" data-domain="go.eco"></span>.</p>
 		</div>
@@ -36,3 +36,9 @@ active: contact
 		</div>
 	</div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+	document.getElementById('chat-link').addEventListener('click', function () { Intercom('show') })
+})
+</script>

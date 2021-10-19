@@ -106,14 +106,14 @@ priority: 1
 						<li>Be commited to working toward a sustainable future</li>
 						<li>Be willing to disclose the environmental actions you are taking</li>
 					</ul>
-					<p>If you have any questions or concerns about your eligibility, <a href="javascript:Intercom('show');">please contact us</a>.</p>
+					<p>If you have any questions or concerns about your eligibility, <a class="chat-link" href="#">please contact us</a>.</p>
 			</div>
 
 			<div class="col-md-6">
 				<h3>How do I get my .eco name?</h3>
 					<p>Get your .eco domain name in 4 simple steps:</p>
 					<ol>
-						<li><a href="javascript:document.getElementById('input-search').focus()">Search for your perfect name</a></li>
+						<li><a href="#input-search">Search for your perfect name</a></li>
 						<li>Purchase it from your preferred retailer</li>
 						<li>Take the <a href="/about/system/">.eco pledge</a> and create your <a href="https://profiles.eco">.eco profile</a></li>
 						<li>Set up and launch your web site</li>
@@ -244,7 +244,7 @@ priority: 1
 			</div>
 			<div class="col-xs-8 col-md-10">
 				<p>Let us know if you have any questions about .eco!
-					<a href="javascript:Intercom('show');">We are available for chat</a> during business hours <strong>Pacific Time</strong>.
+					<a class="chat-link" href="#">We are available for chat</a> during business hours <strong>Pacific Time</strong>.
 					You can also leave us a message and we will try to respond within 1 business day.
 					You can also check out the support articles on <a href="https://support.go.eco">.eco support site</a>.
 				</p>
@@ -344,4 +344,14 @@ if ('undefined' !== typeof jQuery) {
 	} else {
 		document.querySelector('.section.recent').style.display = 'none'
 	}
+</script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		document.querySelectorAll('.chat-link').forEach(function (e) {
+			e.addEventListener('click', function (e) {
+				e.preventDefault()
+				Intercom('show')
+			})
+		})
+	})
 </script>
