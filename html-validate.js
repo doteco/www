@@ -7,7 +7,6 @@ const skipFiles = [
   'public/registrar/index.html',
   'public/faq/index.html',
   'public/grants/index.html',
-  'public/policies/index.html',
   'public/champions/index.html',
   'public/champions/terms/index.html',
   'public/community/grants/index.html',
@@ -18,7 +17,13 @@ const skipFiles = [
   'public/partners/institute-of-public-environmental-affairs/index.html',
   'public/studies/studyabroad/index.html',
   'public/studies/voltstack/index.html',
-  'public/studies/vonwong/index.html'
+  'public/studies/vonwong/index.html',
+  'public/registrars/funding/index.html',
+  'public/registrars/resources/index.html',
+  'public/registrars/policies/index.html',
+  'public/about/marketing/index.html',
+  'public/about/team/index.html',
+  'public/about/press/index.html'
 ]
 
 const skip = [
