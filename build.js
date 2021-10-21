@@ -5,7 +5,6 @@ const imagemin = require('metalsmith-imagemin')
 const inplace = require('metalsmith-in-place')
 const fingerprint = require('metalsmith-fingerprint-ignore')
 const layouts = require('metalsmith-layouts')
-const markdown = require('metalsmith-markdownit')
 const sass = require('metalsmith-sass')
 const serve = require('metalsmith-serve')
 const sitemap = require('metalsmith-sitemap')
@@ -91,14 +90,13 @@ const ms = Metalsmith(__dirname)
   .use(sass({
     includePaths: ['./scss'],
     outputDir: 'css',
-    outputStyle: 'compressed'
+    outputStyle: 'compressed',
+    sourceMap: true,
+    sourceMapContents: true
   }))
   .use(autoprefixer())
   .use(fingerprint({
     pattern: '{css/main.css,js/domain-search.js}'
-  }))
-  .use(markdown({
-    html: true
   }))
   .use(layouts({
     engine: 'handlebars',
