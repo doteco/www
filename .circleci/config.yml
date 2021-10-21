@@ -31,7 +31,7 @@ jobs:
     - checkout
 
     # Build
-    - run: sudo apt-get install libjpeg-progs
+    - run: sudo apt-get install nasm
     - run: npm install
     - run: npm run build
 
