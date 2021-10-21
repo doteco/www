@@ -41,27 +41,41 @@
 	<link rel="canonical" href="{{site-url}}/{{page-path}}">
 	<script type="application/ld+json">
 	{
-	  "@context": "https://schema.org",
-	  "@type": "Organization",
-	  "name": ".eco",
-	  "url": "{{site-url}}",
-	  "logo": "{{site-url}}/android-chrome-512x512.png",
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": ".eco",
+		"legalName" : "Big Room Inc.",
+		"url": "{{site-url}}",
+		"logo": "{{site-url}}/android-chrome-512x512.png",
+		"foundingDate": "2007",
+		"founders": [{
+			"@type": "Person",
+			"name": "Trevor Bowden"
+		}, {
+			"@type": "Person",
+			"name": "Jacob Malthouse"
+		}],
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "1231 Pacific Boulevard, Suite 581",
+			"addressLocality": "Vancouver",
+			"addressRegion": "BC",
+			"postalCode": "V6Z 0E2",
+			"addressCountry": "Canada"
+		},
 	  "contactPoint": [{
 	    "@type": "ContactPoint",
-	    "telephone": "+1 604 682 6673",
-	    "contactType": "sales"
-	  },
-	  {
-	    "@type": "ContactPoint",
-	    "telephone": "+1 604 682 6673",
+	    "email": "support@bigroom.eco",
+			"telephone": "+1 604 682 6673",
 	    "contactType": "customer service"
 	  }],
 	  "sameAs": [
-	    "https://www.facebook.com/DotEcoDomain/",
-	    "https://www.instagram.com/dot_eco_domain/",
-	    "https://www.linkedin.com/company/15215049",
-	    "https://twitter.com/doteco",
-	    "https://www.youtube.com/user/doteco"
+			"https://en.wikipedia.org/wiki/.eco",
+			"https://icannwiki.org/.eco",
+			"https://www.facebook.com/DotEcoDomain/",
+			"https://www.instagram.com/dot_eco_domain/",
+			"https://www.linkedin.com/company/15215049",
+			"https://twitter.com/doteco"
 	  ]
 	}
 	</script>
