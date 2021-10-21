@@ -31,7 +31,7 @@ jobs:
     - checkout
 
     # Build
-    - run: sudo apt-get install libjpeg9-dbg
+    - run: sudo apt-get install libjpeg-progs
     - run: npm install
     - run: npm run build
 
