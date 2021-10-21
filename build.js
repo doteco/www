@@ -79,7 +79,9 @@ const ms = Metalsmith(__dirname)
     searchUrl: options.searchUrl,
     sentryDSN: options.sentryDSN,
     noindex: options.noindex,
-    makeOfferForm: options.makeOfferForm
+    makeOfferForm: options.makeOfferForm,
+    lang: 'en',
+    keywords: 'domains,registry,top-level domain,TLD,ECO,.eco,environmental action,sustainability,ngo'
   })
   .use(csvLoader())
   .source('./source')
