@@ -1,6 +1,5 @@
 const Metalsmith = require('metalsmith')
 const autoprefixer = require('metalsmith-autoprefixer')
-const csvLoader = require('./helpers/csvLoader')
 const discoverHelpers = require('metalsmith-discover-helpers')
 const imagemin = require('metalsmith-imagemin')
 const inplace = require('metalsmith-in-place')
@@ -83,7 +82,6 @@ const ms = Metalsmith(__dirname)
     lang: 'en',
     keywords: 'domains,registry,top-level domain,TLD,ECO,.eco,environmental action,sustainability,ngo'
   })
-  .use(csvLoader())
   .source('./source')
   .destination('./public/')
   .clean(false)
