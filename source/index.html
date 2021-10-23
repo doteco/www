@@ -27,7 +27,7 @@ priority: 1
  			<div class="container">
 	 			<h2>World leaders are in Glasgow for COP26</h2>
 				<p class="subheader">Join 2,257 .eco members in supporting climate action</p>
-				<a href="https://profiles.eco/profile/focus/climate" class="btn btn-primary pull-right">See who's taking action</a>
+				<a id="cta-climate-action" href="https://profiles.eco/profile/focus/climate" class="btn btn-primary pull-right">See who's taking action</a>
  			</div>
  		</div>
 
@@ -269,6 +269,14 @@ if ('undefined' !== typeof jQuery) {
 				e.preventDefault()
 				Intercom('show')
 			})
+		})
+		document.getElementById('cta-climate-action').addEventListener('click', function (e) {
+			gtag('event', 'click', {
+				event_category: 'outbound',
+				event_label: 'climate-action',
+				transport: 'beacon'
+			})
+			return false
 		})
 	})
 </script>

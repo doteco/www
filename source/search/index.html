@@ -145,7 +145,6 @@ active: home
 		$(".iframe-form-iframe").on("load", function (e) {
 			if (submitted) {
 				form.find(".submit-application").button("reset");
-				ga('send', 'event', form.attr("id"), 'submit');
 				submitted = false;
 			}
 		});
