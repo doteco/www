@@ -11,9 +11,13 @@ const sitemap = require('metalsmith-sitemap')
 const redirect = require('metalsmith-redirect')
 const robots = require('metalsmith-robots')
 const watch = require('metalsmith-watch')
+const i18next = require('metalsmith-i18next')
 
 const env = process.env.NODE_ENV || 'DEV'
-console.log('Building for environment:', env)
+const lang = process.env.SITE_LANG || 'en'
+const dest = lang === 'en' ? 'public' : 'public-' + lang
+
+console.log('Building for environment:', env, lang)
 
 const ENV_OPTIONS = {
   DEV: {
@@ -78,11 +82,11 @@ const ms = Metalsmith(__dirname)
     sentryDSN: options.sentryDSN,
     noindex: options.noindex,
     makeOfferForm: options.makeOfferForm,
-    lang: 'en',
+    lang,
     keywords: 'domains,registry,top-level domain,TLD,ECO,.eco,environmental action,sustainability,ngo'
   })
   .source('./source')
-  .destination('./public/')
+  .destination(dest)
   .clean(false)
   .use(discoverHelpers({
     directory: './helpers'
@@ -97,6 +101,14 @@ const ms = Metalsmith(__dirname)
   .use(autoprefixer())
   .use(fingerprint({
     pattern: '{css/main.css,js/domain-search.js}'
+  }))
+  .use(i18next({
+    locales: [lang],
+    namespaces: ['home'],
+    pattern: '**/*.html',
+    engine: 'handlebars',
+    helpers: null,
+    path: ':file'
   }))
   .use(layouts({
     engine: 'handlebars',
@@ -147,7 +159,7 @@ ms.build(function (err, files) {
 
 if (options.watch) {
   ms.use(serve({
-    document_root: 'public',
+    document_root: dest,
     verbose: true,
     http_error_files: {
       404: '/404.html'
@@ -158,7 +170,8 @@ if (options.watch) {
         /* eslint no-template-curly-in-string: 0 */
         '${source}/**/*': true,
         'scss/**/*': '{main.scss,**/*.html}',
-        'layouts/**/*': '**/*.html'
+        'layouts/**/*': '**/*.html',
+        'locales/**/*': '**/*.html'
       },
       livereload: true
     }))

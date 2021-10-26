@@ -1,0 +1,25 @@
+{
+  "carousel": {
+    "business": {
+      "head": ".eco is for businesses and products",
+      "subhead": "that help people make better choices every day"
+    },
+    "gov": {
+      "head": ".eco is for governments and not-for-profits",
+      "subhead": "that encourage positive environmental change"
+    },
+    "people": {
+      "head": ".eco is for people",
+      "subhead": "who participate in and support environmental action"
+    },
+    "tld": {
+      "head": ".eco is a web address ending",
+      "subhead": "for those committed to positive change for the planet"
+    },
+    "cop": {
+      "head": "World leaders are in Glasgow for COP26",
+      "subhead": "Join 2,257 .eco members in supporting climate action",
+      "cta": "See who's taking action"
+    }
+  }
+}
