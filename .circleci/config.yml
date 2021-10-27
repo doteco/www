@@ -26,6 +26,8 @@ jobs:
     parameters:
       bucket:
         type: string
+      bucket-fr:
+        type: string
     docker:
     # Image tags available here: https://circleci.com/docs/2.0/docker-image-tags.json
     - image: $NODE_IMAGE
