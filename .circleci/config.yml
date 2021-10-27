@@ -17,6 +17,7 @@ workflows:
      - build:
         context: PROD
         bucket: 's3://www.go.eco/'
+        bucket-fr: 's3://fr.go.eco/'
         filters:
           branches:
             only: production
