@@ -8,6 +8,7 @@ workflows:
      - build:
         context: TEST
         bucket: 's3://test.go.eco/'
+        bucket-fr: 's3://fr.test.go.eco/'
         filters:
           branches:
             only: master
@@ -34,9 +35,15 @@ jobs:
     - run: sudo apt-get install nasm
     - run: npm install
     - run: npm run build
+    - run: SITE_LANG=fr npm run build
 
     # Deployment
     - aws-s3/sync:
         # arguments: --acl public-read --cache-control "max-age=86400"
         from: public
         to: << parameters.bucket >>
+
+    - aws-s3/sync:
+        # arguments: --acl public-read --cache-control "max-age=86400"
+        from: public
+        to: << parameters.bucket-fr >>
