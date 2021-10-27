@@ -20,6 +20,40 @@
       "head": "Les dirigeants mondiaux sont à Glasgow pour la COP26",
       "subhead": "Rejoignez 2 257 membres .eco pour soutenir l'action climatique",
       "cta": "Voir qui agit"
+    },
+    "cta": {
+      "next": "Suivant dans le carrousel",
+      "prev": "Précédent dans le carrousel"
     }
+  },
+  "search": {
+    "head": "Trouvez votre nom de domaine .eco parfait"
+  },
+  "registered": {
+    "head": "Inscrits récemment :"
+  },
+  "eligibility": {
+    "head": "Puis-je obtenir un nom .eco ?",
+    "text": [
+      "<p><strong>Oui, vous pouvez !</strong> Si vous vous souciez de la planète, un nom de domaine .eco est un excellent moyen de le montrer. Vous pouvez obtenir un nom de domaine .eco pour votre entreprise, votre organisation à but non lucratif ou pour vous-même.</p>",
+      "<p>Pour être éligible à un .eco, vous devez :</p>",
+      "<ul>",
+      "<li>S'engager à travailler pour un avenir durable</li>",
+      "<li>Soyez prêt à divulguer les mesures environnementales que vous prenez</li>",
+      "</ul>",
+      "<p>Si vous avez des questions ou des préoccupations concernant votre éligibilité, <a class=\"chat-link\" href=\"#\">veuillez nous contacter</a>.</p>"
+    ]
+  },
+  "purchase": {
+    "head": "Comment obtenir mon nom .eco ?",
+    "text": [
+      "<p>Obtenez votre nom de domaine .eco en 4 étapes simples :</p>",
+      "<ol>",
+      "<li><a href=\"#input-search\">Recherchez votre nom parfait</a></li>",
+      "<li>Achetez-le chez votre détaillant préféré</li>",
+      "<li>Prenez le <a href=\"/about/system/\">engagement .eco</a> et créez votre <a href=\"https://profiles.eco\">profil .eco</a></li>",
+      "<li>Configurer et lancer votre site Internet</li>",
+      "</ol>"
+    ]
   }
 }

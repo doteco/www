@@ -62,18 +62,18 @@ i18nNamespace: home
 
  	</div>
 
- 	<a hidden class="left carousel-control" href="#home-carousel" role="button" data-slide="prev" aria-label="Previous slide in carousel">
+ 	<a hidden class="left carousel-control" href="#home-carousel" role="button" data-slide="prev" aria-label="{{t 'carousel.cta.prev'}}">
 		<span class="glyphicon glyphicon-chevron-left"></span>
  	 </a>
 
- 	<a class="right carousel-control" href="#home-carousel" role="button" data-slide="next" aria-label="Next slide in carousel">
+ 	<a class="right carousel-control" href="#home-carousel" role="button" data-slide="next" aria-label="{{t 'carousel.cta.next'}}">
 		<span class="glyphicon glyphicon-chevron-right"></span>
  	</a>
  </div>
 
  <div class="section search">
 	 <div class="container">
-	   <h1 class="subheader search-header">Find your perfect .eco domain name</h1>
+	   <h1 class="subheader search-header">{{t 'search.head'}}</h1>
 
 	   <form method="get" class="search-form">
 	     <div class="row">
@@ -95,7 +95,7 @@ i18nNamespace: home
  <div class="section recent">
  	<div class="container">
  		<div class="row">
- 			<div class="recently-registered col-xs-3">Recently registered:</div>
+ 			<div class="recently-registered col-xs-3">{{t 'registered.head'}}</div>
  			<div class="col-xs-9">
  				<div id="registered-domains" class="registered-domains">
  				</div>
@@ -109,25 +109,13 @@ i18nNamespace: home
 		<div class="row">
 
 			<div class="col-md-6">
-				<h3>Can I get a .eco name?</h3>
-					<p><strong>Yes, you can!</strong> If you care about the planet, a .eco domain name is a great way to show it. You can get a .eco domain name for your business, your non-profit organization or for yourself.</p>
-					<p>To be eligible for a .eco you must:</p>
-					<ul>
-						<li>Be commited to working toward a sustainable future</li>
-						<li>Be willing to disclose the environmental actions you are taking</li>
-					</ul>
-					<p>If you have any questions or concerns about your eligibility, <a class="chat-link" href="#">please contact us</a>.</p>
+				<h3>{{t 'eligibility.head'}}</h3>
+				{{{t 'eligibility.text' joinArrays=''}}}
 			</div>
 
 			<div class="col-md-6">
-				<h3>How do I get my .eco name?</h3>
-					<p>Get your .eco domain name in 4 simple steps:</p>
-					<ol>
-						<li><a href="#input-search">Search for your perfect name</a></li>
-						<li>Purchase it from your preferred retailer</li>
-						<li>Take the <a href="/about/system/">.eco pledge</a> and create your <a href="https://profiles.eco">.eco profile</a></li>
-						<li>Set up and launch your web site</li>
-					</ol>
+				<h3>{{t 'purchase.head'}}</h3>
+				{{{t 'purchase.text' joinArrays=''}}}
 			</div>
 		</div>
 	</div>

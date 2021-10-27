@@ -20,6 +20,40 @@
       "head": "World leaders are in Glasgow for COP26",
       "subhead": "Join 2,257 .eco members in supporting climate action",
       "cta": "See who's taking action"
+    },
+    "cta": {
+      "next": "Next slide in carousel",
+      "prev": "Previous slide in carousel"
     }
+  },
+  "search": {
+    "head": "Find your perfect .eco domain name"
+  },
+  "registered": {
+    "head": "Recently registered:"
+  },
+  "eligibility": {
+    "head": "Can I get a .eco name?",
+    "text": [
+      "<p><strong>Yes, you can!</strong> If you care about the planet, a .eco domain name is a great way to show it. You can get a .eco domain name for your business, your non-profit organization or for yourself.</p>",
+      "<p>To be eligible for a .eco you must:</p>",
+      "<ul>",
+      "<li>Be commited to working toward a sustainable future</li>",
+      "<li>Be willing to disclose the environmental actions you are taking</li>",
+      "</ul>",
+      "<p>If you have any questions or concerns about your eligibility, <a class=\"chat-link\" href=\"#\">please contact us</a>.</p>"
+    ]
+  },
+  "purchase": {
+    "head": "How do I get my .eco name?",
+    "text": [
+      "<p>Get your .eco domain name in 4 simple steps:</p>",
+      "<ol>",
+      "<li><a href=\"#input-search\">Search for your perfect name</a></li>",
+      "<li>Purchase it from your preferred retailer</li>",
+      "<li>Take the <a href=\"/about/system/\">.eco pledge</a> and create your <a href=\"https://profiles.eco\">.eco profile</a></li>",
+      "<li>Set up and launch your web site</li>",
+      "</ol>"
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "doteco-www",
   "version": "1.0.0",
-  "description": "",
+  "description": "go.eco web site",
   "devDependencies": {
     "autoprefixer": "10.3.7",
     "handlebars": "4.7.7",
@@ -27,7 +27,7 @@
     "metalsmith-watch": "1.0.3",
     "node-sass": "6.0.1",
     "standard": "16.0.4",
-    "stylelint": "14.0.0",
+    "stylelint": "14.0.1",
     "stylelint-config-standard": "23.0.0"
   },
   "scripts": {
