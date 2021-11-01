@@ -1,6 +1,7 @@
 const Metalsmith = require('metalsmith')
 const autoprefixer = require('metalsmith-autoprefixer')
 const discoverHelpers = require('metalsmith-discover-helpers')
+const discoverPartials = require('metalsmith-discover-partials')
 const imagemin = require('metalsmith-imagemin')
 const inplace = require('metalsmith-in-place')
 const fingerprint = require('metalsmith-fingerprint-ignore')
@@ -91,6 +92,9 @@ const ms = Metalsmith(__dirname)
   .use(discoverHelpers({
     directory: './helpers'
   }))
+  .use(discoverPartials({
+    directory: 'layouts/partials'
+  }))
   .use(sass({
     includePaths: ['./scss'],
     outputDir: 'css',
@@ -111,10 +115,8 @@ const ms = Metalsmith(__dirname)
     path: ':file'
   }))
   .use(layouts({
-    engine: 'handlebars',
-    partials: 'layouts/partials',
-    default: 'default.html',
-    pattern: '**/*.html'
+    pattern: '**/*.html',
+    default: 'default.hbs'
   }))
   .use(inplace({
     engine: 'handlebars',
