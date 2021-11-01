@@ -123,10 +123,10 @@ i18nNamespace: home
 
 <div class="section home-orgs inverted">
 	<div class="container">
-		<div class="section-label">Partners</div>
-		<h2>Who is behind .eco?</h2>
+		<div class="section-label">{{t 'partners.head'}}</div>
+		<h2>{{t 'partners.subhead'}}</h2>
 
-		<p>Some of the organizations behind .eco include:</p>
+		<p>{{t 'partners.text'}}</p>
 
 		{{> logos }}
 	</div>
@@ -135,7 +135,7 @@ i18nNamespace: home
 <div class="section home-who">
 	<div class="container">
 		<div class="section">
-			<div class="section-label"><a href="https://profiles.eco">Who is using .eco?</a></div>
+			<div class="section-label"><a href="https://profiles.eco">{{t 'members.head'}}</a></div>
 			{{> profiles }}
 		</div>
 	</div>
@@ -143,17 +143,13 @@ i18nNamespace: home
 
 <div class="section home-support inverted">
 	<div class="container">
-		<div class="section-label">Support</div>
+		<div class="section-label">{{t 'support.head'}}</div>
 		<div class="row">
 			<div class="col-xs-3 col-md-2">
 				<span class="support-wave">&#x1F44B;</span>
 			</div>
 			<div class="col-xs-8 col-md-10">
-				<p>Let us know if you have any questions about .eco!
-					<a class="chat-link" href="#">We are available for chat</a> during business hours <strong>Pacific Time</strong>.
-					You can also leave us a message and we will try to respond within 1 business day.
-					You can also check out the support articles on <a href="https://support.go.eco">.eco support site</a>.
-				</p>
+				{{{t 'support.text' joinArrays=' '}}}
 			</div>
 		</div>
 	</div>

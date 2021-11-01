@@ -55,5 +55,24 @@
       "<li>Configurer et lancer votre site Internet</li>",
       "</ol>"
     ]
+  },
+  "partners": {
+    "head": "Partenaires",
+    "subhead": "Qui se cache derrière le .eco ?",
+    "text": "Certaines des organisations derrière .eco comprennent :",
+    "cta": "Consultez la liste complète des organisations qui font partie de la coalition .eco."
+  },
+  "members": {
+    "head": "Qui utilise .eco ?",
+    "cta": "Voir plus sur profiles.eco"
+  },
+  "support": {
+    "head": "Service",
+    "text": [
+      "<p>Faites-nous savoir si vous avez des questions sur .eco !",
+      "<a class=\"chat-link\" href=\"#\">Nous sommes disponibles pour discuter</a> pendant les heures ouvrables <strong>Heure du Pacifique</strong>.",
+      "Vous pouvez également nous laisser un message et nous essaierons de vous répondre dans un délai d'un jour ouvrable.",
+      "Vous pouvez également consulter les articles d'assistance sur le site d'assistance <a href=\"https://support.go.eco\">.eco</a>."
+    ]
   }
 }
