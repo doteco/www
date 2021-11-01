@@ -112,7 +112,8 @@ const ms = Metalsmith(__dirname)
     pattern: '**/*.html',
     engine: 'handlebars',
     helpers: null,
-    path: ':file'
+    path: ':file',
+    frontMatterKeys: ['title', 'description']
   }))
   .use(layouts({
     pattern: '**/*.html',
