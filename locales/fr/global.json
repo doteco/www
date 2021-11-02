@@ -1,3 +1,12 @@
 {
-  "footer": []
+  "footer": [
+    {
+      "head": "Aide",
+      "items": [
+        "<a href=\"/contact/\">Contactez-nous</a>",
+        "<a href=\"https://support.go.eco\">Infos practiques</a>",
+        "<a href=\"http://status.bigroom.eco\">État du système</a>"
+      ]
+    }
+  ]
 }
