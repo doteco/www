@@ -1,0 +1,28 @@
+{
+  "footer": [
+    {
+      "head": "Help",
+      "items": [
+        "<a href=\"/contact/\">Contact Us</a>",
+        "<a href=\"https://support.go.eco\">Support</a>",
+        "<a href=\"http://status.bigroom.eco\">System status</a>"
+      ]
+    },
+    {
+      "head": "Resources",
+      "items": [
+        "<a href=\"/about/story/\">Our story</a>",
+        "<a href=\"/about/system/\">About .eco</a>",
+        "<a href=\"/registrars/\">Registrars</a>"
+      ]
+    },
+    {
+      "head": "Policies",
+      "items": [
+        "<a href=\"/privacy/\">Privacy Policy</a>",
+        "<a href=\"/impact/\">Environmental Policy</a>",
+        "<a href=\"/policies/\">Registry Policies</a>"
+      ]
+    }
+  ]
+}
