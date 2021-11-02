@@ -37,7 +37,7 @@ const ENV_OPTIONS = {
   },
   TST: {
     'ga-tracking-id': 'UA-2825422-15',
-    'site-url': 'http://test.go.eco',
+    'site-url': 'https://test.go.eco',
     watch: false,
     pixel: false,
     profiles: 'https://test.profiles.eco',
