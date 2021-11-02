@@ -1,0 +1,32 @@
+{
+  "title": "Search for a .eco domain to make your own",
+  "description": "Search for a .eco domain and choose your registrar to buy it.",
+  "search": {
+    "head": "Trouvez votre nom .eco parfait",
+    "cta": "Chercher"
+  },
+  "registrars": {
+    "head1": "Nos meilleurs détaillants",
+    "head2": "Trouver un détaillant"
+  },
+  "reserved": {
+    "head": "Intéressé par ce nom ?",
+    "text": "Remplissez le formulaire ci-dessous et nous ferons de notre mieux pour vous répondre dans les 2 jours ouvrables.",
+    "cta": "Contactez-nous",
+    "cta2": "Envoi en cours",
+    "thanks": "Merci de m'avoir contacté! Nous reviendrons vers vous bientôt."
+  },
+  "filters": {
+    "region": "Région",
+    "envPolicy": "Politique environnementale",
+    "language": "Langue",
+    "currency": "Monnaie"
+  },
+  "results": {
+    "available": "<span class=\"searched-domain\">{searchDomain}</span> est disponible",
+    "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> est déjà pris.<br/>Veuillez essayer un autre nom .eco",
+    "invalid": "<span class=\"searched-domain\">{searchDomain}</span> is an invalid name.<br/>Please try a different .eco name.",
+    "error": "Erreur de recherche du nom de domaine. Veuillez réessayer plus tard.",
+    "reserved": "<span class=\"searched-domain\">{searchDomain}</span> est un grand nom !<br/> Veuillez nous contacter pour connaître les prix."
+  }
+}

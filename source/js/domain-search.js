@@ -56,10 +56,11 @@ window.domainSearch = function (config) {
     const regions = uniqueFilterItems(registrars, 'region')
     const envPolicy = ['Yes']
 
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', 'Region', regions))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', 'Environmental policy', envPolicy))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', 'Language', languages))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', 'Currency', currencies))
+    const { filterLabels } = config
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', filterLabels.region, regions))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', filterLabels.envPolicy, envPolicy))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', filterLabels.language, languages))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', filterLabels.currency, currencies))
 
     document.querySelectorAll('.registrar-filter').forEach(el => el.addEventListener('change', () => filterRegistrars(registrars)))
   }
@@ -104,19 +105,15 @@ window.domainSearch = function (config) {
   }
 
   function searchResultMessage (r, searchDomain) {
-    if (!r.domain) {
-      return `We cannot find <span class="searched-domain">${searchDomain}</span>. Please try a different .eco name`
+    let resultLabel = config.resultLabels.unavailable
+    if (!r.domain || r.summary === 'disallowed' || r.summary === 'invalid') {
+      resultLabel = config.resultLabels.invalid
+    } else if (r.summary === 'inactive' || r.summary === 'premium') {
+      resultLabel = config.resultLabels.available
+    } else if (r.summary === 'reserved') {
+      resultLabel = config.resultLabels.reserved
     }
-    if (r.summary === 'inactive' || r.summary === 'premium') {
-      return `<span class="searched-domain">${searchDomain}</span> is available`
-    }
-    if (r.summary === 'reserved') {
-      return `<span class="searched-domain">${searchDomain}</span> is a great name!<br/> Please contact us about pricing.`
-    }
-    if (r.summary === 'disallowed' || r.summary === 'invalid') {
-      return `<span class="searched-domain">${searchDomain}</span> is an invalid name.<br/>Please try a different .eco name.`
-    }
-    return `<span class="searched-domain">${searchDomain}</span> is already taken.<br/>Please try a different .eco name`
+    return resultLabel.replace('{searchDomain}', searchDomain)
   }
 
   function search (domain) {
@@ -130,7 +127,7 @@ window.domainSearch = function (config) {
     return window.fetch(config.searchUrl + '/status?domain=' + domain).then(response => {
       if (!response.ok) {
         console.error(`Failed to load search data: ${response.statusText}`)
-        document.querySelector('.search-results').innerHTML = 'Error searching for domain name. Please try again later.'
+        document.querySelector('.search-results').innerHTML = config.resultLabels.error
       }
 
       return response.json().then(r => {
@@ -150,7 +147,7 @@ window.domainSearch = function (config) {
       })
     }).catch(ex => {
       console.error(`Failed to load search data: ${ex}`)
-      document.querySelector('.search-results').innerHTML = 'Error searching for domain name. Please try again later.'
+      document.querySelector('.search-results').innerHTML = config.resultLabels.error
     })
   }
 

@@ -1,0 +1,32 @@
+{
+  "title": "Search for a .eco domain to make your own",
+  "description": "Search for a .eco domain and choose your registrar to buy it.",
+  "search": {
+    "head": "Find your perfect .eco name",
+    "cta": "Search"
+  },
+  "registrars": {
+    "head1": "Our top retailers",
+    "head2": "Find a retailer"
+  },
+  "reserved": {
+    "head": "Interested in this name?",
+    "text": "Complete the form below and we’ll do our best to get back to you within 2 business days.",
+    "cta": "Contact us",
+    "cta2": "Sending",
+    "thanks": "Thanks for getting in touch! We will get back to you soon."
+  },
+  "filters": {
+    "region": "Region",
+    "envPolicy": "Environmental policy",
+    "language": "Language",
+    "currency": "Currency"
+  },
+  "results": {
+    "available": "<span class=\"searched-domain\">{searchDomain}</span> is available",
+    "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> is already taken.<br/>Please try a different .eco name",
+    "invalid": "<span class=\"searched-domain\">{searchDomain}</span> is an invalid name.<br/>Please try a different .eco name.",
+    "error": "Error searching for domain name. Please try again later.",
+    "reserved": "<span class=\"searched-domain\">{searchDomain}</span> is a great name!<br/> Please contact us about pricing."
+  }
+}

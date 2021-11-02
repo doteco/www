@@ -108,7 +108,7 @@ const ms = Metalsmith(__dirname)
   }))
   .use(i18next({
     locales: [lang],
-    namespaces: ['home'],
+    namespaces: ['global'],
     pattern: '**/*.html',
     engine: 'handlebars',
     helpers: null,

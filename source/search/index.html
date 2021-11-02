@@ -1,16 +1,17 @@
 ---
-title: Search for a .eco domain to make your own
-description: Search for a .eco domain and choose your registrar to buy it.
+title: title
+description: description
 page-path: /search
 og-image: opengraph/tiger-og.jpg
 og-width: 1200
 og-height: 630
 active: home
+i18nNamespace: search
 ---
 
 <div class="section search">
  <div class="container">
-   <h1 class="subheader search-header">Find your perfect .eco name</h1>
+   <h1 class="subheader search-header">{{t "search.head"}}</h1>
 
    <form method="get" class="search-form">
      <div class="row">
@@ -19,7 +20,7 @@ active: home
          <div class="input-group">
            <input type="search" class="form-control domain-search" name="domain" placeholder="example.eco" autocomplete="off" autocapitalize="off" tabindex="-1" autofocus>
            <span class="input-group-btn">
-             <button class="btn btn-search" type="button" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
+             <button class="btn btn-search" type="button" aria-label="search.cta"><span class="glyphicon glyphicon-search"></span></button>
            </span>
           </div>
        </div>
@@ -36,7 +37,7 @@ active: home
 
 <div class="section registrars" hidden>
   <div class="container registrars-priority">
-    <h3 class="registars-header">Our top retailers</h3>
+    <h3 class="registars-header">{{t "registrars.head1"}}</h3>
     <div class="row registrars-row">
     </div>
   </div>
@@ -44,7 +45,7 @@ active: home
 
 <div class="section registrars inverted" hidden>
   <div class="container registrars-all">
-    <h3 class="registars-header">Find a retailer</h3>
+    <h3 class="registars-header">{{t "registrars.head2"}}</h3>
     <div class="row registrars-filter">
     </div>
     <div class="row registrars-row">
@@ -57,8 +58,8 @@ active: home
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-8 well well-lg">
-        <h3 class="registars-header">Interested in this name?</h3>
-        <p>Complete the form below and we’ll do our best to get back to you within 2 business days.</p>
+        <h3 class="registars-header">{{t "reserved.head"}}</h3>
+        <p>{{t "reserved.text"}}</p>
         <form id="makeoffer-form" class="underlined-form iframe-form" action="{{ makeOfferForm }}" target="makeoffer-form-iframe" method="POST" data-toggle="validator">
           <fieldset>
             <input id="makeoffer-domain" type="hidden" name="entry.1812657841" value="" />
@@ -74,8 +75,8 @@ active: home
             </div>
           </fieldset>
           <div class="clearfix form-group">
-            <button type="submit" class="submit-application btn btn-primary pull-right" data-loading-text="Submitting">Contact us</button>
-            <span class="submit-thanks" hidden>Thanks for getting in touch! We will get back to you soon.</span>
+            <button type="submit" class="submit-application btn btn-primary pull-right" data-loading-text="{{t "reserved.cta2"}}">{{t "reserved.cta"}}</button>
+            <span class="submit-thanks" hidden>{{t "reserved.thanks"}}</span>
           </div>
         </form>
       </div>
@@ -122,6 +123,19 @@ active: home
           event_label: r && r.domain
         })
   {{/if}}
+      },
+      filterLabels: {
+        region: '{{t "filters.region"}}',
+        envPolicy: '{{t "filters.envPolicy"}}',
+        language: '{{t "filters.language"}}',
+        currency: '{{t "filters.currency"}}'
+      },
+      resultLabels: {
+        available: '{{{t "results.available"}}}',
+        unavailable: '{{{t "results.unavailable"}}}',
+        invalid: '{{{t "results.invalid"}}}',
+        error: '{{{t "results.error"}}}',
+        reserved: '{{{t "results.reserved"}}}'
       }
   	})
   }
