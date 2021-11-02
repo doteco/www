@@ -23,7 +23,7 @@ console.log('Building for environment:', env, lang)
 const ENV_OPTIONS = {
   DEV: {
     'ga-tracking-id': 'UA-2825422-15',
-    'site-url': 'http://localhost:8080',
+    'site-url': { en: 'http://localhost:8080', fr: 'https://fr.test.go.eco' },
     watch: true,
     pixel: false,
     profiles: 'https://test.profiles.eco',
@@ -37,7 +37,10 @@ const ENV_OPTIONS = {
   },
   TST: {
     'ga-tracking-id': 'UA-2825422-15',
-    'site-url': 'https://test.go.eco',
+    'site-url': {
+      en: 'https://test.go.eco',
+      fr: 'https://fr.test.go.eco'
+    },
     watch: false,
     pixel: false,
     profiles: 'https://test.profiles.eco',
@@ -51,7 +54,10 @@ const ENV_OPTIONS = {
   },
   PRD: {
     'ga-tracking-id': 'UA-2825422-23',
-    'site-url': 'https://go.eco',
+    'site-url': {
+      en: 'https://go.eco',
+      fr: 'https://fr.go.eco'
+    },
     watch: false,
     pixel: true,
     profiles: 'https://profiles.eco',
@@ -66,12 +72,13 @@ const ENV_OPTIONS = {
 
 const options = ENV_OPTIONS[env]
 console.log('Using options:', options)
+const siteUrl = options['site-url'][lang] || options['site-url'].en
 
 const ms = Metalsmith(__dirname)
   .metadata({
     year: new Date().getFullYear(),
     'img-root': '/img',
-    'site-url': options['site-url'],
+    'site-url': siteUrl,
     'twitter-id': '@doteco',
     'ga-tracking-id': options['ga-tracking-id'],
     livereload: options.watch,
@@ -125,12 +132,12 @@ const ms = Metalsmith(__dirname)
   }))
   .use(sitemap({
     privateProperty: 'exclude',
-    hostname: options['site-url'],
+    hostname: siteUrl,
     omitIndex: true
   }))
   .use(robots({
     disallow: ['/mobile/*', '/m/*'],
-    sitemap: options['site-url'] + '/sitemap.xml'
+    sitemap: siteUrl + '/sitemap.xml'
   }))
   .use(redirect({
     frontmatter: true,
