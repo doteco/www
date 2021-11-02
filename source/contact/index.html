@@ -1,37 +1,33 @@
 ---
-title: Contact us | .eco
-description: Contact the .eco domain registry with questions about registering or activating a .eco domain.
+title: title
+description: description
 page-path: contact/
 og-image: opengraph/windmill-sunflowers-og.jpg
 og-width: 1200
 og-height: 600
 active: contact
+i18nNamespace: contact
 ---
 <link rel="preload" as="image" href="/img/windmill-sunflowers.jpg" />
 
 <div class="jumbotron contact-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/windmill-sunflowers.jpg');">
  <div class="container">
-	 <h1>Contact us</h1>
+	 <h1>{{t "head"}}</h1>
  </div>
 </div>
 
 <div class="section container section-contact">
 	<div class="row">
 		<div class="col-md-6">
-			<h4>Support requests</h4>
-			<p>If you need help registering a .eco domain name or have any other questions, <a id="chat-link">feel free to chat with us</a>.</p>
-			<p>You can also visit the <a href="https://support.go.eco">.eco support site</a> to find answers to common questions.</p>
-			<p>To contact us by email, write to: <span class="email-link" data-name="support" data-domain="go.eco"></span>.</p>
+			<h4>{{t "support.head"}}</h4>
+			{{{t "support.text" joinArrays=" "}}}
 		</div>
 
 		<div class="col-md-6">
-			<h4>Contact the .eco Registry</h4>
-			<p>The .eco top-level domain is operated by Big Room Inc.
+			<h4>{{t "contact.head"}}</h4>
+			<p>{{t "contact.text"}}</p>
 			<address>
-				1231 Pacific Boulevard, Suite 581<br/>
-				Vancouver, BC<br/>
-				Canada V6Z 0E2<br/>
-				<a href="https://bigroom.eco">bigroom.eco</a><br />
+				{{{t "contact.address" joinArrays="<br />"}}}
 			</address>
 		</div>
 	</div>
