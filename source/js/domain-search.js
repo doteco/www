@@ -7,7 +7,7 @@ window.domainSearch = function (config) {
   }
 
   function generateFilterHtml (id, defaultItem, items, defaultValue) {
-    const options = items.map(item => `<option value="${item}"${item === defaultValue ? 'selected' : ''}>${item}</option>`)
+    const options = items.map(item => `<option value="${item.value}"${item.value === defaultValue ? 'selected' : ''}>${item.label}</option>`)
     return `<div class="col-sm-3"><select id="${id}" class="custom-select registrar-filter"><option value="" selected>${defaultItem}</option>${options}</select></div>`
   }
 
@@ -15,13 +15,13 @@ window.domainSearch = function (config) {
     return document.querySelector('.domain-search').value
   }
 
-  function uniqueFilterItems (registrars, field) {
+  function uniqueFilterItems (registrars, field, labels = {}) {
     const itemsAll = registrars.map(registrar => {
       return registrar[field]
     })
     const itemsUnique = Array.from(new Set(itemsAll.flat())).filter(item => item.length > 0)
     itemsUnique.sort()
-    return itemsUnique
+    return itemsUnique.map(item => ({ label: item, value: labels[item] || item }))
   }
 
   function filterRegistrars (registrars) {
@@ -54,7 +54,7 @@ window.domainSearch = function (config) {
     const languages = uniqueFilterItems(registrars, 'languages')
     const currencies = uniqueFilterItems(registrars, 'currencies')
     const regions = uniqueFilterItems(registrars, 'region')
-    const envPolicy = ['Yes']
+    const envPolicy = [{ value: 'Yes', label: config.envPolicyLabels.Yes }]
 
     const { filterLabels, filterDefaults } = config
     registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', filterLabels.region, regions, filterDefaults.region))
@@ -123,11 +123,12 @@ window.domainSearch = function (config) {
     domain = domain.replace(/\..+$/, '').replace(/\s/, '')
     domain += '.eco'
 
+    const searchResultsRow = document.querySelector('.search-results')
     config.onSearch(domain)
     return window.fetch(config.searchUrl + '/status?domain=' + domain).then(response => {
       if (!response.ok) {
         console.error(`Failed to load search data: ${response.statusText}`)
-        document.querySelector('.search-results').innerHTML = config.resultLabels.error
+        searchResultsRow.innerHTML = config.resultLabels.error
       }
 
       return response.json().then(r => {
@@ -136,7 +137,6 @@ window.domainSearch = function (config) {
           document.querySelector('.domain-search').value = r.domain
         }
 
-        const searchResultsRow = document.querySelector('.search-results')
         const message = searchResultMessage(r, searchDomain())
         searchResultsRow.innerHTML = `<span class='domain-search-output title'>${message}</span>`
 
@@ -147,7 +147,8 @@ window.domainSearch = function (config) {
       })
     }).catch(ex => {
       console.error(`Failed to load search data: ${ex}`)
-      document.querySelector('.search-results').innerHTML = config.resultLabels.error
+      console.error(ex)
+      searchResultsRow.innerHTML = config.resultLabels.error
     })
   }
 
