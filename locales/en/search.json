@@ -29,6 +29,16 @@
     "error": "Error searching for domain name. Please try again later.",
     "reserved": "<span class=\"searched-domain\">{searchDomain}</span> is a great name!<br/> Please contact us about pricing."
   },
+  "region": {
+    "Africa": "Africa",
+    "Asia": "Asia",
+    "Australasia": "Australasia",
+    "Europe": "Europe",
+    "Global": "Global",
+    "Middle East": "Middle East",
+    "North America": "North America",
+    "South America": "South America"
+  },
   "policy": {
     "Yes": "Yes"
   }

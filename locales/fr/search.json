@@ -29,6 +29,16 @@
     "error": "Erreur de recherche du nom de domaine. Veuillez réessayer plus tard.",
     "reserved": "<span class=\"searched-domain\">{searchDomain}</span> est un grand nom !<br/> Veuillez nous contacter pour connaître les prix."
   },
+  "region": {
+    "Africa": "Afrique",
+    "Asia": "Asie",
+    "Australasia": "Australasie",
+    "Europe": "L'Europe",
+    "Global": "Globale",
+    "Middle East": "Moyen-Orient",
+    "North America": "Amérique du Nord",
+    "South America": "Amérique du Sud"
+  },
   "policy": {
     "Yes": "Oui"
   }

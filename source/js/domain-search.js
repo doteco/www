@@ -21,7 +21,7 @@ window.domainSearch = function (config) {
     })
     const itemsUnique = Array.from(new Set(itemsAll.flat())).filter(item => item.length > 0)
     itemsUnique.sort()
-    return itemsUnique.map(item => ({ label: item, value: labels[item] || item }))
+    return itemsUnique.map(item => ({ value: item, label: labels[item] || item }))
   }
 
   function filterRegistrars (registrars) {
@@ -53,7 +53,7 @@ window.domainSearch = function (config) {
 
     const languages = uniqueFilterItems(registrars, 'languages')
     const currencies = uniqueFilterItems(registrars, 'currencies')
-    const regions = uniqueFilterItems(registrars, 'region')
+    const regions = uniqueFilterItems(registrars, 'region', config.regionLabels)
     const envPolicy = [{ value: 'Yes', label: config.envPolicyLabels.Yes }]
 
     const { filterLabels, filterDefaults } = config
