@@ -10,3 +10,7 @@ Handlebars.registerHelper('equal', function (lvalue, rvalue, options) {
     return options.fn(this)
   }
 })
+
+Handlebars.registerHelper('json', function (object) {
+  return new Handlebars.SafeString(JSON.stringify(object))
+})

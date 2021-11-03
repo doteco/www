@@ -17,6 +17,7 @@ const i18next = require('metalsmith-i18next')
 const env = process.env.NODE_ENV || 'DEV'
 const lang = process.env.SITE_LANG || 'en'
 const dest = lang === 'en' ? 'public' : 'public-' + lang
+const filterDefaults = lang === 'fr' ? { language: 'Français' } : {}
 
 console.log('Building for environment:', env, lang)
 
@@ -91,6 +92,7 @@ const ms = Metalsmith(__dirname)
     noindex: options.noindex,
     makeOfferForm: options.makeOfferForm,
     lang,
+    filterDefaults,
     keywords: 'domains,registry,top-level domain,TLD,ECO,.eco,environmental action,sustainability,ngo'
   })
   .source('./source')
