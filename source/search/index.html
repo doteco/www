@@ -124,20 +124,9 @@ i18nNamespace: search
         })
   {{/if}}
       },
-      filterLabels: {
-        region: '{{t "filters.region"}}',
-        envPolicy: '{{t "filters.envPolicy"}}',
-        language: '{{t "filters.language"}}',
-        currency: '{{t "filters.currency"}}'
-      },
+      filterLabels: {{{json (t "filters" returnObjects=true)}}},
       filterDefaults: {{{json filterDefaults}}},
-      resultLabels: {
-        available: '{{{t "results.available"}}}',
-        unavailable: '{{{t "results.unavailable"}}}',
-        invalid: '{{{t "results.invalid"}}}',
-        error: '{{{t "results.error"}}}',
-        reserved: '{{{t "results.reserved"}}}'
-      }
+      resultLabels: {{{json (t "results" returnObjects=true)}}}
   	})
   }
 </script>
