@@ -14,6 +14,10 @@
     "text": "Remplissez le formulaire ci-dessous et nous ferons de notre mieux pour vous répondre dans les 2 jours ouvrables.",
     "cta": "Contactez-nous",
     "cta2": "Envoi en cours",
+    "nameField": "Nom",
+    "nameFieldError": "S'il vous plait entrez votre nom entier.",
+    "emailField": "Email",
+    "emailFieldError": "S'il vous plaît, mettez une adresse email valide.",
     "thanks": "Merci de m'avoir contacté! Nous reviendrons vers vous bientôt."
   },
   "filters": {
