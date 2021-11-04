@@ -92,8 +92,7 @@ const ms = Metalsmith(__dirname)
     noindex: options.noindex,
     makeOfferForm: options.makeOfferForm,
     lang,
-    filterDefaults,
-    keywords: 'domains,registry,top-level domain,TLD,ECO,.eco,environmental action,sustainability,ngo'
+    filterDefaults
   })
   .source('./source')
   .destination(dest)
