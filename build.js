@@ -75,6 +75,17 @@ const options = ENV_OPTIONS[env]
 console.log('Using options:', options)
 const siteUrl = options['site-url'][lang] || options['site-url'].en
 
+const sitemapLinks = () => {
+  return (files, metalsmith, done) => {
+    for (const [path, file] of Object.entries(files)) {
+      if (path.endsWith('.html')) {
+        file.sitemapLinks = Object.entries(options['site-url']).map(e => ({ lang: e[0], url: e[1] + '/' + path }))
+      }
+    }
+    done()
+  }
+}
+
 const ms = Metalsmith(__dirname)
   .metadata({
     year: new Date().getFullYear(),
@@ -131,10 +142,12 @@ const ms = Metalsmith(__dirname)
     engine: 'handlebars',
     pattern: '**/*.html'
   }))
+  .use(sitemapLinks())
   .use(sitemap({
     privateProperty: 'exclude',
     hostname: siteUrl,
-    omitIndex: true
+    omitIndex: true,
+    links: 'sitemapLinks'
   }))
   .use(robots({
     disallow: ['/mobile/*', '/m/*'],
