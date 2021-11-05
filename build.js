@@ -146,8 +146,8 @@ const ms = Metalsmith(__dirname)
   .use(sitemap({
     privateProperty: 'exclude',
     hostname: siteUrl,
-    omitIndex: true,
-    links: 'sitemapLinks'
+    // links: 'sitemapLinks',
+    omitIndex: true
   }))
   .use(robots({
     disallow: ['/mobile/*', '/m/*'],
