@@ -24,7 +24,7 @@ console.log('Building for environment:', env, lang)
 const ENV_OPTIONS = {
   DEV: {
     'ga-tracking-id': 'UA-2825422-15',
-    'site-url': { en: 'http://localhost:8080', fr: 'https://fr.test.go.eco' },
+    'site-url': { en: 'http://localhost:8080', de: 'https://de.test.go.eco' },
     watch: true,
     pixel: false,
     profiles: 'https://test.profiles.eco',

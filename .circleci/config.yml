@@ -8,7 +8,7 @@ workflows:
      - build:
         context: TEST
         bucket: 's3://test.go.eco/'
-        bucket-fr: 's3://fr.test.go.eco/'
+        bucket-de: 's3://de.test.go.eco/'
         filters:
           branches:
             only: master
@@ -17,7 +17,7 @@ workflows:
      - build:
         context: PROD
         bucket: 's3://www.go.eco/'
-        bucket-fr: 's3://fr.go.eco/'
+        bucket-de: 's3://de.go.eco/'
         filters:
           branches:
             only: production
@@ -26,7 +26,7 @@ jobs:
     parameters:
       bucket:
         type: string
-      bucket-fr:
+      bucket-de:
         type: string
     docker:
     # Image tags available here: https://circleci.com/docs/2.0/docker-image-tags.json
@@ -38,7 +38,7 @@ jobs:
     - run: sudo apt-get install nasm
     - run: npm install
     - run: npm run build
-    - run: SITE_LANG=fr npm run build
+    - run: SITE_LANG=de npm run build
 
     # Deployment
     - aws-s3/sync:
@@ -46,5 +46,5 @@ jobs:
         to: << parameters.bucket >>
 
     - aws-s3/sync:
-        from: public-fr
-        to: << parameters.bucket-fr >>
+        from: public-de
+        to: << parameters.bucket-de >>

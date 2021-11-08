@@ -12,5 +12,4 @@ node_modules
 .npm
 yarn.lock
 
-public
-public-fr
+public*

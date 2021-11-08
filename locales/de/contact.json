@@ -1,0 +1,23 @@
+{
+  "contact": {
+    "address": [
+      "1231 Pacific Boulevard, Suite 581",
+      "Vancouver, BC",
+      "Kanada V6Z 0E2",
+      "<a href=\"https://bigroom.eco\">bigroom.eco</a>"
+    ],
+    "head": "Kontaktieren Sie die .eco-Registry",
+    "text": "Die Top-Level-Domain .eco wird von Big Room Inc. betrieben."
+  },
+  "description": "Wenden Sie sich bei Fragen zur Registrierung oder Aktivierung einer .eco-Domain an die .eco-Domain-Registry.",
+  "head": "Kontaktiere uns",
+  "support": {
+    "head": "Supportanfragen",
+    "text": [
+      "<p>Wenn Sie Hilfe bei der Registrierung eines .eco-Domainnamens benötigen oder andere Fragen haben, <a id=\"chat-link\">können Sie sich gerne mit uns unterhalten</a>.</p>",
+      "<p>Sie können auch die <a href=\"https://support.go.eco\">.eco-Support-Website</a> besuchen, um Antworten auf häufig gestellte Fragen zu finden.</p>",
+      "<p>Um uns per E-Mail zu kontaktieren, schreiben Sie an: <span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span>.</p>"
+    ]
+  },
+  "title": "Kontaktieren Sie uns | .Öko"
+}
