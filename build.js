@@ -159,6 +159,7 @@ const ms = Metalsmith(__dirname)
       '/grants': '/',
       '/registrars/policies/': '/policies/',
       '/registrars/funding/': '/registrars/',
+      '/registrars/partners/': '/registrars/',
       '/registrar': '/registrars/',
       '/faq': 'https://support.go.eco',
       '/names/premiums/': '/search/',
