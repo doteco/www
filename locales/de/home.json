@@ -1,79 +1,79 @@
 {
   "carousel": {
     "business": {
-      "head": ".eco ist für Unternehmen und Produkte",
-      "subhead": "die Menschen helfen, jeden Tag bessere Entscheidungen zu treffen"
+      "head": ".eco steht für Unternehmen und Produkte,",
+      "subhead": "die den Menschen helfen, jeden Tag bessere Entscheidungen zu treffen"
     },
     "cop": {
-      "cta": "Sehen Sie, wer Maßnahmen ergreift",
-      "head": "Weltranglistenerste sind zur COP26 in Glasgow",
-      "subhead": "Sehen Sie die 2.257 .eco-Mitglieder, die zum Klimaschutz beitragen"
+      "cta": "Sehen Sie, wer etwas tut",
+      "head": "Die Regierungschefs der Welt sind in Glasgow zur COP26",
+      "subhead": "Schließen Sie .eco-Mitgliedern an und unterstützen Sie den Klimaschutz"
     },
     "cta": {
       "next": "Nächste Folie im Karussell",
       "prev": "Vorherige Folie im Karussell"
     },
     "gov": {
-      "head": ".eco ist für Regierungen und gemeinnützige Organisationen",
-      "subhead": "die positive Umweltveränderungen fördern"
+      "head": ".eco ist für Regierungen und gemeinnützige Organisationen,",
+      "subhead": "die positive Umweltveränderungen fördern "
     },
     "people": {
-      "head": ".eco ist für Menschen",
+      "head": ".eco ist für Menschen, ",
       "subhead": "die sich an Umweltaktionen beteiligen und diese unterstützen"
     },
     "tld": {
-      "head": ".eco ist eine Webadressen-Endung",
-      "subhead": "für diejenigen, die sich für einen positiven Wandel für den Planeten einsetzen"
+      "head": ".eco ist eine Web-Top-Level-Domain für alle,",
+      "subhead": "die sich für positive Veränderungen für den Planeten einsetzen"
     }
   },
-  "description": "Erfahren Sie mehr darüber, wie Sie Ihren eigenen .eco-Domainnamen erhalten können.",
+  "description": "Erfahren Sie mehr darüber, wie Sie Ihren eigenen .eco-Domainnamen bekommen können.",
   "eligibility": {
-    "head": "Kann ich einen .eco-Namen erhalten?",
+    "head": "Kann ich einen .eco-Namen bekommen?",
     "text": [
-      "<p><strong>Ja, das können Sie!</strong> Wenn Ihnen der Planet am Herzen liegt, ist ein .eco-Domainname eine großartige Möglichkeit, dies zu zeigen. Sie können einen .eco-Domainnamen für Ihr Unternehmen, Ihre gemeinnützige Organisation oder für sich selbst erhalten.</p>",
-      "<p>Um Anspruch auf eine .eco zu haben, müssen Sie:</p>",
+      "<p><strong>Ja, das können Sie!</strong> Wenn Ihnen der Planet am Herzen liegt, ist ein .eco-Domainname eine gute Möglichkeit, dies zu zeigen. Sie können einen .eco-Domainnamen für Ihr Unternehmen, Ihre gemeinnützige Organisation oder für sich selbst beantragen.</p>",
+      "<p>Um für einen .eco in Frage zu kommen, müssen Sie:</p>",
       "<ul>",
-      "<li>Sei verpflichtet, auf eine nachhaltige Zukunft hinzuarbeiten</li>",
-      "<li>Sei bereit, deine Umweltmaßnahmen offenzulegen</li>",
+      "<li>Sich für eine nachhaltige Zukunft engagieren</li>",
+      "<li>Bereitschaft zur Offenlegung der von Ihnen durchgeführten Umweltmaßnahmen zeigen</li>",
       "</ul>",
-      "<p>Wenn Sie Fragen oder Bedenken bezüglich Ihrer Teilnahmeberechtigung haben, <a class=\"chat-link\" href=\"#\">kontaktieren Sie uns bitte</a>.</p>"
+      "<p>Wenn Sie Fragen oder Bedenken bezüglich Ihrer Anspruchsberechtigung haben,<a class=\"chat-link\" href=\"#\"> wenden Sie sich bitte an uns</a>.</p>"
     ]
   },
   "members": {
-    "cta": "Sehen Sie mehr auf profile.eco",
-    "head": "Wer verwendet .eco?"
+    "cta": "Mehr auf profiles.eco",
+    "head": "Wer benutzt .eco?"
   },
   "partners": {
-    "cta": "Sehen Sie sich die vollständige Liste der Organisationen an, die Teil der .eco-Koalition sind.",
+    "cta": "Hier finden Sie die vollständige Liste der Organisationen, die der .eco-Koalition angehören.",
     "head": "Partner",
     "subhead": "Wer steckt hinter .eco?",
-    "text": "Einige der Organisationen hinter .eco sind:"
+    "text": "Einige der Organisationen, die hinter .eco stehen, sind:"
   },
   "purchase": {
-    "head": "Wie erhalte ich meinen .eco-Namen?",
+    "head": "Wie bekomme ich meinen .eco-Namen?",
     "text": [
-      "<p>Erhalten Sie Ihren .eco-Domainnamen in 4 einfachen Schritten:</p>",
+      "<p>Holen Sie sich Ihren .eco-Domainnamen in 4 einfachen Schritten:</p>",
       "<ol>",
       "<li><a href=\"#input-search\">Suchen Sie nach Ihrem perfekten Namen</a></li>",
-      "<li>Kaufe es bei deinem bevorzugten Händler</li>",
-      "<li>Nehmen Sie das <a href=\"/about/system/\">.eco-Versprechen</a> an und erstellen Sie Ihr <a href=\"https://profiles.eco\">.eco-Profil</a></ li>",
-      "<li>Einrichten und Starten Ihrer Website</li>",
+      "<li>Kaufen Sie es bei Ihrem bevorzugten Einzelhändler</li>",
+      "<li>Legen Sie das <a href=\"/about/system/\">.eco-Versprechen</a> ab und erstellen Sie Ihr <a href=\"https://profiles.eco\">.eco-Profil</a></li>",
+      "<li>Ihre Website einrichten und starten</li>",
       "</ol>"
     ]
   },
   "registered": {
-    "head": "Kürzlich registriert:"
+    "head": "Vor kurzem registriert:"
   },
   "search": {
     "head": "Finden Sie Ihren perfekten .eco-Domainnamen"
   },
   "support": {
-    "head": "Unterstützung",
+    "head": "Support",
     "text": [
-      "<p>Lassen Sie es uns wissen, wenn Sie Fragen zu .eco haben!",
-      "<a class=\"chat-link\" href=\"#\">Wir stehen während der Geschäftszeiten <strong>Pacific Time</strong> zum Chatten</a> zur Verfügung.",
+      "<p>Wenn Sie Fragen zu .eco haben, lassen Sie es uns wissen!</p>",
+      "<a class=\"chat-link\" href=\"#\">Wir sind</a> während der Geschäftszeiten <strong>(Pacific Time)</strong> für Sie da.",
       "Sie können uns auch eine Nachricht hinterlassen und wir werden versuchen, innerhalb von 1 Werktag zu antworten.",
-      "Sie können auch die Support-Artikel auf der <a href=\"https://support.go.eco\">.eco-Support-Site</a> lesen."
+      "Sie können auch die Support-Artikel auf der <a href=\"https://support.go.eco\">.eco-Support-Seite lesen</a>."
     ]
   },
   "title": "Die Heimat von .eco, der Domain für die Umweltgemeinschaft"

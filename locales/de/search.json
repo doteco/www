@@ -2,43 +2,43 @@
   "description": "Suchen Sie nach einer .eco-Domain und wählen Sie Ihren Registrar, um sie zu kaufen.",
   "filters": {
     "currency": "Währung",
-    "envPolicy": "Umweltpolitik",
+    "envPolicy": "Umweltschutzpolitik",
     "language": "Sprache",
     "region": "Region"
   },
   "policy": {
-    "Yes": "Jawohl"
+    "Yes": "Ja"
   },
   "region": {
     "Africa": "Afrika",
     "Asia": "Asien",
     "Australasia": "Australasien",
     "Europe": "Europa",
-    "Global": "Global",
+    "Global": "Weltweit",
     "Middle East": "Naher Osten",
     "North America": "Nordamerika",
     "South America": "Südamerika"
   },
   "registrars": {
-    "head1": "Unsere Top-Händler",
-    "head2": "Händlersuche"
+    "head1": "Unsere besten Einzelhändler",
+    "head2": "Einzelhändler finden"
   },
   "reserved": {
-    "cta": "Kontaktiere uns",
+    "cta": "Kontakt uns",
     "cta2": "Senden",
-    "emailField": "Email",
-    "emailFieldError": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-    "head": "Interessiert an diesem Namen?",
+    "emailField": "E-mail",
+    "emailFieldError": "Bitte geben Sie eine gültige E-Mail Adresse ein.",
+    "head": "Sind Sie an diesem Namen interessiert?",
     "nameField": "Name",
-    "nameFieldError": "Bitte tragen Sie Ihren vollen Namen ein.",
-    "text": "Füllen Sie das untenstehende Formular aus und wir werden unser Bestes tun, um uns innerhalb von 2 Werktagen bei Ihnen zu melden.",
-    "thanks": "Vielen Dank für Ihre Kontaktaufnahme! Wir werden uns bald bei Ihnen melden."
+    "nameFieldError": "Bitte geben Sie Ihren vollständigen Namen ein.",
+    "text": "Füllen Sie das untenstehende Formular aus und wir werden unser Bestes geben, um uns innerhalb von 2 Werktagen bei Ihnen zu melden.",
+    "thanks": "Danke, dass Sie sich gemeldet haben! Wir melden uns bald bei Ihnen."
   },
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> ist verfügbar",
-    "error": "Fehler bei der Suche nach dem Domainnamen. Bitte versuchen Sie es später erneut.",
-    "invalid": "<span class=\"searched-domain\">{searchDomain}</span> ist ein ungültiger Name.<br/>Bitte versuchen Sie es mit einem anderen .eco-Namen.",
-    "reserved": "<span class=\"searched-domain\">{searchDomain}</span> ist ein toller Name!<br/> Bitte kontaktieren Sie uns bezüglich der Preise.",
+    "error": "Fehler bei der Suche nach dem Domainnamen. Bitte versuchen Sie es später noch einmal.",
+    "invalid": "<span class=\"searched-domain\">{searchDomain}</span> ist ein ungültiger Name.<br/>Bitte versuchen Sie einen anderen .eco-Namen.",
+    "reserved": "<span class=\"searched-domain\">{searchDomain}</span> ist ein toller Name!<br/> Bitte fragen Sie uns nach den Preisen.",
     "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> ist bereits vergeben.<br/>Bitte versuchen Sie es mit einem anderen .eco-Namen"
   },
   "search": {

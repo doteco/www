@@ -3,11 +3,27 @@
     {
       "head": "Hilfe",
       "items": [
-        "<a href=\"/contact/\">Kontaktieren Sie uns</a>",
-        "<a href=\"https://support.go.eco\">Unterstützung</a>",
+        "<a href=\"/contact/\">Kontakt</a>",
+        "<a href=\"https://support.go.eco\">Support</a>",
         "<a href=\"http://status.bigroom.eco\">Systemstatus</a>"
+      ]
+    },
+    {
+      "head": "Ressourcen",
+      "items": [
+        "<a href=\"/about/story/\">Unsere Geschichte</a>",
+        "<a href=\"/about/system/\">Über .eco</a>",
+        "<a href=\"/registrars/\">Registrare</a>"
+      ]
+    },
+    {
+      "head": "Richtlinien",
+      "items": [
+        "<a href=\"/privacy/\">Datenschutzrichtlinie</a>",
+        "<a href=\"/impact/\">Umweltschutzpolitik</a>",
+        "<a href=\"/policies/\">Registrierungsrichtlinien</a>"
       ]
     }
   ],
-  "keywords": "Domains,Registry,Top-Level-Domain,TLD,ECO,.eco,Umweltmaßnahmen,Nachhaltigkeit,ngo"
+  "keywords": "Domains, Register, Top-Level-Domain, TLD, ECO,.eco, Umweltaktion, Nachhaltigkeit, NRO"
 }
