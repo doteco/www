@@ -54,7 +54,7 @@ const ENV_OPTIONS = {
     makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse'
   },
   PRD: {
-    'ga-tracking-id': 'UA-2825422-23',
+    'ga-tracking-id': { en: 'UA-2825422-23', de: 'UA-2825422-16' },
     'site-url': {
       en: 'https://go.eco',
       fr: 'https://fr.go.eco'
@@ -92,7 +92,7 @@ const ms = Metalsmith(__dirname)
     'img-root': '/img',
     'site-url': siteUrl,
     'twitter-id': '@doteco',
-    'ga-tracking-id': options['ga-tracking-id'],
+    'ga-tracking-id': options['ga-tracking-id'][lang] || options['ga-tracking-id'],
     livereload: options.watch,
     pixel: options.pixel,
     profiles: options.profiles,
