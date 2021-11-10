@@ -236,7 +236,12 @@ if ('undefined' !== typeof jQuery) {
   }
 
 	if (window.fetch) {
-		window.fetch('{{profiles}}/_api/domains/recent?count=50').then(function (response) {
+		window.fetch('{{profiles}}/_api/domains/recent?count=50', {
+			credentials: 'omit',
+			headers: {
+				Accept: 'application/json'
+			}
+		}).then(function (response) {
 			return response.json()
 		}).then(function (domains) {
 			return showRecent(domains, 0)
