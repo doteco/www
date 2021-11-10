@@ -14,8 +14,9 @@ const robots = require('metalsmith-robots')
 const watch = require('metalsmith-watch')
 const i18next = require('metalsmith-i18next')
 
+const defaultLang = 'en'
 const env = process.env.NODE_ENV || 'DEV'
-const lang = process.env.SITE_LANG || 'en'
+const lang = process.env.SITE_LANG || defaultLang
 const dest = lang === 'en' ? 'public' : 'public-' + lang
 const filterDefaults = lang === 'fr' ? { language: 'Français' } : {}
 
@@ -79,6 +80,9 @@ const sitemapLinks = () => {
   return (files, metalsmith, done) => {
     for (const [path, file] of Object.entries(files)) {
       if (path.endsWith('.html')) {
+        if (lang !== defaultLang && !file.i18nNamespace) {
+          file.exclude = true
+        }
         file.sitemapLinks = Object.entries(options['site-url']).map(e => ({ lang: e[0], url: e[1] + '/' + path }))
       }
     }
