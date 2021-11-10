@@ -29,7 +29,10 @@ console.log('Building for environment:', env, lang)
 const ENV_OPTIONS = {
   DEV: {
     'ga-tracking-id': 'UA-2825422-15',
-    'site-url': { en: 'http://localhost:8080', de: 'https://de.test.go.eco' },
+    'site-url': { 
+      en: 'http://localhost:8080', 
+      de: 'https://de.test.go.eco'
+    },
     watch: true,
     pixel: false,
     profiles: 'https://test.profiles.eco',
@@ -45,7 +48,8 @@ const ENV_OPTIONS = {
     'ga-tracking-id': 'UA-2825422-15',
     'site-url': {
       en: 'https://test.go.eco',
-      fr: 'https://fr.test.go.eco'
+      fr: 'https://fr.test.go.eco',
+      de: 'https://de.test.go.eco'
     },
     watch: false,
     pixel: false,
@@ -62,7 +66,8 @@ const ENV_OPTIONS = {
     'ga-tracking-id': { en: 'UA-2825422-23', de: 'UA-2825422-16' },
     'site-url': {
       en: 'https://go.eco',
-      fr: 'https://fr.go.eco'
+      fr: 'https://fr.go.eco',
+      de: 'https://kauf.eco'
     },
     watch: false,
     pixel: true,
