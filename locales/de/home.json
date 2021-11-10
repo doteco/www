@@ -70,10 +70,10 @@
   "support": {
     "head": "Support",
     "text": [
-      "<p>Wenn Sie Fragen zu .eco haben, lassen Sie es uns wissen!</p>",
+      "<p>Wenn Sie Fragen zu .eco haben, lassen Sie es uns wissen!",
       "<a class=\"chat-link\" href=\"#\">Wir sind</a> während der Geschäftszeiten <strong>(Pacific Time)</strong> für Sie da.",
       "Sie können uns auch eine Nachricht hinterlassen und wir werden versuchen, innerhalb von 1 Werktag zu antworten.",
-      "Sie können auch die Support-Artikel auf der <a href=\"https://support.go.eco\">.eco-Support-Seite lesen</a>."
+      "Sie können auch die Support-Artikel auf der <a href=\"https://support.go.eco\">.eco-Support-Seite lesen</a>.</p>"
     ]
   },
   "title": "Die Heimat von .eco, der Domain für die Umweltgemeinschaft"
