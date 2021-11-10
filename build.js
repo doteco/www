@@ -18,7 +18,11 @@ const defaultLang = 'en'
 const env = process.env.NODE_ENV || 'DEV'
 const lang = process.env.SITE_LANG || defaultLang
 const dest = lang === 'en' ? 'public' : 'public-' + lang
-const filterDefaults = lang === 'fr' ? { language: 'Français' } : {}
+const filterDefaults = ({
+  en: {},
+  fr: { language: 'Français' },
+  de: { language: 'Deutsch' }
+})[lang]
 
 console.log('Building for environment:', env, lang)
 
@@ -83,7 +87,7 @@ const sitemapLinks = () => {
         if (lang !== defaultLang && !file.i18nNamespace) {
           file.exclude = true
         }
-        file.sitemapLinks = Object.entries(options['site-url']).map(e => ({ lang: e[0], url: e[1] + '/' + path }))
+        file.sitemapLinks = Object.entries(options['site-url']).map(e => ({ lang: e[0], url: e[1] + '/' + path.replace('index.html', '') }))
       }
     }
     done()
@@ -150,7 +154,7 @@ const ms = Metalsmith(__dirname)
   .use(sitemap({
     privateProperty: 'exclude',
     hostname: siteUrl,
-    // links: 'sitemapLinks',
+    links: 'sitemapLinks',
     omitIndex: true
   }))
   .use(robots({
