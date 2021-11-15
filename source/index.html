@@ -11,7 +11,7 @@ priority: 1
 i18nNamespace: home
 ---
 
-<link rel="preload" as="image" href="/img/activist.jpg" />
+<link rel="preload" as="image" href="/img/carousel/woman-shopping.jpg" />
 
 <div class="carousel slide" id="home-carousel" data-interval="8000" data-ride="carousel" data-wrap="false">
 	<ol class="carousel-indicators">
@@ -19,20 +19,11 @@ i18nNamespace: home
  	    <li data-target="#home-carousel" data-slide-to="1"></li>
  	    <li data-target="#home-carousel" data-slide-to="2"></li>
  	    <li data-target="#home-carousel" data-slide-to="3"></li>
- 	    <li data-target="#home-carousel" data-slide-to="4"></li>
  	</ol>
 
  	<div class="carousel-inner" role="listbox" aria-label="Header carousel">
 
- 		<div class="item active jumbotron" role="option" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/activist.jpg')">
- 			<div class="container">
-	 			<h2>{{t 'carousel.cop.head'}}</h2>
-				<p class="subheader">{{t 'carousel.cop.subhead'}}</p>
-				<a id="cta-climate-action" href="https://profiles.eco/profile/focus/climate" class="btn btn-primary pull-right">{{t 'carousel.cop.cta'}}</a>
- 			</div>
- 		</div>
-
- 		<div class="item home-business jumbotron" role="option" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.jpg')">
+ 		<div class="item active home-business jumbotron" role="option" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.jpg')">
  			<div class="container">
 	 			<h2>{{t 'carousel.business.head'}}</h2>
 				<p class="subheader">{{t 'carousel.business.subhead'}}</p>
@@ -257,14 +248,6 @@ if ('undefined' !== typeof jQuery) {
 				e.preventDefault()
 				Intercom('show')
 			})
-		})
-		document.getElementById('cta-climate-action').addEventListener('click', function (e) {
-			gtag('event', 'click', {
-				event_category: 'outbound',
-				event_label: 'climate-action',
-				transport: 'beacon'
-			})
-			return false
 		})
 	})
 </script>
