@@ -1,0 +1,20 @@
+{
+  "buy": {
+    "footer": "Zusammen bilden diese drei Elemente das <a href=\"https://profiles.eco\">.eco-Profilsystem</a>, ein durchsuchbares Verzeichnis von Unternehmen, Organisationen und Menschen, die sich für einen positiven Wandel für den Planeten einsetzen.",
+    "head": "Wenn Sie einen .eco-Domainnamen kaufen, erhalten Sie:",
+    "item1": "Ein .eco-Domainname, den Sie für Ihre Website verwenden können.",
+    "item2": "Ein .eco-Profil zur Präsentation von Umweltmaßnahmen.",
+    "item3": "Ein .eco-Gütesiegel, das auf Ihr .eco-Profil verweist. Es bestätigt, dass Sie ein legitimes Mitglied der .eco-Community sind."
+  },
+  "description": "Wenn Sie eine .eco-Domain registrieren, erhalten Sie ein .eco-Profil. Dieses .eco-Profil zeigt Ihre Umweltmaßnahmen und -verpflichtungen.",
+  "head": "Über .eco",
+  "profiles": {
+    "head": "Deklarieren und mit einem .eco-Profil teilen",
+    "text": [
+      "<p>Nachdem Sie Ihre .eco-Domain registriert haben, verpflichten Sie sich, positive Veränderungen für den Planeten zu unterstützen, und versprechen, beim Teilen von Umweltschutzmaßnahmen ehrlich zu sein. Anschließend erstellen Sie in wenigen einfachen Schritten Ihr .eco-Profil und informieren die Welt über Ihre Umweltaktionen. Sie können auch Ihre Zertifizierungen und Mitgliedschaften sowie Pläne für zukünftige Aktionen teilen.</p>",
+      "<p>Sobald Sie Ihr .eco-Profil erstellt haben, können Sie Ihre .eco-Domain verwenden!</p>"
+    ]
+  },
+  "subhead": ".eco präsentiert Millionen von Menschen auf der ganzen Welt, denen der Planet am Herzen liegt, Ihre Umweltaktionen und Ihr Engagement.",
+  "title": "Das .eco-System | .Öko"
+}

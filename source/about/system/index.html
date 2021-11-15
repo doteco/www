@@ -1,55 +1,54 @@
 ---
-title: The .eco system | .eco
-description: When you register a .eco domain, you get a .eco profile. This .eco profile showcases your environmental actions and commitments.
+title: title
+description: description
 page-path: about/system/
 og-image: opengraph/story-og.jpg
 og-width: 1200
 og-height: 647
+i18nNamespace: system
 ---
 
 
  <div class="jumbotron system-header">
 	<div class="container">
-		<h1>About .eco</h1>
-		<p>.eco showcases your environmental actions and commitments to millions of people around the world who care about the planet.</p>
+		<h1>{{t "head"}}</h1>
+		<p>{{t "subhead"}}</p>
 	</div>
 </div>
 
 <div class="section">
 	<div class="container">
-		<h4>When you buy a .eco domain name, you get: </h4>
+		<h4>{{t "buy.head" }}</h4>
 		<div class="row icon-row">
 
 			<div class="col-md-4 icon-text">
 				<img src="/img/icons/domain-light.svg" alt="domain window icon" class="col-xs-4 col-md-12"/>
-				<p class="col-xs-8 col-md-12 text-center" >A .eco domain name to use for your web site.</p>
+				<p class="col-xs-8 col-md-12 text-center" >{{t "buy.item1" }}</p>
 			</div>
 
 			<div class="clearfix visible-xs-block visible-sm-block"> </div>
 
 			<div class="col-md-4 icon-text">
 				<img src="/img/icons/profile-light.svg" alt="profile icon" class="col-xs-4 col-md-12"/>
-				<p class="col-xs-8 col-md-12 text-center" >A .eco profile for showcasing environmental actions.</p>
+				<p class="col-xs-8 col-md-12 text-center" >{{t "buy.item2" }}</p>
 			</div>
 
 			<div class="clearfix visible-xs-block visible-sm-block"></div>
 
 			<div class="col-md-4 icon-text">
 				<img src="/img/icons/trustmark-light.svg" alt="badge icon" class="col-xs-4 col-md-12"/>
-				<p class="col-xs-8 col-md-12 text-center">A .eco trustmark that links to your .eco profile. It affirms you are a legitimate .eco community member.
+				<p class="col-xs-8 col-md-12 text-center">{{t "buy.item3" }}</p>
 			</div>
 		</div>
-			<p><strong>Combined, these three elements make up the <a href="https://profiles.eco">.eco profile system</a>, a searchable directory of businesses, organizations and people committed to positive change for the planet. </strong></p>
+		<p><strong>{{{t "buy.footer" }}}</strong></p>
 	</div>
 </div>
 
 <div class="section inverted">
 	<div class="container">
-		<h3>Declare and share with a .eco profile</h3>
+		<h3>{{t "profiles.head" }}</h3>
 
-		<p>After registering your .eco domain, you’ll take a pledge to support positive change for the planet and promise to be truthful when sharing environmental actions. Then, with a few simple steps, you’ll create your .eco profile and tell the world about your environmental actions. You can also share your certifications and memberships and plans you have for future actions.</p>
-		<p>Once you’ve finished creating your .eco profile, you can start using your .eco domain!</p>
-
+		{{{t "profiles.text" joinArrays='' }}}
 		{{> profiles }}
 
 	</div>

@@ -1,0 +1,20 @@
+{
+  "title": "The .eco system | .eco",
+  "description": "When you register a .eco domain, you get a .eco profile. This .eco profile showcases your environmental actions and commitments.",
+  "head": "About .eco",
+  "subhead": ".eco showcases your environmental actions and commitments to millions of people around the world who care about the planet.",
+  "buy": {
+    "head": "When you buy a .eco domain name, you get: ",
+    "item1": "A .eco domain name to use for your web site.",
+    "item2": "A .eco profile for showcasing environmental actions.",
+    "item3": "A .eco trustmark that links to your .eco profile. It affirms you are a legitimate .eco community member.",
+    "footer": "Combined, these three elements make up the <a href=\"https://profiles.eco\">.eco profile system</a>, a searchable directory of businesses, organizations and people committed to positive change for the planet."
+  },
+  "profiles": {
+    "head": "Declare and share with a .eco profile",
+    "text": [
+      "<p>After registering your .eco domain, you’ll take a pledge to support positive change for the planet and promise to be truthful when sharing environmental actions. Then, with a few simple steps, you’ll create your .eco profile and tell the world about your environmental actions. You can also share your certifications and memberships and plans you have for future actions.</p>",
+      "<p>Once you’ve finished creating your .eco profile, you can start using your .eco domain!</p>"
+    ]
+  }
+}
