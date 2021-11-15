@@ -94,6 +94,11 @@
 			display: block;
 		}
 
+		.language-toggle {
+			text-transform: uppercase;
+			z-index: 1001;
+		}
+
 		.open {
 			.dropdown-toggle {
 				background-color: $doteco-marrow;

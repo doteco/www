@@ -29,8 +29,8 @@ console.log('Building for environment:', env, lang)
 const ENV_OPTIONS = {
   DEV: {
     'ga-tracking-id': 'UA-2825422-15',
-    'site-url': { 
-      en: 'http://localhost:8080', 
+    'site-url': {
+      en: 'http://localhost:8080',
       de: 'https://de.test.go.eco'
     },
     watch: true,
@@ -116,6 +116,7 @@ const ms = Metalsmith(__dirname)
     noindex: options.noindex,
     makeOfferForm: options.makeOfferForm,
     lang,
+    sites: options['site-url'],
     filterDefaults
   })
   .source('./source')
