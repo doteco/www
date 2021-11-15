@@ -1,6 +1,6 @@
 {
   "buy": {
-    "footer": "Zusammen bilden diese drei Elemente das <a href=\"https://profiles.eco\">.eco-Profilsystem</a>, ein durchsuchbares Verzeichnis von Unternehmen, Organisationen und Menschen, die sich für einen positiven Wandel für den Planeten einsetzen.",
+    "footer": "Zusammen bilden diese drei Elemente das <a href=\"https://profiles.eco\">.eco-Profilsystem</a>, ein durchsuchbares Verzeichnis von Unternehmen, Organisationen und Menschen, die sich für einen positiven Wandel für den Planeten.",
     "head": "Wenn Sie einen .eco-Domainnamen kaufen, erhalten Sie:",
     "item1": "Ein .eco-Domainname, den Sie für Ihre Website verwenden können.",
     "item2": "Ein .eco-Profil zur Präsentation von Umweltmaßnahmen.",
@@ -16,5 +16,5 @@
     ]
   },
   "subhead": ".eco präsentiert Millionen von Menschen auf der ganzen Welt, denen der Planet am Herzen liegt, Ihre Umweltaktionen und Ihr Engagement.",
-  "title": "Das .eco-System | .Öko"
+  "title": "Das .eco-System | .eco"
 }
