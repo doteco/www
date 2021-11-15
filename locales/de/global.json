@@ -7,7 +7,20 @@
         "<a href=\"https://support.go.eco\">Support</a>",
         "<a href=\"http://status.bigroom.eco\">Systemstatus</a>"
       ]
+    },
+    {
+      "head": "Ressourcen",
+      "items": [
+        "<a href=\"/about/story/\">Unsere Geschichte</a>",
+        "<a href=\"/about/system/\">Über .eco</a>"
+      ]
     }
   ],
-  "keywords": "Domains, Register, Top-Level-Domain, TLD, ECO,.eco, Umweltaktion, Nachhaltigkeit, NRO"
+  "keywords": "Domains, Register, Top-Level-Domain, TLD, ECO,.eco, Umweltaktion, Nachhaltigkeit, NRO",
+  "partners": {
+    "cta": "Hier finden Sie die vollständige Liste der Organisationen, die der .eco-Koalition angehören.",
+    "head": "Partner",
+    "subhead": "Wer steckt hinter .eco?",
+    "text": "Einige der Organisationen, die hinter .eco stehen, sind:"
+  }
 }

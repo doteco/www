@@ -1,37 +1,34 @@
 ---
-title: Our story | .eco
-description: The founding of the .eco registry and the .eco coalation.
+title: title
+description: description
 page-path: about/story/
 og-image: opengraph/story-og.jpg
 og-width: 1200
 og-height: 647
+i18nNamespace: story
 ---
 
 <link rel="preload" as="image" href="/img/story.jpg" />
 
  <div class="jumbotron story-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/story.jpg')">
 	<div class="container">
-		<h1>Our story</h1>
-				<p>.eco is a dedicated web address ending for businesses, organizations and individuals committed to positive change for the planet. It’s a trusted symbol for environmental action and a great way to show your customers and supporters that you care for the planet.</p>
+		<h1>{{t "head"}}</h1>
+				<p>{{t "subhead"}}</p>
 	</div>
 </div>
 
 <div class="section">
 	<div class="container">
-		<p>For more than a decade we’ve been working with the internet and environmental communities to build .eco – an online home for businesses, non-profits and individuals working for an environmentally and socially sustainable world. Thanks to the backing of more than 50 organizations the .eco dream is now a reality. </p>
-
-		<p>Founded by two environmentalists, .eco is backed by organizations including Conservation International, United Nations Global Compact, NRDC, Greenpeace and World Business Council for Sustainable Development.</p>
-
-		<p>Based in Vancouver, Canada, .eco is operated by <a href="https://bigroom.eco">Big Room Inc.</a></p>
+	{{{t "text" joinArrays=" "}}}
 	</div>
 </div>
 
 <div class="section home-orgs inverted">
 	<div class="container">
-		<div class="section-label">Partners</div>
-		<h2>Who is behind .eco?</h2>
+		<div class="section-label">{{t 'global:partners.head'}}</div>
+		<h2>{{t 'global:partners.subhead'}}</h2>
 
-		<p>Some of the organizations behind .eco include:</p>
+		<p>{{t 'global:partners.text'}}</p>
 
 		{{> logos }}
 
