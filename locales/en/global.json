@@ -6,6 +6,10 @@
     "text": "Some of the organizations behind .eco include:",
     "cta": "See the full list of organizations who are part of the .eco coalition."
   },
+  "members": {
+    "head": "Who is using .eco?",
+    "cta": "See more on profiles.eco"
+  },
   "footer": [
     {
       "head": "Help",
