@@ -22,17 +22,17 @@
     {
       "head": "Resources",
       "items": [
-        "<a href=\"/about/story/\">Our story</a>",
         "<a href=\"/about/system/\">About .eco</a>",
+        "<a href=\"/about/story/\">Our story</a>",
         "<a href=\"/registrars/\">Registrars</a>"
       ]
     },
     {
       "head": "Policies",
       "items": [
+        "<a href=\"/policies/\">Registry Policies</a>",
         "<a href=\"/privacy/\">Privacy Policy</a>",
-        "<a href=\"/impact/\">Environmental Policy</a>",
-        "<a href=\"/policies/\">Registry Policies</a>"
+        "<a href=\"/impact/\">Environmental Policy</a>"
       ]
     }
   ]
