@@ -19,6 +19,7 @@ const skipFiles = [
   'public/studies/voltstack/index.html',
   'public/studies/vonwong/index.html',
   'public/registrars/funding/index.html',
+  'public/registrars/partners/index.html',
   'public/registrars/resources/index.html',
   'public/registrars/policies/index.html',
   'public/about/marketing/index.html',
