@@ -141,19 +141,18 @@ const ms = Metalsmith(__dirname)
   .use(i18next({
     locales: [lang],
     namespaces: ['global'],
-    pattern: '**/*.html',
+    pattern: '**/*.hbs',
     engine: 'handlebars',
     helpers: null,
     path: ':file',
     frontMatterKeys: ['title', 'description']
   }))
   .use(layouts({
-    pattern: '**/*.html',
+    pattern: '**/*.hbs',
     default: 'default.hbs'
   }))
   .use(inplace({
-    engine: 'handlebars',
-    pattern: '**/*.html'
+    pattern: '**/*.hbs'
   }))
   .use(sitemapLinks())
   .use(sitemap({

@@ -18,7 +18,7 @@
     "metalsmith-fingerprint-ignore": "2.0.0",
     "metalsmith-i18next": "github:doteco/metalsmith-i18next",
     "metalsmith-imagemin": "4.1.4",
-    "metalsmith-in-place": "1.4.4",
+    "metalsmith-in-place": "4.4.2",
     "metalsmith-layouts": "2.3.1",
     "metalsmith-redirect": "3.1.0",
     "metalsmith-robots": "1.1.0",
