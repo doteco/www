@@ -2,7 +2,6 @@ const Metalsmith = require('metalsmith')
 const autoprefixer = require('metalsmith-autoprefixer')
 const discoverHelpers = require('metalsmith-discover-helpers')
 const discoverPartials = require('metalsmith-discover-partials')
-const imagemin = require('metalsmith-imagemin')
 const inplace = require('metalsmith-in-place')
 const fingerprint = require('metalsmith-fingerprint-ignore')
 const layouts = require('metalsmith-layouts')
@@ -38,7 +37,6 @@ const ENV_OPTIONS = {
     profiles: 'https://test.profiles.eco',
     trustmark: 'https://test-trust.profiles.eco',
     intercomAppID: 'gt94nkkh',
-    imagemin: false,
     searchUrl: 'https://test-search.go.eco',
     sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451',
     noindex: true,
@@ -56,8 +54,6 @@ const ENV_OPTIONS = {
     profiles: 'https://test.profiles.eco',
     trustmark: 'https://test-trust.profiles.eco',
     intercomAppID: 'gt94nkkh',
-    imagemin: true,
-    searchUrl: 'https://test-search.go.eco',
     sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451',
     noindex: true,
     makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse'
@@ -73,7 +69,6 @@ const ENV_OPTIONS = {
     profiles: 'https://profiles.eco',
     trustmark: 'https://trust.profiles.eco',
     intercomAppID: 'hsovcclh',
-    imagemin: true,
     searchUrl: 'https://search.go.eco',
     sentryDSN: 'https://b58e840db28c47409688bc4dded2c97a@o72378.ingest.sentry.io/5877454',
     makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScjnQNdyxwhKLM0s7l8h3AKp66WcTY72Qrw5JMC3s9m_k7uVA/formResponse'
@@ -178,17 +173,6 @@ const ms = Metalsmith(__dirname)
       '/partners/institute-of-public-environmental-affairs/': 'https://org.eco/'
     }
   }))
-
-if (options.imagemin) {
-  ms.use(imagemin({
-    cwd: 'source/img',
-    mozjpeg: {
-      quality: 40
-    },
-    pngquant: { },
-    svgo: { }
-  }))
-}
 
 ms.build(function (err, files) {
   if (err) { throw err }

@@ -14,5 +14,7 @@ imagemin(['source/img/**/*.*'], {
     imageminSvgo()
   ]
 }).then(files => {
-  console.log('Images optimized:', files.map(f => f.sourcePath))
+  console.log(files)
+  console.log('Images optimized:')
+  files.forEach(f => console.log(f.sourcePath, '->', f.destinationPath))
 })
