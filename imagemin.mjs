@@ -3,7 +3,8 @@ import imageminJpeg from 'imagemin-mozjpeg'
 import imageminPngquant from 'imagemin-pngquant'
 import imageminSvgo from 'imagemin-svgo'
 
-imagemin(['source/img/**/*.*'], {
+imagemin(['**/*.*'], {
+  baseDirectory: 'source/img/',
   destination: 'public/img/',
   cwd: 'source/img',
   plugins: [

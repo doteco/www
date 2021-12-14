@@ -6,7 +6,7 @@
     "autoprefixer": "10.4.0",
     "handlebars": "4.7.7",
     "html-validator": "6.0.0",
-    "imagemin": "8.0.1",
+    "imagemin": "github:doteco/imagemin",
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-pngquant": "9.0.2",
     "imagemin-svgo": "10.0.0",

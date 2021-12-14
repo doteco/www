@@ -37,7 +37,7 @@ jobs:
     # Build
     - run: sudo apt-get install nasm
     - run: npm install
-    # - run: node ./imagemin.mjs
+    - run: node ./imagemin.mjs
     - run: npm run build
     - run: SITE_LANG=de npm run build
 
