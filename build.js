@@ -33,7 +33,6 @@ const ENV_OPTIONS = {
       de: 'https://de.test.go.eco'
     },
     watch: true,
-    pixel: false,
     profiles: 'https://test.profiles.eco',
     trustmark: 'https://test-trust.profiles.eco',
     intercomAppID: 'gt94nkkh',
@@ -50,7 +49,6 @@ const ENV_OPTIONS = {
       de: 'https://de.test.go.eco'
     },
     watch: false,
-    pixel: false,
     profiles: 'https://test.profiles.eco',
     trustmark: 'https://test-trust.profiles.eco',
     intercomAppID: 'gt94nkkh',
@@ -66,7 +64,6 @@ const ENV_OPTIONS = {
       de: 'https://kauf.eco'
     },
     watch: false,
-    pixel: true,
     profiles: 'https://profiles.eco',
     trustmark: 'https://trust.profiles.eco',
     intercomAppID: 'hsovcclh',
@@ -102,7 +99,6 @@ const ms = Metalsmith(__dirname)
     'twitter-id': '@doteco',
     'ga-tracking-id': options['ga-tracking-id'][lang] || options['ga-tracking-id'],
     livereload: options.watch,
-    pixel: options.pixel,
     profiles: options.profiles,
     trustmark: options.trustmark,
     intercomAppID: options.intercomAppID,
