@@ -41,11 +41,6 @@
     "test": "npm run build",
     "validate": "node ./html-validate.js"
   },
-  "standard": {
-    "ignore": [
-      "public/js/autotrack.js"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doteco/www.git"
