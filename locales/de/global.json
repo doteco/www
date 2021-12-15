@@ -14,6 +14,12 @@
         "<a href=\"/about/story/\">Unsere Geschichte</a>",
         "<a href=\"/about/system/\">Über .eco</a>"
       ]
+    },
+    {
+      "head": "Richtlinien",
+      "items": [
+        "<a href=\"/privacy/\">Datenschutzrichtlinie</a>"
+      ]
     }
   ],
   "keywords": "Domains, Register, Top-Level-Domain, TLD, ECO,.eco, Umweltaktion, Nachhaltigkeit, NRO",
