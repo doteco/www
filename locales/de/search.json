@@ -32,7 +32,8 @@
     "nameField": "Name",
     "nameFieldError": "Bitte geben Sie Ihren vollständigen Namen ein.",
     "text": "Füllen Sie das untenstehende Formular aus und wir werden unser Bestes geben, um uns innerhalb von 2 Werktagen bei Ihnen zu melden.",
-    "thanks": "Danke, dass Sie sich gemeldet haben! Wir melden uns bald bei Ihnen."
+    "thanks": "Danke, dass Sie sich gemeldet haben! Wir melden uns bald bei Ihnen.",
+    "title": "Reserviertes Namensformular"
   },
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> ist verfügbar",

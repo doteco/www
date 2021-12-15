@@ -18,7 +18,8 @@
     "nameFieldError": "Please enter your full name.",
     "emailField": "Email",
     "emailFieldError": "Please enter a valid email address.",
-    "thanks": "Thanks for getting in touch! We will get back to you soon."
+    "thanks": "Thanks for getting in touch! We will get back to you soon.",
+    "title": "Reserved name form"
   },
   "filters": {
     "region": "Region",

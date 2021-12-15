@@ -15,7 +15,7 @@ const i18next = require('metalsmith-i18next')
 
 const defaultLang = 'en'
 const env = process.env.NODE_ENV || 'DEV'
-const lang = process.env.SITE_LANG || defaultLang
+const lang = (process.env.SITE_LANG || defaultLang).toLocaleLowerCase()
 const dest = lang === 'en' ? 'public' : 'public-' + lang
 const filterDefaults = ({
   en: {},
