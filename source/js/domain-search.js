@@ -125,8 +125,8 @@ window.domainSearch = function (config) {
 
     const searchResultsRow = document.querySelector('.search-results')
     config.onSearch(domain)
-    return window.fetch(config.searchUrl + '/status?engine=cira&domain=' + domain).then(response => {
-    // return window.fetch(config.searchUrl + '/status?domain=' + domain).then(response => {
+    // return window.fetch(config.searchUrl + '/status?engine=cira&domain=' + domain).then(response => {
+    return window.fetch(config.searchUrl + '/status?domain=' + domain).then(response => {
       if (!response.ok) {
         console.error(`Failed to load search data: ${response.statusText}`)
         searchResultsRow.innerHTML = config.resultLabels.error
