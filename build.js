@@ -186,10 +186,10 @@ if (options.watch) {
     .use(watch({
       paths: {
         /* eslint no-template-curly-in-string: 0 */
-        '${source}/**/*': true,
-        'scss/**/*': '{main.scss,**/*.html}',
-        'layouts/**/*': '**/*.html',
-        'locales/**/*': '**/*.html'
+        '${source}/**/*': '{**/*.hbs,**/*.js}',
+        'scss/**/*': '{main.scss,**/*.hbs}',
+        'layouts/**/*': '**/*.hbs',
+        'locales/**/*': '**/*.hbs'
       },
       livereload: true
     }))
