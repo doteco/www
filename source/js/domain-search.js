@@ -108,9 +108,9 @@ window.domainSearch = function (config) {
     let resultLabel = config.resultLabels.unavailable
     if (!r.domain || r.summary === 'disallowed' || r.summary === 'invalid') {
       resultLabel = config.resultLabels.invalid
-    } else if (r.summary === 'inactive' || r.summary === 'premium') {
+    } else if (r.summary === 'inactive' || r.summary === 'premium' || r.status === 'available') {
       resultLabel = config.resultLabels.available
-    } else if (r.summary === 'reserved') {
+    } else if (r.summary === 'reserved' || r.status === 'blocked') {
       resultLabel = config.resultLabels.reserved
     }
     return resultLabel.replace('{searchDomain}', searchDomain)
@@ -125,7 +125,8 @@ window.domainSearch = function (config) {
 
     const searchResultsRow = document.querySelector('.search-results')
     config.onSearch(domain)
-    return window.fetch(config.searchUrl + '/status?domain=' + domain).then(response => {
+    return window.fetch(config.searchUrl + '/status?engine=cira&domain=' + domain).then(response => {
+    // return window.fetch(config.searchUrl + '/status?domain=' + domain).then(response => {
       if (!response.ok) {
         console.error(`Failed to load search data: ${response.statusText}`)
         searchResultsRow.innerHTML = config.resultLabels.error
@@ -143,7 +144,7 @@ window.domainSearch = function (config) {
         const registrars = r.registrars || []
         showRegistrars(registrars, r.domain)
         addFilters(registrars)
-        toggleReservedForm(r.summary === 'reserved', r.domain)
+        toggleReservedForm(r.summary === 'reserved' || r.status === 'blocked', r.domain)
       })
     }).catch(ex => {
       console.error(`Failed to load search data: ${ex}`)
