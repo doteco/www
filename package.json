@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "go.eco web site",
   "devDependencies": {
-    "autoprefixer": "10.4.0",
+    "autoprefixer": "10.4.1",
     "handlebars": "4.7.7",
     "html-validator": "6.0.0",
     "imagemin": "github:doteco/imagemin",
-    "imagemin-mozjpeg": "9.0.0",
+    "imagemin-mozjpeg": "10.0.0",
     "imagemin-pngquant": "9.0.2",
-    "imagemin-svgo": "10.0.0",
+    "imagemin-svgo": "10.0.1",
     "jstransformer-handlebars": "1.1.0",
     "klaw": "4.0.1",
     "metalsmith": "2.3.0",
@@ -26,9 +26,9 @@
     "metalsmith-serve": "0.0.7",
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "1.0.3",
-    "node-sass": "7.0.0",
+    "node-sass": "7.0.1",
     "standard": "16.0.4",
-    "stylelint": "14.1.0",
+    "stylelint": "14.2.0",
     "stylelint-config-standard": "24.0.0"
   },
   "scripts": {
@@ -52,7 +52,7 @@
   },
   "homepage": "https://github.com/doteco/www#readme",
   "dependencies": {
-    "@sentry/browser": "6.16.0",
+    "@sentry/browser": "6.16.1",
     "bootstrap": "3.4.1",
     "bootstrap-validator": "0.11.9",
     "jquery": "3.6.0"
