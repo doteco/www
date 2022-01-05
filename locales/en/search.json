@@ -30,7 +30,7 @@
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> is available",
     "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> is already taken.<br/>Please try a different .eco name",
-    "invalid": "<span class=\"searched-domain\">{searchDomain}</span> is an invalid name.<br/>Please try a different .eco name.",
+    "invalid": "<span class=\"searched-domain\">{searchDomain}</span> is an invalid name.<br/>.eco domains can only include the following characters:<br/><strong>A-Z</strong>, <strong>numbers</strong> or <strong>hyphens</strong>.<br/>Please try a different name.",
     "error": "Error searching for domain name. Please try again later.",
     "reserved": "<span class=\"searched-domain\">{searchDomain}</span> is a great name!<br/> Please contact us about pricing."
   },
