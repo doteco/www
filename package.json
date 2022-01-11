@@ -22,7 +22,7 @@
     "metalsmith-layouts": "2.3.1",
     "metalsmith-redirect": "3.1.0",
     "metalsmith-robots": "1.1.0",
-    "metalsmith-sass": "github:lfdebrux/metalsmith-sass#bump-node-sass-6.0.1",
+    "metalsmith-sass": "2.0.0",
     "metalsmith-serve": "0.0.7",
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "1.0.3",
