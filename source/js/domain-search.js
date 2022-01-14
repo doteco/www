@@ -120,7 +120,7 @@ window.domainSearch = function (config) {
     if (!domain || domain.trim().length === 0 || domain.trim() === '.eco') {
       return false
     }
-    domain = domain.replace(/\..*$/, '').replace(/\s/, '')
+    domain = domain.replace(/\..*$/, '').replace(/\s/g, '')
     domain += '.eco'
 
     const searchResultsRow = document.querySelector('.search-results')
