@@ -35,6 +35,7 @@ jobs:
     - checkout
 
     # Build
+    - run: sudo apt update
     - run: sudo apt-get install nasm
     - run: npm install
     - run: node ./imagemin.mjs
