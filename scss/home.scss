@@ -235,25 +235,26 @@
 			margin-bottom: 4rem;
 		}
 
-		.logo-iucn {
-			width: 60%;
+		.logo-70 {
+			width: 70%;
 		}
 
-		.logo-green {
+		.logo-80 {
 			width: 80%;
-		}
-
-		.logo-wbcsd {
-			padding: 10px 0;
 		}
 
 		.logo-gri {
 			height: 90px;
 		}
 
-		.logo-cdp {
-			padding-top: 10px;
-			height: 80px;
+		@media (min-width: 768px) {
+			.logo-80-md {
+				width: 80%;
+			}
+
+			.logo-50-md {
+				width: 50%;
+			}
 		}
 	}
 
