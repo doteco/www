@@ -9,6 +9,7 @@ workflows:
         context: TEST
         bucket: 's3://test.go.eco/'
         bucket-de: 's3://de.test.go.eco/'
+        bucket-fr: 's3://fr.test.go.eco/'
         filters:
           branches:
             only: master
@@ -18,6 +19,7 @@ workflows:
         context: PROD
         bucket: 's3://www.go.eco/'
         bucket-de: 's3://de.go.eco/'
+        bucket-fr: 's3://fr.go.eco/'
         filters:
           branches:
             only: production
@@ -27,6 +29,8 @@ jobs:
       bucket:
         type: string
       bucket-de:
+        type: string
+      bucket-fr:
         type: string
     docker:
     # https://hub.docker.com/r/cimg/node
@@ -50,3 +54,7 @@ jobs:
     - aws-s3/sync:
         from: public-de
         to: << parameters.bucket-de >>
+
+    - aws-s3/sync:
+        from: public-fr
+        to: << parameters.bucket-fr >>
