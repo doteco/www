@@ -45,6 +45,7 @@ jobs:
     - run: node ./imagemin.mjs
     - run: npm run build
     - run: SITE_LANG=de npm run build
+    - run: SITE_LANG=fr npm run build
 
     # Deployment
     - aws-s3/sync:
