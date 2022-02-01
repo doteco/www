@@ -59,7 +59,7 @@ const ENV_OPTIONS = {
     makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse'
   },
   PRD: {
-    'ga-tracking-id': { en: 'UA-2825422-23', de: 'UA-2825422-16' },
+    'ga-tracking-id': { en: 'UA-2825422-23', de: 'UA-2825422-16', fr: 'G-PJ7G8X9GSD' },
     'site-url': {
       en: 'https://go.eco',
       de: 'https://kauf.eco',

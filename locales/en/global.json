@@ -32,7 +32,8 @@
       "items": [
         "<a href=\"/policies/\">Registry Policies</a>",
         "<a href=\"/privacy/\">Privacy Policy</a>",
-        "<a href=\"/impact/\">Environmental Policy</a>"
+        "<a href=\"/impact/\">Environmental Policy</a>",
+        "<a href=\"/policies/acceptable-use/\">Acceptable Use</a>"
       ]
     }
   ]
