@@ -62,7 +62,8 @@ const ENV_OPTIONS = {
     'ga-tracking-id': { en: 'UA-2825422-23', de: 'UA-2825422-16' },
     'site-url': {
       en: 'https://go.eco',
-      de: 'https://kauf.eco'
+      de: 'https://kauf.eco',
+      fr: 'https://allez.eco'
     },
     watch: false,
     profiles: 'https://profiles.eco',
