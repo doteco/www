@@ -1,6 +1,6 @@
 {
-  "title": "Search for a .eco domain to make your own",
-  "description": "Search for a .eco domain and choose your registrar to buy it.",
+  "title": "Recherchez un domaine .eco pour créer le vôtre",
+  "description": "Recherchez un domaine .eco et choisissez votre bureau d'enregistrement pour l'acheter.",
   "search": {
     "head": "Trouvez votre nom .eco parfait",
     "cta": "Chercher"
@@ -10,35 +10,36 @@
     "head2": "Trouver un détaillant"
   },
   "reserved": {
-    "head": "Intéressé par ce nom ?",
+    "head": "Intéressé par ce prénom ?",
     "text": "Remplissez le formulaire ci-dessous et nous ferons de notre mieux pour vous répondre dans les 2 jours ouvrables.",
-    "cta": "Contactez-nous",
+    "cta": "Nous contacter",
     "cta2": "Envoi en cours",
     "nameField": "Nom",
     "nameFieldError": "S'il vous plait entrez votre nom entier.",
-    "emailField": "Email",
+    "emailField": "E-mail",
     "emailFieldError": "S'il vous plaît, mettez une adresse email valide.",
-    "thanks": "Merci de m'avoir contacté! Nous reviendrons vers vous bientôt."
+    "thanks": "Merci de m'avoir contacté! Nous reviendrons vers vous bientôt.",
+    "title": "Formulaire de nom réservé"
   },
   "filters": {
     "region": "Région",
-    "envPolicy": "Politique verte",
+    "envPolicy": "Politique environnementale",
     "language": "Langue",
-    "currency": "Monnaie"
+    "currency": "Devise"
   },
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> est disponible",
-    "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> est déjà pris.<br/>Veuillez essayer un autre nom .eco",
-    "invalid": "<span class=\"searched-domain\">{searchDomain}</span> is an invalid name.<br/>Please try a different .eco name.",
-    "error": "Erreur de recherche du nom de domaine. Veuillez réessayer plus tard.",
-    "reserved": "<span class=\"searched-domain\">{searchDomain}</span> est un grand nom !<br/> Veuillez nous contacter pour connaître les prix."
+    "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> est déjà pris.<br/> Veuillez essayer un autre nom .eco",
+    "invalid": "<span class=\"searched-domain\">{searchDomain}</span> est un nom non valide.<br/> Les domaines .eco ne peuvent inclure que les caractères suivants :<br/> <strong>AZ</strong> , <strong>chiffres</strong> ou <strong>traits d&#39;union</strong> .<br/> Veuillez essayer un autre nom.",
+    "error": "Erreur lors de la recherche du nom de domaine. Veuillez réessayer plus tard.",
+    "reserved": "<span class=\"searched-domain\">{searchDomain}</span> est un nom génial !<br/> Veuillez nous contacter au sujet des prix."
   },
   "region": {
     "Africa": "Afrique",
     "Asia": "Asie",
     "Australasia": "Australasie",
     "Europe": "L'Europe",
-    "Global": "Globale",
+    "Global": "Global",
     "Middle East": "Moyen-Orient",
     "North America": "Amérique du Nord",
     "South America": "Amérique du Sud"

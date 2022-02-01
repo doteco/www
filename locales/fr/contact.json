@@ -1,21 +1,21 @@
 {
   "title": "Contactez-nous | .eco",
-  "description": "Contactez le registre du domaine .eco pour toute question sur l'enregistrement ou l'activation d'un domaine .eco.",
-  "head": "Contactez-nous",
+  "description": "Contactez le registre de domaine .eco si vous avez des questions sur l'enregistrement ou l'activation d'un domaine .eco.",
+  "head": "Nous contacter",
   "support": {
     "head": "Demandes d'assistance",
     "text": [
-      "<p>Si vous avez besoin d'aide pour enregistrer un nom de domaine .eco ou si vous avez d'autres questions, <a id=\"chat-link\">n'hésitez pas à discuter avec nous</a>.</p>",
-      "<p>Vous pouvez également visiter le <a href=\"https://support.go.eco\">site d'assistance .eco</a> pour trouver des réponses aux questions courantes.</p>",
-      "<p>Pour nous contacter par email, écrivez à : <span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span>.</p>"
+      "<p>Si vous avez besoin d&#39;aide pour enregistrer un nom de domaine .eco ou si vous avez d&#39;autres questions, <a id=\"chat-link\">n&#39;hésitez pas à discuter avec nous</a> .</p>",
+      "<p>Vous pouvez également visiter le <a href=\"https://support.go.eco\">site d&#39;assistance .eco</a> pour trouver des réponses aux questions courantes.</p>",
+      "<p>Pour nous contacter par email, écrivez à :<span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span> .</p>"
     ]
   },
   "contact": {
-    "head": "Contactez le registre .eco",
+    "head": "Contacter le registre .eco",
     "text": "Le domaine de premier niveau .eco est exploité par Big Room Inc.",
     "address": [
       "1231, boulevard Pacifique, bureau 581",
-      "Vancouver, BC",
+      "Vancouver, C.-B.",
       "Canada V6Z 0E2",
       "<a href=\"https://bigroom.eco\">bigroom.eco</a>"
     ]

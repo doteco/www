@@ -1,12 +1,35 @@
 {
   "keywords": "domaines,registre,domaine de premier niveau,TLD,ECO,.eco,action environnementale,durabilité,ONG",
+  "partners": {
+    "head": "Les partenaires",
+    "subhead": "Qui est derrière .eco ?",
+    "text": "Certaines des organisations derrière .eco incluent :",
+    "cta": "Consultez la liste complète des organisations qui font partie de la coalition .eco."
+  },
+  "members": {
+    "head": "Qui utilise .eco ?",
+    "cta": "En savoir plus sur profiles.eco"
+  },
   "footer": [
     {
-      "head": "Aide",
+      "head": "Aider",
       "items": [
-        "<a href=\"/contact/\">Contactez-nous</a>",
-        "<a href=\"https://support.go.eco\">Infos practiques</a>",
+        "<a href=\"/contact/\">Nous contacter</a>",
+        "<a href=\"https://support.go.eco\">Soutien</a>",
         "<a href=\"http://status.bigroom.eco\">État du système</a>"
+      ]
+    },
+    {
+      "head": "Ressources",
+      "items": [
+        "<a href=\"/about/system/\">À propos de .eco</a>",
+        "<a href=\"/about/story/\">Notre histoire</a>"
+      ]
+    },
+    {
+      "head": "Stratégies",
+      "items": [
+        "<a href=\"/privacy/\">Politique de confidentialité</a>"
       ]
     }
   ]

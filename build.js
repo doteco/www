@@ -30,6 +30,7 @@ const ENV_OPTIONS = {
     'ga-tracking-id': 'UA-2825422-15',
     'site-url': {
       en: 'http://localhost:8080',
+      fr: 'https://fr.test.go.eco',
       de: 'https://de.test.go.eco'
     },
     watch: true,

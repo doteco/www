@@ -1,21 +1,21 @@
 {
-  "title": "La maison du .eco, le domaine de la communauté environnementale",
-  "description": "Découvrez comment obtenir votre propre nom de domaine .eco.",
+  "title": "La maison de .eco, le domaine de la communauté environnementale",
+  "description": "Découvrez comment vous pouvez obtenir votre propre nom de domaine .eco.",
   "carousel": {
     "business": {
       "head": ".eco est pour les entreprises et les produits",
       "subhead": "qui aident les gens à faire de meilleurs choix chaque jour"
     },
     "gov": {
-      "head": ".eco est pour les gouvernements et les organisations à but non lucratif",
+      "head": ".eco est destiné aux gouvernements et aux organisations à but non lucratif",
       "subhead": "qui encouragent un changement environnemental positif"
     },
     "people": {
-      "head": ".eco est pour les personnes",
+      "head": ".eco est pour les gens",
       "subhead": "qui participent et soutiennent l'action environnementale"
     },
     "tld": {
-      "head": ".eco est une adresse web se terminant",
+      "head": ".eco est une adresse Web se terminant",
       "subhead": "pour ceux qui s'engagent pour un changement positif pour la planète"
     },
     "cop": {
@@ -24,26 +24,26 @@
       "cta": "Voir qui agit"
     },
     "cta": {
-      "next": "Suivant dans le carrousel",
-      "prev": "Précédent dans le carrousel"
+      "next": "Diapositive suivante dans le carrousel",
+      "prev": "Diapositive précédente du carrousel"
     }
   },
   "search": {
     "head": "Trouvez votre nom de domaine .eco parfait"
   },
   "registered": {
-    "head": "Inscrits récemment :"
+    "head": "Récemment inscrit :"
   },
   "eligibility": {
-    "head": "Puis-je obtenir un nom .eco ?",
+    "head": "Puis-je obtenir un nom .eco ?",
     "text": [
-      "<p><strong>Oui, vous pouvez !</strong> Si vous vous souciez de la planète, un nom de domaine .eco est un excellent moyen de le montrer. Vous pouvez obtenir un nom de domaine .eco pour votre entreprise, votre organisation à but non lucratif ou pour vous-même.</p>",
-      "<p>Pour être éligible à un .eco, vous devez :</p>",
+      "<p><strong>Oui, vous pouvez!</strong> Si vous vous souciez de la planète, un nom de domaine .eco est un excellent moyen de le montrer. Vous pouvez obtenir un nom de domaine .eco pour votre entreprise, votre organisation à but non lucratif ou pour vous-même.</p>",
+      "<p>Pour être éligible à un .eco vous devez :</p>",
       "<ul>",
-      "<li>S'engager à travailler pour un avenir durable</li>",
-      "<li>Soyez prêt à divulguer les mesures environnementales que vous prenez</li>",
+      "<li>S&#39;engager à travailler pour un avenir durable</li>",
+      "<li>Soyez prêt à divulguer les actions environnementales que vous entreprenez</li>",
       "</ul>",
-      "<p>Si vous avez des questions ou des préoccupations concernant votre éligibilité, <a class=\"chat-link\" href=\"#\">veuillez nous contacter</a>.</p>"
+      "<p>Si vous avez des questions ou des préoccupations concernant votre admissibilité, <a class=\"chat-link\" href=\"#\">veuillez nous contacter</a> .</p>"
     ]
   },
   "purchase": {
@@ -52,29 +52,19 @@
       "<p>Obtenez votre nom de domaine .eco en 4 étapes simples :</p>",
       "<ol>",
       "<li><a href=\"#input-search\">Recherchez votre nom parfait</a></li>",
-      "<li>Achetez-le chez votre détaillant préféré</li>",
-      "<li>Prenez le <a href=\"/about/system/\">engagement .eco</a> et créez votre <a href=\"https://profiles.eco\">profil .eco</a></li>",
-      "<li>Configurer et lancer votre site Internet</li>",
+      "<li>Achetez-le chez votre revendeur préféré</li>",
+      "<li>Prenez l&#39; <a href=\"/about/system/\">engagement .eco</a> et créez votre <a href=\"https://profiles.eco\">profil .eco</a></li>",
+      "<li>Configurer et lancer votre site Web</li>",
       "</ol>"
     ]
   },
-  "partners": {
-    "head": "Partenaires",
-    "subhead": "Qui se cache derrière le .eco ?",
-    "text": "Certaines des organisations derrière .eco comprennent :",
-    "cta": "Consultez la liste complète des organisations qui font partie de la coalition .eco."
-  },
-  "members": {
-    "head": "Qui utilise .eco ?",
-    "cta": "Voir plus sur profiles.eco"
-  },
   "support": {
-    "head": "Service",
+    "head": "Soutien",
     "text": [
-      "<p>Faites-nous savoir si vous avez des questions sur .eco !",
-      "<a class=\"chat-link\" href=\"#\">Nous sommes disponibles pour discuter</a> pendant les heures ouvrables <strong>Heure du Pacifique</strong>.",
+      "<p>Faites-nous savoir si vous avez des questions sur .eco !",
+      "<a class=\"chat-link\" href=\"#\">Nous sommes disponibles pour discuter</a> pendant les heures ouvrables, heure du <strong>Pacifique</strong> .",
       "Vous pouvez également nous laisser un message et nous essaierons de vous répondre dans un délai d'un jour ouvrable.",
-      "Vous pouvez également consulter les articles d'assistance sur le site d'assistance <a href=\"https://support.go.eco\">.eco</a>."
+      "Vous pouvez également consulter les articles d&#39;assistance sur le <a href=\"https://support.go.eco\">site d&#39;assistance .eco</a> .</p>"
     ]
   }
 }
