@@ -23,7 +23,7 @@ async function translateLocale(localeData, targetLang) {
 
 const targetLang = process.argv[2]
 const localeFile = process.argv[3]
-const outputFile = localeFile.replace('/en/', '/fr/')
+const outputFile = localeFile.replace('/en/', `/${targetLang}/`)
 console.log(`Translating ${localeFile} to ${targetLang} and writing to ${outputFile})`)
 
 const localeData = require(localeFile)
