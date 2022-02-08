@@ -14,3 +14,18 @@ Handlebars.registerHelper('equal', function (lvalue, rvalue, options) {
 Handlebars.registerHelper('json', function (object) {
   return new Handlebars.SafeString(JSON.stringify(object))
 })
+
+Handlebars.registerHelper('typeIcon', function (typeStr) {
+  switch (typeStr) {
+    case 'Non-profit':
+      return 'nonprofit.svg'
+    case 'Individual':
+      return 'individual.svg'
+    case 'Government':
+      return 'government.svg'
+    case 'Educiational':
+      return 'educational.svg'
+    default:
+      return 'business.svg'
+  }
+})

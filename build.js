@@ -22,6 +22,50 @@ const filterDefaults = ({
   fr: { language: 'Français' },
   de: { language: 'Deutsch' }
 })[lang]
+const featuredProfiles = [
+  {
+    domain: 'leap.eco',
+    img: 'https://cdn.profiles.eco/images/leap.eco/5eddd04e-44ba-4834-a737-7fa72880c7a7_1500x500.jpeg',
+    type: 'Business',
+    location: 'UK',
+    story: '<a href="https://leap.eco">Leap</a> is a design studio that believes in designing with purpose and creating work that matters. As a BCorp, they create responsible and high-impact design solutions that exceed triple bottom line standards.'
+  },
+  {
+    domain: 'preserve.eco',
+    img: 'https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg',
+    type: 'Business',
+    location: 'US',
+    story: '<a href="https://preserve.eco">Preserve</a>, a certified B Corporation, makes stylish, eco-friendly products for the home including a full line of reusable tableware, food storage, and personal care products, using 100% recycled plastic.'
+  },
+  {
+    domain: 'supplychainresearch.eco',
+    img: 'https://cdn.profiles.eco/images/supplychainresearch.eco/957cafa7-8153-495e-858f-332f5b7d8aad_1500x500.jpeg',
+    type: 'Non-profit',
+    location: 'US',
+    story: 'Meridian Institute established the <a href="https://www.supplychainresearch.eco/">Supply Chain Sustainability Research Fund</a> to increase understanding of sustainability in agriculture, seafood, and forest supply chains.'
+  },
+  {
+    domain: 'bleu.eco',
+    img: 'https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg',
+    type: 'Business',
+    location: 'Canada',
+    story: 'Bleu.eco designs ecological matresses and beds using natural materials at reasonable prices. 3 trees are planted for each mattress sold.'
+  },
+  {
+    domain: 'beep.eco',
+    img: 'https://cdn.profiles.eco/images/beep.eco/7eabe794-fe2a-41b4-9972-1000d1e07a96_1500x500.jpg',
+    type: 'Business',
+    location: 'Canada',
+    story: 'Climate Smart Businesses Inc. enables businesses to profitably reduce greenhouse gas emissions.'
+  },
+  {
+    domain: 'grunbag.eco',
+    img: 'https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg',
+    type: 'Business',
+    location: 'Germany',
+    story: 'GRÜNBAG makes high-quality bags that last, using only durable materials to reduce future waste.'
+  }
+]
 
 console.log('Building for environment:', env, lang)
 
@@ -110,7 +154,8 @@ const ms = Metalsmith(__dirname)
     makeOfferForm: options.makeOfferForm,
     lang,
     sites: options['site-url'],
-    filterDefaults
+    filterDefaults,
+    featuredProfiles
   })
   .source('./source')
   .destination(dest)
