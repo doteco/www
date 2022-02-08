@@ -22,7 +22,7 @@ const filterDefaults = ({
   fr: { language: 'Français' },
   de: { language: 'Deutsch' }
 })[lang]
-const featuredProfiles = require('./locales/en/featured-profiles.json')
+const featuredProfiles = require(`./locales/${lang}/featured-profiles.json`)
 
 console.log('Building for environment:', env, lang)
 
@@ -120,9 +120,6 @@ const ms = Metalsmith(__dirname)
   .use(discoverHelpers({
     directory: './helpers'
   }))
-  .use(discoverPartials({
-    directory: 'layouts/partials'
-  }))
   .use(sass({
     includePaths: ['./scss'],
     outputDir: 'css',
@@ -142,6 +139,9 @@ const ms = Metalsmith(__dirname)
     helpers: null,
     path: ':file',
     frontMatterKeys: ['title', 'description']
+  }))
+  .use(discoverPartials({
+    directory: 'layouts/partials'
   }))
   .use(layouts({
     pattern: '**/*.hbs',

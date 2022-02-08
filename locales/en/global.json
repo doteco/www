@@ -36,5 +36,12 @@
         "<a href=\"/impact/\">Environmental Policy</a>"
       ]
     }
-  ]
+  ],
+  "profile-types": {
+    "business": "Business",
+    "nonprofit": "Non-profit",
+    "government": "Government",
+    "educational": "Education",
+    "individual": "Individual"
+  }
 }

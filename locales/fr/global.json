@@ -32,5 +32,12 @@
         "<a href=\"/privacy/\">Politique de confidentialité</a>"
       ]
     }
-  ]
+  ],
+  "profile-types": {
+    "business": "Entreprise",
+    "nonprofit": "Organisation",
+    "government": "Gouvernement",
+    "educational": "Éducation",
+    "individual": "Individu"
+  }
 }

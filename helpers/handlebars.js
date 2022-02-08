@@ -15,15 +15,17 @@ Handlebars.registerHelper('json', function (object) {
   return new Handlebars.SafeString(JSON.stringify(object))
 })
 
+Handlebars.registerHelper('concat', (a, b) => a + b)
+
 Handlebars.registerHelper('typeIcon', function (typeStr) {
   switch (typeStr) {
-    case 'Non-profit':
+    case 'nonprofit':
       return 'nonprofit.svg'
-    case 'Individual':
+    case 'individual':
       return 'individual.svg'
-    case 'Government':
+    case 'government':
       return 'government.svg'
-    case 'Educiational':
+    case 'educational':
       return 'educational.svg'
     default:
       return 'business.svg'

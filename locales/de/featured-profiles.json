@@ -1,0 +1,44 @@
+[
+  {
+    "domain": "leap.eco",
+    "img": "https://cdn.profiles.eco/images/leap.eco/5eddd04e-44ba-4834-a737-7fa72880c7a7_1500x500.jpeg",
+    "type": "business",
+    "location": "Vereinigtes Königreich",
+    "story": "<a href=\"https://leap.eco\">Leap</a> ist ein Designstudio, das daran glaubt, zielgerichtet zu entwerfen und Arbeit zu schaffen, die zählt. Als BCorp schaffen sie verantwortungsbewusste und wirkungsvolle Designlösungen, die die Triple-Bottom-Line-Standards übertreffen."
+  },
+  {
+    "domain": "preserve.eco",
+    "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
+    "type": "business",
+    "location": "Vereinigte Staaten",
+    "story": "<a href=\"https://preserve.eco\">Preserve</a>, eine zertifizierte B Corporation, stellt stilvolle, umweltfreundliche Produkte für den Haushalt her, darunter ein komplettes Sortiment an wiederverwendbarem Geschirr, Lebensmittelaufbewahrung und persönlichen Gegenständen Pflegeprodukte aus 100 % recyceltem Kunststoff."
+  },
+  {
+    "domain": "supplychainresearch.eco",
+    "img": "https://cdn.profiles.eco/images/supplychainresearch.eco/957cafa7-8153-495e-858f-332f5b7d8aad_1500x500.jpeg",
+    "type": "nonprofit",
+    "location": "Vereinigte Staaten",
+    "story": "Das Meridian Institute hat den <a href=\"https://www.supplychainresearch.eco/\">Supply Chain Sustainability Research Fund</a> eingerichtet, um das Verständnis für Nachhaltigkeit in den Lieferketten für Landwirtschaft, Meeresfrüchte und Forstwirtschaft zu verbessern."
+  },
+  {
+    "domain": "bleu.eco",
+    "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
+    "type": "business",
+    "location": "Kanada",
+    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> entwirft ökologische Matratzen und Betten aus natürlichen Materialien zu vernünftigen Preisen. Für jede verkaufte Matratze werden 3 Bäume gepflanzt."
+  },
+  {
+    "domain": "beep.eco",
+    "img": "https://cdn.profiles.eco/images/beep.eco/7eabe794-fe2a-41b4-9972-1000d1e07a96_1500x500.jpg",
+    "type": "business",
+    "location": "Kanada",
+    "story": "<a href=\"https://beep.eco\">BEEP</a> von Climate Smart Businesses Inc. ist ein Kohlenstoffkartierungstool, das Städten hilft, mit lokalen Unternehmen zusammenzuarbeiten, um Treibhausgasemissionen zu reduzieren."
+  },
+  {
+    "domain": "grunbag.eco",
+    "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
+    "type": "business",
+    "location": "Deutschland",
+    "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> stellt hochwertige Taschen her, die lange halten, und verwendet nur langlebige Materialien, um zukünftigen Abfall zu reduzieren."
+  }
+]

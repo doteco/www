@@ -32,5 +32,12 @@
     "head": "Partner",
     "subhead": "Wer steckt hinter .eco?",
     "text": "Einige der Organisationen, die hinter .eco stehen, sind:"
+  },
+  "profile-types": {
+    "business": "Geschäft",
+    "nonprofit": "Gemeinnützig",
+    "government": "Regierung",
+    "educational": "Ausbildung",
+    "individual": "Einzelne"
   }
 }
