@@ -67,7 +67,7 @@
 
 	.profile-tile[data-custom-bg] .profile-tile__wrapper {
 		background-color: none;
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%);
 	}
 
 	.profile-tile[data-custom-bg]:hover .profile-tile__wrapper {
@@ -126,11 +126,33 @@
 		font-size: 2.5rem;
 	}
 
-	@media (min-width: 767px) {
-		.profile-tile {
-			height: 30rem;
-		}
+	.profile-tile-details {
+		padding: 1rem;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	}
 
+	.profile-tile-details__section {
+		display: flex;
+	}
+
+	.profile-type__icon {
+		width: 26px;
+		margin-right: 1rem;
+	}
+
+	.profile-type__globe {
+		margin-right: 1rem;
+		font-size: 20px;
+		color: $doteco-ruby;
+	}
+
+	.profile-type__section {
+		width: 50%;
+		display: flex;
+		align-items: center;
+	}
+
+	@media (min-width: 767px) {
 		.profile-tile--empty .profile-tile__wrapper {
 			padding: 2rem;
 		}
