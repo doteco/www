@@ -1,21 +1,21 @@
 /* stylelint-disable indentation  */
 @mixin border-radius($radius) {
-	-webkit-border-radius: $radius;
-	-moz-border-radius: $radius;
-	-ms-border-radius: $radius;
+	border-radius: $radius;
+	border-radius: $radius;
+	border-radius: $radius;
 	border-radius: $radius;
 }
 
 @mixin transform($transforms) {
-	-moz-transform: $transforms;
-	-o-transform: $transforms;
-	-ms-transform: $transforms;
-	-webkit-transform: $transforms;
+	transform: $transforms;
+	transform: $transforms;
+	transform: $transforms;
+	transform: $transforms;
 	transform: $transforms;
 }
 /* stylelint-enable */
 
 // rotate
-@mixin rotate ($deg) {
+@mixin rotate($deg) {
 	@include transform(rotate(#{$deg}deg));
 }

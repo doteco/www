@@ -10,6 +10,7 @@
     "selector-attribute-quotes": "always",
     "selector-list-comma-newline-after": "always-multi-line",
     "selector-max-compound-selectors": 3,
-    "string-quotes": "single"
+    "string-quotes": "single",
+    "color-function-notation": "legacy"
   }
 }
