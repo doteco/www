@@ -1,50 +1,50 @@
 [
   {
     "domain": "beep.eco",
-    "story": "<a href=\"https://beep.eco\">BEEP</a>, by Climate Smart Businesses Inc, is a carbon mapping tool that helps cities work with local businesses to reduce greenhouse gas emissions.",
+    "story": "<a href=\"https://beep.eco\">BEEP</a> von Climate Smart Businesses Inc. ist ein Kohlenstoffkartierungstool, das Städten hilft, mit lokalen Unternehmen zusammenzuarbeiten, um Treibhausgasemissionen zu reduzieren.",
     "img": "https://cdn.profiles.eco/images/beep.eco/7eabe794-fe2a-41b4-9972-1000d1e07a96_1500x500.jpg",
     "type": "business",
-    "location": "Canada",
+    "location": "Kanada",
     "priority": "6"
   },
   {
     "domain": "bleu.eco",
-    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> designs ecological mattresses and beds using natural materials at reasonable prices. 3 trees are planted for each mattress sold.",
+    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> entwirft ökologische Matratzen und Betten aus natürlichen Materialien zu günstigen Preisen. Für jede verkaufte Matratze werden 3 Bäume gepflanzt.",
     "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
     "type": "business",
-    "location": "Canada",
-    "priority": "5"
+    "location": "Kanada",
+    "priority": "2"
   },
   {
     "domain": "grunbag.eco",
-    "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> makes high-quality bags that last, using only durable materials to reduce future waste.",
+    "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> stellt hochwertige Taschen her, die lange halten, und verwendet nur langlebige Materialien, um zukünftigen Abfall zu reduzieren.",
     "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
     "type": "business",
-    "location": "Germany",
+    "location": "Deutschland",
     "priority": "1"
   },
   {
     "domain": "leap.eco",
-    "story": "<a href=\"https://leap.eco\">Leap</a> is a design studio that believes in designing with purpose and creating work that matters. As a BCorp, they create responsible solutions that exceed triple bottom line standards.",
+    "story": "<a href=\"https://leap.eco\">Leap</a> ist ein Designstudio, das daran glaubt, zielgerichtet zu entwerfen und Arbeit zu schaffen, die zählt. Als BCorp schaffen sie verantwortungsbewusste Lösungen, die die Triple-Bottom-Line-Standards übertreffen.",
     "img": "https://cdn.profiles.eco/images/leap.eco/5eddd04e-44ba-4834-a737-7fa72880c7a7_1500x500.jpeg",
     "type": "business",
-    "location": "UK",
-    "priority": "2"
+    "location": "Vereinigtes Königreich",
+    "priority": "5"
   },
   {
     "domain": "preserve.eco",
-    "story": "<a href=\"https://preserve.eco\">Preserve</a>, a certified B Corporation, makes stylish, eco-friendly products for the home including reusable tableware, food storage, and personal care products, using 100% recycled plastic.",
+    "story": "<a href=\"https://preserve.eco\">Preserve</a> , eine zertifizierte B Corporation, stellt stilvolle, umweltfreundliche Produkte für den Haushalt her, darunter wiederverwendbares Geschirr, Lebensmittelaufbewahrung und Körperpflegeprodukte, die zu 100 % aus recyceltem Kunststoff bestehen.",
     "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
     "type": "business",
-    "location": "USA",
+    "location": "Vereinigte Staaten",
     "priority": "3"
   },
   {
     "domain": "supplychainresearch.eco",
-    "story": "Meridian Institute established the <a href=\"https://www.supplychainresearch.eco/\">Supply Chain Sustainability Research Fund</a> to increase understanding of sustainability in agriculture, seafood, and forest supply chains.",
+    "story": "Das Meridian Institute hat den <a href=\"https://www.supplychainresearch.eco/\">Supply Chain Sustainability Research Fund eingerichtet</a> , um das Verständnis für Nachhaltigkeit in den Lieferketten für Landwirtschaft, Meeresfrüchte und Forstwirtschaft zu verbessern.",
     "img": "https://cdn.profiles.eco/images/supplychainresearch.eco/957cafa7-8153-495e-858f-332f5b7d8aad_1500x500.jpeg",
     "type": "nonprofit",
-    "location": "USA",
+    "location": "Vereinigte Staaten",
     "priority": "4"
   }
 ]

@@ -23,6 +23,7 @@ const filterDefaults = ({
   de: { language: 'Deutsch' }
 })[lang]
 const featuredProfiles = require(`./locales/${lang}/featured-profiles.json`)
+featuredProfiles.sort((a, b) => a.priority - b.priority)
 
 console.log('Building for environment:', env, lang)
 

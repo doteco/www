@@ -5,6 +5,9 @@ const { google } = require('googleapis')
 const sheets = google.sheets('v4')
 const writeFile = util.promisify(fs.writeFile)
 
+const {Translate} = require('@google-cloud/translate').v2
+const translator = new Translate()
+
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 const spreadsheetId = '1DVxRuWxKh24oQPCCi1BT4CYxDrD1xs1Hyb58Rf9rDGo'
 const sheetRange = 'Sheet1!A1:Z'
@@ -23,15 +26,7 @@ async function getSpreadSheetValues (spreadsheetId, sheetName) {
   return res
 }
 
-if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
-  console.log('Need to define environment variable GOOGLE_APPLICATION_CREDENTIALS to run. eg. GOOGLE_APPLICATION_CREDENTIALS=<file> node ./download-featured-profiles.js')
-  process.exit()
-}
-
-getSpreadSheetValues(
-  spreadsheetId,
-  sheetRange
-).then(response => {
+async function parseSpreadsheet (response) {
   const rows = response.data.values
 
   rows.shift() // topline
@@ -41,7 +36,7 @@ getSpreadSheetValues(
     return h
   }, {})
 
-  const profiles = rows.map(data => {
+  return rows.map(data => {
     return {
       domain: data[h['.eco domain']],
       story: data[h.Story]?.trim(),
@@ -72,14 +67,38 @@ getSpreadSheetValues(
     }
     return false
   })
+}
 
+async function translate (text, locale) {
+  if (locale === 'en') return text
+
+  try {
+    if (text === 'USA') text = 'United States'
+    const tr = await translator.translate(text, locale)
+    return tr[0]
+  } catch (ex) {
+    console.log(`Error translating ${text} into ${locale}. Returning original text.`)
+    return text
+  }
+}
+
+if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
+  console.log('Need to define environment variable GOOGLE_APPLICATION_CREDENTIALS to run. eg. GOOGLE_APPLICATION_CREDENTIALS=<file> node ./download-featured-profiles.js')
+  process.exit()
+}
+
+getSpreadSheetValues(
+  spreadsheetId,
+  sheetRange
+).then(response => {
+  const profiles = parseSpreadsheet(response)
   console.log('Valid featured profiles:', profiles.length, profiles)
   return profiles
 }).then(profiles => {
-  return Promise.all(['en', 'fr', 'de'].map(locale => {
-    const localizedProfiles = profiles.map(p => {
-      const localizedStory = p.story
-      const localizedLocation = p.location
+  return Promise.all(['en', 'fr', 'de'].map(async locale => {
+    const localizedProfiles = await Promise.all(profiles.map(async p => {
+      const localizedStory = await translate(p.story, locale)
+      const localizedLocation = await translate(p.location, locale)
       return {
         domain: p.domain,
         story: localizedStory,
@@ -88,7 +107,7 @@ getSpreadSheetValues(
         location: localizedLocation,
         priority: p.priority[locale]
       }
-    })
+    }))
     return writeFile(`./locales/${locale}/featured-profiles.json`, JSON.stringify(localizedProfiles, null, 2), 'utf-8')
   }))
 })
