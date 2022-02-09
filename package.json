@@ -5,6 +5,7 @@
   "devDependencies": {
     "@google-cloud/translate": "6.3.1",
     "autoprefixer": "10.4.2",
+    "googleapis": "95.0.0",
     "handlebars": "4.7.7",
     "html-validator": "6.0.0",
     "imagemin": "github:doteco/imagemin",
