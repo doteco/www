@@ -11,6 +11,7 @@
     "selector-list-comma-newline-after": "always-multi-line",
     "selector-max-compound-selectors": 3,
     "string-quotes": "single",
-    "color-function-notation": "legacy"
+    "color-function-notation": "legacy",
+    "selector-class-pattern": null
   }
 }
