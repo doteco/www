@@ -1,4 +1,4 @@
 // rotate
-@mixin rotate ($deg) {
+@mixin rotate($deg) {
 	@include transform(rotate(#{$deg}deg));
 }

@@ -12,6 +12,7 @@
     "selector-max-compound-selectors": 3,
     "string-quotes": "single",
     "color-function-notation": "legacy",
+    "alpha-value-notation": "number",
     "selector-class-pattern": null
   }
 }
