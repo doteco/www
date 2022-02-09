@@ -1,7 +1,6 @@
 const fs = require('fs')
 const util = require('util')
 const { google } = require('googleapis')
-const { JWT } = require('google-auth-library')
 
 const sheets = google.sheets('v4')
 const writeFile = util.promisify(fs.writeFile)
@@ -10,23 +9,12 @@ const SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 const spreadsheetId = '1DVxRuWxKh24oQPCCi1BT4CYxDrD1xs1Hyb58Rf9rDGo'
 const sheetRange = 'Sheet1!A1:Z'
 
-function getCredentials () {
-  if (process.env.client_email) {
-    return process.env
-  }
-  return require('./privatekey.json')
-}
-
-function getAuthToken (email, key, projectId) {
-  console.log(`Authorizing ${projectId} for ${email}`)
-  return new JWT({
-    email,
-    key,
+async function getSpreadSheetValues (spreadsheetId, sheetName) {
+  console.log(`Authorization using ${process.env.GOOGLE_APPLICATION_CREDENTIALS}`)
+  const auth = await google.auth.getClient({
     scopes: SCOPES
   })
-}
 
-async function getSpreadSheetValues (spreadsheetId, auth, sheetName) {
   const res = await sheets.spreadsheets.values.get({
     spreadsheetId,
     auth,
@@ -35,11 +23,13 @@ async function getSpreadSheetValues (spreadsheetId, auth, sheetName) {
   return res
 }
 
-const { client_email, private_key, project_id } = getCredentials()
+if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
+  console.log('Need to define environment variable GOOGLE_APPLICATION_CREDENTIALS to run. eg. GOOGLE_APPLICATION_CREDENTIALS=<file> node ./download-featured-profiles.js')
+  process.exit()
+}
 
 getSpreadSheetValues(
   spreadsheetId,
-  getAuthToken(client_email, private_key, project_id),
   sheetRange
 ).then(response => {
   const rows = response.data.values
@@ -58,7 +48,12 @@ getSpreadSheetValues(
       img: data[h.Image]?.trim(),
       type: data[h.Type]?.trim(),
       location: data[h.Country]?.trim(),
-      live: data[h.Live] === 'Y'
+      live: data[h.Live] === 'Y',
+      priority: {
+        en: data[h['Priority - EN']],
+        fr: data[h['Priority - FR']],
+        de: data[h['Priority - DE']]
+      }
     }
   }).filter(p => {
     if (!p.live) return false
@@ -80,4 +75,20 @@ getSpreadSheetValues(
 
   console.log('Valid featured profiles:', profiles.length, profiles)
   return profiles
-}).then(profiles => writeFile('./locales/en/featured-profiles.json', JSON.stringify(profiles, null, 2), 'utf-8'))
+}).then(profiles => {
+  return Promise.all(['en', 'fr', 'de'].map(locale => {
+    const localizedProfiles = profiles.map(p => {
+      const localizedStory = p.story
+      const localizedLocation = p.location
+      return {
+        domain: p.domain,
+        story: localizedStory,
+        img: p.img,
+        type: p.type,
+        location: localizedLocation,
+        priority: p.priority[locale]
+      }
+    })
+    return writeFile(`./locales/${locale}/featured-profiles.json`, JSON.stringify(localizedProfiles, null, 2), 'utf-8')
+  }))
+})

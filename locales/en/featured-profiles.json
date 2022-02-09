@@ -5,7 +5,7 @@
     "img": "https://cdn.profiles.eco/images/beep.eco/7eabe794-fe2a-41b4-9972-1000d1e07a96_1500x500.jpg",
     "type": "business",
     "location": "Canada",
-    "live": true
+    "priority": "6"
   },
   {
     "domain": "bleu.eco",
@@ -13,7 +13,7 @@
     "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
     "type": "business",
     "location": "Canada",
-    "live": true
+    "priority": "2"
   },
   {
     "domain": "grunbag.eco",
@@ -21,7 +21,7 @@
     "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
     "type": "business",
     "location": "Germany",
-    "live": true
+    "priority": "5"
   },
   {
     "domain": "leap.eco",
@@ -29,22 +29,22 @@
     "img": "https://cdn.profiles.eco/images/leap.eco/5eddd04e-44ba-4834-a737-7fa72880c7a7_1500x500.jpeg",
     "type": "business",
     "location": "UK",
-    "live": true
+    "priority": "3"
   },
   {
     "domain": "preserve.eco",
     "story": "<a href=\"https://preserve.eco\">Preserve</a>, a certified B Corporation, makes stylish, eco-friendly products for the home including reusable tableware, food storage, and personal care products, using 100% recycled plastic.",
     "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
     "type": "business",
-    "location": "US",
-    "live": true
+    "location": "USA",
+    "priority": "1"
   },
   {
     "domain": "supplychainresearch.eco",
     "story": "Meridian Institute established the <a href=\"https://www.supplychainresearch.eco/\">Supply Chain Sustainability Research Fund</a> to increase understanding of sustainability in agriculture, seafood, and forest supply chains.",
     "img": "https://cdn.profiles.eco/images/supplychainresearch.eco/957cafa7-8153-495e-858f-332f5b7d8aad_1500x500.jpeg",
     "type": "nonprofit",
-    "location": "US",
-    "live": true
+    "location": "USA",
+    "priority": "4"
   }
 ]
