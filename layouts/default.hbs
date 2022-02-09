@@ -83,7 +83,10 @@
 	<script>
 	if (typeof Sentry !== 'undefined') {
 		Sentry.init({
-		  dsn: "{{sentryDSN}}"
+		  dsn: "{{sentryDSN}}",
+			allowUrls: [
+				"{{site-url}}"
+			]
 		})
 	}
 	</script>
