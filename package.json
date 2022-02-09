@@ -31,15 +31,16 @@
     "node-sass": "7.0.1",
     "standard": "16.0.4",
     "stylelint": "14.3.0",
-    "stylelint-config-standard": "24.0.0"
+    "stylelint-config-standard": "24.0.0",
+    "stylelint-config-standard-scss": "3.0.0"
   },
   "scripts": {
     "build": "node ./build.js",
     "minify": "node ./imagemin.mjs",
     "start": "npm run build",
     "precommit": "npx standard && npm run validate && npm run stylelint",
-    "stylelint": "stylelint 'scss/*.scss' --syntax scss || true",
-    "stylelint:fix": "stylelint 'scss/*.scss' --fix --syntax scss",
+    "stylelint": "stylelint 'scss/*.scss' || true",
+    "stylelint:fix": "stylelint 'scss/*.scss' --fix",
     "test": "npm run build",
     "validate": "node ./html-validate.js"
   },

@@ -5,7 +5,7 @@ const { google } = require('googleapis')
 const sheets = google.sheets('v4')
 const writeFile = util.promisify(fs.writeFile)
 
-const {Translate} = require('@google-cloud/translate').v2
+const { Translate } = require('@google-cloud/translate').v2
 const translator = new Translate()
 
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets']

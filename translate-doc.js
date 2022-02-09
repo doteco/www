@@ -1,15 +1,15 @@
 const fs = require('fs')
-const {TranslationServiceClient} = require('@google-cloud/translate')
+const { TranslationServiceClient } = require('@google-cloud/translate')
 const translate = new TranslationServiceClient()
 const projectId = 'profiles-eco'
 
-function translateText(text, targetLang) {
+function translateText (text, targetLang) {
   const request = {
     parent: `projects/${projectId}/locations/global`,
     contents: [text],
     mimeType: 'text/plain', // mime types: text/plain, text/html
     sourceLanguageCode: 'en',
-    targetLanguageCode: targetLang,
+    targetLanguageCode: targetLang
   }
   return translate.translateText(request)
 }
