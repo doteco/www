@@ -14,7 +14,7 @@
     "imagemin-svgo": "10.0.1",
     "jstransformer-handlebars": "1.2.0",
     "klaw": "4.0.1",
-    "metalsmith": "2.4.1",
+    "metalsmith": "2.4.2",
     "metalsmith-autoprefixer": "1.1.2",
     "metalsmith-discover-helpers": "0.1.1",
     "metalsmith-discover-partials": "0.1.2",
@@ -30,7 +30,7 @@
     "metalsmith-watch": "1.0.3",
     "node-sass": "7.0.1",
     "standard": "16.0.4",
-    "stylelint": "14.4.0",
+    "stylelint": "14.5.1",
     "stylelint-config-standard": "25.0.0",
     "stylelint-config-standard-scss": "3.0.0"
   },
@@ -55,7 +55,7 @@
   },
   "homepage": "https://github.com/doteco/www#readme",
   "dependencies": {
-    "@sentry/browser": "6.17.6",
+    "@sentry/browser": "6.17.9",
     "bootstrap": "3.4.1",
     "bootstrap-validator": "0.11.9",
     "jquery": "3.6.0"
