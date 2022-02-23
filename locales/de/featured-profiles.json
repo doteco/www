@@ -13,7 +13,7 @@
     "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
     "type": "business",
     "location": "Kanada",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "current.eco",
@@ -21,7 +21,7 @@
     "img": "https://cdn.profiles.eco/images/current.eco/3f4a0566-7df4-452d-85cd-55b325afd402_1500x500.jpeg",
     "type": "business",
     "location": "Norwegen",
-    "priority": "1"
+    "priority": "3"
   },
   {
     "domain": "grunbag.eco",
@@ -29,7 +29,7 @@
     "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
     "type": "business",
     "location": "Deutschland",
-    "priority": "2"
+    "priority": "4"
   },
   {
     "domain": "leap.eco",
@@ -37,7 +37,15 @@
     "img": "https://cdn.profiles.eco/images/leap.eco/5eddd04e-44ba-4834-a737-7fa72880c7a7_1500x500.jpeg",
     "type": "business",
     "location": "Vereinigtes Königreich",
-    "priority": "5"
+    "priority": "6"
+  },
+  {
+    "domain": "mico.eco",
+    "story": "<a href=\"https://mico.eco\">MiCO</a> , Migratory Connectivity in the Ocean, unterstützt weltweite Schutzbemühungen für wandernde aquatische Arten wie Wale und Delfine und die Ozeane, von denen sie abhängig sind.",
+    "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
+    "type": "nonprofit",
+    "location": "Vereinigte Staaten",
+    "priority": "1"
   },
   {
     "domain": "preserve.eco",
@@ -45,7 +53,7 @@
     "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
     "type": "business",
     "location": "Vereinigte Staaten",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "supplychainresearch.eco",
@@ -53,6 +61,6 @@
     "img": "https://cdn.profiles.eco/images/supplychainresearch.eco/957cafa7-8153-495e-858f-332f5b7d8aad_1500x500.jpeg",
     "type": "nonprofit",
     "location": "Vereinigte Staaten",
-    "priority": "4"
+    "priority": "2"
   }
 ]
