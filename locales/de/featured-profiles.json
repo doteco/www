@@ -1,19 +1,19 @@
 [
   {
-    "domain": "beep.eco",
-    "story": "<a href=\"https://beep.eco\">BEEP</a> von Climate Smart Businesses Inc. ist ein Kohlenstoffkartierungstool, das Städten hilft, mit lokalen Unternehmen zusammenzuarbeiten, um Treibhausgasemissionen zu reduzieren.",
-    "img": "https://cdn.profiles.eco/images/beep.eco/7eabe794-fe2a-41b4-9972-1000d1e07a96_1500x500.jpg",
-    "type": "business",
-    "location": "Kanada",
-    "priority": ""
+    "domain": "burdock.eco",
+    "story": "<a href=\"https://burdock.eco\">Burdock.eco</a> ist ein internationales Netzwerk von Öko-Projekten mit Sitz in der Ukraine. Es hilft Menschen, interessante Öko-Projekte und Möglichkeiten für Freiwillige zum Wohle der Natur zu finden.",
+    "img": "https://cdn.profiles.eco/images/burdock.eco/95bac84f-95ab-43a5-acc6-bfd525c40ad7_1500x500.jpeg",
+    "type": "nonprofit",
+    "location": "Ukraine",
+    "priority": "1"
   },
   {
-    "domain": "bleu.eco",
-    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> entwirft ökologische Matratzen und Betten aus natürlichen Materialien zu günstigen Preisen. Für jede verkaufte Matratze werden 3 Bäume gepflanzt.",
-    "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
-    "type": "business",
-    "location": "Kanada",
-    "priority": ""
+    "domain": "mico.eco",
+    "story": "<a href=\"https://mico.eco\">MiCO</a> , Migratory Connectivity in the Ocean, unterstützt weltweite Schutzbemühungen für wandernde aquatische Arten wie Wale und Delfine und die Ozeane, von denen sie abhängig sind.",
+    "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
+    "type": "nonprofit",
+    "location": "Vereinigte Staaten",
+    "priority": "2"
   },
   {
     "domain": "current.eco",
@@ -24,12 +24,12 @@
     "priority": "3"
   },
   {
-    "domain": "grunbag.eco",
-    "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> stellt hochwertige Taschen her, die lange halten, und verwendet nur langlebige Materialien, um zukünftigen Abfall zu reduzieren.",
-    "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
+    "domain": "preserve.eco",
+    "story": "<a href=\"https://preserve.eco\">Preserve</a> , eine zertifizierte B Corporation, stellt stilvolle, umweltfreundliche Produkte für den Haushalt her, darunter wiederverwendbares Geschirr, Lebensmittelaufbewahrung und Körperpflegeprodukte, die zu 100 % aus recyceltem Kunststoff bestehen.",
+    "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
     "type": "business",
-    "location": "Deutschland",
-    "priority": "4"
+    "location": "Vereinigte Staaten",
+    "priority": ""
   },
   {
     "domain": "leap.eco",
@@ -40,27 +40,35 @@
     "priority": "6"
   },
   {
-    "domain": "mico.eco",
-    "story": "<a href=\"https://mico.eco\">MiCO</a> , Migratory Connectivity in the Ocean, unterstützt weltweite Schutzbemühungen für wandernde aquatische Arten wie Wale und Delfine und die Ozeane, von denen sie abhängig sind.",
-    "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
-    "type": "nonprofit",
-    "location": "Vereinigte Staaten",
-    "priority": "1"
-  },
-  {
-    "domain": "preserve.eco",
-    "story": "<a href=\"https://preserve.eco\">Preserve</a> , eine zertifizierte B Corporation, stellt stilvolle, umweltfreundliche Produkte für den Haushalt her, darunter wiederverwendbares Geschirr, Lebensmittelaufbewahrung und Körperpflegeprodukte, die zu 100 % aus recyceltem Kunststoff bestehen.",
-    "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
-    "type": "business",
-    "location": "Vereinigte Staaten",
-    "priority": "4"
-  },
-  {
     "domain": "supplychainresearch.eco",
     "story": "Das Meridian Institute hat den <a href=\"https://www.supplychainresearch.eco/\">Supply Chain Sustainability Research Fund eingerichtet</a> , um das Verständnis für Nachhaltigkeit in den Lieferketten für Landwirtschaft, Meeresfrüchte und Forstwirtschaft zu verbessern.",
     "img": "https://cdn.profiles.eco/images/supplychainresearch.eco/957cafa7-8153-495e-858f-332f5b7d8aad_1500x500.jpeg",
     "type": "nonprofit",
     "location": "Vereinigte Staaten",
-    "priority": "2"
+    "priority": ""
+  },
+  {
+    "domain": "grunbag.eco",
+    "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> stellt hochwertige Taschen her, die lange halten, und verwendet nur langlebige Materialien, um zukünftigen Abfall zu reduzieren.",
+    "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
+    "type": "business",
+    "location": "Deutschland",
+    "priority": "4"
+  },
+  {
+    "domain": "bleu.eco",
+    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> entwirft ökologische Matratzen und Betten aus natürlichen Materialien zu günstigen Preisen. Für jede verkaufte Matratze werden 3 Bäume gepflanzt.",
+    "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
+    "type": "business",
+    "location": "Kanada",
+    "priority": "5"
+  },
+  {
+    "domain": "beep.eco",
+    "story": "<a href=\"https://beep.eco\">BEEP</a> von Climate Smart Businesses Inc. ist ein Kohlenstoffkartierungstool, das Städten hilft, mit lokalen Unternehmen zusammenzuarbeiten, um Treibhausgasemissionen zu reduzieren.",
+    "img": "https://cdn.profiles.eco/images/beep.eco/7eabe794-fe2a-41b4-9972-1000d1e07a96_1500x500.jpg",
+    "type": "business",
+    "location": "Kanada",
+    "priority": ""
   }
 ]

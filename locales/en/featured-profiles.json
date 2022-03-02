@@ -1,19 +1,19 @@
 [
   {
-    "domain": "beep.eco",
-    "story": "<a href=\"https://beep.eco\">BEEP</a>, by Climate Smart Businesses Inc, is a carbon mapping tool that helps cities work with local businesses to reduce greenhouse gas emissions.",
-    "img": "https://cdn.profiles.eco/images/beep.eco/7eabe794-fe2a-41b4-9972-1000d1e07a96_1500x500.jpg",
-    "type": "business",
-    "location": "Canada",
-    "priority": ""
+    "domain": "burdock.eco",
+    "story": "<a href=\"https://burdock.eco\">Burdock.eco</a> is an international network of eco-projects based in Ukraine. It helps people find interesting eco-projects and volunteer opportunities for the benefit of nature.",
+    "img": "https://cdn.profiles.eco/images/burdock.eco/95bac84f-95ab-43a5-acc6-bfd525c40ad7_1500x500.jpeg",
+    "type": "nonprofit",
+    "location": "Ukraine",
+    "priority": "1"
   },
   {
-    "domain": "bleu.eco",
-    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> designs ecological mattresses and beds using natural materials at reasonable prices. 3 trees are planted for each mattress sold.",
-    "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
-    "type": "business",
-    "location": "Canada",
-    "priority": ""
+    "domain": "mico.eco",
+    "story": "<a href=\"https://mico.eco\">MiCO</a>, Migratory Connectivity in the Ocean, supports worldwide conservation efforts for migratory aquatic species like whales and dolphins, and the oceans on which they depend.",
+    "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
+    "type": "nonprofit",
+    "location": "USA",
+    "priority": "2"
   },
   {
     "domain": "current.eco",
@@ -21,7 +21,31 @@
     "img": "https://cdn.profiles.eco/images/current.eco/3f4a0566-7df4-452d-85cd-55b325afd402_1500x500.jpeg",
     "type": "business",
     "location": "Norway",
-    "priority": "2"
+    "priority": "3"
+  },
+  {
+    "domain": "preserve.eco",
+    "story": "<a href=\"https://preserve.eco\">Preserve</a>, a certified B Corporation, makes stylish, eco-friendly products for the home including reusable tableware, food storage, and personal care products, using 100% recycled plastic.",
+    "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
+    "type": "business",
+    "location": "USA",
+    "priority": "4"
+  },
+  {
+    "domain": "leap.eco",
+    "story": "<a href=\"https://leap.eco\">Leap</a> is a design studio that believes in designing with purpose and creating work that matters. As a BCorp, they create responsible solutions that exceed triple bottom line standards.",
+    "img": "https://cdn.profiles.eco/images/leap.eco/5eddd04e-44ba-4834-a737-7fa72880c7a7_1500x500.jpeg",
+    "type": "business",
+    "location": "UK",
+    "priority": "5"
+  },
+  {
+    "domain": "supplychainresearch.eco",
+    "story": "Meridian Institute established the <a href=\"https://www.supplychainresearch.eco/\">Supply Chain Sustainability Research Fund</a> to increase understanding of sustainability in agriculture, seafood, and forest supply chains.",
+    "img": "https://cdn.profiles.eco/images/supplychainresearch.eco/957cafa7-8153-495e-858f-332f5b7d8aad_1500x500.jpeg",
+    "type": "nonprofit",
+    "location": "USA",
+    "priority": ""
   },
   {
     "domain": "grunbag.eco",
@@ -32,35 +56,19 @@
     "priority": "6"
   },
   {
-    "domain": "leap.eco",
-    "story": "<a href=\"https://leap.eco\">Leap</a> is a design studio that believes in designing with purpose and creating work that matters. As a BCorp, they create responsible solutions that exceed triple bottom line standards.",
-    "img": "https://cdn.profiles.eco/images/leap.eco/5eddd04e-44ba-4834-a737-7fa72880c7a7_1500x500.jpeg",
+    "domain": "bleu.eco",
+    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> designs ecological mattresses and beds using natural materials at reasonable prices. 3 trees are planted for each mattress sold.",
+    "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
     "type": "business",
-    "location": "UK",
-    "priority": "4"
+    "location": "Canada",
+    "priority": ""
   },
   {
-    "domain": "mico.eco",
-    "story": "<a href=\"https://mico.eco\">MiCO</a>, Migratory Connectivity in the Ocean, supports worldwide conservation efforts for migratory aquatic species like whales and dolphins, and the oceans on which they depend.",
-    "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
-    "type": "nonprofit",
-    "location": "USA",
-    "priority": "1"
-  },
-  {
-    "domain": "preserve.eco",
-    "story": "<a href=\"https://preserve.eco\">Preserve</a>, a certified B Corporation, makes stylish, eco-friendly products for the home including reusable tableware, food storage, and personal care products, using 100% recycled plastic.",
-    "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
+    "domain": "beep.eco",
+    "story": "<a href=\"https://beep.eco\">BEEP</a>, by Climate Smart Businesses Inc, is a carbon mapping tool that helps cities work with local businesses to reduce greenhouse gas emissions.",
+    "img": "https://cdn.profiles.eco/images/beep.eco/7eabe794-fe2a-41b4-9972-1000d1e07a96_1500x500.jpg",
     "type": "business",
-    "location": "USA",
-    "priority": "3"
-  },
-  {
-    "domain": "supplychainresearch.eco",
-    "story": "Meridian Institute established the <a href=\"https://www.supplychainresearch.eco/\">Supply Chain Sustainability Research Fund</a> to increase understanding of sustainability in agriculture, seafood, and forest supply chains.",
-    "img": "https://cdn.profiles.eco/images/supplychainresearch.eco/957cafa7-8153-495e-858f-332f5b7d8aad_1500x500.jpeg",
-    "type": "nonprofit",
-    "location": "USA",
-    "priority": "5"
+    "location": "Canada",
+    "priority": ""
   }
 ]
