@@ -5,15 +5,15 @@
   "subhead": ".eco présente vos actions et engagements environnementaux auprès de millions de personnes dans le monde qui se soucient de la planète.",
   "buy": {
     "head": "Lorsque vous achetez un nom de domaine .eco, vous obtenez :",
-    "item1": "Un nom de domaine .eco à utiliser pour votre site Web.",
-    "item2": "Un profil .eco pour valoriser les actions environnementales.",
-    "item3": "Une marque de confiance .eco qui renvoie à votre profil .eco. Il affirme que vous êtes un membre légitime de la communauté .eco.",
+    "item1": "Un nom de domaine .eco à utiliser pour votre site web.",
+    "item2": "Un profil .eco pour valoriser vos actions environnementales.",
+    "item3": "Un label de confiance .eco qui renvoie à votre profil .eco. Celui-ci prouve que vous êtes un membre légitime de la communauté .eco.",
     "footer": "Ensemble, ces trois éléments constituent le <a href=\"https://profiles.eco\">système de profil .eco</a> , un répertoire consultable d&#39;entreprises, d&#39;organisations et de personnes engagées dans un changement positif pour la planète."
   },
   "profiles": {
-    "head": "Déclarer et partager avec un profil .eco",
+    "head": "Proclamer son engagement et partager avec un profil .eco",
     "text": [
-      "<p>Après avoir enregistré votre domaine .eco, vous vous engagez à soutenir un changement positif pour la planète et promettez d&#39;être honnête lorsque vous partagez des actions environnementales. Ensuite, en quelques étapes simples, vous créerez votre profil .eco et informerez le monde de vos actions environnementales. Vous pouvez également partager vos certifications, vos adhésions et vos projets d&#39;actions futures.</p>",
+      "<p>Après avoir enregistré votre domaine .eco, vous vous engagez à soutenir un changement positif pour la planète et promettez d&#39;être honnête lorsque vous partagez des actions environnementales. Ensuite, en quelques étapes simples, vous créez votre profil .eco et informez les internautes de vos actions environnementales. Vous pouvez également partager vos certifications, vos adhésions et vos projets d&#39;actions futures.</p>",
       "<p>Une fois que vous avez fini de créer votre profil .eco, vous pouvez commencer à utiliser votre domaine .eco !</p>"
     ]
   }

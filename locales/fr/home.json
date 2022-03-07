@@ -1,9 +1,9 @@
 {
-  "title": "La maison de .eco, le domaine de la communauté environnementale",
-  "description": "Découvrez comment vous pouvez obtenir votre propre nom de domaine .eco.",
+  "title": "L'accueil de .eco, le domaine de la communauté environnementale",
+  "description": "Découvrez comment obtenir votre propre nom de domaine .eco.",
   "carousel": {
     "business": {
-      "head": ".eco est pour les entreprises et les produits",
+      "head": ".eco est destiné aux entreprises et aux produits",
       "subhead": "qui aident les gens à faire de meilleurs choix chaque jour"
     },
     "gov": {
@@ -11,11 +11,11 @@
       "subhead": "qui encouragent un changement environnemental positif"
     },
     "people": {
-      "head": ".eco est pour les gens",
-      "subhead": "qui participent et soutiennent l'action environnementale"
+      "head": ".eco est destiné aux gens",
+      "subhead": "qui soutiennent l'action environnementale et y participent"
     },
     "tld": {
-      "head": ".eco est une adresse Web se terminant",
+      "head": ".eco est une extension d'adresse web",
       "subhead": "pour ceux qui s'engagent pour un changement positif pour la planète"
     },
     "cop": {
@@ -24,24 +24,24 @@
       "cta": "Voir qui agit"
     },
     "cta": {
-      "next": "Diapositive suivante dans le carrousel",
+      "next": "Diapositive suivante du carrousel",
       "prev": "Diapositive précédente du carrousel"
     }
   },
   "search": {
-    "head": "Trouvez votre nom de domaine .eco parfait"
+    "head": "Trouvez votre nom de domaine .eco idéal"
   },
   "registered": {
     "head": "Récemment inscrit :"
   },
   "eligibility": {
-    "head": "Puis-je obtenir un nom .eco ?",
+    "head": "Puis-je obtenir un nom .eco ?",
     "text": [
-      "<p><strong>Oui, vous pouvez!</strong> Si vous vous souciez de la planète, un nom de domaine .eco est un excellent moyen de le montrer. Vous pouvez obtenir un nom de domaine .eco pour votre entreprise, votre organisation à but non lucratif ou pour vous-même.</p>",
-      "<p>Pour être éligible à un .eco vous devez :</p>",
+      "<p><strong>Oui, vous pouvez !</strong> Si vous vous souciez de la planète, adopter un nom de domaine .eco est un excellent moyen de le montrer. Vous pouvez obtenir un nom de domaine .eco pour votre entreprise, votre organisation à but non lucratif ou pour vous-même.</p>",
+      "<p>Pour tre éligible à l'utilisation d'un domaine .eco, vous devez :</p>",
       "<ul>",
-      "<li>S&#39;engager à travailler pour un avenir durable</li>",
-      "<li>Soyez prêt à divulguer les actions environnementales que vous entreprenez</li>",
+      "<li>Vous engager à travailler pour un avenir durable</li>",
+      "<li>Etre prêt à divulguer les actions environnementales que vous entreprenez</li>",
       "</ul>",
       "<p>Si vous avez des questions ou des préoccupations concernant votre admissibilité, <a class=\"chat-link\" href=\"#\">veuillez nous contacter</a> .</p>"
     ]
@@ -51,20 +51,20 @@
     "text": [
       "<p>Obtenez votre nom de domaine .eco en 4 étapes simples :</p>",
       "<ol>",
-      "<li><a href=\"#input-search\">Recherchez votre nom parfait</a></li>",
+      "<li><a href=\"#input-search\">Recherchez votre nom idéal</a></li>",
       "<li>Achetez-le chez votre revendeur préféré</li>",
-      "<li>Prenez l&#39; <a href=\"/about/system/\">engagement .eco</a> et créez votre <a href=\"https://profiles.eco\">profil .eco</a></li>",
-      "<li>Configurer et lancer votre site Web</li>",
+      "<li><a href=\"/about/system/\">Engagez-vous auprès de .eco</a> et créez votre <a href=\"https://profiles.eco\">profil .eco</a></li>",
+      "<li>Configurez et lancez votre site web</li>",
       "</ol>"
     ]
   },
   "support": {
-    "head": "Soutien",
+    "head": "Assistance",
     "text": [
-      "<p>Faites-nous savoir si vous avez des questions sur .eco !",
-      "<a class=\"chat-link\" href=\"#\">Nous sommes disponibles pour discuter</a> pendant les heures ouvrables, heure du <strong>Pacifique</strong> .",
+      "<p>Si vous avez des questions sur .eco, n'hésitez pas à nous contacter !",
+      "<a class=\"chat-link\" href=\"#\">Nous sommes disponibles pour discuter</a> pendant les heures ouvrables, fuseau horaire du <strong>Pacifique</strong> .",
       "Vous pouvez également nous laisser un message et nous essaierons de vous répondre dans un délai d'un jour ouvrable.",
-      "Vous pouvez également consulter les articles d&#39;assistance sur le <a href=\"https://support.go.eco\">site d&#39;assistance .eco</a> .</p>"
+      "Vous pouvez aussi consulter les articles d&#39;aide sur notre <a href=\"https://support.go.eco\">site d&#39;assistance .eco</a> .</p>"
     ]
   }
 }
