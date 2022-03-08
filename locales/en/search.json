@@ -25,7 +25,8 @@
     "region": "Region",
     "envPolicy": "Environmental policy",
     "language": "Language",
-    "currency": "Currency"
+    "currency": "Currency",
+    "noRegistrars": "<p class=\"no-registrars\">No retailers currently match these filter criteria.</p>"
   },
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> is available",

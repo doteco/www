@@ -81,7 +81,7 @@ active: registrars
 
 <script src="/{{ fingerprint.[js/domain-search.js] }}"></script>
 <script>
-	if (typeof domainSearch === 'function') {
+	if (typeof fetchRegistrars === 'function') {
 		function registrarColHtml (registrars) {
 			const registrarHtml = registrars.map(function (registrar) {
 				return '<li><a data-registrar="' + registrar.registrar + '" rel="noopener" href="' + registrar.url + '">' + registrar.label + '</a></li>'

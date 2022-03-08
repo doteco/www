@@ -25,7 +25,8 @@
     "region": "Région",
     "envPolicy": "Politique environnementale",
     "language": "Langue",
-    "currency": "Devise"
+    "currency": "Devise",
+    "noRegistrars": "<p class=\"no-registrars\">Aucun détaillant ne correspond actuellement à ces critères de filtrage.</p>"
   },
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> est disponible",

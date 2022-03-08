@@ -24,12 +24,18 @@ window.domainSearch = function (config) {
     return itemsUnique.map(item => ({ value: item, label: labels[item] || item }))
   }
 
-  function filterRegistrars (registrars) {
+  function changeFilter (registrars) {
+    const filters = filterRegistrars(registrars, searchDomain())
+    console.log('Filters:', filters)
+    config.onFilter(filters)
+  }
+
+  function filterRegistrars (registrars, domain) {
     const policyFilter = document.querySelector('#filter-policy').value
     const currencyFilter = document.querySelector('#filter-currency').value
     const languageFilter = document.querySelector('#filter-language').value
     const regionFilter = document.querySelector('#filter-region').value
-    console.log('Filters:', regionFilter, languageFilter, currencyFilter, policyFilter)
+
     let filteredRegistrars = registrars
     if (regionFilter.length > 0) {
       filteredRegistrars = filteredRegistrars.filter(registrar => registrar.region.includes(regionFilter))
@@ -43,8 +49,8 @@ window.domainSearch = function (config) {
     if (policyFilter.length > 0) {
       filteredRegistrars = filteredRegistrars.filter(registrar => registrar.envPolicy)
     }
-    showAllRegistrars(filteredRegistrars, searchDomain())
-    config.onFilter([regionFilter, languageFilter, currencyFilter, policyFilter])
+    showAllRegistrars(filteredRegistrars, domain)
+    return [regionFilter, languageFilter, currencyFilter, policyFilter]
   }
 
   function addFilters (registrars) {
@@ -57,17 +63,26 @@ window.domainSearch = function (config) {
     const envPolicy = [{ value: 'Yes', label: config.envPolicyLabels.Yes }]
 
     const { filterLabels, filterDefaults } = config
+
+    const urlParams = new URLSearchParams(window.location.search)
+    const envPolicyDefault = urlParams.has('envPolicy') ? envPolicy[0].value : filterDefaults.envPolicy
+    const languageDefault = urlParams.has('lang') ? urlParams.get('lang') : filterDefaults.language
+
     registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', filterLabels.region, regions, filterDefaults.region))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', filterLabels.envPolicy, envPolicy, filterDefaults.envPolicy))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', filterLabels.language, languages, filterDefaults.language))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', filterLabels.envPolicy, envPolicy, envPolicyDefault))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', filterLabels.language, languages, languageDefault))
     registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', filterLabels.currency, currencies, filterDefaults.currency))
 
-    document.querySelectorAll('.registrar-filter').forEach(el => el.addEventListener('change', () => filterRegistrars(registrars)))
+    document.querySelectorAll('.registrar-filter').forEach(el => el.addEventListener('change', () => changeFilter(registrars)))
   }
 
   function showAllRegistrars (registrars, domain) {
     const registrarsRow = document.querySelector('.registrars-all .registrars-row')
     registrarsRow.innerHTML = ''
+    if (!registrars.length) {
+      registrarsRow.innerHTML = config.filterLabels.noRegistrars
+      return
+    }
     registrars.sort((registrar1, registrar2) => registrar2.label.localeCompare(registrar1.label))
     registrars.forEach(registrar => {
       registrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar, domain))
@@ -92,7 +107,7 @@ window.domainSearch = function (config) {
     priorityRegistrars.forEach(registrar => {
       priorityRegistrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar, domain))
     })
-    showAllRegistrars(registrars, domain)
+    filterRegistrars(registrars, domain)
   }
 
   function toggleReservedForm (isReserved, domain) {
@@ -142,8 +157,8 @@ window.domainSearch = function (config) {
         searchResultsRow.innerHTML = `<span class='domain-search-output title'>${message}</span>`
 
         const registrars = r.registrars || []
-        showRegistrars(registrars, r.domain)
         addFilters(registrars)
+        showRegistrars(registrars, r.domain)
         toggleReservedForm(r.summary === 'reserved' || r.status === 'blocked', r.domain)
       })
     }).catch(ex => {

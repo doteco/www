@@ -4,7 +4,8 @@
     "currency": "Währung",
     "envPolicy": "Umweltschutzpolitik",
     "language": "Sprache",
-    "region": "Region"
+    "region": "Region",
+    "noRegistrars": "<p class=\"no-registrars\">Derzeit entspricht kein Händler diesen Filterkriterien.</p>"
   },
   "policy": {
     "Yes": "Ja"
