@@ -2,7 +2,7 @@ window.domainSearch = function (config) {
   'use strict'
 
   function registrarLogoDiv (registrar, domain) {
-    const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + '&domain=' + encodeURIComponent(domain)
+    const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + (domain ? '&domain=' + encodeURIComponent(domain) : '')
     return `<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="${registrar.label}" class="registrar-logo" /><span class="registrar-name">${registrar.label}</span></a></div>`
   }
 
@@ -131,6 +131,10 @@ window.domainSearch = function (config) {
     return resultLabel.replace('{searchDomain}', searchDomain)
   }
 
+  function fetchSearchResults (domain, engine) {
+    return window.fetch(config.searchUrl + '/status?engine=' + engine + (domain ? '&domain=' + domain : ''))
+  }
+
   function search (domain) {
     if (!domain || domain.trim().length === 0 || domain.trim() === '.eco') {
       return false
@@ -140,8 +144,7 @@ window.domainSearch = function (config) {
 
     const searchResultsRow = document.querySelector('.search-results')
     config.onSearch(domain)
-    // return window.fetch(config.searchUrl + '/status?engine=cira&domain=' + domain).then(response => {
-    return window.fetch(config.searchUrl + '/status?domain=' + domain).then(response => {
+    return fetchSearchResults(domain, config.searchEngine).then(response => {
       if (!response.ok) {
         console.error(`Failed to load search data: ${response.statusText}`)
         searchResultsRow.innerHTML = config.resultLabels.error
@@ -193,6 +196,12 @@ window.domainSearch = function (config) {
   if (urlParams.has('domain')) {
     const domain = urlParams.get('domain')
     search(domain)
+  } else {
+    fetchSearchResults(null, config.searchEngine).then(response => response.json()).then(result => {
+      const registrars = result.registrars
+      addFilters(registrars)
+      showRegistrars(registrars)
+    })
   }
 }
 

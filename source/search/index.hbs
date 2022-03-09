@@ -92,8 +92,9 @@ exclude: true
 <script>
   if (typeof domainSearch === 'function') {
   	domainSearch({
-  		searchUrl: '{{ searchUrl }}',
-  		onSearch: function (domain) {
+      searchUrl: '{{ searchUrl }}',
+      searchEngine: 'domainr',
+      onSearch: function (domain) {
   {{#if ga-tracking-id}}
         gtag('event', 'search', {
           event_category: 'domain-search',
