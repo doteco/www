@@ -2,23 +2,23 @@
   "title": "Recherchez un domaine .eco pour créer le vôtre",
   "description": "Recherchez un domaine .eco et choisissez votre bureau d'enregistrement pour l'acheter.",
   "search": {
-    "head": "Trouvez votre nom .eco parfait",
-    "cta": "Chercher"
+    "head": "Trouvez votre nom .eco idéal",
+    "cta": "Rechercher"
   },
   "registrars": {
-    "head1": "Nos meilleurs détaillants",
-    "head2": "Trouver un détaillant"
+    "head1": "Nos meilleurs revendeurs",
+    "head2": "Trouver un revendeur"
   },
   "reserved": {
-    "head": "Intéressé par ce prénom ?",
+    "head": "Intéressé par ce nom ?",
     "text": "Remplissez le formulaire ci-dessous et nous ferons de notre mieux pour vous répondre dans les 2 jours ouvrables.",
     "cta": "Nous contacter",
     "cta2": "Envoi en cours",
     "nameField": "Nom",
-    "nameFieldError": "S'il vous plait entrez votre nom entier.",
+    "nameFieldError": "Veuillez saisir votre nom complet.",
     "emailField": "E-mail",
-    "emailFieldError": "S'il vous plaît, mettez une adresse email valide.",
-    "thanks": "Merci de m'avoir contacté! Nous reviendrons vers vous bientôt.",
+    "emailFieldError": "Veuillez saisir une adresse e-mail valide.",
+    "thanks": "Merci de nous avoir contactés ! Nous reviendrons vers vous très bientôt.",
     "title": "Formulaire de nom réservé"
   },
   "filters": {
@@ -31,16 +31,16 @@
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> est disponible",
     "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> est déjà pris.<br/> Veuillez essayer un autre nom .eco",
-    "invalid": "<span class=\"searched-domain\">{searchDomain}</span> est un nom non valide.<br/> Les domaines .eco ne peuvent inclure que les caractères suivants :<br/> <strong>AZ</strong> , <strong>chiffres</strong> ou <strong>traits d&#39;union</strong> .<br/> Veuillez essayer un autre nom.",
+    "invalid": "<span class=\"searched-domain\">{searchDomain}</span> n'est pas valide.<br/> Les domaines .eco ne peuvent inclure que les caractères suivants :<br/> <strong>A - Z</strong>, <strong>chiffres</strong> ou <strong>trait d'union</strong>.<br/> Veuillez essayer un autre nom.",
     "error": "Erreur lors de la recherche du nom de domaine. Veuillez réessayer plus tard.",
-    "reserved": "<span class=\"searched-domain\">{searchDomain}</span> est un nom génial !<br/> Veuillez nous contacter au sujet des prix."
+    "reserved": "<span class=\"searched-domain\">{searchDomain}</span> est un super nom !<br/> Veuillez nous contacter au sujet du prix."
   },
   "region": {
     "Africa": "Afrique",
     "Asia": "Asie",
     "Australasia": "Australasie",
-    "Europe": "L'Europe",
-    "Global": "Global",
+    "Europe": "Europe",
+    "Global": "International",
     "Middle East": "Moyen-Orient",
     "North America": "Amérique du Nord",
     "South America": "Amérique du Sud"
