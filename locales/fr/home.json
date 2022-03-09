@@ -35,21 +35,21 @@
     "head": "Récemment inscrit :"
   },
   "eligibility": {
-    "head": "Puis-je obtenir un nom .eco ?",
+    "head": "Puis-je obtenir un nom .eco&nbsp;?",
     "text": [
       "<p><strong>Oui, vous pouvez !</strong> Si vous vous souciez de la planète, adopter un nom de domaine .eco est un excellent moyen de le montrer. Vous pouvez obtenir un nom de domaine .eco pour votre entreprise, votre organisation à but non lucratif ou pour vous-même.</p>",
-      "<p>Pour être éligible à l'utilisation d'un domaine .eco, vous devez :</p>",
+      "<p>Pour être éligible à l'utilisation d'un domaine .eco, vous devez&nbsp;:</p>",
       "<ul>",
       "<li>Vous engager à travailler pour un avenir durable</li>",
       "<li>Etre prêt à divulguer les actions environnementales que vous entreprenez</li>",
       "</ul>",
-      "<p>Si vous avez des questions ou des préoccupations concernant votre admissibilité, <a class=\"chat-link\" href=\"#\">veuillez nous contacter</a> .</p>"
+      "<p>Si vous avez des questions ou des préoccupations concernant votre admissibilité, <a class=\"chat-link\" href=\"#\">veuillez nous contacter</a>&nbsp;.</p>"
     ]
   },
   "purchase": {
-    "head": "Comment obtenir mon nom .eco ?",
+    "head": "Comment obtenir mon nom .eco&nbsp;?",
     "text": [
-      "<p>Obtenez votre nom de domaine .eco en 4 étapes simples :</p>",
+      "<p>Obtenez votre nom de domaine .eco en 4 étapes simples&nbsp;:</p>",
       "<ol>",
       "<li><a href=\"#input-search\">Recherchez votre nom idéal</a></li>",
       "<li>Achetez-le chez votre revendeur préféré</li>",
@@ -61,10 +61,10 @@
   "support": {
     "head": "Assistance",
     "text": [
-      "<p>Si vous avez des questions sur .eco, n'hésitez pas à nous contacter !",
-      "<a class=\"chat-link\" href=\"#\">Nous sommes disponibles pour discuter</a> pendant les heures ouvrables, fuseau horaire du <strong>Pacifique</strong> .",
+      "<p>Si vous avez des questions sur .eco, n'hésitez pas à nous contacter&nbsp;!",
+      "<a class=\"chat-link\" href=\"#\">Nous sommes disponibles pour discuter</a> pendant les heures ouvrables, fuseau horaire du <strong>Pacifique</strong>&nbsp;.",
       "Vous pouvez également nous laisser un message et nous essaierons de vous répondre dans un délai d'un jour ouvrable.",
-      "Vous pouvez aussi consulter les articles d&#39;aide sur notre <a href=\"https://support.go.eco\">site d&#39;assistance .eco</a> .</p>"
+      "Vous pouvez aussi consulter les articles d&#39;aide sur notre <a href=\"https://support.go.eco\">site d&#39;assistance .eco</a>&nbsp;.</p>"
     ]
   }
 }
