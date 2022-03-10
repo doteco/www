@@ -105,15 +105,16 @@ window.domainSearch = function (config) {
 
   function showRegistrars (registrars, domain) {
     const filters = getFilterValues()
-    const priorityRegistrars = filterRegistrars(registrars.filter(registrar => registrar.priority), filters)
-    priorityRegistrars.sort((registrar1, registrar2) => registrar2.priority - registrar1.priority)
+    let priorityRegistrars = filterRegistrars(registrars.filter(registrar => registrar.priority), filters)
+    priorityRegistrars.sort((registrar1, registrar2) => registrar1.priority - registrar2.priority)
+    priorityRegistrars = priorityRegistrars.slice(0, 6)
 
     document.querySelectorAll('.registrars').forEach(el => toggleVisibility(el, registrars.length))
 
     const priorityRegistrarsRow = document.querySelector('.registrars-priority .row')
     priorityRegistrarsRow.innerHTML = ''
     priorityRegistrars.forEach(registrar => {
-      priorityRegistrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar, domain))
+      priorityRegistrarsRow.insertAdjacentHTML('beforeend', registrarLogoDiv(registrar, domain))
     })
     const filteredRegistrars = filterRegistrars(registrars, filters)
     showAllRegistrars(filteredRegistrars, domain)
