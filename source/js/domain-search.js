@@ -8,7 +8,7 @@ window.domainSearch = function (config) {
 
   function generateFilterHtml (id, defaultItem, items, defaultValue) {
     const options = items.map(item => `<option value="${item.value}"${item.value === defaultValue ? 'selected' : ''}>${item.label}</option>`)
-    return `<div class="col-sm-3"><select id="${id}" class="custom-select registrar-filter"><option value="" selected>${defaultItem}</option>${options}</select></div>`
+    return `<div class="col-sm-3 registrar-filter"><label for="${id}">${defaultItem}</label><select id="${id}" name="${id}" class="custom-select registrar-select" title="${defaultItem}"><option value="" selected>---</option>${options}</select></div>`
   }
 
   function searchDomain () {
@@ -53,6 +53,11 @@ window.domainSearch = function (config) {
     return [regionFilter, languageFilter, currencyFilter, policyFilter]
   }
 
+  function getFilterDefault (filter) {
+    const urlParams = new URLSearchParams(window.location.search)
+    return urlParams.has(filter) ? urlParams.get(filter) : config.filterDefaults[filter]
+  }
+
   function addFilters (registrars) {
     const registrarsFilterRow = document.querySelector('.registrars-filter')
     registrarsFilterRow.innerHTML = ''
@@ -62,16 +67,11 @@ window.domainSearch = function (config) {
     const regions = uniqueFilterItems(registrars, 'region', config.regionLabels)
     const envPolicy = [{ value: 'Yes', label: config.envPolicyLabels.Yes }]
 
-    const { filterLabels, filterDefaults } = config
-
-    const urlParams = new URLSearchParams(window.location.search)
-    const envPolicyDefault = urlParams.has('envPolicy') ? envPolicy[0].value : filterDefaults.envPolicy
-    const languageDefault = urlParams.has('lang') ? urlParams.get('lang') : filterDefaults.language
-
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', filterLabels.region, regions, filterDefaults.region))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', filterLabels.envPolicy, envPolicy, envPolicyDefault))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', filterLabels.language, languages, languageDefault))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', filterLabels.currency, currencies, filterDefaults.currency))
+    const filterLabels = config.filterLabels
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', filterLabels.region, regions, getFilterDefault('region')))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', filterLabels.envPolicy, envPolicy, getFilterDefault('envPolicy')))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', filterLabels.language, languages, getFilterDefault('language')))
+    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', filterLabels.currency, currencies, getFilterDefault('currency')))
 
     document.querySelectorAll('.registrar-filter').forEach(el => el.addEventListener('change', () => changeFilter(registrars)))
   }

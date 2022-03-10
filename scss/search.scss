@@ -51,7 +51,15 @@
 }
 
 .registrar-filter {
-	margin: 2rem;
+	padding: 2rem;
+}
+
+.registrar-filter label {
+	display: block
+}
+
+.registrar-select {
+	min-width: 16rem;
 }
 
 .registrar-button {
@@ -90,4 +98,5 @@
 
 .no-registrars {
 	text-align: center;
+	font-weight: bold;
 }
