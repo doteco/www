@@ -25,16 +25,24 @@ window.domainSearch = function (config) {
   }
 
   function changeFilter (registrars) {
-    const filters = filterRegistrars(registrars, searchDomain())
+    const filters = getFilterValues()
     console.log('Filters:', filters)
     config.onFilter(filters)
+
+    const filteredRegistrars = filterRegistrars(registrars, filters)
+    showAllRegistrars(filteredRegistrars, searchDomain())
   }
 
-  function filterRegistrars (registrars, domain) {
+  function getFilterValues () {
     const policyFilter = document.querySelector('#filter-policy').value
     const currencyFilter = document.querySelector('#filter-currency').value
     const languageFilter = document.querySelector('#filter-language').value
     const regionFilter = document.querySelector('#filter-region').value
+    return [regionFilter, languageFilter, currencyFilter, policyFilter]
+  }
+
+  function filterRegistrars (registrars, filters) {
+    const [regionFilter, languageFilter, currencyFilter, policyFilter] = filters
 
     let filteredRegistrars = registrars
     if (regionFilter.length > 0) {
@@ -49,8 +57,7 @@ window.domainSearch = function (config) {
     if (policyFilter.length > 0) {
       filteredRegistrars = filteredRegistrars.filter(registrar => registrar.envPolicy)
     }
-    showAllRegistrars(filteredRegistrars, domain)
-    return [regionFilter, languageFilter, currencyFilter, policyFilter]
+    return filteredRegistrars
   }
 
   function getFilterDefault (filter) {
@@ -97,7 +104,8 @@ window.domainSearch = function (config) {
   }
 
   function showRegistrars (registrars, domain) {
-    const priorityRegistrars = registrars.filter(registrar => registrar.priority)
+    const filters = getFilterValues()
+    const priorityRegistrars = filterRegistrars(registrars.filter(registrar => registrar.priority), filters)
     priorityRegistrars.sort((registrar1, registrar2) => registrar2.priority - registrar1.priority)
 
     document.querySelectorAll('.registrars').forEach(el => toggleVisibility(el, registrars.length))
@@ -107,7 +115,8 @@ window.domainSearch = function (config) {
     priorityRegistrars.forEach(registrar => {
       priorityRegistrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar, domain))
     })
-    filterRegistrars(registrars, domain)
+    const filteredRegistrars = filterRegistrars(registrars, filters)
+    showAllRegistrars(filteredRegistrars, domain)
   }
 
   function toggleReservedForm (isReserved, domain) {
