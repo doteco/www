@@ -236,6 +236,11 @@ if ('undefined' !== typeof jQuery) {
 			return response.json()
 		}).then(function (domains) {
 			return showRecent(domains, 0)
+		}).catch(function (err) {
+				console.error('Unable to fetch recent domains.', err)
+				if (err.name !== 'TypeError') { // ignore network errors
+					window.Sentry && window.Sentry.captureException(err)
+				}
 		})
 	} else {
 		document.querySelector('.section.recent').style.display = 'none'

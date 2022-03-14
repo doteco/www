@@ -156,7 +156,9 @@ window.domainSearch = function (config) {
     config.onSearch(domain)
     return fetchSearchResults(domain, config.searchEngine).then(response => {
       if (!response.ok) {
-        console.error(`Failed to load search data: ${response.statusText}`)
+        const errorMessage = 'Failed to load search data: ' + response.statusText
+        console.error(errorMessage)
+        window.Sentry && window.Sentry.captureException(new Error(errorMessage))
         searchResultsRow.innerHTML = config.resultLabels.error
       }
 
@@ -175,8 +177,11 @@ window.domainSearch = function (config) {
         toggleReservedForm(r.summary === 'reserved' || r.status === 'blocked', r.domain)
       })
     }).catch(ex => {
-      console.error(`Failed to load search data: ${ex}`)
+      console.error('Failed to load search data: ' + ex)
       console.error(ex)
+      if (ex.name !== 'TypeError') { // ignore network errors
+        window.Sentry && window.Sentry.captureException(ex)
+      }
       searchResultsRow.innerHTML = config.resultLabels.error
     })
   }
