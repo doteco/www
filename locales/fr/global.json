@@ -23,7 +23,8 @@
       "head": "Ressources",
       "items": [
         "<a href=\"/about/system/\">À propos de .eco</a>",
-        "<a href=\"/about/story/\">Notre histoire</a>"
+        "<a href=\"/about/story/\">Notre histoire</a>",
+        "<a href=\"/champions/\">Champions .eco</a>"
       ]
     },
     {
