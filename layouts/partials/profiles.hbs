@@ -1,6 +1,5 @@
 <div class="community-profiles__container grid grid--m1d2">
-  {{#each featuredProfiles as |profile| }}
-  {{#if profile.priority }}
+  {{#each profiles as |profile| }}
   <div class="grid__cell">
     <a href="https://profiles.eco/{{profile.domain}}" class="profile-tile" data-custom-bg="true" style="background-image: url('{{profile.img}}')">
       <div class="profile-tile__wrapper">
@@ -12,7 +11,6 @@
       <p class="profile-tile-details__section"><span class="profile-type__section"><img src="https://cdn.profiles.eco/img/icons/org-type/{{typeIcon profile.type}}" class="profile-type__icon" alt="{{ profile.type}} icon" loading="lazy"/>{{../t (concat 'global:profile-types.' profile.type)}}</span><span class="profile-type__section"><span class="profile-type__globe glyphicon glyphicon-globe"></span>{{profile.location}}</span></p>
     </div>
   </div>
-  {{/if}}
   {{/each}}
 </div>
 

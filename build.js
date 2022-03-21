@@ -22,8 +22,9 @@ const filterDefaults = ({
   fr: { language: 'Français' },
   de: { language: 'Deutsch' }
 })[lang]
-const featuredProfiles = require(`./locales/${lang}/featured-profiles.json`)
-featuredProfiles.sort((a, b) => a.priority - b.priority)
+const allProfiles = require(`./locales/${lang}/featured-profiles.json`)
+const priorityProfiles = allProfiles.filter(p => p.priority > 0).sort((a, b) => a.priority - b.priority)
+const featuredProfiles = [...allProfiles].sort((a, b) => a.domain.localeCompare(b.domain))
 
 console.log('Building for environment:', env, lang)
 
@@ -113,7 +114,8 @@ const ms = Metalsmith(__dirname)
     lang,
     sites: options['site-url'],
     filterDefaults,
-    featuredProfiles
+    featuredProfiles,
+    priorityProfiles
   })
   .source('./source')
   .destination(dest)
