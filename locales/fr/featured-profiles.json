@@ -5,7 +5,7 @@
     "img": "https://cdn.profiles.eco/images/burdock.eco/95bac84f-95ab-43a5-acc6-bfd525c40ad7_1500x500.jpeg",
     "type": "nonprofit",
     "location": "Ukraine",
-    "priority": "1"
+    "priority": "2"
   },
   {
     "domain": "mico.eco",
@@ -13,7 +13,7 @@
     "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
     "type": "nonprofit",
     "location": "États-Unis",
-    "priority": "3"
+    "priority": "5"
   },
   {
     "domain": "current.eco",
@@ -21,7 +21,7 @@
     "img": "https://cdn.profiles.eco/images/current.eco/3f4a0566-7df4-452d-85cd-55b325afd402_1500x500.jpeg",
     "type": "business",
     "location": "Norvège",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "preserve.eco",
@@ -29,7 +29,7 @@
     "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
     "type": "business",
     "location": "États-Unis",
-    "priority": "4"
+    "priority": "6"
   },
   {
     "domain": "leap.eco",
@@ -53,7 +53,7 @@
     "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
     "type": "business",
     "location": "Danemark",
-    "priority": "6"
+    "priority": "4"
   },
   {
     "domain": "bleu.eco",
@@ -61,7 +61,7 @@
     "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
     "type": "business",
     "location": "Canada",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "beep.eco",
@@ -70,5 +70,13 @@
     "type": "business",
     "location": "Canada",
     "priority": ""
+  },
+  {
+    "domain": "ecofario.eco",
+    "story": "Les microplastiques polluent nos cours d&#39;eau, nos lacs et nos océans. <a href=\"https://ecofario.eco/\">ECOFARIO</a> a développé un nouveau procédé pour réduire significativement les particules de microplastiques rejetées dans l&#39;environnement.",
+    "img": "https://cdn.profiles.eco/images/ecofario.eco/5dd35d31-21f5-47af-b7e8-a1e5e6590908_1500x500.jpeg",
+    "type": "business",
+    "location": "Allemagne",
+    "priority": "1"
   }
 ]

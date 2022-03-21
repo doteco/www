@@ -5,7 +5,7 @@
     "img": "https://cdn.profiles.eco/images/burdock.eco/95bac84f-95ab-43a5-acc6-bfd525c40ad7_1500x500.jpeg",
     "type": "nonprofit",
     "location": "Ukraine",
-    "priority": "1"
+    "priority": "2"
   },
   {
     "domain": "mico.eco",
@@ -13,7 +13,7 @@
     "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
     "type": "nonprofit",
     "location": "Vereinigte Staaten",
-    "priority": "2"
+    "priority": "5"
   },
   {
     "domain": "current.eco",
@@ -29,7 +29,7 @@
     "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
     "type": "business",
     "location": "Vereinigte Staaten",
-    "priority": ""
+    "priority": "6"
   },
   {
     "domain": "leap.eco",
@@ -37,7 +37,7 @@
     "img": "https://cdn.profiles.eco/images/leap.eco/5eddd04e-44ba-4834-a737-7fa72880c7a7_1500x500.jpeg",
     "type": "business",
     "location": "Vereinigtes Königreich",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "supplychainresearch.eco",
@@ -49,7 +49,7 @@
   },
   {
     "domain": "grunbag.eco",
-    "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> stellt hochwertige Taschen her, die lange halten, und verwendet nur langlebige Materialien, um zukünftigen Abfall zu reduzieren.",
+    "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> stellt hochwertige Taschen her, die lange halten, und verwendet nur langlebige, recycelte Materialien, um zukünftigen Abfall zu reduzieren.",
     "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
     "type": "business",
     "location": "Dänemark",
@@ -61,7 +61,7 @@
     "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
     "type": "business",
     "location": "Kanada",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "beep.eco",
@@ -70,5 +70,13 @@
     "type": "business",
     "location": "Kanada",
     "priority": ""
+  },
+  {
+    "domain": "ecofario.eco",
+    "story": "Mikroplastik verschmutzt unsere Flüsse, Seen und Ozeane. <a href=\"https://ecofario.eco/\">ECOFARIO</a> hat ein neues Verfahren entwickelt, um die in die Umwelt freigesetzten Mikroplastikpartikel deutlich zu reduzieren.",
+    "img": "https://cdn.profiles.eco/images/ecofario.eco/5dd35d31-21f5-47af-b7e8-a1e5e6590908_1500x500.jpeg",
+    "type": "business",
+    "location": "Deutschland",
+    "priority": "1"
   }
 ]
