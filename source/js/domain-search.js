@@ -20,7 +20,7 @@ window.domainSearch = function (config) {
       return registrar[field]
     })
     const itemsUnique = Array.from(new Set(itemsAll.flat())).filter(item => item.length > 0)
-    itemsUnique.sort()
+    itemsUnique.sort((a, b) => a.localeCompare(b))
     return itemsUnique.map(item => ({ value: item, label: labels[item] || item }))
   }
 
