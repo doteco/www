@@ -5,7 +5,7 @@
     "img": "https://cdn.profiles.eco/images/burdock.eco/95bac84f-95ab-43a5-acc6-bfd525c40ad7_1500x500.jpeg",
     "type": "nonprofit",
     "location": "Ukraine",
-    "priority": "2"
+    "priority": "6"
   },
   {
     "domain": "mico.eco",
@@ -29,7 +29,7 @@
     "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
     "type": "business",
     "location": "USA",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "leap.eco",
@@ -77,6 +77,14 @@
     "img": "https://cdn.profiles.eco/images/ecofario.eco/5dd35d31-21f5-47af-b7e8-a1e5e6590908_1500x500.jpeg",
     "type": "business",
     "location": "Germany",
+    "priority": "2"
+  },
+  {
+    "domain": "geca.eco",
+    "story": "<a href=\"https://geca.eco/\">GECA (Global Environmental Choice Australia)</a> is a globally trusted ecolabel that helps purchasers know that products and services are better for the environment.",
+    "img": "https://cdn.profiles.eco/images/geca.eco/46494a07-f049-4d1b-ad11-3326346a3db1_1500x500.jpg",
+    "type": "nonprofit",
+    "location": "Australia",
     "priority": "1"
   }
 ]

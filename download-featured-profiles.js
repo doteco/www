@@ -97,7 +97,10 @@ getSpreadSheetValues(
 }).then(profiles => {
   return Promise.all(['en', 'fr', 'de'].map(async locale => {
     const localizedProfiles = await Promise.all(profiles.map(async p => {
-      const localizedStory = await translate(p.story, locale)
+      let localizedStory = await translate(p.story, locale)
+      if (locale === 'fr') {
+        localizedStory = localizedStory.replace(/\s,/g, '&nbsp;,')
+      }
       const localizedLocation = await translate(p.location, locale)
       return {
         domain: p.domain,
