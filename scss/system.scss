@@ -26,11 +26,11 @@
 	}
 
 	.grid--m2d2 > .grid__cell {
-		flex: 0 0 (100% / 2);
+		flex: 0 0 calc(100% / 2);
 	}
 
 	.grid--m2d3 > .grid__cell {
-		flex: 0 0 (100% / 2);
+		flex: 0 0 calc(100% / 2);
 	}
 
 	.grid--m1d3 > .grid__cell {
@@ -38,7 +38,7 @@
 	}
 
 	.grid--m2d4 > .grid__cell {
-		flex: 0 0 (100% / 2);
+		flex: 0 0 calc(100% / 2);
 	}
 
 	.profile-tile {
@@ -180,23 +180,23 @@
 		}
 
 		.grid--m1d2 > .grid__cell {
-			flex: 0 0 (100% / 2); // 2 per row
+			flex: 0 0 calc(100% / 2); // 2 per row
 		}
 
 		.grid--m1d3 > .grid__cell {
-			flex: 0 0 (100% / 3); // 3 per row
+			flex: 0 0 calc(100% / 3); // 3 per row
 		}
 
 		.grid--m2d2 > .grid__cell {
-			flex: 0 0 (100% / 2);
+			flex: 0 0 calc(100% / 2);
 		}
 
 		.grid--m2d3 > .grid__cell {
-			flex: 0 0 (100% / 3);
+			flex: 0 0 calc(100% / 3);
 		}
 
 		.grid--m2d4 > .grid__cell {
-			flex: 0 0 (100% / 4);
+			flex: 0 0 calc(100% / 4);
 		}
 	}
 }

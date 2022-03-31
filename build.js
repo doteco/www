@@ -5,7 +5,7 @@ const discoverPartials = require('metalsmith-discover-partials')
 const inplace = require('@metalsmith/in-place')
 const fingerprint = require('metalsmith-fingerprint-ignore')
 const layouts = require('@metalsmith/layouts')
-const sass = require('metalsmith-sass')
+const sass = require('@metalsmith/sass')
 const serve = require('metalsmith-serve')
 const sitemap = require('metalsmith-sitemap')
 const redirect = require('metalsmith-redirect')
@@ -124,9 +124,10 @@ const ms = Metalsmith(__dirname)
     directory: './helpers'
   }))
   .use(sass({
-    includePaths: ['./scss'],
-    outputDir: 'css',
-    outputStyle: 'compressed',
+    entries: {
+      './scss/main.scss': 'css/main.css'
+    },
+    style: 'compressed',
     sourceMap: true,
     sourceMapContents: true
   }))

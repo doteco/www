@@ -1,4 +1,0 @@
-// rotate
-@mixin rotate($deg) {
-	@include transform(rotate(#{$deg}deg));
-}
