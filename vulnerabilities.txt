@@ -1,0 +1,9 @@
+NAME                  INSTALLED  FIXED-IN  VULNERABILITY        SEVERITY 
+jquery                3.6.0                CVE-2007-2379        Medium    
+node-static           0.7.11               GHSA-8r4g-cg4m-x23c  Medium    
+semver-regex          2.0.0                CVE-2021-3795        High      
+semver-regex          2.0.0      3.1.3     GHSA-44c6-4v22-4mhx  Medium    
+sitemap               1.13.0               CVE-2021-24192       High      
+slash                 3.0.0                CVE-2002-1647        Medium    
+through               2.3.8                CVE-2021-29940       Critical  
+websocket-extensions  0.1.4                CVE-2020-7663        High      
