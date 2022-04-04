@@ -16,7 +16,8 @@
       "items": [
         "<a href=\"/contact/\">Contact Us</a>",
         "<a href=\"https://support.go.eco\">Support</a>",
-        "<a href=\"http://status.bigroom.eco\">System status</a>"
+        "<a href=\"http://status.bigroom.eco\">System status</a>",
+        "<a href=\"/whois/\">Whois</a>"
       ]
     },
     {

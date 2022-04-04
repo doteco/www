@@ -1,0 +1,52 @@
+---
+title: '.eco whois'
+description: 'Look up ownership of .eco domains'
+page-path: /whois
+og-image: opengraph/tiger-og.jpg
+og-width: 1200
+og-height: 630
+active: whois
+noindex: true
+exclude: true
+---
+
+<div class="section search">
+ <div class="container">
+   <h1 class="subheader search-header">.eco whois</h1>
+
+   <form method="get" class="search-form">
+     <div class="row">
+       <div class="col-sm-2"></div>
+       <div class="col-sm-8">
+         <div class="input-group">
+           <input type="search" class="form-control domain-search" name="domain" placeholder="example.eco" autocomplete="off" autocapitalize="off" autofocus>
+           <span class="input-group-btn">
+             <button class="btn btn-search" type="submit" aria-label="search.cta"><span class="glyphicon glyphicon-search"></span></button>
+           </span>
+          </div>
+       </div>
+       <div class="col-sm-2"></div>
+     </div>
+   </form>
+ </div>
+</div>
+
+<div class="section">
+  <pre class="container whois-results">
+  </pre>
+</div>
+
+<script>
+document.querySelector('.search-form').addEventListener('submit', function (e) {
+  e.preventDefault()
+  const domainInput = document.querySelector('.domain-search')
+  let domain = domainInput.value
+  if (! domain.endsWith('.eco')) {
+    domain += '.eco'
+    domainInput.value = domain
+  }
+  window.fetch('{{ searchUrl }}/whois?domain=' + domain).then((response) => response.text()).then(function (results) {
+    document.querySelector('.whois-results').innerText = results.replace(/"/g, '').replace(/\\r\\n/g, '\r\n')
+  })
+})
+</script>
