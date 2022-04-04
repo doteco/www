@@ -10,10 +10,12 @@ noindex: true
 exclude: true
 ---
 
-<div class="section search">
+<div class="section whois">
  <div class="container">
-   <h1 class="subheader search-header">.eco whois</h1>
+   <h1 class="search-header">.eco whois</h1>
+   <p class="subheader">Check who owns a .eco domain name.</p>
 
+  
    <form method="get" class="search-form">
      <div class="row">
        <div class="col-sm-2"></div>
@@ -37,8 +39,7 @@ exclude: true
 </div>
 
 <script>
-document.querySelector('.search-form').addEventListener('submit', function (e) {
-  e.preventDefault()
+function whois () {
   const domainInput = document.querySelector('.domain-search')
   let domain = domainInput.value
   if (! domain.endsWith('.eco')) {
@@ -48,5 +49,21 @@ document.querySelector('.search-form').addEventListener('submit', function (e) {
   window.fetch('{{ searchUrl }}/whois?domain=' + domain).then((response) => response.text()).then(function (results) {
     document.querySelector('.whois-results').innerText = results.replace(/"/g, '').replace(/\\r\\n/g, '\r\n')
   })
+}
+
+document.querySelector('.search-form').addEventListener('submit', function (e) {
+  e.preventDefault()
+  whois()
 })
+
+if (URLSearchParams) {
+  const urlParams = new URLSearchParams(window.location.search)
+  if (urlParams.has('domain')) {
+    const domain = urlParams.get('domain')
+    const domainInput = document.querySelector('.domain-search')
+    domainInput.value = domain
+    whois()
+  }
+}
+
 </script>

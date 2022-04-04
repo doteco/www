@@ -1,9 +1,9 @@
-.search {
+.search, .whois {
 	background-color: $doteco-sapphire;
 }
 
-.search-header {
-	color: white !important;
+#doteco .search-header {
+	color: white;
 	text-align: center;
 }
 
@@ -99,4 +99,10 @@
 .no-registrars {
 	text-align: center;
 	font-weight: bold;
+}
+
+.whois .subheader {
+	color: $doteco-citrine;
+	text-align: center;
+	font-size: smaller;
 }

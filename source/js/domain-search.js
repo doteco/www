@@ -138,7 +138,7 @@ window.domainSearch = function (config) {
     } else if (r.summary === 'reserved' || r.status === 'blocked') {
       resultLabel = config.resultLabels.reserved
     }
-    return resultLabel.replace('{searchDomain}', searchDomain)
+    return resultLabel.replaceAll('{searchDomain}', searchDomain)
   }
 
   function fetchSearchResults (domain, engine) {
