@@ -179,9 +179,11 @@ window.domainSearch = function (config) {
     }).catch(ex => {
       console.error('Failed to load search data: ' + ex)
       console.error(ex)
-      if (ex.name !== 'TypeError') { // ignore network errors
-        window.Sentry && window.Sentry.captureException(ex)
-      }
+      window.Sentry && window.Sentry.captureException(ex, {
+        extra: {
+          ctx: 'Failed to fetch search data',
+        }
+      })
       searchResultsRow.innerHTML = config.resultLabels.error
     })
   }
