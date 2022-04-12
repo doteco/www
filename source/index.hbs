@@ -107,7 +107,7 @@ faq: true
 
 			<div class="col-md-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 				<h3 itemprop="name">{{{t 'purchase.head'}}}</h3>
-				<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text"></div>{{{t 'purchase.text' joinArrays=''}}}</div></div>
+				<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text">{{{t 'purchase.text' joinArrays=''}}}</div></div>
 			</div>
 		</div>
 	</div>
@@ -115,10 +115,12 @@ faq: true
 
 <div class="section home-orgs inverted">
 	<div class="container">
-		<div class="section-label">{{{t 'global:partners.head'}}}</div>
-		<h2>{{{t 'global:partners.subhead'}}}</h2>
+		<div class="section-label" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">{{{t 'global:partners.head'}}}</div>
+		<h2 itemprop="name">{{{t 'global:partners.subhead'}}}</h2>
 
-		<p>{{t 'global:partners.text'}}</p>
+		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+			<p itemprop="text">{{{t 'global:partners.text'}}}</p>
+		</div>
 
 		{{> logos }}
 	</div>
