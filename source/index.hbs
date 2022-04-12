@@ -114,8 +114,8 @@ faq: true
 </div>
 
 <div class="section home-orgs inverted">
-	<div class="container">
-		<div class="section-label" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">{{{t 'global:partners.head'}}}</div>
+	<div class="container" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+		<div class="section-label">{{{t 'global:partners.head'}}}</div>
 		<h2 itemprop="name">{{{t 'global:partners.subhead'}}}</h2>
 
 		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -127,8 +127,9 @@ faq: true
 </div>
 
 <div class="section home-who">
-	<div class="container">
-		<div class="section-label"><a href="https://profiles.eco">{{{t 'global:members.head'}}}</a></div>
+	<div class="container" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+		<div class="section-label" itemprop="name"><a href="/champions">{{{t 'global:members.head'}}}</a></div>
+		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">{{{t 'global:members.text' }}}</p></div>
 		{{> profiles profiles=priorityProfiles }}
 	</div>
 </div>
