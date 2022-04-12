@@ -1,13 +1,13 @@
 {
-  "title": "The home of .eco, the domain for the environmental community",
-  "description": "Learn more about how you can get your own .eco domain name.",
+  "title": ".eco domains: the home of the environmental community online",
+  "description": "Find your perfect .eco domain name and join the .eco community. A .eco domain name shows that you care about the planet. .eco is the global top-level domain for the environmental community.",
   "carousel": {
     "business": {
       "head": ".eco is for businesses and products",
       "subhead": "that help people make better choices every day"
     },
     "gov": {
-      "head": ".eco is for governments and not-for-profits",
+      "head": ".eco is for governments and non-profits",
       "subhead": "that encourage positive environmental change"
     },
     "people": {
@@ -15,7 +15,7 @@
       "subhead": "who participate in and support environmental action"
     },
     "tld": {
-      "head": ".eco is a web address ending",
+      "head": ".eco is a domain name extension",
       "subhead": "for those committed to positive change for the planet"
     },
     "cop": {
