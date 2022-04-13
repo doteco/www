@@ -88,8 +88,9 @@ const sitemapLinks = () => {
       if (path.endsWith('.html')) {
         if (lang !== defaultLang && !file.i18nNamespace) {
           file.exclude = true
+        } else if (file.i18nNamespace) {
+          file.sitemapLinks = Object.entries(options['site-url']).map(e => ({ lang: e[0], url: e[1] + '/' + path.replace('index.html', '') }))
         }
-        file.sitemapLinks = Object.entries(options['site-url']).map(e => ({ lang: e[0], url: e[1] + '/' + path.replace('index.html', '') }))
       }
     }
     done()
