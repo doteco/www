@@ -101,7 +101,9 @@ getSpreadSheetValues(
       if (locale === 'fr') {
         localizedStory = localizedStory.replace(/\s,/g, '&nbsp;,')
       }
-      const localizedLocation = await translate(p.location, locale)
+      let localizedLocation = await translate(p.location, locale)
+      if (localizedLocation === 'ROYAUME-UNI') localizedLocation = 'Royaume-Uni'
+
       return {
         domain: p.domain,
         story: localizedStory,

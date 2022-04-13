@@ -5,7 +5,7 @@
     "img": "https://cdn.profiles.eco/images/burdock.eco/95bac84f-95ab-43a5-acc6-bfd525c40ad7_1500x500.jpeg",
     "type": "nonprofit",
     "location": "Ukraine",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "mico.eco",
@@ -13,7 +13,7 @@
     "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
     "type": "nonprofit",
     "location": "USA",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "current.eco",
@@ -21,7 +21,7 @@
     "img": "https://cdn.profiles.eco/images/current.eco/3f4a0566-7df4-452d-85cd-55b325afd402_1500x500.jpeg",
     "type": "business",
     "location": "Norway",
-    "priority": "3"
+    "priority": "5"
   },
   {
     "domain": "preserve.eco",
@@ -53,7 +53,7 @@
     "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
     "type": "business",
     "location": "Denmark",
-    "priority": "4"
+    "priority": "2"
   },
   {
     "domain": "bleu.eco",
@@ -77,7 +77,7 @@
     "img": "https://cdn.profiles.eco/images/ecofario.eco/5dd35d31-21f5-47af-b7e8-a1e5e6590908_1500x500.jpeg",
     "type": "business",
     "location": "Germany",
-    "priority": "2"
+    "priority": "4"
   },
   {
     "domain": "goodonyou.eco",
@@ -93,6 +93,14 @@
     "img": "https://cdn.profiles.eco/images/geca.eco/46494a07-f049-4d1b-ad11-3326346a3db1_1500x500.jpg",
     "type": "nonprofit",
     "location": "Australia",
+    "priority": "3"
+  },
+  {
+    "domain": "bumboo.eco",
+    "story": "<a href=\"https://bumboo.eco\">Bumboo</a> supplies sustainable, 100% bamboo toilet paper - and plant a tree for every roll sold.",
+    "img": "https://cdn.profiles.eco/images/bumboo.eco/79c54365-8f28-4d74-9aba-88046da8fb8f_1500x500.jpeg",
+    "type": "business",
+    "location": "UK",
     "priority": "1"
   }
 ]
