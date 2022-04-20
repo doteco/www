@@ -140,7 +140,7 @@ const ms = Metalsmith(__dirname)
   .use(i18next({
     locales: [lang],
     namespaces: ['global'],
-    pattern: '{**/*.hbs,**/*.md}',
+    pattern: '**/*.hbs',
     engine: 'handlebars',
     helpers: null,
     path: ':file',
@@ -156,6 +156,9 @@ const ms = Metalsmith(__dirname)
     }
   }))
   .use(inplace({
+    pattern: [
+      '**/*.hbs', '**/*.md.hbs'
+    ]
   }))
   .use(layouts({
     pattern: '**/*.html',

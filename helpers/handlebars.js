@@ -22,7 +22,7 @@ Handlebars.registerHelper('isoDate', date => date && date.toISOString())
 
 Handlebars.registerHelper('formatDay', date => date && dateFormat(date, 'MMM d, yyyy'))
 
-Handlebars.registerHelper('pagePath', path => path?.replace(/index.md$/, ''))
+Handlebars.registerHelper('pagePath', path => path?.replace(/index\..*$/, ''))
 
 Handlebars.registerHelper('newsColumns', index => (index % 4 === 0 || index % 4 === 3) ? 5 : 7)
 
