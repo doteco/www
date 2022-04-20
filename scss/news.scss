@@ -9,6 +9,13 @@
 		h2 {
 			font-size: 22px;
 			font-weight: normal;
+			margin-top: 6px;
+			color: $doteco-charcoal;
+		}
+
+		h3 {
+			font-size: 18px;
+			margin-bottom: 1rem;
 		}
 
 		p,
@@ -17,13 +24,8 @@
 			line-height: 28px;
 		}
 
-		blockquote,
 		p {
-			margin-top: 2.8rem;
-		}
-
-		blockquote p {
-			margin-top: 0;
+			margin-bottom: 2.8rem;
 		}
 
 		blockquote {
@@ -32,6 +34,7 @@
 
 		img {
 			width: 100%;
+			margin: 2rem 0;
 		}
 	}
 
@@ -52,7 +55,7 @@
 			color: white;
 		}
 
-		a {
+		a, p {
 			color: white;
 		}
 
@@ -81,7 +84,11 @@
 			}
 
 			p {
-				margin-top: 3.6rem;
+				margin-bottom: 3.6rem;
+			}
+
+			h3 {
+				font-size: 20px;
 			}
 		}
 

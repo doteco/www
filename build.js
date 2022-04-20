@@ -204,7 +204,7 @@ if (options.watch) {
       paths: {
         /* eslint no-template-curly-in-string: 0 */
         '${source}/**/*': '{**/*.hbs,**/*.js,**/*.md}',
-        'scss/**/*': '{main.scss,**/*.hbs}',
+        'scss/**/*': '{main.scss,**/*.hbs,**/*.md}',
         'layouts/**/*': '**/*.hbs',
         'locales/**/*': '**/*.hbs'
       },

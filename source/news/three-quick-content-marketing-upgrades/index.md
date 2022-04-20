@@ -1,0 +1,32 @@
+---
+collection: news
+title: Three Quick Content Marketing Upgrades
+excerpt: If you’re a social entrepreneur doing social media, you can take these steps right now and improve your SEO
+header-img: /img/news/laptop-notebook.jpeg
+pubdate: 2018-11-21T16:01:01.435Z
+author: Eco Domain (.eco)
+layout: article.hbs
+---
+
+# Three Quick Content Marketing Upgrades
+
+## If you’re a social entrepreneur doing social media, you can take these steps right now and improve your SEO
+
+![Laptop with notebook](/img/news/laptop-notebook.jpeg)
+
+### 1. Schedule posts using Buffer
+
+[Buffer](https://www.buffer.com) is a new tool that lets you post across your social platforms easily. The best feature is time zone auto-scheduling. Don’t send your social at the wrong time. We set our time zone to EST as that is where we get most engagement. We try to set at least one post for 11am in Europe and PT as well.
+
+
+### 2. Design social cards for your posts using Pablo
+
+[Pablo](https://pablo.buffer.com/) is a Buffer tool that lets you set up cards quickly and easily. Custom imagery dramatically increases engagement. Don’t send a post without it.
+
+### 3. Purchase and set up a custom URL shortener
+
+Almost everyone is needlessly letting social platforms shorten their URLs. Buy a custom 3 letter domain and set it up using Bit.ly. Custom URL shorteners have a much higher engagement rate (over 30% increases are possible) and are another opportunity to showcase your brand.
+
+A lot of 3-letter domains are highly priced, but if you know where to look you can find inexpensive ones. [Search for a .eco domain at go.eco](/search/) and you’ll see almost all .eco 3 letter domains are regular price, for example . **[Here’s how Bit.ly explains branded URL shorteners](https://bitly.com/pages/resources/casestudies/increasing-engagement-the-power-of-a-branded-short-domain)**.
+
+Take these three actions and you will easily outrank most other social posts in terms of quality.

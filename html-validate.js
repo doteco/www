@@ -39,7 +39,7 @@ const skip = [
 const validate = function (file) {
   return readFile(file, { encoding: 'utf8' }).then((data) => {
     const options = {
-      data: data,
+      data,
       format: 'json'
     }
 

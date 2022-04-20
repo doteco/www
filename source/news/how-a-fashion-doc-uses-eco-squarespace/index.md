@@ -31,7 +31,7 @@ Using — **Squarespace** and **Namecheap** — they pulled together a simple te
 
 Here’s how to copy River Blue:
 
-**Step 1**: Register a .eco domain — you can [search for .eco names at go.eco](/).
+**Step 1**: Register a .eco domain — you can [search for .eco names at go.eco](/search/).
 
 **Step 2**: Update your social media and email accounts to your .eco domain so they market your new online home.
 
