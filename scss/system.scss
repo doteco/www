@@ -7,7 +7,7 @@
 		background-attachment: fixed;
 
 		p {
-			font-weight: 300;
+			font-weight: normal;
 			margin: 6rem 0;
 		}
 	}
@@ -77,11 +77,11 @@
 	.profile-tile__label {
 		color: rgba(white, 0.7);
 		font-size: 2rem;
-		font-weight: 300;
+		font-weight: normal;
 		word-wrap: break-word;
 
 		strong {
-			font-weight: 400;
+			font-weight: normal;
 			color: white;
 		}
 	}
