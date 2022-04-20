@@ -37,6 +37,10 @@
 			color: white;
 		}
 
+		.active {
+			background-color: $doteco-charcoal;
+		}
+
 		.navbar-links {
 			a:hover {
 				color: $doteco-ruby;
@@ -44,13 +48,16 @@
 			}
 		}
 
-		.active {
-			color: $doteco-citrine;
-		}
+		.navbar-brand 
+		{
+			&:hover {
+				background-color: transparent;
+			}
 
-		.navbar-brand img {
-			height: 2em;
-			margin-top: -20%;
+			img {
+				height: 2em;
+				margin-top: -20%;
+			}
 		}
 
 		li {
@@ -69,14 +76,14 @@
 			}
 		}
 
+		a:hover {
+			background-color: $doteco-marrow;
+			color: $doteco-ruby;
+		}
+
 		.dropdown {
 			ul {
 				background-color: $doteco-marrow;
-			}
-
-			a:hover {
-				background-color: $doteco-marrow;
-				color: $doteco-ruby;
 			}
 
 			.dropdown-link {

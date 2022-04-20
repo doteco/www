@@ -12,6 +12,10 @@ Handlebars.registerHelper('equal', function (lvalue, rvalue, options) {
   }
 })
 
+Handlebars.registerHelper('checkActive', function (current, active) {
+  return current === active ? 'active' : ''
+})
+
 Handlebars.registerHelper('json', function (object) {
   return new Handlebars.SafeString(JSON.stringify(object))
 })
