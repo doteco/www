@@ -24,6 +24,8 @@ Handlebars.registerHelper('formatDay', date => date && dateFormat(date, 'MMM d, 
 
 Handlebars.registerHelper('pagePath', path => path?.replace(/index.md$/, ''))
 
+Handlebars.registerHelper('newsColumns', index => (index % 4 === 0 || index % 4 === 3) ? 5 : 7)
+
 Handlebars.registerHelper('typeIcon', function (typeStr) {
   switch (typeStr) {
     case 'nonprofit':
