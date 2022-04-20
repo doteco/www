@@ -1,9 +1,9 @@
-SENTRY_VERSION=6.19.1
+SENTRY_VERSION=6.19.6
 BOOTSTRAP_VERSION=3.4.1
 BOOTSTRAP_VALIDATOR_VERSION=0.11.9
 
 mkdir -p source/js/sentry/$SENTRY_VERSION/
-cp node_modules/@sentry/browser/bundles/bundle.min.js* source/js/sentry/$SENTRY_VERSION/
+cp node_modules/@sentry/browser/build/bundle.min.js* source/js/sentry/$SENTRY_VERSION/
 
 mkdir -p source/js/bootstrap/$BOOTSTRAP_VERSION/
 mkdir -p source/css/bootstrap/$BOOTSTRAP_VERSION/
