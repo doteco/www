@@ -181,7 +181,7 @@ window.domainSearch = function (config) {
       console.error(ex)
       window.Sentry && window.Sentry.captureException(ex, {
         extra: {
-          ctx: 'Failed to fetch search data',
+          ctx: 'Failed to fetch search data'
         }
       })
       searchResultsRow.innerHTML = config.resultLabels.error

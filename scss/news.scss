@@ -1,92 +1,96 @@
 #doteco {
-  article {
-    margin-bottom: 6rem;
+	article {
+		margin-bottom: 6rem;
 
-    h1 {
-      font-size: 32px;
-    }
-    h2 {
-      font-size: 22px;
-      font-weight: normal;
-    }
+		h1 {
+			font-size: 32px;
+		}
 
-    p, li {
-      font-size: 18px;
-      line-height: 28px;
-    }
+		h2 {
+			font-size: 22px;
+			font-weight: normal;
+		}
 
-    blockquote, p {
-      margin-top: 2.8rem;
-    }
+		p,
+		li {
+			font-size: 18px;
+			line-height: 28px;
+		}
 
-    blockquote p {
-      margin-top: 0;
-    }
+		blockquote,
+		p {
+			margin-top: 2.8rem;
+		}
 
-    blockquote {
-      font-style: italic;
-    }
+		blockquote p {
+			margin-top: 0;
+		}
 
-    img {
-      width: 100%;
-    }
-  }
+		blockquote {
+			font-style: italic;
+		}
 
-  .breadcrumbs {
-    margin-top: 1rem;
-  }
+		img {
+			width: 100%;
+		}
+	}
 
-  .news-headlines.container {
-    padding: 2rem 0 1rem 0;
-  }
+	.breadcrumbs {
+		margin-top: 1rem;
+	}
 
-  .news-tile {
-    min-height: 300px;
-    margin-bottom: 1rem;
+	.news-headlines.container {
+		padding: 2rem 0 1rem;
+	}
 
-    h3 {
-      font-size: 26px;
-      color: white;
-    }
+	.news-tile {
+		min-height: 300px;
+		margin-bottom: 1rem;
 
-    a {
-      color: white;
-    }
+		h3 {
+			font-size: 26px;
+			color: white;
+		}
 
-    a:hover {
-      text-decoration: none;
-    }
-  }
+		a {
+			color: white;
+		}
 
-  .news-tile-content {
-    width: 70%;
-    padding: 2rem;
-    position: absolute;
-    bottom: 0;
-  }
+		a:hover {
+			text-decoration: none;
+		}
+	}
 
-  @media (min-width: 767px) {
-    article.container, .breadcrumbs.container {
-      width: 700px;
-    }
+	.news-tile-content {
+		width: 70%;
+		padding: 2rem;
+		position: absolute;
+		bottom: 0;
+	}
 
-    article {
-      p, li {
-        font-size: 20px;
-        line-height: 32px;
-      }
+	@media (min-width: 767px) {
+		article.container,
+		.breadcrumbs.container {
+			width: 700px;
+		}
 
-      p {
-        margin-top: 3.6rem;
-      }
-    }
+		article {
+			p, li {
+				font-size: 20px;
+				line-height: 32px;
+			}
 
-    .news-tile {
-      margin-right: 1rem;
+			p {
+				margin-top: 3.6rem;
+			}
+		}
 
-      h3 {
-        font-size: 30px;
-      }
-    }
-  }
+		.news-tile {
+			margin-right: 1rem;
+
+			h3 {
+				font-size: 30px;
+			}
+		}
+	}
 }
