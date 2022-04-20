@@ -13,9 +13,11 @@
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="/search/" class="{{checkActive 'search' active}}">Find your .eco</a></li>
-					<li><a href="/news/" class="{{checkActive 'news' active}}">News</a></li>
-					<li><a href="/champions/" class="{{checkActive 'champions' active}}">.eco Champions</a></li>
+					<li><a href="/search/" class="{{checkActive 'search' active}}">{{t 'global:header.search'}}</a></li>
+					{{#if (notequal (t 'global:header.news') 'header.news')}}
+					<li><a href="/news/" class="{{checkActive 'news' active}}">{{t 'global:header.news'}}</a></li>
+					{{/if}}
+					<li><a href="/champions/" class="{{checkActive 'champions' active}}">{{t 'global:header.champions'}}</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle language-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{lang}} <span class="caret"></span></a>
 						<ul class="dropdown-menu">
