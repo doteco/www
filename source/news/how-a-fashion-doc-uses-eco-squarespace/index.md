@@ -8,11 +8,11 @@ author: Eco Domain (.eco)
 layout: article.hbs
 ---
 
-# How a fashion documentary used .eco with Squarespace
+# {{title}}
 
 ## The global fashion industry is now worth over $2.4 trillion
 
-![Warehouse with discarded textiles](/img/news/riverblue-fashion.jpeg)
+![Warehouse with discarded textiles]({{header-img}})
 
 How do you use Squarespace to connect with consumers to tell the story of the environmental risks of fashion? How do we highlight the leaders who can change this industry for the better? Documentaries tell the story Tweets can’t. In an over-informed world, film can cut through the noise and really change opinions. **That’s What River Blue has been doing**.
 

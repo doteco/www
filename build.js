@@ -12,7 +12,6 @@ const redirect = require('metalsmith-redirect')
 const robots = require('metalsmith-robots')
 const watch = require('metalsmith-watch')
 const i18next = require('metalsmith-i18next')
-const markdown = require('@metalsmith/markdown')
 const collections = require('@metalsmith/collections')
 
 const defaultLang = 'en'
@@ -156,14 +155,11 @@ const ms = Metalsmith(__dirname)
       reverse: true
     }
   }))
-  .use(markdown({
+  .use(inplace({
   }))
   .use(layouts({
-    pattern: '{**/*.hbs,**/*.html}',
+    pattern: '**/*.html',
     default: 'default.hbs'
-  }))
-  .use(inplace({
-    pattern: '**/*.hbs'
   }))
   .use(sitemapLinks())
   .use(sitemap({

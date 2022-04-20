@@ -8,11 +8,11 @@ author: Eco Domain (.eco)
 layout: article.hbs
 ---
 
-# Start Using Your .eco Domain in Email and Google Apps
+# {{title}}
 
-## Almost half a trillion emails were sent in 2017. How do you get noticed?
+## {{excerpt}}
 
-![Mailboxes](/img/news/mailboxes.jpeg)
+![Mailboxes]({{header-img}})
 
 For business, trying to reach customers through this blizzard is a big problem. The volume of email means that organizations need every advantage they can find when it comes to standing out in someone’s inbox. Getting a customer’s attention is half the battle.
 

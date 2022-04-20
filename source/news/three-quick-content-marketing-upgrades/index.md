@@ -8,11 +8,11 @@ author: Eco Domain (.eco)
 layout: article.hbs
 ---
 
-# Three Quick Content Marketing Upgrades
+# {{title}}
 
-## If you’re a social entrepreneur doing social media, you can take these steps right now and improve your SEO
+## {{excerpt}}
 
-![Laptop with notebook](/img/news/laptop-notebook.jpeg)
+![Laptop with notebook]({{header-img}})
 
 ### 1. Schedule posts using Buffer
 
