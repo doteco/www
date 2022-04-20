@@ -24,17 +24,25 @@
 			line-height: 28px;
 		}
 
-		p {
+		p, ol, ul {
 			margin-bottom: 2.8rem;
+		}
+
+		p ~ ol, p ~ ul {
+			margin-top: -2rem;
 		}
 
 		blockquote {
 			font-style: italic;
 		}
 
+		blockquote > ol {
+			margin-bottom: 0;
+		}
+
 		img {
 			width: 100%;
-			margin: 2rem 0;
+			margin-top: 2rem;
 		}
 	}
 
