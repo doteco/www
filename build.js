@@ -12,6 +12,8 @@ const redirect = require('metalsmith-redirect')
 const robots = require('metalsmith-robots')
 const watch = require('metalsmith-watch')
 const i18next = require('metalsmith-i18next')
+const markdown = require('@metalsmith/markdown')
+const collections = require('@metalsmith/collections')
 
 const defaultLang = 'en'
 const env = process.env.NODE_ENV || 'DEV'
@@ -139,7 +141,7 @@ const ms = Metalsmith(__dirname)
   .use(i18next({
     locales: [lang],
     namespaces: ['global'],
-    pattern: '**/*.hbs',
+    pattern: '{**/*.hbs,**/*.md}',
     engine: 'handlebars',
     helpers: null,
     path: ':file',
@@ -148,8 +150,11 @@ const ms = Metalsmith(__dirname)
   .use(discoverPartials({
     directory: 'layouts/partials'
   }))
+  .use(collections())
+  .use(markdown({
+  }))
   .use(layouts({
-    pattern: '**/*.hbs',
+    pattern: '{**/*.hbs,**/*.html}',
     default: 'default.hbs'
   }))
   .use(inplace({
@@ -198,7 +203,7 @@ if (options.watch) {
     .use(watch({
       paths: {
         /* eslint no-template-curly-in-string: 0 */
-        '${source}/**/*': '{**/*.hbs,**/*.js}',
+        '${source}/**/*': '{**/*.hbs,**/*.js,**/*.md}',
         'scss/**/*': '{main.scss,**/*.hbs}',
         'layouts/**/*': '**/*.hbs',
         'locales/**/*': '**/*.hbs'

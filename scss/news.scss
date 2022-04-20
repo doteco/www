@@ -1,0 +1,92 @@
+#doteco {
+  article {
+    margin-bottom: 6rem;
+
+    h1 {
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: normal;
+    }
+
+    p, li {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    blockquote, p {
+      margin-top: 2.8rem;
+    }
+
+    blockquote p {
+      margin-top: 0;
+    }
+
+    blockquote {
+      font-style: italic;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .breadcrumbs {
+    margin-top: 1rem;
+  }
+
+  .news-headlines.container {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .news-tile {
+    min-height: 300px;
+    margin-bottom: 1rem;
+
+    h3 {
+      font-size: 26px;
+      color: white;
+    }
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  .news-tile-content {
+    width: 70%;
+    padding: 2rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  @media (min-width: 767px) {
+    article.container, .breadcrumbs.container {
+      width: 700px;
+    }
+
+    article {
+      p, li {
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      p {
+        margin-top: 3.6rem;
+      }
+    }
+
+    .news-tile {
+      margin-right: 1rem;
+
+      h3 {
+        font-size: 30px;
+      }
+    }
+  }
+}

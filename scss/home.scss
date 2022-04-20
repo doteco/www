@@ -178,50 +178,8 @@
 		background-color: $doteco-fireopal;
 	}
 
-	.eco-word-image {
-		width: 100%;
-		margin-top: 1em;
-		margin-bottom: 1em;
-	}
-
-	.home-video {
-		margin: 2em 0;
-
-		iframe {
-			width: 100%;
-			border: none;
-		}
-	}
-
-	blockquote {
-		font-size: 1.5em;
-		line-height: 1.5;
-	}
-
 	.support-wave {
 		font-size: 70px;
-	}
-
-	@media (min-width: 992px) {
-		blockquote {
-			font-size: 1.95em;
-			line-height: 1.4;
-		}
-	}
-
-	.home-quote {
-		padding: 0;
-
-		blockquote {
-			padding-top: 2em;
-			padding-bottom: 2em;
-			color: $doteco-ruby;
-		}
-
-		img {
-			width: 100%;
-			margin-top: 4em;
-		}
 	}
 
 	.home-orgs {

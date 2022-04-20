@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+{{#if faq}}
+<html id="doteco" lang="{{lang}}" itemscope itemtype="https://schema.org/FAQPage">
+{{else}}
+<html id="doteco" lang="{{lang}}">
+{{/if}}
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{description}}">
+	<meta name="keywords" content="{{t "global:keywords" }}">
+	<meta name="author" content="BigRoom.eco">
+	{{#if noindex}}
+	<meta name="robots" content="noindex">
+	{{/if}}
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="{{twitter-id}}">
+	<meta property="og:title" content="{{title}}">
+	<meta property="og:description" content="{{description}}">
+	<meta property="og:url" content="{{site-url}}/{{page-path}}">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="{{site-url}}/img/{{og-image}}">
+	<meta property="og:image:width" content="{{og-width}}">
+	<meta property="og:image:height" content="{{og-height}}">
+	<meta property="fb:app_id" content="744238272415478">
+
+	<title>{{title}}</title>
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="/css/bootstrap/3.4.1/bootstrap.min.css">
+	<link rel="stylesheet" href="/{{ fingerprint.[css/main.css] }}">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/site-v1.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#9f1744">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="canonical" href="{{site-url}}/{{page-path}}">
+	<script src="/js/sentry/6.19.1/bundle.min.js"></script>
+	<script>
+	if (typeof Sentry !== 'undefined') {
+		Sentry.init({
+		  dsn: "{{sentryDSN}}",
+			allowUrls: [
+				"{{site-url}}"
+			]
+		})
+	}
+	</script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="/js/jquery-3.6.0.min.js"></script>
+	{{#if ga-tracking-id}}
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ga-tracking-id}}"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', '{{ga-tracking-id}}', { 'transport_type': 'beacon', 'anonymize_ip': true });
+	</script>
+	{{/if}}
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": ".eco",
+		"legalName" : "Big Room Inc.",
+		"url": "{{site-url}}",
+		"logo": "{{site-url}}/android-chrome-512x512.png",
+		"foundingDate": "2007",
+		"founders": [{
+			"@type": "Person",
+			"name": "Trevor Bowden"
+		}],
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "1231 Pacific Boulevard, Suite 581",
+			"addressLocality": "Vancouver",
+			"addressRegion": "BC",
+			"postalCode": "V6Z 0E2",
+			"addressCountry": "Canada"
+		},
+	  "contactPoint": [{
+	    "@type": "ContactPoint",
+	    "email": "support@bigroom.eco",
+			"telephone": "+1 604 682 6673",
+	    "contactType": "customer service"
+	  }],
+	  "sameAs": [
+			"https://en.wikipedia.org/wiki/.eco",
+			"https://icannwiki.org/.eco",
+			"https://www.facebook.com/DotEcoDomain/",
+			"https://www.instagram.com/dot_eco_domain/",
+			"https://www.linkedin.com/company/15215049",
+			"https://twitter.com/doteco"
+	  ]
+	}	
+	</script>
+	{{#if collection}}
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "NewsArticle",
+		"image": [
+			"{{site-url}}{{header-img}}"
+		],
+		"url": "{{site-url}}/{{page-path}}",
+		"datePublished": "{{isoDate pubdate}}",
+		"headline": "{{title}}",
+		"description": "{{excerpt}}",
+		"author": {
+			"@type": "Person",
+			"name": "{{author}}"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": ".eco Domain Registry",
+			"url": "go.eco",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "{{site-url}}/android-chrome-512x512.png"
+			}
+		},
+		"mainEntityOfPage": "{{site-url}}/{{page-path}}"
+	}
+	</script>
+	{{/if}}
+</head>
+<body{{#if active}} class="page-{{active}}"{{/if}}>

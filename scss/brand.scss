@@ -30,7 +30,7 @@ $common-border-radius: 2px;
 		font-weight: $font-header-weight;
 	}
 
-	.subheader, blockquote {
+	.subheader {
 		font-family: $font-header;
 		font-weight: $font-subheader-weight;
 	}
@@ -49,7 +49,7 @@ $common-border-radius: 2px;
 		line-height: 1.4;
 	}
 
-	h3, h4, blockquote, .title {
+	h3, h4, .title {
 		font-size: 1.5em;
 		line-height: 1.5;
 	}
@@ -69,7 +69,7 @@ $common-border-radius: 2px;
 			line-height: 1.35;
 		}
 
-		h3, blockquote, .title {
+		h3, .title {
 			font-size: 2.25em;
 			line-height: 1.4;
 		}
@@ -114,15 +114,6 @@ $common-border-radius: 2px;
 
 	a {
 		color: $doteco-ruby;
-	}
-
-	blockquote {
-		border: none;
-		margin-bottom: 0;
-
-		footer, small {
-			font-size: 70%;
-		}
 	}
 
 	.jumbotron {
