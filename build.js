@@ -150,7 +150,12 @@ const ms = Metalsmith(__dirname)
   .use(discoverPartials({
     directory: 'layouts/partials'
   }))
-  .use(collections())
+  .use(collections({
+    news: {
+      sortBy: 'pubdate',
+      reverse: true
+    }
+  }))
   .use(markdown({
   }))
   .use(layouts({
