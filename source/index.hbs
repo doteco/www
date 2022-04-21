@@ -20,7 +20,9 @@ faq: true
  	    <li data-target="#home-carousel" data-slide-to="1"></li>
  	    <li data-target="#home-carousel" data-slide-to="2"></li>
  	    <li data-target="#home-carousel" data-slide-to="3"></li>
+			 {{#if (equal lang 'en') }}
  	    <li data-target="#home-carousel" data-slide-to="4"></li>
+			 {{/if}}
  	</ol>
 
  	<div class="carousel-inner" role="listbox" aria-label="Header carousel">
@@ -53,12 +55,14 @@ faq: true
 			</div>
  		</div>
 
+		{{#if (equal lang 'en') }}
  		<div class="item home-5years jumbotron" role="option">
  			<div class="container">
 	 			<h2>{{t 'carousel.5years.head'}}</h2>
 				<a href="/news/eco-5-year-anniversary/" class="btn btn-primary pull-right">{{t 'carousel.5years.cta'}}</a>
 			</div>
  		</div>
+		{{/if}}
  	</div>
 
  	<a hidden class="left carousel-control" href="#home-carousel" role="button" data-slide="prev" aria-label="{{t 'carousel.cta.prev'}}">
