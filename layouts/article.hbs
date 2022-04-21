@@ -1,10 +1,13 @@
 {{> head }}
 	{{> header }}
 
-  <div class="container breadcrumbs">
-    <a href="/news/">News</a> > {{title}}
-  </div>
   <article class="container">
+
+    <div class="article-header">
+      <a href="/news/"><img src="/android-chrome-192x192.png" class="article-avatar" title="{{author}} author avatar" /></a>
+      <a href="/news/"><span class="article-author" title="Written by {{author}}">{{author}}</span></a>
+      <span class="article-pubdate" title="Published on {{formatDay pubdate}}">{{formatDay pubdate}}</span>
+    </div>
 	{{{ contents }}}
 
     <a href="/news" class="btn btn-primary pull-right">More .eco news</a>

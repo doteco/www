@@ -9,7 +9,7 @@
 		h2 {
 			font-size: 22px;
 			font-weight: normal;
-			margin-top: 6px;
+			margin-top: 10px;
 			color: $doteco-charcoal;
 		}
 
@@ -44,10 +44,28 @@
 			width: 100%;
 			margin-top: 2rem;
 		}
-	}
 
-	.breadcrumbs {
-		margin-top: 1rem;
+		.article-header {
+			margin: 3rem 0;
+		}
+
+		.article-author {
+			display: block;
+			font-weight: bold;
+		}
+
+		.article-pubdate {
+			display: block;
+			color: $doteco-charcoal;
+		}
+
+		.article-avatar {
+			width: 48px;
+			border-radius: 20px;
+			background: $doteco-marrow;
+			float: left;
+			margin: 0 2rem 0 0;
+		}
 	}
 
 	.news-headlines.container {
