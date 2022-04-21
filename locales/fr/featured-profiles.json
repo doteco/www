@@ -13,15 +13,15 @@
     "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
     "type": "nonprofit",
     "location": "États-Unis",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "current.eco",
-    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises qui cherchent à gérer leur infrastructure de recharge de véhicules électriques.",
+    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises cherchant à gérer leur infrastructure de recharge de véhicules électriques.",
     "img": "https://cdn.profiles.eco/images/current.eco/3f4a0566-7df4-452d-85cd-55b325afd402_1500x500.jpeg",
     "type": "business",
     "location": "Norvège",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "preserve.eco",
@@ -53,7 +53,7 @@
     "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
     "type": "business",
     "location": "Danemark",
-    "priority": "2"
+    "priority": "5"
   },
   {
     "domain": "bleu.eco",
@@ -101,6 +101,14 @@
     "img": "https://cdn.profiles.eco/images/bumboo.eco/79c54365-8f28-4d74-9aba-88046da8fb8f_1500x500.jpeg",
     "type": "business",
     "location": "Royaume-Uni",
+    "priority": "2"
+  },
+  {
+    "domain": "boox.eco",
+    "story": "<a href=\"https://boox.eco\">Boox</a> est une B-corp certifiée qui fabrique des emballages réutilisables. Avec Boox, vous pouvez facilement retourner l&#39;emballage contenant votre commande pour qu&#39;il soit réutilisé.",
+    "img": "https://cdn.profiles.eco/images/boox.eco/bf2f788c-3cc2-4046-abcb-39f2abb627e6_1500x500.png",
+    "type": "business",
+    "location": "États-Unis",
     "priority": "1"
   }
 ]
