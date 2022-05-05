@@ -172,7 +172,6 @@ const ms = Metalsmith(__dirname)
     omitIndex: true
   }))
   .use(robots({
-    disallow: ['/search/'],
     sitemap: siteUrl + '/sitemap.xml'
   }))
   .use(redirect({
