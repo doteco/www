@@ -16,10 +16,11 @@ window.domainSearch = function (config) {
   }
 
   function uniqueFilterItems (registrars, field, labels = {}) {
-    const itemsAll = registrars.map(registrar => {
-      return registrar[field]
-    })
-    const itemsUnique = Array.from(new Set(itemsAll.flat())).filter(item => item.length > 0)
+    const itemsAll = registrars.reduce((arr, registrar) => {
+      registrar[field].forEach(v => (arr.push(v)))
+      return arr
+    }, [])
+    const itemsUnique = Array.from(new Set(itemsAll)).filter(item => item.length > 0)
     itemsUnique.sort((a, b) => a.localeCompare(b))
     return itemsUnique.map(item => ({ value: item, label: labels[item] || item }))
   }
@@ -138,7 +139,7 @@ window.domainSearch = function (config) {
     } else if (r.summary === 'reserved' || r.status === 'blocked') {
       resultLabel = config.resultLabels.reserved
     }
-    return resultLabel.replaceAll('{searchDomain}', searchDomain)
+    return resultLabel.replace(/{searchDomain}/g, searchDomain)
   }
 
   function fetchSearchResults (domain, engine) {
