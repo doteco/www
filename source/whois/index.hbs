@@ -56,7 +56,7 @@ document.querySelector('.search-form').addEventListener('submit', function (e) {
   whois()
 })
 
-if (URLSearchParams) {
+if ('URLSearchParams' in window) {
   const urlParams = new URLSearchParams(window.location.search)
   if (urlParams.has('domain')) {
     const domain = urlParams.get('domain')

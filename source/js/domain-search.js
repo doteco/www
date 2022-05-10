@@ -62,8 +62,8 @@ window.domainSearch = function (config) {
   }
 
   function getFilterDefault (filter) {
-    const urlParams = new URLSearchParams(window.location.search)
-    return urlParams.has(filter) ? urlParams.get(filter) : config.filterDefaults[filter]
+    const defaultFilter = getUriParam(filter)
+    return defaultFilter || config.filterDefaults[filter]
   }
 
   function addFilters (registrars) {
@@ -210,9 +210,14 @@ window.domainSearch = function (config) {
     config.onReservedSubmit(searchDomain())
   })
 
-  const urlParams = new URLSearchParams(window.location.search)
-  if (urlParams.has('domain')) {
-    const domain = urlParams.get('domain')
+  function getUriParam (param) {
+    if ('URLSearchParams' in window) {
+      return new URLSearchParams(window.location.search).get(param)
+    }
+  }
+
+  const domain = getUriParam('domain')
+  if (domain) {
     search(domain)
   } else {
     fetchSearchResults(null, config.searchEngine).then(response => response.json()).then(result => {

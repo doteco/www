@@ -20,7 +20,7 @@ const lang = (process.env.SITE_LANG || defaultLang).toLocaleLowerCase()
 const dest = lang === 'en' ? 'public' : 'public-' + lang
 const filterDefaults = ({
   en: {},
-  fr: { language: 'Français' },
+  fr: { language: 'français' },
   de: { language: 'Deutsch' }
 })[lang]
 const allProfiles = require(`./locales/${lang}/featured-profiles.json`)
