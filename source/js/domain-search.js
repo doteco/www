@@ -150,7 +150,7 @@ window.domainSearch = function (config) {
     if (!domain || domain.trim().length === 0 || domain.trim() === '.eco') {
       return false
     }
-    domain = domain.replace(/\..*$/, '').replace(/\s/g, '')
+    domain = domain.replace(/[\s;<>"'\/=()]/g, '').replace(/\..*$/, '')
     domain += '.eco'
 
     const searchResultsRow = document.querySelector('.search-results')
@@ -169,7 +169,7 @@ window.domainSearch = function (config) {
           document.querySelector('.domain-search').value = r.domain
         }
 
-        const message = searchResultMessage(r, searchDomain())
+        const message = searchResultMessage(r, r.domain || domain)
         searchResultsRow.innerHTML = `<span class='domain-search-output title'>${message}</span>`
 
         const registrars = r.registrars || []
