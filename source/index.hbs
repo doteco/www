@@ -169,7 +169,13 @@ if ('undefined' !== typeof jQuery) {
 </script>
 <script>
 	function search () {
-		window.location = '/search/?domain=' + document.querySelector('.domain-search').value
+		try {
+			var url = new URL('search/', window.location)
+			url.searchParams.append('domain', document.querySelector('.domain-search').value)
+			window.location = url.href
+		} catch (e) {
+			window.location = '/search/?domain=' + encodeURI(document.querySelector('.domain-search').value)
+		}
 		return false
 	}
 
