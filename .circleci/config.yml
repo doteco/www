@@ -34,7 +34,7 @@ jobs:
         type: string
     docker:
     # https://hub.docker.com/r/cimg/node
-    - image: cimg/node:16.14
+    - image: cimg/node:16.15
     steps:
     - checkout
 
