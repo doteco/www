@@ -6,7 +6,7 @@
     "@google-cloud/translate": "6.3.1",
     "@metalsmith/collections": "1.2.1",
     "@metalsmith/in-place": "4.5.0",
-    "@metalsmith/layouts": "2.5.0",
+    "@metalsmith/layouts": "github:doteco/layouts",
     "@metalsmith/sass": "1.0.0",
     "autoprefixer": "10.4.7",
     "date-fns": "2.28.0",
