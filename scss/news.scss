@@ -24,7 +24,7 @@
 			line-height: 28px;
 		}
 
-		p, ol, ul {
+		p, ol, ul, blockquote {
 			margin-bottom: 2.8rem;
 		}
 
@@ -36,7 +36,7 @@
 			font-style: italic;
 		}
 
-		blockquote > ol {
+		blockquote > ol, blockquote > p {
 			margin-bottom: 0;
 		}
 
