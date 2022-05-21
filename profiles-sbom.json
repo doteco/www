@@ -55,9 +55,9 @@
    "purl": "pkg:npm/%40babel/helper-validator-identifier@7.16.7"
   },
   {
-   "id": "b20a3ae24d13096d",
+   "id": "4ae37949c7c3f1e9",
    "name": "@babel/highlight",
-   "version": "7.17.9",
+   "version": "7.17.12",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -68,15 +68,15 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@babel\\/highlight:\\@babel\\/highlight:7.17.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@babel\\/highlight:7.17.9:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@babel\\/highlight:\\@babel\\/highlight:7.17.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@babel\\/highlight:7.17.12:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40babel/highlight@7.17.9"
+   "purl": "pkg:npm/%40babel/highlight@7.17.12"
   },
   {
-   "id": "d0bce51b31c231fb",
+   "id": "5cc1fd84f6823cab",
    "name": "@babel/runtime",
-   "version": "7.17.9",
+   "version": "7.18.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -87,15 +87,15 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@babel\\/runtime:\\@babel\\/runtime:7.17.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@babel\\/runtime:7.17.9:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@babel\\/runtime:\\@babel\\/runtime:7.18.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@babel\\/runtime:7.18.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40babel/runtime@7.17.9"
+   "purl": "pkg:npm/%40babel/runtime@7.18.0"
   },
   {
-   "id": "ac0c0a6735f2b165",
+   "id": "314eefc809a8ebce",
    "name": "@eslint/eslintrc",
-   "version": "1.2.1",
+   "version": "1.3.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -106,10 +106,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@eslint\\/eslintrc:\\@eslint\\/eslintrc:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@eslint\\/eslintrc:1.2.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@eslint\\/eslintrc:\\@eslint\\/eslintrc:1.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@eslint\\/eslintrc:1.3.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40eslint/eslintrc@1.2.1"
+   "purl": "pkg:npm/%40eslint/eslintrc@1.3.0"
   },
   {
    "id": "55616d91ecf3b097",
@@ -231,9 +231,9 @@
    "purl": "pkg:npm/%40google-cloud/translate@6.3.1"
   },
   {
-   "id": "273431cf0ed7065",
+   "id": "75ab7cfd99d24b06",
    "name": "@grpc/grpc-js",
-   "version": "1.6.6",
+   "version": "1.6.7",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -244,21 +244,21 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc-js:1.6.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc_js:1.6.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc-js:1.6.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc_js:1.6.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc-js:1.6.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc_js:1.6.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@grpc\\/grpc-js:1.6.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@grpc\\/grpc_js:1.6.6:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc-js:1.6.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc_js:1.6.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc-js:1.6.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc_js:1.6.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc-js:1.6.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc_js:1.6.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@grpc\\/grpc-js:1.6.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@grpc\\/grpc_js:1.6.7:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40grpc/grpc-js@1.6.6"
+   "purl": "pkg:npm/%40grpc/grpc-js@1.6.7"
   },
   {
-   "id": "e64eded87b0cabcf",
+   "id": "799ccc52a45c4132",
    "name": "@grpc/proto-loader",
-   "version": "0.6.9",
+   "version": "0.6.12",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -269,16 +269,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto-loader:0.6.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto_loader:0.6.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto-loader:0.6.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto_loader:0.6.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto-loader:0.6.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto_loader:0.6.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@grpc\\/proto-loader:0.6.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@grpc\\/proto_loader:0.6.9:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto-loader:0.6.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto_loader:0.6.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto-loader:0.6.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto_loader:0.6.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto-loader:0.6.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto_loader:0.6.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@grpc\\/proto-loader:0.6.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@grpc\\/proto_loader:0.6.12:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40grpc/proto-loader@0.6.9"
+   "purl": "pkg:npm/%40grpc/proto-loader@0.6.12"
   },
   {
    "id": "b0f928b58f9401c3",
@@ -400,9 +400,9 @@
    "purl": "pkg:npm/%40metalsmith/in-place@4.5.0"
   },
   {
-   "id": "8927aa00849fada5",
+   "id": "d99cafb16c6c5258",
    "name": "@metalsmith/layouts",
-   "version": "2.5.0",
+   "version": "2.5.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -413,10 +413,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@metalsmith\\/layouts:\\@metalsmith\\/layouts:2.5.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@metalsmith\\/layouts:2.5.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@metalsmith\\/layouts:\\@metalsmith\\/layouts:2.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@metalsmith\\/layouts:2.5.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40metalsmith/layouts@2.5.0"
+   "purl": "pkg:npm/%40metalsmith/layouts@2.5.1"
   },
   {
    "id": "498e9e053be6e22",
@@ -967,9 +967,9 @@
    "purl": "pkg:npm/%40types/json5@0.0.29"
   },
   {
-   "id": "fa16ffe20e3c2321",
+   "id": "b158dcdaf2df4f47",
    "name": "@types/long",
-   "version": "4.0.1",
+   "version": "4.0.2",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -980,10 +980,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@types\\/long:\\@types\\/long:4.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@types\\/long:4.0.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@types\\/long:\\@types\\/long:4.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@types\\/long:4.0.2:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40types/long@4.0.1"
+   "purl": "pkg:npm/%40types/long@4.0.2"
   },
   {
    "id": "52c480b0390c0284",
@@ -1024,9 +1024,9 @@
    "purl": "pkg:npm/%40types/minimist@1.2.2"
   },
   {
-   "id": "cf1255cd11a6b789",
+   "id": "89fe44ac6fad3fea",
    "name": "@types/node",
-   "version": "17.0.25",
+   "version": "17.0.35",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -1037,10 +1037,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@types\\/node:\\@types\\/node:17.0.25:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@types\\/node:17.0.25:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@types\\/node:\\@types\\/node:17.0.35:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@types\\/node:17.0.35:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40types/node@17.0.25"
+   "purl": "pkg:npm/%40types/node@17.0.35"
   },
   {
    "id": "5adf47ed79c5dbdb",
@@ -1141,9 +1141,9 @@
    "purl": "pkg:npm/abort-controller@3.0.0"
   },
   {
-   "id": "6f6c56a8e65b7964",
+   "id": "15d5181583fe2fca",
    "name": "acorn",
-   "version": "8.7.0",
+   "version": "8.7.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -1154,10 +1154,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:acorn:acorn:8.7.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:acorn:8.7.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:acorn:acorn:8.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:acorn:8.7.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/acorn@8.7.0"
+   "purl": "pkg:npm/acorn@8.7.1"
   },
   {
    "id": "591bf3de25fb2a77",
@@ -1507,9 +1507,9 @@
    "purl": "pkg:npm/array-differ@3.0.0"
   },
   {
-   "id": "2b83b3045ea970ed",
+   "id": "e63c47a547dd35c4",
    "name": "array-includes",
-   "version": "3.1.4",
+   "version": "3.1.5",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -1520,16 +1520,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:array-includes:array-includes:3.1.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:array-includes:array_includes:3.1.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:array_includes:array-includes:3.1.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:array_includes:array_includes:3.1.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:array:array-includes:3.1.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:array:array_includes:3.1.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:array-includes:3.1.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:array_includes:3.1.4:*:*:*:*:*:*:*"
+    "cpe:2.3:a:array-includes:array-includes:3.1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array-includes:array_includes:3.1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array_includes:array-includes:3.1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array_includes:array_includes:3.1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array:array-includes:3.1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array:array_includes:3.1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:array-includes:3.1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:array_includes:3.1.5:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/array-includes@3.1.4"
+   "purl": "pkg:npm/array-includes@3.1.5"
   },
   {
    "id": "10a3ede7b1ed8cf1",
@@ -2639,9 +2639,9 @@
    "purl": "pkg:npm/camelcase-keys@6.2.2"
   },
   {
-   "id": "3a279d561dd85e6b",
+   "id": "ea9db9070b18075",
    "name": "caniuse-lite",
-   "version": "1.0.30001335",
+   "version": "1.0.30001341",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -2652,16 +2652,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:caniuse-lite:caniuse-lite:1.0.30001335:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse-lite:caniuse_lite:1.0.30001335:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse_lite:caniuse-lite:1.0.30001335:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse_lite:caniuse_lite:1.0.30001335:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse:caniuse-lite:1.0.30001335:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse:caniuse_lite:1.0.30001335:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:caniuse-lite:1.0.30001335:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:caniuse_lite:1.0.30001335:*:*:*:*:*:*:*"
+    "cpe:2.3:a:caniuse-lite:caniuse-lite:1.0.30001341:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse-lite:caniuse_lite:1.0.30001341:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse_lite:caniuse-lite:1.0.30001341:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse_lite:caniuse_lite:1.0.30001341:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse:caniuse-lite:1.0.30001341:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse:caniuse_lite:1.0.30001341:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:caniuse-lite:1.0.30001341:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:caniuse_lite:1.0.30001341:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/caniuse-lite@1.0.30001335"
+   "purl": "pkg:npm/caniuse-lite@1.0.30001341"
   },
   {
    "id": "671dec141cb442fb",
@@ -4143,9 +4143,9 @@
    "purl": "pkg:npm/ecdsa-sig-formatter@1.0.11"
   },
   {
-   "id": "234be06cf74d309b",
+   "id": "9488fbc81fa17182",
    "name": "electron-to-chromium",
-   "version": "1.4.132",
+   "version": "1.4.137",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4156,20 +4156,20 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:electron-to-chromium:electron-to-chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to-chromium:electron_to_chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to_chromium:electron-to-chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to_chromium:electron_to_chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to:electron-to-chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to:electron_to_chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to:electron-to-chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to:electron_to_chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron:electron-to-chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron:electron_to_chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:electron-to-chromium:1.4.132:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:electron_to_chromium:1.4.132:*:*:*:*:*:*:*"
+    "cpe:2.3:a:electron-to-chromium:electron-to-chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to-chromium:electron_to_chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to_chromium:electron-to-chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to_chromium:electron_to_chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to:electron-to-chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to:electron_to_chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to:electron-to-chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to:electron_to_chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron:electron-to-chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron:electron_to_chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:electron-to-chromium:1.4.137:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:electron_to_chromium:1.4.137:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/electron-to-chromium@1.4.132"
+   "purl": "pkg:npm/electron-to-chromium@1.4.137"
   },
   {
    "id": "6a036558e0f9832c",
@@ -4396,9 +4396,9 @@
    "purl": "pkg:npm/error-ex@1.3.2"
   },
   {
-   "id": "664198ba56f9266d",
+   "id": "c1f928d4b14de9fc",
    "name": "es-abstract",
-   "version": "1.19.5",
+   "version": "1.20.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4409,16 +4409,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:es-abstract:es-abstract:1.19.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:es-abstract:es_abstract:1.19.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:es_abstract:es-abstract:1.19.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:es_abstract:es_abstract:1.19.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:es:es-abstract:1.19.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:es:es_abstract:1.19.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:es-abstract:1.19.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:es_abstract:1.19.5:*:*:*:*:*:*:*"
+    "cpe:2.3:a:es-abstract:es-abstract:1.20.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:es-abstract:es_abstract:1.20.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:es_abstract:es-abstract:1.20.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:es_abstract:es_abstract:1.20.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:es:es-abstract:1.20.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:es:es_abstract:1.20.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:es-abstract:1.20.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:es_abstract:1.20.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/es-abstract@1.19.5"
+   "purl": "pkg:npm/es-abstract@1.20.1"
   },
   {
    "id": "38eff9d7ead0c66a",
@@ -4527,9 +4527,9 @@
    "purl": "pkg:npm/escape-string-regexp@1.0.5"
   },
   {
-   "id": "b0b6985abeb5626f",
+   "id": "6713dec75689383a",
    "name": "eslint",
-   "version": "8.13.0",
+   "version": "8.16.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4540,10 +4540,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:eslint:eslint:8.13.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:eslint:8.13.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:eslint:eslint:8.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:eslint:8.16.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/eslint@8.13.0"
+   "purl": "pkg:npm/eslint@8.16.0"
   },
   {
    "id": "dc4d5383f9fe2d9b",
@@ -4728,9 +4728,9 @@
    "purl": "pkg:npm/eslint-plugin-import@2.26.0"
   },
   {
-   "id": "5146adba9fc93d79",
+   "id": "44488f11ca3946dc",
    "name": "eslint-plugin-n",
-   "version": "15.1.0",
+   "version": "15.2.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4741,20 +4741,20 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:eslint-plugin-n:eslint-plugin-n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-plugin-n:eslint_plugin_n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin_n:eslint-plugin-n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin_n:eslint_plugin_n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-plugin:eslint-plugin-n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-plugin:eslint_plugin_n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin:eslint-plugin-n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin:eslint_plugin_n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint:eslint-plugin-n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint:eslint_plugin_n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:eslint-plugin-n:15.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:eslint_plugin_n:15.1.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:eslint-plugin-n:eslint-plugin-n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-plugin-n:eslint_plugin_n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin_n:eslint-plugin-n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin_n:eslint_plugin_n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-plugin:eslint-plugin-n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-plugin:eslint_plugin_n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin:eslint-plugin-n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin:eslint_plugin_n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint:eslint-plugin-n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint:eslint_plugin_n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:eslint-plugin-n:15.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:eslint_plugin_n:15.2.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/eslint-plugin-n@15.1.0"
+   "purl": "pkg:npm/eslint-plugin-n@15.2.0"
   },
   {
    "id": "cd59201c29c337c9",
@@ -4786,9 +4786,9 @@
    "purl": "pkg:npm/eslint-plugin-promise@6.0.0"
   },
   {
-   "id": "dc3de2480405512d",
+   "id": "596cd29d1803e70b",
    "name": "eslint-plugin-react",
-   "version": "7.29.4",
+   "version": "7.30.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4799,20 +4799,20 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:eslint-plugin-react:eslint-plugin-react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-plugin-react:eslint_plugin_react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin_react:eslint-plugin-react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin_react:eslint_plugin_react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-plugin:eslint-plugin-react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-plugin:eslint_plugin_react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin:eslint-plugin-react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin:eslint_plugin_react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint:eslint-plugin-react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint:eslint_plugin_react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:eslint-plugin-react:7.29.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:eslint_plugin_react:7.29.4:*:*:*:*:*:*:*"
+    "cpe:2.3:a:eslint-plugin-react:eslint-plugin-react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-plugin-react:eslint_plugin_react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin_react:eslint-plugin-react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin_react:eslint_plugin_react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-plugin:eslint-plugin-react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-plugin:eslint_plugin_react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin:eslint-plugin-react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin:eslint_plugin_react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint:eslint-plugin-react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint:eslint_plugin_react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:eslint-plugin-react:7.30.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:eslint_plugin_react:7.30.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/eslint-plugin-react@7.29.4"
+   "purl": "pkg:npm/eslint-plugin-react@7.30.0"
   },
   {
    "id": "419d9c601b5d2d95",
@@ -4894,9 +4894,9 @@
    "purl": "pkg:npm/eslint-visitor-keys@3.3.0"
   },
   {
-   "id": "d05496d5f906cffc",
+   "id": "7ea4e599e460f05d",
    "name": "espree",
-   "version": "9.3.1",
+   "version": "9.3.2",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4907,10 +4907,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:espree:espree:9.3.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:espree:9.3.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:espree:espree:9.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:espree:9.3.2:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/espree@9.3.1"
+   "purl": "pkg:npm/espree@9.3.2"
   },
   {
    "id": "214e22711cbac33a",
@@ -5692,9 +5692,9 @@
    "purl": "pkg:npm/flatted@3.2.5"
   },
   {
-   "id": "a562053867ed9405",
+   "id": "16cf6b465f79e15",
    "name": "follow-redirects",
-   "version": "1.14.9",
+   "version": "1.15.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -5705,16 +5705,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:follow-redirects:follow-redirects:1.14.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:follow-redirects:follow_redirects:1.14.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:follow_redirects:follow-redirects:1.14.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:follow_redirects:follow_redirects:1.14.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:follow:follow-redirects:1.14.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:follow:follow_redirects:1.14.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:follow-redirects:1.14.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:follow_redirects:1.14.9:*:*:*:*:*:*:*"
+    "cpe:2.3:a:follow-redirects:follow-redirects:1.15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:follow-redirects:follow_redirects:1.15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:follow_redirects:follow-redirects:1.15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:follow_redirects:follow_redirects:1.15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:follow:follow-redirects:1.15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:follow:follow_redirects:1.15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:follow-redirects:1.15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:follow_redirects:1.15.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/follow-redirects@1.14.9"
+   "purl": "pkg:npm/follow-redirects@1.15.0"
   },
   {
    "id": "f8d8b05777541cbd",
@@ -5966,6 +5966,25 @@
     "cpe:2.3:a:*:function_bind:1.1.1:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:npm/function-bind@1.1.1"
+  },
+  {
+   "id": "c35e0de35199afb1",
+   "name": "function.prototype.name",
+   "version": "1.1.5",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:function.prototype.name:function.prototype.name:1.1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:function.prototype.name:1.1.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/function.prototype.name@1.1.5"
   },
   {
    "id": "c1397302bf03f1f1",
@@ -6289,9 +6308,9 @@
    "purl": "pkg:npm/getpass@0.1.7"
   },
   {
-   "id": "b3e944733b5feb58",
+   "id": "f5b2c5688bb01b41",
    "name": "glob",
-   "version": "7.2.0",
+   "version": "7.2.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -6302,10 +6321,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:glob:glob:7.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:glob:7.2.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:glob:glob:7.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:glob:7.2.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/glob@7.2.0"
+   "purl": "pkg:npm/glob@7.2.3"
   },
   {
    "id": "674918afa4756478",
@@ -6383,9 +6402,9 @@
    "purl": "pkg:npm/global-prefix@3.0.0"
   },
   {
-   "id": "976afddcd3495cd9",
+   "id": "5b7be60a3797dc5d",
    "name": "globals",
-   "version": "13.13.0",
+   "version": "13.15.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -6396,10 +6415,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:globals:globals:13.13.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:globals:13.13.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:globals:globals:13.15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:globals:13.15.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/globals@13.13.0"
+   "purl": "pkg:npm/globals@13.15.0"
   },
   {
    "id": "42b6c7507daae9b6",
@@ -6488,9 +6507,9 @@
    "purl": "pkg:npm/google-auth-library@7.14.1"
   },
   {
-   "id": "23c8b65ef5f4f4bf",
+   "id": "3d333e7d6f66691",
    "name": "google-gax",
-   "version": "2.30.2",
+   "version": "2.30.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -6501,16 +6520,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:google-gax:google-gax:2.30.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:google-gax:google_gax:2.30.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:google_gax:google-gax:2.30.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:google_gax:google_gax:2.30.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:google:google-gax:2.30.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:google:google_gax:2.30.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:google-gax:2.30.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:google_gax:2.30.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:google-gax:google-gax:2.30.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google-gax:google_gax:2.30.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google_gax:google-gax:2.30.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google_gax:google_gax:2.30.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google:google-gax:2.30.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google:google_gax:2.30.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:google-gax:2.30.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:google_gax:2.30.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/google-gax@2.30.2"
+   "purl": "pkg:npm/google-gax@2.30.4"
   },
   {
    "id": "7f4af8a71a90f6b5",
@@ -7831,9 +7850,9 @@
    "purl": "pkg:npm/into-stream@3.1.0"
   },
   {
-   "id": "902df8335ec87856",
+   "id": "da7027513af20895",
    "name": "ip",
-   "version": "1.1.5",
+   "version": "1.1.8",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -7844,10 +7863,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:ip:ip:1.1.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:ip:1.1.5:*:*:*:*:*:*:*"
+    "cpe:2.3:a:ip:ip:1.1.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:ip:1.1.8:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/ip@1.1.5"
+   "purl": "pkg:npm/ip@1.1.8"
   },
   {
    "id": "cb4b03e092510a47",
@@ -9388,9 +9407,9 @@
    "purl": "pkg:npm/jstransformer-marked@1.1.0"
   },
   {
-   "id": "880febe921281875",
+   "id": "2c07fb2114adcaff",
    "name": "jsx-ast-utils",
-   "version": "3.2.2",
+   "version": "3.3.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -9401,20 +9420,20 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:jsx-ast-utils:jsx-ast-utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx-ast-utils:jsx_ast_utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx_ast_utils:jsx-ast-utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx_ast_utils:jsx_ast_utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx-ast:jsx-ast-utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx-ast:jsx_ast_utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx_ast:jsx-ast-utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx_ast:jsx_ast_utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx:jsx-ast-utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx:jsx_ast_utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:jsx-ast-utils:3.2.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:jsx_ast_utils:3.2.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:jsx-ast-utils:jsx-ast-utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx-ast-utils:jsx_ast_utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx_ast_utils:jsx-ast-utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx_ast_utils:jsx_ast_utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx-ast:jsx-ast-utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx-ast:jsx_ast_utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx_ast:jsx-ast-utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx_ast:jsx_ast_utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx:jsx-ast-utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx:jsx_ast_utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:jsx-ast-utils:3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:jsx_ast_utils:3.3.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/jsx-ast-utils@3.2.2"
+   "purl": "pkg:npm/jsx-ast-utils@3.3.0"
   },
   {
    "id": "ea14a6c0bb0df006",
@@ -11195,9 +11214,9 @@
    "purl": "pkg:npm/nan@2.15.0"
   },
   {
-   "id": "34887a466005f24e",
+   "id": "3a03134eff12363",
    "name": "nanoid",
-   "version": "3.3.3",
+   "version": "3.3.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -11208,10 +11227,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:nanoid:nanoid:3.3.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:nanoid:3.3.3:*:*:*:*:*:*:*"
+    "cpe:2.3:a:nanoid:nanoid:3.3.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:nanoid:3.3.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/nanoid@3.3.3"
+   "purl": "pkg:npm/nanoid@3.3.4"
   },
   {
    "id": "47d04221d688f8c9",
@@ -11886,9 +11905,9 @@
    "purl": "pkg:npm/object.fromentries@2.0.5"
   },
   {
-   "id": "1ea72c620de37052",
+   "id": "b4c3f4ea2858356b",
    "name": "object.hasown",
-   "version": "1.1.0",
+   "version": "1.1.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -11899,10 +11918,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:object.hasown:object.hasown:1.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:object.hasown:1.1.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:object.hasown:object.hasown:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:object.hasown:1.1.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/object.hasown@1.1.0"
+   "purl": "pkg:npm/object.hasown@1.1.1"
   },
   {
    "id": "6630365891654bd",
@@ -12755,9 +12774,9 @@
    "purl": "pkg:npm/pngquant-bin@6.0.1"
   },
   {
-   "id": "60e1ae67e8179097",
+   "id": "87eb0639dbdb7e2",
    "name": "postcss",
-   "version": "8.4.13",
+   "version": "8.4.14",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -12768,10 +12787,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:postcss:postcss:8.4.13:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:postcss:8.4.13:*:*:*:*:*:*:*"
+    "cpe:2.3:a:postcss:postcss:8.4.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:postcss:8.4.14:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/postcss@8.4.13"
+   "purl": "pkg:npm/postcss@8.4.14"
   },
   {
    "id": "c1690a8b9c33fe42",
@@ -12869,9 +12888,9 @@
    "purl": "pkg:npm/postcss-safe-parser@6.0.0"
   },
   {
-   "id": "ed85c35a5fac8c61",
+   "id": "2d087bc4b7d7f710",
    "name": "postcss-scss",
-   "version": "4.0.3",
+   "version": "4.0.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -12882,16 +12901,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:postcss-scss:postcss-scss:4.0.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:postcss-scss:postcss_scss:4.0.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:postcss_scss:postcss-scss:4.0.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:postcss_scss:postcss_scss:4.0.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:postcss:postcss-scss:4.0.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:postcss:postcss_scss:4.0.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:postcss-scss:4.0.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:postcss_scss:4.0.3:*:*:*:*:*:*:*"
+    "cpe:2.3:a:postcss-scss:postcss-scss:4.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:postcss-scss:postcss_scss:4.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:postcss_scss:postcss-scss:4.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:postcss_scss:postcss_scss:4.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:postcss:postcss-scss:4.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:postcss:postcss_scss:4.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:postcss-scss:4.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:postcss_scss:4.0.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/postcss-scss@4.0.3"
+   "purl": "pkg:npm/postcss-scss@4.0.4"
   },
   {
    "id": "a544b3dc1d240cd",
@@ -13169,9 +13188,9 @@
    "purl": "pkg:npm/proto-list@1.2.4"
   },
   {
-   "id": "1b6bda998e42d713",
+   "id": "41ea3e557706f691",
    "name": "proto3-json-serializer",
-   "version": "0.1.8",
+   "version": "0.1.9",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -13182,25 +13201,25 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:proto3-json-serializer:proto3-json-serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3-json-serializer:proto3_json_serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3_json_serializer:proto3-json-serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3_json_serializer:proto3_json_serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3-json:proto3-json-serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3-json:proto3_json_serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3_json:proto3-json-serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3_json:proto3_json_serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3:proto3-json-serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3:proto3_json_serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:proto3-json-serializer:0.1.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:proto3_json_serializer:0.1.8:*:*:*:*:*:*:*"
+    "cpe:2.3:a:proto3-json-serializer:proto3-json-serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3-json-serializer:proto3_json_serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3_json_serializer:proto3-json-serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3_json_serializer:proto3_json_serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3-json:proto3-json-serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3-json:proto3_json_serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3_json:proto3-json-serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3_json:proto3_json_serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3:proto3-json-serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3:proto3_json_serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:proto3-json-serializer:0.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:proto3_json_serializer:0.1.9:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/proto3-json-serializer@0.1.8"
+   "purl": "pkg:npm/proto3-json-serializer@0.1.9"
   },
   {
-   "id": "eafb5a52cd87630",
+   "id": "3f4b3e8f5821d3b8",
    "name": "protobufjs",
-   "version": "6.11.2",
+   "version": "6.11.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -13211,10 +13230,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:protobufjs:protobufjs:6.11.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:protobufjs:6.11.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:protobufjs:protobufjs:6.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:protobufjs:6.11.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/protobufjs@6.11.2"
+   "purl": "pkg:npm/protobufjs@6.11.3"
   },
   {
    "id": "2cf3012cbadac0e8",
@@ -14070,9 +14089,9 @@
    "purl": "pkg:npm/safer-buffer@2.1.2"
   },
   {
-   "id": "1ed243bdf38971e",
+   "id": "6613286b772cf0de",
    "name": "sass",
-   "version": "1.50.1",
+   "version": "1.52.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -14083,10 +14102,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:sass:sass:1.50.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:sass:1.50.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:sass:sass:1.52.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:sass:1.52.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/sass@1.50.1"
+   "purl": "pkg:npm/sass@1.52.1"
   },
   {
    "id": "8b73a8529ebf35c6",
@@ -15097,9 +15116,9 @@
    "purl": "pkg:npm/string.prototype.matchall@4.0.7"
   },
   {
-   "id": "fdc96cc67fc4c597",
+   "id": "d2fc9054cd47cf5c",
    "name": "string.prototype.trimend",
-   "version": "1.0.4",
+   "version": "1.0.5",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -15110,15 +15129,15 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:string.prototype.trimend:string.prototype.trimend:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:string.prototype.trimend:1.0.4:*:*:*:*:*:*:*"
+    "cpe:2.3:a:string.prototype.trimend:string.prototype.trimend:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:string.prototype.trimend:1.0.5:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/string.prototype.trimend@1.0.4"
+   "purl": "pkg:npm/string.prototype.trimend@1.0.5"
   },
   {
-   "id": "7f9998ff6ca7b554",
+   "id": "27a00c2e0a2c62c5",
    "name": "string.prototype.trimstart",
-   "version": "1.0.4",
+   "version": "1.0.5",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -15129,10 +15148,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:string.prototype.trimstart:string.prototype.trimstart:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:string.prototype.trimstart:1.0.4:*:*:*:*:*:*:*"
+    "cpe:2.3:a:string.prototype.trimstart:string.prototype.trimstart:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:string.prototype.trimstart:1.0.5:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/string.prototype.trimstart@1.0.4"
+   "purl": "pkg:npm/string.prototype.trimstart@1.0.5"
   },
   {
    "id": "9fb0b7d445ae485c",
@@ -16384,9 +16403,9 @@
    "purl": "pkg:npm/type-fest@0.18.1"
   },
   {
-   "id": "5e2c4b4b7642eef",
+   "id": "1705e6939ae93143",
    "name": "uglify-js",
-   "version": "3.15.4",
+   "version": "3.15.5",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -16397,21 +16416,21 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:uglify-js:uglify-js:3.15.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify-js:uglify_js:3.15.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify_js:uglify-js:3.15.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify_js:uglify_js:3.15.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify:uglify-js:3.15.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify:uglify_js:3.15.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:uglify-js:3.15.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:uglify_js:3.15.4:*:*:*:*:*:*:*"
+    "cpe:2.3:a:uglify-js:uglify-js:3.15.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify-js:uglify_js:3.15.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify_js:uglify-js:3.15.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify_js:uglify_js:3.15.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify:uglify-js:3.15.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify:uglify_js:3.15.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:uglify-js:3.15.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:uglify_js:3.15.5:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/uglify-js@3.15.4"
+   "purl": "pkg:npm/uglify-js@3.15.5"
   },
   {
-   "id": "f24d740e44c7558f",
+   "id": "66a49fac35943abc",
    "name": "unbox-primitive",
-   "version": "1.0.1",
+   "version": "1.0.2",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -16422,16 +16441,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:unbox-primitive:unbox-primitive:1.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:unbox-primitive:unbox_primitive:1.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:unbox_primitive:unbox-primitive:1.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:unbox_primitive:unbox_primitive:1.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:unbox:unbox-primitive:1.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:unbox:unbox_primitive:1.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:unbox-primitive:1.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:unbox_primitive:1.0.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:unbox-primitive:unbox-primitive:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unbox-primitive:unbox_primitive:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unbox_primitive:unbox-primitive:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unbox_primitive:unbox_primitive:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unbox:unbox-primitive:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unbox:unbox_primitive:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:unbox-primitive:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:unbox_primitive:1.0.2:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/unbox-primitive@1.0.1"
+   "purl": "pkg:npm/unbox-primitive@1.0.2"
   },
   {
    "id": "cf89d477a518a9bf",
@@ -16459,9 +16478,9 @@
    "purl": "pkg:npm/unbzip2-stream@1.4.3"
   },
   {
-   "id": "aa2546417535df16",
+   "id": "a6f6e3a3636a62f8",
    "name": "underscore",
-   "version": "1.13.2",
+   "version": "1.13.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -16472,10 +16491,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:underscore:underscore:1.13.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:underscore:1.13.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:underscore:underscore:1.13.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:underscore:1.13.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/underscore@1.13.2"
+   "purl": "pkg:npm/underscore@1.13.3"
   },
   {
    "id": "470fe88ca19a92d0",
@@ -17361,7 +17380,7 @@
  "distro": {},
  "descriptor": {
   "name": "syft",
-  "version": "0.45.1",
+  "version": "0.46.1",
   "configuration": {
    "configPath": "",
    "verbosity": 0,
@@ -17435,13 +17454,25 @@
    },
    "exclude": [],
    "attest": {
-    "key": "cosign.key"
+    "key": "",
+    "cert": "",
+    "noUpload": false,
+    "force": false,
+    "recursive": false,
+    "replace": false,
+    "fulcioUrl": "https://fulcio.sigstore.dev",
+    "fulcio_identity_token": "",
+    "insecure_skip_verify": false,
+    "rekorUrl": "https://rekor.sigstore.dev",
+    "oidcIssuer": "https://oauth2.sigstore.dev/auth",
+    "oidcClientId": "sigstore",
+    "OIDCRedirectURL": ""
    },
    "platform": ""
   }
  },
  "schema": {
-  "version": "3.2.2",
-  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.2.json"
+  "version": "3.2.3",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.3.json"
  }
 }
