@@ -186,6 +186,7 @@ const ms = Metalsmith(__dirname)
       '/frequently-asked-questions': '/',
       '/shop': '/',
       '/affiliate': '/',
+      '/bthechange2017': '/',
       '/names/premiums/': '/search/',
       '/partners/institute-of-public-environmental-affairs/': 'https://org.eco/'
     }
