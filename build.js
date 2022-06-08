@@ -73,7 +73,7 @@ const ENV_OPTIONS = {
     profiles: 'https://profiles.eco',
     trustmark: 'https://trust.profiles.eco',
     intercomAppID: 'hsovcclh',
-    searchUrl: 'https://search.go.eco',
+    searchUrl: 'https://domains.go.eco',
     sentryDSN: 'https://b58e840db28c47409688bc4dded2c97a@o72378.ingest.sentry.io/5877454',
     makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScjnQNdyxwhKLM0s7l8h3AKp66WcTY72Qrw5JMC3s9m_k7uVA/formResponse'
   }
