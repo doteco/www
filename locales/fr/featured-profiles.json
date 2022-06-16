@@ -45,7 +45,7 @@
     "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
     "type": "business",
     "location": "Danemark",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "bleu.eco",
@@ -69,7 +69,7 @@
     "img": "https://cdn.profiles.eco/images/ecofario.eco/5dd35d31-21f5-47af-b7e8-a1e5e6590908_1500x500.jpeg",
     "type": "business",
     "location": "Allemagne",
-    "priority": "5"
+    "priority": "2"
   },
   {
     "domain": "goodonyou.eco",
@@ -93,7 +93,7 @@
     "img": "https://cdn.profiles.eco/images/bumboo.eco/79c54365-8f28-4d74-9aba-88046da8fb8f_1500x500.jpeg",
     "type": "business",
     "location": "Royaume-Uni",
-    "priority": "3"
+    "priority": "6"
   },
   {
     "domain": "boox.eco",
@@ -101,7 +101,7 @@
     "img": "https://cdn.profiles.eco/images/boox.eco/bf2f788c-3cc2-4046-abcb-39f2abb627e6_1500x500.png",
     "type": "business",
     "location": "États-Unis",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "nuvola.eco",
@@ -109,6 +109,14 @@
     "img": "https://cdn.profiles.eco/images/nuvola.eco/6a6f7553-3ef1-4016-b3aa-fad68f66413a_1500x500.jpeg",
     "type": "business",
     "location": "Suisse",
+    "priority": "5"
+  },
+  {
+    "domain": "brightly.eco",
+    "story": "<a href=\"https://brightly.eco\">Brightly</a> est la destination n°1 pour que les gens découvrent de nouvelles marques et produits respectueux de l&#39;environnement. Brightly inspire actuellement des millions d&#39;utilisateurs chaque jour à vivre des modes de vie durables.",
+    "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
+    "type": "business",
+    "location": "États-Unis",
     "priority": "1"
   }
 ]
