@@ -1,13 +1,5 @@
 [
   {
-    "domain": "burdock.eco",
-    "story": "<a href=\"https://burdock.eco\">Burdock.eco</a> est un réseau international d&#39;éco-projets basé en Ukraine. Il aide les gens à trouver des éco-projets intéressants et des opportunités de bénévolat au profit de la nature.",
-    "img": "https://cdn.profiles.eco/images/burdock.eco/95bac84f-95ab-43a5-acc6-bfd525c40ad7_1500x500.jpeg",
-    "type": "nonprofit",
-    "location": "Ukraine",
-    "priority": ""
-  },
-  {
     "domain": "mico.eco",
     "story": "<a href=\"https://mico.eco\">MiCO</a>&nbsp;, Migratory Connectivity in the Ocean, soutient les efforts mondiaux de conservation des espèces aquatiques migratrices comme les baleines et les dauphins, et les océans dont ils dépendent.",
     "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
@@ -17,7 +9,7 @@
   },
   {
     "domain": "current.eco",
-    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises qui cherchent à gérer leur infrastructure de recharge de véhicules électriques.",
+    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises cherchant à gérer leur infrastructure de recharge de véhicules électriques.",
     "img": "https://cdn.profiles.eco/images/current.eco/3f4a0566-7df4-452d-85cd-55b325afd402_1500x500.jpeg",
     "type": "business",
     "location": "Norvège",
