@@ -105,10 +105,18 @@
   },
   {
     "domain": "brightly.eco",
-    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern, einen nachhaltigen Lebensstil zu leben.",
+    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern zu einem nachhaltigen Lebensstil.",
     "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
     "type": "business",
     "location": "Vereinigte Staaten",
     "priority": "1"
+  },
+  {
+    "domain": "kusala.eco",
+    "story": "<a href=\"https://kusala.eco\">Kusala</a> produziert handwerkliche Seife mit gutem Karma für eine Kreislaufwirtschaft.",
+    "img": "https://cdn.profiles.eco/images/kusala.eco/634b3ac4-e1d3-44a0-9a0a-dfef9e8f44d8_1500x500.jpeg",
+    "type": "business",
+    "location": "Niederlande",
+    "priority": ""
   }
 ]

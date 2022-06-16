@@ -110,5 +110,13 @@
     "type": "business",
     "location": "États-Unis",
     "priority": "1"
+  },
+  {
+    "domain": "kusala.eco",
+    "story": "<a href=\"https://kusala.eco\">Kusala</a> produit du savon artisanal avec un bon karma fait pour une économie circulaire.",
+    "img": "https://cdn.profiles.eco/images/kusala.eco/634b3ac4-e1d3-44a0-9a0a-dfef9e8f44d8_1500x500.jpeg",
+    "type": "business",
+    "location": "Pays-Bas",
+    "priority": ""
   }
 ]

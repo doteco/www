@@ -110,5 +110,13 @@
     "type": "business",
     "location": "USA",
     "priority": "1"
+  },
+  {
+    "domain": "kusala.eco",
+    "story": "<a href=\"https://kusala.eco\">Kusala</a> produces artisanal soap with good karma made for a circular economy.",
+    "img": "https://cdn.profiles.eco/images/kusala.eco/634b3ac4-e1d3-44a0-9a0a-dfef9e8f44d8_1500x500.jpeg",
+    "type": "business",
+    "location": "Netherlands",
+    "priority": ""
   }
 ]
