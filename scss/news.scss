@@ -28,16 +28,12 @@
 			margin-bottom: 2.8rem;
 		}
 
-		p ~ ol, p ~ ul {
-			margin-top: -2rem;
-		}
-
 		blockquote {
 			font-style: italic;
 		}
 
 		blockquote > ol, blockquote > p {
-			margin-bottom: 0;
+			margin-bottom: 0.5rem;
 		}
 
 		img {
