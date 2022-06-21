@@ -7,6 +7,12 @@
     "region": "Region",
     "noRegistrars": "<p class=\"no-registrars\">Derzeit entspricht kein Händler diesen Filterkriterien.</p>"
   },
+  "filterHelp": {
+    "region": "Die Hauptregionen, in denen dieser Einzelhändler tätig ist.",
+    "envPolicy": "Ist dieser Händler umweltfreundlich?",
+    "language": "Die Sprachen, die dieser Einzelhändler unterstützt.",
+    "currency": "Die Währungen, mit denen Sie für Ihre Domain bezahlen können."
+  },
   "policy": {
     "Yes": "Ja"
   },
