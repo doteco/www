@@ -5,7 +5,8 @@
     "envPolicy": "Umweltschutzpolitik",
     "language": "Sprache",
     "region": "Region",
-    "noRegistrars": "<p class=\"no-registrars\">Derzeit entspricht kein Händler diesen Filterkriterien.</p>"
+    "noRegistrars": "<p class=\"no-registrars\">Derzeit entspricht kein Händler diesen Filterkriterien.</p>",
+    "greenRetailers": ""
   },
   "filterHelp": {
     "region": "Die Hauptregionen, in denen dieser Einzelhändler tätig ist.",

@@ -26,7 +26,8 @@
     "envPolicy": "Politique environnementale",
     "language": "Langue",
     "currency": "Devise",
-    "noRegistrars": "<p class=\"no-registrars\">Aucun détaillant ne correspond actuellement à ces critères de filtrage.</p>"
+    "noRegistrars": "<p class=\"no-registrars\">Aucun détaillant ne correspond actuellement à ces critères de filtrage.</p>",
+    "greenRetailers": ""
   },
   "filterHelp": {
     "region": "Les principales régions où opère ce détaillant.",

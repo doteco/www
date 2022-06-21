@@ -3,7 +3,8 @@ window.domainSearch = function (config) {
 
   function registrarLogoDiv (registrar, domain) {
     const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + (domain ? '&domain=' + encodeURIComponent(domain) : '')
-    return `<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="${registrar.label}" class="registrar-logo" /><span class="registrar-name">${registrar.label}</span></a></div>`
+    const greenLabel = registrar.envPolicy ? '<span class="registrar-green" title="Green domain retailer">&#x1F33F</span>' : ''
+    return `<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="${registrar.label}" class="registrar-logo" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
   }
 
   function generateFilterHtml (id, defaultItem, items, defaultValue, helpText) {
@@ -68,7 +69,7 @@ window.domainSearch = function (config) {
 
   function addFilters (registrars) {
     const registrarsFilterRow = document.querySelector('.registrars-filter')
-    registrarsFilterRow.innerHTML = ''
+    registrarsFilterRow.innerHTML = config.filterLabels.greenRetailers
 
     const languages = uniqueFilterItems(registrars, 'languages')
     const currencies = uniqueFilterItems(registrars, 'currencies')
