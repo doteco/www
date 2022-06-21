@@ -3,7 +3,7 @@ window.domainSearch = function (config) {
 
   function registrarLogoDiv (registrar, domain) {
     const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + (domain ? '&domain=' + encodeURIComponent(domain) : '')
-    const greenLabel = registrar.envPolicy ? '<span class="registrar-green" title="Green domain retailer">&#x1F33F</span>' : ''
+    const greenLabel = registrar.envPolicy ? `<span class="registrar-green" title="${config.filterLabels.envPolicy}">&#x1F33F</span>` : ''
     return `<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="${registrar.label}" class="registrar-logo" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
   }
 

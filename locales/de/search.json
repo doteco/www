@@ -2,7 +2,7 @@
   "description": "Suchen Sie nach einer .eco-Domain und wählen Sie Ihren Registrar, um sie zu kaufen.",
   "filters": {
     "currency": "Währung",
-    "envPolicy": "Umweltschutzpolitik",
+    "envPolicy": "Umweltfreundlich",
     "language": "Sprache",
     "region": "Region",
     "noRegistrars": "<p class=\"no-registrars\">Derzeit entspricht kein Händler diesen Filterkriterien.</p>",
@@ -15,7 +15,7 @@
     "currency": "Die Währungen, mit denen Sie für Ihre Domain bezahlen können."
   },
   "policy": {
-    "Yes": "Ja"
+    "Yes": "Ja &#x1F33F;"
   },
   "region": {
     "Africa": "Afrika",

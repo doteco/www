@@ -23,16 +23,16 @@
   },
   "filters": {
     "region": "Région",
-    "envPolicy": "Politique environnementale",
+    "envPolicy": "Écoresponsable",
     "language": "Langue",
     "currency": "Devise",
-    "noRegistrars": "<p class=\"no-registrars\">Aucun détaillant ne correspond actuellement à ces critères de filtrage.</p>",
+    "noRegistrars": "<p class=\"no-registrars\">Aucun revendeur ne correspond actuellement à ces critères de filtrage.</p>",
     "greenRetailers": ""
   },
   "filterHelp": {
-    "region": "Les principales régions où opère ce détaillant.",
-    "envPolicy": "Ce détaillant est-il respectueux de l'environnement ?",
-    "language": "Les langues prises en charge par ce détaillant.",
+    "region": "Les principales régions où opère ce revendeur.",
+    "envPolicy": "Ce revendeur est-il respectueux de l'environnement ?",
+    "language": "Les langues prises en charge par ce revendeur.",
     "currency": "Les devises que vous pouvez utiliser pour payer votre domaine."
   },
   "results": {
@@ -54,6 +54,6 @@
     "South America": "Amérique du Sud"
   },
   "policy": {
-    "Yes": "Oui"
+    "Yes": "Oui &#x1F33F;"
   }
 }
