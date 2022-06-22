@@ -191,15 +191,26 @@ window.domainSearch = function (config) {
     })
   }
 
-  document.querySelector('.btn-search').addEventListener('click', function (e) {
+  function submitSearch (e) {
     e.preventDefault()
-    return search(searchDomain())
+
+    const domain = searchDomain()
+    if (window.history) {
+      const url = new URL(window.location)
+      url.searchParams.set('domain', domain)
+      window.history.pushState({}, '', url)
+    }
+
+    return search(domain)
+  }
+
+  document.querySelector('.btn-search').addEventListener('click', function (e) {
+    submitSearch(e)
   })
 
   document.querySelector('.domain-search').addEventListener('keydown', function (e) {
     if (e.keyCode === 13) {
-      e.preventDefault()
-      return search(searchDomain())
+      submitSearch(e)
     }
   })
 
