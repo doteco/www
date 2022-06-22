@@ -42,10 +42,16 @@ exclude: true
 function whois () {
   const domainInput = document.querySelector('.domain-search')
   let domain = domainInput.value
-  if (! domain.endsWith('.eco')) {
-    domain += '.eco'
-    domainInput.value = domain
+  domain = domain.replace(/[\s;<>"'\/=()]/g, '').replace(/\..*$/, '')
+  domain += '.eco'
+  domainInput.value = domain
+
+  if (window.history) {
+    const url = new URL(window.location)
+    url.searchParams.set('domain', domain)
+    window.history.pushState({}, '', url)
   }
+
   window.fetch('{{ searchUrl }}/whois?domain=' + domain).then((response) => response.text()).then(function (results) {
     document.querySelector('.whois-results').innerText = results.replace(/"/g, '').replace(/\\r\\n/g, '\r\n')
   })
