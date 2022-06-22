@@ -30,9 +30,11 @@ window.domainSearch = function (config) {
     const filters = getFilterValues()
     console.log('Filters:', filters)
     config.onFilter(filters)
+    const domain =  searchDomain()
+    updateUriHistory(domain, filters)
 
     const filteredRegistrars = filterRegistrars(registrars, filters)
-    showAllRegistrars(filteredRegistrars, searchDomain())
+    showAllRegistrars(filteredRegistrars, domain)
   }
 
   function getFilterValues () {
@@ -191,16 +193,23 @@ window.domainSearch = function (config) {
     })
   }
 
+  function updateUriHistory (domain, filters) {
+    if (window.history) {
+      const url = new URL(window.location)
+      url.searchParams.set('domain', domain)
+      filters[0] ? url.searchParams.set('region', filters[0]) : url.searchParams.delete('region')
+      filters[1] ? url.searchParams.set('language', filters[1]) : url.searchParams.delete('language')
+      filters[2] ? url.searchParams.set('currency', filters[2]) : url.searchParams.delete('currency')
+      filters[3] ? url.searchParams.set('envPolicy', filters[3]) : url.searchParams.delete('envPolicy')
+      window.history.pushState({}, '', url)
+    }
+  }
+
   function submitSearch (e) {
     e.preventDefault()
 
     const domain = searchDomain()
-    if (window.history) {
-      const url = new URL(window.location)
-      url.searchParams.set('domain', domain)
-      window.history.pushState({}, '', url)
-    }
-
+    updateUriHistory(domain, getFilterValues())
     return search(domain)
   }
 
