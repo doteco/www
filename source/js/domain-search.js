@@ -30,18 +30,23 @@ window.domainSearch = function (config) {
     const filters = getFilterValues()
     console.log('Filters:', filters)
     config.onFilter(filters)
-    const domain =  searchDomain()
+    const domain = searchDomain()
     updateUriHistory(domain, filters)
 
     const filteredRegistrars = filterRegistrars(registrars, filters)
     showAllRegistrars(filteredRegistrars, domain)
   }
 
+  function getFilterValue (filterId) {
+    const filterElement = document.getElementById(filterId)
+    return filterElement && filterElement.value
+  }
+
   function getFilterValues () {
-    const policyFilter = document.querySelector('#filter-policy').value
-    const currencyFilter = document.querySelector('#filter-currency').value
-    const languageFilter = document.querySelector('#filter-language').value
-    const regionFilter = document.querySelector('#filter-region').value
+    const policyFilter = getFilterValue('filter-policy')
+    const currencyFilter = getFilterValue('filter-currency')
+    const languageFilter = getFilterValue('filter-language')
+    const regionFilter = getFilterValue('filter-region')
     return [regionFilter, languageFilter, currencyFilter, policyFilter]
   }
 
