@@ -61,7 +61,7 @@
     "img": "https://cdn.profiles.eco/images/ecofario.eco/5dd35d31-21f5-47af-b7e8-a1e5e6590908_1500x500.jpeg",
     "type": "business",
     "location": "Deutschland",
-    "priority": "2"
+    "priority": ""
   },
   {
     "domain": "goodonyou.eco",
@@ -105,7 +105,7 @@
   },
   {
     "domain": "brightly.eco",
-    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern zu einem nachhaltigen Lebensstil.",
+    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern, einen nachhaltigen Lebensstil zu leben.",
     "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
     "type": "business",
     "location": "Vereinigte Staaten",
@@ -118,5 +118,13 @@
     "type": "business",
     "location": "Niederlande",
     "priority": ""
+  },
+  {
+    "domain": "ducky.eco",
+    "story": "<a href=\"https://ducky.eco\">Ducky</a> entwickelt digitale Tools, um Menschen und Organisationen dabei zu helfen, ihr Verhalten zu ändern und ihren CO2-Fußabdruck zu reduzieren.",
+    "img": "https://cdn.profiles.eco/images/ducky.eco/04b88bb6-ade5-4559-9889-bcb2be6d6029_1500x500.png",
+    "type": "business",
+    "location": "Norwegen",
+    "priority": "2"
   }
 ]

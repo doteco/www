@@ -9,7 +9,7 @@
   },
   {
     "domain": "current.eco",
-    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises cherchant à gérer leur infrastructure de recharge de véhicules électriques.",
+    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises qui cherchent à gérer leur infrastructure de recharge de véhicules électriques.",
     "img": "https://cdn.profiles.eco/images/current.eco/3f4a0566-7df4-452d-85cd-55b325afd402_1500x500.jpeg",
     "type": "business",
     "location": "Norvège",
@@ -61,7 +61,7 @@
     "img": "https://cdn.profiles.eco/images/ecofario.eco/5dd35d31-21f5-47af-b7e8-a1e5e6590908_1500x500.jpeg",
     "type": "business",
     "location": "Allemagne",
-    "priority": "2"
+    "priority": ""
   },
   {
     "domain": "goodonyou.eco",
@@ -118,5 +118,13 @@
     "type": "business",
     "location": "Pays-Bas",
     "priority": ""
+  },
+  {
+    "domain": "ducky.eco",
+    "story": "<a href=\"https://ducky.eco\">Ducky</a> développe des outils numériques pour aider les personnes et les organisations à changer leurs comportements et à réduire leur empreinte carbone.",
+    "img": "https://cdn.profiles.eco/images/ducky.eco/04b88bb6-ade5-4559-9889-bcb2be6d6029_1500x500.png",
+    "type": "business",
+    "location": "Norvège",
+    "priority": "2"
   }
 ]
