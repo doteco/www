@@ -111,6 +111,14 @@
 		background-color: #f9f9f9;
 	}
 
+	.eco-profile-icon {
+		background-image: url(/android-chrome-512x512.png);
+		background-size: cover;
+		width: 20px;
+		height: 20px;
+		float: right;
+	}
+
 	@media (min-width: 767px) {
 		article.container,
 		.breadcrumbs.container {
