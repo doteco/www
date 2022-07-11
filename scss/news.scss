@@ -41,6 +41,24 @@
 			margin-top: 2rem;
 		}
 
+		table {
+			width: 100%;
+			vertical-align: top;
+		}
+
+		th {
+			text-align: center;
+		}
+
+		td, th {
+			border: 1px solid #ddd;
+			padding: 1rem;
+		}
+
+		thead > tr, tr:nth-of-type(even) {
+			background-color: #f9f9f9;
+		}
+
 		.article-header {
 			margin: 3rem 0;
 		}
@@ -93,26 +111,8 @@
 		bottom: 0;
 	}
 
-	table {
-		width: 100%;
-		vertical-align: top;
-	}
-
-	th {
-		text-align: center;
-	}
-
-	td, th {
-		border: 1px solid #ddd;
-		padding: 1rem;
-	}
-
-	thead>tr, tr:nth-of-type(even) {
-		background-color: #f9f9f9;
-	}
-
 	.eco-profile-icon {
-		background-image: url(/android-chrome-512x512.png);
+		background-image: url('/android-chrome-512x512.png');
 		background-size: cover;
 		width: 20px;
 		height: 20px;

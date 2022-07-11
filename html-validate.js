@@ -26,6 +26,7 @@ const skipFiles = [
   'public/affiliate/index.html',
   'public/frequently-asked-questions/index.html',
   'public/about/marketing/index.html',
+  'public/bthechange2017/index.html',
   'public/about/team/index.html',
   'public/about/press/index.html'
 ]
