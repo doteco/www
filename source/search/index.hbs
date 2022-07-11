@@ -59,7 +59,7 @@ exclude: true
   <div class="container">
     <div class="row">
       <div class="col-sm-2"></div>
-      <div class="col-sm-8 well well-lg">
+      <div class="submit-form col-sm-8 well well-lg">
         <h3 class="registars-header">{{t "reserved.head"}}</h3>
         <p>{{t "reserved.text"}}</p>
         <form id="makeoffer-form" class="underlined-form iframe-form" action="{{ makeOfferForm }}" target="makeoffer-form-iframe" method="POST" data-toggle="validator">
@@ -78,9 +78,11 @@ exclude: true
           </fieldset>
           <div class="clearfix form-group">
             <button type="submit" class="submit-application btn btn-primary pull-right" data-loading-text="{{t "reserved.cta2"}}">{{t "reserved.cta"}}</button>
-            <span class="submit-thanks" hidden>{{t "reserved.thanks"}}</span>
           </div>
         </form>
+      </div>
+      <div class="submit-thanks col-sm-8 well well-lg" hidden>
+        <h3>{{t "reserved.thanks"}}</h3>
       </div>
       <div class="col-sm-2"></div>
     </div>

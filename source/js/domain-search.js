@@ -132,6 +132,7 @@ window.domainSearch = function (config) {
 
   function toggleReservedForm (isReserved, domain) {
     const reservedForm = document.querySelector('.domain-reserved')
+    toggleVisibility(document.querySelector('.submit-form'), true)
     toggleVisibility(reservedForm, isReserved)
     if (isReserved) {
       toggleVisibility(document.querySelector('.submit-thanks'), false)
@@ -230,6 +231,7 @@ window.domainSearch = function (config) {
 
   document.querySelector('.iframe-form-iframe').addEventListener('load', function (e) {
     document.querySelector('.submit-application').disabled = true
+    toggleVisibility(document.querySelector('.submit-form'), false)
     toggleVisibility(document.querySelector('.submit-thanks'), true)
   })
 
