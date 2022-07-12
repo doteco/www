@@ -230,7 +230,6 @@ window.domainSearch = function (config) {
   })
 
   document.querySelector('.iframe-form-iframe').addEventListener('load', function (e) {
-    document.querySelector('.submit-application').disabled = true
     toggleVisibility(document.querySelector('.submit-form'), false)
     toggleVisibility(document.querySelector('.submit-thanks'), true)
   })
