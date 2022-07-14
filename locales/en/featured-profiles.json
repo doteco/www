@@ -77,7 +77,7 @@
     "img": "https://cdn.profiles.eco/images/geca.eco/46494a07-f049-4d1b-ad11-3326346a3db1_1500x500.jpg",
     "type": "nonprofit",
     "location": "Australia",
-    "priority": "4"
+    "priority": "6"
   },
   {
     "domain": "bumboo.eco",
@@ -85,7 +85,7 @@
     "img": "https://cdn.profiles.eco/images/bumboo.eco/79c54365-8f28-4d74-9aba-88046da8fb8f_1500x500.jpeg",
     "type": "business",
     "location": "UK",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "boox.eco",
@@ -93,7 +93,7 @@
     "img": "https://cdn.profiles.eco/images/boox.eco/bf2f788c-3cc2-4046-abcb-39f2abb627e6_1500x500.png",
     "type": "business",
     "location": "USA",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "nuvola.eco",
@@ -109,7 +109,7 @@
     "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
     "type": "business",
     "location": "USA",
-    "priority": "1"
+    "priority": "2"
   },
   {
     "domain": "kusala.eco",
@@ -125,6 +125,14 @@
     "img": "https://cdn.profiles.eco/images/ducky.eco/04b88bb6-ade5-4559-9889-bcb2be6d6029_1500x500.png",
     "type": "business",
     "location": "Norway",
-    "priority": "2"
+    "priority": "3"
+  },
+  {
+    "domain": "carboncopy.eco",
+    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> is a UK charity that inspires big-thinking local climate action to accelerate our progress towards a fairer, carbon zero future.",
+    "img": "https://api.typeform.com/responses/files/e4ff0b2a2b92e284eca33861d4663fccd2d237d08321c29266bf0e3b78cb7efa/homepage_image.jpg",
+    "type": "nonprofit",
+    "location": "UK",
+    "priority": "1"
   }
 ]
