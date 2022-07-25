@@ -9,7 +9,7 @@
     "@metalsmith/layouts": "2.5.1",
     "@metalsmith/sass": "1.0.1",
     "autoprefixer": "10.4.7",
-    "date-fns": "2.28.0",
+    "date-fns": "2.29.1",
     "googleapis": "105.0.0",
     "handlebars": "4.7.7",
     "html-validator": "6.0.1",
@@ -20,7 +20,7 @@
     "jstransformer-handlebars": "1.2.0",
     "jstransformer-marked": "1.2.0",
     "klaw": "4.0.1",
-    "metalsmith": "2.4.3",
+    "metalsmith": "2.5.0",
     "metalsmith-autoprefixer": "github:doteco/metalsmith-autoprefixer",
     "metalsmith-discover-helpers": "0.1.1",
     "metalsmith-discover-partials": "0.1.2",
@@ -34,7 +34,7 @@
     "standard": "17.0.0",
     "stylelint": "14.9.1",
     "stylelint-config-standard": "26.0.0",
-    "stylelint-config-standard-scss": "4.0.0"
+    "stylelint-config-standard-scss": "5.0.0"
   },
   "scripts": {
     "build": "node ./build.js",
