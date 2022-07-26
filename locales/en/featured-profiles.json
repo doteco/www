@@ -130,7 +130,7 @@
   {
     "domain": "carboncopy.eco",
     "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> is a UK charity that inspires big-thinking local climate action to accelerate our progress towards a fairer, carbon zero future.",
-    "img": "https://go.eco/img/champion_logos/carboncopy-hero.jpg",
+    "img": "/img/champion_logos/carboncopy-hero.jpg",
     "type": "nonprofit",
     "location": "UK",
     "priority": "1"

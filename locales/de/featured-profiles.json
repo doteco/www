@@ -130,7 +130,7 @@
   {
     "domain": "carboncopy.eco",
     "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> ist eine britische Wohltätigkeitsorganisation, die groß denkende lokale Klimaschutzmaßnahmen anregt, um unseren Fortschritt in Richtung einer gerechteren, kohlenstofffreien Zukunft zu beschleunigen.",
-    "img": "https://go.eco/img/champion_logos/carboncopy-hero.jpg",
+    "img": "/img/champion_logos/carboncopy-hero.jpg",
     "type": "nonprofit",
     "location": "Vereinigtes Königreich",
     "priority": "1"
