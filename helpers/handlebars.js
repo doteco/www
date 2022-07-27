@@ -41,3 +41,12 @@ Handlebars.registerHelper('typeIcon', function (typeStr) {
       return 'business.svg'
   }
 })
+
+Handlebars.registerHelper('eachN', function (context, options) {
+  let ret = ''
+  const j = Math.min(context.length, 3)
+  for (let i = 0; i < j; i++) {
+    ret += options.fn(context[i])
+  }
+  return ret
+})

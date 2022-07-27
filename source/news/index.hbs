@@ -10,26 +10,29 @@ active: news
 
 <link rel="preload" as="image" href="/img/glacier-crop.jpeg" />
 
-<div class="jumbotron news-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/glacier-crop.jpeg'); background-size: cover">
-	<div class="container">
-		<h1>.eco news</h1>
-		<p>Latest news about .eco domain names and the .eco community.</p>
-	</div>
+<div class="jumbotron news-header"
+  style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/glacier-crop.jpeg'); background-size: cover">
+  <div class="container">
+    <h1>.eco news</h1>
+    <p>Latest news about .eco domain names and the .eco community.</p>
+  </div>
 </div>
 
 <section class="news-headlines container">
   <div class="row row-no-gutters">
-  {{#each collections.news}}
+    {{#each collections.news}}
     <div class="col-md-{{newsColumns @index}}">
       <a href="/{{pagePath path}}">
-        <div class="news-tile" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ header-img }}); background-size: cover">
-          <div class="news-tile-content">
-            <h3>{{ title }}</h3>
-            <p>{{ formatDay pubdate }}</p>
+        <div class="news-tile" style="background-image: url({{ header-img }})">
+          <div class="news-tile-overlay">
+            <div class="news-tile-content">
+              <h3>{{ title }}</h3>
+              <p>{{ formatDay pubdate }}</p>
+            </div>
           </div>
         </div>
       </a>
     </div>
-  {{/each}}
+    {{/each}}
   </div>
 </section>

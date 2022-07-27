@@ -16,84 +16,89 @@ faq: true
 
 <div class="carousel slide" id="home-carousel" data-interval="8000" data-ride="carousel" data-wrap="false">
 	<ol class="carousel-indicators">
-	    <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
- 	    <li data-target="#home-carousel" data-slide-to="1"></li>
- 	    <li data-target="#home-carousel" data-slide-to="2"></li>
- 	    <li data-target="#home-carousel" data-slide-to="3"></li>
- 	</ol>
+		<li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+		<li data-target="#home-carousel" data-slide-to="1"></li>
+		<li data-target="#home-carousel" data-slide-to="2"></li>
+		<li data-target="#home-carousel" data-slide-to="3"></li>
+	</ol>
 
- 	<div class="carousel-inner" role="listbox" aria-label="Header carousel">
+	<div class="carousel-inner" role="listbox" aria-label="Header carousel">
 
- 		<div class="item active home-business jumbotron" role="option" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.jpg')">
- 			<div class="container">
-	 			<h2>{{t 'carousel.business.head'}}</h2>
+		<div class="item active home-business jumbotron" role="option"
+			style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.jpg')">
+			<div class="container">
+				<h2>{{t 'carousel.business.head'}}</h2>
 				<p class="subheader">{{t 'carousel.business.subhead'}}</p>
- 			</div>
- 		</div>
+			</div>
+		</div>
 
- 		<div class="item home-government jumbotron" role="option">
- 			<div class="container">
-	 			<h2>{{t 'carousel.gov.head'}}</h2>
+		<div class="item home-government jumbotron" role="option">
+			<div class="container">
+				<h2>{{t 'carousel.gov.head'}}</h2>
 				<p class="subheader">{{t 'carousel.gov.subhead'}}</p>
 			</div>
- 		</div>
+		</div>
 
- 		<div class="item home-people jumbotron" role="option">
- 			<div class="container">
-	 			<h2>{{t 'carousel.people.head'}}</h2>
+		<div class="item home-people jumbotron" role="option">
+			<div class="container">
+				<h2>{{t 'carousel.people.head'}}</h2>
 				<p class="subheader">{{t 'carousel.people.subhead'}}</p>
 			</div>
- 		</div>
+		</div>
 
- 		<div class="item home-you jumbotron" role="option">
- 			<div class="container">
-	 			<h2>{{t 'carousel.tld.head'}}</h2>
+		<div class="item home-you jumbotron" role="option">
+			<div class="container">
+				<h2>{{t 'carousel.tld.head'}}</h2>
 				<p class="subheader">{{t 'carousel.tld.subhead'}}</p>
 			</div>
- 		</div>
- 	</div>
+		</div>
+	</div>
 
- 	<a hidden class="left carousel-control" href="#home-carousel" role="button" data-slide="prev" aria-label="{{t 'carousel.cta.prev'}}">
+	<a hidden class="left carousel-control" href="#home-carousel" role="button" data-slide="prev"
+		aria-label="{{t 'carousel.cta.prev'}}">
 		<span class="glyphicon glyphicon-chevron-left"></span>
- 	 </a>
+	</a>
 
- 	<a class="right carousel-control" href="#home-carousel" role="button" data-slide="next" aria-label="{{t 'carousel.cta.next'}}">
+	<a class="right carousel-control" href="#home-carousel" role="button" data-slide="next"
+		aria-label="{{t 'carousel.cta.next'}}">
 		<span class="glyphicon glyphicon-chevron-right"></span>
- 	</a>
- </div>
+	</a>
+</div>
 
- <div class="section search">
-	 <div class="container">
-	   <h1 class="subheader search-header">{{t 'search.head'}}</h1>
+<div class="section search">
+	<div class="container">
+		<h1 class="subheader search-header">{{t 'search.head'}}</h1>
 
-	   <form method="get" class="search-form">
-	     <div class="row">
-	       <div class="col-sm-2"></div>
-	       <div class="col-sm-8">
-	         <div class="input-group">
-	           <input id="input-search" type="search" class="form-control domain-search" name="domain" placeholder="example.eco" autocomplete="off" autocapitalize="off">
-	           <span class="input-group-btn">
-	             <button class="btn btn-search" type="button" aria-label="Search"><span class="glyphicon glyphicon-search"></span></button>
-	           </span>
-	          </div>
-	       </div>
-	       <div class="col-sm-2"></div>
-	     </div>
-	   </form>
-	 </div>
- </div>
+		<form method="get" class="search-form">
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+					<div class="input-group">
+						<input id="input-search" type="search" class="form-control domain-search" name="domain"
+							placeholder="example.eco" autocomplete="off" autocapitalize="off">
+						<span class="input-group-btn">
+							<button class="btn btn-search" type="button" aria-label="Search"><span
+									class="glyphicon glyphicon-search"></span></button>
+						</span>
+					</div>
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+		</form>
+	</div>
+</div>
 
- <div class="section recent">
- 	<div class="container">
- 		<div class="row">
- 			<div class="recently-registered col-xs-3">{{{t 'registered.head'}}}</div>
- 			<div class="col-xs-9">
- 				<div id="registered-domains" class="registered-domains">
- 				</div>
- 			</div>
- 		</div>
- 	</div>
- </div>
+<div class="section recent">
+	<div class="container">
+		<div class="row">
+			<div class="recently-registered col-xs-3">{{{t 'registered.head'}}}</div>
+			<div class="col-xs-9">
+				<div id="registered-domains" class="registered-domains">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <div class="section">
 	<div class="container">
@@ -101,12 +106,16 @@ faq: true
 
 			<div class="col-md-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 				<h3 itemprop="name">{{{t 'eligibility.head'}}}</h3>
-				<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text">{{{t 'eligibility.text' joinArrays=''}}}</div></div>
+				<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+					<div itemprop="text">{{{t 'eligibility.text' joinArrays=''}}}</div>
+				</div>
 			</div>
 
 			<div class="col-md-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 				<h3 itemprop="name">{{{t 'purchase.head'}}}</h3>
-				<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text">{{{t 'purchase.text' joinArrays=''}}}</div></div>
+				<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+					<div itemprop="text">{{{t 'purchase.text' joinArrays=''}}}</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -128,12 +137,36 @@ faq: true
 <div class="section home-who">
 	<div class="container" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 		<div class="section-label" itemprop="name"><a href="/champions">{{{t 'global:members.head'}}}</a></div>
-		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">{{{t 'global:members.text' }}}</p></div>
+		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+			<p itemprop="text">{{{t 'global:members.text' }}}</p>
+		</div>
 		{{> profiles profiles=priorityProfiles }}
 	</div>
 </div>
 
-<div class="section home-support inverted">
+<div class="section home-news inverted">
+	<div class="container">
+		<div class="section-label"><a href="/news">Recent .eco news</a></div>
+		<div class="row row-no-gutters">
+			{{#eachN collections.news}}
+			<div class="col-md-4">
+				<a href="/{{pagePath path}}">
+					<div class="news-tile" style="background-image: url({{ header-img }});">
+						<div class="news-tile-overlay">
+							<div class="news-tile-content">
+								<h3>{{ title }}</h3>
+								<p>{{ formatDay pubdate }}</p>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			{{/eachN}}
+		</div>
+	</div>
+</div>
+
+<div class="section home-support">
 	<div class="container">
 		<div class="section-label">{{t 'support.head'}}</div>
 		<div class="row">
@@ -147,16 +180,16 @@ faq: true
 	</div>
 </div>
 <script>
-if ('undefined' !== typeof jQuery) {
-	$('#home-carousel').on('slid.bs.carousel', function () {
-		curSlide = $('.active');
-		$('.left').toggle( !curSlide.is( ':first-child' ) )
-		$('.right').toggle( !curSlide.is( ':last-child' ) )
-	});	
-}
+	if ('undefined' !== typeof jQuery) {
+		$('#home-carousel').on('slid.bs.carousel', function () {
+			curSlide = $('.active');
+			$('.left').toggle(!curSlide.is(':first-child'))
+			$('.right').toggle(!curSlide.is(':last-child'))
+		});
+	}
 </script>
 <script>
-	function search () {
+	function search() {
 		try {
 			var url = new URL('search/', window.location)
 			url.searchParams.append('domain', document.querySelector('.domain-search').value)
@@ -168,22 +201,22 @@ if ('undefined' !== typeof jQuery) {
 	}
 
 	document.querySelector('.btn-search').addEventListener('click', function (e) {
-    e.preventDefault()
+		e.preventDefault()
 		return search()
-  })
+	})
 
-  document.querySelector('.domain-search').addEventListener('keydown', function (e) {
-    if (e.keyCode === 13) {
-      e.preventDefault()
+	document.querySelector('.domain-search').addEventListener('keydown', function (e) {
+		if (e.keyCode === 13) {
+			e.preventDefault()
 			return search()
-    }
-  })
+		}
+	})
 
-  var registeredDomains = document.getElementById('registered-domains')
+	var registeredDomains = document.getElementById('registered-domains')
 
-	var fadeIn = function(elem, timing, delta, cb) {
+	var fadeIn = function (elem, timing, delta, cb) {
 		var opacity = 0
-		fadeInterval = setInterval(function() {
+		fadeInterval = setInterval(function () {
 			opacity += delta
 			elem.style.opacity = opacity
 
@@ -194,9 +227,9 @@ if ('undefined' !== typeof jQuery) {
 		}, timing)
 	}
 
-	var fadeOut = function(elem, timing, delta, cb) {
+	var fadeOut = function (elem, timing, delta, cb) {
 		var opacity = 1
-		fadeInterval = setInterval(function() {
+		fadeInterval = setInterval(function () {
 			opacity -= delta
 			elem.style.opacity = opacity
 
@@ -207,10 +240,10 @@ if ('undefined' !== typeof jQuery) {
 		}, timing)
 	}
 
-  var showRecent = function (domains, count) {
-  	var html = ''
-  	var length = 0
-  	var maxWidth = registeredDomains.parentElement.clientWidth / 10
+	var showRecent = function (domains, count) {
+		var html = ''
+		var length = 0
+		var maxWidth = registeredDomains.parentElement.clientWidth / 10
 
 		while (length < maxWidth) {
 			var idx = (count + 1) % domains.length
@@ -220,20 +253,20 @@ if ('undefined' !== typeof jQuery) {
 				if (html.length) {
 					html += ' &#8226; '
 				}
-  	    html += '<a href="https://profiles.eco/' + domains[idx] + '" class="registered-domain">' + domains[idx] + '</a>'
-  	    count = idx
-  		}
-  	}
+				html += '<a href="https://profiles.eco/' + domains[idx] + '" class="registered-domain">' + domains[idx] + '</a>'
+				count = idx
+			}
+		}
 
 		registeredDomains.innerHTML = html
-		fadeIn(registeredDomains, 40, 0.1, function() {
+		fadeIn(registeredDomains, 40, 0.1, function () {
 			setTimeout(function () {
 				fadeOut(registeredDomains, 40, 0.1, function () {
 					showRecent(domains, count)
 				})
 			}, 3000)
 		})
-  }
+	}
 
 	if (window.fetch) {
 		window.fetch('{{profiles}}/_api/domains/recent?count=50', {
@@ -246,10 +279,10 @@ if ('undefined' !== typeof jQuery) {
 		}).then(function (domains) {
 			return showRecent(domains, 0)
 		}).catch(function (err) {
-				console.error('Unable to fetch recent domains.', err)
-				if (err.name !== 'TypeError') { // ignore network errors
-					window.Sentry && window.Sentry.captureException(err)
-				}
+			console.error('Unable to fetch recent domains.', err)
+			if (err.name !== 'TypeError') { // ignore network errors
+				window.Sentry && window.Sentry.captureException(err)
+			}
 		})
 	} else {
 		document.querySelector('.section.recent').style.display = 'none'
