@@ -144,6 +144,7 @@ faq: true
 	</div>
 </div>
 
+{{#if (equal lang 'en')}}
 <div class="section home-news inverted">
 	<div class="container">
 		<div class="section-label"><a href="/news">Recent .eco news</a></div>
@@ -165,8 +166,9 @@ faq: true
 		</div>
 	</div>
 </div>
+{{/if}}
 
-<div class="section home-support">
+<div class="section home-support {{#if (notequal lang 'en')}}inverted{{/if}}">
 	<div class="container">
 		<div class="section-label">{{t 'support.head'}}</div>
 		<div class="row">
