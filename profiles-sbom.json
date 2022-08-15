@@ -74,9 +74,9 @@
    "purl": "pkg:npm/%40babel/highlight@7.18.6"
   },
   {
-   "id": "e984cee4131386a3",
-   "name": "@babel/runtime",
-   "version": "7.18.6",
+   "id": "c15f8b1f9a713015",
+   "name": "@babel/parser",
+   "version": "7.18.11",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -87,10 +87,29 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@babel\\/runtime:\\@babel\\/runtime:7.18.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@babel\\/runtime:7.18.6:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@babel\\/parser:\\@babel\\/parser:7.18.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@babel\\/parser:7.18.11:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40babel/runtime@7.18.6"
+   "purl": "pkg:npm/%40babel/parser@7.18.11"
+  },
+  {
+   "id": "ca599b1fb5115510",
+   "name": "@babel/runtime",
+   "version": "7.18.9",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:\\@babel\\/runtime:\\@babel\\/runtime:7.18.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@babel\\/runtime:7.18.9:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/%40babel/runtime@7.18.9"
   },
   {
    "id": "1731f25f3f1333f2",
@@ -212,9 +231,9 @@
    "purl": "pkg:npm/%40google-cloud/promisify@2.0.4"
   },
   {
-   "id": "84e5cf757568faeb",
+   "id": "1b0f1c96a4956b68",
    "name": "@google-cloud/translate",
-   "version": "7.0.0",
+   "version": "7.0.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -225,21 +244,21 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@google-cloud\\/translate:\\@google-cloud\\/translate:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@google-cloud\\/translate:\\@google_cloud\\/translate:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@google_cloud\\/translate:\\@google-cloud\\/translate:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@google_cloud\\/translate:\\@google_cloud\\/translate:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@google:\\@google-cloud\\/translate:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@google:\\@google_cloud\\/translate:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@google-cloud\\/translate:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@google_cloud\\/translate:7.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@google-cloud\\/translate:\\@google-cloud\\/translate:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@google-cloud\\/translate:\\@google_cloud\\/translate:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@google_cloud\\/translate:\\@google-cloud\\/translate:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@google_cloud\\/translate:\\@google_cloud\\/translate:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@google:\\@google-cloud\\/translate:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@google:\\@google_cloud\\/translate:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@google-cloud\\/translate:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@google_cloud\\/translate:7.0.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40google-cloud/translate@7.0.0"
+   "purl": "pkg:npm/%40google-cloud/translate@7.0.1"
   },
   {
-   "id": "75ab7cfd99d24b06",
+   "id": "42da9112e4d295e5",
    "name": "@grpc/grpc-js",
-   "version": "1.6.7",
+   "version": "1.6.10",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -250,21 +269,21 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc-js:1.6.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc_js:1.6.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc-js:1.6.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc_js:1.6.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc-js:1.6.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc_js:1.6.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@grpc\\/grpc-js:1.6.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@grpc\\/grpc_js:1.6.7:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc-js:1.6.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc_js:1.6.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc-js:1.6.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc_js:1.6.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc-js:1.6.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc_js:1.6.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@grpc\\/grpc-js:1.6.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@grpc\\/grpc_js:1.6.10:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40grpc/grpc-js@1.6.7"
+   "purl": "pkg:npm/%40grpc/grpc-js@1.6.10"
   },
   {
-   "id": "6c4ab7d7ea147f3f",
+   "id": "4d5787791d72b48",
    "name": "@grpc/proto-loader",
-   "version": "0.6.13",
+   "version": "0.7.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -275,16 +294,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto-loader:0.6.13:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto_loader:0.6.13:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto-loader:0.6.13:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto_loader:0.6.13:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto-loader:0.6.13:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto_loader:0.6.13:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@grpc\\/proto-loader:0.6.13:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@grpc\\/proto_loader:0.6.13:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto-loader:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto_loader:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto-loader:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto_loader:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto-loader:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto_loader:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@grpc\\/proto-loader:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@grpc\\/proto_loader:0.7.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40grpc/proto-loader@0.6.13"
+   "purl": "pkg:npm/%40grpc/proto-loader@0.7.0"
   },
   {
    "id": "b0f928b58f9401c3",
@@ -312,9 +331,9 @@
    "purl": "pkg:npm/%40html-validate/stylish@2.0.1"
   },
   {
-   "id": "f551cc7a8b7215f9",
+   "id": "a769ecccdf36bb22",
    "name": "@humanwhocodes/config-array",
-   "version": "0.9.5",
+   "version": "0.10.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -325,16 +344,45 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@humanwhocodes\\/config-array:\\@humanwhocodes\\/config-array:0.9.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@humanwhocodes\\/config-array:\\@humanwhocodes\\/config_array:0.9.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@humanwhocodes\\/config_array:\\@humanwhocodes\\/config-array:0.9.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@humanwhocodes\\/config_array:\\@humanwhocodes\\/config_array:0.9.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@humanwhocodes\\/config:\\@humanwhocodes\\/config-array:0.9.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@humanwhocodes\\/config:\\@humanwhocodes\\/config_array:0.9.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@humanwhocodes\\/config-array:0.9.5:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@humanwhocodes\\/config_array:0.9.5:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@humanwhocodes\\/config-array:\\@humanwhocodes\\/config-array:0.10.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/config-array:\\@humanwhocodes\\/config_array:0.10.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/config_array:\\@humanwhocodes\\/config-array:0.10.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/config_array:\\@humanwhocodes\\/config_array:0.10.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/config:\\@humanwhocodes\\/config-array:0.10.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/config:\\@humanwhocodes\\/config_array:0.10.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@humanwhocodes\\/config-array:0.10.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@humanwhocodes\\/config_array:0.10.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40humanwhocodes/config-array@0.9.5"
+   "purl": "pkg:npm/%40humanwhocodes/config-array@0.10.4"
+  },
+  {
+   "id": "b1a5bd9b70ae2c9b",
+   "name": "@humanwhocodes/gitignore-to-minimatch",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:\\@humanwhocodes\\/gitignore-to-minimatch:\\@humanwhocodes\\/gitignore-to-minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/gitignore-to-minimatch:\\@humanwhocodes\\/gitignore_to_minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/gitignore_to_minimatch:\\@humanwhocodes\\/gitignore-to-minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/gitignore_to_minimatch:\\@humanwhocodes\\/gitignore_to_minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/gitignore-to:\\@humanwhocodes\\/gitignore-to-minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/gitignore-to:\\@humanwhocodes\\/gitignore_to_minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/gitignore_to:\\@humanwhocodes\\/gitignore-to-minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/gitignore_to:\\@humanwhocodes\\/gitignore_to_minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/gitignore:\\@humanwhocodes\\/gitignore-to-minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/gitignore:\\@humanwhocodes\\/gitignore_to_minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@humanwhocodes\\/gitignore-to-minimatch:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@humanwhocodes\\/gitignore_to_minimatch:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/%40humanwhocodes/gitignore-to-minimatch@1.0.2"
   },
   {
    "id": "f0fadb095a3ff9dc",
@@ -362,9 +410,9 @@
    "purl": "pkg:npm/%40humanwhocodes/object-schema@1.2.1"
   },
   {
-   "id": "7ddf8e99317066af",
+   "id": "6a00bea3b7e8a835",
    "name": "@metalsmith/collections",
-   "version": "1.2.1",
+   "version": "1.2.2",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -375,10 +423,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@metalsmith\\/collections:\\@metalsmith\\/collections:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@metalsmith\\/collections:1.2.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@metalsmith\\/collections:\\@metalsmith\\/collections:1.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@metalsmith\\/collections:1.2.2:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40metalsmith/collections@1.2.1"
+   "purl": "pkg:npm/%40metalsmith/collections@1.2.2"
   },
   {
    "id": "eb3272dbe4fec18",
@@ -425,9 +473,9 @@
    "purl": "pkg:npm/%40metalsmith/layouts@2.5.1"
   },
   {
-   "id": "b693ac575eda5e98",
+   "id": "d4ce940cc43260c6",
    "name": "@metalsmith/sass",
-   "version": "1.0.1",
+   "version": "1.1.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -438,10 +486,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@metalsmith\\/sass:\\@metalsmith\\/sass:1.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@metalsmith\\/sass:1.0.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@metalsmith\\/sass:\\@metalsmith\\/sass:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@metalsmith\\/sass:1.1.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40metalsmith/sass@1.0.1"
+   "purl": "pkg:npm/%40metalsmith/sass@1.1.0"
   },
   {
    "id": "a48b619a488fc35b",
@@ -929,6 +977,31 @@
    "purl": "pkg:npm/%40types/json5@0.0.29"
   },
   {
+   "id": "3647ebc457cd4578",
+   "name": "@types/linkify-it",
+   "version": "3.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:\\@types\\/linkify-it:\\@types\\/linkify-it:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@types\\/linkify-it:\\@types\\/linkify_it:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@types\\/linkify_it:\\@types\\/linkify-it:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@types\\/linkify_it:\\@types\\/linkify_it:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@types\\/linkify:\\@types\\/linkify-it:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@types\\/linkify:\\@types\\/linkify_it:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@types\\/linkify-it:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@types\\/linkify_it:3.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/%40types/linkify-it@3.0.2"
+  },
+  {
    "id": "b158dcdaf2df4f47",
    "name": "@types/long",
    "version": "4.0.2",
@@ -946,6 +1019,50 @@
     "cpe:2.3:a:*:\\@types\\/long:4.0.2:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:npm/%40types/long@4.0.2"
+  },
+  {
+   "id": "7a97fc0fad424ec1",
+   "name": "@types/markdown-it",
+   "version": "12.2.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:\\@types\\/markdown-it:\\@types\\/markdown-it:12.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@types\\/markdown-it:\\@types\\/markdown_it:12.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@types\\/markdown_it:\\@types\\/markdown-it:12.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@types\\/markdown_it:\\@types\\/markdown_it:12.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@types\\/markdown:\\@types\\/markdown-it:12.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@types\\/markdown:\\@types\\/markdown_it:12.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@types\\/markdown-it:12.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@types\\/markdown_it:12.2.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/%40types/markdown-it@12.2.3"
+  },
+  {
+   "id": "909309620fc6c987",
+   "name": "@types/mdurl",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:\\@types\\/mdurl:\\@types\\/mdurl:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@types\\/mdurl:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/%40types/mdurl@1.0.2"
   },
   {
    "id": "52c480b0390c0284",
@@ -986,9 +1103,9 @@
    "purl": "pkg:npm/%40types/minimist@1.2.2"
   },
   {
-   "id": "60408b4bfd6ec4f7",
+   "id": "13900f9830fe919e",
    "name": "@types/node",
-   "version": "18.0.4",
+   "version": "18.7.5",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -999,10 +1116,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@types\\/node:\\@types\\/node:18.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@types\\/node:18.0.4:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@types\\/node:\\@types\\/node:18.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@types\\/node:18.7.5:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40types/node@18.0.4"
+   "purl": "pkg:npm/%40types/node@18.7.5"
   },
   {
    "id": "5adf47ed79c5dbdb",
@@ -1084,9 +1201,9 @@
    "purl": "pkg:npm/abort-controller@3.0.0"
   },
   {
-   "id": "15d5181583fe2fca",
+   "id": "9d66c9c769d74737",
    "name": "acorn",
-   "version": "8.7.1",
+   "version": "8.8.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -1097,10 +1214,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:acorn:acorn:8.7.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:acorn:8.7.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:acorn:acorn:8.8.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:acorn:8.8.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/acorn@8.7.1"
+   "purl": "pkg:npm/acorn@8.8.0"
   },
   {
    "id": "591bf3de25fb2a77",
@@ -1329,9 +1446,9 @@
    "purl": "pkg:npm/argparse@1.0.10"
   },
   {
-   "id": "43b41d04e7c35013",
+   "id": "9e7451958126772f",
    "name": "array-differ",
-   "version": "3.0.0",
+   "version": "1.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -1342,16 +1459,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:array-differ:array-differ:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:array-differ:array_differ:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:array_differ:array-differ:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:array_differ:array_differ:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:array:array-differ:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:array:array_differ:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:array-differ:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:array_differ:3.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:array-differ:array-differ:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array-differ:array_differ:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array_differ:array-differ:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array_differ:array_differ:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array:array-differ:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array:array_differ:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:array-differ:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:array_differ:1.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/array-differ@3.0.0"
+   "purl": "pkg:npm/array-differ@1.0.0"
   },
   {
    "id": "e63c47a547dd35c4",
@@ -1568,9 +1685,9 @@
    "purl": "pkg:npm/asynckit@0.4.0"
   },
   {
-   "id": "e1e77a1bedf7a1ac",
+   "id": "b5211966b18d76f5",
    "name": "autoprefixer",
-   "version": "10.4.7",
+   "version": "10.4.8",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -1581,10 +1698,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:autoprefixer:autoprefixer:10.4.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:autoprefixer:10.4.7:*:*:*:*:*:*:*"
+    "cpe:2.3:a:autoprefixer:autoprefixer:10.4.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:autoprefixer:10.4.8:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/autoprefixer@10.4.7"
+   "purl": "pkg:npm/autoprefixer@10.4.8"
   },
   {
    "id": "edf00f738b8b588e",
@@ -1656,9 +1773,9 @@
    "purl": "pkg:npm/base64-js@1.5.1"
   },
   {
-   "id": "d1188acdecd9460d",
+   "id": "cd436e036a56690a",
    "name": "bignumber.js",
-   "version": "9.0.2",
+   "version": "9.1.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -1669,10 +1786,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:bignumber.js:bignumber.js:9.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:bignumber.js:9.0.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:bignumber.js:bignumber.js:9.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:bignumber.js:9.1.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/bignumber.js@9.0.2"
+   "purl": "pkg:npm/bignumber.js@9.1.0"
   },
   {
    "id": "d7eba3b8d458bc3",
@@ -1848,6 +1965,25 @@
    "purl": "pkg:npm/bl@1.2.3"
   },
   {
+   "id": "640b47dd33cdce39",
+   "name": "bluebird",
+   "version": "3.7.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:bluebird:bluebird:3.7.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:bluebird:3.7.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/bluebird@3.7.2"
+  },
+  {
    "id": "397ebbacb0c2ade",
    "name": "body",
    "version": "5.1.0",
@@ -2003,9 +2139,9 @@
    "purl": "pkg:npm/braces@3.0.2"
   },
   {
-   "id": "55dbf24a8e393e10",
+   "id": "24670607155190c7",
    "name": "browserslist",
-   "version": "4.21.2",
+   "version": "4.21.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -2016,10 +2152,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:browserslist:browserslist:4.21.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:browserslist:4.21.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:browserslist:browserslist:4.21.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:browserslist:4.21.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/browserslist@4.21.2"
+   "purl": "pkg:npm/browserslist@4.21.3"
   },
   {
    "id": "4227c4f67e513c4f",
@@ -2329,9 +2465,9 @@
    "purl": "pkg:npm/camelcase-keys@6.2.2"
   },
   {
-   "id": "4e0204f509e674b2",
+   "id": "2e303a35df0b1ccd",
    "name": "caniuse-lite",
-   "version": "1.0.30001366",
+   "version": "1.0.30001376",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -2342,16 +2478,35 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:caniuse-lite:caniuse-lite:1.0.30001366:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse-lite:caniuse_lite:1.0.30001366:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse_lite:caniuse-lite:1.0.30001366:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse_lite:caniuse_lite:1.0.30001366:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse:caniuse-lite:1.0.30001366:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse:caniuse_lite:1.0.30001366:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:caniuse-lite:1.0.30001366:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:caniuse_lite:1.0.30001366:*:*:*:*:*:*:*"
+    "cpe:2.3:a:caniuse-lite:caniuse-lite:1.0.30001376:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse-lite:caniuse_lite:1.0.30001376:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse_lite:caniuse-lite:1.0.30001376:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse_lite:caniuse_lite:1.0.30001376:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse:caniuse-lite:1.0.30001376:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse:caniuse_lite:1.0.30001376:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:caniuse-lite:1.0.30001376:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:caniuse_lite:1.0.30001376:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/caniuse-lite@1.0.30001366"
+   "purl": "pkg:npm/caniuse-lite@1.0.30001376"
+  },
+  {
+   "id": "466075379fb07ec4",
+   "name": "catharsis",
+   "version": "0.9.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:catharsis:catharsis:0.9.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:catharsis:0.9.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/catharsis@0.9.0"
   },
   {
    "id": "7d2c35988ff68568",
@@ -2430,9 +2585,9 @@
    "purl": "pkg:npm/cliui@7.0.4"
   },
   {
-   "id": "b23c476dbc6edb7b",
+   "id": "b29ec813333be258",
    "name": "clone",
-   "version": "2.1.2",
+   "version": "1.0.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -2443,35 +2598,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:clone:clone:2.1.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:clone:2.1.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:clone:clone:1.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:clone:1.0.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/clone@2.1.2"
-  },
-  {
-   "id": "6060291a91e276b6",
-   "name": "clone-regexp",
-   "version": "2.2.0",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:clone-regexp:clone-regexp:2.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:clone-regexp:clone_regexp:2.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:clone_regexp:clone-regexp:2.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:clone_regexp:clone_regexp:2.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:clone:clone-regexp:2.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:clone:clone_regexp:2.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:clone-regexp:2.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:clone_regexp:2.2.0:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/clone-regexp@2.2.0"
+   "purl": "pkg:npm/clone@1.0.4"
   },
   {
    "id": "97e6ec31f1d12bfc",
@@ -2516,89 +2646,6 @@
     "cpe:2.3:a:*:co:3.1.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:npm/co@3.1.0"
-  },
-  {
-   "id": "7cd48655219fc033",
-   "name": "co-from-stream",
-   "version": "0.0.0",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:co-from-stream:co-from-stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co-from-stream:co_from_stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co_from_stream:co-from-stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co_from_stream:co_from_stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co-from:co-from-stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co-from:co_from_stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co_from:co-from-stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co_from:co_from_stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co:co-from-stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co:co_from_stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:co-from-stream:0.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:co_from_stream:0.0.0:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/co-from-stream@0.0.0"
-  },
-  {
-   "id": "9eeee49a056dbcfd",
-   "name": "co-fs-extra",
-   "version": "1.2.1",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:co-fs-extra:co-fs-extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co-fs-extra:co_fs_extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co_fs_extra:co-fs-extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co_fs_extra:co_fs_extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co-fs:co-fs-extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co-fs:co_fs_extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co_fs:co-fs-extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co_fs:co_fs_extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co:co-fs-extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co:co_fs_extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:co-fs-extra:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:co_fs_extra:1.2.1:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/co-fs-extra@1.2.1"
-  },
-  {
-   "id": "74d3c23ca9e05809",
-   "name": "co-read",
-   "version": "0.0.1",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:co-read:co-read:0.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co-read:co_read:0.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co_read:co-read:0.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co_read:co_read:0.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co:co-read:0.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:co:co_read:0.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:co-read:0.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:co_read:0.0.1:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/co-read@0.0.1"
   },
   {
    "id": "d2927d165b417213",
@@ -2651,9 +2698,9 @@
    "purl": "pkg:npm/color-name@1.1.3"
   },
   {
-   "id": "8b07ae88da078967",
+   "id": "f0ca74f6fd80638d",
    "name": "colord",
-   "version": "2.9.2",
+   "version": "2.9.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -2664,10 +2711,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:colord:colord:2.9.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:colord:2.9.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:colord:colord:2.9.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:colord:2.9.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/colord@2.9.2"
+   "purl": "pkg:npm/colord@2.9.3"
   },
   {
    "id": "9253beabd60fd2de",
@@ -3048,9 +3095,9 @@
    "purl": "pkg:npm/csso@4.2.0"
   },
   {
-   "id": "56f8d58a53ec144f",
+   "id": "4f3d3f91616878c1",
    "name": "date-fns",
-   "version": "2.28.0",
+   "version": "2.29.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -3061,16 +3108,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:date-fns:date-fns:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:date-fns:date_fns:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:date_fns:date-fns:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:date_fns:date_fns:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:date:date-fns:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:date:date_fns:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:date-fns:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:date_fns:2.28.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:date-fns:date-fns:2.29.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:date-fns:date_fns:2.29.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:date_fns:date-fns:2.29.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:date_fns:date_fns:2.29.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:date:date-fns:2.29.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:date:date_fns:2.29.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:date-fns:2.29.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:date_fns:2.29.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/date-fns@2.28.0"
+   "purl": "pkg:npm/date-fns@2.29.1"
   },
   {
    "id": "2befbe726ca0670e",
@@ -3634,9 +3681,9 @@
    "purl": "pkg:npm/ecdsa-sig-formatter@1.0.11"
   },
   {
-   "id": "70fd591030affa0a",
+   "id": "382bc4e67dfb8102",
    "name": "electron-to-chromium",
-   "version": "1.4.189",
+   "version": "1.4.219",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -3647,20 +3694,20 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:electron-to-chromium:electron-to-chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to-chromium:electron_to_chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to_chromium:electron-to-chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to_chromium:electron_to_chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to:electron-to-chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to:electron_to_chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to:electron-to-chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to:electron_to_chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron:electron-to-chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron:electron_to_chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:electron-to-chromium:1.4.189:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:electron_to_chromium:1.4.189:*:*:*:*:*:*:*"
+    "cpe:2.3:a:electron-to-chromium:electron-to-chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to-chromium:electron_to_chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to_chromium:electron-to-chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to_chromium:electron_to_chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to:electron-to-chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to:electron_to_chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to:electron-to-chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to:electron_to_chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron:electron-to-chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron:electron_to_chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:electron-to-chromium:1.4.219:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:electron_to_chromium:1.4.219:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/electron-to-chromium@1.4.189"
+   "purl": "pkg:npm/electron-to-chromium@1.4.219"
   },
   {
    "id": "6a036558e0f9832c",
@@ -3686,25 +3733,6 @@
     "cpe:2.3:a:*:emoji_regex:8.0.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:npm/emoji-regex@8.0.0"
-  },
-  {
-   "id": "2dc3c7fa76f5786",
-   "name": "enable",
-   "version": "1.3.2",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:enable:enable:1.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:enable:1.3.2:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/enable@1.3.2"
   },
   {
    "id": "40595467c121950a",
@@ -3755,9 +3783,9 @@
    "purl": "pkg:npm/ent@2.2.0"
   },
   {
-   "id": "30a976ec8134001b",
+   "id": "1eb97d0280ca272a",
    "name": "entities",
-   "version": "2.2.0",
+   "version": "2.1.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -3768,10 +3796,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:entities:entities:2.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:entities:2.2.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:entities:entities:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:entities:2.1.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/entities@2.2.0"
+   "purl": "pkg:npm/entities@2.1.0"
   },
   {
    "id": "9278f0b9993badb3",
@@ -3949,9 +3977,9 @@
    "purl": "pkg:npm/escape-string-regexp@1.0.5"
   },
   {
-   "id": "fea6ef67e1575d75",
-   "name": "eslint",
-   "version": "8.19.0",
+   "id": "ef63a32558f0ad34",
+   "name": "escodegen",
+   "version": "1.14.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -3962,10 +3990,29 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:eslint:eslint:8.19.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:eslint:8.19.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:escodegen:escodegen:1.14.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:escodegen:1.14.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/eslint@8.19.0"
+   "purl": "pkg:npm/escodegen@1.14.3"
+  },
+  {
+   "id": "a1d4e37aafa22ea5",
+   "name": "eslint",
+   "version": "8.22.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:eslint:eslint:8.22.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:eslint:8.22.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/eslint@8.22.0"
   },
   {
    "id": "dc4d5383f9fe2d9b",
@@ -4063,9 +4110,9 @@
    "purl": "pkg:npm/eslint-import-resolver-node@0.3.6"
   },
   {
-   "id": "f8298f91018dd7c6",
+   "id": "7a5abe1a4de25ea",
    "name": "eslint-module-utils",
-   "version": "2.7.3",
+   "version": "2.7.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4076,20 +4123,20 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:eslint-module-utils:eslint-module-utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-module-utils:eslint_module_utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_module_utils:eslint-module-utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_module_utils:eslint_module_utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-module:eslint-module-utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-module:eslint_module_utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_module:eslint-module-utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_module:eslint_module_utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint:eslint-module-utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint:eslint_module_utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:eslint-module-utils:2.7.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:eslint_module_utils:2.7.3:*:*:*:*:*:*:*"
+    "cpe:2.3:a:eslint-module-utils:eslint-module-utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-module-utils:eslint_module_utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_module_utils:eslint-module-utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_module_utils:eslint_module_utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-module:eslint-module-utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-module:eslint_module_utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_module:eslint-module-utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_module:eslint_module_utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint:eslint-module-utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint:eslint_module_utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:eslint-module-utils:2.7.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:eslint_module_utils:2.7.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/eslint-module-utils@2.7.3"
+   "purl": "pkg:npm/eslint-module-utils@2.7.4"
   },
   {
    "id": "7af74feac4a8b3e4",
@@ -4316,9 +4363,9 @@
    "purl": "pkg:npm/eslint-visitor-keys@3.3.0"
   },
   {
-   "id": "7ea4e599e460f05d",
+   "id": "a80060433efc3c42",
    "name": "espree",
-   "version": "9.3.2",
+   "version": "9.3.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4329,10 +4376,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:espree:espree:9.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:espree:9.3.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:espree:espree:9.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:espree:9.3.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/espree@9.3.2"
+   "purl": "pkg:npm/espree@9.3.3"
   },
   {
    "id": "214e22711cbac33a",
@@ -4476,25 +4523,6 @@
     "cpe:2.3:a:*:execa:6.1.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:npm/execa@6.1.0"
-  },
-  {
-   "id": "95bba7b6a233efe7",
-   "name": "execall",
-   "version": "2.0.0",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:execall:execall:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:execall:2.0.0:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/execall@2.0.0"
   },
   {
    "id": "eb6c629813a30021",
@@ -4780,9 +4808,9 @@
    "purl": "pkg:npm/fast-xml-parser@3.21.1"
   },
   {
-   "id": "dc64b6231817ed62",
+   "id": "9eac9de268ee46b4",
    "name": "fastest-levenshtein",
-   "version": "1.0.12",
+   "version": "1.0.16",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4793,16 +4821,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:fastest-levenshtein:fastest-levenshtein:1.0.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fastest-levenshtein:fastest_levenshtein:1.0.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fastest_levenshtein:fastest-levenshtein:1.0.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fastest_levenshtein:fastest_levenshtein:1.0.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fastest:fastest-levenshtein:1.0.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fastest:fastest_levenshtein:1.0.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:fastest-levenshtein:1.0.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:fastest_levenshtein:1.0.12:*:*:*:*:*:*:*"
+    "cpe:2.3:a:fastest-levenshtein:fastest-levenshtein:1.0.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fastest-levenshtein:fastest_levenshtein:1.0.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fastest_levenshtein:fastest-levenshtein:1.0.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fastest_levenshtein:fastest_levenshtein:1.0.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fastest:fastest-levenshtein:1.0.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fastest:fastest_levenshtein:1.0.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:fastest-levenshtein:1.0.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:fastest_levenshtein:1.0.16:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/fastest-levenshtein@1.0.12"
+   "purl": "pkg:npm/fastest-levenshtein@1.0.16"
   },
   {
    "id": "8da1ee10edc064a1",
@@ -4903,9 +4931,9 @@
    "purl": "pkg:npm/file-entry-cache@6.0.1"
   },
   {
-   "id": "c76c070bfb32e43a",
+   "id": "fa0ba9929038097",
    "name": "file-type",
-   "version": "16.5.3",
+   "version": "16.5.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4916,16 +4944,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:file-type:file-type:16.5.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:file-type:file_type:16.5.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:file_type:file-type:16.5.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:file_type:file_type:16.5.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:file:file-type:16.5.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:file:file_type:16.5.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:file-type:16.5.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:file_type:16.5.3:*:*:*:*:*:*:*"
+    "cpe:2.3:a:file-type:file-type:16.5.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file-type:file_type:16.5.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file_type:file-type:16.5.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file_type:file_type:16.5.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file:file-type:16.5.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file:file_type:16.5.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:file-type:16.5.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:file_type:16.5.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/file-type@16.5.3"
+   "purl": "pkg:npm/file-type@16.5.4"
   },
   {
    "id": "6282c7ed47904aac",
@@ -5001,9 +5029,9 @@
    "purl": "pkg:npm/fill-range@7.0.1"
   },
   {
-   "id": "ed1e849ef795fd2a",
+   "id": "b230ac435d463411",
    "name": "find-up",
-   "version": "2.1.0",
+   "version": "5.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -5014,16 +5042,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:find-up:find-up:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:find-up:find_up:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:find_up:find-up:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:find_up:find_up:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:find:find-up:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:find:find_up:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:find-up:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:find_up:2.1.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:find-up:find-up:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:find-up:find_up:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:find_up:find-up:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:find_up:find_up:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:find:find-up:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:find:find_up:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:find-up:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:find_up:5.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/find-up@2.1.0"
+   "purl": "pkg:npm/find-up@5.0.0"
   },
   {
    "id": "4c8585474bfc3054",
@@ -5206,31 +5234,6 @@
     "cpe:2.3:a:*:fs_constants:1.0.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:npm/fs-constants@1.0.0"
-  },
-  {
-   "id": "9a3d510a76afd0f1",
-   "name": "fs-extra",
-   "version": "0.26.7",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:fs-extra:fs-extra:0.26.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fs-extra:fs_extra:0.26.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fs_extra:fs-extra:0.26.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fs_extra:fs_extra:0.26.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fs:fs-extra:0.26.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fs:fs_extra:0.26.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:fs-extra:0.26.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:fs_extra:0.26.7:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/fs-extra@0.26.7"
   },
   {
    "id": "17651fd70f853100",
@@ -5717,9 +5720,9 @@
    "purl": "pkg:npm/global-prefix@3.0.0"
   },
   {
-   "id": "397cc65e421e1c8c",
+   "id": "2a03d0d931f1ba98",
    "name": "globals",
-   "version": "13.16.0",
+   "version": "13.17.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -5730,10 +5733,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:globals:globals:13.16.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:globals:13.16.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:globals:globals:13.17.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:globals:13.17.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/globals@13.16.0"
+   "purl": "pkg:npm/globals@13.17.0"
   },
   {
    "id": "42b6c7507daae9b6",
@@ -5822,9 +5825,9 @@
    "purl": "pkg:npm/google-auth-library@8.1.1"
   },
   {
-   "id": "995337c5b3c66803",
+   "id": "b4d769536d6a58ca",
    "name": "google-gax",
-   "version": "3.1.3",
+   "version": "3.1.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -5835,16 +5838,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:google-gax:google-gax:3.1.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:google-gax:google_gax:3.1.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:google_gax:google-gax:3.1.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:google_gax:google_gax:3.1.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:google:google-gax:3.1.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:google:google_gax:3.1.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:google-gax:3.1.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:google_gax:3.1.3:*:*:*:*:*:*:*"
+    "cpe:2.3:a:google-gax:google-gax:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google-gax:google_gax:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google_gax:google-gax:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google_gax:google_gax:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google:google-gax:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google:google_gax:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:google-gax:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:google_gax:3.1.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/google-gax@3.1.3"
+   "purl": "pkg:npm/google-gax@3.1.4"
   },
   {
    "id": "2a2bbf93d54e6890",
@@ -5895,9 +5898,9 @@
    "purl": "pkg:npm/googleapis@105.0.0"
   },
   {
-   "id": "e36b78d06a0eb905",
+   "id": "2e8ff44f66c1c913",
    "name": "googleapis-common",
-   "version": "6.0.0",
+   "version": "6.0.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -5908,16 +5911,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:googleapis-common:googleapis-common:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:googleapis-common:googleapis_common:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:googleapis_common:googleapis-common:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:googleapis_common:googleapis_common:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:googleapis:googleapis-common:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:googleapis:googleapis_common:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:googleapis-common:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:googleapis_common:6.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:googleapis-common:googleapis-common:6.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googleapis-common:googleapis_common:6.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googleapis_common:googleapis-common:6.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googleapis_common:googleapis_common:6.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googleapis:googleapis-common:6.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googleapis:googleapis_common:6.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:googleapis-common:6.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:googleapis_common:6.0.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/googleapis-common@6.0.0"
+   "purl": "pkg:npm/googleapis-common@6.0.1"
   },
   {
    "id": "3d711dce08785e1a",
@@ -5964,6 +5967,31 @@
    "purl": "pkg:npm/graceful-fs@4.2.10"
   },
   {
+   "id": "f54f19fa939f22",
+   "name": "grapheme-splitter",
+   "version": "1.0.4",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:grapheme-splitter:grapheme-splitter:1.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grapheme-splitter:grapheme_splitter:1.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grapheme_splitter:grapheme-splitter:1.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grapheme_splitter:grapheme_splitter:1.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grapheme:grapheme-splitter:1.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grapheme:grapheme_splitter:1.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:grapheme-splitter:1.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:grapheme_splitter:1.0.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/grapheme-splitter@1.0.4"
+  },
+  {
    "id": "d9f19cfdc1ac3826",
    "name": "gray-matter",
    "version": "4.0.3",
@@ -5989,9 +6017,9 @@
    "purl": "pkg:npm/gray-matter@4.0.3"
   },
   {
-   "id": "2648badaf7f1c9e4",
+   "id": "9a6fa1d152675ced",
    "name": "gtoken",
-   "version": "6.1.0",
+   "version": "6.1.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -6002,10 +6030,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:gtoken:gtoken:6.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:gtoken:6.1.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:gtoken:gtoken:6.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:gtoken:6.1.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/gtoken@6.1.0"
+   "purl": "pkg:npm/gtoken@6.1.1"
   },
   {
    "id": "f06873f8dd716261",
@@ -6069,31 +6097,6 @@
     "cpe:2.3:a:*:has:1.0.3:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:npm/has@1.0.3"
-  },
-  {
-   "id": "85aec8d88ea4725a",
-   "name": "has-ansi",
-   "version": "2.0.0",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:has-ansi:has-ansi:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:has-ansi:has_ansi:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:has_ansi:has-ansi:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:has_ansi:has_ansi:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:has:has-ansi:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:has:has_ansi:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:has-ansi:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:has_ansi:2.0.0:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/has-ansi@2.0.0"
   },
   {
    "id": "70a94da4099dbe91",
@@ -7142,9 +7145,9 @@
    "purl": "pkg:npm/is-callable@1.2.4"
   },
   {
-   "id": "544d925a3af25dbb",
+   "id": "a80ccfc32959ad53",
    "name": "is-core-module",
-   "version": "2.9.0",
+   "version": "2.10.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -7155,20 +7158,20 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:is-core-module:is-core-module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is-core-module:is_core_module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is_core_module:is-core-module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is_core_module:is_core_module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is-core:is-core-module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is-core:is_core_module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is_core:is-core-module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is_core:is_core_module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is:is-core-module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is:is_core_module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:is-core-module:2.9.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:is_core_module:2.9.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:is-core-module:is-core-module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-core-module:is_core_module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_core_module:is-core-module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_core_module:is_core_module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-core:is-core-module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-core:is_core_module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_core:is-core-module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_core:is_core_module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-core-module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_core_module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:is-core-module:2.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:is_core_module:2.10.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/is-core-module@2.9.0"
+   "purl": "pkg:npm/is-core-module@2.10.0"
   },
   {
    "id": "5294b44a771418f6",
@@ -7628,31 +7631,6 @@
    "purl": "pkg:npm/is-regex@1.1.4"
   },
   {
-   "id": "dc997518e796b951",
-   "name": "is-regexp",
-   "version": "2.1.0",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:is-regexp:is-regexp:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is-regexp:is_regexp:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is_regexp:is-regexp:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is_regexp:is_regexp:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is:is-regexp:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:is:is_regexp:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:is-regexp:2.1.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:is_regexp:2.1.0:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/is-regexp@2.1.0"
-  },
-  {
    "id": "941797bdb4a92619",
    "name": "is-retry-allowed",
    "version": "1.2.0",
@@ -8020,6 +7998,44 @@
    "purl": "pkg:npm/js-yaml@3.14.1"
   },
   {
+   "id": "d44deb0535be2373",
+   "name": "js2xmlparser",
+   "version": "4.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:js2xmlparser:js2xmlparser:4.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:js2xmlparser:4.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/js2xmlparser@4.0.2"
+  },
+  {
+   "id": "67fc9114641205f5",
+   "name": "jsdoc",
+   "version": "3.6.11",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:jsdoc:jsdoc:3.6.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:jsdoc:3.6.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/jsdoc@3.6.11"
+  },
+  {
    "id": "7e82ae301f5196d8",
    "name": "json-bigint",
    "version": "1.0.0",
@@ -8225,25 +8241,6 @@
    "purl": "pkg:npm/json5@1.0.1"
   },
   {
-   "id": "5626cb5b39b86409",
-   "name": "jsonfile",
-   "version": "2.4.0",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:jsonfile:jsonfile:2.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:jsonfile:2.4.0:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/jsonfile@2.4.0"
-  },
-  {
    "id": "5eeda3b506b00c75",
    "name": "jstransformer",
    "version": "1.0.0",
@@ -8313,9 +8310,9 @@
    "purl": "pkg:npm/jstransformer-marked@1.2.0"
   },
   {
-   "id": "58a9a4457450b8d4",
+   "id": "4169747c90313f21",
    "name": "jsx-ast-utils",
-   "version": "3.3.2",
+   "version": "3.3.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -8326,20 +8323,20 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:jsx-ast-utils:jsx-ast-utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx-ast-utils:jsx_ast_utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx_ast_utils:jsx-ast-utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx_ast_utils:jsx_ast_utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx-ast:jsx-ast-utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx-ast:jsx_ast_utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx_ast:jsx-ast-utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx_ast:jsx_ast_utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx:jsx-ast-utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jsx:jsx_ast_utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:jsx-ast-utils:3.3.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:jsx_ast_utils:3.3.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:jsx-ast-utils:jsx-ast-utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx-ast-utils:jsx_ast_utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx_ast_utils:jsx-ast-utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx_ast_utils:jsx_ast_utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx-ast:jsx-ast-utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx-ast:jsx_ast_utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx_ast:jsx-ast-utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx_ast:jsx_ast_utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx:jsx-ast-utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsx:jsx_ast_utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:jsx-ast-utils:3.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:jsx_ast_utils:3.3.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/jsx-ast-utils@3.3.2"
+   "purl": "pkg:npm/jsx-ast-utils@3.3.3"
   },
   {
    "id": "ea14a6c0bb0df006",
@@ -8510,9 +8507,9 @@
    "purl": "pkg:npm/known-css-properties@0.25.0"
   },
   {
-   "id": "81eb22f7622aca82",
+   "id": "f208ba8b417367e",
    "name": "levn",
-   "version": "0.4.1",
+   "version": "0.3.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -8523,10 +8520,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:levn:levn:0.4.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:levn:0.4.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:levn:levn:0.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:levn:0.3.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/levn@0.4.1"
+   "purl": "pkg:npm/levn@0.3.0"
   },
   {
    "id": "ea40ce1aa7d60458",
@@ -8558,9 +8555,9 @@
    "purl": "pkg:npm/lines-and-columns@1.2.4"
   },
   {
-   "id": "cd597a683a2fe49c",
-   "name": "livereload-js",
-   "version": "3.4.0",
+   "id": "7e4bf0a10058467f",
+   "name": "linkify-it",
+   "version": "3.0.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -8571,16 +8568,41 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:livereload-js:livereload-js:3.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:livereload-js:livereload_js:3.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:livereload_js:livereload-js:3.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:livereload_js:livereload_js:3.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:livereload:livereload-js:3.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:livereload:livereload_js:3.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:livereload-js:3.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:livereload_js:3.4.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:linkify-it:linkify-it:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:linkify-it:linkify_it:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:linkify_it:linkify-it:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:linkify_it:linkify_it:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:linkify:linkify-it:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:linkify:linkify_it:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:linkify-it:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:linkify_it:3.0.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/livereload-js@3.4.0"
+   "purl": "pkg:npm/linkify-it@3.0.3"
+  },
+  {
+   "id": "3f36e255c023011f",
+   "name": "livereload-js",
+   "version": "3.4.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:livereload-js:livereload-js:3.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:livereload-js:livereload_js:3.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:livereload_js:livereload-js:3.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:livereload_js:livereload_js:3.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:livereload:livereload-js:3.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:livereload:livereload_js:3.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:livereload-js:3.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:livereload_js:3.4.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/livereload-js@3.4.1"
   },
   {
    "id": "98e0da38a3093e5e",
@@ -8612,9 +8634,9 @@
    "purl": "pkg:npm/load-json-file@5.3.0"
   },
   {
-   "id": "c5fe91a597eeb739",
+   "id": "588aa78ae04891fc",
    "name": "locate-path",
-   "version": "2.0.0",
+   "version": "6.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -8625,16 +8647,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:locate-path:locate-path:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:locate-path:locate_path:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:locate_path:locate-path:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:locate_path:locate_path:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:locate:locate-path:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:locate:locate_path:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:locate-path:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:locate_path:2.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:locate-path:locate-path:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:locate-path:locate_path:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:locate_path:locate-path:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:locate_path:locate_path:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:locate:locate-path:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:locate:locate_path:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:locate-path:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:locate_path:6.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/locate-path@2.0.0"
+   "purl": "pkg:npm/locate-path@6.0.0"
   },
   {
    "id": "4f6109e520dedc03",
@@ -9165,6 +9187,60 @@
    "purl": "pkg:npm/map-obj@4.3.0"
   },
   {
+   "id": "8fb00c426424f4c9",
+   "name": "markdown-it",
+   "version": "12.3.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:markdown-it:markdown-it:12.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown-it:markdown_it:12.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown_it:markdown-it:12.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown_it:markdown_it:12.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown:markdown-it:12.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown:markdown_it:12.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:markdown-it:12.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:markdown_it:12.3.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/markdown-it@12.3.2"
+  },
+  {
+   "id": "32928f4d7f5d2ecd",
+   "name": "markdown-it-anchor",
+   "version": "8.6.4",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:markdown-it-anchor:markdown-it-anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown-it-anchor:markdown_it_anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown_it_anchor:markdown-it-anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown_it_anchor:markdown_it_anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown-it:markdown-it-anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown-it:markdown_it_anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown_it:markdown-it-anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown_it:markdown_it_anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown:markdown-it-anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:markdown:markdown_it_anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:markdown-it-anchor:8.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:markdown_it_anchor:8.6.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/markdown-it-anchor@8.6.4"
+  },
+  {
    "id": "e71d784fd19434ce",
    "name": "marked",
    "version": "4.0.18",
@@ -9238,6 +9314,25 @@
    "purl": "pkg:npm/mdn-data@2.0.14"
   },
   {
+   "id": "19a65a12355e8f6b",
+   "name": "mdurl",
+   "version": "1.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:mdurl:mdurl:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:mdurl:1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/mdurl@1.0.1"
+  },
+  {
    "id": "7c7696247599e21f",
    "name": "meow",
    "version": "9.0.0",
@@ -9301,9 +9396,9 @@
    "purl": "pkg:npm/merge2@1.4.1"
   },
   {
-   "id": "f4f41be681cc1d67",
+   "id": "2e569297774fd0fb",
    "name": "metalsmith",
-   "version": "2.4.3",
+   "version": "2.5.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -9314,10 +9409,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:metalsmith:metalsmith:2.4.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:metalsmith:2.4.3:*:*:*:*:*:*:*"
+    "cpe:2.3:a:metalsmith:metalsmith:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:metalsmith:2.5.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/metalsmith@2.4.3"
+   "purl": "pkg:npm/metalsmith@2.5.0"
   },
   {
    "id": "e3e4576c2154a50b",
@@ -9582,9 +9677,9 @@
    "purl": "pkg:npm/metalsmith-sitemap@1.2.2"
   },
   {
-   "id": "fc0a3a33b0e6bdae",
+   "id": "2df3ba6ecfa5f69e",
    "name": "metalsmith-watch",
-   "version": "git+ssh://git@github.com/doteco/metalsmith-watch.git#4235b96e70d8f643313fd1c83c81dce1f226ac68",
+   "version": "git+ssh://git@github.com/doteco/metalsmith-watch.git#14ea22e1c01696959412067ad04bbebb0fc8a7a5",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -9595,16 +9690,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:metalsmith-watch:metalsmith-watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#4235b96e70d8f643313fd1c83c81dce1f226ac68:*:*:*:*:*:*:*",
-    "cpe:2.3:a:metalsmith-watch:metalsmith_watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#4235b96e70d8f643313fd1c83c81dce1f226ac68:*:*:*:*:*:*:*",
-    "cpe:2.3:a:metalsmith_watch:metalsmith-watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#4235b96e70d8f643313fd1c83c81dce1f226ac68:*:*:*:*:*:*:*",
-    "cpe:2.3:a:metalsmith_watch:metalsmith_watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#4235b96e70d8f643313fd1c83c81dce1f226ac68:*:*:*:*:*:*:*",
-    "cpe:2.3:a:metalsmith:metalsmith-watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#4235b96e70d8f643313fd1c83c81dce1f226ac68:*:*:*:*:*:*:*",
-    "cpe:2.3:a:metalsmith:metalsmith_watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#4235b96e70d8f643313fd1c83c81dce1f226ac68:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:metalsmith-watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#4235b96e70d8f643313fd1c83c81dce1f226ac68:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:metalsmith_watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#4235b96e70d8f643313fd1c83c81dce1f226ac68:*:*:*:*:*:*:*"
+    "cpe:2.3:a:metalsmith-watch:metalsmith-watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#14ea22e1c01696959412067ad04bbebb0fc8a7a5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:metalsmith-watch:metalsmith_watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#14ea22e1c01696959412067ad04bbebb0fc8a7a5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:metalsmith_watch:metalsmith-watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#14ea22e1c01696959412067ad04bbebb0fc8a7a5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:metalsmith_watch:metalsmith_watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#14ea22e1c01696959412067ad04bbebb0fc8a7a5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:metalsmith:metalsmith-watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#14ea22e1c01696959412067ad04bbebb0fc8a7a5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:metalsmith:metalsmith_watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#14ea22e1c01696959412067ad04bbebb0fc8a7a5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:metalsmith-watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#14ea22e1c01696959412067ad04bbebb0fc8a7a5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:metalsmith_watch:git\\+ssh\\:\\/\\/git\\@github.com\\/doteco\\/metalsmith-watch.git\\#14ea22e1c01696959412067ad04bbebb0fc8a7a5:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/metalsmith-watch@git+ssh://git%40github.com/doteco/metalsmith-watch.git%234235b96e70d8f643313fd1c83c81dce1f226ac68"
+   "purl": "pkg:npm/metalsmith-watch@git+ssh://git%40github.com/doteco/metalsmith-watch.git%2314ea22e1c01696959412067ad04bbebb0fc8a7a5"
   },
   {
    "id": "a431265b0e815b71",
@@ -9833,6 +9928,25 @@
    "purl": "pkg:npm/minimist-options@4.1.0"
   },
   {
+   "id": "956c0de7a48c513f",
+   "name": "mkdirp",
+   "version": "1.0.4",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:mkdirp:mkdirp:1.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:mkdirp:1.0.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/mkdirp@1.0.4"
+  },
+  {
    "id": "23c54c7c05d56cef",
    "name": "mozjpeg",
    "version": "8.0.0",
@@ -9871,9 +9985,9 @@
    "purl": "pkg:npm/ms@2.1.2"
   },
   {
-   "id": "c0edebaba9fe2c0a",
+   "id": "c4ea74d04c600111",
    "name": "multimatch",
-   "version": "4.0.0",
+   "version": "2.1.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -9884,10 +9998,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:multimatch:multimatch:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:multimatch:4.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:multimatch:multimatch:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:multimatch:2.1.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/multimatch@4.0.0"
+   "purl": "pkg:npm/multimatch@2.1.0"
   },
   {
    "id": "3a03134eff12363",
@@ -10367,9 +10481,9 @@
    "purl": "pkg:npm/object-keys@1.1.1"
   },
   {
-   "id": "65e882981b3e9b09",
+   "id": "dba0f46f60bfd90a",
    "name": "object.assign",
-   "version": "4.1.2",
+   "version": "4.1.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -10380,10 +10494,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:object.assign:object.assign:4.1.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:object.assign:4.1.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:object.assign:object.assign:4.1.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:object.assign:4.1.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/object.assign@4.1.2"
+   "purl": "pkg:npm/object.assign@4.1.3"
   },
   {
    "id": "68dce76c55247fc9",
@@ -10519,9 +10633,9 @@
    "purl": "pkg:npm/optimist@0.6.1"
   },
   {
-   "id": "cbbd9f0612c77e60",
+   "id": "872ad5fce6aaf7ac",
    "name": "optionator",
-   "version": "0.9.1",
+   "version": "0.8.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -10532,10 +10646,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:optionator:optionator:0.9.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:optionator:0.9.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:optionator:optionator:0.8.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:optionator:0.8.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/optionator@0.9.1"
+   "purl": "pkg:npm/optionator@0.8.3"
   },
   {
    "id": "e47dfc4f11a36fe0",
@@ -10690,9 +10804,9 @@
    "purl": "pkg:npm/p-is-promise@1.1.0"
   },
   {
-   "id": "3fc9a8be05fe657f",
+   "id": "37cac6c0170c803c",
    "name": "p-limit",
-   "version": "1.3.0",
+   "version": "3.1.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -10703,21 +10817,21 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:p-limit:p-limit:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p-limit:p_limit:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p_limit:p-limit:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p_limit:p_limit:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p:p-limit:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p:p_limit:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:p-limit:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:p_limit:1.3.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:p-limit:p-limit:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p-limit:p_limit:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p_limit:p-limit:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p_limit:p_limit:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p:p-limit:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p:p_limit:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:p-limit:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:p_limit:3.1.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/p-limit@1.3.0"
+   "purl": "pkg:npm/p-limit@3.1.0"
   },
   {
-   "id": "c1e1ed180a208e2e",
+   "id": "8b7520f6a100c1a7",
    "name": "p-locate",
-   "version": "2.0.0",
+   "version": "5.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -10728,16 +10842,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:p-locate:p-locate:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p-locate:p_locate:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p_locate:p-locate:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p_locate:p_locate:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p:p-locate:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p:p_locate:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:p-locate:2.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:p_locate:2.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:p-locate:p-locate:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p-locate:p_locate:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p_locate:p-locate:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p_locate:p_locate:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p:p-locate:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p:p_locate:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:p-locate:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:p_locate:5.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/p-locate@2.0.0"
+   "purl": "pkg:npm/p-locate@5.0.0"
   },
   {
    "id": "cf5b924c3bc9ab07",
@@ -10844,9 +10958,9 @@
    "purl": "pkg:npm/p-timeout@1.2.1"
   },
   {
-   "id": "4bd91657121f13b3",
+   "id": "d3526f6c968db116",
    "name": "p-try",
-   "version": "1.0.0",
+   "version": "2.2.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -10857,16 +10971,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:p-try:p-try:1.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p-try:p_try:1.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p_try:p-try:1.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p_try:p_try:1.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p:p-try:1.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:p:p_try:1.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:p-try:1.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:p_try:1.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:p-try:p-try:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p-try:p_try:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p_try:p-try:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p_try:p_try:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p:p-try:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:p:p_try:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:p-try:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:p_try:2.2.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/p-try@1.0.0"
+   "purl": "pkg:npm/p-try@2.2.0"
   },
   {
    "id": "e89c1854f90c9bd3",
@@ -10919,9 +11033,9 @@
    "purl": "pkg:npm/parse-json@4.0.0"
   },
   {
-   "id": "23060d9ee846684b",
+   "id": "ed2b26d37c2bdd29",
    "name": "path-exists",
-   "version": "3.0.0",
+   "version": "4.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -10932,16 +11046,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:path-exists:path-exists:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:path-exists:path_exists:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:path_exists:path-exists:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:path_exists:path_exists:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:path:path-exists:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:path:path_exists:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:path-exists:3.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:path_exists:3.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:path-exists:path-exists:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path-exists:path_exists:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_exists:path-exists:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_exists:path_exists:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path:path-exists:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path:path_exists:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:path-exists:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:path_exists:4.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/path-exists@3.0.0"
+   "purl": "pkg:npm/path-exists@4.0.0"
   },
   {
    "id": "3e07d7e7ceaf3616",
@@ -11243,9 +11357,9 @@
    "purl": "pkg:npm/pngquant-bin@6.0.1"
   },
   {
-   "id": "87eb0639dbdb7e2",
+   "id": "aaa947d90b65f15",
    "name": "postcss",
-   "version": "8.4.14",
+   "version": "8.4.16",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -11256,10 +11370,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:postcss:postcss:8.4.14:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:postcss:8.4.14:*:*:*:*:*:*:*"
+    "cpe:2.3:a:postcss:postcss:8.4.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:postcss:8.4.16:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/postcss@8.4.14"
+   "purl": "pkg:npm/postcss@8.4.16"
   },
   {
    "id": "c1690a8b9c33fe42",
@@ -11440,9 +11554,9 @@
    "purl": "pkg:npm/postcss-value-parser@4.2.0"
   },
   {
-   "id": "121f4f163fe9050e",
+   "id": "8d731857b4c02560",
    "name": "prelude-ls",
-   "version": "1.2.1",
+   "version": "1.1.2",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -11453,16 +11567,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:prelude-ls:prelude-ls:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:prelude-ls:prelude_ls:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:prelude_ls:prelude-ls:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:prelude_ls:prelude_ls:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:prelude:prelude-ls:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:prelude:prelude_ls:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:prelude-ls:1.2.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:prelude_ls:1.2.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:prelude-ls:prelude-ls:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:prelude-ls:prelude_ls:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:prelude_ls:prelude-ls:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:prelude_ls:prelude_ls:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:prelude:prelude-ls:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:prelude:prelude_ls:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:prelude-ls:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:prelude_ls:1.1.2:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/prelude-ls@1.2.1"
+   "purl": "pkg:npm/prelude-ls@1.1.2"
   },
   {
    "id": "f25aaafaa7957434",
@@ -11607,9 +11721,9 @@
    "purl": "pkg:npm/proto-list@1.2.4"
   },
   {
-   "id": "5e7a33907d904a77",
+   "id": "9c4a7030a4e7a83d",
    "name": "proto3-json-serializer",
-   "version": "1.0.2",
+   "version": "1.0.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -11620,25 +11734,25 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:proto3-json-serializer:proto3-json-serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3-json-serializer:proto3_json_serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3_json_serializer:proto3-json-serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3_json_serializer:proto3_json_serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3-json:proto3-json-serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3-json:proto3_json_serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3_json:proto3-json-serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3_json:proto3_json_serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3:proto3-json-serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:proto3:proto3_json_serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:proto3-json-serializer:1.0.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:proto3_json_serializer:1.0.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:proto3-json-serializer:proto3-json-serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3-json-serializer:proto3_json_serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3_json_serializer:proto3-json-serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3_json_serializer:proto3_json_serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3-json:proto3-json-serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3-json:proto3_json_serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3_json:proto3-json-serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3_json:proto3_json_serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3:proto3-json-serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:proto3:proto3_json_serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:proto3-json-serializer:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:proto3_json_serializer:1.0.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/proto3-json-serializer@1.0.2"
+   "purl": "pkg:npm/proto3-json-serializer@1.0.3"
   },
   {
-   "id": "3f4b3e8f5821d3b8",
+   "id": "75283d536d4c4427",
    "name": "protobufjs",
-   "version": "6.11.3",
+   "version": "7.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -11649,10 +11763,35 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:protobufjs:protobufjs:6.11.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:protobufjs:6.11.3:*:*:*:*:*:*:*"
+    "cpe:2.3:a:protobufjs:protobufjs:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:protobufjs:7.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/protobufjs@6.11.3"
+   "purl": "pkg:npm/protobufjs@7.0.0"
+  },
+  {
+   "id": "d2e20f4a27fabab0",
+   "name": "protobufjs-cli",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:protobufjs-cli:protobufjs-cli:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobufjs-cli:protobufjs_cli:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobufjs_cli:protobufjs-cli:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobufjs_cli:protobufjs_cli:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobufjs:protobufjs-cli:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobufjs:protobufjs_cli:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:protobufjs-cli:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:protobufjs_cli:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/protobufjs-cli@1.0.0"
   },
   {
    "id": "2cf3012cbadac0e8",
@@ -12202,6 +12341,25 @@
    "purl": "pkg:npm/require-one@1.0.3"
   },
   {
+   "id": "464eabb85c90a62c",
+   "name": "requizzle",
+   "version": "0.2.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:requizzle:requizzle:0.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:requizzle:0.2.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/requizzle@0.2.3"
+  },
+  {
    "id": "c86472c2553fdfff",
    "name": "resolve",
    "version": "1.22.1",
@@ -12426,9 +12584,9 @@
    "purl": "pkg:npm/safe-json-parse@1.0.1"
   },
   {
-   "id": "cc016055312fb607",
+   "id": "ed5a2c4bb59a24f3",
    "name": "sass",
-   "version": "1.53.0",
+   "version": "1.54.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -12439,10 +12597,10 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:sass:sass:1.53.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:sass:1.53.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:sass:sass:1.54.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:sass:1.54.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/sass@1.53.0"
+   "purl": "pkg:npm/sass@1.54.4"
   },
   {
    "id": "ba9859ec8687e647",
@@ -13605,9 +13763,9 @@
    "purl": "pkg:npm/style-search@0.1.0"
   },
   {
-   "id": "e59a8fdbf89246fa",
+   "id": "c2cb8c485b4388dd",
    "name": "stylelint",
-   "version": "14.9.1",
+   "version": "14.10.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -13618,15 +13776,15 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:stylelint:stylelint:14.9.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint:14.9.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:stylelint:stylelint:14.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint:14.10.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/stylelint@14.9.1"
+   "purl": "pkg:npm/stylelint@14.10.0"
   },
   {
-   "id": "d2723742bc9d518a",
+   "id": "312c8fe41bda5f7f",
    "name": "stylelint-config-recommended",
-   "version": "8.0.0",
+   "version": "9.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -13637,25 +13795,25 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:stylelint-config-recommended:stylelint-config-recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-recommended:stylelint_config_recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_recommended:stylelint-config-recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_recommended:stylelint_config_recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint-config-recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint_config_recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint-config-recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint_config_recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint-config-recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint_config_recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint-config-recommended:8.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint_config_recommended:8.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:stylelint-config-recommended:stylelint-config-recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-recommended:stylelint_config_recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_recommended:stylelint-config-recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_recommended:stylelint_config_recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint-config-recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint_config_recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint-config-recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint_config_recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint-config-recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint_config_recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint-config-recommended:9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint_config_recommended:9.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/stylelint-config-recommended@8.0.0"
+   "purl": "pkg:npm/stylelint-config-recommended@9.0.0"
   },
   {
-   "id": "a03f1029de52597c",
+   "id": "5ef8deae05767093",
    "name": "stylelint-config-recommended-scss",
-   "version": "6.0.0",
+   "version": "7.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -13666,29 +13824,29 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:stylelint-config-recommended-scss:stylelint-config-recommended-scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-recommended-scss:stylelint_config_recommended_scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_recommended_scss:stylelint-config-recommended-scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_recommended_scss:stylelint_config_recommended_scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-recommended:stylelint-config-recommended-scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-recommended:stylelint_config_recommended_scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_recommended:stylelint-config-recommended-scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_recommended:stylelint_config_recommended_scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint-config-recommended-scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint_config_recommended_scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint-config-recommended-scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint_config_recommended_scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint-config-recommended-scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint_config_recommended_scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint-config-recommended-scss:6.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint_config_recommended_scss:6.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:stylelint-config-recommended-scss:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-recommended-scss:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_recommended_scss:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_recommended_scss:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-recommended:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-recommended:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_recommended:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_recommended:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/stylelint-config-recommended-scss@6.0.0"
+   "purl": "pkg:npm/stylelint-config-recommended-scss@7.0.0"
   },
   {
-   "id": "fcf0c2840b7b3d52",
+   "id": "c46101f21c59115",
    "name": "stylelint-config-standard",
-   "version": "26.0.0",
+   "version": "27.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -13699,25 +13857,25 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:stylelint-config-standard:stylelint-config-standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-standard:stylelint_config_standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_standard:stylelint-config-standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_standard:stylelint_config_standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint-config-standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint_config_standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint-config-standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint_config_standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint-config-standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint_config_standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint-config-standard:26.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint_config_standard:26.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:stylelint-config-standard:stylelint-config-standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-standard:stylelint_config_standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_standard:stylelint-config-standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_standard:stylelint_config_standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint-config-standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint_config_standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint-config-standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint_config_standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint-config-standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint_config_standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint-config-standard:27.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint_config_standard:27.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/stylelint-config-standard@26.0.0"
+   "purl": "pkg:npm/stylelint-config-standard@27.0.0"
   },
   {
-   "id": "90a2ba64810589f5",
+   "id": "fd02c917a30f8ae9",
    "name": "stylelint-config-standard-scss",
-   "version": "4.0.0",
+   "version": "5.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -13728,24 +13886,24 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:stylelint-config-standard-scss:stylelint-config-standard-scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-standard-scss:stylelint_config_standard_scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_standard_scss:stylelint-config-standard-scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_standard_scss:stylelint_config_standard_scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-standard:stylelint-config-standard-scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-standard:stylelint_config_standard_scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_standard:stylelint-config-standard-scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_standard:stylelint_config_standard_scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint-config-standard-scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint_config_standard_scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint-config-standard-scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint_config_standard_scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint-config-standard-scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint_config_standard_scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint-config-standard-scss:4.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint_config_standard_scss:4.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:stylelint-config-standard-scss:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-standard-scss:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_standard_scss:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_standard_scss:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-standard:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-standard:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_standard:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_standard:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/stylelint-config-standard-scss@4.0.0"
+   "purl": "pkg:npm/stylelint-config-standard-scss@5.0.0"
   },
   {
    "id": "7b8d7a3810fd718",
@@ -13919,6 +14077,25 @@
    "purl": "pkg:npm/table@6.8.0"
   },
   {
+   "id": "f320d2fdf174df1d",
+   "name": "taffydb",
+   "version": "2.6.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:taffydb:taffydb:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:taffydb:2.6.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/taffydb@2.6.2"
+  },
+  {
    "id": "ca9e1bf401e99164",
    "name": "tar-stream",
    "version": "1.6.2",
@@ -14057,50 +14234,6 @@
    "purl": "pkg:npm/through@2.3.8"
   },
   {
-   "id": "46b605a45acbfb16",
-   "name": "thunkify",
-   "version": "2.1.2",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:thunkify:thunkify:2.1.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:thunkify:2.1.2:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/thunkify@2.1.2"
-  },
-  {
-   "id": "1dad3b3c3e30a7a9",
-   "name": "thunkify-wrap",
-   "version": "1.0.4",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:thunkify-wrap:thunkify-wrap:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:thunkify-wrap:thunkify_wrap:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:thunkify_wrap:thunkify-wrap:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:thunkify_wrap:thunkify_wrap:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:thunkify:thunkify-wrap:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:thunkify:thunkify_wrap:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:thunkify-wrap:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:thunkify_wrap:1.0.4:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/thunkify-wrap@1.0.4"
-  },
-  {
    "id": "5d2c945433404546",
    "name": "timed-out",
    "version": "4.0.1",
@@ -14149,6 +14282,25 @@
     "cpe:2.3:a:*:tiny_lr:2.0.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:npm/tiny-lr@2.0.0"
+  },
+  {
+   "id": "81b9e12eb940d68b",
+   "name": "tmp",
+   "version": "0.2.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:tmp:tmp:0.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:tmp:0.2.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/tmp@0.2.1"
   },
   {
    "id": "8ef764a0962e2f97",
@@ -14205,9 +14357,9 @@
    "purl": "pkg:npm/to-regex-range@5.0.1"
   },
   {
-   "id": "cdcb299d6b665b93",
+   "id": "84487872a90fa9c4",
    "name": "token-types",
-   "version": "4.2.0",
+   "version": "4.2.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -14218,16 +14370,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:token-types:token-types:4.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:token-types:token_types:4.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:token_types:token-types:4.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:token_types:token_types:4.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:token:token-types:4.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:token:token_types:4.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:token-types:4.2.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:token_types:4.2.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:token-types:token-types:4.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:token-types:token_types:4.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:token_types:token-types:4.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:token_types:token_types:4.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:token:token-types:4.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:token:token_types:4.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:token-types:4.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:token_types:4.2.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/token-types@4.2.0"
+   "purl": "pkg:npm/token-types@4.2.1"
   },
   {
    "id": "355d006cba4cc236",
@@ -14368,9 +14520,9 @@
    "purl": "pkg:npm/tunnel-agent@0.6.0"
   },
   {
-   "id": "2b0a63ea33fb52ef",
+   "id": "98ace34cf76ce161",
    "name": "type-check",
-   "version": "0.4.0",
+   "version": "0.3.2",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -14381,16 +14533,16 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:type-check:type-check:0.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:type-check:type_check:0.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:type_check:type-check:0.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:type_check:type_check:0.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:type:type-check:0.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:type:type_check:0.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:type-check:0.4.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:type_check:0.4.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:type-check:type-check:0.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:type-check:type_check:0.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:type_check:type-check:0.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:type_check:type_check:0.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:type:type-check:0.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:type:type_check:0.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:type-check:0.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:type_check:0.3.2:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/type-check@0.4.0"
+   "purl": "pkg:npm/type-check@0.3.2"
   },
   {
    "id": "306a8c445169a893",
@@ -14418,9 +14570,9 @@
    "purl": "pkg:npm/type-fest@0.11.0"
   },
   {
-   "id": "c3980b9386b1c909",
-   "name": "uglify-js",
-   "version": "3.16.2",
+   "id": "a46280ef62e905f5",
+   "name": "uc.micro",
+   "version": "1.0.6",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -14431,16 +14583,35 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:uglify-js:uglify-js:3.16.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify-js:uglify_js:3.16.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify_js:uglify-js:3.16.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify_js:uglify_js:3.16.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify:uglify-js:3.16.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify:uglify_js:3.16.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:uglify-js:3.16.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:uglify_js:3.16.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:uc.micro:uc.micro:1.0.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:uc.micro:1.0.6:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/uglify-js@3.16.2"
+   "purl": "pkg:npm/uc.micro@1.0.6"
+  },
+  {
+   "id": "e2068b16592b970b",
+   "name": "uglify-js",
+   "version": "3.16.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:uglify-js:uglify-js:3.16.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify-js:uglify_js:3.16.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify_js:uglify-js:3.16.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify_js:uglify_js:3.16.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify:uglify-js:3.16.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify:uglify_js:3.16.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:uglify-js:3.16.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:uglify_js:3.16.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/uglify-js@3.16.3"
   },
   {
    "id": "66a49fac35943abc",
@@ -14512,28 +14683,9 @@
    "purl": "pkg:npm/underscore@1.13.4"
   },
   {
-   "id": "362c4892f0146fce",
-   "name": "unyield",
-   "version": "0.0.1",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:unyield:unyield:0.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:unyield:0.0.1:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/unyield@0.0.1"
-  },
-  {
-   "id": "cb5b8460fe2334d",
+   "id": "50568b0a924ebdbc",
    "name": "update-browserslist-db",
-   "version": "1.0.4",
+   "version": "1.0.5",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -14544,20 +14696,20 @@
    "licenses": [],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:update-browserslist-db:update-browserslist-db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:update-browserslist-db:update_browserslist_db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:update_browserslist_db:update-browserslist-db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:update_browserslist_db:update_browserslist_db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:update-browserslist:update-browserslist-db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:update-browserslist:update_browserslist_db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:update_browserslist:update-browserslist-db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:update_browserslist:update_browserslist_db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:update:update-browserslist-db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:update:update_browserslist_db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:update-browserslist-db:1.0.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:update_browserslist_db:1.0.4:*:*:*:*:*:*:*"
+    "cpe:2.3:a:update-browserslist-db:update-browserslist-db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:update-browserslist-db:update_browserslist_db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:update_browserslist_db:update-browserslist-db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:update_browserslist_db:update_browserslist_db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:update-browserslist:update-browserslist-db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:update-browserslist:update_browserslist_db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:update_browserslist:update-browserslist-db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:update_browserslist:update_browserslist_db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:update:update-browserslist-db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:update:update_browserslist_db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:update-browserslist-db:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:update_browserslist_db:1.0.5:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/update-browserslist-db@1.0.4"
+   "purl": "pkg:npm/update-browserslist-db@1.0.5"
   },
   {
    "id": "273544765002b76a",
@@ -15158,6 +15310,25 @@
    "purl": "pkg:npm/xdg-basedir@4.0.0"
   },
   {
+   "id": "c1fb30888100202e",
+   "name": "xmlcreate",
+   "version": "2.0.4",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:xmlcreate:xmlcreate:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:xmlcreate:2.0.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/xmlcreate@2.0.4"
+  },
+  {
    "id": "d942c543e8a4770e",
    "name": "xtend",
    "version": "4.0.2",
@@ -15320,6 +15491,31 @@
     "cpe:2.3:a:*:yauzl:2.10.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:npm/yauzl@2.10.0"
+  },
+  {
+   "id": "af546ff7372493ba",
+   "name": "yocto-queue",
+   "version": "0.1.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:yocto-queue:yocto-queue:0.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:yocto-queue:yocto_queue:0.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:yocto_queue:yocto-queue:0.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:yocto_queue:yocto_queue:0.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:yocto:yocto-queue:0.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:yocto:yocto_queue:0.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:yocto-queue:0.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:yocto_queue:0.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/yocto-queue@0.1.0"
   }
  ],
  "artifactRelationships": [],
@@ -15330,7 +15526,7 @@
  "distro": {},
  "descriptor": {
   "name": "syft",
-  "version": "0.51.0",
+  "version": "0.53.4",
   "configuration": {
    "configPath": "",
    "verbosity": 0,

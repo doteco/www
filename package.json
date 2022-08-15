@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "go.eco web site",
   "devDependencies": {
-    "@google-cloud/translate": "7.0.0",
-    "@metalsmith/collections": "1.2.1",
+    "@google-cloud/translate": "7.0.1",
+    "@metalsmith/collections": "1.2.2",
     "@metalsmith/in-place": "4.5.0",
     "@metalsmith/layouts": "2.5.1",
-    "@metalsmith/sass": "1.0.1",
-    "autoprefixer": "10.4.7",
+    "@metalsmith/sass": "1.1.0",
+    "autoprefixer": "10.4.8",
     "date-fns": "2.29.1",
     "googleapis": "105.0.0",
     "handlebars": "4.7.7",
@@ -32,8 +32,8 @@
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "github:doteco/metalsmith-watch",
     "standard": "17.0.0",
-    "stylelint": "14.9.1",
-    "stylelint-config-standard": "26.0.0",
+    "stylelint": "14.10.0",
+    "stylelint-config-standard": "27.0.0",
     "stylelint-config-standard-scss": "5.0.0"
   },
   "scripts": {
