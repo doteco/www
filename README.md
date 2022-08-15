@@ -1,7 +1,7 @@
 # .eco Website [![Build Status](https://circleci.com/gh/doteco/www.svg?style=svg)](https://app.circleci.com/pipelines/github/doteco/www) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
-This is the website for [go.eco](https://www.go.eco).
+This is the website for [go.eco](https://go.eco).
 
 ## Updating the web site
 
@@ -38,7 +38,7 @@ Deploying the website is taken care of by [CircleCI](https://app.circleci.com/pi
 
 **Please make sure that sure that you verify your changes on [test.go.eco](https://test.go.eco) after committing your changes.**
 
-By default, all commits are made to the *master* branch. To promote changes to the production site [www.go.eco](https://www.go.eco), the *master* branch will need to be merged with the *production* branch. To do this, please follow these instructions:
+By default, all commits are made to the *master* branch. To promote changes to the production site [go.eco](https://go.eco), the *master* branch will need to be merged with the *production* branch. To do this, please follow these instructions:
 
 1. From the [main screen](https://github.com/doteco/www), click on the **New Pull Request** button
 2. In the **base:** dropdown, choose _production_
@@ -46,7 +46,7 @@ By default, all commits are made to the *master* branch. To promote changes to t
 4. Enter a comment for your commit and then
 5. Click on the **Merge pull request** button.
 6. Click on the **Confirm merge** button.
-7. Once your changes have been deployed by TravisCI to the production site, check out [www.go.eco](https://test.go.eco) to verify that they have been deployed successfully.
+7. Once your changes have been deployed by TravisCI to the production site, check out [test.go.eco](https://test.go.eco) to verify that they have been deployed successfully.
 
 
 ## Developer Instructions
