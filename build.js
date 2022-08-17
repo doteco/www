@@ -188,7 +188,10 @@ const ms = Metalsmith(__dirname)
       '/affiliate': '/',
       '/bthechange2017': '/',
       '/names/premiums/': '/search/',
-      '/partners/institute-of-public-environmental-affairs/': 'https://org.eco/'
+      '/partners/institute-of-public-environmental-affairs/': 'https://org.eco/',
+      '/news/the-world-needs-more-tigers-13eb6e5eb394': '/news/',
+      '/news/first-ever-domain-grants-program-wraps-up-583234092c10': '/news/',
+      '/news/understanding-your-aim-1d02eebce1e8': '/news/'
     }
   }))
 
