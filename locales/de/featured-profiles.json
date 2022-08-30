@@ -93,7 +93,7 @@
     "img": "https://cdn.profiles.eco/images/boox.eco/bf2f788c-3cc2-4046-abcb-39f2abb627e6_1500x500.png",
     "type": "business",
     "location": "Vereinigte Staaten",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "nuvola.eco",
@@ -105,11 +105,11 @@
   },
   {
     "domain": "brightly.eco",
-    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern, einen nachhaltigen Lebensstil zu leben.",
+    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern zu einem nachhaltigen Lebensstil.",
     "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
     "type": "business",
     "location": "Vereinigte Staaten",
-    "priority": "3"
+    "priority": "2"
   },
   {
     "domain": "kusala.eco",
@@ -125,7 +125,7 @@
     "img": "https://cdn.profiles.eco/images/ducky.eco/04b88bb6-ade5-4559-9889-bcb2be6d6029_1500x500.png",
     "type": "business",
     "location": "Norwegen",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "carboncopy.eco",
@@ -133,7 +133,7 @@
     "img": "/img/champion_logos/carboncopy-hero.jpg",
     "type": "nonprofit",
     "location": "Vereinigtes Königreich",
-    "priority": "1"
+    "priority": "3"
   },
   {
     "domain": "dragonfly.eco",
@@ -141,6 +141,14 @@
     "img": "/img/champion_logos/dragonfly-eco.png",
     "type": "individual",
     "location": "Kanada",
-    "priority": "2"
+    "priority": "4"
+  },
+  {
+    "domain": "zeroco2.eco",
+    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> ist eine B Corp, die Einzelpersonen und Unternehmen hilft, die Klimakrise abzumildern, indem sie Wiederaufforstungsprojekte unterstützt, die die nachhaltige Entwicklung ganzer landwirtschaftlicher Gemeinschaften ermöglichen, die auf aufgeforsteten Flächen leben.",
+    "img": "https://cdn.profiles.eco/images/zeroco2.eco/1741881d-1160-403b-8934-b268db98b711_1500x500.webp",
+    "type": "business",
+    "location": "Italien",
+    "priority": "1"
   }
 ]
