@@ -85,46 +85,6 @@
 		}
 	}
 
-	.profile-tile--empty {
-		background-image: none;
-		background-color: $doteco-ruby;
-		color: white;
-		border: none;
-
-		&:hover {
-			text-decoration: none;
-			background-color: $doteco-ruby-dark;
-		}
-	}
-
-	.profile-tile--empty__message {
-		font-size: 1.6rem;
-		margin-bottom: 1rem;
-	}
-
-	.profile-tile--empty .profile-tile__wrapper {
-		padding: 1rem;
-		position: relative;
-		background: none;
-
-		&:hover {
-			background-image: none;
-		}
-	}
-
-	.profile-tile--empty__cta {
-		font-size: 1.8rem;
-		font-weight: bold;
-	}
-
-	.profile-tile--empty__arrow {
-		position: absolute;
-		right: 2rem;
-		bottom: 2rem;
-		top: inherit;
-		font-size: 2.5rem;
-	}
-
 	.profile-tile-details {
 		padding: 1rem;
 		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -156,23 +116,6 @@
 	}
 
 	@media (min-width: 767px) {
-		.profile-tile--empty .profile-tile__wrapper {
-			padding: 2rem;
-		}
-
-		.profile-tile--empty__message {
-			font-size: 2rem;
-			margin-bottom: 4rem;
-		}
-
-		.profile-tile--empty__cta {
-			font-size: 2.2rem;
-		}
-
-		.profile-tile--empty__arrow {
-			font-size: 4rem;
-		}
-
 		// do not stack on desktop
 		.grid__cell {
 			flex: 1 1 0%; // let autosize based on siblings

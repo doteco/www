@@ -1,6 +1,10 @@
 SENTRY_VERSION=6.19.7
 BOOTSTRAP_VERSION=3.4.1
 BOOTSTRAP_VALIDATOR_VERSION=0.11.9
+JQUERY_VERSION=3.6.1
+
+cp node_modules/jquery/dist/jquery.min.js source/js/jquery-$JQUERY_VERSION.min.js
+cp node_modules/jquery/dist/jquery.min.map source/js/jquery-$JQUERY_VERSION.min.map
 
 mkdir -p source/js/sentry/$SENTRY_VERSION/
 cp node_modules/@sentry/browser/build/bundle.min.js* source/js/sentry/$SENTRY_VERSION/
