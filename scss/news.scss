@@ -34,11 +34,16 @@
 			margin-bottom: 2.8rem;
 		}
 
+		p + ul,
+		p + ol {
+			margin-top: -1.8rem;
+		}
+
 		blockquote {
 			font-style: italic;
 		}
 
-		blockquote > ol, blockquote > p {
+		blockquote > ol:last-child, blockquote > p:last-child {
 			margin-bottom: 0.5rem;
 		}
 
