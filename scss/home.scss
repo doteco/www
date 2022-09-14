@@ -218,4 +218,24 @@
 	.community-profiles__container.grid {
 		margin-bottom: 2rem;
 	}
+
+	.domains-fade-in {
+		animation: fadeIn 1s;
+		animation-fill-mode: forwards;
+	}
+
+	.domains-fade-out {
+		animation: fadeOut 1s;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes fadeIn {
+		0% { opacity: 0; }
+		100% { opacity: 1; }
+	}
+
+	@keyframes fadeOut {
+		0% { opacity: 1; }
+		100% { opacity: 0; }
+	}
 }

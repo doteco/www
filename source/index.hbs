@@ -194,29 +194,13 @@ faq: true
 	var registeredDomains = document.getElementById('registered-domains')
 
 	var fadeIn = function (elem, timing, delta, cb) {
-		var opacity = 0
-		fadeInterval = setInterval(function () {
-			opacity += delta
-			elem.style.opacity = opacity
-
-			if (opacity >= 1) {
-				clearInterval(fadeInterval);
-				if (cb) { cb() }
-			}
-		}, timing)
+		elem.classList.remove('domains-fade-out')
+		elem.classList.add('domains-fade-in')
 	}
 
 	var fadeOut = function (elem, timing, delta, cb) {
-		var opacity = 1
-		fadeInterval = setInterval(function () {
-			opacity -= delta
-			elem.style.opacity = opacity
-
-			if (opacity <= 0) {
-				clearInterval(fadeInterval);
-				if (cb) { cb() }
-			}
-		}, timing)
+		elem.classList.remove('domains-fade-in')
+		elem.classList.add('domains-fade-out')
 	}
 
 	var showRecent = function (domains, count) {
@@ -238,13 +222,13 @@ faq: true
 		}
 
 		registeredDomains.innerHTML = html
-		fadeIn(registeredDomains, 40, 0.1, function () {
-			setTimeout(function () {
-				fadeOut(registeredDomains, 40, 0.1, function () {
-					showRecent(domains, count)
-				})
-			}, 3000)
-		})
+		fadeIn(registeredDomains)
+		setTimeout(function () {
+			fadeOut(registeredDomains)
+		}, 3000)
+		setTimeout(function () {
+			showRecent(domains, count)
+		}, 4000)
 	}
 
 	if (window.fetch) {
