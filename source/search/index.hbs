@@ -19,12 +19,14 @@ exclude: true
      <div class="row">
        <div class="col-sm-2"></div>
        <div class="col-sm-8">
-         <div class="input-group">
-           <input type="search" class="form-control domain-search" name="domain" placeholder="example.eco" autocomplete="off" autocapitalize="off" autofocus>
-           <span class="input-group-btn">
-             <button class="btn btn-search" type="button" aria-label="search.cta"><span class="glyphicon glyphicon-search"></span></button>
-           </span>
-          </div>
+        <div class="input-group">
+          <input id="input-search" type="search" class="form-control domain-search" name="domain" placeholder="example.eco" autocomplete="off" autocapitalize="off" aria-describedby="domain-search-button" autofocus>
+          <button class="btn btn-search" type="button" aria-label="{{t 'search.cta'}}" id="domain-search-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </button>
+        </div>
        </div>
        <div class="col-sm-2"></div>
      </div>
@@ -60,24 +62,20 @@ exclude: true
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="submit-form col-sm-8 well well-lg">
-        <h3 class="registars-header">{{t "reserved.head"}}</h3>
+        <h3>{{t "reserved.head"}}</h3>
         <p>{{t "reserved.text"}}</p>
         <form id="makeoffer-form" class="underlined-form iframe-form" action="{{ makeOfferForm }}" target="makeoffer-form-iframe" method="POST" data-toggle="validator">
           <fieldset>
             <input id="makeoffer-domain" type="hidden" name="entry.1812657841" value="" />
             <div class="form-group has-feedback">
               <input type="text" class="form-control" id="fullname" placeholder="{{t "reserved.nameField"}}" aria-label="{{t "reserved.nameField"}}" name="entry.1410965494" data-error="{{t "reserved.nameFieldError"}}" required>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
             </div>
             <div class="form-group has-feedback">
               <input type="email" class="form-control" id="email" placeholder="{{t "reserved.emailField"}}" aria-label="{{t "reserved.emailField"}}" name="entry.148246978" data-error="{{t "reserved.emailFieldError"}}" required>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
             </div>
           </fieldset>
           <div class="clearfix form-group">
-            <button type="submit" class="submit-application btn btn-primary pull-right" data-loading-text="{{t "reserved.cta2"}}">{{t "reserved.cta"}}</button>
+            <button type="submit" class="submit-application btn btn-primary float-end">{{t "reserved.cta"}}</button>
           </div>
         </form>
       </div>
@@ -88,7 +86,7 @@ exclude: true
     </div>
   </div>
 </div>
-<iframe id="makeoffer-form-iframe" name="makeoffer-form-iframe" class="iframe-form-iframe hidden" title="{{t "reserved.title"}}"></iframe>
+<iframe id="makeoffer-form-iframe" name="makeoffer-form-iframe" class="iframe-form-iframe" title="{{t "reserved.title"}}" hidden></iframe>
 
 <script src="/{{ fingerprint.[js/domain-search.js] }}"></script>
 <script>
@@ -138,27 +136,16 @@ exclude: true
   	})
   }
 </script>
-<script src="/js/bootstrap-validator-0.11.9.min.js"></script>
 <script>
-	// handle form post to iframe
-	(function ($) {
-		var submitted = false;
-		var form = $(".iframe-form");
-    if (form && form.validator) {
-      form.validator().on('submit', function (e) {
-  			if (! e.isDefaultPrevented()) {
-  				submitted = true;
-  				form.find(".submit-application").button("loading");
-  				return true;
-  			}
-	    });
+  const form = document.getElementById('makeoffer-form')
+  form.querySelectorAll('input.form-control').forEach(function (formControl) {
+    formControl.addEventListener('input', function (event) {
+      event.target.parentElement.classList.add('was-validated')
+    })
+  })
+	form.addEventListener('submit', function (event) {
+    if (!form.checkValidity()) {
+      return event.preventDefault()
     }
-
-		$(".iframe-form-iframe").on("load", function (e) {
-			if (submitted) {
-				form.find(".submit-application").button("reset");
-				submitted = false;
-			}
-		});
-	})(jQuery);
+  })
 </script>

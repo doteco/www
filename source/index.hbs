@@ -14,17 +14,16 @@ faq: true
 
 <link rel="preload" as="image" href="/img/carousel/woman-shopping.jpg" />
 
-<div class="carousel slide" id="home-carousel" data-interval="8000" data-ride="carousel" data-wrap="false">
-	<ol class="carousel-indicators">
-		<li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-		<li data-target="#home-carousel" data-slide-to="1"></li>
-		<li data-target="#home-carousel" data-slide-to="2"></li>
-		<li data-target="#home-carousel" data-slide-to="3"></li>
-	</ol>
+<div class="carousel slide" id="home-carousel" data-bs-interval="5000" data-bs-ride="carousel" data-bs-wrap="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="{{t 'carousel.business.head'}}"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="{{t 'carousel.gov.head'}}"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="{{t 'carousel.people.head'}}"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="{{t 'carousel.tld.head'}}"></button>
+  </div>
 
 	<div class="carousel-inner" role="listbox" aria-label="Header carousel">
-
-		<div class="item active home-business jumbotron" role="option"
+		<div class="carousel-item active home-business" role="option"
 			style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.jpg')">
 			<div class="container">
 				<h2>{{t 'carousel.business.head'}}</h2>
@@ -32,37 +31,27 @@ faq: true
 			</div>
 		</div>
 
-		<div class="item home-government jumbotron" role="option">
+		<div class="carousel-item home-government" role="option">
 			<div class="container">
 				<h2>{{t 'carousel.gov.head'}}</h2>
 				<p class="subheader">{{t 'carousel.gov.subhead'}}</p>
 			</div>
 		</div>
 
-		<div class="item home-people jumbotron" role="option">
+		<div class="carousel-item home-people" role="option">
 			<div class="container">
 				<h2>{{t 'carousel.people.head'}}</h2>
 				<p class="subheader">{{t 'carousel.people.subhead'}}</p>
 			</div>
 		</div>
 
-		<div class="item home-you jumbotron" role="option">
+		<div class="carousel-item home-you" role="option">
 			<div class="container">
 				<h2>{{t 'carousel.tld.head'}}</h2>
 				<p class="subheader">{{t 'carousel.tld.subhead'}}</p>
 			</div>
 		</div>
 	</div>
-
-	<a hidden class="left carousel-control" href="#home-carousel" role="button" data-slide="prev"
-		aria-label="{{t 'carousel.cta.prev'}}">
-		<span class="glyphicon glyphicon-chevron-left"></span>
-	</a>
-
-	<a class="right carousel-control" href="#home-carousel" role="button" data-slide="next"
-		aria-label="{{t 'carousel.cta.next'}}">
-		<span class="glyphicon glyphicon-chevron-right"></span>
-	</a>
 </div>
 
 <div class="section search">
@@ -74,12 +63,12 @@ faq: true
 				<div class="col-sm-2"></div>
 				<div class="col-sm-8">
 					<div class="input-group">
-						<input id="input-search" type="search" class="form-control domain-search" name="domain"
-							placeholder="example.eco" autocomplete="off" autocapitalize="off">
-						<span class="input-group-btn">
-							<button class="btn btn-search" type="button" aria-label="Search"><span
-									class="glyphicon glyphicon-search"></span></button>
-						</span>
+						<input id="input-search" type="search" class="form-control domain-search" name="domain" placeholder="example.eco" autocomplete="off" autocapitalize="off" aria-describedby="domain-search-button">
+						<button class="btn btn-search" type="button" aria-label="{{t 'search.cta'}}" id="domain-search-button">
+							<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+								<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+							</svg>
+						</button>
 					</div>
 				</div>
 				<div class="col-sm-2"></div>
@@ -91,8 +80,8 @@ faq: true
 <div class="section recent">
 	<div class="container">
 		<div class="row">
-			<div class="recently-registered col-xs-3">{{{t 'registered.head'}}}</div>
-			<div class="col-xs-9">
+			<div class="recently-registered col-3">{{{t 'registered.head'}}}</div>
+			<div class="col-9">
 				<div id="registered-domains" class="registered-domains">
 				</div>
 			</div>
@@ -148,7 +137,7 @@ faq: true
 <div class="section home-news inverted">
 	<div class="container">
 		<div class="section-label"><a href="/news/">Recent .eco news</a></div>
-		<div class="row row-no-gutters">
+		<div class="row g-0">
 			{{#eachN collections.news}}
 			<div class="col-md-4">
 				<a href="/{{pagePath path}}">
@@ -172,24 +161,15 @@ faq: true
 	<div class="container">
 		<div class="section-label">{{t 'support.head'}}</div>
 		<div class="row">
-			<div class="col-xs-3 col-md-2">
+			<div class="col-3 col-md-2">
 				<span class="support-wave">&#x1F44B;</span>
 			</div>
-			<div class="col-xs-8 col-md-10">
+			<div class="col-8 col-md-10">
 				{{{t 'support.text' joinArrays=' '}}}
 			</div>
 		</div>
 	</div>
 </div>
-<script>
-	if ('undefined' !== typeof jQuery) {
-		$('#home-carousel').on('slid.bs.carousel', function () {
-			curSlide = $('.active');
-			$('.left').toggle(!curSlide.is(':first-child'))
-			$('.right').toggle(!curSlide.is(':last-child'))
-		});
-	}
-</script>
 <script>
 	function search() {
 		try {

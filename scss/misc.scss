@@ -1,21 +1,22 @@
 #doteco {
 	.hero-404 {
 		background-image: url('/img/windmill-sunflowers.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/img/windmill-sunflowers.jpg');
 		background-size: cover;
 
 		.container {
-			margin-top: 3em;
-			margin-bottom: 3em;
+			margin-top: 3rem;
+			margin-bottom: 3rem;
 		}
 
 		p {
-			margin-bottom: 1em;
+			margin-top: 3rem;
 		}
 	}
 
 	.section-contact {
 		.col-md-6 {
-			margin-bottom: 4rem;
+			margin-top: 4rem;
 		}
 	}
 

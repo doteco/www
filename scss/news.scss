@@ -108,8 +108,9 @@
 
 	.news-tile {
 		min-height: 300px;
-		margin-bottom: 1rem;
+		margin-bottom: 0.6rem;
 		background-size: cover;
+		position: relative;
 
 		h3 {
 			font-size: 26px;
@@ -168,7 +169,7 @@
 		}
 
 		.news-tile {
-			margin-right: 1rem;
+			margin-right: 0.6rem;
 
 			h3 {
 				font-size: 30px;

@@ -1,20 +1,13 @@
 #doteco {
 	color: $doteco-charcoal;
 
-	.bordered-box {
-		border: 1px solid white;
-		border-radius: 2px;
-		display: block;
-		padding: 12px 0;
-		font-size: 60%;
-	}
-
 	.navbar {
 		background-color: $doteco-ruby;
-		margin-bottom: 0;
+		padding: 0;
+		border-bottom: 1px white solid;
 
-		.icon-bar {
-			background-color: white;
+		.nav-link {
+			padding: 1rem;
 		}
 
 		.navbar-toggle:focus {
@@ -27,10 +20,6 @@
 
 		.navbar-toggle:hover {
 			background-color: white;
-
-			.icon-bar {
-				background-color: $doteco-ruby;
-			}
 		}
 
 		a {
@@ -41,13 +30,6 @@
 			background-color: $doteco-charcoal;
 		}
 
-		.navbar-links {
-			a:hover {
-				color: $doteco-ruby;
-				background-color: $doteco-marrow;
-			}
-		}
-
 		.navbar-brand {
 			&:hover {
 				background-color: transparent;
@@ -55,13 +37,11 @@
 
 			img {
 				height: 2em;
-				margin-top: -20%;
 			}
 		}
 
 		li {
 			text-align: center;
-			font-size: 150%;
 		}
 
 		.social {
@@ -75,12 +55,14 @@
 			}
 		}
 
-		a:hover {
+		a:hover, .language-toggle.show {
 			background-color: $doteco-marrow;
 			color: $doteco-ruby;
 		}
 
 		.dropdown {
+			margin-bottom: 1rem;
+
 			ul {
 				background-color: $doteco-marrow;
 			}
@@ -92,8 +74,29 @@
 			}
 
 			.dropdown-menu {
+				margin-top: 0;
 				border: none;
+				border-radius: 0 0 6px 6px;
 			}
+		}
+
+		.navbar-toggler {
+			border: 1px solid white;
+			border-radius: 4px;
+			background-color: white;
+			box-shadow: none;
+		}
+
+		.navbar-toggler.collapsed {
+			background-color: transparent;
+		}
+
+		.navbar-toggler-icon:hover, .navbar-toggler-icon {
+			background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28159, 23, 68, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+		}
+
+		.navbar-toggler.collapsed .navbar-toggler-icon {
+			background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 		}
 
 		.language-toggle {
@@ -101,44 +104,18 @@
 			z-index: 1001;
 		}
 
-		.open {
-			.dropdown-toggle {
-				background-color: $doteco-marrow;
-				color: $doteco-ruby;
-			}
-		}
-
-		a.get-btn {
-			background-color: $doteco-marrow;
-			margin: 0 15px;
-			color: $doteco-ruby;
-		}
-
-		.get-btn:hover {
-			background-color: #7F0B38;
-			color: white;
-		}
-
 		@media only screen and (min-width: 768px) {
-			li {
-				text-align: left;
-				font-size: 14px;
+			.nav {
+				justify-content: flex-end;
+				width: 100%;
 			}
 
-			.bordered-box {
-				padding: 4px 12px;
-				font-size: 13px;
-				display: inline;
+			.dropdown {
+				margin-bottom: 0;
 			}
 
-			.social a {
-				padding-top: 1em;
-			}
-		}
-
-		@media only screen and (max-width: 768px) {
 			.dropdown-link {
-				font-size: 0.7em;
+				text-align: left;
 			}
 
 			.navbar-links li {

@@ -20,7 +20,7 @@
 		img {
 			height: 120px;
 			margin: auto;
-			margin-bottom: 2em;
+			margin-bottom: 1rem;
 		}
 
 		.image-row {
@@ -76,5 +76,9 @@
 
 	#registrar-list li {
 		line-height: 3;
+	}
+
+	.registrar-join {
+		margin-bottom: 4rem;
 	}
 }

@@ -58,8 +58,7 @@
   "homepage": "https://github.com/doteco/www#readme",
   "dependencies": {
     "@sentry/browser": "6.19.7",
-    "bootstrap": "3.4.1",
-    "bootstrap-validator": "0.11.9",
-    "jquery": "3.6.1"
+    "bootstrap": "5.2.1",
+    "bootstrap-validator": "0.11.9"
   }
 }

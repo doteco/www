@@ -1,8 +1,7 @@
 #doteco {
 	.carousel {
 		.container {
-			margin-top: 4em;
-			margin-bottom: 3em;
+			margin-top: 8rem;
 		}
 
 		.subheader {
@@ -21,11 +20,11 @@
 			background-color: white;
 		}
 
-		h1 {
+		h2 {
 			color: white;
 		}
 
-		.item {
+		.carousel-item {
 			height: 450px;
 			background-size: cover;
 		}
@@ -49,11 +48,6 @@
 		}
 
 		@media (max-width: 768px) {
-			.container {
-				margin-top: 1em;
-				margin-bottom: 3em;
-			}
-
 			.carousel-control {
 				height: 60px;
 				width: 40%;
@@ -62,7 +56,7 @@
 				z-index: 1000;
 			}
 
-			.item {
+			.carousel-item {
 				background-position: center;
 			}
 		}
@@ -75,33 +69,29 @@
 				background-image: none;
 				z-index: 1000;
 			}
-
-			.container {
-				margin-top: 2em;
-			}
 		}
 
 		@media (min-width: 768px) {
-			.item {
+			.carousel-item {
 				height: 380px;
+			}
+
+			.container {
+				margin-top: 10rem;
 			}
 		}
 	}
 
 	.recent {
 		background-color: $doteco-marrow;
-		padding: 2rem 0;
+		padding: 2rem 0 1rem;
 		color: $doteco-sapphire;
-	}
-
-	.registered-domain {
-		padding: 0 1rem;
 	}
 
 	.registered-domains {
 		height: 2.5rem;
-		overflow: hidden;
 		opacity: 0;
+		margin: 0 1rem;
 	}
 
 	.recently-registered {
@@ -110,12 +100,6 @@
 		z-index: 2;
 		background-color: $doteco-marrow;
 		font-size: 1rem;
-	}
-
-	@media (min-width: 768px) {
-		.recently-registered {
-			font-size: 1.6rem;
-		}
 	}
 
 	.registrar-modal-header {
@@ -161,6 +145,10 @@
 		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/carousel/infographic-fiveyears.png');
 	}
 
+	.section.home-who, .section.home-orgs, .section.home-news, .section.home-support {
+		padding-top: 2rem;
+	}
+
 	.home-who .champions-logo:hover {
 		background-color: white;
 	}
@@ -192,12 +180,6 @@
 			margin-top: 3em;
 		}
 
-		.img-responsive {
-			margin: auto;
-			vertical-align: middle;
-			margin-bottom: 4rem;
-		}
-
 		.logo-70 {
 			width: 70%;
 		}
@@ -218,30 +200,6 @@
 			.logo-50-md {
 				width: 50%;
 			}
-		}
-	}
-
-	.icon-row {
-		margin-top: 1.5em;
-		margin-bottom: 1em;
-
-		p {
-			margin-top: 0.5em;
-		}
-
-		img {
-			height: 6em;
-		}
-
-		.icon-text {
-			padding-right: 0;
-			padding-left: 0;
-			margin-top: 3rem;
-		}
-
-		.text-center {
-			margin-bottom: 0;
-			margin-top: 15px;
 		}
 	}
 
