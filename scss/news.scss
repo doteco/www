@@ -152,6 +152,11 @@
 		float: right;
 	}
 
+	.news-more {
+		display: flex;
+		justify-content: flex-end;
+	}
+
 	@media (min-width: 767px) {
 		article.container,
 		.breadcrumbs.container {
