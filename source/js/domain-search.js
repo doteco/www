@@ -9,7 +9,7 @@ window.domainSearch = function (config) {
 
   function generateFilterHtml (id, defaultItem, items, defaultValue, helpText) {
     const options = items.map(item => `<option value="${item.value}"${item.value === defaultValue ? 'selected' : ''}>${item.label}</option>`)
-    return `<div class="col-sm-3 registrar-filter"><label for="${id}" title="${helpText}">${defaultItem}</label><select id="${id}" name="${id}" class="custom-select registrar-select" title="${helpText}"><option value="" selected>---</option>${options}</select></div>`
+    return `<div class="col-md-3 registrar-filter"><label for="${id}" title="${helpText}">${defaultItem}</label><select id="${id}" name="${id}" class="custom-select registrar-select" title="${helpText}"><option value="" selected>---</option>${options}</select></div>`
   }
 
   function searchDomain () {
@@ -156,6 +156,18 @@ window.domainSearch = function (config) {
     return window.fetch(config.searchUrl + '/status?engine=' + engine + (domain ? '&domain=' + domain : ''))
   }
 
+  function handleSearchError (ex) {
+    console.error('Failed to load search data: ' + ex)
+    console.error(ex)
+    window.Sentry && window.Sentry.captureException(ex, {
+      extra: {
+        ctx: 'Failed to fetch search data'
+      }
+    })
+    const searchResultsRow = document.querySelector('.search-results')
+    searchResultsRow.innerHTML = config.resultLabels.error
+  }
+
   function search (domain) {
     if (!domain || domain.trim().length === 0 || domain.trim() === '.eco') {
       return false
@@ -167,10 +179,7 @@ window.domainSearch = function (config) {
     config.onSearch(domain)
     return fetchSearchResults(domain, config.searchEngine).then(response => {
       if (!response.ok) {
-        const errorMessage = 'Failed to load search data: ' + response.statusText
-        console.error(errorMessage)
-        window.Sentry && window.Sentry.captureException(new Error(errorMessage))
-        searchResultsRow.innerHTML = config.resultLabels.error
+        return handleSearchError(response.statusText)
       }
 
       return response.json().then(r => {
@@ -187,16 +196,7 @@ window.domainSearch = function (config) {
         showRegistrars(registrars, r.domain)
         toggleReservedForm(r.summary === 'reserved' || r.status === 'blocked', r.domain)
       })
-    }).catch(ex => {
-      console.error('Failed to load search data: ' + ex)
-      console.error(ex)
-      window.Sentry && window.Sentry.captureException(ex, {
-        extra: {
-          ctx: 'Failed to fetch search data'
-        }
-      })
-      searchResultsRow.innerHTML = config.resultLabels.error
-    })
+    }).catch(handleSearchError)
   }
 
   function updateUriHistory (domain, filters) {
@@ -252,7 +252,7 @@ window.domainSearch = function (config) {
       const registrars = result.registrars
       addFilters(registrars)
       showRegistrars(registrars)
-    })
+    }).catch(handleSearchError)
   }
 }
 

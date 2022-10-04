@@ -68,8 +68,20 @@
 	min-width: 12rem;
 }
 
+@media (min-width: 768px) {
+	.registrar-select {
+		min-width: 8rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.registrar-select {
+		min-width: 12rem;
+	}
+}
+
 .registrars-green-retailers {
-	padding: 2rem;
+	padding: 0 2rem;
 	font-weight: bold;
 }
 
