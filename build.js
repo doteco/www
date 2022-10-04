@@ -13,6 +13,7 @@ const robots = require('metalsmith-robots')
 const watch = require('metalsmith-watch')
 const i18next = require('metalsmith-i18next')
 const collections = require('@metalsmith/collections')
+const rss = require('@metalsmith/rss')
 
 const defaultLang = 'en'
 const env = process.env.NODE_ENV || 'DEV'
@@ -194,6 +195,15 @@ const ms = Metalsmith(__dirname)
       '/news/understanding-your-aim-1d02eebce1e8': '/news/'
     }
   }))
+  .use(rss({
+      feedOptions: {
+        title: '.eco news',
+        site_url: siteUrl
+      },
+      collection: 'news',
+      pathProperty: 'page-path'
+    })
+  )
 
 ms.build(function (err, files) {
   if (err) { throw err }

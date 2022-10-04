@@ -7,6 +7,7 @@
     "@metalsmith/collections": "1.2.2",
     "@metalsmith/in-place": "4.5.0",
     "@metalsmith/layouts": "2.6.0",
+    "@metalsmith/rss": "github:doteco/rss",
     "@metalsmith/sass": "1.1.0",
     "autoprefixer": "10.4.12",
     "date-fns": "2.29.3",
