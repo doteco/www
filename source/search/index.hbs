@@ -135,7 +135,7 @@ exclude: true
 </script>
 <script>
   const form = document.getElementById('makeoffer-form')
-  if (form) {
+  if (form && form.querySelectorAll) {
     form.querySelectorAll('input.form-control').forEach(function (formControl) {
       formControl.addEventListener('input', function (event) {
         event.target.parentElement.classList.add('was-validated')
