@@ -1,10 +1,6 @@
 {
   "title": "Recherchez un domaine .eco pour créer le vôtre",
   "description": "Recherchez un domaine .eco et choisissez votre bureau d'enregistrement pour l'acheter.",
-  "search": {
-    "head": "Trouvez votre nom .eco idéal",
-    "cta": "Rechercher"
-  },
   "registrars": {
     "head1": "Nos meilleurs revendeurs",
     "head2": "Trouver un revendeur"

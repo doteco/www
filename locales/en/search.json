@@ -1,10 +1,6 @@
 {
   "title": "Search for a .eco domain to make your own",
   "description": "Search for a .eco domain and choose your registrar to buy it.",
-  "search": {
-    "head": "Find your perfect .eco",
-    "cta": "Search"
-  },
   "registrars": {
     "head1": "Our top retailers",
     "head2": "Find a retailer"
