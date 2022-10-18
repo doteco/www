@@ -4,9 +4,13 @@
 			margin-top: 8rem;
 		}
 
-		.subheader {
+		.carousel-subheader {
 			color: $doteco-citrine;
-			font-size: 1.7em;
+			font-family: $font-header;
+			font-weight: $font-subheader-weight;
+			font-size: 1.7rem;
+			display: block;
+			margin-top: 1rem;
 		}
 
 		.btn-primary {
