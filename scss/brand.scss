@@ -55,8 +55,8 @@ $common-border-radius: 2px;
 		line-height: 1.5;
 	}
 
-	h5 {
-		font-size: 1em;
+	h4, h5 {
+		font-size: 1rem;
 	}
 
 	@media (min-width: 768px) {
@@ -68,11 +68,6 @@ $common-border-radius: 2px;
 		h2, .subheader {
 			font-size: 2.625em;
 			line-height: 1.35;
-		}
-
-		h4 {
-			font-size: 1.5em;
-			line-height: 1.5;
 		}
 	}
 
