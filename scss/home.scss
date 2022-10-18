@@ -97,9 +97,7 @@
 	.recently-registered {
 		text-transform: uppercase;
 		font-weight: bold;
-		z-index: 2;
-		background-color: $doteco-marrow;
-		font-size: 1rem;
+		font-size: 1.1rem;
 	}
 
 	.registrar-modal-header {
@@ -175,6 +173,10 @@
 
 	.inverted .section-label {
 		background-color: $doteco-fireopal;
+	}
+
+	.inverted .section-label, .inverted .section-label a {
+		color: black;
 	}
 
 	.support-wave {
