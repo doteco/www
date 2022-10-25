@@ -43,9 +43,8 @@
       "head": "Policies",
       "items": [
         "<a href=\"/policies/\">Registry Policies</a>",
-        "<a href=\"/policies/eligibility/\">Eligibility Policy</a>",
-        "<a href=\"/policies/acceptable-use/\">Acceptable Use Policy</a>",
         "<a href=\"/privacy/\">Privacy Policy</a>",
+        "<a href=\"/policies/accessibility/\">Accessibility Statement</a>",
         "<a href=\"/impact/\">Sustainability Policy</a>"
       ]
     }
