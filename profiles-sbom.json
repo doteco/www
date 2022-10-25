@@ -82,9 +82,9 @@
    "purl": "pkg:npm/%40babel/highlight@7.18.6"
   },
   {
-   "id": "36c6b46568ab63e3",
+   "id": "9eee23f3d1fbcb88",
    "name": "@babel/parser",
-   "version": "7.19.4",
+   "version": "7.19.6",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -93,15 +93,14 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@babel\\/parser:\\@babel\\/parser:7.19.4:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@babel\\/parser:7.19.4:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@babel\\/parser:\\@babel\\/parser:7.19.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@babel\\/parser:7.19.6:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40babel/parser@7.19.4"
+   "purl": "pkg:npm/%40babel/parser@7.19.6"
   },
   {
    "id": "56d53161319c207f",
@@ -115,8 +114,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -137,8 +135,7 @@
     }
    ],
    "licenses": [
-    "",
-    "CC0-1.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -241,7 +238,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "Apache-2.0"
    ],
    "language": "javascript",
    "cpes": [
@@ -268,8 +266,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -285,9 +282,9 @@
    "purl": "pkg:npm/%40google-cloud/translate@7.0.3"
   },
   {
-   "id": "736a27f1af738dc4",
+   "id": "1405a3af0a0e4074",
    "name": "@grpc/grpc-js",
-   "version": "1.7.2",
+   "version": "1.7.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -296,20 +293,21 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "Apache-2.0"
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc-js:1.7.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc_js:1.7.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc-js:1.7.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc_js:1.7.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc-js:1.7.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc_js:1.7.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@grpc\\/grpc-js:1.7.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@grpc\\/grpc_js:1.7.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc-js:1.7.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc-js:\\@grpc\\/grpc_js:1.7.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc-js:1.7.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc_js:\\@grpc\\/grpc_js:1.7.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc-js:1.7.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/grpc:\\@grpc\\/grpc_js:1.7.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@grpc\\/grpc-js:1.7.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@grpc\\/grpc_js:1.7.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40grpc/grpc-js@1.7.2"
+   "purl": "pkg:npm/%40grpc/grpc-js@1.7.3"
   },
   {
    "id": "7091a0d782433b91",
@@ -323,8 +321,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -367,9 +364,9 @@
    "purl": "pkg:npm/%40html-validate/stylish@2.0.1"
   },
   {
-   "id": "d56ba9ab3cbb7a6f",
+   "id": "f66cc24f8a400509",
    "name": "@humanwhocodes/config-array",
-   "version": "0.10.7",
+   "version": "0.11.6",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -378,21 +375,20 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@humanwhocodes\\/config-array:\\@humanwhocodes\\/config-array:0.10.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@humanwhocodes\\/config-array:\\@humanwhocodes\\/config_array:0.10.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@humanwhocodes\\/config_array:\\@humanwhocodes\\/config-array:0.10.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@humanwhocodes\\/config_array:\\@humanwhocodes\\/config_array:0.10.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@humanwhocodes\\/config:\\@humanwhocodes\\/config-array:0.10.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@humanwhocodes\\/config:\\@humanwhocodes\\/config_array:0.10.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@humanwhocodes\\/config-array:0.10.7:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@humanwhocodes\\/config_array:0.10.7:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@humanwhocodes\\/config-array:\\@humanwhocodes\\/config-array:0.11.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/config-array:\\@humanwhocodes\\/config_array:0.11.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/config_array:\\@humanwhocodes\\/config-array:0.11.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/config_array:\\@humanwhocodes\\/config_array:0.11.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/config:\\@humanwhocodes\\/config-array:0.11.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@humanwhocodes\\/config:\\@humanwhocodes\\/config_array:0.11.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@humanwhocodes\\/config-array:0.11.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@humanwhocodes\\/config_array:0.11.6:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40humanwhocodes/config-array@0.10.7"
+   "purl": "pkg:npm/%40humanwhocodes/config-array@0.11.6"
   },
   {
    "id": "a0712a1ba49198e4",
@@ -406,8 +402,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -434,8 +429,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -532,8 +526,7 @@
     }
    ],
    "licenses": [
-    "ISC",
-    "MIT"
+    "ISC"
    ],
    "language": "javascript",
    "cpes": [
@@ -554,7 +547,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "LGPL-3.0-or-later"
    ],
    "language": "javascript",
    "cpes": [
@@ -575,8 +569,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -597,8 +590,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -703,8 +695,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -747,8 +738,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -812,8 +802,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -856,8 +845,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -878,8 +866,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -942,7 +929,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "BSD-3-Clause"
    ],
    "language": "javascript",
    "cpes": [
@@ -1006,7 +994,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "Apache-2.0"
    ],
    "language": "javascript",
    "cpes": [
@@ -1102,8 +1091,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1124,8 +1112,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1146,8 +1133,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1174,8 +1160,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1246,7 +1231,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -1267,8 +1253,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1278,9 +1263,9 @@
    "purl": "pkg:npm/%40types/minimist@1.2.2"
   },
   {
-   "id": "bbb8b0566e717e13",
+   "id": "7e396f9423d0b639",
    "name": "@types/node",
-   "version": "18.11.2",
+   "version": "18.11.5",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -1294,10 +1279,10 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@types\\/node:\\@types\\/node:18.11.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:\\@types\\/node:18.11.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@types\\/node:\\@types\\/node:18.11.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:\\@types\\/node:18.11.5:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40types/node@18.11.2"
+   "purl": "pkg:npm/%40types/node@18.11.5"
   },
   {
    "id": "e66389c41654f05",
@@ -1343,8 +1328,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1387,9 +1371,9 @@
    "purl": "pkg:npm/abort-controller@3.0.0"
   },
   {
-   "id": "94b858c396ba544c",
+   "id": "fdcdc758e3ad5e0c",
    "name": "acorn",
-   "version": "8.8.0",
+   "version": "8.8.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -1403,10 +1387,10 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:acorn:acorn:8.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:acorn:8.8.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:acorn:acorn:8.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:acorn:8.8.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/acorn@8.8.0"
+   "purl": "pkg:npm/acorn@8.8.1"
   },
   {
    "id": "e540708abed8d7ac",
@@ -1420,7 +1404,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -1447,8 +1432,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1475,8 +1459,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1503,8 +1486,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1525,7 +1507,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -1552,8 +1535,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1602,8 +1584,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1624,8 +1605,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1652,8 +1632,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1674,8 +1653,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1757,8 +1735,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1785,8 +1762,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1850,7 +1826,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -1871,8 +1848,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1965,8 +1941,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -1987,8 +1962,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2015,8 +1989,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2043,8 +2016,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2065,8 +2037,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2093,8 +2064,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2149,8 +2119,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2181,7 +2150,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -2300,8 +2270,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2322,7 +2291,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -2399,8 +2369,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2580,7 +2549,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "BSD-3-Clause"
    ],
    "language": "javascript",
    "cpes": [
@@ -2615,8 +2585,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2643,8 +2612,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2686,7 +2654,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -2740,7 +2709,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -2761,8 +2731,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2800,9 +2769,9 @@
    "purl": "pkg:npm/camelcase-keys@6.2.2"
   },
   {
-   "id": "bfb7d9b2491795b4",
+   "id": "1452535f4ed95b04",
    "name": "caniuse-lite",
-   "version": "1.0.30001422",
+   "version": "1.0.30001425",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -2815,16 +2784,16 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:caniuse-lite:caniuse-lite:1.0.30001422:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse-lite:caniuse_lite:1.0.30001422:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse_lite:caniuse-lite:1.0.30001422:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse_lite:caniuse_lite:1.0.30001422:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse:caniuse-lite:1.0.30001422:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse:caniuse_lite:1.0.30001422:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:caniuse-lite:1.0.30001422:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:caniuse_lite:1.0.30001422:*:*:*:*:*:*:*"
+    "cpe:2.3:a:caniuse-lite:caniuse-lite:1.0.30001425:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse-lite:caniuse_lite:1.0.30001425:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse_lite:caniuse-lite:1.0.30001425:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse_lite:caniuse_lite:1.0.30001425:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse:caniuse-lite:1.0.30001425:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse:caniuse_lite:1.0.30001425:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:caniuse-lite:1.0.30001425:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:caniuse_lite:1.0.30001425:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/caniuse-lite@1.0.30001422"
+   "purl": "pkg:npm/caniuse-lite@1.0.30001425"
   },
   {
    "id": "d438b6bfad4e377d",
@@ -2838,7 +2807,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -2859,8 +2829,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -2946,8 +2915,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3072,8 +3040,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3094,8 +3061,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3116,8 +3082,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3144,8 +3109,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3194,7 +3158,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -3248,7 +3213,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -3275,8 +3241,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3357,8 +3322,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3389,8 +3353,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3417,8 +3380,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3445,8 +3407,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3473,7 +3434,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -3494,8 +3456,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3516,7 +3477,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -3586,8 +3548,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3614,8 +3575,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3696,8 +3656,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3724,8 +3683,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3752,8 +3710,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3836,8 +3793,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3858,8 +3814,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3907,8 +3862,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3935,8 +3889,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -3985,7 +3938,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -4012,8 +3966,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4034,8 +3987,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4056,8 +4008,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4078,8 +4029,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4100,8 +4050,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4122,7 +4071,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -4143,8 +4093,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4175,8 +4124,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4207,8 +4155,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4235,8 +4182,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4288,8 +4234,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4310,8 +4255,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4332,8 +4276,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4420,8 +4363,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4452,8 +4394,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4505,7 +4446,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "BSD-2-Clause"
    ],
    "language": "javascript",
    "cpes": [
@@ -4515,9 +4457,9 @@
    "purl": "pkg:npm/escodegen@1.14.3"
   },
   {
-   "id": "2a5b51b9f9253f08",
+   "id": "6b62a1a3a7afbc0c",
    "name": "eslint",
-   "version": "8.25.0",
+   "version": "8.26.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -4526,15 +4468,14 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:eslint:eslint:8.25.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:eslint:8.25.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:eslint:eslint:8.26.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:eslint:8.26.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/eslint@8.25.0"
+   "purl": "pkg:npm/eslint@8.26.0"
   },
   {
    "id": "996c847aef017e0b",
@@ -4616,8 +4557,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4652,8 +4592,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4716,8 +4655,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4748,8 +4686,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4780,8 +4717,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4844,8 +4780,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4899,8 +4834,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4931,8 +4865,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -4953,7 +4886,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "BSD-2-Clause"
    ],
    "language": "javascript",
    "cpes": [
@@ -4974,8 +4908,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5038,8 +4971,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5060,7 +4992,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -5189,8 +5122,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5239,8 +5171,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5362,7 +5293,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "Apache-2.0"
    ],
    "language": "javascript",
    "cpes": [
@@ -5425,8 +5357,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5453,8 +5384,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5475,8 +5405,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5531,8 +5460,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5563,8 +5491,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5644,7 +5571,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -5671,7 +5599,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -5698,8 +5627,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5726,8 +5654,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5754,8 +5681,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5804,8 +5730,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5832,8 +5757,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5854,8 +5778,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5876,8 +5799,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -5931,8 +5853,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6024,8 +5945,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6077,7 +5997,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -6125,8 +6046,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6184,8 +6104,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6212,8 +6131,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6240,8 +6158,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6268,7 +6185,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -6320,8 +6238,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6348,8 +6265,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6376,7 +6292,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -6403,7 +6320,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -6446,8 +6364,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6550,8 +6467,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6582,8 +6498,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6681,8 +6596,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6757,8 +6671,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6856,8 +6769,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6884,8 +6796,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6912,8 +6823,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -6944,8 +6854,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7046,8 +6955,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7074,8 +6982,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7162,8 +7069,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7190,8 +7096,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7222,8 +7127,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7254,8 +7158,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7286,8 +7189,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7346,8 +7248,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7374,8 +7275,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7438,8 +7338,7 @@
     }
    ],
    "licenses": [
-    "ISC",
-    "MIT"
+    "ISC"
    ],
    "language": "javascript",
    "cpes": [
@@ -7516,8 +7415,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7565,7 +7463,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -7592,8 +7491,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7620,8 +7518,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7669,8 +7566,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7691,7 +7587,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "ISC"
    ],
    "language": "javascript",
    "cpes": [
@@ -7712,7 +7609,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "ISC"
    ],
    "language": "javascript",
    "cpes": [
@@ -7733,8 +7631,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7821,8 +7718,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7871,8 +7767,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7899,7 +7794,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -7930,8 +7826,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -7962,8 +7857,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8022,7 +7916,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -8053,8 +7948,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8143,8 +8037,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8226,8 +8119,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8317,8 +8209,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8365,6 +8256,37 @@
    "purl": "pkg:npm/is-object@1.0.2"
   },
   {
+   "id": "5be4bf7c551ffbb8",
+   "name": "is-path-inside",
+   "version": "3.0.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "package-lock.json"
+    }
+   ],
+   "licenses": [
+    ""
+   ],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:is-path-inside:is-path-inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-path-inside:is_path_inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_path_inside:is-path-inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_path_inside:is_path_inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-path:is-path-inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-path:is_path_inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_path:is-path-inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_path:is_path_inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-path-inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_path_inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:is-path-inside:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:is_path_inside:3.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/is-path-inside@3.0.3"
+  },
+  {
    "id": "dd3f447b49028da",
    "name": "is-plain-obj",
    "version": "1.1.0",
@@ -8407,8 +8329,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8466,7 +8387,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -8520,8 +8442,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8614,8 +8535,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8646,7 +8566,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -8673,8 +8594,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8728,8 +8648,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8784,8 +8703,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8806,8 +8724,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8828,8 +8745,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8877,8 +8793,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -8955,8 +8870,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9033,8 +8947,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9069,8 +8982,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9109,8 +9021,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9309,8 +9220,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9331,7 +9241,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -9374,8 +9285,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9424,8 +9334,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9468,8 +9377,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9500,8 +9408,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9522,8 +9429,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9554,8 +9460,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9582,8 +9487,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9641,7 +9545,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -9668,8 +9573,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9718,8 +9622,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9774,8 +9677,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9802,7 +9704,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -9829,8 +9732,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9884,7 +9786,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -9926,8 +9829,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9948,8 +9850,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -9992,8 +9893,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10036,8 +9936,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10058,8 +9957,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10080,8 +9978,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10102,7 +9999,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "Apache-2.0"
    ],
    "language": "javascript",
    "cpes": [
@@ -10206,8 +10104,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10234,8 +10131,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10262,8 +10158,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10290,8 +10185,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Unlicense"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10322,8 +10216,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10344,8 +10237,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10376,8 +10268,7 @@
     }
    ],
    "licenses": [
-    "",
-    "CC0-1.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10404,8 +10295,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10447,8 +10337,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10576,8 +10465,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10608,8 +10496,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10668,8 +10555,7 @@
     }
    ],
    "licenses": [
-    "ISC",
-    "MIT"
+    "ISC"
    ],
    "language": "javascript",
    "cpes": [
@@ -10724,8 +10610,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10856,8 +10741,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10878,8 +10762,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10906,8 +10789,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -10934,8 +10816,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11016,7 +10897,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "ISC"
    ],
    "language": "javascript",
    "cpes": [
@@ -11174,8 +11056,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11196,8 +11077,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11251,7 +11131,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -11305,7 +11186,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "(BSD-3-Clause OR GPL-2.0)"
    ],
    "language": "javascript",
    "cpes": [
@@ -11332,7 +11214,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -11359,7 +11242,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -11386,8 +11270,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11474,8 +11357,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11530,7 +11412,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -11589,8 +11472,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11644,8 +11526,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11699,8 +11580,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11721,8 +11601,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11786,8 +11665,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11808,8 +11686,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11852,8 +11729,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT/X11"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11874,8 +11750,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11896,8 +11771,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11928,8 +11802,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -11950,8 +11823,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12005,8 +11877,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12064,8 +11935,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12150,8 +12020,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12206,7 +12075,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -12376,8 +12246,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12432,8 +12301,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12487,8 +12355,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12509,8 +12376,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12531,8 +12397,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12596,8 +12461,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12624,7 +12488,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -12679,8 +12544,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12737,7 +12601,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -12804,8 +12669,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12832,7 +12696,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -12863,8 +12728,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -12895,8 +12759,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13026,8 +12889,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13054,7 +12916,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "ISC"
    ],
    "language": "javascript",
    "cpes": [
@@ -13113,7 +12976,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "BSD-3-Clause"
    ],
    "language": "javascript",
    "cpes": [
@@ -13134,8 +12998,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13184,8 +13047,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13228,8 +13090,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13250,8 +13111,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13306,8 +13166,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13334,8 +13193,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13476,7 +13334,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -13503,8 +13362,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13614,8 +13472,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13636,8 +13493,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13658,7 +13514,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -13713,7 +13570,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -13772,8 +13630,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13815,8 +13672,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13843,8 +13699,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13865,7 +13720,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -13892,8 +13748,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13914,7 +13769,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "ISC"
    ],
    "language": "javascript",
    "cpes": [
@@ -13935,8 +13791,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -13957,8 +13812,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -14034,7 +13888,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -14065,8 +13920,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -14097,8 +13951,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -14147,8 +14000,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -14224,8 +14076,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -14481,7 +14332,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -14512,7 +14364,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "BSD-3-Clause"
    ],
    "language": "javascript",
    "cpes": [
@@ -14539,8 +14392,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-3-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -14626,8 +14478,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -14717,8 +14568,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -14739,8 +14589,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -14789,7 +14638,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -14816,7 +14666,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -14903,8 +14754,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -14931,7 +14781,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -14980,7 +14831,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -15001,8 +14853,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15023,8 +14874,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15051,8 +14901,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15079,8 +14928,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15107,8 +14955,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15139,8 +14986,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15167,8 +15013,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15195,7 +15040,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -15226,8 +15072,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15254,8 +15099,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15286,8 +15130,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15336,8 +15179,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15358,7 +15200,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -15379,8 +15222,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15407,8 +15249,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15429,8 +15270,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15450,9 +15290,9 @@
    "purl": "pkg:npm/stylelint-config-recommended@9.0.0"
   },
   {
-   "id": "5ffbf371761dff17",
+   "id": "7f56e747d4bccf1f",
    "name": "stylelint-config-recommended-scss",
-   "version": "7.0.0",
+   "version": "8.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -15465,24 +15305,24 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:stylelint-config-recommended-scss:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-recommended-scss:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_recommended_scss:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_recommended_scss:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-recommended:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-recommended:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_recommended:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_recommended:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint-config-recommended-scss:7.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint_config_recommended_scss:7.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:stylelint-config-recommended-scss:stylelint-config-recommended-scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-recommended-scss:stylelint_config_recommended_scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_recommended_scss:stylelint-config-recommended-scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_recommended_scss:stylelint_config_recommended_scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-recommended:stylelint-config-recommended-scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-recommended:stylelint_config_recommended_scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_recommended:stylelint-config-recommended-scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_recommended:stylelint_config_recommended_scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint-config-recommended-scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint_config_recommended_scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint-config-recommended-scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint_config_recommended_scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint-config-recommended-scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint_config_recommended_scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint-config-recommended-scss:8.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint_config_recommended_scss:8.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/stylelint-config-recommended-scss@7.0.0"
+   "purl": "pkg:npm/stylelint-config-recommended-scss@8.0.0"
   },
   {
    "id": "789934fc661ee46e",
@@ -15517,9 +15357,9 @@
    "purl": "pkg:npm/stylelint-config-standard@29.0.0"
   },
   {
-   "id": "99333e7e151cd3e",
+   "id": "11098d676e81c6d",
    "name": "stylelint-config-standard-scss",
-   "version": "5.0.0",
+   "version": "6.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -15528,28 +15368,29 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:stylelint-config-standard-scss:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-standard-scss:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_standard_scss:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_standard_scss:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-standard:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config-standard:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_standard:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config_standard:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint-config:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint_config:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:stylelint:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint-config-standard-scss:5.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:stylelint_config_standard_scss:5.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:stylelint-config-standard-scss:stylelint-config-standard-scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-standard-scss:stylelint_config_standard_scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_standard_scss:stylelint-config-standard-scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_standard_scss:stylelint_config_standard_scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-standard:stylelint-config-standard-scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config-standard:stylelint_config_standard_scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_standard:stylelint-config-standard-scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config_standard:stylelint_config_standard_scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint-config-standard-scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint-config:stylelint_config_standard_scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint-config-standard-scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint_config:stylelint_config_standard_scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint-config-standard-scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stylelint:stylelint_config_standard_scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint-config-standard-scss:6.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:stylelint_config_standard_scss:6.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/stylelint-config-standard-scss@5.0.0"
+   "purl": "pkg:npm/stylelint-config-standard-scss@6.0.0"
   },
   {
    "id": "5adee4bbe713039b",
@@ -15563,8 +15404,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15591,7 +15431,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -15618,8 +15459,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15681,8 +15521,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15773,8 +15612,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15829,8 +15667,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15857,8 +15694,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15907,8 +15743,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -15957,7 +15792,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -15984,8 +15820,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16034,8 +15869,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16094,8 +15928,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16220,8 +16053,7 @@
     }
    ],
    "licenses": [
-    "",
-    "Apache-2.0"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16248,8 +16080,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16276,8 +16107,7 @@
     }
    ],
    "licenses": [
-    "",
-    "(MIT OR CC0-1.0)"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16315,9 +16145,9 @@
    "purl": "pkg:npm/uc.micro@1.0.6"
   },
   {
-   "id": "853276779b482aa1",
+   "id": "f1c8822ce5340f86",
    "name": "uglify-js",
-   "version": "3.17.3",
+   "version": "3.17.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -16326,21 +16156,20 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:uglify-js:uglify-js:3.17.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify-js:uglify_js:3.17.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify_js:uglify-js:3.17.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify_js:uglify_js:3.17.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify:uglify-js:3.17.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:uglify:uglify_js:3.17.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:uglify-js:3.17.3:*:*:*:*:*:*:*",
-    "cpe:2.3:a:*:uglify_js:3.17.3:*:*:*:*:*:*:*"
+    "cpe:2.3:a:uglify-js:uglify-js:3.17.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify-js:uglify_js:3.17.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify_js:uglify-js:3.17.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify_js:uglify_js:3.17.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify:uglify-js:3.17.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:uglify:uglify_js:3.17.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:uglify-js:3.17.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:*:uglify_js:3.17.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/uglify-js@3.17.3"
+   "purl": "pkg:npm/uglify-js@3.17.4"
   },
   {
    "id": "8d594976a98a2c92",
@@ -16431,8 +16260,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16463,8 +16291,7 @@
     }
    ],
    "licenses": [
-    "",
-    "BSD-2-Clause"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16491,7 +16318,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -16518,8 +16346,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16577,8 +16404,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16609,7 +16435,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -16636,8 +16463,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16658,8 +16484,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16753,8 +16578,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16802,7 +16626,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "Apache-2.0"
    ],
    "language": "javascript",
    "cpes": [
@@ -16857,7 +16682,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -16884,8 +16710,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -16965,8 +16790,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -17014,7 +16838,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "MIT"
    ],
    "language": "javascript",
    "cpes": [
@@ -17121,8 +16946,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -17143,7 +16967,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "Apache-2.0"
    ],
    "language": "javascript",
    "cpes": [
@@ -17164,8 +16989,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -17207,8 +17031,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -17229,8 +17052,7 @@
     }
    ],
    "licenses": [
-    "",
-    "ISC"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -17300,7 +17122,8 @@
     }
    ],
    "licenses": [
-    ""
+    "",
+    "ISC"
    ],
    "language": "javascript",
    "cpes": [
@@ -17349,8 +17172,7 @@
     }
    ],
    "licenses": [
-    "",
-    "MIT"
+    ""
    ],
    "language": "javascript",
    "cpes": [
@@ -17367,6 +17189,11 @@
   }
  ],
  "artifactRelationships": [
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "11098d676e81c6d",
+   "type": "contains"
+  },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "11a02934fc59bcf6",
@@ -17410,6 +17237,16 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "13e19f600efec51b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1405a3af0a0e4074",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1452535f4ed95b04",
    "type": "contains"
   },
   {
@@ -17724,11 +17561,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "2a5b51b9f9253f08",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "2a8977f8cb910c9a",
    "type": "contains"
   },
@@ -17870,11 +17702,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "36a0c27334954f78",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "36c6b46568ab63e3",
    "type": "contains"
   },
   {
@@ -18399,6 +18226,11 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5be4bf7c551ffbb8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "5cc798ac69f8f40",
    "type": "contains"
   },
@@ -18440,11 +18272,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "5ff798c1440cf7f5",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "5ffbf371761dff17",
    "type": "contains"
   },
   {
@@ -18599,6 +18426,11 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6b62a1a3a7afbc0c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "6b64ff573d0ffb8b",
    "type": "contains"
   },
@@ -18680,11 +18512,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "724b856fead1e988",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "736a27f1af738dc4",
    "type": "contains"
   },
   {
@@ -18849,6 +18676,11 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7e396f9423d0b639",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "7ecc2a43c8ecd498",
    "type": "contains"
   },
@@ -18865,6 +18697,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "7ef0a5dca508c491",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7f56e747d4bccf1f",
    "type": "contains"
   },
   {
@@ -18925,11 +18762,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "847eedc2844dfe46",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "853276779b482aa1",
    "type": "contains"
   },
   {
@@ -19139,11 +18971,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "94b858c396ba544c",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "956bebab3e48afc7",
    "type": "contains"
   },
@@ -19200,11 +19027,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "992e2e35f2b61bef",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "99333e7e151cd3e",
    "type": "contains"
   },
   {
@@ -19280,6 +19102,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "9edb7568f4751a56",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9eee23f3d1fbcb88",
    "type": "contains"
   },
   {
@@ -19744,11 +19571,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "bbb8b0566e717e13",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "bbe6ab5250c8145a",
    "type": "contains"
   },
@@ -19775,11 +19597,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "bf922f29fe95adde",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "bfb7d9b2491795b4",
    "type": "contains"
   },
   {
@@ -20100,11 +19917,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "d4d1dbb38d19290e",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "d56ba9ab3cbb7a6f",
    "type": "contains"
   },
   {
@@ -20499,6 +20311,11 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f1c8822ce5340f86",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "f1f8f7be5a7dbb81",
    "type": "contains"
   },
@@ -20560,6 +20377,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "f644e074775f95ab",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f66cc24f8a400509",
    "type": "contains"
   },
   {
@@ -20645,6 +20467,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "fd62eda17877711",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fdcdc758e3ad5e0c",
    "type": "contains"
   },
   {

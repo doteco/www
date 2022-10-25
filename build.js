@@ -196,13 +196,13 @@ const ms = Metalsmith(__dirname)
     }
   }))
   .use(rss({
-      feedOptions: {
-        title: '.eco news',
-        site_url: siteUrl
-      },
-      collection: 'news',
-      pathProperty: 'page-path'
-    })
+    feedOptions: {
+      title: '.eco news',
+      site_url: siteUrl
+    },
+    collection: 'news',
+    pathProperty: 'page-path'
+  })
   )
 
 ms.build(function (err, files) {
