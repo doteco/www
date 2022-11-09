@@ -1,7 +1,7 @@
 #doteco {
 	.carousel {
 		.container {
-			margin-top: 8rem;
+			margin-top: 5rem;
 		}
 
 		.carousel-subheader {
@@ -29,7 +29,7 @@
 		}
 
 		.carousel-item {
-			height: 450px;
+			height: 350px;
 			background-size: cover;
 		}
 
@@ -63,6 +63,10 @@
 			.carousel-item {
 				background-position: center;
 			}
+
+			.carousel-indicators [data-bs-target]	{
+				display: none;
+			}
 		}
 
 		@media (max-width: 1160px) and (min-width: 768px) {
@@ -77,7 +81,7 @@
 
 		@media (min-width: 768px) {
 			.carousel-item {
-				height: 380px;
+				height: 400px;
 			}
 
 			.container {
@@ -101,7 +105,7 @@
 	.recently-registered {
 		text-transform: uppercase;
 		font-weight: bold;
-		font-size: 1.1rem;
+		font-size: 1rem;
 	}
 
 	.registrar-modal-header {
@@ -116,6 +120,10 @@
 		h2 {
 			font-size: 1.6rem;
 		}
+	}
+
+	.home-eligibility-question {
+		margin-bottom: 1rem;
 	}
 
 	.home-100days {
