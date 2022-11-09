@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "go.eco web site",
   "devDependencies": {
-    "@google-cloud/translate": "7.0.3",
+    "@google-cloud/translate": "7.0.4",
     "@metalsmith/collections": "1.3.0",
     "@metalsmith/in-place": "4.5.0",
     "@metalsmith/layouts": "2.6.0",
     "@metalsmith/rss": "github:doteco/rss",
     "@metalsmith/sass": "1.1.0",
-    "autoprefixer": "10.4.12",
+    "autoprefixer": "10.4.13",
     "date-fns": "2.29.3",
-    "googleapis": "108.0.0",
+    "googleapis": "109.0.1",
     "handlebars": "4.7.7",
     "html-validator": "6.0.1",
     "imagemin": "github:doteco/imagemin",
@@ -33,9 +33,9 @@
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "github:doteco/metalsmith-watch",
     "standard": "17.0.0",
-    "stylelint": "14.14.0",
+    "stylelint": "14.14.1",
     "stylelint-config-standard": "29.0.0",
-    "stylelint-config-standard-scss": "6.0.0"
+    "stylelint-config-standard-scss": "6.1.0"
   },
   "scripts": {
     "build": "node ./build.js",
