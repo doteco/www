@@ -178,7 +178,6 @@ const ms = Metalsmith(__dirname)
   .use(redirect({
     frontmatter: true,
     redirections: {
-      '/grants': '/',
       '/registrars/policies/': '/policies/',
       '/registrars/funding/': '/registrars/',
       '/registrars/partners/': '/registrars/',
