@@ -32,4 +32,12 @@
 			margin-bottom: 3em;
 		}
 	}
+
+	.grants-header {
+		color: white;
+		background-image: url('/img/sewing-hero.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/sewing-hero.jpg');
+		background-size: cover;
+		height: 300px;
+	}
 }
