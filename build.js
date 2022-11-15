@@ -19,10 +19,15 @@ const defaultLang = 'en'
 const env = process.env.NODE_ENV || 'DEV'
 const lang = (process.env.SITE_LANG || defaultLang).toLocaleLowerCase()
 const dest = lang === 'en' ? 'public' : 'public-' + lang
+const languages = {
+  en: 'English',
+  fr: 'français',
+  de: 'Deutsch'
+}
 const filterDefaults = ({
   en: {},
-  fr: { language: 'français' },
-  de: { language: 'Deutsch' }
+  fr: { language: languages.fr },
+  de: { language: languages.de }
 })[lang]
 const allProfiles = require(`./locales/${lang}/featured-profiles.json`)
 const priorityProfiles = allProfiles.filter(p => p.priority > 0).sort((a, b) => a.priority - b.priority)
@@ -115,6 +120,7 @@ const ms = Metalsmith(__dirname)
     noindex: options.noindex,
     makeOfferForm: options.makeOfferForm,
     lang,
+    languages,
     sites: options['site-url'],
     filterDefaults,
     featuredProfiles,

@@ -14,12 +14,12 @@
 					{{/if}}
 					<li class="nav-item"><a href="/champions/" class="{{checkActive 'champions' active}} nav-link">{{t 'global:header.champions'}}</a></li>
 					<li class="nav-item dropdown">
-						<a href="#" class="nav-link dropdown-toggle language-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{lang}} <span class="caret"></span></a>
+						<a href="#" class="nav-link dropdown-toggle language-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{lookup languages lang}} <span class="caret"></span></a>
 						<ul class="dropdown-menu dropdown-menu-end shadow">
-							<li><a href="{{sites.en}}" class="dropdown-item dropdown-link">English</a></li>
-							<li><a href="{{sites.de}}" class="dropdown-item dropdown-link">Deutsch</a></li>
-							<li><a href="{{sites.fr}}" class="dropdown-item dropdown-link">français</a></li>
-						</ul>					
+							{{#each languages as |l|}}
+							<li><a href="{{lookup ../sites @key}}" class="dropdown-item dropdown-link">{{l}}</a></li>
+							{{/each}}
+						</ul>
 					</li>
 				</ul>
 			</div>
