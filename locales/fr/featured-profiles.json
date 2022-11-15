@@ -9,7 +9,7 @@
   },
   {
     "domain": "current.eco",
-    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises cherchant à gérer leur infrastructure de recharge de véhicules électriques.",
+    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises qui cherchent à gérer leur infrastructure de recharge de véhicules électriques.",
     "img": "https://cdn.profiles.eco/images/current.eco/3f4a0566-7df4-452d-85cd-55b325afd402_1500x500.jpeg",
     "type": "business",
     "location": "Norvège",
@@ -45,7 +45,7 @@
     "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
     "type": "business",
     "location": "Canada",
-    "priority": ""
+    "priority": "5"
   },
   {
     "domain": "beep.eco",
@@ -125,7 +125,7 @@
     "img": "https://cdn.profiles.eco/images/ducky.eco/04b88bb6-ade5-4559-9889-bcb2be6d6029_1500x500.png",
     "type": "business",
     "location": "Norvège",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "carboncopy.eco",
@@ -133,7 +133,7 @@
     "img": "/img/champion_logos/carboncopy-hero.jpg",
     "type": "nonprofit",
     "location": "Royaume-Uni",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "dragonfly.eco",
@@ -141,7 +141,7 @@
     "img": "/img/champion_logos/dragonfly-eco.png",
     "type": "individual",
     "location": "Canada",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "zeroco2.eco",
@@ -150,5 +150,13 @@
     "type": "business",
     "location": "Italie",
     "priority": "1"
+  },
+  {
+    "domain": "terrabyte.eco",
+    "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> est une entreprise de technologie verte axée sur la combinaison de la créativité et de la technologie pour fournir des solutions aux crises environnementales en cours.",
+    "img": "https://cdn.profiles.eco/images/terrabyte.eco/50484dff-2574-42b2-96b3-d665e201255e_1500x500.webp",
+    "type": "business",
+    "location": "États-Unis",
+    "priority": "3"
   }
 ]
