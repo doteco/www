@@ -89,6 +89,8 @@
 		}
 
 		table {
+			width: 100%;
+			vertical-align: top;
 			font-size: 1rem;
 		}
 
@@ -99,6 +101,9 @@
 		td, th {
 			border: 1px solid #ddd;
 			padding: 1rem;
+		}
+		thead > tr, tr:nth-of-type(even) {
+			background-color: #f9f9f9;
 		}
 
 		p, ol, ul, blockquote, table {

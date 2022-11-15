@@ -3,6 +3,9 @@
 
   <main class="container policy">
     <h1>{{title}}</h1>
+    {{#if subtitle}}
+    <h2 class="subheader">{{subtitle}}</h2>
+    {{/if}}
 
     <p class="policy-date"><em>Updated: {{formatDay updated}}</em></p>
 
