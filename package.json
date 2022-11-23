@@ -8,7 +8,7 @@
     "@metalsmith/in-place": "4.5.0",
     "@metalsmith/layouts": "2.6.0",
     "@metalsmith/rss": "github:doteco/rss",
-    "@metalsmith/sass": "1.1.0",
+    "@metalsmith/sass": "1.2.0",
     "autoprefixer": "10.4.13",
     "date-fns": "2.29.3",
     "googleapis": "109.0.1",
@@ -33,7 +33,7 @@
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "github:doteco/metalsmith-watch",
     "standard": "17.0.0",
-    "stylelint": "14.14.1",
+    "stylelint": "14.15.0",
     "stylelint-config-standard": "29.0.0",
     "stylelint-config-standard-scss": "6.1.0"
   },
@@ -59,7 +59,7 @@
   "homepage": "https://github.com/doteco/www#readme",
   "dependencies": {
     "@sentry/browser": "6.19.7",
-    "bootstrap": "5.2.2",
+    "bootstrap": "5.2.3",
     "bootstrap-validator": "0.11.9"
   }
 }
