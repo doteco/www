@@ -11,8 +11,8 @@
     {
       "head": "Ressourcen",
       "items": [
-        "<a href=\"/about/system/\">Was ist .eco?</a>",
-        "<a href=\"/about/story/\">Unsere Geschichte</a>",
+        "<a href=\"/about/story/\">Was ist .eco?</a>",
+        "<a href=\"/about/system/\">Warum .eco?</a>",
         "<a href=\"/champions/\">.eco-Champions</a>"
       ]
     },

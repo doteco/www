@@ -1,11 +1,18 @@
 {
   "title": "Why .eco?",
-  "description": "When you register a .eco domain, you get a .eco profile. This .eco profile showcases your environmental actions and commitments.",
+  "description": ".eco is a community-focused top-level domain dedicated to serving the global environmental movement.",
   "head": "Why .eco?",
   "subhead": ".eco is a community-focused top-level domain dedicated to serving the global environmental movement.",
+  "why": {
+    "head": "4 reasons why .eco is different from other domains:",
+    "item1": "<strong>Community</strong>: we are a <a href=\"https://icannwiki.org/Community_TLD\">community top-level domain</a>. Most other TLDs are run by large companies primarily focused on shareholder profit. .eco was founded in consultation with a <a href=\"https://org.eco/\">consortium of leading environmental organizations</a> and is fully focused on supporting the environmental movement.",
+    "item2": "<strong>Trust</strong>: .eco is <strong>exclusively</strong> for those working on positive change for our planet. This is why anyone who registers a .eco domain must create a <a href=\"https://profiles.eco/\">.eco profile</a> disclosing their environmental intentions and signing a pledge committing them to environmental action.",
+    "item3": "<strong>Transparency</strong>: the best way to counter greenwashing and disinformation is transparency. The .eco profile system is one way for members of the .eco community to be transparent about their actions. We try to <a href=\"/impact/\">lead by example</a> by publishing how we’re making a difference.",
+    "item4": "<strong>Carbon neutral</strong>: we are dedicated to protecting our planet. That’s why we are one of the only <a href=\"impact/ghg-report-2022/\">carbon neutral domain registries</a>. You can feel confident that the climate impact of managing your .eco domain is accounted for."
+  },
   "buy": {
     "head": "When you buy a .eco domain name, you get: ",
-    "item1": "A .eco domain name to use for your web site.",
+    "item1": "A .eco domain name to use for your website.",
     "item2": "Membership in the .eco community.",
     "item3": "A .eco profile for showcasing environmental actions.",
     "item4": "A .eco trustmark that affirms you are a .eco community member.",
@@ -14,7 +21,7 @@
   "profiles": {
     "head": "Join the .eco community",
     "text": [
-      "<p>By registering a .eco domain and taking the .eco pledge, you will join the .eco community - a global village of over 6000 like-minded environmentalist dedicated to making positive change for our planet.</p>",
+      "<p>By registering a .eco domain and taking the .eco pledge, you will join the .eco community - a global village of over 6,000 like-minded environmentalist dedicated to making positive change for our planet.</p>",
       "<p>Meet some of the members of the .eco community and check out the work that they're doing.</p>"
     ]
   }

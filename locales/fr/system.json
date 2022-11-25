@@ -1,13 +1,21 @@
 {
-  "title": "Le système .eco | .eco",
-  "description": "Lorsque vous enregistrez un domaine .eco, vous obtenez un profil .eco. Ce profil .eco met en valeur vos actions et engagements environnementaux.",
-  "head": "À propos de .eco",
-  "subhead": ".eco présente vos actions et engagements environnementaux auprès de millions de personnes dans le monde qui se soucient de la planète.",
+  "title": "Pourquoi .eco ?",
+  "description": ".eco est un domaine de premier niveau axé sur la communauté et dédié au service du mouvement environnemental mondial.",
+  "head": "Pourquoi .eco ?",
+  "subhead": ".eco est un domaine de premier niveau axé sur la communauté et dédié au service du mouvement environnemental mondial.",
+  "why": {
+    "head": "4 raisons pour lesquelles .eco est différent des autres domaines&nbsp;:",
+    "item1": "<strong>Communauté</strong>&nbsp;: nous sommes un <a href=\"https://icannwiki.org/Community_TLD\">domaine communautaire de premier niveau</a>. La plupart des autres TLD sont gérés par de grandes entreprises principalement axées sur le profit des actionnaires. .eco a été fondé en consultation avec un <a href=\"https://org.eco/\">consortium d'organisations environnementales de premier plan</a> et se concentre entièrement sur le soutien au mouvement environnemental.",
+    "item2": "<strong>Confiance</strong>&nbsp;: .eco est <strong>exclusivement</strong> pour ceux qui travaillent à un changement positif pour notre planète. C'est pourquoi toute personne qui enregistre un domaine .eco doit créer un <a href=\"https://profiles.eco/\">profil .eco</a> divulguant ses intentions environnementales et signant un engagement l'engageant à agir en faveur de l'environnement .",
+    "item3": "<strong>Transparence</strong> : la meilleure façon de contrer l'écoblanchiment et la désinformation est la transparence. Le système de profil .eco est un moyen pour les membres de la communauté .eco d'être transparents sur leurs actions. Nous essayons de <a href=\"/impact/\">montrer l'exemple</a> en publiant comment nous faisons la différence.",
+    "item4": "<strong>Carbone neutre</strong> : nous nous engageons à protéger notre planète. C'est pourquoi nous sommes l'un des seuls <a href=\"impact/ghg-report-2022/\">registres de domaines neutres en carbone</a>. Vous pouvez être sûr que l'impact climatique de la gestion de votre domaine .eco est pris en compte."
+  },
   "buy": {
     "head": "Lorsque vous achetez un nom de domaine .eco, vous obtenez&nbsp;:",
     "item1": "Un nom de domaine .eco à utiliser pour votre site web.",
-    "item2": "Un profil .eco pour valoriser vos actions environnementales.",
-    "item3": "Un label de confiance .eco qui renvoie à votre profil .eco. Celui-ci prouve que vous êtes un membre légitime de la communauté .eco.",
+    "item2": "Adhésion à la communauté .eco",
+    "item3": "Un profil .eco pour valoriser vos actions environnementales.",
+    "item4": "Une marque de confiance .eco qui affirme que vous êtes un membre de la communauté .eco.",
     "footer": "Ensemble, ces trois éléments constituent le <a href=\"https://profiles.eco\">système de profil .eco</a>&nbsp;, un répertoire consultable d&#39;entreprises, d'organisations et de personnes engagées dans un changement positif pour la planète."
   },
   "profiles": {

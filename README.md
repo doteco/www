@@ -3,7 +3,7 @@
 
 This is the website for [go.eco](https://go.eco).
 
-## Updating the web site
+## Updating the website
 
 For developers, please follow the [local set up instructions below](#local-setup).
 

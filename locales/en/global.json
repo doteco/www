@@ -8,7 +8,7 @@
   },
   "members": {
     "head": "Who is using .eco?",
-    "text": "Thousands of leading businesses, non-profits, governments and individuals who care about our planet have chosen a .eco domain for their web site.",
+    "text": "Thousands of leading businesses, non-profits, governments and individuals who care about our planet have chosen a .eco domain for their website.",
     "cta": "See more on profiles.eco"
   },
   "search": {
@@ -34,7 +34,7 @@
       "head": "Resources",
       "items": [
         "<a href=\"/about/story/\">What is .eco?</a>",
-        "<a href=\"/about/system/\">About .eco</a>",
+        "<a href=\"/about/system/\">Why .eco?</a>",
         "<a href=\"/registrars/\">Registrars &amp; resellers</a>",
         "<a href=\"/champions/\">.eco Champions</a>"
       ]
