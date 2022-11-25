@@ -10,9 +10,11 @@ i18nNamespace: system
 
 
  <div class="jumbotron system-header">
-	<div class="container">
-		<h1>{{t "head"}}</h1>
-		<p>{{t "subhead"}}</p>
+	<div class="container" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+		<h1 itemprop="name">{{t "head"}}</h1>
+		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+			<p itemprop="text">{{t "subhead"}}</p>
+		</div>
 	</div>
 </div>
 
