@@ -33,7 +33,7 @@
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "github:doteco/metalsmith-watch",
     "standard": "17.0.0",
-    "stylelint": "14.15.0",
+    "stylelint": "14.16.0",
     "stylelint-config-standard": "29.0.0",
     "stylelint-config-standard-scss": "6.1.0"
   },
