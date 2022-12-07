@@ -14,7 +14,7 @@ exclude: true
  <div class="container">
    <h1 class="search-header">.eco whois</h1>
 
-   <form method="get" class="search-form">
+   <form method="get" class="search-form" role="search">
      <p class="subheader"><label for="input-search">Check who owns a .eco domain name.</label></p>
 
      <div class="row">
@@ -22,7 +22,7 @@ exclude: true
        <div class="col-md-8">
         <div class="input-group">
           <input id="input-search" type="search" class="form-control domain-search" name="domain" placeholder="example.eco" autocomplete="off" autocapitalize="off" title="{{t "global:search.head"}}">
-          <button class="btn btn-search" type="submit" aria-label="{{t 'global:search.cta'}}">
+          <input class="btn btn-search" type="submit" title="{{t 'global:search.cta'}}" value="">
           </button>
         </div>
        </div>

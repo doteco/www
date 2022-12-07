@@ -51,14 +51,14 @@ faq: true
 
 <div class="section search">
 	<div class="container">
-		<form method="get" class="search-form">
+		<form method="get" class="search-form" role="search">
 			<h1 class="subheader search-header"><label for="input-search">{{t 'search.head'}}</label></h1>
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
 					<div class="input-group">
 						<input id="input-search" type="search" class="form-control domain-search" name="domain" placeholder="example.eco" autocomplete="off" autocapitalize="off">
-						<button class="btn btn-search" type="button" aria-label="{{t 'global:search.cta'}}">
+						<input class="btn btn-search" type="submit" title="{{t 'global:search.cta'}}" value="">
 						</button>
 					</div>
 				</div>
