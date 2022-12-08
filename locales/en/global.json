@@ -24,10 +24,10 @@
     {
       "head": "Help",
       "items": [
-        "<a href=\"/contact/\">Contact Us</a>",
+        "<a href=\"/faq/\">FAQ</a>",
         "<a href=\"https://support.go.eco\">Support</a>",
-        "<a href=\"http://status.bigroom.eco\">System status</a>",
-        "<a href=\"/whois/\">Whois</a>"
+        "<a href=\"/contact/\">Contact us</a>",
+        "<a href=\"http://status.bigroom.eco\">System status</a>"
       ]
     },
     {
@@ -35,17 +35,17 @@
       "items": [
         "<a href=\"/about/story/\">What is .eco?</a>",
         "<a href=\"/about/system/\">Why .eco?</a>",
-        "<a href=\"/registrars/\">Registrars &amp; resellers</a>",
-        "<a href=\"/champions/\">.eco Champions</a>"
+        "<a href=\"/whois/\">Whois</a>",
+        "<a href=\"/registrars/\">Registrars &amp; resellers</a>"
       ]
     },
     {
       "head": "Policies",
       "items": [
-        "<a href=\"/policies/\">Registry Policies</a>",
-        "<a href=\"/privacy/\">Privacy Policy</a>",
-        "<a href=\"/policies/accessibility/\">Accessibility Statement</a>",
-        "<a href=\"/impact/\">Sustainability Policy</a>"
+        "<a href=\"/policies/\">Registry policies</a>",
+        "<a href=\"/privacy/\">Privacy policy</a>",
+        "<a href=\"/impact/\">Sustainability policy</a>",
+        "<a href=\"/policies/accessibility/\">Accessibility statement</a>"
       ]
     }
   ],

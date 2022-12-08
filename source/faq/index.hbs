@@ -1,36 +1,42 @@
 ---
-title: FAQ | .eco
-description: Frequently asked questions about .eco domain names.
+title: title
+description: description
+i18nNamespace: faq
 page-path: faq/
 og-image: opengraph/windmill-sunflowers-og.jpg
 og-width: 1200
 og-height: 600
 active: faq
-redirectTo: /
-exclude: true
+faq: true
 ---
-	<div class="section container">
-		<h1 class="title">Frequently Asked Questions</h1>
 
-		<div class="content-section">
-			<h5>Who can register .eco?</h5>
-			<p>.eco will only be available to those committed to positive change for the planet. Every .eco domain applicant must affirm their commitment to environmental action before activating their domain name. This process makes .eco a trusted symbol for you and others working on environmental issues.</p>
-		</div>
+<link rel="preload" as="image" href="/img/windmill-sunflowers.jpg">
 
-		<div class="content-section">
-			<h5>What is a TLD?</h5>
-			<p>A Top Level Domain, or TLD, is the group of letters that follow the final dot of any domain name. For example, in the domain name <a href="http://www.example.eco">www.example.eco</a>, the top-level domain is 'eco'.</p>
-		</div>
+ <div class="jumbotron contact-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/windmill-sunflowers.jpg');">
+	<div class="container">
+		<h1>{{t "header"}}</h1>
+		<p>{{t "subhead"}}</p>
+	</div>
+</div>
 
-		<div class="content-section">
-			<h5>What are the requirements to register a .eco domain?</h5>
-			<p>.eco is a badge of commitment to sustainability. This means that anyone who registers a .eco domain name will need to create an eco-profile before they can start using it. Your eco-profile is easy to make and will allow you to share information about your commitment to the environment through actions, memberships and reporting and more!</p>
-		</div>
-
-		<div class="content-section">
-			<h5>Why .eco?</h5>
-			<p>.eco is a trusted symbol for those that do good in the world. It’s only available to people, organizations, companies and products that are committed to the environment.</p>
-			<p>We know you’re proud of the work that you do to protect the environment - whether it’s work on climate change, conservation, or living a more eco-friendly lifestyle.</p>
-			<p>By being one of the first people in the world to have a .eco domain name, you will be seen as a leader in the space.</p>
+<div class="section policy">
+	{{#each (t "faq" returnObjects=true)}}
+	<div class="container" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+		<h2 itemprop="name">{{{q}}}</h2>
+		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+			<p itemprop="text">{{{a}}}</p>
 		</div>
 	</div>
+	{{/each}}
+</div>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		document.querySelectorAll('.chat-link').forEach(function (e) {
+			e.addEventListener('click', function (e) {
+				e.preventDefault()
+				Intercom('show')
+			})
+		})
+	})
+</script>
