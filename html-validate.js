@@ -5,9 +5,6 @@ const validator = require('html-validator')
 
 const skipFiles = [
   'public/registrar/index.html',
-  'public/faq/index.html',
-  'public/grants/index.html',
-  'public/champions/index.html',
   'public/champions/terms/index.html',
   'public/community/grants/index.html',
   'public/community/tradenames/index.html',
