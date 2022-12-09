@@ -21,7 +21,7 @@
   "profiles": {
     "head": "Join the .eco community",
     "text": [
-      "<p>By registering a .eco domain and taking the .eco pledge, you will join the .eco community - a global village of over 6,000 like-minded environmentalist dedicated to making positive change for our planet.</p>",
+      "<p>By <a href=\"/search/\">registering a .eco domain</a> and taking the .eco pledge, you will join the .eco community - a global village of over 6,000 like-minded environmentalist dedicated to making positive change for our planet.</p>",
       "<p>Meet some of the members of the .eco community and check out the work that they're doing.</p>"
     ]
   }
