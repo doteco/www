@@ -135,7 +135,7 @@ faq: true
 						<div class="news-tile-overlay">
 							<div class="news-tile-content">
 								<h3>{{ title }}</h3>
-								<p>{{ formatDay pubdate }}</p>
+								<p><time datetime="{{ formatUTC pubdate }}">{{ formatDay pubdate }}</time></p>
 							</div>
 						</div>
 					</div>

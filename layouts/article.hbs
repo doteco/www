@@ -7,9 +7,9 @@
       <a href="/news/"><img src="/android-chrome-192x192.png" class="article-avatar" title="{{author}} author avatar" alt="{{author}} author avatar"></a>
       <a href="/news/"><span class="article-author" title="Written by {{author}}">{{author}}</span></a>
       {{#if update}}
-      <span class="article-pubdate" title="Published on {{formatDay pubdate}}; last updated on {{formatDay update}}">Last updated: {{formatDay update}}</span>
+      <span class="article-pubdate" title="Published on {{formatDay pubdate}}; last updated on {{formatDay update}}">Last updated: <time datetime="{{formatUTC update}}">{{formatDay update}}</time></span>
       {{else}}
-      <span class="article-pubdate" title="Published on {{formatDay pubdate}}">{{formatDay pubdate}}</span>
+      <span class="article-pubdate" title="Published on {{formatDay pubdate}}"><time datetime="{{formatUTC pubdate}}">{{formatDay pubdate}}</time></span>
       {{/if}}
     </div>
 	{{{ contents }}}
