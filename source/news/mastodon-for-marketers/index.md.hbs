@@ -61,7 +61,7 @@ Also, Mastodon does not currently have built-in support for scheduling posts. Fo
 ### 5. Analytics
 Mastodon doesn’t currently have a built-in analytics service like [analytics.twitter.com](https://analytics.twitter.com/), so you will have less visibility into impressions and interactions will have to be tabulated manually. Mastodon is extensible and it’s just a matter of time before analytics solutions become available.
 
-If you use Google Analytics, one thing to be aware of is that links on Mastodon open by default using the “noreferrer” attribute. **This means that clicks from your posts will show up in GA under the dreaded Direct channel**. To counteract this, you can use UTM parameters. Try adding the parameters _?utm_source=mastodon&utm_medium=social_ to all links included in your post.
+If you use Google Analytics, one thing to be aware of is that links on Mastodon open by default using the `noreferrer` attribute. **This means that clicks from your posts will show up in GA under the dreaded Direct channel**. To counteract this, you can use UTM parameters. Try adding these parameters to all links included in your post `?utm_source=mastodon&utm_medium=social`.
 
 ### 6. No ads
 If you were heavily invested in Twitter Ads to get your message out, you’re out of luck on Mastodon. The platform is currently ad-free. It’s conceivable that some instance maintainers could introduce ads in order to subsidize the cost of maintaining the servers in the future. But for now, you have to get your message out the old fashioned way.
