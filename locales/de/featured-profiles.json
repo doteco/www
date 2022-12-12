@@ -101,15 +101,15 @@
     "img": "https://cdn.profiles.eco/images/nuvola.eco/6a6f7553-3ef1-4016-b3aa-fad68f66413a_1500x500.jpeg",
     "type": "business",
     "location": "Schweiz",
-    "priority": ""
+    "priority": "5"
   },
   {
     "domain": "brightly.eco",
-    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern, einen nachhaltigen Lebensstil zu leben.",
+    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern zu einem nachhaltigen Lebensstil.",
     "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
     "type": "business",
     "location": "Vereinigte Staaten",
-    "priority": "2"
+    "priority": ""
   },
   {
     "domain": "kusala.eco",
@@ -133,7 +133,7 @@
     "img": "/img/champion_logos/carboncopy-hero.jpg",
     "type": "nonprofit",
     "location": "Vereinigtes Königreich",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "dragonfly.eco",
@@ -158,5 +158,13 @@
     "type": "business",
     "location": "Vereinigte Staaten",
     "priority": "3"
+  },
+  {
+    "domain": "pirkani.eco",
+    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> ist ein modisches Label mit einem Unterschied. Mit Nachhaltigkeit im Mittelpunkt haben wir es uns zur Aufgabe gemacht, zeitgenössische britische Mode mit einer minimalistischen Designästhetik auf ethische Weise zu produzieren.",
+    "img": "/img/champion_logos/pirkani.jpg",
+    "type": "business",
+    "location": "Vereinigtes Königreich",
+    "priority": "2"
   }
 ]

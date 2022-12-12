@@ -45,7 +45,7 @@
     "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
     "type": "business",
     "location": "Canada",
-    "priority": "5"
+    "priority": "3"
   },
   {
     "domain": "beep.eco",
@@ -65,7 +65,7 @@
   },
   {
     "domain": "goodonyou.eco",
-    "story": "Les choix d&#39;achat ont un impact énorme sur la façon dont les entreprises traitent les gens, la planète et les animaux. L&#39;application <a href=\"https://goodonyou.eco/\">Good On You vous</a> permet d&#39;acheter facilement vos valeurs.",
+    "story": "Les choix d&#39;achat ont un impact énorme sur la façon dont les entreprises traitent les gens, la planète et les animaux. L&#39;application <a href=\"https://goodonyou.eco/\">Good On You</a> vous permet d&#39;acheter facilement vos valeurs.",
     "img": "https://cdn.profiles.eco/images/goodonyou.eco/ed63cf5c-b6bc-4d7c-9440-a9bef2ae82e8_1500x500.jpeg",
     "type": "business",
     "location": "Australie",
@@ -109,7 +109,7 @@
     "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
     "type": "business",
     "location": "États-Unis",
-    "priority": "2"
+    "priority": "4"
   },
   {
     "domain": "kusala.eco",
@@ -133,7 +133,7 @@
     "img": "/img/champion_logos/carboncopy-hero.jpg",
     "type": "nonprofit",
     "location": "Royaume-Uni",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "dragonfly.eco",
@@ -157,6 +157,14 @@
     "img": "https://cdn.profiles.eco/images/terrabyte.eco/50484dff-2574-42b2-96b3-d665e201255e_1500x500.webp",
     "type": "business",
     "location": "États-Unis",
-    "priority": "3"
+    "priority": "5"
+  },
+  {
+    "domain": "pirkani.eco",
+    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> est une marque avant-gardiste avec une différence. Avec la durabilité au cœur de nos préoccupations, nous nous sommes donné pour mission de produire de manière éthique une mode britannique contemporaine avec une esthétique de design minimaliste.",
+    "img": "/img/champion_logos/pirkani.jpg",
+    "type": "business",
+    "location": "Royaume-Uni",
+    "priority": "2"
   }
 ]
