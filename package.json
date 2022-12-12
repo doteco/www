@@ -39,7 +39,7 @@
   },
   "scripts": {
     "build": "node ./build.js",
-    "minify": "node ./imagemin.mjs && cp -R public-img/ public && cp -R public-img/ public-de && cp -R public-img/ public-fr",
+    "minify": "node ./imagemin.mjs && cp -R public-img/img public && cp -R public-img/img public-de && cp -R public-img/img public-fr",
     "start": "npm run build",
     "precommit": "npx standard && npm run validate && npm run stylelint",
     "stylelint": "stylelint 'scss/*.scss' || true",
