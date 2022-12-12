@@ -63,10 +63,10 @@ exclude: true
         <form id="makeoffer-form" class="underlined-form iframe-form" action="{{ makeOfferForm }}" target="makeoffer-form-iframe" method="POST" data-toggle="validator">
           <input id="makeoffer-domain" type="hidden" name="entry.1812657841" value="">
           <div class="form-group has-feedback">
-            <input type="text" class="form-control" id="fullname" placeholder="{{t "reserved.nameField"}}" aria-label="{{t "reserved.nameField"}}" name="entry.1410965494" data-error="{{t "reserved.nameFieldError"}}" required>
+            <input type="text" class="form-control" id="fullname" placeholder="{{t "reserved.nameField"}}" aria-label="{{t "reserved.nameField"}}" name="entry.1410965494" data-error="{{t "reserved.nameFieldError"}}" autocomplete="name" required>
           </div>
           <div class="form-group has-feedback">
-            <input type="email" class="form-control" id="email" placeholder="{{t "reserved.emailField"}}" aria-label="{{t "reserved.emailField"}}" name="entry.148246978" data-error="{{t "reserved.emailFieldError"}}" required>
+            <input type="email" class="form-control" id="email" placeholder="{{t "reserved.emailField"}}" aria-label="{{t "reserved.emailField"}}" name="entry.148246978" data-error="{{t "reserved.emailFieldError"}}" autocomplete="email" required>
           </div>
           <div class="clearfix form-group">
             <button type="submit" class="submit-application btn btn-primary float-end">{{t "reserved.cta"}}</button>
