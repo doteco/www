@@ -2,19 +2,22 @@
 	{{> header }}
 
   <main class="container policy">
+  <header>
     <h1>{{title}}</h1>
     {{#if subtitle}}
     <h2 class="subheader">{{subtitle}}</h2>
     {{/if}}
 
     <p class="policy-date"><em>Updated: <time datetime="{{formatUTC updated}}">{{formatDay updated}}</time></em></p>
+  </header>
 
 {{{ contents }}}
 
+  <footer>
     <div class="d-flex justify-content-end">
       <a href="/policies/" class="btn btn-primary">.eco policies</a>
     </div>
-
+  </footer>
   </main>
 
   {{> footer }}

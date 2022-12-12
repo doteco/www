@@ -1,9 +1,10 @@
 {{> head }}
 	{{> header }}
 
+  <main>
   <article class="container">
 
-    <div class="article-header">
+    <header class="article-header">
       <a href="/news/"><img src="/android-chrome-192x192.png" class="article-avatar" title="{{author}} author avatar" alt="{{author}} author avatar"></a>
       <a href="/news/"><span class="article-author" title="Written by {{author}}">{{author}}</span></a>
       {{#if update}}
@@ -11,7 +12,8 @@
       {{else}}
       <span class="article-pubdate" title="Published on {{formatDay pubdate}}"><time datetime="{{formatUTC pubdate}}">{{formatDay pubdate}}</time></span>
       {{/if}}
-    </div>
+    </header>
+
 	{{{ contents }}}
 
     <footer>
@@ -21,6 +23,7 @@
       </div>
     </footer>
   </article>
+  </main>
 
   {{> footer }}
 	{{> scripts }}
