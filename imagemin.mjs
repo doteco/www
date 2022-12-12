@@ -5,7 +5,7 @@ import imageminSvgo from 'imagemin-svgo'
 
 imagemin(['**/*.*'], {
   baseDirectory: 'source/img/',
-  destination: 'public/img/',
+  destination: 'public-img/img/',
   cwd: 'source/img',
   plugins: [
     imageminJpeg({
