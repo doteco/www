@@ -21,7 +21,7 @@
     "jstransformer-handlebars": "1.2.0",
     "jstransformer-marked": "1.2.0",
     "klaw": "4.0.1",
-    "lighthouse-parade": "2.1.0",
+    "lighthouse-parade": "github:doteco/lighthouse-parade#no-script-crawler",
     "metalsmith": "2.5.1",
     "metalsmith-autoprefixer": "github:doteco/metalsmith-autoprefixer",
     "metalsmith-discover-helpers": "0.1.1",
@@ -42,6 +42,7 @@
   "scripts": {
     "build": "node ./build.js",
     "minify": "node ./imagemin.mjs && cp -R public-img/img public && cp -R public-img/img public-de && cp -R public-img/img public-fr",
+    "lighthouse": "npx lighthouse-parade https://go.eco/",
     "start": "npm run build",
     "precommit": "npx standard && npm run validate && npm run stylelint",
     "stylelint": "stylelint 'scss/*.scss' || true",
