@@ -21,6 +21,7 @@
     "jstransformer-handlebars": "1.2.0",
     "jstransformer-marked": "1.2.0",
     "klaw": "4.0.1",
+    "lighthouse-parade": "2.1.0",
     "metalsmith": "2.5.1",
     "metalsmith-autoprefixer": "github:doteco/metalsmith-autoprefixer",
     "metalsmith-discover-helpers": "0.1.1",
