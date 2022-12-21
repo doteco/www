@@ -1,5 +1,13 @@
 const Handlebars = require('handlebars')
 const dateFormat = require('date-fns/format')
+const deLocale = require('date-fns/locale/de')
+const frLocale = require('date-fns/locale/fr')
+
+function lookupLocale (l) {
+  if (l == 'de') return deLocale
+  if (l == 'fr') return frLocale
+  return null
+}
 
 Handlebars.registerHelper('equal', function (lvalue, rvalue) {
   return lvalue === rvalue
@@ -21,7 +29,7 @@ Handlebars.registerHelper('concat', (a, b) => a + b)
 
 Handlebars.registerHelper('isoDate', date => date && date.toISOString())
 
-Handlebars.registerHelper('formatDay', date => date && dateFormat(date, 'MMM d, yyyy'))
+Handlebars.registerHelper('formatDay', (date, locale) => date && dateFormat(date, 'PPP', { locale: lookupLocale(locale) }))
 
 Handlebars.registerHelper('formatUTC', date => date && dateFormat(date, 'yyyy-MM-dd'))
 
