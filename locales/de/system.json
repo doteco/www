@@ -1,6 +1,6 @@
 {
   "buy": {
-    "footer": "Zusammen bilden diese drei Elemente das <a href=\"https://profiles.eco\">.eco-Profilsystem</a>, ein durchsuchbares Verzeichnis von Unternehmen, Organisationen und Menschen, die sich für einen positiven Wandel für den Planeten.",
+    "footer": "Zusammen bilden diese drei Elemente das <a href=\"https://profiles.eco\" hreflang=\"en\">.eco-Profilsystem</a>, ein durchsuchbares Verzeichnis von Unternehmen, Organisationen und Menschen, die sich für einen positiven Wandel für den Planeten.",
     "head": "Wenn Sie einen .eco-Domainnamen kaufen, erhalten Sie:",
     "item1": "Ein .eco-Domainname für Ihre Website.",
     "item2": "Mitgliedschaft in der .eco-Community",
@@ -9,10 +9,10 @@
   },
   "why": {
     "head": "4 Gründe, warum sich .eco von anderen Domains unterscheidet:",
-    "item1": "<strong>Community</strong>: Wir sind eine <a href=\"https://icannwiki.org/Community_TLD\">Community-Top-Level-Domain</a>. .eco wurde in Absprache mit einem <a href=\"https://org.eco/\">Konsortium führender Umweltorganisationen</a> gegründet und konzentriert sich vollständig auf die Unterstützung der Umweltbewegung.",
-    "item2": "<strong>Vertrauen</strong>: .eco ist <strong>ausschließlich</strong> für diejenigen, die an positiven Veränderungen für unseren Planeten arbeiten. Aus diesem Grund muss jeder, der eine .eco-Domain registriert, ein <a href=\"https://profiles.eco/\">.eco-Profil</a> erstellen, in dem er seine Umweltabsichten offenlegt und eine Verpflichtung zum Umweltschutz unterschreibt.",
-    "item3": "<strong>Transparenz</strong>: Der beste Weg, Greenwashing und Desinformation entgegenzuwirken, ist Transparenz. Das .eco-Profilsystem ist eine Möglichkeit für Mitglieder der .eco-Community, ihre Handlungen transparent zu machen. Wir versuchen, <a href=\"/impact/\">mit gutem Beispiel voranzugehen</a>, indem wir veröffentlichen, wie wir etwas bewegen.",
-    "item4": "<strong>CO2-neutral</strong>: Wir engagieren uns für den Schutz unseres Planeten. Aus diesem Grund sind wir eine der wenigen <a href=\"impact/ghg-report-2022/\">klimaneutralen Domainregistrierungen</a>. Sie können sicher sein, dass die Klimaauswirkungen der Verwaltung Ihrer .eco-Domain berücksichtigt werden."
+    "item1": "<strong>Community</strong>: Wir sind eine <a href=\"https://icannwiki.org/Community_TLD\" hreflang=\"en\">Community-Top-Level-Domain</a>. .eco wurde in Absprache mit einem <a href=\"https://org.eco/\" hreflang=\"en\">Konsortium führender Umweltorganisationen</a> gegründet und konzentriert sich vollständig auf die Unterstützung der Umweltbewegung.",
+    "item2": "<strong>Vertrauen</strong>: .eco ist <strong>ausschließlich</strong> für diejenigen, die an positiven Veränderungen für unseren Planeten arbeiten. Aus diesem Grund muss jeder, der eine .eco-Domain registriert, ein <a href=\"https://profiles.eco/\" hreflang=\"en\">.eco-Profil</a> erstellen, in dem er seine Umweltabsichten offenlegt und eine Verpflichtung zum Umweltschutz unterschreibt.",
+    "item3": "<strong>Transparenz</strong>: Der beste Weg, Greenwashing und Desinformation entgegenzuwirken, ist Transparenz. Das .eco-Profilsystem ist eine Möglichkeit für Mitglieder der .eco-Community, ihre Handlungen transparent zu machen. Wir versuchen, <a href=\"https://go.eco/impact/\" hreflang=\"en\">mit gutem Beispiel voranzugehen</a>, indem wir veröffentlichen, wie wir etwas bewegen.",
+    "item4": "<strong>CO2-neutral</strong>: Wir engagieren uns für den Schutz unseres Planeten. Aus diesem Grund sind wir eine der wenigen <a href=\"https://go.eco/impact/ghg-report-2022/\" hreflang=\"en\">klimaneutralen Domainregistrierungen</a>. Sie können sicher sein, dass die Klimaauswirkungen der Verwaltung Ihrer .eco-Domain berücksichtigt werden."
   },
   "description": "Wenn Sie eine .eco-Domain registrieren, erhalten Sie ein .eco-Profil. Dieses .eco-Profil zeigt Ihre Umweltmaßnahmen und -verpflichtungen.",
   "head": "Warum .eco?",
