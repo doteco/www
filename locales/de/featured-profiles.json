@@ -166,5 +166,21 @@
     "type": "business",
     "location": "Vereinigtes Königreich",
     "priority": "2"
+  },
+  {
+    "domain": "aem.eco",
+    "story": "<a href=\"https://aem.eco\">AEM</a> befähigt Gemeinschaften und Organisationen, angesichts eskalierender Umweltrisiken zu überleben und zu gedeihen. Durch den Einsatz von Sensornetzwerken und die Bereitstellung von Analysen ist AEM die wesentliche Quelle für Umwelteinblicke.",
+    "img": "https://cdn.profiles.eco/images/aem.eco/de56cc07-87d9-46f8-b9b6-e0e2432e093c_1500x500.webp",
+    "type": "business",
+    "location": "Vereinigte Staaten",
+    "priority": ""
+  },
+  {
+    "domain": "pirkani.eco",
+    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> ist ein modisches Label mit einem Unterschied. Mit Nachhaltigkeit im Mittelpunkt haben wir es uns zur Aufgabe gemacht, zeitgenössische britische Mode mit einer minimalistischen Designästhetik auf ethische Weise zu produzieren.",
+    "img": "/img/champion_logos/pirkani2.webp",
+    "type": "business",
+    "location": "Vereinigtes Königreich",
+    "priority": "2"
   }
 ]

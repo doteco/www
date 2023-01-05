@@ -166,5 +166,21 @@
     "type": "business",
     "location": "UK",
     "priority": "2"
+  },
+  {
+    "domain": "aem.eco",
+    "story": "<a href=\"https://aem.eco\">AEM</a> empowers communities and organizations to survive and thrive in the face of escalating environmental risks. By deploying sensing networks and delivering analytics, AEM is the essential source for environmental insights.",
+    "img": "https://cdn.profiles.eco/images/aem.eco/de56cc07-87d9-46f8-b9b6-e0e2432e093c_1500x500.webp",
+    "type": "business",
+    "location": "USA",
+    "priority": ""
+  },
+  {
+    "domain": "pirkani.eco",
+    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> is a fashion-forward label with a difference. With sustainability at our core, we’re on a mission to ethically produce contemporary British fashion with a minimalist design aesthetic.",
+    "img": "/img/champion_logos/pirkani2.webp",
+    "type": "business",
+    "location": "UK",
+    "priority": "2"
   }
 ]
