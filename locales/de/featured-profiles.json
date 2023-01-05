@@ -105,7 +105,7 @@
   },
   {
     "domain": "brightly.eco",
-    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern zu einem nachhaltigen Lebensstil.",
+    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern, einen nachhaltigen Lebensstil zu leben.",
     "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
     "type": "business",
     "location": "Vereinigte Staaten",
@@ -181,6 +181,6 @@
     "img": "/img/champion_logos/pirkani2.webp",
     "type": "business",
     "location": "Vereinigtes Königreich",
-    "priority": "2"
+    "priority": ""
   }
 ]

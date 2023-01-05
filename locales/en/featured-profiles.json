@@ -101,7 +101,7 @@
     "img": "https://cdn.profiles.eco/images/nuvola.eco/6a6f7553-3ef1-4016-b3aa-fad68f66413a_1500x500.jpeg",
     "type": "business",
     "location": "Switzerland",
-    "priority": ""
+    "priority": "3"
   },
   {
     "domain": "brightly.eco",
@@ -125,7 +125,7 @@
     "img": "https://cdn.profiles.eco/images/ducky.eco/04b88bb6-ade5-4559-9889-bcb2be6d6029_1500x500.png",
     "type": "business",
     "location": "Norway",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "carboncopy.eco",
@@ -181,6 +181,6 @@
     "img": "/img/champion_logos/pirkani2.webp",
     "type": "business",
     "location": "UK",
-    "priority": "2"
+    "priority": ""
   }
 ]

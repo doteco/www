@@ -9,7 +9,7 @@
   },
   {
     "domain": "current.eco",
-    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises cherchant à gérer leur infrastructure de recharge de véhicules électriques.",
+    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises qui cherchent à gérer leur infrastructure de recharge de véhicules électriques.",
     "img": "https://cdn.profiles.eco/images/current.eco/3f4a0566-7df4-452d-85cd-55b325afd402_1500x500.jpeg",
     "type": "business",
     "location": "Norvège",
@@ -145,7 +145,7 @@
   },
   {
     "domain": "zeroco2.eco",
-    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> est une B Corp qui aide les particuliers et les entreprises à atténuer la crise climatique en soutenant des projets de reboisement qui permettent le développement durable de communautés agricoles entières vivant sur des terres reboisées.",
+    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> est une B Corp qui aide les particuliers et les entreprises à atténuer la crise climatique en soutenant des projets de reforestation qui permettent le développement durable de communautés agricoles entières vivant sur des terres reboisées.",
     "img": "https://cdn.profiles.eco/images/zeroco2.eco/1741881d-1160-403b-8934-b268db98b711_1500x500.webp",
     "type": "business",
     "location": "Italie",
@@ -181,6 +181,6 @@
     "img": "/img/champion_logos/pirkani2.webp",
     "type": "business",
     "location": "Royaume-Uni",
-    "priority": "2"
+    "priority": ""
   }
 ]
