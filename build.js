@@ -159,7 +159,8 @@ const ms = Metalsmith(__dirname)
   .use(collections({
     news: {
       sortBy: 'pubdate',
-      reverse: true
+      reverse: true,
+      refer: false
     }
   }))
   .use(inplace({
