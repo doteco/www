@@ -37,7 +37,7 @@
     "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
     "type": "business",
     "location": "Dänemark",
-    "priority": "4"
+    "priority": "6"
   },
   {
     "domain": "bleu.eco",
@@ -61,7 +61,7 @@
     "img": "https://cdn.profiles.eco/images/ecofario.eco/5dd35d31-21f5-47af-b7e8-a1e5e6590908_1500x500.jpeg",
     "type": "business",
     "location": "Deutschland",
-    "priority": "6"
+    "priority": "4"
   },
   {
     "domain": "goodonyou.eco",
@@ -105,7 +105,7 @@
   },
   {
     "domain": "brightly.eco",
-    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern, einen nachhaltigen Lebensstil zu leben.",
+    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Anlaufstelle für Menschen, um neue, umweltfreundliche Marken und Produkte zu entdecken. Brightly inspiriert derzeit täglich Millionen von Nutzern zu einem nachhaltigen Lebensstil.",
     "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
     "type": "business",
     "location": "Vereinigte Staaten",
@@ -157,7 +157,7 @@
     "img": "https://cdn.profiles.eco/images/terrabyte.eco/50484dff-2574-42b2-96b3-d665e201255e_1500x500.webp",
     "type": "business",
     "location": "Vereinigte Staaten",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "tooth.eco",
@@ -165,7 +165,7 @@
     "img": "/img/champion_logos/tooth-eco2.webp",
     "type": "business",
     "location": "Vereinigtes Königreich",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "aem.eco",
@@ -173,7 +173,7 @@
     "img": "https://cdn.profiles.eco/images/aem.eco/de56cc07-87d9-46f8-b9b6-e0e2432e093c_1500x500.webp",
     "type": "business",
     "location": "Vereinigte Staaten",
-    "priority": ""
+    "priority": "2"
   },
   {
     "domain": "pirkani.eco",

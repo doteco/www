@@ -101,7 +101,7 @@
     "img": "https://cdn.profiles.eco/images/nuvola.eco/6a6f7553-3ef1-4016-b3aa-fad68f66413a_1500x500.jpeg",
     "type": "business",
     "location": "Switzerland",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "brightly.eco",
@@ -109,7 +109,7 @@
     "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
     "type": "business",
     "location": "USA",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "kusala.eco",
@@ -117,7 +117,7 @@
     "img": "https://cdn.profiles.eco/images/kusala.eco/634b3ac4-e1d3-44a0-9a0a-dfef9e8f44d8_1500x500.jpeg",
     "type": "business",
     "location": "Netherlands",
-    "priority": ""
+    "priority": "4"
   },
   {
     "domain": "ducky.eco",
@@ -157,7 +157,7 @@
     "img": "https://cdn.profiles.eco/images/terrabyte.eco/50484dff-2574-42b2-96b3-d665e201255e_1500x500.webp",
     "type": "business",
     "location": "USA",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "tooth.eco",
@@ -165,7 +165,7 @@
     "img": "/img/champion_logos/tooth-eco2.webp",
     "type": "business",
     "location": "UK",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "aem.eco",
@@ -173,7 +173,7 @@
     "img": "https://cdn.profiles.eco/images/aem.eco/de56cc07-87d9-46f8-b9b6-e0e2432e093c_1500x500.webp",
     "type": "business",
     "location": "USA",
-    "priority": ""
+    "priority": "2"
   },
   {
     "domain": "pirkani.eco",
