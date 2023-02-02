@@ -4,8 +4,8 @@ const deLocale = require('date-fns/locale/de')
 const frLocale = require('date-fns/locale/fr')
 
 function lookupLocale (l) {
-  if (l == 'de') return deLocale
-  if (l == 'fr') return frLocale
+  if (l === 'de') return deLocale
+  if (l === 'fr') return frLocale
   return null
 }
 
@@ -33,7 +33,7 @@ Handlebars.registerHelper('formatDay', (date, locale) => date && dateFormat(date
 
 Handlebars.registerHelper('formatUTC', date => date && dateFormat(date, 'yyyy-MM-dd'))
 
-function pagePath(path) {
+function pagePath (path) {
   return path?.replace(/index\..*$/, '')
 }
 
