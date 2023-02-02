@@ -1,8 +1,8 @@
 window.domainSearch = function (config) {
   'use strict'
 
-  function registrarLogoDiv (registrar, domain) {
-    const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + (domain ? '&domain=' + encodeURIComponent(domain) : '')
+  function registrarLogoDiv (registrar, domain, languageFilter) {
+    const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + (domain ? '&domain=' + encodeURIComponent(domain) : '') + (languageFilter ? '&lang=' + encodeURIComponent(languageFilter) : '')
     const greenLabel = registrar.envPolicy ? `<span class="registrar-green" title="${config.filterLabels.envPolicy}">&#x1F33F</span>` : ''
     return `<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="${registrar.label}" class="registrar-logo" loading="lazy" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
   }
@@ -33,8 +33,7 @@ window.domainSearch = function (config) {
     const domain = searchDomain()
     updateUriHistory(domain, filters)
 
-    const filteredRegistrars = filterRegistrars(registrars, filters)
-    showAllRegistrars(filteredRegistrars, domain)
+    showAllRegistrars(registrars, domain, filters)
   }
 
   function getFilterValue (filterId) {
@@ -93,16 +92,20 @@ window.domainSearch = function (config) {
     document.querySelectorAll('.registrar-filter').forEach(el => el.addEventListener('change', () => changeFilter(registrars)))
   }
 
-  function showAllRegistrars (registrars, domain) {
+  function showAllRegistrars (registrars, domain, filters) {
+    const filteredRegistrars = filterRegistrars(registrars, filters)
+    const languageFilter = filters[1]
+
+    toggleVisibility(document.querySelector('.registrars-all'), registrars.length)
     const registrarsRow = document.querySelector('.registrars-all .registrars-row')
     registrarsRow.innerHTML = ''
-    if (!registrars.length) {
+    if (!filteredRegistrars.length) {
       registrarsRow.innerHTML = config.filterLabels.noRegistrars
       return
     }
-    registrars.sort((registrar1, registrar2) => registrar2.label.localeCompare(registrar1.label))
-    registrars.forEach(registrar => {
-      registrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar, domain))
+    filteredRegistrars.sort((registrar1, registrar2) => registrar2.label.localeCompare(registrar1.label))
+    filteredRegistrars.forEach(registrar => {
+      registrarsRow.insertAdjacentHTML('afterbegin', registrarLogoDiv(registrar, domain, languageFilter))
     })
     document.querySelectorAll('.registrar-link').forEach(el => {
       el.addEventListener('click', () => config.onClick(el.dataset.registrar, el.href))
@@ -119,15 +122,14 @@ window.domainSearch = function (config) {
     priorityRegistrars.sort((registrar1, registrar2) => registrar1.priority - registrar2.priority)
     priorityRegistrars = priorityRegistrars.slice(0, 6)
 
-    document.querySelectorAll('.registrars').forEach(el => toggleVisibility(el, registrars.length))
-
+    toggleVisibility(document.querySelector('.registrars-priority'), priorityRegistrars.length)
     const priorityRegistrarsRow = document.querySelector('.registrars-priority .row')
     priorityRegistrarsRow.innerHTML = ''
     priorityRegistrars.forEach(registrar => {
       priorityRegistrarsRow.insertAdjacentHTML('beforeend', registrarLogoDiv(registrar, domain))
     })
-    const filteredRegistrars = filterRegistrars(registrars, filters)
-    showAllRegistrars(filteredRegistrars, domain)
+
+    showAllRegistrars(registrars, domain, filters)
   }
 
   function toggleReservedForm (isReserved, domain) {
@@ -175,7 +177,9 @@ window.domainSearch = function (config) {
     domain = domain.replace(/[\s;<>"'/=()\\]/g, '').replace(/\..*$/, '')
     domain += '.eco'
 
-    const searchResultsRow = document.querySelector('.search-results')
+    const searchResultsSection = document.querySelector('.search-results-section')
+    toggleVisibility(searchResultsSection, true)
+
     config.onSearch(domain)
     return fetchSearchResults(domain, config.searchEngine).then(response => {
       if (!response.ok) {
@@ -189,6 +193,7 @@ window.domainSearch = function (config) {
         }
 
         const message = searchResultMessage(r, r.domain || domain)
+        const searchResultsRow = document.querySelector('.search-results')
         searchResultsRow.innerHTML = `<span class='domain-search-output title'>${message}</span>`
 
         const registrars = r.registrars || []
