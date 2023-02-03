@@ -118,6 +118,7 @@ window.domainSearch = function (config) {
 
   function showRegistrars (registrars, domain) {
     const filters = getFilterValues()
+    const languageFilter = filters[1]
     let priorityRegistrars = filterRegistrars(registrars.filter(registrar => registrar.priority), filters)
     priorityRegistrars.sort((registrar1, registrar2) => registrar1.priority - registrar2.priority)
     priorityRegistrars = priorityRegistrars.slice(0, 6)
@@ -126,7 +127,7 @@ window.domainSearch = function (config) {
     const priorityRegistrarsRow = document.querySelector('.registrars-priority .row')
     priorityRegistrarsRow.innerHTML = ''
     priorityRegistrars.forEach(registrar => {
-      priorityRegistrarsRow.insertAdjacentHTML('beforeend', registrarLogoDiv(registrar, domain))
+      priorityRegistrarsRow.insertAdjacentHTML('beforeend', registrarLogoDiv(registrar, domain, languageFilter))
     })
 
     showAllRegistrars(registrars, domain, filters)
