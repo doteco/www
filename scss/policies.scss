@@ -110,5 +110,9 @@
 		p, ol, ul, blockquote, table {
 			margin-bottom: 2.8rem;
 		}
+
+		ol > li > ol {
+			margin-bottom: 0;
+		}
 	}
 }
