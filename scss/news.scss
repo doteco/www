@@ -173,6 +173,15 @@
 		justify-content: flex-end;
 	}
 
+	.news-share {
+		font-weight: bold;
+	}
+
+	.share-link img {
+		width: auto;
+		margin: 12px;
+	}
+
 	@media (min-width: 767px) {
 		article.container,
 		.breadcrumbs.container {

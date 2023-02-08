@@ -45,6 +45,10 @@ Handlebars.registerHelper('lookupArticle', function (collection, path) {
   return collection.find(article => pagePath(article.path) === path)
 })
 
+Handlebars.registerHelper('uriencode', function (uri) {
+  return encodeURIComponent(uri)
+})
+
 Handlebars.registerHelper('typeIcon', function (typeStr) {
   switch (typeStr) {
     case 'nonprofit':
