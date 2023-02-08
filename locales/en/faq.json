@@ -42,6 +42,10 @@
   }, {
     "q": "Can I use my .eco domain with Google Workspace?",
     "a": "100%. In fact, we use Google Workspace ourselves. <a href=\"https://support.google.com/a/topic/1611273\">Google makes it easy</a> to start sending email using your new .eco domain name. One additional benefit of using Google Workspace, is that you can use your <a href=\"https://support.go.eco/en/articles/6026888-how-do-i-sign-up-for-or-sign-in-to-my-eco-profile-account\">Google-backed account to log in</a> to manage your .eco profile."
+  }, {
+    "q": "Did we answer your question?",
+    "a": "If not, don't hesitate to contact us directly by <a class=\"chat-link\" href=\"#\">chat</a> or at <span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span>."
   }
-  ]
+  ],
+  "next-cta": "What makes .eco different from other domains?"
 }

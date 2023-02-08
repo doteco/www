@@ -12,14 +12,14 @@ faq: true
 
 <link rel="preload" as="image" href="/img/windmill-sunflowers.jpg">
 
- <div class="jumbotron contact-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/windmill-sunflowers.jpg');">
+ <header class="jumbotron contact-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/windmill-sunflowers.jpg');">
 	<div class="container">
 		<h1>{{t "header"}}</h1>
-		<p>{{t "subhead"}}</p>
+		<h2 class="subheader">{{t "subhead"}}</h2>
 	</div>
-</div>
+</header>
 
-<div class="section policy">
+<section class="section policy">
 	{{#each (t "faq" returnObjects=true)}}
 	<div class="container" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 		<h2 itemprop="name">{{{q}}}</h2>
@@ -28,7 +28,14 @@ faq: true
 		</div>
 	</div>
 	{{/each}}
-</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a href="/about/system" class="btn btn-primary float-end">{{t 'next-cta'}}</a>
+			</div>
+		</div>
+	</div>
+</section>
 
 <script>
 	document.addEventListener('DOMContentLoaded', function () {
