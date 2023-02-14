@@ -147,16 +147,23 @@ window.domainSearch = function (config) {
     let resultLabel = config.resultLabels.unavailable
     if (!r.domain || r.summary === 'disallowed' || r.summary === 'invalid') {
       resultLabel = config.resultLabels.invalid
-    } else if (r.summary === 'inactive' || r.summary === 'premium' || r.status === 'available') {
+    } else if (r.summary === 'inactive' || r.summary === 'premium') {
       resultLabel = config.resultLabels.available
-    } else if (r.summary === 'reserved' || r.status === 'blocked') {
+    } else if (r.summary === 'reserved') {
       resultLabel = config.resultLabels.reserved
     }
     return resultLabel.replace(/{searchDomain}/g, searchDomain)
   }
 
   function fetchSearchResults (domain, engine) {
-    return window.fetch(config.searchUrl + '/status?engine=' + engine + (domain ? '&domain=' + domain : ''))
+    let searchUrl = config.searchUrl + '/status?'
+    if (engine) {
+      searchUrl += 'engine=' + encodeURIComponent(engine)
+    }
+    if (domain) {
+      searchUrl += 'domain=' + encodeURIComponent(domain)
+    }
+    return window.fetch(searchUrl)
   }
 
   function handleSearchError (ex) {
@@ -200,7 +207,7 @@ window.domainSearch = function (config) {
         const registrars = r.registrars || []
         addFilters(registrars)
         showRegistrars(registrars, r.domain)
-        toggleReservedForm(r.summary === 'reserved' || r.status === 'blocked', r.domain)
+        toggleReservedForm(r.summary === 'reserved', r.domain)
       })
     }).catch(handleSearchError)
   }
