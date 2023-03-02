@@ -191,7 +191,7 @@ window.domainSearch = function (config) {
     config.onSearch(domain)
     return fetchSearchResults(domain, config.searchEngine).then(response => {
       if (!response.ok) {
-        return handleSearchError(response.statusText)
+        return handleSearchError(response.status + ': ' + response.statusText + ' - ' + response.type)
       }
 
       return response.json().then(r => {
@@ -261,11 +261,17 @@ window.domainSearch = function (config) {
   if (domain) {
     search(domain)
   } else {
-    fetchSearchResults(null, config.searchEngine).then(response => response.json()).then(result => {
-      const registrars = result.registrars
-      addFilters(registrars)
-      showRegistrars(registrars)
-    }).catch(handleSearchError)
+    fetchSearchResults(null, config.searchEngine).then(response => {
+      if (!response.ok) {
+        return handleSearchError(response.status + ': ' + response.statusText + ' - ' + response.type)
+      }
+
+      return response.json().then(result => {
+        const registrars = result.registrars
+        addFilters(registrars)
+        showRegistrars(registrars)
+      }).catch(handleSearchError)
+    })
   }
 }
 
