@@ -43,9 +43,6 @@
     "q": "Can I point my .eco domain at my .eco profile?",
     "a": "Absolutely! We know that it can take some time to get a new website built and launched. In the meantime, you are welcome to use your .eco profile as a ready-made website. Most domain retailers support domain redirects as part of their DNS service. You can just redirect all traffic from your domain to your .eco public profile."
   }, {
-    "q": "Can I use .eco with a website builder?",
-    "a": "Yes, definitely. Many members of the .eco community are using .eco domains with Shopify, Squarespace, Wix, Weebly or Wordpress. This <a href=\"https://support.go.eco/en/articles/943759-do-website-builders-like-squarespace-or-wordpress-work-with-eco-domain-names\">article provides instructions</a> as to how to configure these services to work with your .eco domain."
-  }, {
     "q": "Can I use my .eco domain with Google Workspace?",
     "a": "100%. In fact, we use Google Workspace ourselves. <a href=\"https://support.google.com/a/topic/1611273\">Google makes it easy</a> to start sending email using your new .eco domain name. One additional benefit of using Google Workspace, is that you can use your <a href=\"https://support.go.eco/en/articles/6026888-how-do-i-sign-up-for-or-sign-in-to-my-eco-profile-account\">Google-backed account to log in</a> to manage your .eco profile."
   }, {

@@ -23,6 +23,7 @@
     {
       "head": "Aide",
       "items": [
+        "<a href=\"/faq/\">FAQ</a>",
         "<a href=\"/contact/\">Nous contacter</a>",
         "<a href=\"https://support.go.eco\">Assistance</a>",
         "<a href=\"http://status.bigroom.eco\">État du système</a>"
