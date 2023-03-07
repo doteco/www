@@ -65,7 +65,6 @@
 	.profile-tile {
 		display: block;
 		margin-top: 2rem;
-		height: 10rem;
 		border: 1px solid $doteco-grey;
 		border-top-left-radius: $common-border-radius;
 		border-top-right-radius: $common-border-radius;
@@ -117,7 +116,7 @@
 	}
 
 	.profile-tile-details-story {
-		min-height: 5rem;
+		min-height: 6.2rem;
 	}
 
 	.profile-tile-details__section {

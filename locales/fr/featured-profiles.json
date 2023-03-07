@@ -2,15 +2,15 @@
   {
     "domain": "mico.eco",
     "story": "<a href=\"https://mico.eco\">MiCO</a>&nbsp;, Migratory Connectivity in the Ocean, soutient les efforts mondiaux de conservation des espèces aquatiques migratrices comme les baleines et les dauphins, et les océans dont ils dépendent.",
-    "img": "https://cdn.profiles.eco/images/mico.eco/b7c970c1-c16d-4847-bece-680174edc27a_1500x500.jpeg",
+    "img": "/img/champion_logos/mico.webp",
     "type": "nonprofit",
     "location": "États-Unis",
     "priority": ""
   },
   {
     "domain": "current.eco",
-    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises cherchant à gérer leur infrastructure de recharge de véhicules électriques.",
-    "img": "https://cdn.profiles.eco/images/current.eco/3f4a0566-7df4-452d-85cd-55b325afd402_1500x500.jpeg",
+    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises qui cherchent à gérer leur infrastructure de recharge de véhicules électriques.",
+    "img": "/img/champion_logos/current.webp",
     "type": "business",
     "location": "Norvège",
     "priority": ""
@@ -18,7 +18,7 @@
   {
     "domain": "preserve.eco",
     "story": "<a href=\"https://preserve.eco\">Preserve</a>&nbsp;, une société certifiée B Corporation, fabrique des produits élégants et respectueux de l&#39;environnement pour la maison, notamment de la vaisselle réutilisable, du stockage des aliments et des produits de soins personnels, en utilisant du plastique 100 % recyclé.",
-    "img": "https://cdn.profiles.eco/images/preserve.eco/e809d85e-2f52-4e03-921c-aed2da6c7cfa_1500x500.jpeg",
+    "img": "/img/champion_logos/preserve.webp",
     "type": "business",
     "location": "États-Unis",
     "priority": ""
@@ -26,7 +26,7 @@
   {
     "domain": "leap.eco",
     "story": "<a href=\"https://leap.eco\">Leap</a> est un studio de design qui croit en la conception avec un but et en la création d&#39;un travail qui compte. En tant que BCorp, ils créent des solutions responsables qui dépassent les normes du triple résultat.",
-    "img": "https://cdn.profiles.eco/images/leap.eco/5eddd04e-44ba-4834-a737-7fa72880c7a7_1500x500.jpeg",
+    "img": "/img/champion_logos/leap.webp",
     "type": "business",
     "location": "Royaume-Uni",
     "priority": ""
@@ -34,7 +34,7 @@
   {
     "domain": "grunbag.eco",
     "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> fabrique des sacs de haute qualité qui durent, en utilisant uniquement des matériaux durables et recyclés pour réduire les déchets futurs.",
-    "img": "https://cdn.profiles.eco/images/grunbag.eco/2436f994-4fbc-4d0e-9ce0-167f630bbb01_1500x500.jpeg",
+    "img": "/img/champion_logos/grunbag.webp",
     "type": "business",
     "location": "Danemark",
     "priority": ""
@@ -42,7 +42,7 @@
   {
     "domain": "bleu.eco",
     "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et des lits écologiques en utilisant des matériaux naturels à des prix raisonnables. 3 arbres sont plantés pour chaque matelas vendu.",
-    "img": "https://cdn.profiles.eco/images/bleu.eco/cd4a2de1-a12b-4c6a-99c9-2a5b91e66926_1500x500.jpeg",
+    "img": "/img/champion_logos/bleu.webp",
     "type": "business",
     "location": "Canada",
     "priority": "5"
@@ -50,15 +50,15 @@
   {
     "domain": "ecofario.eco",
     "story": "Les microplastiques polluent nos cours d&#39;eau, nos lacs et nos océans. <a href=\"https://ecofario.eco/\">ECOFARIO</a> a développé un nouveau procédé pour réduire significativement les particules de microplastiques rejetées dans l&#39;environnement.",
-    "img": "https://cdn.profiles.eco/images/ecofario.eco/5dd35d31-21f5-47af-b7e8-a1e5e6590908_1500x500.jpeg",
+    "img": "/img/champion_logos/ecofario.webp",
     "type": "business",
     "location": "Allemagne",
     "priority": ""
   },
   {
     "domain": "goodonyou.eco",
-    "story": "Les choix d&#39;achat ont un impact énorme sur la façon dont les entreprises traitent les gens, la planète et les animaux. L&#39;application <a href=\"https://goodonyou.eco/\">Good On You vous</a> permet d&#39;acheter facilement vos valeurs.",
-    "img": "https://cdn.profiles.eco/images/goodonyou.eco/ed63cf5c-b6bc-4d7c-9440-a9bef2ae82e8_1500x500.jpeg",
+    "story": "Les choix d&#39;achat ont un impact énorme sur la façon dont les entreprises traitent les gens, la planète et les animaux. L&#39;application <a href=\"https://goodonyou.eco/\">Good On You</a> vous permet d&#39;acheter facilement vos valeurs.",
+    "img": "/img/champion_logos/goodonyou.webp",
     "type": "business",
     "location": "Australie",
     "priority": ""
@@ -66,7 +66,7 @@
   {
     "domain": "geca.eco",
     "story": "<a href=\"https://geca.eco/\">GECA (Global Environmental Choice Australia)</a> est un écolabel mondialement reconnu qui aide les acheteurs à savoir que les produits et services sont meilleurs pour l&#39;environnement.",
-    "img": "https://cdn.profiles.eco/images/geca.eco/46494a07-f049-4d1b-ad11-3326346a3db1_1500x500.jpg",
+    "img": "/img/champion_logos/geca.webp",
     "type": "nonprofit",
     "location": "Australie",
     "priority": ""
@@ -74,7 +74,7 @@
   {
     "domain": "bumboo.eco",
     "story": "<a href=\"https://bumboo.eco\">Bumboo</a> fournit du papier toilette 100 % bambou durable et plante un arbre pour chaque boîte vendue.",
-    "img": "https://cdn.profiles.eco/images/bumboo.eco/79c54365-8f28-4d74-9aba-88046da8fb8f_1500x500.jpeg",
+    "img": "/img/champion_logos/bumboo.webp",
     "type": "business",
     "location": "Royaume-Uni",
     "priority": ""
@@ -82,7 +82,7 @@
   {
     "domain": "boox.eco",
     "story": "<a href=\"https://boox.eco\">Boox</a> est une B-corp certifiée qui fabrique des emballages réutilisables. Avec Boox, vous pouvez facilement retourner l&#39;emballage contenant votre commande pour qu&#39;il soit réutilisé.",
-    "img": "https://cdn.profiles.eco/images/boox.eco/bf2f788c-3cc2-4046-abcb-39f2abb627e6_1500x500.png",
+    "img": "/img/champion_logos/boox.webp",
     "type": "business",
     "location": "États-Unis",
     "priority": ""
@@ -90,7 +90,7 @@
   {
     "domain": "nuvola.eco",
     "story": "<a href=\"https://nuvola.eco\">Nuvola</a> est un guichet unique pour l&#39;achat de produits de beauté et de soins de la peau zéro déchet, durables, végétaliens et sans cruauté.",
-    "img": "https://cdn.profiles.eco/images/nuvola.eco/6a6f7553-3ef1-4016-b3aa-fad68f66413a_1500x500.jpeg",
+    "img": "/img/champion_logos/nuvola.webp",
     "type": "business",
     "location": "Suisse",
     "priority": "6"
@@ -98,7 +98,7 @@
   {
     "domain": "brightly.eco",
     "story": "<a href=\"https://brightly.eco\">Brightly</a> est la destination n°1 pour que les gens découvrent de nouvelles marques et produits respectueux de l&#39;environnement. Brightly inspire actuellement des millions d&#39;utilisateurs chaque jour à vivre des modes de vie durables.",
-    "img": "https://cdn.profiles.eco/images/brightly.eco/110cc41c-b762-405e-bc24-ca4d4b300dc7_1500x500.jpeg",
+    "img": "/img/champion_logos/brightly.webp",
     "type": "business",
     "location": "États-Unis",
     "priority": "4"
@@ -106,7 +106,7 @@
   {
     "domain": "kusala.eco",
     "story": "<a href=\"https://kusala.eco\">Kusala</a> produit du savon artisanal avec un bon karma fait pour une économie circulaire.",
-    "img": "https://cdn.profiles.eco/images/kusala.eco/634b3ac4-e1d3-44a0-9a0a-dfef9e8f44d8_1500x500.jpeg",
+    "img": "/img/champion_logos/kusala.webp",
     "type": "business",
     "location": "Pays-Bas",
     "priority": ""
@@ -114,7 +114,7 @@
   {
     "domain": "ducky.eco",
     "story": "<a href=\"https://ducky.eco\">Ducky</a> développe des outils numériques pour aider les personnes et les organisations à changer leurs comportements et à réduire leur empreinte carbone.",
-    "img": "https://cdn.profiles.eco/images/ducky.eco/04b88bb6-ade5-4559-9889-bcb2be6d6029_1500x500.png",
+    "img": "/img/champion_logos/ducky.webp",
     "type": "business",
     "location": "Norvège",
     "priority": ""
@@ -130,15 +130,15 @@
   {
     "domain": "dragonfly.eco",
     "story": "<a href=\"https://dragonfly.eco\">Dragonfly.eco</a> catalogue et organise des éco-fictions qui explorent des thèmes environnementaux.",
-    "img": "/img/champion_logos/dragonfly-eco.png",
+    "img": "/img/champion_logos/dragonfly-eco.webp",
     "type": "individual",
     "location": "Canada",
     "priority": ""
   },
   {
     "domain": "zeroco2.eco",
-    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> est une B Corp qui aide les particuliers et les entreprises à atténuer la crise climatique en soutenant des projets de reforestation qui permettent le développement durable de communautés agricoles entières vivant sur des terres reboisées.",
-    "img": "https://cdn.profiles.eco/images/zeroco2.eco/1741881d-1160-403b-8934-b268db98b711_1500x500.webp",
+    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> est une B Corp qui aide les particuliers et les entreprises à atténuer la crise climatique en soutenant des projets de reboisement qui permettent le développement durable de communautés agricoles entières vivant sur des terres reboisées.",
+    "img": "/img/champion_logos/zeroco2.webp",
     "type": "business",
     "location": "Italie",
     "priority": "1"
@@ -146,7 +146,7 @@
   {
     "domain": "terrabyte.eco",
     "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> est une entreprise de technologie verte axée sur la combinaison de la créativité et de la technologie pour fournir des solutions aux crises environnementales en cours.",
-    "img": "https://cdn.profiles.eco/images/terrabyte.eco/50484dff-2574-42b2-96b3-d665e201255e_1500x500.webp",
+    "img": "/img/champion_logos/terrabyte.webp",
     "type": "business",
     "location": "États-Unis",
     "priority": ""
@@ -162,7 +162,7 @@
   {
     "domain": "aem.eco",
     "story": "<a href=\"https://aem.eco\">AEM</a> permet aux communautés et aux organisations de survivre et de prospérer face à l&#39;escalade des risques environnementaux. En déployant des réseaux de détection et en fournissant des analyses, AEM est la source essentielle d&#39;informations environnementales.",
-    "img": "https://cdn.profiles.eco/images/aem.eco/de56cc07-87d9-46f8-b9b6-e0e2432e093c_1500x500.webp",
+    "img": "/img/champion_logos/aem.webp",
     "type": "business",
     "location": "États-Unis",
     "priority": "2"
@@ -170,7 +170,7 @@
   {
     "domain": "pirkani.eco",
     "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> est une marque avant-gardiste avec une différence. Avec la durabilité au cœur de nos préoccupations, nous nous sommes donné pour mission de produire de manière éthique une mode britannique contemporaine avec une esthétique de design minimaliste.",
-    "img": "/img/champion_logos/pirkani2.webp",
+    "img": "/img/champion_logos/pirkani3.webp",
     "type": "business",
     "location": "Royaume-Uni",
     "priority": ""
