@@ -15,8 +15,19 @@
 	}
 
 	.section-contact {
+		p,
+		li {
+			font-size: 18px;
+			line-height: 28px;
+		}
+
+		h3 {
+			font-size: 22px;
+			margin-bottom: 1rem;
+		}
+
 		.col-md-6 {
-			margin-top: 4rem;
+			margin-bottom: 1rem;
 		}
 	}
 

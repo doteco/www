@@ -3,15 +3,15 @@
   "description": "Contact the .eco domain registry with questions about registering or activating a .eco domain.",
   "head": "Contact us",
   "support": {
-    "head": "Support requests",
+    "head": "Need help?",
     "text": [
-			"<p>If you need help registering a .eco domain name or have any other questions, <a id=\"chat-link\">feel free to chat with us</a>.</p>",
+			"<p>If you need help registering a .eco domain name or have any other questions, <a id=\"chat-link\" href=\"#\">feel free to chat with us</a>.</p>",
 			"<p>You can also visit the <a href=\"https://support.go.eco\">.eco support site</a> to find answers to common questions.</p>",
 			"<p>To contact us by email, write to: <span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span>.</p>"
     ]
   },
   "contact": {
-    "head": "Contact the .eco Registry",
+    "head": "Contact .eco",
     "text": "The .eco top-level domain is operated by Big Room Inc.",
     "address": [
       "1231 Pacific Boulevard, Suite 581",
