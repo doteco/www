@@ -37,7 +37,7 @@ exclude: true
 
 <div class="section registrars-priority" hidden>
   <div class="container">
-    <h3 class="registars-header">{{t "registrars.head1"}}</h3>
+    <h2 class="registars-header">{{t "registrars.head1"}}</h2>
     <div class="row registrars-row">
     </div>
   </div>
@@ -45,8 +45,18 @@ exclude: true
 
 <div class="section registrars-all inverted" hidden>
   <div class="container">
-    <h3 class="registars-header">{{t "registrars.head2"}}</h3>
+    <h2 class="registars-header">{{t "registrars.head2"}}</h2>
     <div class="row registrars-filter">
+      <div class="row registrars-filter-row"></div>
+      {{{t "greenRetailers"}}}
+      <details class="registrars-promo">
+        <summary>{{t "promos.header" }}</summary>
+        <ul>
+        {{#each (t "promos.items" returnObjects=true)}}
+        <li>{{{this}}}</li>
+        {{/each}}
+        </ul>
+      </details>
     </div>
     <div class="row registrars-row">
     </div>

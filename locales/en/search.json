@@ -22,9 +22,9 @@
     "envPolicy": "Eco-friendly &#x1F33F;",
     "language": "Language",
     "currency": "Currency",
-    "noRegistrars": "<p class=\"no-registrars\">No retailers currently match these filter criteria.</p>",
-    "greenRetailers": "<p class=\"registrars-green-retailers\"><a href=\"/news/finding-a-green-domain-retailer/\" target=\"_blank\">Learn more about environmentally-friendly .eco retailers &#x1F33F</a></p>"
+    "noRegistrars": "<p class=\"no-registrars\">No retailers currently match these filter criteria.</p>"
   },
+  "greenRetailers": "<p class=\"registrars-green-retailers\"><a href=\"/news/finding-a-green-domain-retailer/\" target=\"_blank\">Learn more about environmentally-friendly .eco retailers &#x1F33F</a></p>",
   "filterHelp": {
     "region": "The main regions where this retailer operates.",
     "envPolicy": "Is this retailer environmental-friendly?",
@@ -51,5 +51,12 @@
   },
   "policy": {
     "Yes": "Yes &#x1F33F;"
+  },
+  "promos": {
+    "header": "📣 Current .eco promotions 📣",
+    "items": [
+      "<strong>Google Domains</strong> is giving up to 20% off .eco registrations with coupon code NEW2023. <a href=\"https://support.google.com/domains/answer/11182799\">See terms</a>.",
+      "<a href=\"https://www.nominus.com/en/dm/eco-domain-names\">Nominus</a> is selling .eco domains for $49.99 for the first year."
+    ]
   }
 }

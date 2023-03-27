@@ -43,6 +43,7 @@
 
 #doteco .registars-header {
 	text-align: center;
+	margin-bottom: 3rem;
 }
 
 #doteco .domain-reserved h3 {
@@ -55,8 +56,12 @@
 	border-radius: 5px;
 }
 
+.registrars-filter-row {
+	padding: 2rem 0 1rem 2rem;
+}
+
 .registrar-filter {
-	padding: 2rem;
+	margin-bottom: 1rem;
 }
 
 .registrar-filter label {
@@ -65,24 +70,30 @@
 }
 
 .registrar-select {
-	min-width: 12rem;
-}
-
-@media (min-width: 768px) {
-	.registrar-select {
-		min-width: 8rem;
-	}
-}
-
-@media (min-width: 992px) {
-	.registrar-select {
-		min-width: 12rem;
-	}
+	width: 100%;
 }
 
 .registrars-green-retailers {
 	padding: 0 2rem;
 	font-weight: bold;
+}
+
+.registrars-promo {
+	padding: 0 2rem 2rem 2rem;
+
+	summary {
+		font-weight: bold;
+	}
+
+	ul {
+		background-color: $doteco-marrow;
+		border-radius: 5px;
+		padding: 0.5rem;
+	}
+
+	li {
+		margin-left: 1rem;
+	}
 }
 
 .registrar-button {

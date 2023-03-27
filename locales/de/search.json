@@ -5,9 +5,9 @@
     "envPolicy": "Umweltfreundlich",
     "language": "Sprache",
     "region": "Region",
-    "noRegistrars": "<p class=\"no-registrars\">Derzeit entspricht kein Händler diesen Filterkriterien.</p>",
-    "greenRetailers": ""
+    "noRegistrars": "<p class=\"no-registrars\">Derzeit entspricht kein Händler diesen Filterkriterien.</p>"
   },
+  "greenRetailers": "",
   "filterHelp": {
     "region": "Die Hauptregionen, in denen dieser Einzelhändler tätig ist.",
     "envPolicy": "Ist dieser Händler umweltfreundlich?",
@@ -16,6 +16,13 @@
   },
   "policy": {
     "Yes": "Ja &#x1F33F;"
+  },
+  "promos": {
+    "header": "📣 Aktuelle .eco-Aktionen 📣",
+    "items": [
+      "<a href=\"https://greenwebspace.com/klima-und-umweltschutz/ecogood-domains/\">GreenWebspace</a> bietet 10 % Rabatt auf .eco-Domains",
+      "<strong>Google Domains</strong> gewährt bis zu 20 % Rabatt auf .eco-Registrierungen mit dem Gutscheincode NEW2023. <a href=\"https://support.google.com/domains/answer/11182799\">Siehe Bedingungen</a>."
+    ]
   },
   "region": {
     "Africa": "Afrika",

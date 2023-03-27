@@ -22,9 +22,9 @@
     "envPolicy": "Écoresponsable",
     "language": "Langue",
     "currency": "Devise",
-    "noRegistrars": "<p class=\"no-registrars\">Aucun revendeur ne correspond actuellement à ces critères de filtrage.</p>",
-    "greenRetailers": ""
+    "noRegistrars": "<p class=\"no-registrars\">Aucun revendeur ne correspond actuellement à ces critères de filtrage.</p>"
   },
+  "greenRetailers": "",
   "filterHelp": {
     "region": "Les principales régions où opère ce revendeur.",
     "envPolicy": "Ce revendeur est-il respectueux de l'environnement ?",
@@ -51,5 +51,11 @@
   },
   "policy": {
     "Yes": "Oui &#x1F33F;"
+  },
+  "promos": {
+    "header": "📣 Promotions .eco en cours 📣",
+    "items": [
+      "<strong>Google Domains</strong> offre jusqu'à 20 % de réduction sur les enregistrements .eco avec le code promo NEW2023. <a href=\"https://support.google.com/domains/answer/11182799\">Voir conditions</a>."
+    ]
   }
 }

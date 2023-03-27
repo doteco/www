@@ -4,7 +4,7 @@ window.domainSearch = function (config) {
   function registrarLogoDiv (registrar, domain, languageFilter) {
     const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + (domain ? '&domain=' + encodeURIComponent(domain) : '') + (languageFilter ? '&lang=' + encodeURIComponent(languageFilter) : '')
     const greenLabel = registrar.envPolicy ? `<span class="registrar-green" title="${config.filterLabels.envPolicy}">&#x1F33F</span>` : ''
-    return `<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="${registrar.label}" class="registrar-logo" loading="lazy" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
+    return `<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link" title="Register .eco domain at ${registrar.label}"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="" class="registrar-logo" loading="lazy" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
   }
 
   function generateFilterHtml (id, defaultItem, items, defaultValue, helpText) {
@@ -74,8 +74,7 @@ window.domainSearch = function (config) {
   }
 
   function addFilters (registrars) {
-    const registrarsFilterRow = document.querySelector('.registrars-filter')
-    registrarsFilterRow.innerHTML = config.filterLabels.greenRetailers
+    const registrarsFilterRow = document.querySelector('.registrars-filter-row')
 
     const languages = uniqueFilterItems(registrars, 'languages')
     const currencies = uniqueFilterItems(registrars, 'currencies')
@@ -124,7 +123,7 @@ window.domainSearch = function (config) {
     priorityRegistrars = priorityRegistrars.slice(0, 6)
 
     toggleVisibility(document.querySelector('.registrars-priority'), priorityRegistrars.length)
-    const priorityRegistrarsRow = document.querySelector('.registrars-priority .row')
+    const priorityRegistrarsRow = document.querySelector('.registrars-priority .registrars-row')
     priorityRegistrarsRow.innerHTML = ''
     priorityRegistrars.forEach(registrar => {
       priorityRegistrarsRow.insertAdjacentHTML('beforeend', registrarLogoDiv(registrar, domain, languageFilter))
