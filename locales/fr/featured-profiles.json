@@ -9,7 +9,7 @@
   },
   {
     "domain": "current.eco",
-    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises qui cherchent à gérer leur infrastructure de recharge de véhicules électriques.",
+    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises cherchant à gérer leur infrastructure de recharge de véhicules électriques.",
     "img": "/img/champion_logos/current.webp",
     "type": "business",
     "location": "Norvège",
@@ -122,7 +122,7 @@
   {
     "domain": "carboncopy.eco",
     "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> est une organisation caritative britannique qui inspire une action climatique locale visionnaire pour accélérer nos progrès vers un avenir plus juste et sans carbone.",
-    "img": "/img/champion_logos/carboncopy-hero.jpg",
+    "img": "/img/champion_logos/carboncopy-hero.webp",
     "type": "nonprofit",
     "location": "Royaume-Uni",
     "priority": ""
@@ -137,7 +137,7 @@
   },
   {
     "domain": "zeroco2.eco",
-    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> est une B Corp qui aide les particuliers et les entreprises à atténuer la crise climatique en soutenant des projets de reboisement qui permettent le développement durable de communautés agricoles entières vivant sur des terres reboisées.",
+    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> est une B Corp qui aide les particuliers et les entreprises à atténuer la crise climatique en soutenant des projets de reforestation qui permettent le développement durable de communautés agricoles entières vivant sur des terres reboisées.",
     "img": "/img/champion_logos/zeroco2.webp",
     "type": "business",
     "location": "Italie",

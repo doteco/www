@@ -161,6 +161,10 @@ const ms = Metalsmith(__dirname)
       sortBy: 'pubdate',
       reverse: true,
       refer: false
+    },
+    studies: {
+      sortBy: 'title',
+      refer: false
     }
   }))
   .use(inplace({
