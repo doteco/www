@@ -1,16 +1,12 @@
 {
   "extends": "stylelint-config-standard-scss",
   "rules": {
-    "color-hex-case": null,
     "declaration-no-important": true,
     "font-family-name-quotes": "always-where-recommended",
     "function-url-quotes": "always",
-    "indentation": "tab",
     "max-nesting-depth": 3,
     "selector-attribute-quotes": "always",
-    "selector-list-comma-newline-after": "always-multi-line",
     "selector-max-compound-selectors": 3,
-    "string-quotes": "single",
     "color-function-notation": "legacy",
     "alpha-value-notation": "number",
     "selector-class-pattern": null

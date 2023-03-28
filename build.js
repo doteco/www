@@ -188,6 +188,7 @@ const ms = Metalsmith(__dirname)
   }))
   .use(redirect({
     frontmatter: true,
+    noindex: false,
     redirections: {
       '/registrars/policies/': '/policies/',
       '/registrars/funding/': '/registrars/',

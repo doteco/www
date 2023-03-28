@@ -24,7 +24,7 @@
     "currency": "Currency",
     "noRegistrars": "<p class=\"no-registrars\">No retailers currently match these filter criteria.</p>"
   },
-  "greenRetailers": "<p class=\"registrars-green-retailers\"><a href=\"/news/finding-a-green-domain-retailer/\" target=\"_blank\">Learn more about environmentally-friendly .eco retailers &#x1F33F</a></p>",
+  "greenRetailers": "<p class=\"registrars-green-retailers\"><a href=\"/news/finding-a-green-domain-retailer/\" target=\"_blank\">Learn more about environmentally-friendly .eco retailers &#x1F33F;</a></p>",
   "filterHelp": {
     "region": "The main regions where this retailer operates.",
     "envPolicy": "Is this retailer environmental-friendly?",

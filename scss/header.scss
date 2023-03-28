@@ -6,6 +6,7 @@
 		padding: 0.5rem;
 		font-size: 1rem;
 		background-color: $doteco-citrine;
+
 		a {
 			color: $doteco-charcoal;
 		}
@@ -20,12 +21,12 @@
 			padding: 1rem;
 		}
 
-		.navbar-toggle:focus {
-			background-color: $doteco-ruby;
-		}
-
 		.navbar-toggle {
 			border-color: white;
+		}
+
+		.navbar-toggle:focus {
+			background-color: $doteco-ruby;
 		}
 
 		.navbar-toggle:hover {
@@ -97,12 +98,12 @@
 			box-shadow: none;
 		}
 
-		.navbar-toggler.collapsed {
-			background-color: transparent;
+		.navbar-toggler-icon, .navbar-toggler-icon:hover {
+			background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28159, 23, 68, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 		}
 
-		.navbar-toggler-icon:hover, .navbar-toggler-icon {
-			background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28159, 23, 68, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+		.navbar-toggler.collapsed {
+			background-color: transparent;
 		}
 
 		.navbar-toggler.collapsed .navbar-toggler-icon {

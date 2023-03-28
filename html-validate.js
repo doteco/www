@@ -12,6 +12,8 @@ const skipFiles = [
   'public/names/premiums/index.html',
   'public/infographic/100days/index.html',
   'public/partners/institute-of-public-environmental-affairs/index.html',
+  'public/studies/goodonyou/index.html',
+  'public/studies/koala/index.html',
   'public/studies/studyabroad/index.html',
   'public/studies/voltstack/index.html',
   'public/studies/vonwong/index.html',
