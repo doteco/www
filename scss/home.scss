@@ -193,6 +193,18 @@
 	.home-orgs {
 		.logos {
 			margin-top: 3em;
+
+			.img-responsive {
+				fill: $doteco-charcoal;
+			}
+
+			.logo-greenpeace {
+				margin-top: 2.5rem;
+			}
+
+			div {
+				padding: 0 1rem;
+			}
 		}
 
 		.logo-70 {
@@ -208,12 +220,12 @@
 		}
 
 		@media (min-width: 768px) {
-			.logo-80-md {
-				width: 80%;
+			.logo-90-md {
+				width: 90%;
 			}
 
-			.logo-50-md {
-				width: 50%;
+			.logo-55-md {
+				width: 55%;
 			}
 		}
 	}
