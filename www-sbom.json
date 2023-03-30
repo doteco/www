@@ -3416,65 +3416,6 @@
    }
   },
   {
-   "id": "f1db683184d672c8",
-   "name": "bootstrap-validator",
-   "version": "0.11.9",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "package-lock.json"
-    }
-   ],
-   "licenses": [
-    "MIT"
-   ],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:bootstrap-validator:bootstrap-validator:0.11.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:bootstrap-validator:bootstrap_validator:0.11.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:bootstrap_validator:bootstrap-validator:0.11.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:bootstrap_validator:bootstrap_validator:0.11.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:bootstrap:bootstrap-validator:0.11.9:*:*:*:*:*:*:*",
-    "cpe:2.3:a:bootstrap:bootstrap_validator:0.11.9:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/bootstrap-validator@0.11.9",
-   "metadataType": "NpmPackageLockJsonMetadata",
-   "metadata": {
-    "resolved": "https://registry.npmjs.org/bootstrap-validator/-/bootstrap-validator-0.11.9.tgz",
-    "integrity": "sha512-BJlnaTeFNr5+SNtZ71DNaiFx7qY0X2c7m/KvZE1GiVXbyD8PihJlALvS6TeRGUs8mY8qga/LrhG80N9dw8UWqA=="
-   }
-  },
-  {
-   "id": "8db00af0c7fab28a",
-   "name": "boto",
-   "version": "2.20.0",
-   "type": "python",
-   "foundBy": "python-index-cataloger",
-   "locations": [
-    {
-     "path": "node_modules/bootstrap-validator/sandbox/bootstrap/test-infra/requirements.txt"
-    }
-   ],
-   "licenses": [],
-   "language": "python",
-   "cpes": [
-    "cpe:2.3:a:python-boto:python-boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:python-boto:python_boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:python_boto:python-boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:python_boto:python_boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:python:python-boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:python:python_boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:boto:python-boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:boto:python_boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:python-boto:boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:python_boto:boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:python:boto:2.20.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:boto:boto:2.20.0:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:pypi/boto@2.20.0"
-  },
-  {
    "id": "5a34efcf67357245",
    "name": "brace-expansion",
    "version": "1.1.11",
@@ -3960,9 +3901,9 @@
    }
   },
   {
-   "id": "2cb8d43609f92aec",
+   "id": "85d8b563c9585505",
    "name": "caniuse-lite",
-   "version": "1.0.30001472",
+   "version": "1.0.30001473",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -3975,18 +3916,18 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:caniuse-lite:caniuse-lite:1.0.30001472:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse-lite:caniuse_lite:1.0.30001472:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse_lite:caniuse-lite:1.0.30001472:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse_lite:caniuse_lite:1.0.30001472:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse:caniuse-lite:1.0.30001472:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse:caniuse_lite:1.0.30001472:*:*:*:*:*:*:*"
+    "cpe:2.3:a:caniuse-lite:caniuse-lite:1.0.30001473:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse-lite:caniuse_lite:1.0.30001473:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse_lite:caniuse-lite:1.0.30001473:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse_lite:caniuse_lite:1.0.30001473:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse:caniuse-lite:1.0.30001473:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse:caniuse_lite:1.0.30001473:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/caniuse-lite@1.0.30001472",
+   "purl": "pkg:npm/caniuse-lite@1.0.30001473",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001472.tgz",
-    "integrity": "sha512-xWC/0+hHHQgj3/vrKYY0AAzeIUgr7L9wlELIcAvZdDUHlhL/kNxMdnQLOSOQfP8R51ZzPhmHdyMkI0MMpmxCfg=="
+    "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001473.tgz",
+    "integrity": "sha512-ewDad7+D2vlyy+E4UJuVfiBsU69IL+8oVmTuZnH5Q6CIUbxNfI50uVpRHbUPDD6SUaN2o0Lh4DhTrvLG/Tn1yg=="
    }
   },
   {
@@ -6559,9 +6500,9 @@
    }
   },
   {
-   "id": "93b46e7ee28bbff0",
+   "id": "b61231d1fccbbf08",
    "name": "electron-to-chromium",
-   "version": "1.4.342",
+   "version": "1.4.347",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -6574,22 +6515,22 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:electron-to-chromium:electron-to-chromium:1.4.342:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to-chromium:electron_to_chromium:1.4.342:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to_chromium:electron-to-chromium:1.4.342:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to_chromium:electron_to_chromium:1.4.342:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to:electron-to-chromium:1.4.342:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to:electron_to_chromium:1.4.342:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to:electron-to-chromium:1.4.342:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to:electron_to_chromium:1.4.342:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron:electron-to-chromium:1.4.342:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron:electron_to_chromium:1.4.342:*:*:*:*:*:*:*"
+    "cpe:2.3:a:electron-to-chromium:electron-to-chromium:1.4.347:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to-chromium:electron_to_chromium:1.4.347:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to_chromium:electron-to-chromium:1.4.347:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to_chromium:electron_to_chromium:1.4.347:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to:electron-to-chromium:1.4.347:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to:electron_to_chromium:1.4.347:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to:electron-to-chromium:1.4.347:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to:electron_to_chromium:1.4.347:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron:electron-to-chromium:1.4.347:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron:electron_to_chromium:1.4.347:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/electron-to-chromium@1.4.342",
+   "purl": "pkg:npm/electron-to-chromium@1.4.347",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.342.tgz",
-    "integrity": "sha512-dTei3VResi5bINDENswBxhL+N0Mw5YnfWyTqO75KGsVldurEkhC9+CelJVAse8jycWyP8pv3VSj4BSyP8wTWJA=="
+    "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.347.tgz",
+    "integrity": "sha512-LNi3+/9nV0vT6Bz1OsSoZ/w7IgNuWdefZ7mjKNjZxyRlI/ag6uMXxsxAy5Etvuixq3Q26exw2fc4bNYvYQqXSw=="
    }
   },
   {
@@ -26967,11 +26908,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "2cb8d43609f92aec",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "2cb96d8a67fafc54",
    "type": "contains"
   },
@@ -28632,6 +28568,11 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "85d8b563c9585505",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "85da86e4cb87abd9",
    "type": "contains"
   },
@@ -28877,11 +28818,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "8db00af0c7fab28a",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "8df0fe4694f33b1f",
    "type": "contains"
   },
@@ -28983,11 +28919,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "93a4061360a81aea",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "93b46e7ee28bbff0",
    "type": "contains"
   },
   {
@@ -29643,6 +29574,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "b5f7fbda5be49157",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b61231d1fccbbf08",
    "type": "contains"
   },
   {
@@ -30768,11 +30704,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "f19edc9ce3987dc0",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "f1db683184d672c8",
    "type": "contains"
   },
   {

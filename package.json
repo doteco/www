@@ -62,7 +62,6 @@
   "homepage": "https://github.com/doteco/www#readme",
   "dependencies": {
     "@sentry/browser": "6.19.7",
-    "bootstrap": "5.2.3",
-    "bootstrap-validator": "0.11.9"
+    "bootstrap": "5.2.3"
   }
 }
