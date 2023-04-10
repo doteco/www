@@ -1,6 +1,10 @@
 #doteco {
 	color: $doteco-charcoal;
 
+	.logo-white {
+		filter: brightness(0) invert(1);
+	}
+
 	.top-banner {
 		text-align: center;
 		padding: 0.5rem;

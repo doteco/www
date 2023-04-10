@@ -7,7 +7,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="{{description}}">
 	<meta name="keywords" content="{{t "global:keywords" }}">
 	<meta name="author" content="BigRoom.eco">
@@ -36,14 +36,15 @@
 	<link rel="stylesheet" href="/css/bootstrap/5.2.3/bootstrap.min.css">
 	<link rel="stylesheet" href="/{{ fingerprint.[css/main.css] }}">
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 	<link rel="manifest" href="/site-v1.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#9f1744">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#9F1744">
+	<meta name="msapplication-TileColor" content="#9F1744">
 	<meta name="theme-color" content="#ffffff">
+
 	<link rel="canonical" href="{{site-url}}/{{page-path}}">
-	<script src="/js/sentry/6.19.7/bundle.min.js" defer="true"></script>
+	<script defer src="/js/sentry/6.19.7/bundle.min.js"></script>
 	<script>
 	if (typeof Sentry !== 'undefined') {
 		Sentry.init({
@@ -70,7 +71,7 @@
 		"name": ".eco",
 		"legalName" : "Big Room Inc.",
 		"url": "{{site-url}}",
-		"logo": "{{site-url}}/android-chrome-512x512.png",
+		"logo": "{{site-url}}/img/doteco-logo.svg",
 		"foundingDate": "2007",
 		"founders": [{
 			"@type": "Person",
@@ -108,11 +109,13 @@
 		],
 		"url": "{{site-url}}/{{page-path}}",
 		"datePublished": "{{isoDate pubdate}}",
+		"dateModified": "{{isoDate update}}",
 		"headline": "{{title}}",
 		"description": "{{excerpt}}",
 		"author": {
-			"@type": "Person",
-			"name": "{{author}}"
+			"@type": "Organization",
+			"name": ".eco",
+			"url": "{{site-url}}"
 		},
 		"publisher": {
 			"@type": "Organization",
@@ -120,7 +123,7 @@
 			"url": "https://go.eco",
 			"logo": {
 				"@type": "ImageObject",
-				"url": "{{site-url}}/android-chrome-512x512.png"
+				"url": "{{site-url}}/img/doteco-logo.svg"
 			}
 		},
 		"mainEntityOfPage": "{{site-url}}/{{page-path}}"
