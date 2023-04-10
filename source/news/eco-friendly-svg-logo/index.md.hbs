@@ -1,0 +1,80 @@
+---
+collection: news
+title: "Why you need an SVG logo"
+excerpt: Make your website more eco-friendly by using an SVG logo
+description: "One super simple and quick way to make your website more eco-friendly is to use an SVG version of your logo. We explain why and give 5 tips on how to do it."
+header-img: /img/news/eco.webp
+pubdate: 2023-04-10
+author: Eco Domain (.eco)
+layout: article.hbs
+og-image: opengraph/eco-og.webp
+og-width: 1200
+og-height: 630
+page-path: news/eco-friendly-svg-logo/
+---
+
+# {{excerpt}}
+
+![Pencil sketch background under .eco]({{header-img}})
+
+Here’s one super simple and quick way to make your website more eco-friendly: use an SVG version of your logo. What does that mean and how does it help? Read on to find out.
+
+### What is an SVG?
+
+SVG stands for Scalable Vector Graphics. It is based on an [open standard](https://www.w3.org/TR/SVG/) that uses a text-based language (XML) to describe the image. It’s a type of image format that defines an image using lines and shapes. It’s ideal for logos, as most logos are a relatively simple combination of letters and shapes and few colors.
+
+One great thing about vector graphics is that they can be resized without pixelation or loss of image fidelity. They also produce tiny image files - much smaller than what can generally be achieved with bitmap images, like jpeg or png. SVG files have been [well supported by web browsers](https://caniuse.com/svg) for a while now so they’re safe to use. And they have some more advanced capabilities like animations and restyling in the browser using CSS.
+
+### How do SVGs make my website more eco-friendly?
+
+The [climate impact of a website](/news/carbon-footprint-2022/) scales with the amount of data it needs to download to render a web page. By reducing the size of the files used by your website, you can reduce its impact.
+
+As mentioned above, SVG files are tiny - so it’s beneficial to use them wherever possible. Logos are ideally suited to use the SVG format as they are composed of lines and shapes. The image editor that was used to produce your logo ([Adobe Illustrator or Photoshop](https://www.adobe.com/creativecloud/file-types/image/vector/svg-file.html), [Canva](https://www.canva.com/features/svg-editor/), etc) should be able to export an SVG file.
+
+Logos tend to be used broadly on a web site:
+- You probably have your logo in your web page header and footer.
+- Your logo is likely used as a [favicon](https://en.wikipedia.org/wiki/Favicon) (the image that shows in the browser tab or when the page is bookmarked).
+- You may have it available to download as a brand asset. 
+- You may have your logo file included in your website semantic metadata or referenced in your website manifest. 
+
+In all, we counted over **10** distinct uses of our logo on our website.
+
+One nice thing about SVGs is their flexibility. They scale effectively regardless of screen resolution or device size. You can recolor them in the browser, so you can use the same image even if you need to render them against a dark or light background. And most browsers support [using SVGs as favicons](https://css-tricks.com/svg-favicons-in-action/) ([come on Safari!](https://caniuse.com/link-icon-svg)). So not only are the files small, but you can also eliminate the download of multiple different files by using a single file that can be cached in the browser.
+
+Moreover, your logo is probably all over the Internet. A copy of it will be stored by search engines and shown on every search results page that links to your website. It may be used on partner websites. Logos tend to be ubiquitous. So the impact of using an SVG is multiplied beyond just your own website. 
+
+### Tips on using SVGs effectively
+
+Here are 5 additional tips on getting the most out of your SVG logo.
+
+#### 1. Compress your SVGs
+
+Unfortunately, most image editors don’t do a very good job of producing a compact SVGs file when they export an image. They tend to include lots of unnecessary markup. There are tools like [SVGO](https://github.com/svg/svgo) that strip a lot of this unneeded markup. This could reduce the file size by up to **50%**.
+
+With SVG being a text-based format, it’s well suited to being compressed by the web server before sending it across the Internet - assuming that the web server used to serve your website is configured to use file compression. This can generate an additional **40%-50%** reduction in file size.
+
+#### 2. Support dark mode
+
+These days, most operating systems, such as Windows and MacOS, support [dark mode](https://en.wikipedia.org/wiki/Light-on-dark_color_scheme) as do most browsers. Increasingly many websites are also allowing visitors to toggle on dark mode or respond to the browser’s dark mode preference.
+
+Many people choose to use dark mode to reduce eye strain, but it has an additional environmental benefit. Much of the energy used by your laptop or smartphone is used to power the screen. By using dark mode, you can reduce the energy use of your device by as much as **80%**. Given that burning fossil fuels to generate electricity is a key driver of climate change, using and supporting dark mode is a great way to lower your impact.
+
+Dark mode does produce a design challenge though. It means that the website design needs to render content effectively against a dark background as well as a light one. This is especially important for a favicon which is rendered in the browser tab or menus. [This article](https://css-tricks.com/svg-favicons-in-action/) explains how to modify your SVG to respond to dark mode preference.
+
+#### 3. Using an SVG favicon
+
+Favicons are [surprisingly complicated to get right](https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7). Fortunately, there are free tools, such as the [RealFaviconGenerator](https://realfavicongenerator.net/), that cover the variability of different browsers and operating systems. Traditional favicons use bitmap file formats such as .ico or .png that require generating images at different sizes (16x16, 32x32, 48x48, 192x192, etc). By supplying an SVG image to these tools help ensure that these images will be generated without any loss of fidelity. They have an [SVG-specific version of the tool](https://realfavicongenerator.net/svg-favicon/) that will help generate an SVG favicon that supports dark mode (as described above).
+
+#### 4. Recolor SVGs using CSS Filters
+
+Often it’s necessary to produce different colored versions of your logo, such as a version that renders against a light background or against a dark background or in greyscale. This can be achieved using CSS filters or styles. You can produce a standard version of your SVG and then recolor it in the browser to achieve the effect you want. This [article explains how](https://css-tricks.com/solved-with-css-colorizing-svg-backgrounds/).
+
+#### 5. Use your SVG logo on your .eco profile
+
+You can also use the SVG version of your logo as the header image on your [.eco profile](https://profiles.eco)! This helps keep your .eco profile efficient. Give it a try!
+
+### Wrapping up
+
+If you currently serve your logo on your website as a PNG or GIF, give SVG a try! [Let us know](mailto:support@bigroom.eco) if it works for you or if you have any additional tips and tricks to try.
+
+
