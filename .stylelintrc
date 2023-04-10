@@ -2,7 +2,7 @@
   "extends": "stylelint-config-standard-scss",
   "rules": {
     "declaration-no-important": true,
-    "font-family-name-quotes": "always-where-recommended",
+    "font-family-name-quotes": "always-unless-keyword",
     "function-url-quotes": "always",
     "max-nesting-depth": 3,
     "selector-attribute-quotes": "always",
