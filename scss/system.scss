@@ -144,7 +144,7 @@
 		align-items: center;
 	}
 
-	@media (min-width: 767px) {
+	@media (width >= 767px) {
 		// do not stack on desktop
 		.grid__cell {
 			flex: 1 1 0%; // let autosize based on siblings

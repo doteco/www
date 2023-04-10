@@ -182,7 +182,7 @@
 		margin: 12px;
 	}
 
-	@media (min-width: 767px) {
+	@media (width >= 767px) {
 		article.container,
 		.breadcrumbs.container {
 			width: 700px;

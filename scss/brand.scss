@@ -97,7 +97,7 @@ $common-border-radius: 2px;
 		font-size: 1rem;
 	}
 
-	@media (min-width: 768px) {
+	@media (width >= 768px) {
 		h1 {
 			font-size: 4.5rem;
 			line-height: 1.3;
@@ -109,7 +109,7 @@ $common-border-radius: 2px;
 		}
 	}
 
-	@media (min-width: 1200px) {
+	@media (width >= 1200px) {
 		.container {
 			width: 970px;
 		}
@@ -164,7 +164,7 @@ $common-border-radius: 2px;
 		}
 	}
 
-	@media (min-width: 768px) {
+	@media (width >= 768px) {
 		.jumbotron p {
 			font-size: 2rem;
 		}

@@ -6,7 +6,7 @@
 		color: white;
 		line-height: 1.6em;
 
-		@media (min-width: 768px) {
+		@media (width >= 768px) {
 			font-size: 80%;
 		}
 

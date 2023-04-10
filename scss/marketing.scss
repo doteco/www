@@ -26,7 +26,7 @@
 		background-color: white;
 	}
 
-	@media (max-width: 768px) {
+	@media (width <= 768px) {
 		.logo-adjust-med {
 			padding-top: 0.3em;
 		}

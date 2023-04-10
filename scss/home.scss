@@ -51,7 +51,7 @@
 			color: white;
 		}
 
-		@media (max-width: 768px) {
+		@media (width <= 768px) {
 			.carousel-control {
 				height: 60px;
 				width: 40%;
@@ -69,7 +69,7 @@
 			}
 		}
 
-		@media (max-width: 1160px) and (min-width: 768px) {
+		@media (width <= 1160px) and (width >= 768px) {
 			.carousel-control {
 				height: 60px;
 				width: 40%;
@@ -79,7 +79,7 @@
 			}
 		}
 
-		@media (min-width: 768px) {
+		@media (width >= 768px) {
 			.carousel-item {
 				height: 400px;
 			}
@@ -219,7 +219,7 @@
 			height: 90px;
 		}
 
-		@media (min-width: 768px) {
+		@media (width >= 768px) {
 			.logo-90-md {
 				width: 90%;
 			}
