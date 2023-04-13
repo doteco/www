@@ -134,7 +134,8 @@ faq: true
 			{{#eachN collections.news}}
 			<div class="col-md-4">
 				<a href="/{{pagePath path}}">
-					<div class="news-tile" style="background-image: url({{ header-img }});">
+					<div class="news-tile">
+						<img class="news-tile-image" src="{{ header-img }}" loading="lazy" alt="{{ header-img-alt }}">
 						<div class="news-tile-overlay">
 							<div class="news-tile-content">
 								<h3>{{ title }}</h3>
