@@ -10,23 +10,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="{{description}}">
 	<meta name="keywords" content="{{t "global:keywords" }}">
-	<meta name="author" content="BigRoom.eco">
+	{{#if author}}
+	<meta name="author" content="{{author}}">
+	{{/if}}
+
 	{{#if noindex}}
 	<meta name="robots" content="noindex,nofollow">
 	{{/if}}
 
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="{{twitter-id}}">
 	<meta property="og:title" content="{{title}}">
 	<meta property="og:description" content="{{description}}">
 	<meta property="og:url" content="{{site-url}}/{{page-path}}">
+	{{#if collection}}
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="{{author}}">
+	{{else}}
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="{{site-url}}/img/{{og-image}}">
+	{{/if}}
+	<meta name="image" property="og:image" content="{{site-url}}/img/{{og-image}}">
 	<meta property="og:image:width" content="{{og-width}}">
 	<meta property="og:image:height" content="{{og-height}}">
+	{{#if header-img-alt}}
+	<meta property="og:image:alt" content="{{header-img-alt}}">
+	{{/if}}
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="{{twitter-id}}">
 	<meta property="fb:app_id" content="744238272415478">
+	{{#if pubdate}}
+	<meta property="article:published_time" content="{{isoDate pubdate}}">
+	{{/if}}
 
 	<title>{{title}}</title>
+	<link rel="canonical" href="{{site-url}}/{{page-path}}">
 
 	<!-- Fonts -->
 	<link rel="preload" as="font" href="/css/fonts/lato-300.woff2" crossorigin="" type="font/woff2">
@@ -43,7 +58,6 @@
 	<meta name="msapplication-TileColor" content="#9F1744">
 	<meta name="theme-color" content="#ffffff">
 
-	<link rel="canonical" href="{{site-url}}/{{page-path}}">
 	<script defer src="/js/sentry/6.19.7/bundle.min.js"></script>
 	<script>
 	if (typeof Sentry !== 'undefined') {
