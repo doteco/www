@@ -1,3 +1,4 @@
+const browserSync = require('browser-sync')
 const Metalsmith = require('metalsmith')
 const autoprefixer = require('metalsmith-autoprefixer')
 const discoverHelpers = require('metalsmith-discover-helpers')
@@ -6,7 +7,6 @@ const inplace = require('@metalsmith/in-place')
 const fingerprint = require('metalsmith-fingerprint-ignore')
 const layouts = require('@metalsmith/layouts')
 const sass = require('@metalsmith/sass')
-const serve = require('metalsmith-serve')
 const sitemap = require('metalsmith-sitemap')
 const redirect = require('metalsmith-redirect')
 const robots = require('metalsmith-robots')
@@ -220,21 +220,20 @@ ms.build(function (err, files) {
 })
 
 if (options.watch) {
-  ms.use(serve({
-    document_root: dest,
-    verbose: true,
-    http_error_files: {
-      404: '/404.html'
-    }
+  ms.use(watch({
+    paths: {
+      /* eslint no-template-curly-in-string: 0 */
+      '${source}/**/*': '{**/*.hbs,**/*.js,**/*.md}',
+      'scss/**/*': '{main.scss,**/*.hbs,**/*.md}',
+      'layouts/**/*': '**/*.hbs',
+      'locales/**/*': '**/*.hbs'
+    },
+    livereload: true
   }))
-    .use(watch({
-      paths: {
-        /* eslint no-template-curly-in-string: 0 */
-        '${source}/**/*': '{**/*.hbs,**/*.js,**/*.md}',
-        'scss/**/*': '{main.scss,**/*.hbs,**/*.md}',
-        'layouts/**/*': '**/*.hbs',
-        'locales/**/*': '**/*.hbs'
-      },
-      livereload: true
-    }))
+
+  browserSync.init({
+    port: 8080,
+    server: dest,
+    watch: true
+  })
 }
