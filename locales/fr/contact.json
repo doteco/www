@@ -5,7 +5,7 @@
   "support": {
     "head": "Demande d'assistance",
     "text": [
-      "<p>Si vous avez besoin d'aide pour enregistrer un nom de domaine .eco ou si vous avez d&#39;autres questions, <a id=\"chat-link\">n'hésitez pas à en discuter avec nous</a>&nbsp;.</p>",
+      "<p>Si vous avez besoin d'aide pour enregistrer un nom de domaine .eco ou si vous avez d&#39;autres questions, <a class=\"chat-link\">n'hésitez pas à en discuter avec nous</a>&nbsp;.</p>",
       "<p>Vous pouvez également consulter le <a href=\"https://support.go.eco\">site d&#39;assistance .eco</a> pour trouver des réponses aux questions les plus courantes.</p>",
       "<p>Pour nous contacter par e-mail, écrivez à&nbsp;: <span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span>&nbsp;.</p>"
     ]

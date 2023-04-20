@@ -234,6 +234,7 @@ if (options.watch) {
   browserSync.init({
     port: 8080,
     server: dest,
-    watch: true
+    watch: true,
+    open: false
   })
 }

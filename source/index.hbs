@@ -248,13 +248,4 @@ faq: true
 		document.querySelector('.section.recent').style.display = 'none'
 	}
 </script>
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-		document.querySelectorAll('.chat-link').forEach(function (e) {
-			e.addEventListener('click', function (e) {
-				e.preventDefault()
-				Intercom('show')
-			})
-		})
-	})
-</script>
+

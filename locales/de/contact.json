@@ -14,7 +14,7 @@
   "support": {
     "head": "Support-Anfragen",
     "text": [
-      "<p>Wenn Sie Hilfe bei der Registrierung eines .eco-Domainnamens benötigen oder andere Fragen haben, <a id=\"chat-link\">können Sie sich gerne mit uns unterhalten</a>.</p>",
+      "<p>Wenn Sie Hilfe bei der Registrierung eines .eco-Domainnamens benötigen oder andere Fragen haben, <a class=\"chat-link\">können Sie sich gerne mit uns unterhalten</a>.</p>",
       "<p>Sie können auch die <a href=\"https://support.go.eco\">.eco-Support-Site</a> besuchen, um Antworten auf allgemeine Fragen zu finden.</p>",
       "<p>Um uns per E-Mail zu kontaktieren, schreiben Sie an: <span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span>.</p>"
     ]
