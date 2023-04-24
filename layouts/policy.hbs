@@ -3,12 +3,20 @@
 
   <main class="container policy">
   <header>
+    {{#if header-img}}
+    <img src="{{header-img}}" alt="{{header-img-alt}}">
+    {{/if}}
+
     <h1>{{title}}</h1>
     {{#if subtitle}}
     <h2 class="subheader">{{subtitle}}</h2>
     {{/if}}
 
+    {{#if updated}}
     <p class="policy-date"><em>Updated: <time datetime="{{formatUTC updated}}">{{formatDay updated lang}}</time></em></p>
+    {{else}}
+    <p class="policy-date"><em>Published: <time datetime="{{formatUTC pubdate}}">{{formatDay pubdate lang}}</time></em></p>
+    {{/if}}
   </header>
 
 {{{ contents }}}
