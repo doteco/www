@@ -157,7 +157,7 @@
     "img": "/img/champion_logos/tooth-eco2.webp",
     "type": "business",
     "location": "UK",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "aem.eco",
@@ -165,7 +165,7 @@
     "img": "/img/champion_logos/aem.webp",
     "type": "business",
     "location": "USA",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "pirkani.eco",
@@ -173,7 +173,7 @@
     "img": "/img/champion_logos/pirkani3.webp",
     "type": "business",
     "location": "UK",
-    "priority": ""
+    "priority": "3"
   },
   {
     "domain": "cycle.eco",
