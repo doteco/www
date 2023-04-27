@@ -153,4 +153,11 @@ exclude: true
       }
     })
   }
+  {{#if ga-tracking-id}}
+  document.querySelector('.registrars-promo > summary').addEventListener('click', function () {
+    gtag('event', 'click', {
+      event_category: 'promo'
+    })
+  })
+  {{/if}}
 </script>
