@@ -235,6 +235,9 @@ faq: true
 				Accept: 'application/json'
 			}
 		}).then(function (response) {
+			if (!response.ok) {
+				throw new Error('Failure fetching recent domains: ' + response.status)
+			}
 			return response.json()
 		}).then(function (domains) {
 			return showRecent(domains, 0)
