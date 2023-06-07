@@ -41,6 +41,8 @@
 
 		blockquote {
 			font-style: italic;
+			padding: 0 1rem;
+			border-left: 1px solid $doteco-charcoal;
 		}
 
 		blockquote > ol:last-child, blockquote > p:last-child {
