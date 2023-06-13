@@ -1,6 +1,5 @@
 version: 2.1
 orbs:
-  aws-s3: circleci/aws-s3@3.1.1
   aws-cli: circleci/aws-cli@4.0.0
 workflows:
  version: 2
@@ -50,13 +49,11 @@ jobs:
 
     # Deployment
     - aws-cli/setup
-    - run: aws s3 sync public << parameters.bucket >> --exclude "*.webp"
-    - run: aws s3 sync public << parameters.bucket >> --include "*.webp" --content-type "image/webp"
+    - run: aws s3 sync public << parameters.bucket
+    # - run: aws s3 sync public << parameters.bucket >> --exclude "*.webp"
+    # - run: aws s3 sync public << parameters.bucket >> --include "*.webp" --content-type "image/webp"
 
-    - aws-s3/sync:
-        from: public-de
-        to: << parameters.bucket-de >>
+    - run: aws s3 sync public-de << parameters.bucket-de >> --exclude "*.webp"
+    - run: aws s3 sync public-de << parameters.bucket-de >> --include "*.webp" --content-type "image/webp"
 
-    - aws-s3/sync:
-        from: public-fr
-        to: << parameters.bucket-fr >>
+    - run: aws s3 sync public-fr << parameters.bucket-fr >>
