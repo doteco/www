@@ -41,7 +41,6 @@ jobs:
     # Build
     - run: sudo apt update
     - run: sudo apt-get install nasm
-    - run: sudo apt-get install groff
     - run: npm ci
     - run: npm run build
     - run: SITE_LANG=de npm run build
@@ -50,14 +49,15 @@ jobs:
 
     # Deployment
     - aws-s3/sync:
-        # arguments: --exclude *.webp
+        arguments: |
+          --exclude "*.webp"
         from: public
         to: << parameters.bucket >>
 
-    - run: aws s3 sync help
-
     - aws-s3/sync:
-        arguments: --include *.webp --content-type image/webp
+        arguments: |
+          --include "*.webp" \
+          --content-type "image/webp"
         from: public
         to: << parameters.bucket >>
 
