@@ -41,6 +41,7 @@ jobs:
     # Build
     - run: sudo apt update
     - run: sudo apt-get install nasm
+    - run: sudo apt-get install groff
     - run: npm ci
     - run: npm run build
     - run: SITE_LANG=de npm run build
