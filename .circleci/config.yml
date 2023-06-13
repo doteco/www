@@ -1,6 +1,7 @@
 version: 2.1
 orbs:
   aws-s3: circleci/aws-s3@3.1.1
+  aws-cli: circleci/aws-cli@4.0.0
 workflows:
  version: 2
  test:
@@ -48,18 +49,9 @@ jobs:
     # - run: npm run minify
 
     # Deployment
-    - aws-s3/sync:
-        arguments: |
-          --exclude "*.webp"
-        from: public
-        to: << parameters.bucket >>
-
-    - aws-s3/sync:
-        arguments: |
-          --include "*.webp" \
-          --content-type "image/webp"
-        from: public
-        to: << parameters.bucket >>
+    - aws-cli/setup
+    - run: aws s3 sync public << parameters.bucket >> --exclude "*.webp"
+    - run: aws s3 sync public << parameters.bucket >> --include "*.webp" --content-type "image/webp"
 
     - aws-s3/sync:
         from: public-de
