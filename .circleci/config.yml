@@ -47,13 +47,13 @@ jobs:
     - run: SITE_LANG=fr npm run build
     # - run: npm run minify
 
-    - run: aws s3 sync help
-
     # Deployment
     - aws-s3/sync:
-        arguments: --exclude *.webp
+        # arguments: --exclude *.webp
         from: public
         to: << parameters.bucket >>
+
+    - run: aws s3 sync help
 
     - aws-s3/sync:
         arguments: --include *.webp --content-type image/webp
