@@ -45,7 +45,9 @@ jobs:
     - run: npm run build
     - run: SITE_LANG=de npm run build
     - run: SITE_LANG=fr npm run build
-    - run: npm run minify
+    # - run: npm run minify
+
+    - run: aws s3 sync help
 
     # Deployment
     - aws-s3/sync:
