@@ -49,15 +49,13 @@ jobs:
 
     # Deployment
     - aws-s3/sync:
-        arguments:
+        arguments: 
           --exclude "*.webp"
         from: public
         to: << parameters.bucket >>
 
     - aws-s3/sync:
-        arguments:
-          --include "*.webp"
-          --content-type image/webp
+        arguments: --include "*.webp" --content-type image/webp
         from: public
         to: << parameters.bucket >>
 
