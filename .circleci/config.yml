@@ -49,7 +49,7 @@ jobs:
 
     # Deployment
     - aws-cli/setup
-    - run: aws s3 sync public << parameters.bucket
+    - run: aws s3 sync public << parameters.bucket >>
     # - run: aws s3 sync public << parameters.bucket >> --exclude "*.webp"
     # - run: aws s3 sync public << parameters.bucket >> --include "*.webp" --content-type "image/webp"
 
