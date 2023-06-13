@@ -45,15 +45,15 @@ jobs:
     - run: npm run build
     - run: SITE_LANG=de npm run build
     - run: SITE_LANG=fr npm run build
-    # - run: npm run minify
+    - run: npm run minify
 
     # Deployment
     - aws-cli/setup
-    - run: aws s3 sync public << parameters.bucket >>
-    # - run: aws s3 sync public << parameters.bucket >> --exclude "*.webp"
-    # - run: aws s3 sync public << parameters.bucket >> --include "*.webp" --content-type "image/webp"
+    - run: aws s3 sync public << parameters.bucket >> --exclude "*.webp"
+    - run: aws s3 sync public << parameters.bucket >> --include "*.webp" --content-type "image/webp"
 
     - run: aws s3 sync public-de << parameters.bucket-de >> --exclude "*.webp"
     - run: aws s3 sync public-de << parameters.bucket-de >> --include "*.webp" --content-type "image/webp"
 
-    - run: aws s3 sync public-fr << parameters.bucket-fr >>
+    - run: aws s3 sync public-fr << parameters.bucket-fr >> --exclude "*.webp"
+    - run: aws s3 sync public-fr << parameters.bucket-fr >> --include "*.webp" --content-type "image/webp"
