@@ -49,8 +49,7 @@ jobs:
 
     # Deployment
     - aws-s3/sync:
-        arguments: 
-          --exclude *.webp
+        arguments: --exclude *.webp
         from: public
         to: << parameters.bucket >>
 
