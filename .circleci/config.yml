@@ -46,6 +46,7 @@ jobs:
     - run: SITE_LANG=de npm run build
     - run: SITE_LANG=fr npm run build
     - run: npm run minify
+    - run: python mimetypes-check.py
 
     # Deployment
     - aws-s3/sync:
