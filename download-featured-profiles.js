@@ -44,6 +44,7 @@ async function parseSpreadsheet (response) {
       type: data[h.Type]?.trim(),
       location: data[h.Country]?.trim(),
       live: data[h.Live] === 'Y',
+      sector: data[h.Sector],
       priority: {
         en: data[h['Priority - EN']],
         fr: data[h['Priority - FR']],
@@ -109,6 +110,7 @@ getSpreadSheetValues(
         story: localizedStory,
         img: p.img,
         type: p.type,
+        sector: p.sector,
         location: localizedLocation,
         priority: p.priority[locale]
       }

@@ -4,6 +4,7 @@
     "story": "<a href=\"https://mico.eco\">MiCO</a>, Migratory Connectivity in the Ocean, supports worldwide conservation efforts for migratory aquatic species like whales and dolphins, and the oceans on which they depend.",
     "img": "/img/champion_logos/mico.webp",
     "type": "nonprofit",
+    "sector": "Nonprofit",
     "location": "USA",
     "priority": ""
   },
@@ -12,6 +13,7 @@
     "story": "<a href=\"https://current.eco/\">CURRENT</a> is a complete all-in-one solution for businesses looking to manage their EV charging infrastructure.",
     "img": "/img/champion_logos/current.webp",
     "type": "business",
+    "sector": "Transportation",
     "location": "Norway",
     "priority": ""
   },
@@ -20,6 +22,7 @@
     "story": "<a href=\"https://preserve.eco\">Preserve</a>, a certified B Corporation, makes stylish, eco-friendly products for the home including reusable tableware, food storage, and personal care products, using 100% recycled plastic.",
     "img": "/img/champion_logos/preserve.webp",
     "type": "business",
+    "sector": "Consumer goods",
     "location": "USA",
     "priority": ""
   },
@@ -28,6 +31,7 @@
     "story": "<a href=\"https://leap.eco\">Leap</a> is a design studio that believes in designing with purpose and creating work that matters. As a BCorp, they create responsible solutions that exceed triple bottom line standards.",
     "img": "/img/champion_logos/leap.webp",
     "type": "business",
+    "sector": "Consulting and agencies",
     "location": "UK",
     "priority": ""
   },
@@ -36,6 +40,7 @@
     "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> makes high-quality bags that last, using only durable, recycled materials to reduce future waste.",
     "img": "/img/champion_logos/grunbag.webp",
     "type": "business",
+    "sector": "Consumer goods",
     "location": "Denmark",
     "priority": ""
   },
@@ -44,6 +49,7 @@
     "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> designs ecological mattresses and beds using natural materials at reasonable prices. 3 trees are planted for each mattress sold.",
     "img": "/img/champion_logos/bleu.webp",
     "type": "business",
+    "sector": "Consumer goods",
     "location": "Canada",
     "priority": ""
   },
@@ -52,6 +58,7 @@
     "story": "Microplastics are polluting our streams, lakes, and oceans. <a href=\"https://ecofario.eco/\">ECOFARIO</a> has developed a new process to significantly reduce the microplastic particles released into the environment.",
     "img": "/img/champion_logos/ecofario.webp",
     "type": "business",
+    "sector": "Industrial",
     "location": "Germany",
     "priority": ""
   },
@@ -60,6 +67,7 @@
     "story": "Shopping choices have a huge impact on how businesses treat people, the planet and animals.  The <a href=\"https://goodonyou.eco/\">Good On You</a> app makes it easy for you to shop your values.",
     "img": "/img/champion_logos/goodonyou.webp",
     "type": "business",
+    "sector": "Fashion & Apparel",
     "location": "Australia",
     "priority": "6"
   },
@@ -68,6 +76,7 @@
     "story": "<a href=\"https://geca.eco/\">GECA (Global Environmental Choice Australia)</a> is a globally trusted ecolabel that helps purchasers know that products and services are better for the environment.",
     "img": "/img/champion_logos/geca.webp",
     "type": "nonprofit",
+    "sector": "Nonprofit",
     "location": "Australia",
     "priority": ""
   },
@@ -76,6 +85,7 @@
     "story": "<a href=\"https://bumboo.eco\">Bumboo</a> supplies sustainable, 100% bamboo toilet paper - and plant a tree for every box sold.",
     "img": "/img/champion_logos/bumboo.webp",
     "type": "business",
+    "sector": "Consumer goods",
     "location": "UK",
     "priority": ""
   },
@@ -84,6 +94,7 @@
     "story": "<a href=\"https://boox.eco\">Boox</a> is a certified B-corp that makes reusable packaging. Using Boox, you can easily return the packaging containing your order to be used again.",
     "img": "/img/champion_logos/boox.webp",
     "type": "business",
+    "sector": "Consumer goods",
     "location": "USA",
     "priority": ""
   },
@@ -92,6 +103,7 @@
     "story": "<a href=\"https://nuvola.eco\">Nuvola</a> is a one-stop shop for buying zero-waste, sustainable, vegan and cruelty-free beauty and skincare products.",
     "img": "/img/champion_logos/nuvola.webp",
     "type": "business",
+    "sector": "Health & Beauty",
     "location": "Switzerland",
     "priority": ""
   },
@@ -100,6 +112,7 @@
     "story": "<a href=\"https://brightly.eco\">Brightly</a> is the #1 destination for people to discover new, eco-friendly brands and products. Brightly currently inspires millions of users every day to live sustainable lifestyles.",
     "img": "/img/champion_logos/brightly.webp",
     "type": "business",
+    "sector": "Consumer goods",
     "location": "USA",
     "priority": "5"
   },
@@ -108,6 +121,7 @@
     "story": "<a href=\"https://kusala.eco\">Kusala</a> produces artisanal soap with good karma made for a circular economy.",
     "img": "/img/champion_logos/kusala.webp",
     "type": "business",
+    "sector": "Health & Beauty",
     "location": "Netherlands",
     "priority": ""
   },
@@ -116,6 +130,7 @@
     "story": "<a href=\"https://ducky.eco\">Ducky</a> develops digital tools to help people and organizations change their behaviors and reduce their carbon emissions footprint.",
     "img": "/img/champion_logos/ducky.webp",
     "type": "business",
+    "sector": "Digital agencies & software",
     "location": "Norway",
     "priority": ""
   },
@@ -124,6 +139,7 @@
     "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> is a UK charity that inspires big-thinking local climate action to accelerate our progress towards a fairer, carbon zero future.",
     "img": "/img/champion_logos/carboncopy-hero.webp",
     "type": "nonprofit",
+    "sector": "Nonprofit",
     "location": "UK",
     "priority": ""
   },
@@ -132,6 +148,7 @@
     "story": "<a href=\"https://dragonfly.eco\">Dragonfly.eco</a> catalogs and curates eco-fiction that explores environmental themes.",
     "img": "/img/champion_logos/dragonfly-eco.webp",
     "type": "individual",
+    "sector": "Individual",
     "location": "Canada",
     "priority": ""
   },
@@ -140,6 +157,7 @@
     "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> is a B Corp that helps individuals and companies mitigate the climate crisis by supporting reforestation projects that allow the sustainable development of entire farming communities living on reforested land.",
     "img": "/img/champion_logos/zeroco2.webp",
     "type": "business",
+    "sector": "Environmental consulting & services",
     "location": "Italy",
     "priority": "2"
   },
@@ -148,6 +166,7 @@
     "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> is a green tech company focused on combining creativity and technology to provide solutions for the ongoing environmental crises.",
     "img": "/img/champion_logos/terrabyte.webp",
     "type": "business",
+    "sector": "Digital agencies & software",
     "location": "USA",
     "priority": ""
   },
@@ -156,6 +175,7 @@
     "story": "<a href=\"https://tooth.eco\">Tooth.Eco</a> is on a mission to reduce plastic waste by providing the world's first toothbrush that is almost entirely plastic-free. Not only does this lower your carbon footprint but it also helps preserve our environment for future generations.",
     "img": "/img/champion_logos/tooth-eco2.webp",
     "type": "business",
+    "sector": "Consumer goods",
     "location": "UK",
     "priority": "4"
   },
@@ -164,6 +184,7 @@
     "story": "<a href=\"https://aem.eco\">AEM</a> empowers communities and organizations to survive and thrive in the face of escalating environmental risks. By deploying sensing networks and delivering analytics, AEM is the essential source for environmental insights.",
     "img": "/img/champion_logos/aem.webp",
     "type": "business",
+    "sector": "Environmental consulting & services",
     "location": "USA",
     "priority": ""
   },
@@ -172,6 +193,7 @@
     "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> is a fashion-forward label with a difference. With sustainability at our core, we’re on a mission to ethically produce contemporary British fashion with a minimalist design aesthetic.",
     "img": "/img/champion_logos/pirkani3.webp",
     "type": "business",
+    "sector": "Fashion & Apparel",
     "location": "UK",
     "priority": "3"
   },
@@ -180,7 +202,17 @@
     "story": "<a href=\"https://cycle.eco\">Cycle</a> is changing last mile delivery and reducing traffic-related CO2-emissions by making sure that thousands of bike couriers have a smooth, fast, and safe delivery experience every day.",
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
+    "sector": "Transportation",
     "location": "Germany",
     "priority": "1"
+  },
+  {
+    "domain": "koala.eco",
+    "story": "<a href=\"https://koala.eco\">Koala Eco</a> makes safe, plant-based products for a clean home, body and mind made locally with Australian essential oils.",
+    "img": "/img/champion_logos/koala.webp",
+    "type": "business",
+    "sector": "Health & Beauty",
+    "location": "Australia",
+    "priority": ""
   }
 ]
