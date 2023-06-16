@@ -1,0 +1,11 @@
+[upstream]	
+providers = [
+	{ domain = "aws.amazon.com", service = "object-storage" },
+	{ domain = "aws.amazon.com", service = "cdn" }
+]
+
+[org]
+credentials = [
+	{ domain = "go.eco", doctype = "webpage", url = "https://go.eco/impact/" },
+	{ domain = "go.eco", doctype = "annual-report", url = "https://go.eco/news/2022-impact-report/" }
+]
