@@ -83,10 +83,12 @@ window.domainSearch = function (config) {
 
     const filterLabels = config.filterLabels
     const filterHelp = config.filterHelp
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-region', filterLabels.region, regions, getFilterDefault('region'), filterHelp.region))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-policy', filterLabels.envPolicy, envPolicy, getFilterDefault('envPolicy'), filterHelp.envPolicy))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-language', filterLabels.language, languages, getFilterDefault('language'), filterHelp.language))
-    registrarsFilterRow.insertAdjacentHTML('afterbegin', generateFilterHtml('filter-currency', filterLabels.currency, currencies, getFilterDefault('currency'), filterHelp.currency))
+    registrarsFilterRow.innerHTML = [
+      generateFilterHtml('filter-region', filterLabels.region, regions, getFilterDefault('region'), filterHelp.region),
+      generateFilterHtml('filter-policy', filterLabels.envPolicy, envPolicy, getFilterDefault('envPolicy'), filterHelp.envPolicy),
+      generateFilterHtml('filter-language', filterLabels.language, languages, getFilterDefault('language'), filterHelp.language),
+      generateFilterHtml('filter-currency', filterLabels.currency, currencies, getFilterDefault('currency'), filterHelp.currency)
+    ].join('')
 
     document.querySelectorAll('.registrar-filter').forEach(el => el.addEventListener('change', () => changeFilter(registrars)))
   }
