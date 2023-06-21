@@ -94,6 +94,12 @@ exclude: true
 
 <script src="/{{ fingerprint.[js/domain-search.js] }}"></script>
 <script>
+  function track(eventId) {
+    if (typeof fathom === 'object') {
+      fathom.trackGoal(eventId)
+    }
+  }
+
   if (typeof domainSearch === 'function') {
   	domainSearch({
       searchUrl: '{{ searchUrl }}',
@@ -103,7 +109,7 @@ exclude: true
           event_category: 'domain-search',
           event_label: domain
         })
-        fathom && fathom.trackGoal('91VRRSWF')
+        track('91VRRSWF')
   {{/if}}
   		},
   		onFilter: function (filters) {
@@ -112,7 +118,7 @@ exclude: true
           event_category: 'registrar-filter',
           event_label: filters.filter(f => f && f.length > 0).join(',')
         })
-        fathom && fathom.trackGoal('1LAGW5ME')
+        track('1LAGW5ME')
   {{/if}}
   		},
   		onClick: function (registrar, href) {
@@ -122,7 +128,7 @@ exclude: true
           event_label: registrar,
           transport: 'beacon'
         })
-        fathom && fathom.trackGoal('XVVN1YEM')
+        track('XVVN1YEM')
   {{/if}}
   		},
       onReservedSubmit: function (r) {
@@ -131,7 +137,7 @@ exclude: true
           event_category: 'makeoffer',
           event_label: r && r.domain
         })
-        fathom && fathom.trackGoal('J91YCHXN')
+        track('J91YCHXN')
   {{/if}}
       },
       filterLabels: {{{json (t "filters" returnObjects=true)}}},
