@@ -103,6 +103,7 @@ exclude: true
           event_category: 'domain-search',
           event_label: domain
         })
+        fathom && fathom.trackGoal('91VRRSWF')
   {{/if}}
   		},
   		onFilter: function (filters) {
@@ -111,6 +112,7 @@ exclude: true
           event_category: 'registrar-filter',
           event_label: filters.filter(f => f && f.length > 0).join(',')
         })
+        fathom && fathom.trackGoal('1LAGW5ME')
   {{/if}}
   		},
   		onClick: function (registrar, href) {
@@ -120,6 +122,7 @@ exclude: true
           event_label: registrar,
           transport: 'beacon'
         })
+        fathom && fathom.trackGoal('XVVN1YEM')
   {{/if}}
   		},
       onReservedSubmit: function (r) {
@@ -128,6 +131,7 @@ exclude: true
           event_category: 'makeoffer',
           event_label: r && r.domain
         })
+        fathom && fathom.trackGoal('J91YCHXN')
   {{/if}}
       },
       filterLabels: {{{json (t "filters" returnObjects=true)}}},
@@ -158,6 +162,7 @@ exclude: true
     gtag('event', 'click', {
       event_category: 'promo'
     })
+    fathom && fathom.trackGoal('PXZGNB4F')
   })
   {{/if}}
 </script>
