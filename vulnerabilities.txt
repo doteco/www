@@ -2,5 +2,8 @@ NAME                  INSTALLED  FIXED-IN  TYPE  VULNERABILITY        SEVERITY
 got                   7.1.0      11.8.5    npm   GHSA-pfrx-2q88-qq97  Medium    
 got                   8.3.2      11.8.5    npm   GHSA-pfrx-2q88-qq97  Medium    
 http-cache-semantics  3.8.1      4.1.1     npm   GHSA-rc47-6667-2j5j  High      
+semver                5.7.1      7.5.2     npm   GHSA-c2qf-rxjj-qqgw  Medium    
+semver                6.3.0      7.5.2     npm   GHSA-c2qf-rxjj-qqgw  Medium    
 semver-regex          2.0.0      3.1.3     npm   GHSA-44c6-4v22-4mhx  High      
 semver-regex          2.0.0      3.1.4     npm   GHSA-4x5v-gmq8-25ch  Low       
+word-wrap             1.2.3                npm   GHSA-j8xg-fqg3-53r7  Medium    
