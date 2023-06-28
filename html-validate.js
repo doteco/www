@@ -30,7 +30,9 @@ const skipFiles = [
   'public/about/press/index.html',
   'public/news/understanding-your-aim-1d02eebce1e8/index.html',
   'public/news/first-ever-domain-grants-program-wraps-up-583234092c10/index.html',
-  'public/news/the-world-needs-more-tigers-13eb6e5eb394/index.html'
+  'public/news/the-world-needs-more-tigers-13eb6e5eb394/index.html',
+  'public/feed/index.html',
+  'public/rss/index.html'
 ]
 
 const skip = [
