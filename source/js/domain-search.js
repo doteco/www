@@ -186,6 +186,9 @@ window.domainSearch = function (config) {
     domain = domain.replace(/[\s;<>"'/=()\\]/g, '').replace(/\..*$/, '')
     domain += '.eco'
 
+    const searchBox = document.querySelector('.domain-search')
+    searchBox.value = domain
+
     const searchResultsSection = document.querySelector('.search-results-section')
     toggleVisibility(searchResultsSection, true)
 
@@ -198,7 +201,7 @@ window.domainSearch = function (config) {
       return response.json().then(r => {
         console.log('search result:', r)
         if (r.domain) {
-          document.querySelector('.domain-search').value = r.domain
+          searchBox.value = r.domain
         }
 
         const message = searchResultMessage(r, r.domain || domain)
