@@ -2,8 +2,8 @@
   "title": "Recherchez un domaine .eco pour créer le vôtre",
   "description": "Recherchez un domaine .eco et choisissez votre bureau d'enregistrement pour l'acheter.",
   "registrars": {
-    "head1": "Nos meilleurs revendeurs",
-    "head2": "Trouver un revendeur"
+    "head1": "Détaillants en vedette",
+    "head2": "Trouver un détaillant"
   },
   "reserved": {
     "head": "Intéressé par ce nom ?",
@@ -22,13 +22,13 @@
     "envPolicy": "Écoresponsable",
     "language": "Langue",
     "currency": "Devise",
-    "noRegistrars": "<p class=\"no-registrars\">Aucun revendeur ne correspond actuellement à ces critères de filtrage.</p>"
+    "noRegistrars": "<p class=\"no-registrars\">Aucun détaillant ne correspond actuellement à ces critères de filtrage.</p>"
   },
   "greenRetailers": "",
   "filterHelp": {
-    "region": "Les principales régions où opère ce revendeur.",
-    "envPolicy": "Ce revendeur est-il respectueux de l'environnement ?",
-    "language": "Les langues prises en charge par ce revendeur.",
+    "region": "Les principales régions où ce détaillant opère.",
+    "envPolicy": "Ce détaillant est-il respectueux de l'environnement ?",
+    "language": "Les langues prises en charge par ce détaillant.",
     "currency": "Les devises que vous pouvez utiliser pour payer votre domaine."
   },
   "results": {
