@@ -145,7 +145,7 @@
   },
   {
     "domain": "dragonfly.eco",
-    "story": "<a href=\"https://dragonfly.eco\">Dragonfly.eco</a> katalogisiert und kuratiert Öko-Fiction, die sich mit Umweltthemen befasst.",
+    "story": "<a href=\"https://dragonfly.eco\">Dragonfly.eco</a> katalogisiert und kuratiert Öko-Fiction, die sich mit Umweltthemen beschäftigt.",
     "img": "/img/champion_logos/dragonfly-eco.webp",
     "type": "individual",
     "sector": "Individual",
@@ -159,7 +159,7 @@
     "type": "business",
     "sector": "Environmental consulting & services",
     "location": "Italien",
-    "priority": "2"
+    "priority": "4"
   },
   {
     "domain": "terrabyte.eco",
@@ -177,11 +177,11 @@
     "type": "business",
     "sector": "Consumer goods",
     "location": "Vereinigtes Königreich",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "aem.eco",
-    "story": "<a href=\"https://aem.eco\">AEM</a> befähigt Gemeinden und Organisationen, angesichts eskalierender Umweltrisiken zu überleben und zu gedeihen. Durch den Einsatz von Sensornetzwerken und die Bereitstellung von Analysen ist AEM die wesentliche Quelle für Umwelteinblicke.",
+    "story": "<a href=\"https://aem.eco\">AEM</a> befähigt Gemeinden und Organisationen, angesichts zunehmender Umweltrisiken zu überleben und zu gedeihen. Durch den Einsatz von Sensornetzwerken und die Bereitstellung von Analysen ist AEM die wesentliche Quelle für Umwelteinblicke.",
     "img": "/img/champion_logos/aem.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -204,7 +204,7 @@
     "type": "business",
     "sector": "Transportation",
     "location": "Deutschland",
-    "priority": "1"
+    "priority": "2"
   },
   {
     "domain": "koala.eco",
@@ -214,5 +214,14 @@
     "sector": "Health & Beauty",
     "location": "Australien",
     "priority": ""
+  },
+  {
+    "domain": "greenworx.eco",
+    "story": "<a href=\"https://greenworx.eco\">Green Worx</a> stellt umweltfreundliche Reinigungsprodukte für Haushalte, Unternehmen und Industrien in ganz Afrika her.",
+    "img": "/img/champion_logos/greenworx.webp",
+    "type": "business",
+    "sector": "Health & Beauty",
+    "location": "Südafrika",
+    "priority": "1"
   }
 ]

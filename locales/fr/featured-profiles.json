@@ -10,7 +10,7 @@
   },
   {
     "domain": "current.eco",
-    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises qui cherchent à gérer leur infrastructure de recharge de véhicules électriques.",
+    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution tout-en-un complète pour les entreprises cherchant à gérer leur infrastructure de recharge de véhicules électriques.",
     "img": "/img/champion_logos/current.webp",
     "type": "business",
     "sector": "Transportation",
@@ -154,12 +154,12 @@
   },
   {
     "domain": "zeroco2.eco",
-    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> est une B Corp qui aide les particuliers et les entreprises à atténuer la crise climatique en soutenant des projets de reboisement qui permettent le développement durable de communautés agricoles entières vivant sur des terres reboisées.",
+    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> est une B Corp qui aide les particuliers et les entreprises à atténuer la crise climatique en soutenant des projets de reforestation qui permettent le développement durable de communautés agricoles entières vivant sur des terres reboisées.",
     "img": "/img/champion_logos/zeroco2.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
     "location": "Italie",
-    "priority": "2"
+    "priority": "4"
   },
   {
     "domain": "terrabyte.eco",
@@ -177,7 +177,7 @@
     "type": "business",
     "sector": "Consumer goods",
     "location": "Royaume-Uni",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "aem.eco",
@@ -204,7 +204,7 @@
     "type": "business",
     "sector": "Transportation",
     "location": "Allemagne",
-    "priority": "1"
+    "priority": "2"
   },
   {
     "domain": "koala.eco",
@@ -214,5 +214,14 @@
     "sector": "Health & Beauty",
     "location": "Australie",
     "priority": ""
+  },
+  {
+    "domain": "greenworx.eco",
+    "story": "<a href=\"https://greenworx.eco\">Green Worx</a> fabrique des produits de nettoyage respectueux de l&#39;environnement pour les ménages, les entreprises et les industries à travers l&#39;Afrique.",
+    "img": "/img/champion_logos/greenworx.webp",
+    "type": "business",
+    "sector": "Health & Beauty",
+    "location": "Afrique du Sud",
+    "priority": "1"
   }
 ]

@@ -159,7 +159,7 @@
     "type": "business",
     "sector": "Environmental consulting & services",
     "location": "Italy",
-    "priority": "2"
+    "priority": "4"
   },
   {
     "domain": "terrabyte.eco",
@@ -177,7 +177,7 @@
     "type": "business",
     "sector": "Consumer goods",
     "location": "UK",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "aem.eco",
@@ -204,7 +204,7 @@
     "type": "business",
     "sector": "Transportation",
     "location": "Germany",
-    "priority": "1"
+    "priority": "2"
   },
   {
     "domain": "koala.eco",
@@ -214,5 +214,14 @@
     "sector": "Health & Beauty",
     "location": "Australia",
     "priority": ""
+  },
+  {
+    "domain": "greenworx.eco",
+    "story": "<a href=\"https://greenworx.eco\">Green Worx</a> makes environmentally responsible cleaning products to households, businesses and industries across Africa.",
+    "img": "/img/champion_logos/greenworx.webp",
+    "type": "business",
+    "sector": "Health & Beauty",
+    "location": "South Africa",
+    "priority": "1"
   }
 ]
