@@ -3,13 +3,12 @@
   "partners": {
     "head": "Partners",
     "subhead": "Who is behind .eco?",
-    "text": "We assembled <a href=\"https://org.eco\">a coalition</a> of over 50 leading environmental non-profit and intergovernmental organizations to advise on <a href=\"/policies/\">the policies</a> for .eco. Some of the organizations behind .eco include:",
-    "cta": "See the full list of organizations who are part of the .eco coalition."
+    "text": "Over 50 leading environmental non-profit and intergovernmental organizations joined <a href=\"https://org.eco\">a coalition</a> to advise on <a href=\"/policies/\">the policies</a> for .eco. Some of the <a href=\"https://org.eco/coalition\">organizations</a> behind .eco include:"
   },
   "members": {
     "head": "Who is using .eco?",
-    "text": "Thousands of leading businesses, non-profits, governments and individuals who care about our planet have chosen a .eco domain for their website.",
-    "cta": "Find your .eco and join the community!"
+    "text": ".eco websites are used by thousands of leading businesses, non-profits, governments and individuals who care about our planet.",
+    "cta": "Get your .eco and join the community!"
   },
   "search": {
     "head": "Find your perfect .eco",
