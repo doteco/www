@@ -63,7 +63,7 @@
     "head": "Assistance",
     "text": [
       "<p>Si vous avez des questions sur .eco, n'hésitez pas à nous contacter&nbsp;!",
-      "<a class=\"chat-link\" href=\"#\">Nous sommes disponibles pour discuter</a> pendant les heures ouvrables, fuseau horaire du <strong>Pacifique</strong>&nbsp;.",
+      "<a class=\"chat-link\" href=\"#\">Nous sommes disponibles pour discuter</a> pendant les heures ouvrables, <strong>fuseau horaire du Pacifique</strong>&nbsp;.",
       "Vous pouvez également nous laisser un message et nous essaierons de vous répondre dans un délai d'un jour ouvrable.",
       "Vous pouvez aussi consulter les articles d&#39;aide sur notre <a href=\"https://support.go.eco\">site d&#39;assistance .eco</a>&nbsp;.</p>"
     ]
