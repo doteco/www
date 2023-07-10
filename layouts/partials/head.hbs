@@ -61,18 +61,20 @@
 
 	<script defer src="/js/sentry/6.19.7/bundle.min.js"></script>
 	<script>
-	if (typeof Sentry !== 'undefined') {
-		Sentry.init({
-		  dsn: "{{sentryDSN}}",
-			allowUrls: [
-				"{{site-url}}"
-			]
-		})
-	}
+	document.addEventListener('DOMContentLoaded', function () {
+		if (typeof Sentry !== 'undefined') {
+			Sentry.init({
+				dsn: "{{sentryDSN}}",
+				allowUrls: [
+					"{{site-url}}"
+				]
+			})
+		}
+	})
 	</script>
-	{{#if ga-tracking-id}}
 	<script src="https://cdn.usefathom.com/script.js" data-site="ZKSAKYVJ" defer></script>
 
+	{{#if ga-tracking-id}}
 	<script async src="https://www.googletagmanager.com/gtag/js?id={{ga-tracking-id}}"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];

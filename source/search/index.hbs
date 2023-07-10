@@ -11,6 +11,7 @@ noindex: true
 exclude: true
 ---
 
+<script src="/{{ fingerprint.[js/domain-search.js] }}" defer></script>
 <div class="section search">
  <div class="container">
    <form method="get" class="search-form" role="search">
@@ -92,7 +93,6 @@ exclude: true
 </div>
 <iframe id="makeoffer-form-iframe" name="makeoffer-form-iframe" class="iframe-form-iframe" title="{{t "reserved.title"}}" hidden></iframe>
 
-<script src="/{{ fingerprint.[js/domain-search.js] }}"></script>
 <script>
   function track(eventId) {
     if (typeof fathom === 'object') {
@@ -100,7 +100,11 @@ exclude: true
     }
   }
 
-  if (typeof domainSearch === 'function') {
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof domainSearch !== 'function') {
+      return console.error('Domain search script did not load. Search will not work.')
+    }
+
   	domainSearch({
       searchUrl: '{{ searchUrl }}',
       onSearch: function (domain) {
@@ -147,9 +151,8 @@ exclude: true
       regionLabels: {{{json (t "region" returnObjects=true)}}},
       resultLabels: {{{json (t "results" returnObjects=true)}}}
   	})
-  }
-</script>
-<script>
+  })
+
   const form = document.getElementById('makeoffer-form')
   if (form && form.querySelectorAll) {
     form.querySelectorAll('input.form-control').forEach(function (formControl) {
@@ -163,12 +166,13 @@ exclude: true
       }
     })
   }
+
   {{#if ga-tracking-id}}
   document.querySelector('.registrars-promo > summary').addEventListener('click', function () {
     gtag('event', 'click', {
       event_category: 'promo'
     })
-    fathom && fathom.trackGoal('PXZGNB4F')
+    track('PXZGNB4F')
   })
   {{/if}}
 </script>
