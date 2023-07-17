@@ -195,7 +195,7 @@
     "type": "business",
     "sector": "Fashion & Apparel",
     "location": "Royaume-Uni",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "cycle.eco",
@@ -204,7 +204,7 @@
     "type": "business",
     "sector": "Transportation",
     "location": "Allemagne",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "koala.eco",
@@ -222,6 +222,15 @@
     "type": "business",
     "sector": "Health & Beauty",
     "location": "Afrique du Sud",
+    "priority": "2"
+  },
+  {
+    "domain": "carl.eco",
+    "story": "Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) aide chaque travailleur à devenir un champion du climat en publiant des guides d&#39;action pour chaque profession.",
+    "img": "/img/champion_logos/carl.webp",
+    "type": "nonprofit",
+    "sector": "Nonprofit",
+    "location": "États-Unis",
     "priority": "1"
   }
 ]
