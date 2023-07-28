@@ -45,6 +45,7 @@ async function parseSpreadsheet (response) {
       location: data[h.Country]?.trim(),
       live: data[h.Live] === 'Y',
       sector: data[h.Sector],
+      caseStudy: data[h['Case Study']],
       priority: {
         en: data[h['Priority - EN']],
         fr: data[h['Priority - FR']],
@@ -111,6 +112,7 @@ getSpreadSheetValues(
         img: p.img,
         type: p.type,
         sector: p.sector,
+        link: locale === 'en' && p.caseStudy ? p.caseStudy : 'https://profiles.eco/' + p.domain,
         location: localizedLocation,
         priority: p.priority[locale]
       }

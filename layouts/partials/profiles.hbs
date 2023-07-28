@@ -1,7 +1,7 @@
 <div class="community-profiles__container grid grid--m1d2">
   {{#each profiles as |profile| }}
   <div class="grid__cell">
-    <a href="https://profiles.eco/{{profile.domain}}" class="profile-tile">
+    <a href="{{profile.link}}" class="profile-tile" title="Learn more about {{profile.domain}}">
       <div class="profile-tile__wrapper">
         <img class="profile-tile__image" src="{{profile.img}}" alt="" loading="lazy" width="330" height="110">
         <div class="profile-tile__label">

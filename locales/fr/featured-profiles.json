@@ -5,6 +5,7 @@
     "img": "/img/champion_logos/mico.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
+    "link": "https://profiles.eco/mico.eco",
     "location": "États-Unis",
     "priority": ""
   },
@@ -14,6 +15,7 @@
     "img": "/img/champion_logos/current.webp",
     "type": "business",
     "sector": "Transportation",
+    "link": "https://profiles.eco/current.eco",
     "location": "Norvège",
     "priority": ""
   },
@@ -23,6 +25,7 @@
     "img": "/img/champion_logos/preserve.webp",
     "type": "business",
     "sector": "Consumer goods",
+    "link": "https://profiles.eco/preserve.eco",
     "location": "États-Unis",
     "priority": ""
   },
@@ -32,6 +35,7 @@
     "img": "/img/champion_logos/leap.webp",
     "type": "business",
     "sector": "Consulting and agencies",
+    "link": "https://profiles.eco/leap.eco",
     "location": "Royaume-Uni",
     "priority": ""
   },
@@ -41,6 +45,7 @@
     "img": "/img/champion_logos/grunbag.webp",
     "type": "business",
     "sector": "Consumer goods",
+    "link": "https://profiles.eco/grunbag.eco",
     "location": "Danemark",
     "priority": ""
   },
@@ -50,6 +55,7 @@
     "img": "/img/champion_logos/bleu.webp",
     "type": "business",
     "sector": "Consumer goods",
+    "link": "https://profiles.eco/bleu.eco",
     "location": "Canada",
     "priority": "5"
   },
@@ -59,6 +65,7 @@
     "img": "/img/champion_logos/ecofario.webp",
     "type": "business",
     "sector": "Industrial",
+    "link": "https://profiles.eco/ecofario.eco",
     "location": "Allemagne",
     "priority": ""
   },
@@ -68,6 +75,7 @@
     "img": "/img/champion_logos/goodonyou.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
+    "link": "https://profiles.eco/goodonyou.eco",
     "location": "Australie",
     "priority": ""
   },
@@ -77,6 +85,7 @@
     "img": "/img/champion_logos/geca.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
+    "link": "https://profiles.eco/geca.eco",
     "location": "Australie",
     "priority": ""
   },
@@ -86,6 +95,7 @@
     "img": "/img/champion_logos/bumboo.webp",
     "type": "business",
     "sector": "Consumer goods",
+    "link": "https://profiles.eco/bumboo.eco",
     "location": "Royaume-Uni",
     "priority": ""
   },
@@ -95,6 +105,7 @@
     "img": "/img/champion_logos/boox.webp",
     "type": "business",
     "sector": "Consumer goods",
+    "link": "https://profiles.eco/boox.eco",
     "location": "États-Unis",
     "priority": ""
   },
@@ -104,6 +115,7 @@
     "img": "/img/champion_logos/nuvola.webp",
     "type": "business",
     "sector": "Health & Beauty",
+    "link": "https://profiles.eco/nuvola.eco",
     "location": "Suisse",
     "priority": "6"
   },
@@ -113,6 +125,7 @@
     "img": "/img/champion_logos/brightly.webp",
     "type": "business",
     "sector": "Consumer goods",
+    "link": "https://profiles.eco/brightly.eco",
     "location": "États-Unis",
     "priority": ""
   },
@@ -122,6 +135,7 @@
     "img": "/img/champion_logos/kusala.webp",
     "type": "business",
     "sector": "Health & Beauty",
+    "link": "https://profiles.eco/kusala.eco",
     "location": "Pays-Bas",
     "priority": ""
   },
@@ -131,6 +145,7 @@
     "img": "/img/champion_logos/ducky.webp",
     "type": "business",
     "sector": "Digital agencies & software",
+    "link": "https://profiles.eco/ducky.eco",
     "location": "Norvège",
     "priority": ""
   },
@@ -140,6 +155,7 @@
     "img": "/img/champion_logos/carboncopy-hero.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
+    "link": "https://profiles.eco/carboncopy.eco",
     "location": "Royaume-Uni",
     "priority": ""
   },
@@ -149,6 +165,7 @@
     "img": "/img/champion_logos/dragonfly-eco.webp",
     "type": "individual",
     "sector": "Individual",
+    "link": "https://profiles.eco/dragonfly.eco",
     "location": "Canada",
     "priority": ""
   },
@@ -158,6 +175,7 @@
     "img": "/img/champion_logos/zeroco2.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/zeroco2.eco",
     "location": "Italie",
     "priority": "4"
   },
@@ -167,6 +185,7 @@
     "img": "/img/champion_logos/terrabyte.webp",
     "type": "business",
     "sector": "Digital agencies & software",
+    "link": "https://profiles.eco/terrabyte.eco",
     "location": "États-Unis",
     "priority": ""
   },
@@ -176,6 +195,7 @@
     "img": "/img/champion_logos/tooth-eco2.webp",
     "type": "business",
     "sector": "Consumer goods",
+    "link": "https://profiles.eco/tooth.eco",
     "location": "Royaume-Uni",
     "priority": ""
   },
@@ -185,6 +205,7 @@
     "img": "/img/champion_logos/aem.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/aem.eco",
     "location": "États-Unis",
     "priority": ""
   },
@@ -194,6 +215,7 @@
     "img": "/img/champion_logos/pirkani3.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
+    "link": "https://profiles.eco/pirkani.eco",
     "location": "Royaume-Uni",
     "priority": ""
   },
@@ -203,6 +225,7 @@
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
     "sector": "Transportation",
+    "link": "https://profiles.eco/cycle.eco",
     "location": "Allemagne",
     "priority": "3"
   },
@@ -212,6 +235,7 @@
     "img": "/img/champion_logos/koala.webp",
     "type": "business",
     "sector": "Health & Beauty",
+    "link": "https://profiles.eco/koala.eco",
     "location": "Australie",
     "priority": ""
   },
@@ -221,6 +245,7 @@
     "img": "/img/champion_logos/greenworx.webp",
     "type": "business",
     "sector": "Health & Beauty",
+    "link": "https://profiles.eco/greenworx.eco",
     "location": "Afrique du Sud",
     "priority": "2"
   },
@@ -230,6 +255,7 @@
     "img": "/img/champion_logos/carl.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
+    "link": "https://profiles.eco/carl.eco",
     "location": "États-Unis",
     "priority": "1"
   }
