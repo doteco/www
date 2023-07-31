@@ -45,6 +45,10 @@ Handlebars.registerHelper('lookupArticle', function (collection, path) {
   return collection.find(article => pagePath(article.path) === path)
 })
 
+Handlebars.registerHelper('lookupProfile', function (profiles, domain) {
+  return profiles.find(profile => profile.domain === domain)
+})
+
 Handlebars.registerHelper('uriencode', function (uri) {
   return encodeURIComponent(uri)
 })

@@ -1,0 +1,50 @@
+#doteco {
+  .page-for {
+    p,
+    li {
+      font-size: 18px;
+    }
+
+    h3 {
+      margin: 1rem 0;
+    }
+
+    .jumbotron {
+      padding: 2rem 0;
+    }
+
+    .section-label {
+      margin: 1rem 0;
+    }
+
+    .jumbotron p {
+      font-size: 2rem;
+      line-height: 1.5;
+    }
+
+    .profile-tile-details-story {
+      font-size: 16px;
+    }
+
+    .sector-profiles, .leadership-logos {
+      margin-bottom: 4rem;
+      align-items: center;
+    }
+
+    .leadership-logos img {
+      display: block;
+      margin: auto;
+      width: 60%;
+    }
+
+    @media (width >= 768px) {
+      .jumbotron {
+        padding: 6rem 0;
+      }
+  
+      .for-justify p {
+        font-size: 22px;
+      }
+    }  
+  }
+}

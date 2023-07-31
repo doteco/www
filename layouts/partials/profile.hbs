@@ -1,0 +1,23 @@
+  <div class="grid__cell">
+    <a href="{{profile.link}}" class="profile-tile" title="Learn more about {{profile.domain}}">
+      <div class="profile-tile__wrapper">
+        <img class="profile-tile__image" src="{{profile.img}}" alt="" loading="lazy" width="330" height="110">
+        <div class="profile-tile__label">
+          <strong>{{profile.domain}}</strong>
+        </div>
+      </div>
+    </a>
+    <div class="profile-tile-details">
+      <p class="profile-tile-details-story">{{{profile.story}}}</p>
+      <p class="profile-tile-details__section">
+        <span class="profile-type__section">
+          <img src="https://cdn.profiles.eco/img/icons/org-type/{{typeIcon profile.type}}" class="profile-type__icon" alt="{{ profile.type}} icon" loading="lazy">
+          {{@root/t (concat 'global:profile-types.' profile.type)}}
+        </span>
+        <span class="profile-type__section">
+          <span class="profile-type__globe"></span>
+          {{profile.location}}
+        </span>
+      </p>
+    </div>
+  </div>
