@@ -52,23 +52,7 @@ faq: true
 </div>
 </header>
 
-<div class="section search">
-	<div class="container">
-		<form method="get" class="search-form" role="search">
-		<h1 class="subheader search-header"><label for="input-search">{{t 'search.head'}}</label></h1>
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					<div class="input-group">
-						<input id="input-search" type="search" class="form-control domain-search" name="domain" placeholder="example.eco" autocomplete="off" autocapitalize="off">
-						<input class="btn btn-search" type="submit" title="{{t 'global:search.cta'}}" value="">
-					</div>
-				</div>
-				<div class="col-md-2"></div>
-			</div>
-		</form>
-	</div>
-</div>
+{{> search }}
 
 <div class="section recent">
 	<div class="container">
@@ -165,29 +149,6 @@ faq: true
 	</div>
 </div>
 <script>
-	function search() {
-		try {
-			var url = new URL('search/', window.location)
-			url.searchParams.append('domain', document.querySelector('.domain-search').value)
-			window.location = url.href
-		} catch (e) {
-			window.location = '/search/?domain=' + encodeURI(document.querySelector('.domain-search').value)
-		}
-		return false
-	}
-
-	document.querySelector('.btn-search').addEventListener('click', function (e) {
-		e.preventDefault()
-		return search()
-	})
-
-	document.querySelector('.domain-search').addEventListener('keydown', function (e) {
-		if (e.keyCode === 13) {
-			e.preventDefault()
-			return search()
-		}
-	})
-
 	var registeredDomains = document.getElementById('registered-domains')
 
 	var fadeIn = function (elem, timing, delta, cb) {
