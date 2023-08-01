@@ -94,12 +94,6 @@ exclude: true
 <iframe id="makeoffer-form-iframe" name="makeoffer-form-iframe" class="iframe-form-iframe" title="{{t "reserved.title"}}" hidden></iframe>
 
 <script>
-  function track(eventId) {
-    if (typeof fathom === 'object') {
-      fathom.trackGoal(eventId)
-    }
-  }
-
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof domainSearch !== 'function') {
       return console.error('Domain search script did not load. Search will not work.')

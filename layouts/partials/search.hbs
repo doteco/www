@@ -19,6 +19,8 @@
 <script>
 	function search() {
 		try {
+      track('JVGELPUR')
+
 			var url = new URL('/search/', window.location)
 			url.searchParams.append('domain', document.querySelector('.domain-search').value)
 			window.location = url.href

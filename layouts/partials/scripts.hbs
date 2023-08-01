@@ -4,6 +4,13 @@
 		el.innerHTML = "<a href=\"mailto:" + email +"\">" + email + "</a>";
 	});
 </script>
+<script>
+  function track(eventId) {
+    if (typeof fathom === 'object') {
+      fathom.trackGoal(eventId)
+    }
+  }
+</script>
 
 {{#if intercomAppID }}
 <script>
