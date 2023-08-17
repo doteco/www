@@ -241,4 +241,9 @@ if (options.watch) {
     watch: true,
     open: false
   })
+} else {
+  ms.use(function (files) {
+    const out = Object.values(files).filter(file => file.title).map(f => [f.path, f.title, f.description, f.excerpt || ''])
+    out.forEach(o => console.log(o.join(',')))
+  })
 }
