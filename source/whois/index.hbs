@@ -52,7 +52,18 @@ function whois () {
 
   window.fetch('{{ searchUrl }}/whois?domain=' + domain).then((response) => response.text()).then(function (results) {
     document.querySelector('.whois-results').innerText = results.replace(/"/g, '').replace(/\\r\\n/g, '\r\n')
+  }).catch(handleSearchError)
+}
+
+function handleSearchError (ex) {
+  console.error('Failed to load whois data: ' + ex)
+  console.error(ex)
+  window.Sentry && window.Sentry.captureException(ex, {
+    extra: {
+      ctx: 'Failed to fetch whois data'
+    }
   })
+  document.querySelector('.whois-results').innerHTML = 'Unable to look up domain ownership. Please try again.'
 }
 
 document.querySelector('.search-form').addEventListener('submit', function (e) {
