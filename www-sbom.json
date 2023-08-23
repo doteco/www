@@ -471,9 +471,9 @@
    }
   },
   {
-   "id": "8d40a94776bf1ea2",
+   "id": "835bb08f54567899",
    "name": "@eslint-community/regexpp",
-   "version": "4.6.2",
+   "version": "4.7.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -502,18 +502,18 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@eslint-community\\/regexpp:\\@eslint-community\\/regexpp:4.6.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@eslint-community\\/regexpp:\\@eslint_community\\/regexpp:4.6.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@eslint_community\\/regexpp:\\@eslint-community\\/regexpp:4.6.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@eslint_community\\/regexpp:\\@eslint_community\\/regexpp:4.6.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@eslint:\\@eslint-community\\/regexpp:4.6.2:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@eslint:\\@eslint_community\\/regexpp:4.6.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@eslint-community\\/regexpp:\\@eslint-community\\/regexpp:4.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@eslint-community\\/regexpp:\\@eslint_community\\/regexpp:4.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@eslint_community\\/regexpp:\\@eslint-community\\/regexpp:4.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@eslint_community\\/regexpp:\\@eslint_community\\/regexpp:4.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@eslint:\\@eslint-community\\/regexpp:4.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@eslint:\\@eslint_community\\/regexpp:4.7.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40eslint-community/regexpp@4.6.2",
+   "purl": "pkg:npm/%40eslint-community/regexpp@4.7.0",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.6.2.tgz",
-    "integrity": "sha512-pPTNuaAG3QMH+buKyBIGJs3g/S5y0caxw0ygM3YyE6yJFySwiGGSzA+mM3KJ8QQvzeLh3blwgSonkFjgQdxzMw=="
+    "resolved": "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.7.0.tgz",
+    "integrity": "sha512-+HencqxU7CFJnQb7IKtuNBqS6Yx3Tz4kOL8BJXo+JyeiBm5MEX6pO8onXDkjrkCRlfYXS1Axro15ZjVFe9YgsA=="
    }
   },
   {
@@ -829,9 +829,9 @@
    }
   },
   {
-   "id": "c58972bd2fc97f4e",
+   "id": "1a26d6ee5d02f648",
    "name": "@grpc/proto-loader",
-   "version": "0.7.8",
+   "version": "0.7.9",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -860,18 +860,18 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto-loader:0.7.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto_loader:0.7.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto-loader:0.7.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto_loader:0.7.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto-loader:0.7.8:*:*:*:*:*:*:*",
-    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto_loader:0.7.8:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto-loader:0.7.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto-loader:\\@grpc\\/proto_loader:0.7.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto-loader:0.7.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto_loader:\\@grpc\\/proto_loader:0.7.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto-loader:0.7.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:\\@grpc\\/proto:\\@grpc\\/proto_loader:0.7.9:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40grpc/proto-loader@0.7.8",
+   "purl": "pkg:npm/%40grpc/proto-loader@0.7.9",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.7.8.tgz",
-    "integrity": "sha512-GU12e2c8dmdXb7XUlOgYWZ2o2i+z9/VeACkxTA/zzAe2IjclC5PnVL0lpgjhrqfpDYHzM8B1TF6pqWegMYAzlA=="
+    "resolved": "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.7.9.tgz",
+    "integrity": "sha512-YJsOehVXzgurc+lLAxYnlSMc1p/Gu6VAvnfx0ATi2nzvr0YZcjhmZDeY8SeAKv1M7zE3aEJH0Xo9mK1iZ8GYoQ=="
    }
   },
   {
@@ -1228,9 +1228,9 @@
    }
   },
   {
-   "id": "e77b03b4be657619",
+   "id": "0b53003021c9cb9c",
    "name": "@metalsmith/sass",
-   "version": "1.6.0",
+   "version": "1.7.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -1259,13 +1259,13 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@metalsmith\\/sass:\\@metalsmith\\/sass:1.6.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@metalsmith\\/sass:\\@metalsmith\\/sass:1.7.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40metalsmith/sass@1.6.0",
+   "purl": "pkg:npm/%40metalsmith/sass@1.7.0",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/@metalsmith/sass/-/sass-1.6.0.tgz",
-    "integrity": "sha512-x6XakpCqrgt0A5ygsDRVxttDcz3SyOYpdZ11J4HONoJq0DFq9Es70Bn3iryxr01OoZ+en1qIYJDNN6LDcV+axg=="
+    "resolved": "https://registry.npmjs.org/@metalsmith/sass/-/sass-1.7.0.tgz",
+    "integrity": "sha512-o6XxRFrDCVoVJucsfPxSeL/HwY/zHfHUrkH1j+2kosU4AV2ReRgKX0NnqJRLa6z4ZKb0JLxeHsUKx1lEdiioyA=="
    }
   },
   {
@@ -2636,9 +2636,9 @@
    }
   },
   {
-   "id": "797632812ee0f66d",
+   "id": "8aadfd5a93814552",
    "name": "@types/node",
-   "version": "20.5.0",
+   "version": "20.5.4",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -2667,13 +2667,13 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:\\@types\\/node:\\@types\\/node:20.5.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:\\@types\\/node:\\@types\\/node:20.5.4:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/%40types/node@20.5.0",
+   "purl": "pkg:npm/%40types/node@20.5.4",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/@types/node/-/node-20.5.0.tgz",
-    "integrity": "sha512-Mgq7eCtoTjT89FqNoTzzXg2XvCi5VMhRV6+I2aYanc6kQCBImeNaAYRs/DyoVqk1YEUJK5gN9VO7HRIdz4Wo3Q=="
+    "resolved": "https://registry.npmjs.org/@types/node/-/node-20.5.4.tgz",
+    "integrity": "sha512-Y9vbIAoM31djQZrPYjpTLo0XlaSwOIsrlfE3LpulZeRblttsLQRFRlBAppW0LOxyT3ALj2M5vU1ucQQayQH3jA=="
    }
   },
   {
@@ -6600,9 +6600,9 @@
    }
   },
   {
-   "id": "978f32552dc42fe3",
+   "id": "472eecaabaa897ed",
    "name": "caniuse-lite",
-   "version": "1.0.30001521",
+   "version": "1.0.30001522",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -6631,18 +6631,18 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:caniuse-lite:caniuse-lite:1.0.30001521:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse-lite:caniuse_lite:1.0.30001521:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse_lite:caniuse-lite:1.0.30001521:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse_lite:caniuse_lite:1.0.30001521:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse:caniuse-lite:1.0.30001521:*:*:*:*:*:*:*",
-    "cpe:2.3:a:caniuse:caniuse_lite:1.0.30001521:*:*:*:*:*:*:*"
+    "cpe:2.3:a:caniuse-lite:caniuse-lite:1.0.30001522:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse-lite:caniuse_lite:1.0.30001522:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse_lite:caniuse-lite:1.0.30001522:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse_lite:caniuse_lite:1.0.30001522:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse:caniuse-lite:1.0.30001522:*:*:*:*:*:*:*",
+    "cpe:2.3:a:caniuse:caniuse_lite:1.0.30001522:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/caniuse-lite@1.0.30001521",
+   "purl": "pkg:npm/caniuse-lite@1.0.30001522",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001521.tgz",
-    "integrity": "sha512-fnx1grfpEOvDGH+V17eccmNjucGUnCbP6KL+l5KqBIerp26WK/+RQ7CIDE37KGJjaPyqWXXlFUyKiWmvdNNKmQ=="
+    "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001522.tgz",
+    "integrity": "sha512-TKiyTVZxJGhsTszLuzb+6vUZSjVOAhClszBr2Ta2k9IwtNBT/4dzmL6aywt0HCgEZlmwJzXJd8yNiob6HgwTRg=="
    }
   },
   {
@@ -10992,9 +10992,9 @@
    }
   },
   {
-   "id": "7789cd9630d0dfdf",
+   "id": "67ff0b30f7e7c2c1",
    "name": "electron-to-chromium",
-   "version": "1.4.495",
+   "version": "1.4.499",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -11023,22 +11023,22 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:electron-to-chromium:electron-to-chromium:1.4.495:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to-chromium:electron_to_chromium:1.4.495:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to_chromium:electron-to-chromium:1.4.495:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to_chromium:electron_to_chromium:1.4.495:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to:electron-to-chromium:1.4.495:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron-to:electron_to_chromium:1.4.495:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to:electron-to-chromium:1.4.495:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron_to:electron_to_chromium:1.4.495:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron:electron-to-chromium:1.4.495:*:*:*:*:*:*:*",
-    "cpe:2.3:a:electron:electron_to_chromium:1.4.495:*:*:*:*:*:*:*"
+    "cpe:2.3:a:electron-to-chromium:electron-to-chromium:1.4.499:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to-chromium:electron_to_chromium:1.4.499:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to_chromium:electron-to-chromium:1.4.499:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to_chromium:electron_to_chromium:1.4.499:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to:electron-to-chromium:1.4.499:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron-to:electron_to_chromium:1.4.499:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to:electron-to-chromium:1.4.499:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron_to:electron_to_chromium:1.4.499:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron:electron-to-chromium:1.4.499:*:*:*:*:*:*:*",
+    "cpe:2.3:a:electron:electron_to_chromium:1.4.499:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/electron-to-chromium@1.4.495",
+   "purl": "pkg:npm/electron-to-chromium@1.4.499",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.495.tgz",
-    "integrity": "sha512-mwknuemBZnoOCths4GtpU/SDuVMp3uQHKa2UNJT9/aVD6WVRjGpXOxRGX7lm6ILIenTdGXPSTCTDaWos5tEU8Q=="
+    "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.499.tgz",
+    "integrity": "sha512-0NmjlYBLKVHva4GABWAaHuPJolnDuL0AhV3h1hES6rcLCWEIbRL6/8TghfsVwkx6TEroQVdliX7+aLysUpKvjw=="
    }
   },
   {
@@ -12249,9 +12249,9 @@
    }
   },
   {
-   "id": "794a98ad8f438cbf",
+   "id": "9b61d5d415ed12d1",
    "name": "eslint-plugin-import",
-   "version": "2.28.0",
+   "version": "2.28.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -12280,22 +12280,22 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:eslint-plugin-import:eslint-plugin-import:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-plugin-import:eslint_plugin_import:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin_import:eslint-plugin-import:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin_import:eslint_plugin_import:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-plugin:eslint-plugin-import:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint-plugin:eslint_plugin_import:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin:eslint-plugin-import:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint_plugin:eslint_plugin_import:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint:eslint-plugin-import:2.28.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:eslint:eslint_plugin_import:2.28.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:eslint-plugin-import:eslint-plugin-import:2.28.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-plugin-import:eslint_plugin_import:2.28.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin_import:eslint-plugin-import:2.28.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin_import:eslint_plugin_import:2.28.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-plugin:eslint-plugin-import:2.28.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint-plugin:eslint_plugin_import:2.28.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin:eslint-plugin-import:2.28.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint_plugin:eslint_plugin_import:2.28.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint:eslint-plugin-import:2.28.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eslint:eslint_plugin_import:2.28.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/eslint-plugin-import@2.28.0",
+   "purl": "pkg:npm/eslint-plugin-import@2.28.1",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.28.0.tgz",
-    "integrity": "sha512-B8s/n+ZluN7sxj9eUf7/pRFERX0r5bnFA2dCaLHy2ZeaQEAz0k+ZZkFWRFHJAqxfxQDx6KLv9LeIki7cFdwW+Q=="
+    "resolved": "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.28.1.tgz",
+    "integrity": "sha512-9I9hFlITvOV55alzoKBI+K9q74kv0iKMeY6av5+umsNwayt59fz692daGyjR+oStBQgx6nwR9rXldDev3Clw+A=="
    }
   },
   {
@@ -13631,9 +13631,9 @@
    }
   },
   {
-   "id": "ba2cd72e8b640114",
+   "id": "ffc17fc823bfd6da",
    "name": "fast-fifo",
-   "version": "1.3.0",
+   "version": "1.3.2",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -13662,18 +13662,18 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:fast-fifo:fast-fifo:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fast-fifo:fast_fifo:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fast_fifo:fast-fifo:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fast_fifo:fast_fifo:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fast:fast-fifo:1.3.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:fast:fast_fifo:1.3.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:fast-fifo:fast-fifo:1.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fast-fifo:fast_fifo:1.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fast_fifo:fast-fifo:1.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fast_fifo:fast_fifo:1.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fast:fast-fifo:1.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fast:fast_fifo:1.3.2:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/fast-fifo@1.3.0",
+   "purl": "pkg:npm/fast-fifo@1.3.2",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.3.0.tgz",
-    "integrity": "sha512-IgfweLvEpwyA4WgiQe9Nx6VV2QkML2NkvZnk1oKnIzXgXdWxuhF7zw4DvLTPZJn6PIUneiAXPF24QmoEqHTjyw=="
+    "resolved": "https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.3.2.tgz",
+    "integrity": "sha512-/d9sfos4yxzpwkDkuN7k2SqFKtYNmCTzgfEpz82x34IM9/zc8KGxQoXg1liNC/izpRM/MBdt44Nmx41ZWqk+FQ=="
    }
   },
   {
@@ -15015,9 +15015,9 @@
    }
   },
   {
-   "id": "e5a18d82172cd810",
+   "id": "c7994371fc67d2a3",
    "name": "fraction.js",
-   "version": "4.2.0",
+   "version": "4.2.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -15046,13 +15046,13 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:fraction.js:fraction.js:4.2.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:fraction.js:fraction.js:4.2.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/fraction.js@4.2.0",
+   "purl": "pkg:npm/fraction.js@4.2.1",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.0.tgz",
-    "integrity": "sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA=="
+    "resolved": "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.1.tgz",
+    "integrity": "sha512-/KxoyCnPM0GwYI4NN0Iag38Tqt+od3/mLuguepLgCAKPn0ZhC544nssAW0tG2/00zXEYl9W+7hwAIpLHo6Oc7Q=="
    }
   },
   {
@@ -15317,9 +15317,9 @@
    }
   },
   {
-   "id": "0c98ceee334c3e16",
+   "id": "d56600e376807545",
    "name": "fsevents",
-   "version": "2.3.2",
+   "version": "2.3.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -15348,13 +15348,13 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:fsevents:fsevents:2.3.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:fsevents:fsevents:2.3.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/fsevents@2.3.2",
+   "purl": "pkg:npm/fsevents@2.3.3",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz",
-    "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
+    "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+    "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
    }
   },
   {
@@ -17018,9 +17018,9 @@
    }
   },
   {
-   "id": "a538ae4d22cb12ca",
+   "id": "d8f18ca1266c06b2",
    "name": "googleapis",
-   "version": "125.0.0",
+   "version": "126.0.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -17049,13 +17049,13 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:googleapis:googleapis:125.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:googleapis:googleapis:126.0.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/googleapis@125.0.0",
+   "purl": "pkg:npm/googleapis@126.0.0",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/googleapis/-/googleapis-125.0.0.tgz",
-    "integrity": "sha512-KsMe3gdbiI6bj4M+Zuwcl7xL0Koz8m0kaq0XQj99YT/4zHsZdaLJqGmYMDyWI4SAScVqkW7TvQftzL7L74x1uQ=="
+    "resolved": "https://registry.npmjs.org/googleapis/-/googleapis-126.0.0.tgz",
+    "integrity": "sha512-BeCwYJfthEWUgY0ka7msSxyMuRwrwJTqL9yMlnuCxyy1JlRZwaI5ZVVp4ofwiGiNP9UuuR3Yk9CJKWQLg4Tq1A=="
    }
   },
   {
@@ -19176,9 +19176,9 @@
    }
   },
   {
-   "id": "90694802684e09f5",
+   "id": "3a31d1192f3dfc46",
    "name": "immutable",
-   "version": "4.3.2",
+   "version": "4.3.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -19207,13 +19207,13 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:immutable:immutable:4.3.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:immutable:immutable:4.3.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/immutable@4.3.2",
+   "purl": "pkg:npm/immutable@4.3.3",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/immutable/-/immutable-4.3.2.tgz",
-    "integrity": "sha512-oGXzbEDem9OOpDWZu88jGiYCvIsLHMvGw+8OXlpsvTFvIQplQbjg1B1cvKg8f7Hoch6+NGjpPsH1Fr+Mc2D1aA=="
+    "resolved": "https://registry.npmjs.org/immutable/-/immutable-4.3.3.tgz",
+    "integrity": "sha512-808ZFYMsIRAjLAu5xkKo0TsbY9LBy9H5MazTKIEHerNkg0ymgilGfBPMR/3G7d/ihGmuK2Hw8S1izY2d3kd3wA=="
    }
   },
   {
@@ -23664,9 +23664,9 @@
    }
   },
   {
-   "id": "7ca6ee60aa7b6408",
+   "id": "d50b2005765a1a97",
    "name": "known-css-properties",
-   "version": "0.27.0",
+   "version": "0.28.0",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -23695,22 +23695,22 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:known-css-properties:known-css-properties:0.27.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:known-css-properties:known_css_properties:0.27.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:known_css_properties:known-css-properties:0.27.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:known_css_properties:known_css_properties:0.27.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:known-css:known-css-properties:0.27.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:known-css:known_css_properties:0.27.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:known_css:known-css-properties:0.27.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:known_css:known_css_properties:0.27.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:known:known-css-properties:0.27.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:known:known_css_properties:0.27.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:known-css-properties:known-css-properties:0.28.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:known-css-properties:known_css_properties:0.28.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:known_css_properties:known-css-properties:0.28.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:known_css_properties:known_css_properties:0.28.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:known-css:known-css-properties:0.28.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:known-css:known_css_properties:0.28.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:known_css:known-css-properties:0.28.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:known_css:known_css_properties:0.28.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:known:known-css-properties:0.28.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:known:known_css_properties:0.28.0:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/known-css-properties@0.27.0",
+   "purl": "pkg:npm/known-css-properties@0.28.0",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/known-css-properties/-/known-css-properties-0.27.0.tgz",
-    "integrity": "sha512-uMCj6+hZYDoffuvAJjFAPz56E9uoowFHmTkqRtRq5WyC5Q6Cu/fTZKNQpX/RbzChBYLLl3lo8CjFZBAZXq9qFg=="
+    "resolved": "https://registry.npmjs.org/known-css-properties/-/known-css-properties-0.28.0.tgz",
+    "integrity": "sha512-9pSL5XB4J+ifHP0e0jmmC98OGC1nL8/JjS+fi6mnTlIf//yt/MfVLtKg7S6nCtj/8KTcWX7nRlY0XywoYY1ISQ=="
    }
   },
   {
@@ -25243,47 +25243,6 @@
    "metadata": {
     "resolved": "https://registry.npmjs.org/log-update/-/log-update-4.0.0.tgz",
     "integrity": "sha512-9fkkDevMefjg0mmzWFBW8YkFP91OrizzkW3diF7CpG+S2EYdy4+TVfGwz1zeF8x7hCx1ovSPTOE9Ngib74qqUg=="
-   }
-  },
-  {
-   "id": "2e2604b7ff102c9c",
-   "name": "long",
-   "version": "4.0.0",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "/package-lock.json",
-     "annotations": {
-      "evidence": "primary"
-     }
-    }
-   ],
-   "licenses": [
-    {
-     "value": "Apache-2.0",
-     "spdxExpression": "Apache-2.0",
-     "type": "declared",
-     "urls": [],
-     "locations": [
-      {
-       "path": "/package-lock.json",
-       "annotations": {
-        "evidence": "primary"
-       }
-      }
-     ]
-    }
-   ],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:long:long:4.0.0:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/long@4.0.0",
-   "metadataType": "NpmPackageLockJsonMetadata",
-   "metadata": {
-    "resolved": "https://registry.npmjs.org/long/-/long-4.0.0.tgz",
-    "integrity": "sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA=="
    }
   },
   {
@@ -28277,52 +28236,6 @@
    }
   },
   {
-   "id": "7ae437bdabfe77e3",
-   "name": "node-fetch",
-   "version": "2.6.12",
-   "type": "npm",
-   "foundBy": "javascript-lock-cataloger",
-   "locations": [
-    {
-     "path": "/package-lock.json",
-     "annotations": {
-      "evidence": "primary"
-     }
-    }
-   ],
-   "licenses": [
-    {
-     "value": "MIT",
-     "spdxExpression": "MIT",
-     "type": "declared",
-     "urls": [],
-     "locations": [
-      {
-       "path": "/package-lock.json",
-       "annotations": {
-        "evidence": "primary"
-       }
-      }
-     ]
-    }
-   ],
-   "language": "javascript",
-   "cpes": [
-    "cpe:2.3:a:node-fetch:node-fetch:2.6.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:node-fetch:node_fetch:2.6.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:node_fetch:node-fetch:2.6.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:node_fetch:node_fetch:2.6.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:node:node-fetch:2.6.12:*:*:*:*:*:*:*",
-    "cpe:2.3:a:node:node_fetch:2.6.12:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:npm/node-fetch@2.6.12",
-   "metadataType": "NpmPackageLockJsonMetadata",
-   "metadata": {
-    "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.12.tgz",
-    "integrity": "sha512-C/fGU2E8ToujUivIO0H+tpQ6HWo4eEmchoPIoXtxCrVghxdKq+QOHqEZW7tuP3KlV3bC8FRMO5nMCC7Zm1VP6g=="
-   }
-  },
-  {
    "id": "67c2852158e37287",
    "name": "node-fetch",
    "version": "2.6.7",
@@ -28366,6 +28279,52 @@
    "metadata": {
     "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz",
     "integrity": "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ=="
+   }
+  },
+  {
+   "id": "9979cf541689630f",
+   "name": "node-fetch",
+   "version": "2.7.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "/package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "MIT",
+     "spdxExpression": "MIT",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "/package-lock.json",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:node-fetch:node-fetch:2.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:node-fetch:node_fetch:2.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:node_fetch:node-fetch:2.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:node_fetch:node_fetch:2.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:node:node-fetch:2.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:node:node_fetch:2.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/node-fetch@2.7.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz",
+    "integrity": "sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A=="
    }
   },
   {
@@ -35163,9 +35122,9 @@
    }
   },
   {
-   "id": "fa02e530ce5c2a8f",
+   "id": "cbe1cab2f13360db",
    "name": "sass",
-   "version": "1.66.0",
+   "version": "1.66.1",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -35194,13 +35153,13 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:sass:sass:1.66.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:sass:sass:1.66.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/sass@1.66.0",
+   "purl": "pkg:npm/sass@1.66.1",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/sass/-/sass-1.66.0.tgz",
-    "integrity": "sha512-C3U+RgpAAlTXULZkWwzfysgbbBBo8IZudNAOJAVBLslFbIaZv4MBPkTqhuvpK4lqgdoFiWhnOGMoV4L1FyOBag=="
+    "resolved": "https://registry.npmjs.org/sass/-/sass-1.66.1.tgz",
+    "integrity": "sha512-50c+zTsZOJVgFfTgwwEzkjA3/QACgdNsKueWPyAR0mRINIvLAStVQBbPg14iuqEQ74NPDbXzJARJ/O4SI1zftA=="
    }
   },
   {
@@ -38953,9 +38912,9 @@
    }
   },
   {
-   "id": "fb69d2736caa368e",
+   "id": "769c872c1f05bdc8",
    "name": "stylelint",
-   "version": "15.10.2",
+   "version": "15.10.3",
    "type": "npm",
    "foundBy": "javascript-lock-cataloger",
    "locations": [
@@ -38984,13 +38943,13 @@
    ],
    "language": "javascript",
    "cpes": [
-    "cpe:2.3:a:stylelint:stylelint:15.10.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:stylelint:stylelint:15.10.3:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:npm/stylelint@15.10.2",
+   "purl": "pkg:npm/stylelint@15.10.3",
    "metadataType": "NpmPackageLockJsonMetadata",
    "metadata": {
-    "resolved": "https://registry.npmjs.org/stylelint/-/stylelint-15.10.2.tgz",
-    "integrity": "sha512-UxqSb3hB74g4DTO45QhUHkJMjKKU//lNUAOWyvPBVPZbCknJ5HjOWWZo+UDuhHa9FLeVdHBZXxu43eXkjyIPWg=="
+    "resolved": "https://registry.npmjs.org/stylelint/-/stylelint-15.10.3.tgz",
+    "integrity": "sha512-aBQMMxYvFzJJwkmg+BUUg3YfPyeuCuKo2f+LOw7yYbU8AZMblibwzp9OV4srHVeQldxvSFdz0/Xu8blq2AesiA=="
    }
   },
   {
@@ -44153,6 +44112,11 @@
    "type": "evident-by"
   },
   {
+   "parent": "0b53003021c9cb9c",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
    "parent": "0ba5487e9c9f8e2d",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -44169,11 +44133,6 @@
   },
   {
    "parent": "0c08f6220a568b94",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
-   "parent": "0c98ceee334c3e16",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -44439,6 +44398,11 @@
   },
   {
    "parent": "1a14daf14a0f3b8f",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1a26d6ee5d02f648",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -44843,11 +44807,6 @@
    "type": "evident-by"
   },
   {
-   "parent": "2e2604b7ff102c9c",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
    "parent": "2e40f095e2687f97",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -45044,6 +45003,11 @@
   },
   {
    "parent": "39f2c93bee39d882",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3a31d1192f3dfc46",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -45284,6 +45248,11 @@
   },
   {
    "parent": "4677251688d955ff",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
+   "parent": "472eecaabaa897ed",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -45993,6 +45962,11 @@
    "type": "evident-by"
   },
   {
+   "parent": "67ff0b30f7e7c2c1",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
    "parent": "680c6d7b7a302c02",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -46243,6 +46217,11 @@
    "type": "evident-by"
   },
   {
+   "parent": "769c872c1f05bdc8",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
    "parent": "76c6fa724b683542",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -46264,11 +46243,6 @@
   },
   {
    "parent": "777e775635c9a3c6",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
-   "parent": "7789cd9630d0dfdf",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -46303,11 +46277,6 @@
    "type": "evident-by"
   },
   {
-   "parent": "794a98ad8f438cbf",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
    "parent": "794bcfe408aecde1",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -46318,22 +46287,12 @@
    "type": "evident-by"
   },
   {
-   "parent": "797632812ee0f66d",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
    "parent": "79f343336e270aee",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
   {
    "parent": "7a0a9059260d9849",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
-   "parent": "7ae437bdabfe77e3",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -46364,11 +46323,6 @@
   },
   {
    "parent": "7c7878c48706fba7",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
-   "parent": "7ca6ee60aa7b6408",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -46478,6 +46432,11 @@
    "type": "evident-by"
   },
   {
+   "parent": "835bb08f54567899",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
    "parent": "8422fdcbc29c6792",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -46573,6 +46532,11 @@
    "type": "evident-by"
   },
   {
+   "parent": "8aadfd5a93814552",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
    "parent": "8ab94b9c8e334a34",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -46609,11 +46573,6 @@
   },
   {
    "parent": "8d21b6b3bd83bf4c",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
-   "parent": "8d40a94776bf1ea2",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -46674,11 +46633,6 @@
   },
   {
    "parent": "902a7aa5df56feb9",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
-   "parent": "90694802684e09f5",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -46878,11 +46832,6 @@
    "type": "evident-by"
   },
   {
-   "parent": "978f32552dc42fe3",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
    "parent": "981b9f2c92c8bd0f",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -46904,6 +46853,11 @@
   },
   {
    "parent": "98da1da4b49d2d06",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9979cf541689630f",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -46934,6 +46888,11 @@
   },
   {
    "parent": "9b03312bce3a6f37",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9b61d5d415ed12d1",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -47124,11 +47083,6 @@
   },
   {
    "parent": "a46ac8e441a5ab36",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
-   "parent": "a538ae4d22cb12ca",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -47478,11 +47432,6 @@
    "type": "evident-by"
   },
   {
-   "parent": "ba2cd72e8b640114",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
    "parent": "ba402fed73f24b54",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -47723,11 +47672,6 @@
    "type": "evident-by"
   },
   {
-   "parent": "c58972bd2fc97f4e",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
    "parent": "c6162d4aa1b1da98",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -47784,6 +47728,11 @@
   },
   {
    "parent": "c768b5f33f0740c5",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c7994371fc67d2a3",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -47849,6 +47798,11 @@
   },
   {
    "parent": "cbdddbca96311f90",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cbe1cab2f13360db",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -48084,6 +48038,11 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0b53003021c9cb9c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "0ba5487e9c9f8e2d",
    "type": "contains"
   },
@@ -48100,11 +48059,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "0c08f6220a568b94",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "0c98ceee334c3e16",
    "type": "contains"
   },
   {
@@ -48370,6 +48324,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "1a14daf14a0f3b8f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1a26d6ee5d02f648",
    "type": "contains"
   },
   {
@@ -48774,11 +48733,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "2e2604b7ff102c9c",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "2e40f095e2687f97",
    "type": "contains"
   },
@@ -48975,6 +48929,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "39f2c93bee39d882",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3a31d1192f3dfc46",
    "type": "contains"
   },
   {
@@ -49215,6 +49174,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "4677251688d955ff",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "472eecaabaa897ed",
    "type": "contains"
   },
   {
@@ -49924,6 +49888,11 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "67ff0b30f7e7c2c1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "680c6d7b7a302c02",
    "type": "contains"
   },
@@ -50174,6 +50143,11 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "769c872c1f05bdc8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "76c6fa724b683542",
    "type": "contains"
   },
@@ -50195,11 +50169,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "777e775635c9a3c6",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "7789cd9630d0dfdf",
    "type": "contains"
   },
   {
@@ -50234,11 +50203,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "794a98ad8f438cbf",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "794bcfe408aecde1",
    "type": "contains"
   },
@@ -50249,22 +50213,12 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "797632812ee0f66d",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "79f343336e270aee",
    "type": "contains"
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "7a0a9059260d9849",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "7ae437bdabfe77e3",
    "type": "contains"
   },
   {
@@ -50295,11 +50249,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "7c7878c48706fba7",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "7ca6ee60aa7b6408",
    "type": "contains"
   },
   {
@@ -50409,6 +50358,11 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "835bb08f54567899",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "8422fdcbc29c6792",
    "type": "contains"
   },
@@ -50504,6 +50458,11 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8aadfd5a93814552",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "8ab94b9c8e334a34",
    "type": "contains"
   },
@@ -50540,11 +50499,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "8d21b6b3bd83bf4c",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "8d40a94776bf1ea2",
    "type": "contains"
   },
   {
@@ -50605,11 +50559,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "902a7aa5df56feb9",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "90694802684e09f5",
    "type": "contains"
   },
   {
@@ -50809,11 +50758,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "978f32552dc42fe3",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "981b9f2c92c8bd0f",
    "type": "contains"
   },
@@ -50835,6 +50779,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "98da1da4b49d2d06",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9979cf541689630f",
    "type": "contains"
   },
   {
@@ -50865,6 +50814,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "9b03312bce3a6f37",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9b61d5d415ed12d1",
    "type": "contains"
   },
   {
@@ -51055,11 +51009,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "a46ac8e441a5ab36",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "a538ae4d22cb12ca",
    "type": "contains"
   },
   {
@@ -51409,11 +51358,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "ba2cd72e8b640114",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "ba402fed73f24b54",
    "type": "contains"
   },
@@ -51654,11 +51598,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "c58972bd2fc97f4e",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "c6162d4aa1b1da98",
    "type": "contains"
   },
@@ -51715,6 +51654,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "c768b5f33f0740c5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c7994371fc67d2a3",
    "type": "contains"
   },
   {
@@ -51780,6 +51724,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "cbdddbca96311f90",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "cbe1cab2f13360db",
    "type": "contains"
   },
   {
@@ -51969,6 +51918,16 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d50b2005765a1a97",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d56600e376807545",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "d5738776f3ae1eaf",
    "type": "contains"
   },
@@ -52020,6 +51979,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "d8b926dc2a6830c4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d8f18ca1266c06b2",
    "type": "contains"
   },
   {
@@ -52254,11 +52218,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "e5a18d82172cd810",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "e5bf102454559620",
    "type": "contains"
   },
@@ -52285,11 +52244,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "e6e83cc6c3ac6899",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "e77b03b4be657619",
    "type": "contains"
   },
   {
@@ -52674,11 +52628,6 @@
   },
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "fa02e530ce5c2a8f",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "fa051dc2a9c99f95",
    "type": "contains"
   },
@@ -52710,11 +52659,6 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "fb12bad44c8d87de",
-   "type": "contains"
-  },
-  {
-   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
-   "child": "fb69d2736caa368e",
    "type": "contains"
   },
   {
@@ -52780,6 +52724,11 @@
   {
    "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
    "child": "ff0ac8ead9e894ab",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ffc17fc823bfd6da",
    "type": "contains"
   },
   {
@@ -52943,6 +52892,16 @@
    "type": "evident-by"
   },
   {
+   "parent": "d50b2005765a1a97",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d56600e376807545",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
    "parent": "d5738776f3ae1eaf",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -52994,6 +52953,11 @@
   },
   {
    "parent": "d8b926dc2a6830c4",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d8f18ca1266c06b2",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -53228,11 +53192,6 @@
    "type": "evident-by"
   },
   {
-   "parent": "e5a18d82172cd810",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
    "parent": "e5bf102454559620",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -53259,11 +53218,6 @@
   },
   {
    "parent": "e6e83cc6c3ac6899",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
-   "parent": "e77b03b4be657619",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -53648,11 +53602,6 @@
    "type": "evident-by"
   },
   {
-   "parent": "fa02e530ce5c2a8f",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
    "parent": "fa051dc2a9c99f95",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
@@ -53684,11 +53633,6 @@
   },
   {
    "parent": "fb12bad44c8d87de",
-   "child": "fd71c2238fc07657",
-   "type": "evident-by"
-  },
-  {
-   "parent": "fb69d2736caa368e",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
   },
@@ -53756,6 +53700,11 @@
    "parent": "ff0ac8ead9e894ab",
    "child": "fd71c2238fc07657",
    "type": "evident-by"
+  },
+  {
+   "parent": "ffc17fc823bfd6da",
+   "child": "fd71c2238fc07657",
+   "type": "evident-by"
   }
  ],
  "files": [
@@ -53778,7 +53727,7 @@
  "distro": {},
  "descriptor": {
   "name": "syft",
-  "version": "0.87.0",
+  "version": "0.87.1",
   "configuration": {
    "configPath": "",
    "verbosity": 0,
