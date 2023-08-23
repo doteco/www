@@ -148,12 +148,12 @@ exclude: true
   })
 
   const form = document.getElementById('makeoffer-form')
-  if (form && form.querySelectorAll) {
-    form.querySelectorAll('input.form-control').forEach(function (formControl) {
+  if (form) {
+    for (formControl of form.querySelectorAll('input.form-control')) {
       formControl.addEventListener('input', function (event) {
         event.target.parentElement.classList.add('was-validated')
       })
-    })
+    }
     form.addEventListener('submit', function (event) {
       if (!form.checkValidity()) {
         return event.preventDefault()
