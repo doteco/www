@@ -50,7 +50,8 @@ const ENV_OPTIONS = {
     searchUrl: 'https://test-search.go.eco',
     sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451',
     noindex: true,
-    makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse'
+    makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse',
+    backspace: true
   },
   TST: {
     'ga-tracking-id': 'UA-2825422-15',
@@ -66,7 +67,8 @@ const ENV_OPTIONS = {
     searchUrl: 'https://test-search.go.eco',
     sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451',
     noindex: true,
-    makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse'
+    makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse',
+    backspace: true
   },
   PRD: {
     'ga-tracking-id': { en: 'UA-2825422-23', de: 'UA-2825422-16', fr: 'G-PJ7G8X9GSD' },
@@ -81,7 +83,8 @@ const ENV_OPTIONS = {
     intercomAppID: 'hsovcclh',
     searchUrl: 'https://domains.go.eco',
     sentryDSN: 'https://b58e840db28c47409688bc4dded2c97a@o72378.ingest.sentry.io/5877454',
-    makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScjnQNdyxwhKLM0s7l8h3AKp66WcTY72Qrw5JMC3s9m_k7uVA/formResponse'
+    makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScjnQNdyxwhKLM0s7l8h3AKp66WcTY72Qrw5JMC3s9m_k7uVA/formResponse',
+    backspace: false
   }
 }
 
@@ -120,6 +123,7 @@ const ms = Metalsmith(__dirname)
     sentryDSN: options.sentryDSN,
     noindex: options.noindex,
     makeOfferForm: options.makeOfferForm,
+    backspace: options.backspace,
     lang,
     languages,
     sites: options['site-url'],
