@@ -115,9 +115,35 @@
 			"https://en.wikipedia.org/wiki/.eco",
 			"https://icannwiki.org/.eco",
 			"https://www.linkedin.com/company/eco-domain/",
+			"https://mastodon.eco/@doteco/",
 			"https://twitter.com/doteco"
 	  ]
-	}	
+	}
+	</script>
+	{{#if (equal lang 'en')}}
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Product",
+		"name": ".eco",
+		"image": "https://go.eco/img/doteco-logo.svg",
+		"description": "Show your commitment to environmental action by registering your .eco domain name today. For businesses, organizations and individuals dedicated to helping our planet.",
+		"brand": {
+			"@type": "Brand",
+			"name": ".eco domain registry"
+		},
+		"offers": {
+			"@type": "Offer",
+			"url": "https://go.eco/",
+			"priceSpecification": {
+				"priceCurrency": "USD",
+				"minPrice": 60.00,
+				"maxPrice": 125.00
+			},
+			"availability": "https://schema.org/OnlineOnly"
+		}
+	}
+	{{/if}}
 	</script>
 	{{#if collection}}
 	<script type="application/ld+json">
