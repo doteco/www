@@ -32,7 +32,7 @@
 		background-image: url('/img/windmill-sunflowers.webp');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/windmill-sunflowers.webp');
 		background-size: cover;
-		background-attachment: fixed;
+		background-position: top center;
 
 		.container {
 			margin-top: 3em;
@@ -45,6 +45,7 @@
 		background-image: url('/img/sewing-hero.jpg');
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/sewing-hero.jpg');
 		background-size: cover;
+		background-position: center;
 		height: 300px;
 	}
 }
