@@ -210,7 +210,8 @@ const ms = Metalsmith(__dirname)
       '/news/first-ever-domain-grants-program-wraps-up-583234092c10': '/news/',
       '/news/understanding-your-aim-1d02eebce1e8': '/news/',
       '/rss/': '/rss.xml',
-      '/feed/': '/rss.xml'
+      '/feed/': '/rss.xml',
+      '/news/feed': '/rss.xml'
     }
   }))
   .use(rss({
