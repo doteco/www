@@ -50,6 +50,7 @@ exclude: true
     <div class="row registrars-filter">
       <div class="row registrars-filter-row"></div>
       {{{t "greenRetailers"}}}
+      {{#if (notempty (t "promos.items" returnObjects=true))}}
       <details class="registrars-promo">
         <summary>{{t "promos.header" }}</summary>
         <ul>
@@ -58,6 +59,7 @@ exclude: true
         {{/each}}
         </ul>
       </details>
+      {{/if}}
     </div>
     <div class="row registrars-row">
     </div>

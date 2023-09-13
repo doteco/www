@@ -17,6 +17,10 @@ Handlebars.registerHelper('notequal', function (lvalue, rvalue) {
   return lvalue !== rvalue
 })
 
+Handlebars.registerHelper('notempty', function (value) {
+  return value?.length > 0
+})
+
 Handlebars.registerHelper('checkActive', function (current, active) {
   return current === active ? 'active' : ''
 })
