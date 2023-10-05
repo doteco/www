@@ -147,28 +147,28 @@ exclude: true
       regionLabels: {{{json (t "region" returnObjects=true)}}},
       resultLabels: {{{json (t "results" returnObjects=true)}}}
   	})
-  })
 
-  const form = document.getElementById('makeoffer-form')
-  if (form) {
-    for (formControl of form.querySelectorAll('input.form-control')) {
-      formControl.addEventListener('input', function (event) {
-        event.target.parentElement.classList.add('was-validated')
+    const form = document.getElementById('makeoffer-form')
+    if (form) {
+      forEachNodeList(form.querySelectorAll('input.form-control'), function (formControl) {
+        formControl.addEventListener('input', function (event) {
+          event.target.parentElement.classList.add('was-validated')
+        })
+      })
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          return event.preventDefault()
+        }
       })
     }
-    form.addEventListener('submit', function (event) {
-      if (!form.checkValidity()) {
-        return event.preventDefault()
-      }
-    })
-  }
 
-  {{#if ga-tracking-id}}
-  document.querySelector('.registrars-promo > summary').addEventListener('click', function () {
-    gtag('event', 'click', {
-      event_category: 'promo'
+    {{#if ga-tracking-id}}
+    document.querySelector('.registrars-promo > summary').addEventListener('click', function () {
+      gtag('event', 'click', {
+        event_category: 'promo'
+      })
+      track('PXZGNB4F')
     })
-    track('PXZGNB4F')
+    {{/if}}
   })
-  {{/if}}
 </script>

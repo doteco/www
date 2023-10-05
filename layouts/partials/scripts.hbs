@@ -1,4 +1,15 @@
 <script>
+	function forEachNodeList (nodelist, fn) {
+		if (nodelist && nodelist.forEach3) {
+			nodelist.forEach(fn)
+		} else {
+			var els = [].slice.call(nodelist, 0)
+			for (i = 0; i < els.length; i++) {
+				fn(els[i])
+			}
+		}
+	}
+
   function track(eventId) {
     if (typeof fathom === 'object') {
       fathom.trackGoal(eventId)
@@ -6,10 +17,10 @@
   }
 
 	function wireEmailObfuscation () {
-		for (el of document.querySelectorAll(".email-link")) {
+		forEachNodeList(document.querySelectorAll(".email-link"), function (el) {
 			var email = el.dataset.name + "@" + el.dataset.domain
 			el.innerHTML = "<a href=\"mailto:" + email +"\">" + email + "</a>"
-		}
+		})
 	}
 
 	document.addEventListener('DOMContentLoaded', function () {
@@ -27,12 +38,12 @@
 <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/{{ config.intercom.appID }}';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 <script>
 	function wireChatLink () {
-		for (el of document.querySelectorAll('.chat-link')) {
+		forEachNodeList(document.querySelectorAll('.chat-link'), function(el) {
 			el.addEventListener('click', function (e) {
 				e.preventDefault()
 				Intercom('show')
 			})
-		}
+		})
 	}
 
 	document.addEventListener('DOMContentLoaded', function () {
