@@ -104,41 +104,16 @@ exclude: true
   	domainSearch({
       searchUrl: '{{ searchUrl }}',
       onSearch: function (domain) {
-  {{#if ga-tracking-id}}
-        gtag('event', 'search', {
-          event_category: 'domain-search',
-          event_label: domain
-        })
         track('91VRRSWF')
-  {{/if}}
   		},
   		onFilter: function (filters) {
-  {{#if ga-tracking-id}}
-        gtag('event', 'select', {
-          event_category: 'registrar-filter',
-          event_label: filters.filter(f => f && f.length > 0).join(',')
-        })
         track('1LAGW5ME')
-  {{/if}}
   		},
   		onClick: function (registrar, href) {
-  {{#if ga-tracking-id}}
-        gtag('event', 'click', {
-          event_category: 'registrar',
-          event_label: registrar,
-          transport: 'beacon'
-        })
         track('XVVN1YEM')
-  {{/if}}
   		},
       onReservedSubmit: function (r) {
-  {{#if ga-tracking-id}}
-        gtag('event', 'submit', {
-          event_category: 'makeoffer',
-          event_label: r && r.domain
-        })
         track('J91YCHXN')
-  {{/if}}
       },
       filterLabels: {{{json (t "filters" returnObjects=true)}}},
       filterHelp: {{{json (t "filterHelp" returnObjects=true)}}},
@@ -162,13 +137,8 @@ exclude: true
       })
     }
 
-    {{#if ga-tracking-id}}
     document.querySelector('.registrars-promo > summary').addEventListener('click', function () {
-      gtag('event', 'click', {
-        event_category: 'promo'
-      })
       track('PXZGNB4F')
     })
-    {{/if}}
   })
 </script>

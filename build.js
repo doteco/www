@@ -37,7 +37,6 @@ console.log('Building for environment:', env, lang)
 
 const ENV_OPTIONS = {
   DEV: {
-    'ga-tracking-id': 'UA-2825422-15',
     'site-url': {
       en: 'http://localhost:8080',
       fr: 'https://fr.test.go.eco',
@@ -54,7 +53,6 @@ const ENV_OPTIONS = {
     backspace: true
   },
   TST: {
-    'ga-tracking-id': 'UA-2825422-15',
     'site-url': {
       en: 'https://test.go.eco',
       fr: 'https://fr.test.go.eco',
@@ -71,7 +69,6 @@ const ENV_OPTIONS = {
     backspace: true
   },
   PRD: {
-    'ga-tracking-id': { en: 'UA-2825422-23', de: 'UA-2825422-16', fr: 'G-PJ7G8X9GSD' },
     'site-url': {
       en: 'https://go.eco',
       de: 'https://kauf.eco',
@@ -114,7 +111,6 @@ const ms = Metalsmith(__dirname)
     'img-root': '/img',
     'site-url': siteUrl,
     'twitter-id': '@doteco',
-    'ga-tracking-id': options['ga-tracking-id'][lang] || options['ga-tracking-id'],
     livereload: options.watch,
     profiles: options.profiles,
     trustmark: options.trustmark,
