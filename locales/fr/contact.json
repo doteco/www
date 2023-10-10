@@ -11,13 +11,16 @@
     ]
   },
   "contact": {
-    "head": "Contacter .eco",
+    "head": "Mentions légales",
     "text": "Le domaine de premier niveau .eco est exploité par Big Room Inc.",
     "address": [
       "1231 Pacific Boulevard, Suite 581",
       "Vancouver BC",
       "Canada V6Z 0E2",
-      "<a href=\"https://bigroom.eco\">bigroom.eco</a>"
+      "<a href=\"https://bigroom.eco\">bigroom.eco</a>",
+      "",
+      "Tel <a href=\"tel:+1 604 682 6673\">+1 604 682 6673</a>",
+      "Numéro d’entreprise: <a href=\"https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?lang=fra&corpId=6873138\">834355216</a>"
     ]
   }
 }

@@ -11,13 +11,16 @@
     ]
   },
   "contact": {
-    "head": "Contact .eco",
+    "head": "Legal disclosure",
     "text": "The .eco top-level domain is operated by Big Room Inc.",
     "address": [
       "1231 Pacific Boulevard, Suite 581",
       "Vancouver, BC",
       "Canada V6Z 0E2",
-      "<a href=\"https://bigroom.eco\">bigroom.eco</a>"
+      "<a href=\"https://bigroom.eco\">bigroom.eco</a>",
+      "",
+      "Phone: <a href=\"tel:+1 604 682 6673\">+1 604 682 6673</a>",
+      "Business number: <a href=\"https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?lang=eng&corpId=6873138\">834355216</a>"
     ]
   }
 }
