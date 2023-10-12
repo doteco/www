@@ -228,7 +228,7 @@ if (options.watch) {
   ms.use(watch({
     paths: {
       /* eslint no-template-curly-in-string: 0 */
-      '${source}/**/*': '{**/*.hbs,**/*.js,**/*.md}',
+      '${source}/**/*': '{**/*.hbs,**/*.js,**/*.md,**/*.svg}',
       'scss/**/*': '{main.scss,**/*.hbs,**/*.md}',
       'layouts/**/*': '**/*.hbs',
       'locales/**/*': '**/*.hbs'
