@@ -137,8 +137,11 @@ exclude: true
       })
     }
 
-    document.querySelector('.registrars-promo > summary').addEventListener('click', function () {
-      track('PXZGNB4F')
-    })
+    const promo = document.querySelector('.registrars-promo > summary')
+    if (promo) {
+      promo.addEventListener('click', function () {
+        track('PXZGNB4F')
+      })
+    }
   })
 </script>
