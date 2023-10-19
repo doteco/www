@@ -212,8 +212,13 @@
 			}
 		}
 
-		.podcast-logo, .article-logo {
+		.podcast-logo {
 			margin: auto;
+		}
+
+		.article-logo {
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
 }
