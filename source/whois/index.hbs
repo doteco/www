@@ -51,8 +51,9 @@ function whois () {
   }
 
   window.fetch('{{ searchUrl }}/whois?domain=' + domain).then((response) => response.text()).then(function (results) {
-    document.querySelector('.whois-results').innerText = results.replace(/"/g, '').replace(/\\r\\n/g, '\r\n')
+    document.querySelector('.whois-results').innerText = results.replace(/"/g, '').replace(/\\r\\n/g, '\r\n').replace(/\\n/g, '\n')
   }).catch(handleSearchError)
+  track('whois')
 }
 
 function handleSearchError (ex) {
@@ -71,14 +72,15 @@ document.querySelector('.search-form').addEventListener('submit', function (e) {
   whois()
 })
 
-if ('URLSearchParams' in window) {
-  const urlParams = new URLSearchParams(window.location.search)
-  if (urlParams.has('domain')) {
-    const domain = urlParams.get('domain')
-    const domainInput = document.querySelector('.domain-search')
-    domainInput.value = domain
-    whois()
+document.addEventListener('DOMContentLoaded', function () {
+  if ('URLSearchParams' in window) {
+    const urlParams = new URLSearchParams(window.location.search)
+    if (urlParams.has('domain')) {
+      const domain = urlParams.get('domain')
+      const domainInput = document.querySelector('.domain-search')
+      domainInput.value = domain
+      whois()
+    }
   }
-}
-
+})
 </script>
