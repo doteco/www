@@ -50,7 +50,7 @@ const ENV_OPTIONS = {
     sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451',
     noindex: true,
     makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse',
-    backspace: true
+    backspace: false
   },
   TST: {
     'site-url': {
@@ -66,7 +66,7 @@ const ENV_OPTIONS = {
     sentryDSN: 'https://75afeef7f5f34bd1b6e3e86120528892@o72378.ingest.sentry.io/5877451',
     noindex: true,
     makeOfferForm: 'https://docs.google.com/forms/d/e/1FAIpQLScdAh6F_o-CXehz2bSfJKLToxUUM9U4vK0NE5GdDS6NCiSvAQ/formResponse',
-    backspace: true
+    backspace: false
   },
   PRD: {
     'site-url': {
