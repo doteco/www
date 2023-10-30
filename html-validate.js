@@ -32,6 +32,7 @@ const skipFiles = [
   'public/news/first-ever-domain-grants-program-wraps-up-583234092c10/index.html',
   'public/news/the-world-needs-more-tigers-13eb6e5eb394/index.html',
   'public/feed/index.html',
+  'public/news/feed/index.html',
   'public/rss/index.html'
 ]
 
