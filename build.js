@@ -207,7 +207,8 @@ const ms = Metalsmith(__dirname)
       '/news/understanding-your-aim-1d02eebce1e8': '/news/',
       '/rss/': '/rss.xml',
       '/feed/': '/rss.xml',
-      '/news/feed': '/rss.xml'
+      '/news/feed': '/rss.xml',
+      '/the-eco-story/': '/about/story/'
     }
   }))
   .use(rss({
