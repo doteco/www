@@ -16,6 +16,12 @@
     }
   }
 
+  function trackEvent(eventId) {
+    if (typeof fathom === 'object') {
+      fathom.trackEvent(eventId)
+    }
+  }
+
 	function wireEmailObfuscation () {
 		forEachNodeList(document.querySelectorAll(".email-link"), function (el) {
 			var email = el.dataset.name + "@" + el.dataset.domain
