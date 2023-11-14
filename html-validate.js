@@ -33,7 +33,8 @@ const skipFiles = [
   'public/news/the-world-needs-more-tigers-13eb6e5eb394/index.html',
   'public/feed/index.html',
   'public/news/feed/index.html',
-  'public/rss/index.html'
+  'public/rss/index.html',
+  'public/the-eco-story/index.html'
 ]
 
 const skip = [
