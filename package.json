@@ -23,7 +23,7 @@
     "jstransformer-marked": "1.4.0",
     "klaw": "4.1.0",
     "lighthouse-parade": "github:doteco/lighthouse-parade#no-script-crawler",
-    "metalsmith": "2.6.1",
+    "metalsmith": "2.6.2",
     "metalsmith-autoprefixer": "github:doteco/metalsmith-autoprefixer",
     "metalsmith-discover-helpers": "0.1.1",
     "metalsmith-discover-partials": "0.1.2",
