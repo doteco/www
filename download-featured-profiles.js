@@ -26,7 +26,7 @@ async function getSpreadSheetValues (spreadsheetId, sheetName) {
   return res
 }
 
-async function parseSpreadsheet (response) {
+function parseSpreadsheet (response) {
   const rows = response.data.values
 
   rows.shift() // topline
