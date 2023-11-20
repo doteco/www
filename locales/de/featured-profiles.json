@@ -161,7 +161,7 @@
   },
   {
     "domain": "dragonfly.eco",
-    "story": "<a href=\"https://dragonfly.eco\">Dragonfly.eco</a> katalogisiert und kuratiert Öko-Fiction, die sich mit Umweltthemen befasst.",
+    "story": "<a href=\"https://dragonfly.eco\">Dragonfly.eco</a> katalogisiert und kuratiert Öko-Fiction, die sich mit Umweltthemen beschäftigt.",
     "img": "/img/champion_logos/dragonfly-eco.webp",
     "type": "individual",
     "sector": "Individual",
@@ -257,7 +257,7 @@
     "sector": "Nonprofit",
     "link": "https://profiles.eco/carl.eco",
     "location": "Vereinigte Staaten",
-    "priority": "2"
+    "priority": ""
   },
   {
     "domain": "arbor.eco",
@@ -268,5 +268,15 @@
     "link": "https://profiles.eco/arbor.eco",
     "location": "Kanada",
     "priority": "1"
+  },
+  {
+    "domain": "sustainableagriculture.eco",
+    "story": "<a href=\"https://www.sustainableagriculture.eco/\">Das Sustainable Agriculture Network</a> ist ein globales Kooperationsnetzwerk, das Landwirten, Arbeitern und ländlichen Gemeinden zum Erfolg verhilft.",
+    "img": "/img/champion_logos/san.webp",
+    "type": "nonprofit",
+    "sector": "Nonprofit",
+    "link": "https://profiles.eco/sustainableagriculture.eco",
+    "location": "Costa Rica",
+    "priority": "2"
   }
 ]

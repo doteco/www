@@ -257,7 +257,7 @@
     "sector": "Nonprofit",
     "link": "/champions/carl/",
     "location": "United States",
-    "priority": "2"
+    "priority": ""
   },
   {
     "domain": "arbor.eco",
@@ -268,5 +268,15 @@
     "link": "/champions/arbor/",
     "location": "Canada",
     "priority": "1"
+  },
+  {
+    "domain": "sustainableagriculture.eco",
+    "story": "<a href=\"https://www.sustainableagriculture.eco/\">Sustainable Agriculture Network</a> is a global collaborative network helping farmers, workers, and rural communities thrive.",
+    "img": "/img/champion_logos/san.webp",
+    "type": "nonprofit",
+    "sector": "Nonprofit",
+    "link": "https://profiles.eco/sustainableagriculture.eco",
+    "location": "Costa Rica",
+    "priority": "2"
   }
 ]

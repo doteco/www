@@ -61,7 +61,7 @@
   },
   {
     "domain": "ecofario.eco",
-    "story": "Les microplastiques polluent nos cours d’eau, nos lacs et nos océans. <a href=\"https://ecofario.eco/\">ECOFARIO</a> a développé un nouveau procédé permettant de réduire significativement les particules microplastiques rejetées dans l&#39;environnement.",
+    "story": "Les microplastiques polluent nos cours d’eau, nos lacs et nos océans. <a href=\"https://ecofario.eco/\">ECOFARIO</a> a développé un nouveau procédé permettant de réduire considérablement les particules microplastiques rejetées dans l&#39;environnement.",
     "img": "/img/champion_logos/ecofario.webp",
     "type": "business",
     "sector": "Industrial",
@@ -257,7 +257,7 @@
     "sector": "Nonprofit",
     "link": "https://profiles.eco/carl.eco",
     "location": "États-Unis",
-    "priority": "2"
+    "priority": ""
   },
   {
     "domain": "arbor.eco",
@@ -268,5 +268,15 @@
     "link": "https://profiles.eco/arbor.eco",
     "location": "Canada",
     "priority": "1"
+  },
+  {
+    "domain": "sustainableagriculture.eco",
+    "story": "<a href=\"https://www.sustainableagriculture.eco/\">Sustainable Agriculture Network</a> est un réseau collaboratif mondial qui aide les agriculteurs, les travailleurs et les communautés rurales à prospérer.",
+    "img": "/img/champion_logos/san.webp",
+    "type": "nonprofit",
+    "sector": "Nonprofit",
+    "link": "https://profiles.eco/sustainableagriculture.eco",
+    "location": "Costa Rica",
+    "priority": "2"
   }
 ]
