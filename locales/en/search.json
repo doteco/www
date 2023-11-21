@@ -55,6 +55,9 @@
   "promos": {
     "header": "📣 Current .eco promotions 📣",
     "items": [
+      "<a href=\"https://porkbun.com/tld/eco\">Porkbun</a> is selling .eco domains for $56.14 using the promo code <strong>AWESOMENESS</strong>",
+      "<a href=\"https://spaceship.com\">Spaceship</a> has .eco domains for the low price of $56.94",
+      "<a href=\"https://www.pairdomains.com/\">Pair Domains</a> lists .eco domains for $55.18"
     ]
   }
 }
