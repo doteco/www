@@ -4,11 +4,11 @@
   "top-banner": "<a href=\"/news/eco-is-carbon-neutral/\">.eco is now certified carbon neutral!</a>",
   "carousel": {
     "business": {
-      "head": ".eco is for businesses and products",
+      "head": ".eco is for <a href=\"/for/business/\">businesses</a> and products",
       "subhead": "that help people make better choices every day"
     },
     "gov": {
-      "head": ".eco is for governments and non-profits",
+      "head": ".eco is for governments and <a href=\"/for/nonprofits/\">non-profits</a>",
       "subhead": "that encourage positive environmental change"
     },
     "people": {
