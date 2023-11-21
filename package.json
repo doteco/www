@@ -45,6 +45,7 @@
     "lighthouse": "npx lighthouse-parade https://go.eco/",
     "start": "npm run build",
     "precommit": "npx standard && npm run validate && npm run stylelint",
+    "push-pca": "git checkout production && git merge master && git sync && git checkout master",
     "stylelint": "stylelint 'scss/*.scss' || true",
     "stylelint:fix": "stylelint 'scss/*.scss' --fix",
     "test": "npm run build",
