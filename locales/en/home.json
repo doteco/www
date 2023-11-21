@@ -1,7 +1,7 @@
 {
   "title": ".eco domains: the home of the environmental community online",
   "description": "Find your perfect .eco domain name and join the .eco community. .eco is the global top-level domain for the environmental community.",
-  "top-banner": "<a href=\"/news/eco-is-carbon-neutral/\">.eco is now certified carbon neutral!</a>",
+  "top-banner": "<a href=\"/news/eco-is-carbon-neutral/\">.eco is certified carbon neutral!</a>",
   "carousel": {
     "business": {
       "head": ".eco is for <a href=\"/for/business/\">businesses</a> and products",
@@ -17,7 +17,7 @@
     },
     "tld": {
       "head": ".eco is a domain name extension",
-      "subhead": "for those committed to positive change for the planet"
+      "subhead": "for those committed to positive change for our planet"
     },
     "cop": {
       "head": "World leaders are in Glasgow for COP26",
@@ -42,7 +42,7 @@
   "eligibility": {
     "head": "Can I get a .eco name?",
     "text": [
-      "<p><strong>Yes, you can!</strong> If you care about the planet, a .eco domain name is a great way to show it. You can get a .eco domain name for your business, your non-profit organization or for yourself.</p>",
+      "<p><strong>Yes, you can!</strong> If you care about the planet, a .eco domain name is a great way to show it. You can get a .eco domain name for your <a href=\"/for/business/\">business</a>, your <a href=\"/for/nonprofits/\">organization</a> or for yourself.</p>",
       "<p>To be eligible for a .eco you must:</p>",
       "<ul>",
       "<li>Be commited to working toward a sustainable future</li>",
@@ -56,7 +56,7 @@
     "text": [
       "<p>Get your .eco domain name in 4 simple steps:</p>",
       "<ol>",
-      "<li><a href=\"#input-search\">Search for your perfect name</a></li>",
+      "<li><a href=\"#input-search\">Search for your perfect .eco domain</a></li>",
       "<li>Purchase it from your preferred retailer</li>",
       "<li>Take the <a href=\"/about/system/\">.eco pledge</a> and create your <a href=\"https://profiles.eco\">.eco profile</a></li>",
       "<li>Set up and launch your website</li>",
