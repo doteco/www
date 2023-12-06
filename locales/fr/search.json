@@ -31,6 +31,7 @@
     "language": "Les langues prises en charge par ce détaillant.",
     "currency": "Les devises que vous pouvez utiliser pour payer votre domaine."
   },
+  "registerLabel": "Enregistrez ce domaine .eco chez %s",
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> est disponible",
     "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> est déjà pris.<br/> Veuillez essayer un autre nom .eco",

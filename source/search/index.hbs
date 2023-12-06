@@ -120,7 +120,8 @@ exclude: true
       filterDefaults: {{{json filterDefaults}}},
       envPolicyLabels: {{{json (t "policy" returnObjects=true)}}},
       regionLabels: {{{json (t "region" returnObjects=true)}}},
-      resultLabels: {{{json (t "results" returnObjects=true)}}}
+      resultLabels: {{{json (t "results" returnObjects=true)}}},
+      registerLabel: "{{ t "registerLabel" }}"
   	})
 
     const form = document.getElementById('makeoffer-form')

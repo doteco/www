@@ -31,6 +31,7 @@
     "language": "The languages this retailer supports.",
     "currency": "The currencies you can use to pay for your domain."
   },
+  "registerLabel": "Register this .eco domain at %s",
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> is available",
     "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> is already taken.<br/>Please try a different .eco<br/> <small>or <a href=\"/whois/?domain={searchDomain}\">find out who owns this domain</a>.</small>",

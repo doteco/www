@@ -2,9 +2,10 @@ window.domainSearch = function (config) {
   'use strict'
 
   function registrarLogoDiv (registrar, domain, languageFilter) {
+    const registerText = 'Register this .eco domain at'
     const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + (domain ? '&domain=' + encodeURIComponent(domain) : '') + (languageFilter ? '&lang=' + encodeURIComponent(languageFilter) : '')
     const greenLabel = registrar.envPolicy ? `<span class="registrar-green" title="${config.filterLabels.envPolicy}">&#x1F33F</span>` : ''
-    return `<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link" title="Register .eco domain at ${registrar.label}"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="" class="registrar-logo" loading="lazy" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
+    return `<div class="col-md-6 col-lg-4 registrar-button"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link" title="${config.registerLabel.replace('%s', registrar.label)}"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="" class="registrar-logo" loading="lazy" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
   }
 
   function generateFilterHtml (id, defaultItem, items, defaultValue, helpText) {
