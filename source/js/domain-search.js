@@ -28,7 +28,6 @@ window.domainSearch = function (config) {
 
   function changeFilter (registrars) {
     const filters = getFilterValues()
-    console.log('Filters:', filters)
     config.onFilter(filters)
     const domain = searchDomain()
     updateUriHistory(domain, filters)
@@ -251,7 +250,7 @@ window.domainSearch = function (config) {
     toggleVisibility(document.querySelector('.submit-thanks'), true)
   })
 
-  document.querySelector('.submit-application').addEventListener('submit', function (e) {
+  document.getElementById('makeoffer-form').addEventListener('submit', function (e) {
     config.onReservedSubmit(searchDomain())
   })
 

@@ -107,13 +107,17 @@ exclude: true
         track('91VRRSWF')
   		},
   		onFilter: function (filters) {
+        console.log('Filters:', filters)
         track('1LAGW5ME')
+        trackEvent('filter_' + filters.join(','))
   		},
   		onClick: function (registrar, href) {
         track('XVVN1YEM')
+        trackEvent('registrar_' + registrar)
   		},
-      onReservedSubmit: function (r) {
+      onReservedSubmit: function (domain) {
         track('J91YCHXN')
+        trackEvent('makeoffer_' + domain)
       },
       filterLabels: {{{json (t "filters" returnObjects=true)}}},
       filterHelp: {{{json (t "filterHelp" returnObjects=true)}}},
