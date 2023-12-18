@@ -60,19 +60,16 @@
 	<meta name="msapplication-TileColor" content="#9F1744">
 	<meta name="theme-color" content="#ffffff">
 
-	<script defer src="/js/sentry/6.19.7/bundle.min.js"></script>
 	<script>
-	document.addEventListener('DOMContentLoaded', function () {
-		if (typeof Sentry !== 'undefined') {
+		window.sentryOnLoad = function () {
 			Sentry.init({
-				dsn: "{{sentryDSN}}",
 				allowUrls: [
 					"{{site-url}}"
 				]
 			})
 		}
-	})
 	</script>
+	<script src="{{sentryUri}}" crossorigin="anonymous"></script>
 	<script src="https://cdn.usefathom.com/script.js" data-site="ZKSAKYVJ" defer></script>
 
 	<script type="application/ld+json">
