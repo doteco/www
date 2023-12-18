@@ -1,7 +1,6 @@
 const { readFile } = require('fs/promises')
 const klaw = require('klaw')
 const path = require('path')
-const validator = require('html-validator')
 
 const skipFiles = [
   'public/registrar/index.html',
@@ -37,25 +36,19 @@ const skipFiles = [
   'public/the-eco-story/index.html'
 ]
 
-const skip = [
-  'Attribute “color” not allowed on element “link” at this point.',
-  'Illegal character in query: “|” is not allowed.',
-  'The “frameborder” attribute on the “iframe” element is obsolete.'
-]
-
 const validate = function (file) {
-  return readFile(file, { encoding: 'utf8' }).then((data) => {
-    const options = {
-      data,
-      format: 'json'
-    }
-
-    return validator(options)
-  }).then((results) => {
+  return readFile(file, { encoding: 'utf8' }).then(data => {
+    const validateUrl = 'https://validator.w3.org/nu/?out=json'
+    return fetch(validateUrl, {
+      method: 'POST',
+      body: data,
+      headers: {
+        'Content-Type': 'text/html; charset=utf-8'
+      }
+    }).then(response => response.json())
+  }).then(results => {
     console.log('Validation results:', file)
-    results.messages.filter((entry) => {
-      return !skip.some(s => entry.message.includes(s))
-    }).map((entry) => {
+    results.messages.map(entry => {
       return console.log(`${entry.type.toUpperCase()}: ${entry.message} (line: ${entry.lastLine})`)
     })
     console.log()

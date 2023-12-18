@@ -1,5 +1,5 @@
 const Handlebars = require('handlebars')
-const dateFormat = require('date-fns/format')
+const { format: dateFormat } = require('date-fns')
 const deLocale = require('date-fns/locale/de')
 const frLocale = require('date-fns/locale/fr')
 
