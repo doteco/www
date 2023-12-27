@@ -18,7 +18,6 @@ const skipFiles = [
   'public/studies/vonwong/index.html',
   'public/registrars/funding/index.html',
   'public/registrars/partners/index.html',
-  'public/registrars/resources/index.html',
   'public/registrars/policies/index.html',
   'public/shop/index.html',
   'public/affiliate/index.html',
