@@ -83,10 +83,10 @@ window.domainSearch = function (config) {
     const filterLabels = config.filterLabels
     const filterHelp = config.filterHelp
     registrarsFilterRow.innerHTML = [
-      generateFilterHtml('filter-region', filterLabels.region, regions, getFilterDefault('region'), filterHelp.region),
       generateFilterHtml('filter-policy', filterLabels.envPolicy, envPolicy, getFilterDefault('envPolicy'), filterHelp.envPolicy),
+      generateFilterHtml('filter-currency', filterLabels.currency, currencies, getFilterDefault('currency'), filterHelp.currency),
       generateFilterHtml('filter-language', filterLabels.language, languages, getFilterDefault('language'), filterHelp.language),
-      generateFilterHtml('filter-currency', filterLabels.currency, currencies, getFilterDefault('currency'), filterHelp.currency)
+      generateFilterHtml('filter-region', filterLabels.region, regions, getFilterDefault('region'), filterHelp.region)
     ].join('')
 
     document.querySelectorAll('.registrar-filter').forEach(el => el.addEventListener('change', () => changeFilter(registrars)))
