@@ -177,7 +177,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/zeroco2.eco",
     "location": "Italien",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "terrabyte.eco",
@@ -227,7 +227,7 @@
     "sector": "Transportation",
     "link": "https://profiles.eco/cycle.eco",
     "location": "Deutschland",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "koala.eco",
@@ -247,7 +247,7 @@
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/greenworx.eco",
     "location": "Südafrika",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "carl.eco",
@@ -267,7 +267,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/arbor.eco",
     "location": "Kanada",
-    "priority": "1"
+    "priority": "2"
   },
   {
     "domain": "sustainableagriculture.eco",
@@ -277,6 +277,16 @@
     "sector": "Nonprofit",
     "link": "https://profiles.eco/sustainableagriculture.eco",
     "location": "Costa Rica",
-    "priority": "2"
+    "priority": "3"
+  },
+  {
+    "domain": "skoot.eco",
+    "story": "<a href=\"https://skoot.eco/\">SKOOT</a> hilft Unternehmen und Privatpersonen, ihren CO2-Fußabdruck zu reduzieren und zu beseitigen.",
+    "img": "/img/champion_logos/skoot.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/skoot.eco",
+    "location": "Großbritannien",
+    "priority": "1"
   }
 ]
