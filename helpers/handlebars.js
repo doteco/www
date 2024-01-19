@@ -1,7 +1,7 @@
 const Handlebars = require('handlebars')
 const { format: dateFormat } = require('date-fns')
-const deLocale = require('date-fns/locale/de')
-const frLocale = require('date-fns/locale/fr')
+const { deLocale } = require('date-fns/locale/de')
+const { frLocale } = require('date-fns/locale/fr')
 
 function lookupLocale (l) {
   if (l === 'de') return deLocale
