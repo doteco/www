@@ -285,7 +285,7 @@
     "img": "/img/champion_logos/skoot.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
-    "link": "https://profiles.eco/skoot.eco",
+    "link": "/champions/skoot/",
     "location": "United Kingdom",
     "priority": "1"
   }
