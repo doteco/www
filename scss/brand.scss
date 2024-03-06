@@ -166,13 +166,6 @@ $common-border-radius: 2px;
 		}
 	}
 
-	.hero-caption {
-		float: right;
-		font-size: small;
-		margin-right: 1em;
-		margin-top: 0.5em;
-	}
-
 	.inverted {
 		background-color: $doteco-marrow;
 
@@ -189,40 +182,12 @@ $common-border-radius: 2px;
 		margin-bottom: 4rem;
 	}
 
-	.confirmation-alert {
-		background-color: $doteco-sapphire;
-
-		h1, h2, h3, h4, h5, p, span, button {
-			color: white;
-		}
-
-		.btn {
-			background-color: $doteco-charcoal;
-		}
-
-		.confirmation-alert-content {
-			margin: 0 20%;
-		}
-	}
-
 	.btn-group {
 		.btn-primary {
 			background-color: transparent;
 			color: inherit;
 			border-color: $doteco-charcoal;
 		}
-	}
-
-	.toggle-group label {
-		display: block;
-		margin-bottom: 0.5em;
-	}
-
-	legend {
-		border: none;
-		font-size: initial;
-		margin-bottom: 5px;
-		font-weight: $font-header-weight;
 	}
 
 	.section {
