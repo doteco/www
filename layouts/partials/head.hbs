@@ -72,19 +72,57 @@
 	<script src="{{sentryUri}}" crossorigin="anonymous"></script>
 	<script src="https://cdn.usefathom.com/script.js" data-site="ZKSAKYVJ" defer></script>
 
+{{#if (equal active "home")}}
+	<script type="application/ld+json">
+	{
+		"@context" : "https://schema.org",
+		"@type" : "WebSite",
+		"name" : "{{t "global:site-name" }}",
+		"alternateName" : ["Eco Domain Name Registry", ".eco Domain Registry", "Eco Domain Registry"],
+		"url" : "{{site-url}}",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": {
+				"@type": "EntryPoint",
+				"urlTemplate": "{{site-url}}/search/?domain={search_term_string}"
+			},
+			"query-input": "required name=search_term_string"
+		}
+	}
+  </script>
 	<script type="application/ld+json">
 	{
 		"@context": "https://schema.org",
-		"@type": "Organization",
-		"name": ".eco",
+		"@type": "Product",
+		"name": "{{t "global:product-name" }}",
+		"image": "https://go.eco/img/doteco-logo.svg",
+		"description": "{{t "global:product-description" }}",
+		"brand": {
+			"@type": "Brand",
+			"name": "{{t "global:site-name" }}"
+		},
+		"offers": {
+			"@type": "AggregateOffer",
+			"url": "https://go.eco/",
+			"lowPrice": 60.00,
+			"highPrice": 125.00,
+			"priceCurrency": "USD",
+			"offerCount": 10000,
+			"availability": "https://schema.org/OnlineOnly"
+		}
+	}
+	</script>
+	{{/if}}
+	{{#if (equal active "contact")}}
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "OnlineStore",
+		"name": "{{t "global:site-name" }}",
 		"legalName" : "Big Room Inc.",
 		"url": "{{site-url}}",
 		"logo": "{{site-url}}/img/doteco-logo.svg",
 		"foundingDate": "2007",
-		"founders": [{
-			"@type": "Person",
-			"name": "Trevor Bowden"
-		}],
 		"address": {
 			"@type": "PostalAddress",
 			"streetAddress": "1231 Pacific Boulevard, Suite 581",
@@ -100,6 +138,8 @@
 	    "contactType": "customer service"
 	  }],
 	  "sameAs": [
+			"https://allez.eco/",
+			"https://kauf.eco/",
 			"https://en.wikipedia.org/wiki/.eco",
 			"https://icannwiki.org/.eco",
 			"https://www.linkedin.com/company/eco-domain/",
@@ -108,30 +148,7 @@
 	  ]
 	}
 	</script>
-	{{#if (equal lang 'en')}}
-	<script type="application/ld+json">
-	{
-		"@context": "https://schema.org",
-		"@type": "Product",
-		"name": ".eco domain name",
-		"image": "https://go.eco/img/doteco-logo.svg",
-		"description": "Show your commitment to environmental action by registering your .eco domain name today. For businesses, organizations and individuals dedicated to helping our planet.",
-		"brand": {
-			"@type": "Brand",
-			"name": ".eco domain registry"
-		},
-		"offers": {
-			"@type": "AggregateOffer",
-			"url": "https://go.eco/",
-			"lowPrice": 60.00,
-			"highPrice": 125.00,
-			"priceCurrency": "USD",
-			"offerCount": 8500,
-			"availability": "https://schema.org/OnlineOnly"
-		}
-	}
 	{{/if}}
-	</script>
 	{{#if collection}}
 	<script type="application/ld+json">
 	{
@@ -147,19 +164,9 @@
 		"description": "{{excerpt}}",
 		"author": {
 			"@type": "Organization",
-			"name": ".eco",
+			"name": "{{t "global:site-name" }}",
 			"url": "{{site-url}}"
-		},
-		"publisher": {
-			"@type": "Organization",
-			"name": ".eco Domain Registry",
-			"url": "https://go.eco",
-			"logo": {
-				"@type": "ImageObject",
-				"url": "{{site-url}}/img/doteco-logo.svg"
-			}
-		},
-		"mainEntityOfPage": "{{site-url}}/{{page-path}}"
+		}
 	}
 	</script>
 	{{/if}}
