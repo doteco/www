@@ -13,40 +13,39 @@ faq: true
 ---
 
 <header>
-<link rel="preload" as="image" href="/img/carousel/woman-shopping.webp">
+<link rel="preload" as="image" href="/img/carousel/for-you3.webp">
 
 <div class="carousel slide" id="home-carousel" data-bs-interval="5000" data-bs-ride="carousel" data-bs-wrap="false">
-	<div class="carousel-inner" role="listbox" aria-label="Header carousel">
-		<div class="carousel-item active home-business" role="option"
-			style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/woman-shopping.webp')">
+	<div class="carousel-inner">
+		<div class="carousel-item active home-you" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-you3.webp')">
+			<div class="container">
+				<h2>{{t 'carousel.tld.head'}} <span class="carousel-subheader">{{t 'carousel.tld.subhead'}}</span></h2>
+			</div>
+		</div>
+
+		<div class="carousel-item home-business">
 			<div class="container">
 				<h2>{{{t 'carousel.business.head'}}} <span class="carousel-subheader">{{t 'carousel.business.subhead'}}</span></h2>
 			</div>
 		</div>
 
-		<div class="carousel-item home-government" role="option">
+		<div class="carousel-item home-government">
 			<div class="container">
 				<h2>{{{t 'carousel.gov.head'}}} <span class="carousel-subheader">{{t 'carousel.gov.subhead'}}</span></h2>
 			</div>
 		</div>
 
-		<div class="carousel-item home-people" role="option">
+		<div class="carousel-item home-people">
 			<div class="container">
 				<h2>{{t 'carousel.people.head'}} <span class="carousel-subheader">{{t 'carousel.people.subhead'}}</span></h2>
 			</div>
 		</div>
-
-		<div class="carousel-item home-you" role="option">
-			<div class="container">
-				<h2>{{t 'carousel.tld.head'}} <span class="carousel-subheader">{{t 'carousel.tld.subhead'}}</span></h2>
-			</div>
-		</div>
 	</div>
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="{{t 'carousel.business.head'}}"></button>
-    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="{{t 'carousel.gov.head'}}"></button>
-    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="{{t 'carousel.people.head'}}"></button>
-    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="{{t 'carousel.tld.head'}}"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="{{t 'carousel.tld.head'}}"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="{{t 'carousel.business.head'}}"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="{{t 'carousel.gov.head'}}"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="{{t 'carousel.people.head'}}"></button>
   </div>
 </div>
 </header>
