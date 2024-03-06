@@ -8,8 +8,8 @@
     "@metalsmith/in-place": "4.6.0",
     "@metalsmith/layouts": "2.7.0",
     "@metalsmith/rss": "github:doteco/rss",
-    "@metalsmith/sass": "1.8.1",
-    "autoprefixer": "10.4.17",
+    "@metalsmith/sass": "1.9.0",
+    "autoprefixer": "10.4.18",
     "browser-sync": "3.0.2",
     "date-fns": "3.3.1",
     "googleapis": "133.0.0",
@@ -21,7 +21,7 @@
     "jstransformer-handlebars": "1.2.0",
     "jstransformer-marked": "1.4.0",
     "klaw": "4.1.0",
-    "metalsmith": "2.6.2",
+    "metalsmith": "2.6.3",
     "metalsmith-autoprefixer": "github:doteco/metalsmith-autoprefixer",
     "metalsmith-discover-helpers": "0.1.1",
     "metalsmith-discover-partials": "0.1.2",
@@ -59,6 +59,6 @@
   },
   "homepage": "https://github.com/doteco/www#readme",
   "dependencies": {
-    "bootstrap": "5.3.2"
+    "bootstrap": "5.3.3"
   }
 }

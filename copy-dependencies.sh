@@ -1,4 +1,4 @@
-BOOTSTRAP_VERSION=5.3.2
+BOOTSTRAP_VERSION=5.3.3
 
 mkdir -p source/js/bootstrap/$BOOTSTRAP_VERSION/
 mkdir -p source/css/bootstrap/$BOOTSTRAP_VERSION/
