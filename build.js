@@ -178,7 +178,6 @@ const ms = Metalsmith(__dirname)
     privateProperty: 'exclude',
     hostname: siteUrl,
     links: 'sitemapLinks',
-    modifiedProperty: 'updated',
     omitIndex: true
   }))
   .use(robots({
