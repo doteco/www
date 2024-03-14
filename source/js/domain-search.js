@@ -117,6 +117,18 @@ window.domainSearch = function (config) {
   }
 
   function showRegistrars (registrars, domain) {
+    const selectedRegistrar = getUriParam('registrar')
+    if (selectedRegistrar) {
+      const registrar = registrars.find(registrar => registrar.registrar === selectedRegistrar)
+      if (registrar) {
+        toggleVisibility(document.querySelector('.registrars-priority'), !!registrar)
+        const priorityRegistrarsRow = document.querySelector('.registrars-priority .registrars-row')
+        priorityRegistrarsRow.innerHTML = ''
+        priorityRegistrarsRow.insertAdjacentHTML('beforeend', registrarLogoDiv(registrar, domain))
+        return
+      }
+    }
+
     const filters = getFilterValues()
     const languageFilter = filters[1]
     let priorityRegistrars = filterRegistrars(registrars.filter(registrar => registrar.priority), filters)
@@ -179,33 +191,38 @@ window.domainSearch = function (config) {
   }
 
   function search (domain) {
-    if (!domain || domain.trim().length === 0 || domain.trim() === '.eco') {
-      return false
+    const hasDomain = domain && domain.trim().length > 0 && domain.trim() !== '.eco'
+    if (hasDomain) {
+      domain = domain.replace(/[\s;<>"'/=()\\]/g, '').replace(/\..*$/, '')
+      domain += '.eco'
+    } else {
+      domain = null
     }
-    domain = domain.replace(/[\s;<>"'/=()\\]/g, '').replace(/\..*$/, '')
-    domain += '.eco'
 
     const searchBox = document.querySelector('.domain-search')
     searchBox.value = domain
 
     const searchResultsSection = document.querySelector('.search-results-section')
-    toggleVisibility(searchResultsSection, true)
+    toggleVisibility(searchResultsSection, hasDomain)
 
-    config.onSearch(domain)
+    if (domain) {
+      config.onSearch(domain)
+    }
     return fetchSearchResults(domain, config.searchEngine).then(response => {
       if (!response.ok) {
         return handleSearchError(response.status + ': ' + response.statusText + ' - ' + response.type)
       }
 
       return response.json().then(r => {
-        console.log('search result:', r)
         if (r.domain) {
           searchBox.value = r.domain
         }
 
-        const message = searchResultMessage(r, r.domain || domain)
-        const searchResultsRow = document.querySelector('.search-results')
-        searchResultsRow.innerHTML = `<span class='domain-search-output title'>${message}</span>`
+        if (hasDomain) {
+          const message = searchResultMessage(r, r.domain || domain)
+          const searchResultsRow = document.querySelector('.search-results')
+          searchResultsRow.innerHTML = `<span class='domain-search-output title'>${message}</span>`
+        }
 
         const registrars = r.registrars || []
         addFilters(registrars)
@@ -261,21 +278,7 @@ window.domainSearch = function (config) {
   }
 
   const domain = getUriParam('domain')
-  if (domain) {
-    search(domain)
-  } else {
-    fetchSearchResults(null, config.searchEngine).then(response => {
-      if (!response.ok) {
-        return handleSearchError(response.status + ': ' + response.statusText + ' - ' + response.type)
-      }
-
-      return response.json().then(result => {
-        const registrars = result.registrars
-        addFilters(registrars)
-        showRegistrars(registrars)
-      }).catch(handleSearchError)
-    })
-  }
+  search(domain)
 }
 
 window.fetchRegistrars = function (config) {
