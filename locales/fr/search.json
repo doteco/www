@@ -19,19 +19,21 @@
   },
   "filters": {
     "region": "Région",
-    "envPolicy": "Écoresponsable",
+    "envPolicy": "Écoresponsable &#x1F33F;",
     "language": "Langue",
     "currency": "Devise",
     "noRegistrars": "<p class=\"no-registrars\">Aucun détaillant ne correspond actuellement à ces critères de filtrage.</p>"
   },
+  "envPolicy": "Écoresponsable &#x1F33F;",
   "greenRetailers": "",
+  "multiyearpromo": "<p class=\"registrars-green-retailers\">&#x1F331; <a href=\"https://go.eco/news/2024-multi-year-registration-discount/\" hreflang=\"en\" target=\"_blank\">Enregistrez un domaine .eco pour 2+ ans et économisez</a> &#x1F331;<span class=\"hreflang\">Anglais</a></p>",
   "filterHelp": {
     "region": "Les principales régions où ce détaillant opère.",
     "envPolicy": "Ce détaillant est-il respectueux de l'environnement ?",
     "language": "Les langues prises en charge par ce détaillant.",
     "currency": "Les devises que vous pouvez utiliser pour payer votre domaine."
   },
-  "registerLabel": "Enregistrez ce domaine .eco chez %s",
+  "registerLabel": "Enregistrez le domaine .eco chez %s",
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> est disponible",
     "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> est déjà pris.<br/> Veuillez essayer un autre nom .eco",

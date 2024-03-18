@@ -2,12 +2,14 @@
   "description": "Suchen Sie nach einer .eco-Domain und wählen Sie Ihren Registrar, um sie zu kaufen.",
   "filters": {
     "currency": "Währung",
-    "envPolicy": "Umweltfreundlich",
+    "envPolicy": "Umweltfreundlich &#x1F33F;",
     "language": "Sprache",
     "region": "Region",
     "noRegistrars": "<p class=\"no-registrars\">Derzeit entspricht kein Händler diesen Filterkriterien.</p>"
   },
+  "envPolicy": "Umweltfreundlich &#x1F33F;",
   "greenRetailers": "",
+  "multiyearpromo": "<p class=\"registrars-green-retailers\">&#x1F331; <a href=\"https://go.eco/news/2024-multi-year-registration-discount/\" hreflang=\"en\" target=\"_blank\">Registrieren Sie eine .eco-Domain für mehr als 2 Jahre und sparen Sie</a> &#x1F331;<span class=\"hreflang\">Englisch</a></p>",
   "filterHelp": {
     "region": "Die Hauptregionen, in denen dieser Einzelhändler tätig ist.",
     "envPolicy": "Ist dieser Händler umweltfreundlich?",
@@ -24,7 +26,7 @@
       "<a href=\"https://alldomains.hosting/eco-domain.html\"><strong>Alldomains</strong></a>  bietet im ersten Jahr einen Registrierungsrabatt von € 71,40."
     ]
   },
-  "registerLabel": "Registrieren Sie diese .eco-Domain bei %s",
+  "registerLabel": "Registrieren Sie die .eco-Domain bei %s",
   "region": {
     "Africa": "Afrika",
     "Asia": "Asien",
