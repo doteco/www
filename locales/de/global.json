@@ -28,6 +28,9 @@
       ]
     }
   ],
+  "bcorp": {
+    "logo": "German-B-Corp-Logo-White-RGB.svg"
+  },
   "header": {
     "search": "Holen Sie Ihren .eco-Domainnamen",
     "champions": ".eco-Champions"

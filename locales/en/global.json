@@ -51,6 +51,9 @@
       ]
     }
   ],
+  "bcorp": {
+    "logo": "B-Corp-Logo-White-RGB.svg"
+  },
   "profile-types": {
     "business": "Business",
     "nonprofit": "Non-profit",

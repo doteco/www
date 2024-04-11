@@ -47,6 +47,9 @@
       ]
     }
   ],
+  "bcorp": {
+    "logo": "French-Certifee-B-Logo-White-RGB.svg"
+  },
   "profile-types": {
     "business": "Entreprise",
     "nonprofit": "Organisation",
