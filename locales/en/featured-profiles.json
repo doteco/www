@@ -31,11 +31,11 @@
   },
   {
     "domain": "leap.eco",
-    "story": "<a href=\"https://leap.eco\">Leap</a> is a design studio that believes in designing with purpose and creating work that matters. As a B&nbsp;Corp, they create responsible solutions that exceed triple bottom line standards.",
+    "story": "<a href=\"https://leap.eco\">Leap</a> is a design studio that believes in designing with purpose and creating work that matters. As a B Corp, they create responsible solutions that exceed triple bottom line standards.",
     "img": "/img/champion_logos/leap.webp",
     "type": "business",
     "sector": "Consulting and agencies",
-    "link": "https://profiles.eco/leap.eco",
+    "link": "/champions/leap/",
     "location": "UK",
     "priority": ""
   },
