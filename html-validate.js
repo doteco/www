@@ -35,25 +35,29 @@ const skipFiles = [
   'public/the-eco-story/index.html'
 ]
 
-const validate = function (file) {
-  return readFile(file, { encoding: 'utf8' }).then(data => {
+const validate = async function (file) {
+  try {
+    const data = await readFile(file, { encoding: 'utf8' })
     const validateUrl = 'https://validator.w3.org/nu/?out=json'
-    return fetch(validateUrl, {
+    const response = await fetch(validateUrl, {
       method: 'POST',
       body: data,
       headers: {
         'Content-Type': 'text/html; charset=utf-8'
       }
-    }).then(response => response.json())
-  }).then(results => {
+    })
+    if (!response.ok) {
+      throw new Error('Error getting validation results from W3: ' + response.status)
+    }
+    const results = await response.json()
     console.log('Validation results:', file)
     results.messages.map(entry => {
       return console.log(`${entry.type.toUpperCase()}: ${entry.message} (line: ${entry.lastLine})`)
     })
     console.log()
-  }).catch((err) => {
+  } catch (err) {
     console.log('Failed to validate', file, err)
-  })
+  }
 }
 
 new Promise((resolve, reject) => {
