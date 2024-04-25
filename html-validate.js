@@ -44,7 +44,8 @@ const validate = async function (file) {
       body: data,
       headers: {
         'Content-Type': 'text/html; charset=utf-8'
-      }
+      },
+      signal: AbortSignal.timeout(5000)
     })
     if (!response.ok) {
       throw new Error('Error getting validation results from W3: ' + response.status)
