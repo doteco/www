@@ -21,8 +21,8 @@ faq: true
 
 <section class="section policy">
 	{{#each (t "faq" returnObjects=true)}}
-	<div class="container" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-		<h2 itemprop="name">{{{q}}}</h2>
+	<div class="container content-section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+		<h3 itemprop="name">{{{q}}}</h2>
 		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
 			<p itemprop="text">{{{a}}}</p>
 		</div>
