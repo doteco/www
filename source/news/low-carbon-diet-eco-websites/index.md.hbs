@@ -45,7 +45,7 @@ Feel free to jump to a specific area of interest or just go through the content 
 To estimate the [carbon footprint of our digital services](/news/carbon-footprint-2022/), we followed the [Sustainable Web Design](https://sustainablewebdesign.org/calculating-digital-emissions/) methodology. This approach uses **data transfer**, the bytes sent back and forth between a visitor’s web browser and the web server, as a proxy for the energy required to run a website. Carbon dioxide emissions (CO2e) are derived from the carbon intensity of the electricity generated where the data is served or consumed.
 
 Like all proxy measures, data transfer is an imperfect metric. It has, however, several advantages:
-- It is **correlated with energy consumption**. It is easy to see how processing web requests consumes power on the servers and devices serving a web site. Handling more requests with larger payloads will typically consume more power than fewer requests with smaller payloads.
+- It is **correlated with energy consumption**. It is easy to see how processing web requests consumes power on the servers and devices serving a website. Handling more requests with larger payloads will typically consume more power than fewer requests with smaller payloads.
 - It is **easy to obtain**. Most web servers and content delivery networks (CDNs) record the volume of data that they transmit. Actual power consumption data is not (currently) broadly available - either for hosted services or from web browsers, so a suitable proxy is needed.
 - It is **actionable**. As a technologist, there’s a lot we can do to optimize the volume of data transferred from our web properties.
 - It is **expansive in scope**. It allows us to extend the boundary of our footprint to include not just the infrastructure that we use, but also include the network that transmits data to our visitors and the power consumption on their devices.
@@ -84,13 +84,13 @@ Most of this migration happened in mid-2022 and so it did not factor into our 20
 #### Servers
 One seemingly simple option for reducing emissions (and cost!) is shutting down servers that aren’t needed. For larger organizations with more teams and IT systems, there are often things left running unnecessarily. For us as a small team, we were already pretty focused on minimizing our hosting costs and only running what was needed so there wasn’t much we could just turn off.
 
-We did find that is a tension between necessity and resiliency:
-Do you need to be running a secondary database instance to failover to if there’s an issue with the primary? That secondary instance may be sitting idle other than processing transaction logs. But for the sake of resiliency, it’s pretty critical infrastructure.
-How closely should a test environment mirror the production environment? Can it have less redundancy or run on less powerful hardware at the risk of not adequately reflecting production? Does the test environment need to run 24x7?
+We did find there can be a tension between necessity and resiliency:
+- Do you need to be running a secondary database instance to failover to if there’s a failure with the primary? That secondary instance may be sitting idle other than processing transaction logs, but for the sake of resiliency, it’s pretty critical infrastructure.
+- How closely should a test environment mirror the production environment? Can it have less redundancy or run on less powerful hardware at the risk of not adequately reflecting production? Does the test environment need to run 24x7?
 
 For us, we were able to reduce our server footprint slightly - mainly by shrinking our test environments. But the impact wasn’t significant.
 
-Another thing worth considering is the efficiency of server hardware. ARM chipsets are generally more energy efficient than x86 and have lower cooling requirements. This is why they’re used in smart phones and other portable devices that rely on having a long battery life. Getting precise differences in efficiency depends on the specific chips being compared and the underlying task performed by the servers. It’s safe to say that they’re less than 2x as efficient, meaning it will be at most a 50% reduction in emissions. The other thing worth considering is that the [embedded emissions](https://en.wikipedia.org/wiki/Embedded_emissions) from manufacturing the server hardware is generally greater than the emissions associated with its use. So extending hardware life could lead to a lower footprint.
+Another thing worth considering is the efficiency of server hardware. ARM chipsets are generally more energy efficient than x86 and have lower cooling requirements. This is why they’re used in smart phones and other portable devices that rely on having a long battery life. Getting precise differences in efficiency depends on the specific chips being compared and the underlying task performed by the servers. It’s safe to say that they’re less than 2x as energy efficient, meaning it will be at most a 50% reduction in emissions. The other thing worth considering is that the [embedded emissions](https://en.wikipedia.org/wiki/Embedded_emissions) from manufacturing the server hardware is generally greater than the emissions associated with its use. So extending hardware life could lead to a lower footprint.
 
 > As the Sustainable Web Design method is concerned principally with data transfer, any improvements in infrastructure size or efficiency are not directly accounted for in the model. The model does allow for swapping the data center component of the model or [alternately use a different model](https://torchbox.com/blog/announcing-our-digital-emissions-methodologies/).
 
@@ -105,7 +105,7 @@ Another thing worth considering is the efficiency of server hardware. ARM chipse
 
 
 #### Serverless
-Serverless represents the current pinnacle in the progression of virtualization technologies. With serverless, an application is only active and consuming energy for the duration of processing a transaction instead of sitting idle waiting for requests to arrive. It allows cloud providers to optimize the utilization of the underlying infrastructure across a large number of customers. This means that the embedded emissions and energy use of the hardware are amortized optimally and appropriately by use.
+Serverless represents the current pinnacle in the progression of virtualization technologies. With serverless, an application is only active and consuming energy for the duration of processing a transaction instead of sitting idle waiting for requests to arrive. It allows cloud providers to optimize the utilization of their underlying infrastructure across a large number of customers. This means that the embedded emissions and energy use of the hardware are amortized optimally and appropriately by use.
 
 When we started building the websites and services used by .eco, serverless was a pretty nascent technology. Tooling was immature and the latency associated with serverless execution was a consideration. These have now improved and it’s feasible to build performant applications entirely on serverless.
 
@@ -128,11 +128,11 @@ While not typically considered serverless, most of our websites are statically g
 Trying to reduce the number of requests to a website seems counterintuitive. Most businesses, nonprofits or individuals build a website to try to reach as many people as possible. We treat the growth in visitors over time as a measure of our success. Why would we want to do anything to suppress that?
 
 #### Bots
-Well, as we know, not all visits to a website are of equal value. In fact, for most modestly successful websites, a good chunk of those visits are from bots, not people (over [30% by some recent estimates](https://www.imperva.com/blog/five-key-takeaways-from-the-2024-imperva-bad-bot-report/)). Some bots are useful as they get our site indexed on search engines. However, many bots have malicious intent, probing for security vulnerabilities or just scraping your site content. The recent explosion of generative AI models has led to a proliferation of bots that are appropriating your content to feed their models.
+Well, as we know, not all visits to a website are of equal value. In fact, for most modestly successful websites, a good chunk of those visits are from bots, not people (over [30% by some recent estimates](https://www.imperva.com/blog/five-key-takeaways-from-the-2024-imperva-bad-bot-report/)). Some bots are useful as they get our site indexed on search engines. However, many bots have malicious intent, probing for security vulnerabilities or just scraping site content. The recent explosion of generative AI models has led to a proliferation of bots that are appropriating content to feed their models.
 
-While much of this bot traffic is benign, every request puts load on web servers and back-end systems, generates unneeded Internet traffic and increases your website’s carbon footprint. Unfortunately, blocking these bots is not as easy as updating your [robots.txt file](https://developers.google.com/search/docs/crawling-indexing/robots/intro). Poorly mannered bots will just ignore it.
+While much of this bot traffic is benign, every request puts load on web servers and back-end systems, generates unneeded Internet traffic and increases a website’s carbon footprint. Unfortunately, blocking these bots is not as easy as updating the [robots.txt file](https://developers.google.com/search/docs/crawling-indexing/robots/intro). Poorly mannered bots will just ignore it.
 
-The best way to block these bots is using the capabilities of a web application firewall (WAF). Your CDN may have built-in WAF capabilities. Detecting bots is not easy, so the best bet is to use the bot-blocking capabilities provided by the WAF. These bot blocking services may have an additional cost.
+The best way to block these bots is using the capabilities of a web application firewall (WAF). Many CDNs have built-in WAF capabilities. Detecting bots is not easy, so the best bet is to use the bot-blocking capabilities provided by the WAF. These bot blocking services may have an additional cost.
 
 <p class="article-logo">
   <img src="/img/news/bots.webp" style="width:40%" alt="Pie chart showing the ratio of bots to non-bot traffic">
@@ -193,7 +193,7 @@ Each HTTP request needs to send several messages back and forth to establish a c
 
 The overhead of each request is mitigated by using HTTP/2 which multiplexes multiple requests over the same HTTP connection. Our web applications already made full use of HTTP/2, but it is worthwhile verifying that this is the case.
 
-However, each request to a different origin does require establishing a distinct HTTP connection. So it can be beneficial to reduce the number of different domains that you need to connect to to render your website. We did some work to eliminate or consolidate origins to reduce them to a minimum.
+Each request to a different origin does require establishing a distinct HTTP connection. So it can be beneficial to reduce the number of different domains that you need to connect to to render your website. We did some work to eliminate or consolidate origins to reduce them to a minimum.
 
 <aside>
 
@@ -246,7 +246,7 @@ It's typically not necessary to show a high definition image on a web page when 
 
 Even SVGs can be compressed by stripping out whitespace and unnecessary declarations. Tools like [SVGO](https://svgo.dev/) make this easy to do and automate.
 
-To help guide this optimization work, we set a target of maximum image size of 60kb or less for images shown on the web site. Having a heuristic to follow made it easier to determine when the optimization was good enough.
+To help guide this optimization work, we set a target maximum image size of 60kb or less. Having a heuristic to follow made it easier to determine when the optimization was good enough.
 
 <aside>
 
@@ -262,7 +262,7 @@ It can be difficult to determine what the appropriate dimensions are for renderi
 
 Modern browsers support the <code>picture</code> element that allows for specifying different images at different resolutions. However, this can complicate things as there are now multiple versions of the image to manage and optimize.
 
-We came to the realization that most images on our site are for visual interest, but are not informational. Most visitors glance at them and move on to the content. As a result, we were content to accept more smaller, more highly optimized images at some visible loss of image quality.
+We came to the realization that most images on our site are for visual interest, but are not informational. Most visitors glance at them and move on to the content. As a result, we were content to accept smaller, more highly optimized images at some visible loss of image quality.
 
 Note that it's best to ensure that images are resized appropriately before they are compressed to obtain the best compression results with the least degradation in quality.
 
@@ -286,7 +286,7 @@ Unfortunately, this only works for images loaded via the <code>img</code> elemen
 ### Summary
 - Action: lazy load all images below the fold
 - Impact: medium
-- Effort: low
+- Effort: varied
 
 </aside>
 
@@ -294,13 +294,13 @@ Unfortunately, this only works for images loaded via the <code>img</code> elemen
 
 After images, Javascript is typically the second largest type of resource used on a web page. According to the [Web Almanac](https://almanac.httparchive.org/en/2022/sustainability#fig-6), the median website requires 481 kb of Javascript. Of that, [around 37%](https://almanac.httparchive.org/en/2022/sustainability#fig-9) is often unused.
 
-What makes Javascript have an outsized impact is that it is CPU-intensive to parse and execute. This increases power draw and drains the battery of the device rendering the page, thereby increasing electricty use and associated emissions. Even that unused Javascript still has an impact as the device still has to parse and interpret it.
+What makes Javascript have an outsized impact is that it is CPU-intensive to parse and execute. This increases power draw and drains the battery of the device rendering the page, thereby increasing electricty use and associated emissions. Even that unused Javascript has an impact as the browser still has to parse and interpret it.
 
 Most websites rely on Javascript frameworks and libraries. These libraries typically contain more functionality than what is used on a given site. This is the case for us as we make use of [Bootstrap](https://getbootstrap.com/) on our websites but use only a fraction of what Bootstrap has to offer.
 
 It can be tricky to identify what Javascript is unused and even harder to strip it out. Ideally JS libraries would be modular and could be easily unbundled and repackaged, but that's not often the case &ndash; especially for older frameworks. Even where it is possible, building custom bundles can be complex as it requires understanding the build and packaging process for those libraries. We still have more work to do in this area.
 
-One thing that we have done is move to smaller Javascript packages for our custom JS code on some sites by only loading what is required for a specific page. This is in contrast to previous best practice that recommended initially downloading all scripts required by the site so that they could be cached and wouldn't need to be redownloaded. However, this made the initial site visit slow and meant that larger package would need to be re-interpreted for every page visit, regardless of whether the functionality was needed or not.
+One thing that we have done is move to smaller Javascript packages for our custom JS code on some sites by only loading what is required for a specific page. This is in contrast to previous best practice that recommended initially downloading all the scripts required by the site so that they could be cached and wouldn't need to be redownloaded. However, this made the initial site visit slow and meant that larger bundle would need to be re-interpreted for every page visit, regardless of whether the functionality was needed or not.
 
 <aside>
 
@@ -317,7 +317,7 @@ CSS suffers from many of the same problems as Javascript, with the Web Alamanc e
 
 Like with Javascript, most websites use CSS frameworks that end up including more styles than are needed for a given site. Identifying and stripping out those styles can be tricky. There is tooling to support this, but it can be tedious work.
 
-Newer CSS frameworks, like [Tailwind CSS](https://tailwindcss.com/) makes this much easier; but switching CSS frameworks for a medium-sized site is a lot of work.
+Newer CSS frameworks, like [Tailwind CSS](https://tailwindcss.com/) makes this much easier; but switching CSS frameworks for a medium-sized site is a lot of work. Experimenting switching from Bootstrap to a lightweight CSS framework is on our to do list.
 
 <aside>
 
@@ -330,7 +330,7 @@ Newer CSS frameworks, like [Tailwind CSS](https://tailwindcss.com/) makes this m
 
 #### Fonts
 
-Web Font hosting services, like Google Fonts, have made it easy to stylize the typography on your site with a wide range of fonts to choose from. However, aside from the [privacy issues of using these services](https://gomakethings.com/google-fonts-and-gdpr/), they also increase the latency in rendering your site. Font files can be large - and font hosting services may require multiple requests in order to load your font files. For example, Google Fonts loads a Javascript file and a CSS file before loading your font files. Your site may also break in unexpected ways if the font hosting service is unavailable.
+Web font hosting services, like Google Fonts, have made it easy to stylize the typography on a website with a wide range of fonts to choose from. However, aside from the [privacy issues of using these services](https://gomakethings.com/google-fonts-and-gdpr/), they also increase the latency in rendering your site. Font files can be large &ndash; and font hosting services may require multiple requests to load your font files. For example, Google Fonts loads a Javascript file and a CSS file before loading the font files. Your site may also break in unexpected ways if the font hosting service is unavailable.
 
 One way around this is to self-host the font files on your web servers. This can reduce requests and ensures that font files are downloaded within an existing HTTP connection.
 
@@ -351,6 +351,6 @@ We have moved to self-hosting our web fonts and reduced the number of fonts we'r
 
 ### Conclusion
 
-This wraps up a pretty deep dive of the work that we've been doing to optimize the web sites we use to operate .eco. The main thing that we want to underscore is that this is a journey, not a destination. We are continuing to find ways to further optimize our web sites. If you have suggestions of things we can do to improve, please [let us know](javascript:Intercom).
+This wraps up a pretty deep dive of the work that we've been doing to optimize the websites we use to operate .eco. The main thing that we want to underscore is that this is a journey, not a destination. We are continuing to find ways to further optimize our websites. If you have suggestions of things we can do to improve, please [let us know](javascript:Intercom('show')).
 
-And if you are a member of the .eco community on a similar journey, [we'd love to hear from you](javascript:Intercom). We're happy to exchange suggestions on what else we can to do reduce our footprint.
+And if you are a member of the .eco community on a similar journey, [we'd love to hear from you](javascript:Intercom('show')). We're happy to exchange suggestions on what else we can do to collectively reduce our digital carbon footprint.
