@@ -74,7 +74,7 @@ Most of this migration happened in mid-2022 and so it did not factor into our 20
 
 <aside>
 
-### Summary
+#### Summary
 - Action: move infrastructure to a low carbon region
 - Impact: high
 - Effort: high
@@ -96,7 +96,7 @@ Another thing worth considering is the efficiency of server hardware. ARM chipse
 
 <aside>
 
-### Summary
+#### Summary
 - Action: shut down unneeded infrastructure
 - Impact: low
 - Effort: varied
@@ -115,7 +115,7 @@ While not typically considered serverless, most of our websites are statically g
 
 <aside>
 
-### Summary
+#### Summary
 - Action: use serverless instead of virtual machines or containers
 - Impact: medium
 - Effort: varied
@@ -144,7 +144,7 @@ A cheaper and more basic option is to configure a WAF rule to limit the number o
 
 <aside>
 
-### Summary
+#### Summary
 - Action: use a WAF to block bots
 - Impact: high
 - Effort: low
@@ -159,7 +159,7 @@ What we didn’t realize until we started digging is that these health checks we
 
 <aside>
 
-### Summary
+#### Summary
 - Action: review the frequency of health checks and probes
 - Impact: varied
 - Effort: low
@@ -178,7 +178,7 @@ Even API calls can be cached. We added short-lived cache headers to a number of 
 
 <aside>
 
-### Summary
+#### Summary
 - Action: verify that cache headers are broadly used, including for APIs
 - Impact: varied
 - Effort: varied
@@ -197,7 +197,7 @@ Each request to a different origin does require establishing a distinct HTTP con
 
 <aside>
 
-### Summary
+#### Summary
 - Action: all requests should use HTTP/2 and minize origins used
 - Impact: low
 - Effort: varied
@@ -231,7 +231,7 @@ We used a library called [sharp](https://sharp.pixelplumbing.com/) to help autom
 
 <aside>
 
-### Summary
+#### Summary
 - Action: use modern image formats (.svg, .webp)
 - Impact: medium
 - Effort: low
@@ -250,7 +250,7 @@ To help guide this optimization work, we set a target maximum image size of 60kb
 
 <aside>
 
-### Summary
+#### Summary
 - Action: compress all images and set a maximum image size threshold under 100kb
 - Impact: medium
 - Effort: low
@@ -268,7 +268,7 @@ Note that it's best to ensure that images are resized appropriately before they 
 
 <aside>
 
-### Summary
+#### Summary
 - Action: ensure images are sized appropriately for where they are displayed
 - Impact: varied
 - Effort: low
@@ -283,7 +283,7 @@ Unfortunately, this only works for images loaded via the <code>img</code> elemen
 
 <aside>
 
-### Summary
+#### Summary
 - Action: lazy load all images below the fold
 - Impact: medium
 - Effort: varied
@@ -304,7 +304,7 @@ One thing that we have done is move to smaller Javascript packages for our custo
 
 <aside>
 
-### Summary
+#### Summary
 - Action: eliminate unused javascript
 - Impact: medium
 - Effort: high
@@ -321,7 +321,7 @@ Newer CSS frameworks, like [Tailwind CSS](https://tailwindcss.com/) makes this m
 
 <aside>
 
-### Summary
+#### Summary
 - Action: eliminate unused CSS
 - Impact: low
 - Effort: high
@@ -340,7 +340,7 @@ We have moved to self-hosting our web fonts and reduced the number of fonts we'r
 
 <aside>
 
-### Summary
+#### Summary
 - Action: minimize web fonts and prefer system fonts for body copy
 - Impact: low
 - Effort: low
