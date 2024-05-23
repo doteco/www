@@ -1,7 +1,6 @@
 import imagemin from 'imagemin'
 import imageminJpeg from 'imagemin-mozjpeg'
 import imageminPngquant from 'imagemin-pngquant'
-import imageminSvgo from 'imagemin-svgo'
 
 imagemin(['**/*.*'], {
   baseDirectory: 'source/img/',
@@ -11,8 +10,7 @@ imagemin(['**/*.*'], {
     imageminJpeg({
       quality: 40
     }),
-    imageminPngquant(),
-    imageminSvgo()
+    imageminPngquant()
   ]
 }).then(files => {
   console.log('Images optimized:')

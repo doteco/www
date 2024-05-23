@@ -45,6 +45,7 @@ jobs:
     - run: npm run build
     - run: SITE_LANG=de npm run build
     - run: SITE_LANG=fr npm run build
+    - run: npm run build:svg
     - run: npm run minify
 
     # Deployment

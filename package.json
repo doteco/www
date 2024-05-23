@@ -17,7 +17,6 @@
     "imagemin": "github:doteco/imagemin",
     "imagemin-mozjpeg": "10.0.0",
     "imagemin-pngquant": "10.0.0",
-    "imagemin-svgo": "11.0.0",
     "jstransformer-handlebars": "1.2.0",
     "jstransformer-marked": "1.4.0",
     "klaw": "4.1.0",
