@@ -3,6 +3,7 @@ $font-body: 'Lato', sans-serif;
 $font-header: 'Open Sans', sans-serif;
 $font-header-weight: 700;
 $font-subheader-weight: 300;
+$font-body-size: 16px;
 
 @font-face {
   font-family: 'Lato';
@@ -74,7 +75,7 @@ $common-border-radius: 2px;
 	}
 
 	body, input, textarea {
-		font-size: 16px;
+		font-size: $font-body-size;
 	}
 
 	h1 {

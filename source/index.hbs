@@ -20,7 +20,7 @@ faq: true
 	<div class="carousel-inner">
 		<div class="carousel-item active home-you" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/carousel/for-you3.webp')">
 			<div class="container">
-				<h2>{{t 'carousel.tld.head'}} <span class="carousel-subheader">{{t 'carousel.tld.subhead'}}</span></h2>
+				<h2>{{t 'carousel.tld.head'}}&nbsp;<span class="carousel-subheader">{{t 'carousel.tld.subhead'}}</span></h2>
 			</div>
 		</div>
 
@@ -88,7 +88,7 @@ faq: true
 
 <div class="section home-orgs inverted">
 	<div class="container" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-		<div class="section-label">{{{t 'global:partners.head'}}}</div>
+		<h3 class="section-label">{{{t 'global:partners.head'}}}</h3>
 		<h2 itemprop="name">{{{t 'global:partners.subhead'}}}</h2>
 
 		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -101,7 +101,7 @@ faq: true
 
 <div class="section home-who">
 	<div class="container" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-		<div class="section-label" itemprop="name"><a href="/champions/">{{{t 'global:members.head'}}}</a></div>
+		<h3 class="section-label" itemprop="name"><a href="/champions/">{{{t 'global:members.head'}}}</a></h3>
 		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
 			<p itemprop="text">{{{t 'global:members.text' }}}</p>
 		</div>
@@ -112,7 +112,7 @@ faq: true
 {{#if (equal lang 'en')}}
 <div class="section home-news inverted">
 	<div class="container">
-		<div class="section-label"><a href="/news/">Recent .eco news</a></div>
+		<h3 class="section-label"><a href="/news/">Recent .eco news</a></h3>
 		<div class="row g-0">
 			{{#eachN collections.news}}
 			<div class="col-md-4">
@@ -136,7 +136,7 @@ faq: true
 
 <div class="section home-support {{#if (notequal lang 'en')}}inverted{{/if}}">
 	<div class="container">
-		<div class="section-label">{{t 'support.head'}}</div>
+		<h3 class="section-label">{{t 'support.head'}}</h3>
 		<div class="row">
 			<div class="col-3 col-md-2">
 				<span class="support-wave">&#x1F44B;</span>
