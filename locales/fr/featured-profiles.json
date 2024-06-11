@@ -190,16 +190,6 @@
     "priority": ""
   },
   {
-    "domain": "tooth.eco",
-    "story": "<a href=\"https://tooth.eco\">Tooth.Eco</a> a pour mission de réduire les déchets plastiques en fournissant la première brosse à dents au monde presque entièrement sans plastique. Non seulement cela réduit votre empreinte carbone, mais cela contribue également à préserver notre environnement pour les générations futures.",
-    "img": "/img/champion_logos/tooth-eco2.webp",
-    "type": "business",
-    "sector": "Consumer goods",
-    "link": "https://profiles.eco/tooth.eco",
-    "location": "Royaume-Uni",
-    "priority": ""
-  },
-  {
     "domain": "aem.eco",
     "story": "<a href=\"https://aem.eco\">AEM</a> permet aux communautés et aux organisations de survivre et de prospérer face à l’augmentation des risques environnementaux. En déployant des réseaux de détection et en fournissant des analyses, AEM est la source essentielle d’informations environnementales.",
     "img": "/img/champion_logos/aem.webp",
@@ -241,13 +231,13 @@
   },
   {
     "domain": "greenworx.eco",
-    "story": "<a href=\"https://greenworx.eco\">Green Worx</a> fabrique des produits de nettoyage respectueux de l&#39;environnement pour les ménages, les entreprises et les industries à travers l&#39;Afrique.",
+    "story": "<a href=\"https://greenworx.eco\">Green Worx</a> fabrique des produits de nettoyage respectueux de l&#39;environnement destinés aux ménages, aux entreprises et aux industries à travers l&#39;Afrique.",
     "img": "/img/champion_logos/greenworx.webp",
     "type": "business",
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/greenworx.eco",
     "location": "Afrique du Sud",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "carl.eco",
@@ -267,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/arbor.eco",
     "location": "Canada",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "sustainableagriculture.eco",
@@ -277,7 +267,7 @@
     "sector": "Nonprofit",
     "link": "https://profiles.eco/sustainableagriculture.eco",
     "location": "Costa Rica",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "skoot.eco",
@@ -286,6 +276,16 @@
     "type": "business",
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
+    "location": "Royaume-Uni",
+    "priority": "2"
+  },
+  {
+    "domain": "abs.eco",
+    "story": "<a href=\"https://abs.eco/\">ABS</a> fabrique des produits utilisant des micro-organismes naturels pour remplacer les produits chimiques nocifs dans le traitement des déchets et la dépollution.",
+    "img": "/img/champion_logos/abs2.webp",
+    "type": "business",
+    "sector": "",
+    "link": "https://profiles.eco/abs.eco",
     "location": "Royaume-Uni",
     "priority": "1"
   }

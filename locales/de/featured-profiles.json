@@ -190,16 +190,6 @@
     "priority": ""
   },
   {
-    "domain": "tooth.eco",
-    "story": "<a href=\"https://tooth.eco\">Tooth.Eco</a> hat es sich zur Aufgabe gemacht, Plastikmüll zu reduzieren, indem es die weltweit erste Zahnbürste anbietet, die fast vollständig plastikfrei ist. Dies verringert nicht nur Ihren CO2-Fußabdruck, sondern hilft auch, unsere Umwelt für zukünftige Generationen zu bewahren.",
-    "img": "/img/champion_logos/tooth-eco2.webp",
-    "type": "business",
-    "sector": "Consumer goods",
-    "link": "https://profiles.eco/tooth.eco",
-    "location": "Vereinigtes Königreich",
-    "priority": ""
-  },
-  {
     "domain": "aem.eco",
     "story": "<a href=\"https://aem.eco\">AEM</a> befähigt Gemeinschaften und Organisationen, angesichts zunehmender Umweltrisiken zu überleben und zu gedeihen. Durch den Einsatz von Sensornetzwerken und die Bereitstellung von Analysen ist AEM die wesentliche Quelle für Umwelteinblicke.",
     "img": "/img/champion_logos/aem.webp",
@@ -221,7 +211,7 @@
   },
   {
     "domain": "cycle.eco",
-    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es dafür sorgt, dass Tausende von Fahrradkurieren täglich eine reibungslose, schnelle und sichere Zustellung erleben.",
+    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es Tausenden von Fahrradkurieren täglich ein reibungsloses, schnelles und sicheres Zustellungserlebnis bietet.",
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
     "sector": "Transportation",
@@ -247,7 +237,7 @@
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/greenworx.eco",
     "location": "Südafrika",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "carl.eco",
@@ -267,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/arbor.eco",
     "location": "Kanada",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "sustainableagriculture.eco",
@@ -277,7 +267,7 @@
     "sector": "Nonprofit",
     "link": "https://profiles.eco/sustainableagriculture.eco",
     "location": "Costa Rica",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "skoot.eco",
@@ -286,6 +276,16 @@
     "type": "business",
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
+    "location": "Großbritannien",
+    "priority": "2"
+  },
+  {
+    "domain": "abs.eco",
+    "story": "<a href=\"https://abs.eco/\">ABS</a> stellt Produkte her, die natürliche Mikroorganismen verwenden, um schädliche Chemikalien bei der Abfallbehandlung und Schadstoffsanierung zu ersetzen.",
+    "img": "/img/champion_logos/abs2.webp",
+    "type": "business",
+    "sector": "",
+    "link": "https://profiles.eco/abs.eco",
     "location": "Großbritannien",
     "priority": "1"
   }
