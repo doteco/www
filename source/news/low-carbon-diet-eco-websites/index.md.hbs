@@ -134,9 +134,11 @@ While much of this bot traffic is benign, every request puts load on web servers
 
 The best way to block these bots is using the capabilities of a web application firewall (WAF). Many CDNs have built-in WAF capabilities. Detecting bots is not easy, so the best bet is to use the bot-blocking capabilities provided by the WAF. These bot blocking services may have an additional cost.
 
-<p class="article-logo">
-  <img src="/img/news/bots.webp" style="width:40%" alt="Pie chart showing the ratio of bots to non-bot traffic">
-</p>
+<div class="news-img-40pct">
+
+![Pie chart showing the ratio of bots to non-bot traffic](/img/news/bots.webp)
+
+</div>
 
 We have found for our websites that WAF bot blocking reduced traffic by **over 50%** in some cases, though this can vary over time. Note that the drop in bot traffic may not be visible in your web analytics dashboards. Most analytics tools rely on running javascript to record visits and most of these bots do not execute JS. Also be aware that bot blocking may have the side effect of also blocking API traffic. So it is best to handle API traffic from a different endpoint to avoid disruption.
 
