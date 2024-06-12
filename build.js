@@ -14,6 +14,8 @@ const watch = require('metalsmith-watch')
 const i18next = require('metalsmith-i18next')
 const collections = require('@metalsmith/collections')
 const rss = require('@metalsmith/rss')
+const jsBundle = require('@metalsmith/js-bundle')
+const packageJson = require('./package.json')
 
 const defaultLang = 'en'
 const env = process.env.NODE_ENV || 'DEV'
@@ -32,6 +34,7 @@ const filterDefaults = ({
 const allProfiles = require(`./locales/${lang}/featured-profiles.json`)
 const priorityProfiles = allProfiles.filter(p => p.priority > 0).sort((a, b) => a.priority - b.priority)
 const featuredProfiles = [...allProfiles].sort((a, b) => a.domain.localeCompare(b.domain))
+const bootstrapVersion = packageJson.dependencies.bootstrap
 
 console.log('Building for environment:', env, lang)
 
@@ -102,6 +105,9 @@ const sitemapLinks = () => {
   }
 }
 
+const jsEntries = {}
+jsEntries[`js/bootstrap/${bootstrapVersion}/bootstrap.custom.min`] = 'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
+
 const ms = Metalsmith(__dirname)
   .metadata({
     year: new Date().getFullYear(),
@@ -121,7 +127,8 @@ const ms = Metalsmith(__dirname)
     sites: options['site-url'],
     filterDefaults,
     featuredProfiles,
-    priorityProfiles
+    priorityProfiles,
+    bootstrapVersion
   })
   .source('./source')
   .destination(dest)
@@ -138,6 +145,9 @@ const ms = Metalsmith(__dirname)
     sourceMapContents: true
   }))
   .use(autoprefixer())
+  .use(jsBundle({
+    entries: jsEntries
+  }))
   .use(fingerprint({
     pattern: '{css/main.css,js/domain-search.js}'
   }))
@@ -215,6 +225,8 @@ const ms = Metalsmith(__dirname)
     pathProperty: 'page-path'
   })
   )
+
+// ms.env('DEBUG', '*metalsmith*')
 
 ms.build(function (err, files) {
   if (err) { throw err }
