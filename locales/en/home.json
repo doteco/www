@@ -4,11 +4,11 @@
   "top-banner": ".eco is <a href=\"/news/2023-eco-is-carbon-neutral/\">certified carbon neutral</a>&nbsp;🌿",
   "carousel": {
     "business": {
-      "head": ".eco is for <a href=\"/for/business/\">businesses</a> and products",
+      "head": ".eco is for businesses and products",
       "subhead": "that help people make better choices every day"
     },
     "gov": {
-      "head": ".eco is for governments and <a href=\"/for/nonprofits/\">non-profits</a>",
+      "head": ".eco is for governments and non-profits",
       "subhead": "that encourage positive environmental change"
     },
     "people": {
