@@ -3,14 +3,14 @@
 			<div class="row">
 
 				{{#each (t "global:footer" returnObjects=true)}}
-				<div class="col-6 col-sm-3">
+				<nav class="col-6 col-sm-3">
  					<ul>
  						<li><h4>{{head}}</h4></li>
 						{{#each items}}
 						<li>{{{this}}}</li>
 						{{/each}}
  					</ul>
-				</div>
+				</nav>
 				{{/each}}
 
 				<div class="col-6 col-sm-3">
