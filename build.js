@@ -106,7 +106,7 @@ const sitemapLinks = () => {
 }
 
 const jsEntries = {}
-jsEntries[`js/bootstrap/${bootstrapVersion}/bootstrap.custom.min`] = 'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
+jsEntries[`js/bootstrap/${bootstrapVersion}/bootstrap.custom.min`] = 'source/js/bootstrap.custom.js'
 
 const ms = Metalsmith(__dirname)
   .metadata({
@@ -146,7 +146,9 @@ const ms = Metalsmith(__dirname)
   }))
   .use(autoprefixer())
   .use(jsBundle({
-    entries: jsEntries
+    entries: jsEntries,
+    sourcemap: true,
+    minify: true
   }))
   .use(fingerprint({
     pattern: '{css/main.css,js/domain-search.js}'
