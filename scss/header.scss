@@ -1,100 +1,16 @@
 #doteco {
-	color: $doteco-charcoal;
-
-	.logo-white {
-		filter: brightness(0) invert(1);
-	}
-
-	.top-banner {
-		text-align: center;
-		padding: 0.5rem;
-		font-size: 1rem;
-		background-color: $doteco-citrine;
-
-		a {
-			color: $doteco-charcoal;
-		}
-	}
-
 	.navbar {
-		background-color: $doteco-ruby;
-		padding: 0;
 		border-bottom: 1px white solid;
-
-		.nav-link {
-			padding: 1rem;
-		}
-
-		.navbar-toggle {
-			border-color: white;
-		}
-
-		.navbar-toggle:focus {
-			background-color: $doteco-ruby;
-		}
-
-		.navbar-toggle:hover {
-			background-color: white;
-		}
-
-		a {
-			color: white;
-		}
-
-		.active {
-			background-color: $doteco-charcoal;
-		}
-
-		.navbar-brand {
-			&:hover {
-				background-color: transparent;
-			}
-
-			img {
-				border-radius: 6px;
-			}
-		}
 
 		li {
 			text-align: center;
 		}
 
-		.social {
-			a {
-				padding: 0 5px;
-				display: inline-block;
-			}
-
-			img {
-				height: 25px;
-			}
-		}
-
-		a:hover, .language-toggle.show {
-			background-color: $doteco-marrow;
-			color: $doteco-ruby;
-		}
-
-		.dropdown {
-			margin-bottom: 1rem;
-
-			ul {
-				background-color: $doteco-marrow;
-			}
-
-			.dropdown-link {
-				color: black;
-			}
-
-			.dropdown-link:hover {
-				color: $doteco-ruby;
-			}
-
-			.dropdown-menu {
-				margin-top: 0;
-				border: none;
-				border-radius: 0 0 6px 6px;
-			}
+		.dropdown-menu {
+			margin-top: 0;
+			padding-bottom: 1rem;
+			border: none;
+			border-radius: 0 0 6px 6px;
 		}
 
 		.navbar-toggler {
@@ -116,9 +32,8 @@
 			background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 		}
 
-		.top-banner {
-			text-align: center;
-			width:1
+		.active {
+			background-color: $doteco-charcoal;
 		}
 
 		@media only screen and (width >= 768px) {
@@ -127,9 +42,17 @@
 				width: 100%;
 			}
 
-			.dropdown {
-				margin-bottom: 0;
+			.nav-link {
+				padding: 1rem;
 			}
 		}
+	}
+
+	.top-banner {
+		text-align: center;
+		padding: 0.5rem;
+		font-size: 1rem;
+		background-color: $yellow;
+		text-align: center;
 	}
 }

@@ -1,5 +1,5 @@
 <header>
-	<nav class="navbar navbar-expand-md navbar-dark">
+	<nav class="navbar navbar-expand-md bg-primary">
 		<div class="container-lg container-fluid">
 			<a class="navbar-brand" href="/">
 				<img alt=".eco logo" src="{{img-root}}/doteco-logo-white.svg" width="40" height="37">
@@ -16,7 +16,7 @@
 					<li class="nav-item"><a href="/champions/" class="{{checkActive 'champions' active}} nav-link">{{t 'global:header.champions'}}</a></li>
 					<li class="nav-item dropdown">
 						<a href="#" class="nav-link dropdown-toggle language-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{lookup languages lang}} <span class="caret"></span></a>
-						<ul class="dropdown-menu dropdown-menu-end shadow">
+						<ul class="dropdown-menu dropdown-menu-end">
 							{{#each languages as |l|}}
 							<li><a href="{{lookup ../sites @key}}" class="dropdown-item dropdown-link" lang="{{@key}}">{{l}}</a></li>
 							{{/each}}

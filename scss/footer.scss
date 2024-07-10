@@ -1,43 +1,37 @@
 #doteco {
 	.footer {
+		padding: 1rem 0;
 		width: 100%;
-		padding: 1em 0;
-		background-color: $doteco-ruby;
-		color: white;
-		line-height: 1.6em;
 
-		@media (width >= 768px) {
-			font-size: 80%;
-		}
-
-		a, a:visited {
-			color: white;
+		a {
 			text-decoration: none;
 		}
 
-		a:hover {
-			color: $doteco-citrine;
-		}
-
 		ul {
-			text-align: center;
 			padding: 0;
 			list-style-type: none;
 			margin: 1rem 0;
 		}
 
 		li {
-			margin: 4px 0;
+			line-height: 1.8rem;
 		}
 
 		h4 {
-			margin-bottom: 0.2em;
-			color: $doteco-citrine;
+			margin-bottom: 0.3rem;
 			text-transform: uppercase;
 		}
 
 		.copyright, ul {
 			text-align: left;
+		}
+
+		@media (width >= 768px) {
+			font-size: 80%;
+
+			li {
+				line-height: 1.5rem;
+			}
 		}
 	}
 

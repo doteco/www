@@ -55,12 +55,51 @@ $doteco-fireopal-header: #d6632d;
 $doteco-grey: #C5C5C5;
 $doteco-ruby-dark: #521429;
 
+// Bootstrap theme variables
+$primary: $doteco-ruby;
+$secondary: $doteco-marrow;
+$warning: $doteco-citrine;
+$yellow: $doteco-citrine;
+$body-color: $doteco-charcoal;
+$border-color: $doteco-charcoal;
+$dropdown-bg: $doteco-ruby;
+$dropdown-link-hover-bg: transparent;
+$navbar-light-active-color: $doteco-citrine;
+$navbar-nav-link-padding-x: 1rem;
+$navbar-padding-y: 0;
+
+// $font-size-base: $font-body-size;
+
+.bg-primary {
+	color: white;
+
+	a {
+		color: white;
+	}
+
+	a:hover, a:focus, a:active {
+		color: $doteco-citrine;
+	}
+
+	h1, h2, h3, h4 {
+		color: $doteco-citrine;
+	}
+}
+
+.bg-purple {
+	background-color: $doteco-sapphire;
+	color: white;
+}
+
+// Bootstrap dark theme
+// $body-color-dark: ;
+// $link-color-dark: ;
+
 // Border
 $common-border-radius: 2px;
 
 #doteco {
 	body {
-		color: $doteco-charcoal;
 		font-family: $font-body;
 	}
 
@@ -116,26 +155,22 @@ $common-border-radius: 2px;
 		}
 	}
 
-	body, h4, h5 {
-		line-height: 1.56;
-	}
-
 	.btn-primary {
-		background-color: $doteco-fireopal;
+		// background-color: $doteco-fireopal;
 		border: 0;
-		color: black;
+		// color: black;
 		border-radius: 30px;
 		padding: 0.75em 1.25em;
 		font-size: 16px;
 	}
 
 	.btn-primary:hover {
-		background-color: $doteco-charcoal;
+		// background-color: $doteco-charcoal;
 		color: white;
 	}
 
 	h1, h2, h3, h4, h5 {
-		color: $doteco-sapphire;
+		// color: $doteco-sapphire;
 	}
 
 	h3 {
@@ -143,12 +178,12 @@ $common-border-radius: 2px;
 	}
 
 	a {
-		color: $doteco-ruby;
+		// color: $doteco-ruby;
 	}
 
 	.jumbotron {
 		color: white;
-		background-color: $doteco-charcoal;
+		// background-color: $doteco-charcoal;
 		margin-bottom: 0;
 		padding: 4rem 0;
 
@@ -171,7 +206,7 @@ $common-border-radius: 2px;
 		background-color: $doteco-marrow;
 
 		h1, h2, h3, h4, h5, .subheader, .title {
-			color: $doteco-fireopal-header;
+			// color: $doteco-fireopal-header;
 		}
 	}
 
@@ -181,14 +216,6 @@ $common-border-radius: 2px;
 		max-width: 100%;
 		height: auto;
 		margin-bottom: 4rem;
-	}
-
-	.btn-group {
-		.btn-primary {
-			background-color: transparent;
-			color: inherit;
-			border-color: $doteco-charcoal;
-		}
 	}
 
 	.section {
@@ -205,30 +232,14 @@ $common-border-radius: 2px;
 			box-shadow: none;
 			border: 0;
 			border-radius: 0;
-			border-bottom: 2px solid $doteco-charcoal;
+			border-bottom: 2px solid $border-color;
 			padding: 0;
 			background-color: transparent;
 			height: 2rem;
 		}
 
-		.has-error .form-control {
-			border-color: $doteco-ruby;
-		}
-
-		.has-error .help-block {
-			color: $doteco-ruby;
-		}
-
-		.form-control-feedback {
-			right: 0.5em;
-		}
-
-		.form-control:focus {
-			box-shadow: 0 4px 2px -2px gray;
-		}
-
 		.btn.focus {
-			outline: 5px auto $doteco-fireopal;
+			// outline: 5px auto $doteco-fireopal;
 		}
 
 		.btn.disabled {
