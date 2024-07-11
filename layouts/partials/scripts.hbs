@@ -33,6 +33,29 @@
 		wireEmailObfuscation()
 	})
 </script>
+<script>
+	function getStoredTheme () {
+		return localStorage && localStorage.getItem('theme')
+	}
+	function storeTheme (theme) {
+		localStorage && localStorage.setItem('theme', theme)
+	}
+	function darkToggle (e) {
+		const theme = document.body.dataset.bsTheme === 'dark' ? 'light' : 'dark'
+		document.body.dataset.bsTheme = theme
+		storeTheme(theme)
+	}
+
+	const theme = getStoredTheme()
+	if (theme) {
+		document.body.dataset.bsTheme = theme
+	}
+
+	document.addEventListener('DOMContentLoaded', function () {
+		document.getElementById('dark-toggle').addEventListener('click', darkToggle)
+	})
+</script>
+
 
 {{#if intercomAppID }}
 <script>
