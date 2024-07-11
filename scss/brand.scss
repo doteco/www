@@ -65,6 +65,13 @@ $border-color: $doteco-charcoal;
 $dropdown-bg: $doteco-ruby;
 $dropdown-link-hover-bg: transparent;
 $navbar-light-active-color: $doteco-citrine;
+
+// Bootstrap dark theme variables
+// Bootstrap dark theme
+// $body-color-dark: ;
+$body-secondary-bg-dark: $doteco-charcoal;
+
+// Bootstrap layout overrides
 $navbar-nav-link-padding-x: 1rem;
 $navbar-padding-y: 0;
 
@@ -91,9 +98,13 @@ $navbar-padding-y: 0;
 	color: white;
 }
 
-// Bootstrap dark theme
-// $body-color-dark: ;
-// $link-color-dark: ;
+.bg-yellow {
+	background-color: $doteco-citrine;
+	color: $doteco-charcoal;
+	a {
+		color: $doteco-ruby;
+	}
+}
 
 // Border
 $common-border-radius: 2px;
@@ -203,7 +214,7 @@ $common-border-radius: 2px;
 	}
 
 	.inverted {
-		background-color: $doteco-marrow;
+		background-color: var(--bs-secondary-bg);
 
 		h1, h2, h3, h4, h5, .subheader, .title {
 			// color: $doteco-fireopal-header;

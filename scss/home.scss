@@ -91,9 +91,7 @@
 	}
 
 	.recent {
-		background-color: $doteco-marrow;
 		padding: 2rem 0 1rem;
-		color: $doteco-sapphire;
 	}
 
 	.registered-domains {
@@ -108,22 +106,10 @@
 		font-size: 1rem;
 	}
 
-	.registrar-modal-header {
-		border: none;
-
-		.modal-title {
-			margin: 1rem;
-		}
-	}
-
 	.home-eligibility {
 		h2 {
 			font-size: 1.6rem;
 		}
-	}
-
-	.home-eligibility-question {
-		margin-bottom: 1rem;
 	}
 
 	.home-business {
@@ -265,4 +251,10 @@
 		0% { opacity: 1; }
 		100% { opacity: 0; }
 	}
+}
+
+@include color-mode(dark) {
+  .logos {
+		filter: invert(1);
+  }
 }

@@ -170,4 +170,11 @@
 			flex: 0 0 calc(100% / 4);
 		}
 	}
+
+	@include color-mode(dark) {
+		.profile-tile-details {
+			border: 1px solid $doteco-grey;
+			border-top: none;
+		}
+	}
 }
