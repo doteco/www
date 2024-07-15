@@ -79,12 +79,14 @@ $navbar-padding-y: 0;
 .bg-primary {
 	color: white;
 
-	a {
+	a, button {
 		color: white;
+		fill: white;
 	}
 
-	a:hover, a:focus, a:active {
+	a:hover, a:focus, a:active, button:hover {
 		color: $doteco-citrine;
+		fill: $doteco-citrine;
 	}
 
 	h1, h2, h3, h4 {

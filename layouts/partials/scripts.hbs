@@ -1,6 +1,6 @@
 <script>
 	function forEachNodeList (nodelist, fn) {
-		if (nodelist && nodelist.forEach3) {
+		if (nodelist && nodelist.forEach) {
 			nodelist.forEach(fn)
 		} else {
 			var els = [].slice.call(nodelist, 0)
@@ -40,19 +40,25 @@
 	function storeTheme (theme) {
 		localStorage && localStorage.setItem('theme', theme)
 	}
-	function darkToggle (e) {
-		const theme = document.body.dataset.bsTheme === 'dark' ? 'light' : 'dark'
+	function darkToggle (event) {
+		const theme = event.target.dataset.theme
 		document.body.dataset.bsTheme = theme
+		setThemeIcon(theme)
 		storeTheme(theme)
 	}
-
+	function setThemeIcon (theme) {
+		const selectedIcon = document.getElementById('dark-toggle-icon-selected')
+		selectedIcon.childNodes[0].setAttribute('href', '#' + theme + '-theme-icon')
+	}
 	const theme = getStoredTheme()
 	if (theme) {
 		document.body.dataset.bsTheme = theme
+		setThemeIcon(theme)
 	}
-
 	document.addEventListener('DOMContentLoaded', function () {
-		document.getElementById('dark-toggle').addEventListener('click', darkToggle)
+		forEachNodeList(document.querySelectorAll('.dark-toggle-option'), function (el) {
+			el.addEventListener('click', darkToggle)
+		})
 	})
 </script>
 
