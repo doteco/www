@@ -10,7 +10,6 @@
 			font-size: 22px;
 			font-weight: normal;
 			margin-top: 10px;
-			color: $doteco-charcoal;
 		}
 
 		h3 {
@@ -21,7 +20,6 @@
 		h4 {
 			font-size: 20px;
 			margin-bottom: 0.5rem;
-			color: $doteco-charcoal;
 		}
 
 		p,
@@ -69,7 +67,7 @@
 		}
 
 		thead > tr, tr:nth-of-type(even) {
-			background-color: #f9f9f9;
+			// background-color: var(--bs-secondary-bg);
 		}
 
 		figcaption {
@@ -92,7 +90,6 @@
 
 		.article-pubdate {
 			display: block;
-			color: $doteco-charcoal;
 		}
 
 		.article-avatar {
@@ -139,7 +136,6 @@
 	}
 
 	aside {
-		background-color: $doteco-marrow;
 		border-radius: 4px;
 		padding: 2rem 2rem 0.5rem;
 		margin-bottom: 2rem;

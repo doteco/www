@@ -69,6 +69,7 @@ $navbar-light-active-color: $doteco-citrine;
 
 // Bootstrap dark theme variables
 $body-secondary-bg-dark: $doteco-charcoal;
+$carousel-dark-indicator-active-bg: white;
 
 // Bootstrap layout overrides
 $navbar-nav-link-padding-x: 1rem;
@@ -113,6 +114,10 @@ $navbar-padding-y: 0;
 	a {
 		color: $doteco-ruby;
 	}
+}
+
+.btn.btn-default:hover {
+	background-color: var(--bs-secondary-bg);
 }
 
 // Border
@@ -188,7 +193,6 @@ $common-border-radius: 2px;
 
 	.jumbotron {
 		color: white;
-		// background-color: $doteco-charcoal;
 		margin-bottom: 0;
 		padding: 4rem 0;
 
@@ -209,10 +213,6 @@ $common-border-radius: 2px;
 
 	.inverted {
 		background-color: var(--bs-secondary-bg);
-
-		h1, h2, h3, h4, h5, .subheader, .title {
-			// color: $doteco-fireopal-header;
-		}
 	}
 
 	.img-responsive {
@@ -241,10 +241,6 @@ $common-border-radius: 2px;
 			padding: 0;
 			background-color: transparent;
 			height: 2rem;
-		}
-
-		.btn.focus {
-			// outline: 5px auto $doteco-fireopal;
 		}
 
 		.btn.disabled {

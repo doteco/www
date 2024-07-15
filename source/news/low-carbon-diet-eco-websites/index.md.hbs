@@ -72,7 +72,7 @@ Fortunately, we were in a position to move our infrastructure. This was not an e
 
 Most of this migration happened in mid-2022 and so it did not factor into our 2023 footprint reduction target.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: move infrastructure to a low carbon region
@@ -94,7 +94,7 @@ Another thing worth considering is the efficiency of server hardware. ARM chipse
 
 > As the Sustainable Web Design method is concerned principally with data transfer, any improvements in infrastructure size or efficiency are not directly accounted for in the model. The model does allow for swapping the data center component of the model or [alternately use a different model](https://torchbox.com/blog/announcing-our-digital-emissions-methodologies/).
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: shut down unneeded infrastructure
@@ -113,7 +113,7 @@ Currently, we do use serverless functions and services throughout our systems an
 
 While not typically considered serverless, most of our websites are statically generated. This means that pages are served directly from static file storage via a CDN (Content Delivery Network). There is no underlying content management system or database. Like with serverless, the use of the underlying hardware is spread across many customers and our use is circumscribed to requests for our website assets.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: use serverless instead of virtual machines or containers
@@ -144,7 +144,7 @@ We have found for our websites that WAF bot blocking reduced traffic by **over 5
 
 A cheaper and more basic option is to configure a WAF rule to limit the number of requests from a single IP. This will slow down bots that are trying to probe your site from a few IPs. This will also protect your backend systems from getting overloaded due to some denial of service attacks.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: use a WAF to block bots
@@ -159,7 +159,7 @@ What we didn’t realize until we started digging is that these health checks we
 
 ![Line graph showing drop in request volume after reducing health check frequency](/img/news/probe-reduced-requests.webp)
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: review the frequency of health checks and probes
@@ -178,7 +178,7 @@ If you’re using a CDN, cache headers can also be used to reduce the number of 
 
 Even API calls can be cached. We added short-lived cache headers to a number of our API calls. Often the same API endpoint can be called multiple times as a user navigates the website. As long as the responses of those APIs don’t change frequently or meaningfully, the responses can be safely cached.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: verify that cache headers are broadly used, including for APIs
@@ -197,7 +197,7 @@ The overhead of each request is mitigated by using HTTP/2 which multiplexes mult
 
 Each request to a different origin does require establishing a distinct HTTP connection. So it can be beneficial to reduce the number of different domains that you need to connect to to render your website. We did some work to eliminate or consolidate origins to reduce them to a minimum.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: all requests should use HTTP/2 and minize origins used
@@ -231,7 +231,7 @@ For our websites, we swapped PNG logos or icons with SVGs wherever possible. We 
 
 We used a library called [sharp](https://sharp.pixelplumbing.com/) to help automated image conversion and compression. Automating this process makes it considerably easy to maintain.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: use modern image formats (.svg, .webp)
@@ -250,7 +250,7 @@ Even SVGs can be compressed by stripping out whitespace and unnecessary declarat
 
 To help guide this optimization work, we set a target maximum image size of 60kb or less. Having a heuristic to follow made it easier to determine when the optimization was good enough.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: compress all images and set a maximum image size threshold under 100kb
@@ -268,7 +268,7 @@ We came to the realization that most images on our site are for visual interest,
 
 Note that it's best to ensure that images are resized appropriately before they are compressed to obtain the best compression results with the least degradation in quality.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: ensure images are sized appropriately for where they are displayed
@@ -283,7 +283,7 @@ By default, the browser will attempt to download any image on the page. This beh
 
 Unfortunately, this only works for images loaded via the <code>img</code> element. If the image is loaded via CSS, it will be loaded automatically. One way around this is to migrate images from stylesheets into the HTML. This may require reworking the HTML somewhat as the behavior of background images is a bit different from inline images. There are also [Javascript libraries](https://web.dev/articles/lazy-loading-images) that support lazily loading background images.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: lazy load all images below the fold
@@ -304,7 +304,7 @@ It can be tricky to identify what Javascript is unused and even harder to strip 
 
 One thing that we have done is move to smaller Javascript packages for our custom JS code on some sites by only loading what is required for a specific page. This is in contrast to previous best practice that recommended initially downloading all the scripts required by the site so that they could be cached and wouldn't need to be redownloaded. However, this made the initial site visit slow and meant that larger bundle would need to be re-interpreted for every page visit, regardless of whether the functionality was needed or not.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: eliminate unused javascript
@@ -321,7 +321,7 @@ Like with Javascript, most websites use CSS frameworks that end up including mor
 
 Newer CSS frameworks, like [Tailwind CSS](https://tailwindcss.com/) makes this much easier; but switching CSS frameworks for a medium-sized site is a lot of work. Experimenting switching from Bootstrap to a lightweight CSS framework is on our to do list.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: eliminate unused CSS
@@ -340,7 +340,7 @@ An even better option is to minimize the use of web fonts. There is already a gr
 
 We have moved to self-hosting our web fonts and reduced the number of fonts we're using. We are experimenting with using system fonts for our sites.
 
-<aside>
+<aside class="inverted">
 
 #### Summary
 - Action: minimize web fonts and prefer system fonts for body copy

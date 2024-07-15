@@ -37,20 +37,6 @@
 		border-radius: 4px;
 	}
 
-	.policy-panel:hover {
-		background-color: #e6e6e6;
-	}
-
-	.button-panel {
-		a {
-			color: $doteco-sapphire;
-		}
-	}
-
-	.policies-activate h4 {
-		color: black;
-	}
-
 	.criteria {
 		padding: 0 4em;
 		margin-top: 1em;
@@ -111,16 +97,18 @@
 			padding: 1rem;
 		}
 
-		thead > tr, tr:nth-of-type(even) {
-			background-color: #f9f9f9;
-		}
-
 		ol, ul, blockquote, table {
 			margin-bottom: 2.8rem;
 		}
 
 		ol > li > ol {
 			margin-bottom: 0;
+		}
+	}
+
+	@include color-mode(dark) {
+		.file-icon {
+			filter: invert(1);
 		}
 	}
 }
