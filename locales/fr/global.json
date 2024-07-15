@@ -50,6 +50,10 @@
   "bcorp": {
     "logo": "French-Certifee-B-Logo-White-RGB.svg"
   },
+  "themes": {
+    "dark": "sombre",
+    "light": "lumineux"
+  },
   "profile-types": {
     "business": "Entreprise",
     "nonprofit": "Organisation",

@@ -50,6 +50,10 @@
     "cta": "Suche",
     "head": "Finden Sie Ihren perfekten .eco-Namen"
   },
+  "themes": {
+    "dark": "Dunkel",
+    "light": "Helles"
+  },
   "profile-types": {
     "business": "Geschäft",
     "nonprofit": "Gemeinnützig",

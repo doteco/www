@@ -22,6 +22,10 @@
     "news": "News",
     "champions": ".eco Champions"
   },
+  "themes": {
+    "dark": "Dark",
+    "light": "Light"
+  },
   "footer": [
     {
       "head": "Help",
