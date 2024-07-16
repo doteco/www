@@ -93,5 +93,19 @@
 		ol > li > ol {
 			margin-bottom: 0;
 		}
+
+		table {
+			@extend .table;
+			@extend .table-striped;
+			@extend .table-bordered;
+		}
+
+		@media (width >= 768px) {
+			table {
+				td, th {
+					padding: 1rem;
+				}
+			}
+		}
 	}
 }
