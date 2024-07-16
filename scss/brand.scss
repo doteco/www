@@ -66,6 +66,7 @@ $border-color: $doteco-charcoal;
 $dropdown-bg: $doteco-ruby;
 $dropdown-link-hover-bg: transparent;
 $navbar-light-active-color: $doteco-citrine;
+$table-border-color: #DDD;
 
 // Bootstrap dark theme variables
 $body-secondary-bg-dark: $doteco-charcoal;
@@ -255,5 +256,11 @@ $common-border-radius: 2px;
 	.hreflang {
     vertical-align: super;
     font-size: 70%;
+	}
+
+	@media (width >= 768px) {
+		td, th {
+			padding: 1rem;
+		}
 	}
 }

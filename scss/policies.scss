@@ -83,18 +83,7 @@
 		}
 
 		table {
-			width: 100%;
-			vertical-align: top;
 			font-size: 1rem;
-		}
-
-		th {
-			text-align: center;
-		}
-
-		td, th {
-			border: 1px solid #ddd;
-			padding: 1rem;
 		}
 
 		ol, ul, blockquote, table {
@@ -103,12 +92,6 @@
 
 		ol > li > ol {
 			margin-bottom: 0;
-		}
-	}
-
-	@include color-mode(dark) {
-		.file-icon {
-			filter: invert(1);
 		}
 	}
 }

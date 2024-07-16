@@ -53,21 +53,17 @@
 		}
 
 		table {
-			width: 100%;
-			vertical-align: top;
+			@extend .table;
+			@extend .table-striped;
+			@extend .table-bordered;
 		}
 
-		th {
-			text-align: center;
-		}
-
-		td, th {
-			border: 1px solid #ddd;
-			padding: 1rem;
-		}
-
-		thead > tr, tr:nth-of-type(even) {
-			// background-color: var(--bs-secondary-bg);
+		@media (width >= 768px) {
+			table {
+				td, th {
+					padding: 1rem;
+				}
+			}
 		}
 
 		figcaption {

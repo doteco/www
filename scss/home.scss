@@ -252,9 +252,3 @@
 		100% { opacity: 0; }
 	}
 }
-
-@include color-mode(dark) {
-  .logos {
-		filter: invert(1);
-  }
-}

@@ -37,3 +37,9 @@ $link-color-dark: tint-color($primary, 60%);
 @import "../node_modules/bootstrap/scss/forms";
 @import "../node_modules/bootstrap/scss/carousel";
 @import "../node_modules/bootstrap/scss/tables";
+
+@include color-mode(dark) {
+  .invert-icon {
+    filter: invert(1);
+  }
+}
