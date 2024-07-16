@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><defs><style>.cls-1{fill:none;stroke:#454a73;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>2</title><g id="Layer_16" data-name="Layer 16"><path class="cls-1" d="M226.07,206h-158a79,79,0,1,1,158,0Z"/><line class="cls-1" x1="23" y1="206" x2="270" y2="206"/><line class="cls-1" x1="248.03" y1="185.58" x2="268.11" y2="183.56"/><line class="cls-1" x1="230.52" y1="143.16" x2="246.35" y2="130.63"/><line class="cls-1" x1="190.69" y1="111.58" x2="202.05" y2="94.9"/><line class="cls-1" x1="144.95" y1="101.18" x2="144.95" y2="81"/><line class="cls-1" x1="42.5" y1="184.65" x2="22.42" y2="182.62"/><line class="cls-1" x1="60" y1="142.22" x2="44.18" y2="129.7"/><line class="cls-1" x1="99.84" y1="110.65" x2="88.48" y2="93.97"/><line class="cls-1" x1="69" y1="234" x2="224" y2="234"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" stroke="#403B3E">
+  <defs>
+    <style>
+      .cls-1{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style>
+  </defs>
+  <title>2</title>
+  <g id="Layer_16" data-name="Layer 16">
+    <path class="cls-1" d="M226.07,206h-158a79,79,0,1,1,158,0Z" />
+    <line class="cls-1" x1="23" y1="206" x2="270" y2="206" />
+    <line class="cls-1" x1="248.03" y1="185.58" x2="268.11" y2="183.56" />
+    <line class="cls-1" x1="230.52" y1="143.16" x2="246.35" y2="130.63" />
+    <line class="cls-1" x1="190.69" y1="111.58" x2="202.05" y2="94.9" />
+    <line class="cls-1" x1="144.95" y1="101.18" x2="144.95" y2="81" />
+    <line class="cls-1" x1="42.5" y1="184.65" x2="22.42" y2="182.62" />
+    <line class="cls-1" x1="60" y1="142.22" x2="44.18" y2="129.7" />
+    <line class="cls-1" x1="99.84" y1="110.65" x2="88.48" y2="93.97" />
+    <line class="cls-1" x1="69" y1="234" x2="224" y2="234" />
+  </g>
+</svg>
