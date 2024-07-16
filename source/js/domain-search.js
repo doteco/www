@@ -163,6 +163,8 @@ window.domainSearch = function (config) {
       resultLabel = config.resultLabels.available
     } else if (r.summary === 'reserved') {
       resultLabel = config.resultLabels.reserved
+    } else if (r.summary === 'undelegated') {
+      resultLabel = config.resultLabels.error
     }
     return resultLabel.replace(/{searchDomain}/g, searchDomain)
   }
