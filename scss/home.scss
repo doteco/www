@@ -29,7 +29,7 @@
 		}
 
 		.carousel-item {
-			height: 350px;
+			height: 400px;
 			background-size: cover;
 		}
 
@@ -80,10 +80,6 @@
 		}
 
 		@media (width >= 768px) {
-			.carousel-item {
-				height: 400px;
-			}
-
 			.container {
 				margin-top: 10rem;
 			}

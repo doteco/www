@@ -8,7 +8,7 @@
       "subhead": "qui aident les gens à faire de meilleurs choix chaque jour"
     },
     "gov": {
-      "head": ".eco est destiné aux gouvernements et aux organisations à but non lucratif",
+      "head": ".eco est destiné aux organisations à but non lucratif",
       "subhead": "qui encouragent un changement environnemental positif"
     },
     "people": {
@@ -36,7 +36,7 @@
     "head": "Récemment inscrit&nbsp;:"
   },
   "eligibility": {
-    "head": "Puis-je obtenir un nom .eco&nbsp;?",
+    "head": "Puis-je obtenir un .eco&nbsp;?",
     "text": [
       "<p><strong>Oui, vous pouvez !</strong> Si vous vous souciez de la planète, adopter un nom de domaine .eco est un excellent moyen de le montrer. Vous pouvez obtenir un nom de domaine .eco pour votre entreprise, votre organisation à but non lucratif ou pour vous-même.</p>",
       "<p>Pour être éligible à l'utilisation d'un domaine .eco, vous devez&nbsp;:</p>",
@@ -48,7 +48,7 @@
     ]
   },
   "purchase": {
-    "head": "Comment obtenir mon nom .eco&nbsp;?",
+    "head": "Comment obtenir mon .eco&nbsp;?",
     "text": [
       "<p>Obtenez votre nom de domaine .eco en 4 étapes simples&nbsp;:</p>",
       "<ol>",
