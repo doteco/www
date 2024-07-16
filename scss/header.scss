@@ -2,6 +2,10 @@
 	.navbar {
 		border-bottom: 1px white solid;
 
+		.navbar-nav {
+			margin-top: 1rem;
+		}
+
 		li {
 			text-align: center;
 		}
@@ -46,6 +50,10 @@
 			.nav {
 				justify-content: flex-end;
 				width: 100%;
+			}
+
+			.navbar-nav {
+				margin-top: 0;
 			}
 
 			.nav-link {

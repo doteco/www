@@ -117,6 +117,16 @@ $navbar-padding-y: 0;
 	}
 }
 
+.bg-light {
+	color: $doteco-charcoal;
+	h1, h2, h3 {
+		color: $doteco-charcoal;
+	}
+	a {
+		color: $doteco-ruby;
+	}
+}
+
 .btn.btn-default:hover {
 	background-color: var(--bs-secondary-bg);
 }
