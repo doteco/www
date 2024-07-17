@@ -35,7 +35,11 @@
 </script>
 <script>
 	function getStoredTheme () {
-		return localStorage && localStorage.getItem('theme')
+		let theme = localStorage && localStorage.getItem('theme')
+		if (!theme) {
+			theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+		}
+		return theme
 	}
 	function storeTheme (theme) {
 		localStorage && localStorage.setItem('theme', theme)
