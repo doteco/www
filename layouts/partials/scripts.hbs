@@ -45,6 +45,7 @@
 		document.body.dataset.bsTheme = theme
 		setThemeIcon(theme)
 		storeTheme(theme)
+		trackEvent('theme_' + theme)
 	}
 	function setThemeIcon (theme) {
 		const selectedIcon = document.getElementById('dark-toggle-icon-selected')
