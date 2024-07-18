@@ -148,8 +148,6 @@ faq: true
 	</div>
 </div>
 <script>
-	var registeredDomains = document.getElementById('registered-domains')
-
 	var fadeIn = function (elem, timing, delta, cb) {
 		elem.classList.remove('domains-fade-out')
 		elem.classList.add('domains-fade-in')
@@ -163,6 +161,7 @@ faq: true
 	var showRecent = function (domains, count) {
 		var html = ''
 		var length = 0
+		var registeredDomains = document.getElementById('registered-domains')
 		var maxWidth = registeredDomains.parentElement.clientWidth / 10
 
 		while (length < maxWidth) {
@@ -188,27 +187,29 @@ faq: true
 		}, 5000)
 	}
 
-	if (window.fetch) {
-		window.fetch('{{profiles}}/_api/domains/recent?count=50', {
-			credentials: 'omit',
-			headers: {
-				Accept: 'application/json'
-			}
-		}).then(function (response) {
-			if (!response.ok) {
-				throw new Error('Failure fetching recent domains: ' + response.status)
-			}
-			return response.json()
-		}).then(function (domains) {
-			return showRecent(domains, 0)
-		}).catch(function (err) {
-			console.error('Unable to fetch recent domains.', err)
-			if (err.name !== 'TypeError') { // ignore network errors
-				window.Sentry && window.Sentry.captureException(err)
-			}
-		})
-	} else {
-		document.querySelector('.section.recent').style.display = 'none'
-	}
+	document.addEventListener('DOMContentLoaded', function () {
+		if (window.fetch) {
+			window.fetch('{{profiles}}/_api/domains/recent?count=50', {
+				credentials: 'omit',
+				headers: {
+					Accept: 'application/json'
+				}
+			}).then(function (response) {
+				if (!response.ok) {
+					throw new Error('Failure fetching recent domains: ' + response.status)
+				}
+				return response.json()
+			}).then(function (domains) {
+				return showRecent(domains, 0)
+			}).catch(function (err) {
+				console.error('Unable to fetch recent domains.', err)
+				if (err.name !== 'TypeError') { // ignore network errors
+					window.Sentry && window.Sentry.captureException(err)
+				}
+			})
+		} else {
+			document.querySelector('.section.recent').style.display = 'none'
+		}
+	})
 </script>
 
