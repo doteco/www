@@ -105,13 +105,14 @@ $navbar-padding-y: 0;
 	}
 
 	.btn:hover {
-		background-color: darken($doteco-citrine, 15%);
+		background-color: color.adjust($doteco-citrine, $lightness: -15%);
 	}
 }
 
 .bg-yellow {
 	background-color: $doteco-citrine;
 	color: $doteco-charcoal;
+
 	a {
 		color: $doteco-ruby;
 	}
@@ -119,9 +120,11 @@ $navbar-padding-y: 0;
 
 .bg-light {
 	color: $doteco-charcoal;
+
 	h1, h2, h3, input {
 		color: $doteco-charcoal;
 	}
+
 	a {
 		color: $doteco-ruby;
 	}

@@ -82,10 +82,6 @@
 			margin-top: 1rem;
 		}
 
-		table {
-			font-size: 1rem;
-		}
-
 		ol, ul, blockquote, table {
 			margin-bottom: 2.8rem;
 		}
@@ -98,6 +94,8 @@
 			@extend .table;
 			@extend .table-striped;
 			@extend .table-bordered;
+
+			font-size: 1rem;
 		}
 
 		@media (width >= 768px) {
