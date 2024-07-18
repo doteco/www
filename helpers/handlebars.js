@@ -60,15 +60,15 @@ Handlebars.registerHelper('uriencode', function (uri) {
 Handlebars.registerHelper('typeIcon', function (typeStr) {
   switch (typeStr) {
     case 'nonprofit':
-      return 'nonprofit.svg'
+      return 'eligibility-not-for-profit.svg'
     case 'individual':
-      return 'individual.svg'
+      return 'eligibility-people-1.svg'
     case 'government':
-      return 'government.svg'
+      return 'government-2-12.svg'
     case 'educational':
-      return 'educational.svg'
+      return 'education.svg'
     default:
-      return 'business.svg'
+      return 'eligibility-businesses.svg'
   }
 })
 
