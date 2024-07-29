@@ -19,7 +19,8 @@
   },
   "header": {
     "search": "Obtenez votre .eco",
-    "champions": "Champions .eco"
+    "champions": "Champions .eco",
+    "nav": "Entête de navigation"
   },
   "footer": [
     {
@@ -52,7 +53,8 @@
   },
   "themes": {
     "dark": "sombre",
-    "light": "lumineux"
+    "light": "lumineux",
+    "toggle": "bascule de thème"
   },
   "profile-types": {
     "business": "Entreprise",

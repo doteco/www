@@ -33,7 +33,8 @@
   },
   "header": {
     "search": "Holen Sie Ihren .eco-Domainnamen",
-    "champions": ".eco-Champions"
+    "champions": ".eco-Champions",
+    "nav": "Header Navigation"
   },
   "keywords": "Domains, Register, Top-Level-Domain, TLD, ECO,.eco, Umweltaktion, Nachhaltigkeit, NRO",
   "members": {
@@ -52,7 +53,8 @@
   },
   "themes": {
     "dark": "Dunkel",
-    "light": "Helles"
+    "light": "Helles",
+    "toggle": "Thema umschalten"
   },
   "profile-types": {
     "business": "Geschäft",

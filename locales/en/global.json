@@ -20,11 +20,13 @@
   "header": {
     "search": "Get your .eco",
     "news": "News",
-    "champions": ".eco Champions"
+    "champions": ".eco Champions",
+    "nav": "Header navigation"
   },
   "themes": {
     "dark": "Dark",
-    "light": "Light"
+    "light": "Light",
+    "toggle": "Theme toggle"
   },
   "footer": [
     {
