@@ -236,6 +236,10 @@
 	.domains-fade-out {
 		animation: fade-out 0.5s;
 		animation-fill-mode: forwards;
+
+		&:hover {
+			animation-play-state: paused;
+		}
 	}
 
 	@keyframes fade-in {

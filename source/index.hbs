@@ -163,9 +163,10 @@ faq: true
 		var length = 0
 		var registeredDomains = document.getElementById('registered-domains')
 		var maxWidth = registeredDomains.parentElement.clientWidth / 10
+		var pause = false
 
-		while (length < maxWidth) {
-			var idx = (count + 1) % domains.length
+		while (length < maxWidth && count < domains.length) {
+			var idx = count
 			length += domains[idx].length + 3
 
 			if (length < maxWidth || html.length === 0) {
@@ -173,23 +174,29 @@ faq: true
 					html += ' &#8226; '
 				}
 				html += '<a href="https://profiles.eco/' + domains[idx] + '" class="registered-domain">' + domains[idx] + '</a>'
-				count = idx
+				count = idx + 1
+				if (count === domains.length) {
+					pause = true
+					count = 0
+				}
 			}
 		}
 
 		registeredDomains.innerHTML = html
 		fadeIn(registeredDomains)
-		setTimeout(function () {
-			fadeOut(registeredDomains)
-		}, 4500)
-		setTimeout(function () {
-			showRecent(domains, count)
-		}, 5000)
+		if (!pause && !document.hidden) {
+			setTimeout(function () {
+				fadeOut(registeredDomains)
+			}, 4500)
+			setTimeout(function () {
+				showRecent(domains, count)
+			}, 5000)
+		}
 	}
 
 	document.addEventListener('DOMContentLoaded', function () {
 		if (window.fetch) {
-			window.fetch('{{profiles}}/_api/domains/recent?count=50', {
+			window.fetch('{{profiles}}/_api/domains/recent?count=20', {
 				credentials: 'omit',
 				headers: {
 					Accept: 'application/json'
