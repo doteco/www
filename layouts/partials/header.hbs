@@ -27,15 +27,15 @@
 						<a href="#" class="nav-link dropdown-toggle language-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{lookup languages lang}} <span class="caret"></span></a>
 						<ul class="dropdown-menu dropdown-menu-end">
 							{{#each languages as |l|}}
-							<li><a href="{{lookup ../sites @key}}" class="dropdown-item dropdown-link" lang="{{@key}}">{{l}}</a></li>
+							<li><a href="{{lookup ../sites @key}}" class="dropdown-item" lang="{{@key}}">{{l}}</a></li>
 							{{/each}}
 						</ul>
 					</li>
-					<li class="nav-item dropdown">
+					<li class="nav-item dropdown ">
 						<button class="nav-link dropdown-toggle mx-auto" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="{{t 'global:themes.toggle' }}"><svg id="dark-toggle-icon-selected" class="dark-toggle-icon"><use href="#light-theme-icon"></use></svg> <span class="caret"></span></button>
 						<ul class="dropdown-menu dropdown-menu-end">
-							<li><button class="dropdown-item dropdown-link dark-toggle-option" data-theme="dark"><svg class="dark-toggle-icon"><use href="#dark-theme-icon"></use></svg>&nbsp;{{t 'global:themes.dark' }}</button></li>
-							<li><button class="dropdown-item dropdown-link dark-toggle-option" data-theme="light"><svg class="dark-toggle-icon"><use href="#light-theme-icon"></use></svg>&nbsp;{{t 'global:themes.light' }}</button></li>
+							<li><button class="dropdown-item dark-toggle-option" data-theme="dark"><svg class="dark-toggle-icon"><use href="#dark-theme-icon"></use></svg>&nbsp;{{t 'global:themes.dark' }}</button></li>
+							<li><button class="dropdown-item dark-toggle-option" data-theme="light"><svg class="dark-toggle-icon"><use href="#light-theme-icon"></use></svg>&nbsp;{{t 'global:themes.light' }}</button></li>
 						</ul>
 					</li>
 				</ul>
