@@ -10,7 +10,7 @@
     "@metalsmith/layouts": "2.7.0",
     "@metalsmith/rss": "github:doteco/rss",
     "@metalsmith/sass": "1.10.0",
-    "autoprefixer": "10.4.19",
+    "autoprefixer": "10.4.20",
     "browser-sync": "3.0.2",
     "date-fns": "3.6.0",
     "googleapis": "140.0.1",
@@ -33,7 +33,7 @@
     "metalsmith-watch": "github:doteco/metalsmith-watch",
     "sharp": "0.33.4",
     "standard": "17.1.0",
-    "stylelint": "16.7.0",
+    "stylelint": "16.8.1",
     "stylelint-config-standard": "36.0.1",
     "stylelint-config-standard-scss": "13.1.0",
     "svgo": "3.3.2"
