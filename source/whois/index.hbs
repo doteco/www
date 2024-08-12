@@ -40,6 +40,11 @@ exclude: true
 function whois () {
   const domainInput = document.querySelector('.domain-search')
   let domain = domainInput.value
+  if (!domain) {
+    document.querySelector('.whois-results').innerHTML = 'Please enter a .eco domain to look up.'
+    return
+  }
+
   domain = domain.replace(/[\s;<>"'\/=()]/g, '').replace(/\..*$/, '')
   domain += '.eco'
   domainInput.value = domain
@@ -50,7 +55,9 @@ function whois () {
     window.history.pushState({}, '', url)
   }
 
-  window.fetch('{{ searchUrl }}/whois?domain=' + domain).then((response) => response.text()).then(function (results) {
+  const url = new URL('{{ searchUrl }}/whois')
+  url.searchParams.set('domain', domain)
+  window.fetch(url).then((response) => response.text()).then(function (results) {
     document.querySelector('.whois-results').innerText = results.replace(/"/g, '').replace(/\\r\\n/g, '\r\n').replace(/\\n/g, '\n')
   }).catch(handleSearchError)
   trackEvent('whois')

@@ -170,12 +170,12 @@ window.domainSearch = function (config) {
   }
 
   function fetchSearchResults (domain, engine) {
-    let searchUrl = config.searchUrl + '/status?'
+    const searchUrl = new URL('status', config.searchUrl)
     if (engine) {
-      searchUrl += 'engine=' + encodeURIComponent(engine)
+      searchParams.set('engine', engine)
     }
     if (domain) {
-      searchUrl += 'domain=' + encodeURIComponent(domain)
+      searchParams.set('domain', domain)
     }
     return window.fetch(searchUrl)
   }

@@ -45,7 +45,7 @@
 		localStorage && localStorage.setItem('theme', theme)
 	}
 	function darkToggle (event) {
-		const theme = event.target.dataset.theme
+		const theme = event.target.dataset.theme || 'light'
 		document.body.dataset.bsTheme = theme
 		setThemeIcon(theme)
 		storeTheme(theme)
