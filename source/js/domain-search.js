@@ -172,10 +172,10 @@ window.domainSearch = function (config) {
   function fetchSearchResults (domain, engine) {
     const searchUrl = new URL('status', config.searchUrl)
     if (engine) {
-      searchParams.set('engine', engine)
+      searchUrl.searchParams.set('engine', engine)
     }
     if (domain) {
-      searchParams.set('domain', domain)
+      searchUrl.searchParams.set('domain', domain)
     }
     return window.fetch(searchUrl)
   }
