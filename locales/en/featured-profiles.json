@@ -257,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/arbor/",
     "location": "Canada",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "sustainableagriculture.eco",
@@ -267,7 +267,7 @@
     "sector": "Nonprofit",
     "link": "https://profiles.eco/sustainableagriculture.eco",
     "location": "Costa Rica",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "skoot.eco",
@@ -277,16 +277,26 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/skoot/",
     "location": "United Kingdom",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "abs.eco",
-    "story": "<a href=\"https://abs.eco/\">ABS</a> makes products using natural microorganisms to replace harmful chemicals in waste treatment and pollution remediation",
+    "story": "<a href=\"https://abs.eco/\">ABS</a> makes products using natural microorganisms to replace harmful chemicals in waste treatment and pollution remediation.",
     "img": "/img/champion_logos/abs2.webp",
     "type": "business",
     "sector": "",
     "link": "/champions/abs/",
     "location": "United Kingdom",
+    "priority": "2"
+  },
+  {
+    "domain": "sportainable.eco",
+    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> is a think tank that is rethinking sport to be resource-efficient, low-emission, nature-friendly and socially responsible.",
+    "img": "/img/champion_logos/sportainable-football2.webp",
+    "type": "nonprofit",
+    "sector": "",
+    "link": "/champions/sportainable/",
+    "location": "Germany",
     "priority": "1"
   }
 ]

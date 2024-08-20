@@ -11,7 +11,7 @@
   },
   {
     "domain": "current.eco",
-    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution complète tout-en-un destinée aux entreprises souhaitant gérer leur infrastructure de recharge de véhicules électriques.",
+    "story": "<a href=\"https://current.eco/\">CURRENT</a> est une solution complète tout-en-un pour les entreprises souhaitant gérer leur infrastructure de recharge de véhicules électriques.",
     "img": "/img/champion_logos/current.webp",
     "type": "business",
     "sector": "Transportation",
@@ -21,7 +21,7 @@
   },
   {
     "domain": "preserve.eco",
-    "story": "<a href=\"https://preserve.eco\">Preserve</a>&nbsp;, une société certifiée B Corporation, fabrique des produits élégants et respectueux de l&#39;environnement pour la maison, notamment de la vaisselle réutilisable, du stockage des aliments et des produits de soins personnels, en utilisant du plastique 100 % recyclé.",
+    "story": "<a href=\"https://preserve.eco\">Preserve</a>&nbsp;, une entreprise certifiée B Corporation, fabrique des produits élégants et écologiques pour la maison, notamment de la vaisselle réutilisable, des produits de conservation des aliments et des produits de soins personnels, en utilisant du plastique 100 % recyclé.",
     "img": "/img/champion_logos/preserve.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -31,7 +31,7 @@
   },
   {
     "domain": "leap.eco",
-    "story": "<a href=\"https://leap.eco\">Leap</a> est un studio de design qui croit en la conception avec un but et en la création d&#39;un travail qui compte. En tant que B Corp, ils créent des solutions responsables qui dépassent les normes du triple résultat.",
+    "story": "<a href=\"https://leap.eco\">Leap</a> est un studio de design qui croit en la conception avec un objectif et en la création d&#39;un travail qui compte. En tant que B Corp, ils créent des solutions responsables qui dépassent les normes de triple résultat.",
     "img": "/img/champion_logos/leap.webp",
     "type": "business",
     "sector": "Consulting and agencies",
@@ -51,7 +51,7 @@
   },
   {
     "domain": "bleu.eco",
-    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et des lits écologiques à partir de matériaux naturels à des prix raisonnables. 3 arbres sont plantés pour chaque matelas vendu.",
+    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et lits écologiques utilisant des matériaux naturels à des prix raisonnables. 3 arbres sont plantés pour chaque matelas vendu.",
     "img": "/img/champion_logos/bleu.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -61,7 +61,7 @@
   },
   {
     "domain": "ecofario.eco",
-    "story": "Les microplastiques polluent nos cours d’eau, nos lacs et nos océans. <a href=\"https://ecofario.eco/\">ECOFARIO</a> a développé un nouveau procédé permettant de réduire considérablement les particules microplastiques rejetées dans l&#39;environnement.",
+    "story": "Les microplastiques polluent nos cours d’eau, nos lacs et nos océans. <a href=\"https://ecofario.eco/\">ECOFARIO</a> a développé un nouveau procédé pour réduire considérablement les particules de microplastiques rejetées dans l’environnement.",
     "img": "/img/champion_logos/ecofario.webp",
     "type": "business",
     "sector": "Industrial",
@@ -71,7 +71,7 @@
   },
   {
     "domain": "goodonyou.eco",
-    "story": "Les choix d’achat ont un impact considérable sur la manière dont les entreprises traitent les personnes, la planète et les animaux. L&#39;application <a href=\"https://goodonyou.eco/\">Good On You</a> vous permet d&#39;acheter facilement vos valeurs.",
+    "story": "Les choix d&#39;achat ont un impact considérable sur la manière dont les entreprises traitent les personnes, la planète et les animaux. L&#39;application <a href=\"https://goodonyou.eco/\">Good On You</a> vous permet de faire vos achats en fonction de vos valeurs.",
     "img": "/img/champion_logos/goodonyou.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -91,7 +91,7 @@
   },
   {
     "domain": "bumboo.eco",
-    "story": "<a href=\"https://bumboo.eco\">Bumboo</a> fournit du papier toilette durable 100 % bambou et plante un arbre pour chaque boîte vendue.",
+    "story": "<a href=\"https://bumboo.eco\">Bumboo</a> fournit du papier toilette durable, 100 % bambou, et plante un arbre pour chaque boîte vendue.",
     "img": "/img/champion_logos/bumboo.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -101,7 +101,7 @@
   },
   {
     "domain": "boox.eco",
-    "story": "<a href=\"https://boox.eco\">Boox</a> est une B-corp certifiée qui fabrique des emballages réutilisables. Grâce à Boox, vous pouvez facilement retourner l&#39;emballage contenant votre commande pour qu&#39;il soit réutilisé.",
+    "story": "<a href=\"https://boox.eco\">Boox</a> est une entreprise certifiée B-corp qui fabrique des emballages réutilisables. Grâce à Boox, vous pouvez facilement retourner l&#39;emballage contenant votre commande pour qu&#39;il soit réutilisé.",
     "img": "/img/champion_logos/boox.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -111,7 +111,7 @@
   },
   {
     "domain": "nuvola.eco",
-    "story": "<a href=\"https://nuvola.eco\">Nuvola</a> est un guichet unique pour acheter des produits de beauté et de soins de la peau zéro déchet, durables, végétaliens et sans cruauté envers les animaux.",
+    "story": "<a href=\"https://nuvola.eco\">Nuvola</a> est un guichet unique pour l&#39;achat de produits de beauté et de soins de la peau zéro déchet, durables, végétaliens et sans cruauté.",
     "img": "/img/champion_logos/nuvola.webp",
     "type": "business",
     "sector": "Health & Beauty",
@@ -121,7 +121,7 @@
   },
   {
     "domain": "brightly.eco",
-    "story": "<a href=\"https://brightly.eco\">Brightly</a> est la destination n°1 pour découvrir de nouvelles marques et produits respectueux de l&#39;environnement. Brightly inspire actuellement des millions d&#39;utilisateurs chaque jour à adopter un mode de vie durable.",
+    "story": "<a href=\"https://brightly.eco\">Brightly</a> est la destination n°1 pour découvrir de nouvelles marques et de nouveaux produits respectueux de l&#39;environnement. Brightly inspire chaque jour des millions d&#39;utilisateurs à adopter un mode de vie durable.",
     "img": "/img/champion_logos/brightly.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -131,7 +131,7 @@
   },
   {
     "domain": "kusala.eco",
-    "story": "<a href=\"https://kusala.eco\">Kusala</a> produit du savon artisanal au bon karma conçu pour une économie circulaire.",
+    "story": "<a href=\"https://kusala.eco\">Kusala</a> produit du savon artisanal avec un bon karma conçu pour une économie circulaire.",
     "img": "/img/champion_logos/kusala.webp",
     "type": "business",
     "sector": "Health & Beauty",
@@ -141,7 +141,7 @@
   },
   {
     "domain": "ducky.eco",
-    "story": "<a href=\"https://ducky.eco\">Ducky</a> développe des outils numériques pour aider les personnes et les organisations à modifier leurs comportements et à réduire leur empreinte carbone.",
+    "story": "<a href=\"https://ducky.eco\">Ducky</a> développe des outils numériques pour aider les personnes et les organisations à changer leurs comportements et à réduire leur empreinte carbone.",
     "img": "/img/champion_logos/ducky.webp",
     "type": "business",
     "sector": "Digital agencies & software",
@@ -151,7 +151,7 @@
   },
   {
     "domain": "carboncopy.eco",
-    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> est une organisation caritative britannique qui inspire une action climatique locale ambitieuse pour accélérer nos progrès vers un avenir plus juste et zéro carbone.",
+    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> est une organisation caritative britannique qui encourage une action climatique locale de grande envergure pour accélérer nos progrès vers un avenir plus juste et zéro carbone.",
     "img": "/img/champion_logos/carboncopy-hero.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -161,7 +161,7 @@
   },
   {
     "domain": "dragonfly.eco",
-    "story": "<a href=\"https://dragonfly.eco\">Dragonfly.eco</a> catalogue et organise des écofictions qui explorent des thèmes environnementaux.",
+    "story": "<a href=\"https://dragonfly.eco\">Dragonfly.eco</a> répertorie et organise des éco-fictions qui explorent les thèmes environnementaux.",
     "img": "/img/champion_logos/dragonfly-eco.webp",
     "type": "individual",
     "sector": "Individual",
@@ -181,7 +181,7 @@
   },
   {
     "domain": "terrabyte.eco",
-    "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> est une entreprise de technologie verte qui s&#39;efforce de combiner créativité et technologie pour fournir des solutions aux crises environnementales actuelles.",
+    "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> est une entreprise de technologie verte qui s&#39;efforce de combiner créativité et technologie pour apporter des solutions aux crises environnementales actuelles.",
     "img": "/img/champion_logos/terrabyte.webp",
     "type": "business",
     "sector": "Digital agencies & software",
@@ -191,7 +191,7 @@
   },
   {
     "domain": "aem.eco",
-    "story": "<a href=\"https://aem.eco\">AEM</a> permet aux communautés et aux organisations de survivre et de prospérer face à l’augmentation des risques environnementaux. En déployant des réseaux de détection et en fournissant des analyses, AEM est la source essentielle d’informations environnementales.",
+    "story": "<a href=\"https://aem.eco\">AEM</a> permet aux communautés et aux organisations de survivre et de prospérer face à l&#39;escalade des risques environnementaux. En déployant des réseaux de détection et en fournissant des analyses, AEM est la source essentielle d&#39;informations environnementales.",
     "img": "/img/champion_logos/aem.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -201,7 +201,7 @@
   },
   {
     "domain": "pirkani.eco",
-    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> est une marque avant-gardiste avec une différence. Avec la durabilité au cœur de nos préoccupations, nous avons pour mission de produire de manière éthique une mode britannique contemporaine avec une esthétique de design minimaliste.",
+    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> est une marque avant-gardiste qui se démarque. Avec la durabilité au cœur de nos préoccupations, nous avons pour mission de produire de manière éthique une mode britannique contemporaine avec une esthétique minimaliste.",
     "img": "/img/champion_logos/pirkani3.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -211,7 +211,7 @@
   },
   {
     "domain": "cycle.eco",
-    "story": "<a href=\"https://cycle.eco\">Cycle</a> révolutionne la livraison du dernier kilomètre et réduit les émissions de CO2 liées au trafic en garantissant chaque jour à des milliers de coursiers à vélo une expérience de livraison fluide, rapide et sûre.",
+    "story": "<a href=\"https://cycle.eco\">Cycle</a> change la livraison du dernier kilomètre et réduit les émissions de CO2 liées au trafic en garantissant à des milliers de coursiers à vélo une expérience de livraison fluide, rapide et sûre chaque jour.",
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
     "sector": "Transportation",
@@ -231,7 +231,7 @@
   },
   {
     "domain": "greenworx.eco",
-    "story": "<a href=\"https://greenworx.eco\">Green Worx</a> fabrique des produits de nettoyage respectueux de l&#39;environnement destinés aux ménages, aux entreprises et aux industries à travers l&#39;Afrique.",
+    "story": "<a href=\"https://greenworx.eco\">Green Worx</a> fabrique des produits de nettoyage respectueux de l’environnement pour les ménages, les entreprises et les industries à travers l’Afrique.",
     "img": "/img/champion_logos/greenworx.webp",
     "type": "business",
     "sector": "Health & Beauty",
@@ -241,7 +241,7 @@
   },
   {
     "domain": "carl.eco",
-    "story": "La Bibliothèque de ressources d&#39;action climatique ( <a href=\"https://carl.eco/\">CARL</a> ) aide chaque travailleur à devenir un champion du climat en publiant des guides d&#39;action pour chaque profession.",
+    "story": "La Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) aide chaque travailleur à devenir un champion du climat en publiant des guides d’action pour chaque profession.",
     "img": "/img/champion_logos/carl.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -257,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/arbor.eco",
     "location": "Canada",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "sustainableagriculture.eco",
@@ -267,17 +267,17 @@
     "sector": "Nonprofit",
     "link": "https://profiles.eco/sustainableagriculture.eco",
     "location": "Costa Rica",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "skoot.eco",
-    "story": "<a href=\"https://skoot.eco/\">SKOOT</a> aide les entreprises et les particuliers à réduire et supprimer leur empreinte carbone.",
+    "story": "<a href=\"https://skoot.eco/\">SKOOT</a> aide les entreprises et les particuliers à réduire et à supprimer leur empreinte carbone.",
     "img": "/img/champion_logos/skoot.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
     "location": "Royaume-Uni",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "abs.eco",
@@ -287,6 +287,16 @@
     "sector": "",
     "link": "https://profiles.eco/abs.eco",
     "location": "Royaume-Uni",
+    "priority": "2"
+  },
+  {
+    "domain": "sportainable.eco",
+    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> est un groupe de réflexion qui repense le sport pour qu&#39;il soit économe en ressources, à faibles émissions, respectueux de la nature et socialement responsable.",
+    "img": "/img/champion_logos/sportainable-football2.webp",
+    "type": "nonprofit",
+    "sector": "",
+    "link": "https://profiles.eco/sportainable.eco",
+    "location": "Allemagne",
     "priority": "1"
   }
 ]

@@ -191,7 +191,7 @@
   },
   {
     "domain": "aem.eco",
-    "story": "<a href=\"https://aem.eco\">AEM</a> befähigt Gemeinschaften und Organisationen, angesichts zunehmender Umweltrisiken zu überleben und zu gedeihen. Durch den Einsatz von Sensornetzwerken und die Bereitstellung von Analysen ist AEM die wesentliche Quelle für Umwelteinblicke.",
+    "story": "<a href=\"https://aem.eco\">AEM</a> ermöglicht es Gemeinschaften und Organisationen, angesichts zunehmender Umweltrisiken zu überleben und zu gedeihen. Durch den Einsatz von Sensornetzwerken und die Bereitstellung von Analysen ist AEM die wesentliche Quelle für Umwelteinblicke.",
     "img": "/img/champion_logos/aem.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -211,7 +211,7 @@
   },
   {
     "domain": "cycle.eco",
-    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es Tausenden von Fahrradkurieren täglich ein reibungsloses, schnelles und sicheres Zustellungserlebnis bietet.",
+    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es dafür sorgt, dass Tausende von Fahrradkurieren täglich eine reibungslose, schnelle und sichere Zustellung erleben.",
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
     "sector": "Transportation",
@@ -257,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/arbor.eco",
     "location": "Kanada",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "sustainableagriculture.eco",
@@ -267,7 +267,7 @@
     "sector": "Nonprofit",
     "link": "https://profiles.eco/sustainableagriculture.eco",
     "location": "Costa Rica",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "skoot.eco",
@@ -276,17 +276,27 @@
     "type": "business",
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
-    "location": "Großbritannien",
-    "priority": "2"
+    "location": "Vereinigtes Königreich",
+    "priority": "3"
   },
   {
     "domain": "abs.eco",
-    "story": "<a href=\"https://abs.eco/\">ABS</a> stellt Produkte her, die natürliche Mikroorganismen verwenden, um schädliche Chemikalien bei der Abfallbehandlung und Schadstoffsanierung zu ersetzen.",
+    "story": "<a href=\"https://abs.eco/\">ABS</a> stellt Produkte unter Verwendung natürlicher Mikroorganismen her, um schädliche Chemikalien bei der Abfallbehandlung und Schadstoffsanierung zu ersetzen.",
     "img": "/img/champion_logos/abs2.webp",
     "type": "business",
     "sector": "",
     "link": "https://profiles.eco/abs.eco",
-    "location": "Großbritannien",
+    "location": "Vereinigtes Königreich",
+    "priority": "2"
+  },
+  {
+    "domain": "sportainable.eco",
+    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> ist ein Thinktank, der Sport ressourcenschonend, emissionsarm, naturschonend und sozial verantwortlich neu denkt.",
+    "img": "/img/champion_logos/sportainable-football2.webp",
+    "type": "nonprofit",
+    "sector": "",
+    "link": "https://profiles.eco/sportainable.eco",
+    "location": "Deutschland",
     "priority": "1"
   }
 ]
