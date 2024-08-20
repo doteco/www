@@ -45,7 +45,11 @@ function parseSpreadsheet (response) {
       location: data[h.Country]?.trim(),
       live: data[h.Live] === 'Y',
       sector: data[h.Sector],
-      caseStudy: data[h['Case Study']],
+      caseStudy: {
+        en: data[h['Case Study']],
+        de: data[h['Case Study - DE']],
+        fr: data[h['Case Study - FR']]
+      },
       priority: {
         en: data[h['Priority - EN']],
         fr: data[h['Priority - FR']],
@@ -89,6 +93,13 @@ if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
   process.exit()
 }
 
+function getCaseStudyLink (locale, profile) {
+  if (profile.caseStudy[locale]) {
+    return profile.caseStudy[locale]
+  }
+  return 'https://profiles.eco/' + profile.domain
+}
+
 getSpreadSheetValues(
   spreadsheetId,
   sheetRange
@@ -112,7 +123,7 @@ getSpreadSheetValues(
         img: p.img,
         type: p.type,
         sector: p.sector,
-        link: locale === 'en' && p.caseStudy ? p.caseStudy : 'https://profiles.eco/' + p.domain,
+        link: getCaseStudyLink(locale, p),
         location: localizedLocation,
         priority: p.priority[locale]
       }

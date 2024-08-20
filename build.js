@@ -160,7 +160,7 @@ const ms = Metalsmith(__dirname)
     engine: 'handlebars',
     helpers: null,
     path: ':file',
-    frontMatterKeys: ['title', 'description']
+    frontMatterKeys: ['title', 'description', 'excerpt']
   }))
   .use(discoverPartials({
     directory: 'layouts/partials'

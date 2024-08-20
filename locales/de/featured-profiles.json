@@ -291,11 +291,11 @@
   },
   {
     "domain": "sportainable.eco",
-    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> ist ein Thinktank, der Sport ressourcenschonend, emissionsarm, naturschonend und sozial verantwortlich neu denkt.",
+    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> ist ein Thinktank, der Sport ressourcenschonend, emissionsarm, naturfreundlich und sozial verantwortlich denkt.",
     "img": "/img/champion_logos/sportainable-football2.webp",
     "type": "nonprofit",
     "sector": "",
-    "link": "https://profiles.eco/sportainable.eco",
+    "link": "/champions/sportainable/",
     "location": "Deutschland",
     "priority": "1"
   }

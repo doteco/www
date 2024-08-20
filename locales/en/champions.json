@@ -2,5 +2,86 @@
   "title": "Meet the .eco Champions",
   "description": "These .eco members share our vision for a globally connected, online community committed to environmental sustainability.",
   "head": "Meet the .eco champions",
-  "subhead": "These companies, non-profits and people from around the world share our vision for a globally connected, online community committed to environmental sustainability. We're honoured to recognize their innovative spirit here."
+  "subhead": "These companies, non-profits and people from around the world share our vision for a globally connected, online community committed to environmental sustainability. We're honoured to recognize their innovative spirit here.",
+  "details": {
+    "title": ".eco champion details",
+    "domain": "Domain",
+    "since": "Community member since",
+    "retailer": "Domain retailer"
+  },
+  "wrapup": "At .eco, we are fortunate to be surrounded by a community of businesses, organizations and individuals working hard to protect our planet. We are honoured to spread the word about the great work they're doing. If you are a member of the .eco community and would like to be featured, [get in touch](mailto:support@bigroom.eco).",
+  "sportainable": {
+    "domain": "sportainable.eco",
+    "title": "Sportainable - .eco champion",
+    "description": "Sportainable is a think tank that is rethinking how to make sports more sustainable, resource-efficient, low-emission, nature-friendly and socially responsible.",
+    "excerpt": "Sportainable is a think tank rethinking how to make sports resource-efficient, low-emission, nature-friendly and socially responsible.",
+    "intro": "_We spoke with **Dr. Peter Kuhn**, co-founder of Sportainable, about the intersection between sport and sustainability._",
+    "questions": [
+      {
+        "q": "What is the intersection between sport and sustainability?",
+        "a": [
+          "That's a big question! It is best to use the plural here: **intersections**. These intersections result from the [systemic analysis of sport](https://www.sportainable.eco/en-gb/what-we-do#concept).\n",
+          "The “sport system” consists of the _realisation level_ and the _condition level_. What we do and can observe in sport takes place at the realisation level: training, games, and competitions. The conditional level comprises the conditions of facilities, materials, mobility and organisation of sport.\n",
+          "These two levels are embedded in our “social system” with its overarching social, cultural, political, economic and infrastructural framework conditions. Both the direct practice of sport at the realisation level and the conditions of sport have an impact on society and the natural environment. In simplified terms, these can be divided into the areas of climate, air, resources, soil, water, flora and fauna."
+        ]
+      },
+      {
+        "q": "What is “sportainable”?",
+        "a": [
+          "**“sportainable”** is a neologism made up of ‘sport’ and ‘sustainable’, which as an adjective can accompany the sustainability of any sports entity. “sportainable” is a word mark protected throughout Europe.\n",
+          "**“sportainable”** is also the name of the [think tank of sustainable sport](https://sportainable.eco) &mdash; an international network of around 150 people from science and practice who are dedicated to sustainable sport development, as well as around 20 like-minded organisations. “sportainable” is also the name of the non-profit entrepreneurial company that manages the think tank.\n",
+          "The think tank sportainable was founded in February 2022 and received its [formal corporate form in June of the same year](https://www.sportainable.eco/en-gb/our-story). Since then, it has been constantly developing and pursuing its mission to rethink sport &mdash; resource-light, low-emission, nature-friendly, socially responsible and humane &mdash; to create a basis of knowledge and action for people who want to embark on the path of sustainable development and to provide impetus to follow such paths.\n",
+          "![Sportainable founding team](/img/champion_logos/sportainable-team.webp)"
+        ]
+      },
+      {
+        "q": "How does your think tank work to improve the sustainability of sports?",
+        "a": [
+          "In one research project, a group from the think tank is investigating how [Doughnut Economics](https://doughnuteconomics.org/about-doughnut-economics) can be applied to the sports sector. Doughnut economics is currently the most comprehensive and promising model of global sustainable development. It is characterised by a hierarchy and a science-based high resolution of the sustainability dimensions. The think tank's research group is attempting to define the interfaces of sport with the segments of the “social foundation” and the “ecological ceiling” of the doughnut in such a way that it becomes immediately apparent to the actors involved what can be done to promote sustainable development in the respective segment.\n",
+          "<div class=\"news-img-40pct\">\n",
+          "![Sportainable Doughnut](/img/champion_logos/sportainable-doughnut.webp)\n",
+          "</div>\n",
+          "Let's take examples from two social and two ecological segments to make it clear what is at stake.",
+          "- Education: Showing how sports clubs and associations can convey the pro-social values of sport, such as respect, fairness, community, compassion and appreciation.",
+          "- Income and work: Showing how the sporting goods industry can improve the working conditions of people in production.",
+          "- Climate change: Showing how organisers of major sporting events can minimise the carbon footprint of the people involved &mdash; fans, players/athletes, officials, spectators.",
+          "- Biodiversity: Showing how sports organisations with their own infrastructure can promote biodiversity on their grounds.\n",
+          "In this way, a “sportainable doughnut” can be created that is scalable horizontally (all areas of the sport sector) and vertically (from grassroots to elite sport) and, due to its applicability, enables low-threshold access for the players and the public."
+        ]
+      },
+      {
+        "q": "As someone who likes to play different sports, what are some things I can do to reduce my impact?",
+        "a": [
+          "It is important to emphasise that the individual is not held responsible for solving global sustainability problems. It is the national and international economic structures that need to be changed and it is governments and companies that need to be held accountable.\n",
+          "But it is also true that doing a little is more than doing nothing, and even small individual actions can bring about major changes. In this respect, it does no harm if someone who likes to play sports:\n",
+          "- travels there on foot, by bike, by public transport or in car pools",
+          "- buys new sports shoes, sports clothing and sports equipment as rarely as possible and, if they do, preferably choosing products with a sustainability certificate",
+          "- observes the instructions of local authorities and nature conservation organisations to avoid disturbing the sensitive flora and fauna during activities in the natural landscape"
+        ]
+      },
+      {
+        "q": "How can I learn more about this issue?",
+        "a": [
+          "The educational programme of the think tank sportainable consists of three elements:",
+          "- [Education for sustainable development](https://www.sportainable.eco/en-gb/esd) contains content that can be accessed online or for which you can request further information from our experts.",
+          "- [Publications](https://www.sportainable.eco/en-gb/publications ): Many of our experts' publications are available as open access or can be requested from the authors.",
+          "- [Events](https://www.sportainable.eco/en-gb/events): The think tank organises an annual Sustainable Sports Symposium with lectures and workshops by and for scientists and practitioners.\n",
+          "Other recommended organisations in English-speaking countries that offer opportunities to learn more about the topic are:",
+          "- [Global Sustainable Sports](https://www.globalsustainablesport.com)",
+          "- [Pledgeball](https://pledgeball.org)",
+          "- [Green Sports Alliance](https://www.greensportsalliance.org)",
+          "- [The Sport Ecology Group](https://www.sportecology.org)"
+        ]
+      },
+      {
+        "q": "Why did you choose a .eco domain name for your think tank?",
+        "a": [
+          "If we trace the terms _economy_ and _ecology_ back etymologically, they originally mean _the law_ and _the teaching_ (_\"nomos\"_ and _\"logos\"_ in Greek) of _the house or household_ (Greek: _\"oikos\"_). In others words, the sustainable safeguarding of the livelihoods of the inhabitants.\n",
+          "As the think tank sportainable deals with sport in this context, it seemed sensible from the outset to look for a domain extension that reflects this connection, namely .eco. When we wanted to register our desired domain with our registrar, we were asked to check out the .eco registry. What we then found on the [go.eco site](/) made us even more convinced. We also wanted to be part of the [.eco community](https://profiles.eco/)."
+        ]
+      }
+    ],
+    "retailer": "United Domains",
+    "since": "January 2022"
+  }
 }
