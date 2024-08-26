@@ -158,65 +158,85 @@ faq: true
 		elem.classList.add('domains-fade-out')
 	}
 
-	var showRecent = function (domains, count) {
-		var html = ''
-		var length = 0
+	var showRecent = function (domains) {
 		var registeredDomains = document.getElementById('registered-domains')
 		var maxWidth = registeredDomains.parentElement.clientWidth / 10
-		var pause = false
+		var pause = true
+		var count = 0
 
-		while (length < maxWidth && count < domains.length) {
-			var idx = count
-			length += domains[idx].length + 3
+		var displayRecent = function () {
+			var html = ''
+			var length = 0
+			while (length < maxWidth && count < domains.length) {
+				var idx = count
+				length += domains[idx].length + 3
 
-			if (length < maxWidth || html.length === 0) {
-				if (html.length) {
-					html += ' &#8226; '
-				}
-				html += '<a href="https://profiles.eco/' + domains[idx] + '" class="registered-domain">' + domains[idx] + '</a>'
-				count = idx + 1
-				if (count === domains.length) {
-					pause = true
-					count = 0
+				if (length < maxWidth || html.length === 0) {
+					if (html.length) {
+						html += ' &#8226; '
+					}
+					html += '<a href="https://profiles.eco/' + domains[idx] + '" class="registered-domain">' + domains[idx] + '</a>'
+					count = idx + 1
+					if (count === domains.length) {
+						count = 0
+					}
 				}
 			}
-		}
 
-		registeredDomains.innerHTML = html
-		fadeIn(registeredDomains)
-		if (!pause && !document.hidden) {
-			setTimeout(function () {
-				fadeOut(registeredDomains)
-			}, 4500)
-			setTimeout(function () {
-				showRecent(domains, count)
-			}, 5000)
+			registeredDomains.innerHTML = html
+			fadeIn(registeredDomains)
+			if (!pause && !document.hidden) {
+				setTimeout(function () {
+					fadeOut(registeredDomains)
+				}, 4500)
+				setTimeout(function () {
+					displayRecent()
+				}, 5000)
+			}
 		}
+		var observer = new IntersectionObserver(function (entries) {
+			if (entries[0].intersectionRatio <= 0) {
+				pause = true
+			} else if (pause) {
+				pause = false
+				displayRecent()
+			}
+		})
+		observer.observe(registeredDomains)
+
+		document.addEventListener('visibilitychange', function () {
+			if (document.hidden) {
+				pause = true
+			} else {
+				pause = false
+				displayRecent()
+			}
+		})
 	}
 
 	document.addEventListener('DOMContentLoaded', function () {
-		if (window.fetch) {
-			window.fetch('{{profiles}}/_api/domains/recent?count=20', {
-				credentials: 'omit',
-				headers: {
-					Accept: 'application/json'
-				}
-			}).then(function (response) {
-				if (!response.ok) {
-					throw new Error('Failure fetching recent domains: ' + response.status)
-				}
-				return response.json()
-			}).then(function (domains) {
-				return showRecent(domains, 0)
-			}).catch(function (err) {
-				console.error('Unable to fetch recent domains.', err)
-				if (err.name !== 'TypeError') { // ignore network errors
-					window.Sentry && window.Sentry.captureException(err)
-				}
-			})
-		} else {
-			document.querySelector('.section.recent').style.display = 'none'
+		if (!window.fetch) {
+			return document.querySelector('.section.recent').style.display = 'none'
 		}
+
+		window.fetch('{{profiles}}/_api/domains/recent?count=20', {
+			credentials: 'omit',
+			headers: {
+				Accept: 'application/json'
+			}
+		}).then(function (response) {
+			if (!response.ok) {
+				throw new Error('Failure fetching recent domains: ' + response.status)
+			}
+			return response.json()
+		}).then(function (domains) {
+			return showRecent(domains)
+		}).catch(function (err) {
+			console.error('Unable to fetch recent domains.', err)
+			if (err.name !== 'TypeError') { // ignore network errors
+				window.Sentry && window.Sentry.captureException(err)
+			}
+		})
 	})
 </script>
 
