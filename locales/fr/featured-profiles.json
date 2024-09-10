@@ -77,7 +77,7 @@
     "sector": "Fashion & Apparel",
     "link": "https://profiles.eco/goodonyou.eco",
     "location": "Australie",
-    "priority": ""
+    "priority": "6"
   },
   {
     "domain": "geca.eco",
@@ -117,7 +117,7 @@
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/nuvola.eco",
     "location": "Suisse",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "brightly.eco",
@@ -257,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/arbor.eco",
     "location": "Canada",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "sustainableagriculture.eco",
@@ -277,7 +277,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
     "location": "Royaume-Uni",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "abs.eco",
@@ -287,7 +287,7 @@
     "sector": "",
     "link": "https://profiles.eco/abs.eco",
     "location": "Royaume-Uni",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "sportainable.eco",
@@ -297,6 +297,16 @@
     "sector": "",
     "link": "https://profiles.eco/sportainable.eco",
     "location": "Allemagne",
+    "priority": "2"
+  },
+  {
+    "domain": "letsfixthis.eco",
+    "story": "<a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a> est un nouveau livre rempli d&#39;idées pratiques, étape par étape, sur la manière dont vous pouvez agir en faveur de l&#39;environnement.",
+    "img": "/img/champion_logos/letsfixthis-tile.png",
+    "type": "individual",
+    "sector": "",
+    "link": "https://profiles.eco/letsfixthis.eco",
+    "location": "Canada",
     "priority": "1"
   }
 ]

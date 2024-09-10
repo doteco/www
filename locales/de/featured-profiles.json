@@ -77,7 +77,7 @@
     "sector": "Fashion & Apparel",
     "link": "https://profiles.eco/goodonyou.eco",
     "location": "Australien",
-    "priority": ""
+    "priority": "6"
   },
   {
     "domain": "geca.eco",
@@ -257,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/arbor.eco",
     "location": "Kanada",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "sustainableagriculture.eco",
@@ -277,7 +277,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
     "location": "Vereinigtes Königreich",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "abs.eco",
@@ -287,7 +287,7 @@
     "sector": "",
     "link": "https://profiles.eco/abs.eco",
     "location": "Vereinigtes Königreich",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "sportainable.eco",
@@ -297,6 +297,16 @@
     "sector": "",
     "link": "/champions/sportainable/",
     "location": "Deutschland",
+    "priority": "2"
+  },
+  {
+    "domain": "letsfixthis.eco",
+    "story": "<a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a> ist ein neues Buch voller praktischer, schrittweiser Ideen, wie Sie Umweltmaßnahmen ergreifen können",
+    "img": "/img/champion_logos/letsfixthis-tile.png",
+    "type": "individual",
+    "sector": "",
+    "link": "https://profiles.eco/letsfixthis.eco",
+    "location": "Kanada",
     "priority": "1"
   }
 ]
