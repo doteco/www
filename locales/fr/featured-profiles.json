@@ -287,7 +287,7 @@
     "sector": "",
     "link": "https://profiles.eco/abs.eco",
     "location": "Royaume-Uni",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "sportainable.eco",
@@ -297,7 +297,7 @@
     "sector": "",
     "link": "https://profiles.eco/sportainable.eco",
     "location": "Allemagne",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "letsfixthis.eco",
@@ -307,6 +307,16 @@
     "sector": "",
     "link": "https://profiles.eco/letsfixthis.eco",
     "location": "Canada",
+    "priority": "2"
+  },
+  {
+    "domain": "livelightly.eco",
+    "story": "Le podcast <a href=\"https://livelightly.eco\">Live Lightly</a> explore comment nous pouvons vivre une vie saine en équilibre avec la nature.",
+    "img": "/img/champion_logos/livelightly-tile.webp",
+    "type": "individual",
+    "sector": "",
+    "link": "https://profiles.eco/livelightly.eco",
+    "location": "États-Unis",
     "priority": "1"
   }
 ]

@@ -287,7 +287,7 @@
     "sector": "",
     "link": "/champions/abs/",
     "location": "United Kingdom",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "sportainable.eco",
@@ -297,16 +297,26 @@
     "sector": "",
     "link": "/champions/sportainable/",
     "location": "Germany",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "letsfixthis.eco",
-    "story": "<a href=\"https://letsfixthis.eco\">Let's Fix This</a> is a new book full of practical, step-by-step ideas of how you can take environmental action",
+    "story": "<a href=\"https://letsfixthis.eco\">Let's Fix This</a> is a new book full of practical, step-by-step ideas of how you can take environmental action.",
     "img": "/img/champion_logos/letsfixthis-tile.png",
     "type": "individual",
     "sector": "",
     "link": "/champions/letsfixthis/",
     "location": "Canada",
+    "priority": "2"
+  },
+  {
+    "domain": "livelightly.eco",
+    "story": "The <a href=\"https://livelightly.eco\">Live Lightly</a> podcast explores how we can live healthy lives in balance with nature.",
+    "img": "/img/champion_logos/livelightly-tile.webp",
+    "type": "individual",
+    "sector": "",
+    "link": "/champions/livelightly/",
+    "location": "United States",
     "priority": "1"
   }
 ]
