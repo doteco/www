@@ -67,7 +67,7 @@
     "sector": "Industrial",
     "link": "https://profiles.eco/ecofario.eco",
     "location": "Deutschland",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "goodonyou.eco",
@@ -241,7 +241,7 @@
   },
   {
     "domain": "carl.eco",
-    "story": "Die Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) hilft jedem Arbeitnehmer, ein Klimaschützer zu werden, indem sie Aktionsleitfäden für jeden Beruf veröffentlicht.",
+    "story": "Die Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) hilft jedem Arbeitnehmer, ein Klima-Champion zu werden, indem sie Aktionsleitfäden für jeden Beruf veröffentlicht.",
     "img": "/img/champion_logos/carl.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
