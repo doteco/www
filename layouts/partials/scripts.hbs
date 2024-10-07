@@ -34,18 +34,28 @@
 	})
 </script>
 <script>
+	var defaultTheme = 'light'
 	function getStoredTheme () {
-		let theme = localStorage && localStorage.getItem('theme')
+		let theme = defaultTheme
+		try {
+			theme = localStorage && localStorage.getItem('theme')
+		} catch (ex) {
+			console.warn('Unable to retrieve theme from localStorage. Please check your browser privacy settings.')
+		}
 		if (!theme) {
-			theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+			theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : defaultTheme
 		}
 		return theme
 	}
 	function storeTheme (theme) {
-		localStorage && localStorage.setItem('theme', theme)
+		try {
+			localStorage && localStorage.setItem('theme', theme)
+		} catch (ex) {
+			console.warn('Unable to store theme in localStorage. Please check your browser privacy settings.')
+		}
 	}
 	function darkToggle (event) {
-		const theme = event.target.dataset.theme || 'light'
+		const theme = event.target.dataset.theme || defaultTheme
 		document.body.dataset.bsTheme = theme
 		setThemeIcon(theme)
 		storeTheme(theme)
