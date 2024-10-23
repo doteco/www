@@ -60,7 +60,7 @@ If your DNS provider can tell you how many requests were made for your domain na
 
 To account for the recursive nature of DNS resolution, you can multiply the requests to your domain by a factor (between 1 and 2). This is difficult to determine more precisely, so it’s up to you to decide how conservative to be in the estimate.
 
-With this data in hand, you can use the [Sustainable Web Design method](https://sustainablewebdesign.org/calculating-digital-emissions/) to calculate your emissions. Assuming that the average DNS request is about 500 bytes, you can calculate the total bandwidth by multiplying this by the number of requests calculated above). Estimate the electricity consumed to serve this data by multiplying by the standard factor 0.81 kWh / GB. 
+With this data in hand, you can use the [Sustainable Web Design method](https://sustainablewebdesign.org/estimating-digital-emissions-version-3/) to calculate your emissions. Assuming that the average DNS request is about 500 bytes, you can calculate the total bandwidth by multiplying this by the number of requests calculated above). Estimate the electricity consumed to serve this data by multiplying by the standard factor 0.81 kWh / GB.
 
 And then finally convert this electricity use to carbon dioxide emissions (CO2e) by applying appropriate electricity emissions factors. If you know emissions factors from electricity in the data centers serving your requests you can use that. Or you can use the global average carbon intensity of electricity: 442g / kWh.
 
