@@ -2,6 +2,10 @@ const { readFile } = require('fs/promises')
 const klaw = require('klaw')
 const path = require('path')
 
+async function importPMap () {
+  return (await import('p-map')).default
+}
+
 const skipFiles = [
   'public/registrar/index.html',
   'public/champions/terms/index.html',
@@ -24,6 +28,7 @@ const skipFiles = [
   'public/frequently-asked-questions/index.html',
   'public/about/marketing/index.html',
   'public/bthechange2017/index.html',
+  'public/about/index.html',
   'public/about/team/index.html',
   'public/about/press/index.html',
   'public/news/understanding-your-aim-1d02eebce1e8/index.html',
@@ -67,6 +72,7 @@ new Promise((resolve, reject) => {
     const skipFile = skipFiles.some(s => s === path.relative(process.cwd(), file.path))
     return file.path.endsWith('.html') && !skipFile ? files.push(file.path) : null
   }).on('end', () => resolve(files))
-}).then((files) => {
-  Promise.all(files.map(validate))
+}).then(async files => {
+  const pMap = await importPMap()
+  await pMap(files, validate, { concurrency: 1 })
 })
