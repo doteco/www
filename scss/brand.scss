@@ -101,11 +101,9 @@ $navbar-padding-y: 0;
 	color: white;
 
 	.btn {
-		background-color: $doteco-citrine;
-	}
-
-	.btn:hover {
-		background-color: color.adjust($doteco-citrine, $lightness: -15%);
+		--bs-btn-bg: #{$doteco-citrine};
+		--bs-btn-active-bg: #{color.adjust($doteco-citrine, $lightness: -15%)};
+		--bs-btn-hover-bg: #{color.adjust($doteco-citrine, $lightness: -15%)};
 	}
 }
 
