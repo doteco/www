@@ -217,7 +217,7 @@
     "sector": "Transportation",
     "link": "/champions/cycle/",
     "location": "Germany",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "koala.eco",
@@ -277,7 +277,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/skoot/",
     "location": "United Kingdom",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "abs.eco",
@@ -297,7 +297,7 @@
     "sector": "",
     "link": "/champions/sportainable/",
     "location": "Germany",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "letsfixthis.eco",
@@ -307,7 +307,7 @@
     "sector": "",
     "link": "/champions/letsfixthis/",
     "location": "Canada",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "livelightly.eco",
@@ -317,6 +317,16 @@
     "sector": "",
     "link": "/champions/livelightly/",
     "location": "United States",
+    "priority": "2"
+  },
+  {
+    "domain": "caspian.eco",
+    "story": "The <a href=\"https://caspian.eco\">Caspian Environment Consortium</a> is working to cultivate algae in the Caspian Sea to capture CO2 and restore the local ecosystem.",
+    "img": "/img/champion_logos/caspian-tile.webp",
+    "type": "business",
+    "sector": "",
+    "link": "/champions/caspian/",
+    "location": "Kazakhstan",
     "priority": "1"
   }
 ]

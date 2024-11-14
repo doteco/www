@@ -211,13 +211,13 @@
   },
   {
     "domain": "cycle.eco",
-    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es dafür sorgt, dass Tausende von Fahrradkurieren täglich eine reibungslose, schnelle und sichere Zustellung erleben.",
+    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es Tausenden von Fahrradkurieren täglich ein reibungsloses, schnelles und sicheres Zustellungserlebnis bietet.",
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
     "sector": "Transportation",
     "link": "https://profiles.eco/cycle.eco",
     "location": "Deutschland",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "koala.eco",
@@ -241,7 +241,7 @@
   },
   {
     "domain": "carl.eco",
-    "story": "Die Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) hilft jedem Arbeitnehmer, ein Klima-Champion zu werden, indem sie Aktionsleitfäden für jeden Beruf veröffentlicht.",
+    "story": "Die Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) hilft jedem Arbeitnehmer, ein Klimaschützer zu werden, indem sie Aktionsleitfäden für jeden Beruf veröffentlicht.",
     "img": "/img/champion_logos/carl.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -277,7 +277,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
     "location": "Vereinigtes Königreich",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "abs.eco",
@@ -297,7 +297,7 @@
     "sector": "",
     "link": "/champions/sportainable/",
     "location": "Deutschland",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "letsfixthis.eco",
@@ -307,7 +307,7 @@
     "sector": "",
     "link": "https://profiles.eco/letsfixthis.eco",
     "location": "Kanada",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "livelightly.eco",
@@ -317,6 +317,16 @@
     "sector": "",
     "link": "https://profiles.eco/livelightly.eco",
     "location": "Vereinigte Staaten",
+    "priority": "2"
+  },
+  {
+    "domain": "caspian.eco",
+    "story": "Das <a href=\"https://caspian.eco\">Caspian Environment Consortium</a> arbeitet daran, im Kaspischen Meer Algen zu züchten, um CO2 zu binden und das lokale Ökosystem wiederherzustellen.",
+    "img": "/img/champion_logos/caspian-tile.webp",
+    "type": "business",
+    "sector": "",
+    "link": "https://profiles.eco/caspian.eco",
+    "location": "Kasachstan",
     "priority": "1"
   }
 ]
