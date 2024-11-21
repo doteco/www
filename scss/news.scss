@@ -40,7 +40,7 @@
 		blockquote {
 			font-style: italic;
 			padding: 0 1rem;
-			border-left: 1px solid $doteco-charcoal;
+			border-left: 1px solid rgba(var(--bs-body-color-rgb), 0.25);
 		}
 
 		blockquote > ol:last-child, blockquote > p:last-child {
