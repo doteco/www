@@ -328,5 +328,14 @@
     "link": "https://profiles.eco/caspian.eco",
     "location": "Kazakhstan",
     "priority": "1"
+  },
+  {
+    "domain": "tim.eco",
+    "story": "<a href=\"https://tim.eco/\">Tim Falls</a> est un dirigeant du secteur technologique passionné par la protection du monde naturel.",
+    "img": "/img/champion_logos/tim-tile.webp",
+    "type": "individual",
+    "link": "https://profiles.eco/tim.eco",
+    "location": "États-Unis",
+    "priority": ""
   }
 ]

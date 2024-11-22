@@ -241,7 +241,7 @@
   },
   {
     "domain": "carl.eco",
-    "story": "Die Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) hilft jedem Arbeitnehmer, ein Klimaschützer zu werden, indem sie Aktionsleitfäden für jeden Beruf veröffentlicht.",
+    "story": "Die Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) hilft jedem Arbeitnehmer, ein Klima-Champion zu werden, indem sie Aktionsleitfäden für jeden Beruf veröffentlicht.",
     "img": "/img/champion_logos/carl.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -328,5 +328,14 @@
     "link": "https://profiles.eco/caspian.eco",
     "location": "Kasachstan",
     "priority": "1"
+  },
+  {
+    "domain": "tim.eco",
+    "story": "<a href=\"https://tim.eco/\">Tim Falls</a> ist ein Technologiemanager, der sich leidenschaftlich für den Schutz der Natur einsetzt.",
+    "img": "/img/champion_logos/tim-tile.webp",
+    "type": "individual",
+    "link": "https://profiles.eco/tim.eco",
+    "location": "Vereinigte Staaten",
+    "priority": ""
   }
 ]

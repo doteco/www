@@ -1,0 +1,43 @@
+---
+title: .eco is for you
+description: .eco is for people who care about our planet and want to grow the global environmental community
+page-path: for/individuals/
+og-image: opengraph/filling-water-bottle-og.jpg
+og-width: 1200
+og-height: 630
+active: for
+---
+
+<link rel="preload" as="image" href="/img/filling-water-bottle.webp">
+
+ <div class="jumbotron" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/filling-water-bottle.webp'); background-size: cover; background-position: center">
+	<div class="container">
+		<h1>.eco is for you</h1>
+    <h2>.eco is for people like you who care about our planet</h2>
+	</div>
+</div>
+
+<div class="section inverted">
+	<div class="container for-justify">
+    <p>
+      Whether you are a dedicated environmental activist, a student learning about protecting our planet or a professional helping others become more sustainable, a .eco domain is a great way for you to tell the world what you’re working on or thinking about.
+    </p>
+    <p>By using a .eco domain for your blog, your website or email address, you are letting your friends, colleagues and visitors know that you care about the earth.</p>
+	</div>
+</div>
+
+<div class="section business-sectors">
+	<div class="container">
+    <h3>.eco Champions</h3>
+    <p>Here are a few members of the .eco community who are doing their part for our planet:</p>
+
+    <div class="sector-profiles grid grid--m1d2">
+      {{> profile profile=(lookupProfile featuredProfiles 'letsfixthis.eco') }}
+      {{> profile profile=(lookupProfile featuredProfiles 'livelightly.eco') }}
+      {{> profile profile=(lookupProfile featuredProfiles 'tim.eco') }}
+      {{> profile profile=(lookupProfile featuredProfiles 'dragonfly.eco') }}
+    </div>
+	</div>
+</div>
+
+{{>search hnum=2 }}
