@@ -36,7 +36,8 @@
   "registerLabel": "Enregistrez le domaine .eco chez %s",
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> est disponible",
-    "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> est déjà pris.<br/> Veuillez essayer un autre nom .eco",
+    "premium": "<span class=\"searched-domain\">{searchDomain}</span> est un nom génial !<br/> Il peut être plus cher que d'autres domaines .eco.",
+    "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> est déjà pris.<br/> Veuillez essayer un autre nom .eco.",
     "invalid": "<span class=\"searched-domain\">{searchDomain}</span> n'est pas valide.<br/> Les domaines .eco ne peuvent inclure que les caractères suivants&nbsp;:<br/> <strong>A - Z</strong>, <strong>chiffres</strong> ou <strong>trait d'union</strong>.<br/> Veuillez essayer un autre nom.",
     "error": "Erreur lors de la recherche du nom de domaine. Veuillez réessayer plus tard.",
     "reserved": "<span class=\"searched-domain\">{searchDomain}</span> est un super nom !<br/> Veuillez nous contacter au sujet du prix."

@@ -159,8 +159,10 @@ window.domainSearch = function (config) {
     let resultLabel = config.resultLabels.unavailable
     if (!r.domain || r.summary === 'disallowed' || r.summary === 'invalid') {
       resultLabel = config.resultLabels.invalid
-    } else if (r.summary === 'inactive' || r.summary === 'premium') {
+    } else if (r.summary === 'inactive') {
       resultLabel = config.resultLabels.available
+    } else if (r.summary === 'premium') {
+      resultLabel = config.resultLabels.premium
     } else if (r.summary === 'reserved') {
       resultLabel = config.resultLabels.reserved
     } else if (r.summary === 'undelegated') {

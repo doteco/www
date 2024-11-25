@@ -56,6 +56,7 @@
   },
   "results": {
     "available": "<span class=\"searched-domain\">{searchDomain}</span> ist verfügbar",
+    "premium": "<span class=\"searched-domain\">{searchDomain}</span> ist ein toller Name!<br/> Er ist möglicherweise teurer als andere .eco-Domains.",
     "error": "Fehler bei der Suche nach dem Domainnamen. Bitte versuchen Sie es später noch einmal.",
     "invalid": "<span class=\"searched-domain\">{searchDomain}</span> ist ungültig.<br/>.eco-Domains dürfen nur die folgenden Zeichen enthalten:<br/><strong>A-Z</strong> , <strong>Zahlen</strong> oder <strong>Bindestriche</strong>.<br/>Bitte versuchen Sie einen anderen Namen.",
     "reserved": "<span class=\"searched-domain\">{searchDomain}</span> ist ein toller Name!<br/> Bitte fragen Sie uns nach den Preisen.",
