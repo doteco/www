@@ -3,7 +3,7 @@
 			<div class="row">
 
 				{{#each (t "global:footer" returnObjects=true)}}
-				<nav class="col-6 col-sm-3" aria-label="{{head}}">
+				<nav class="col-6 col-sm-4" aria-label="{{head}}">
  					<ul>
  						<li><h4>{{head}}</h4></li>
 						{{#each items}}
@@ -13,20 +13,20 @@
 				</nav>
 				{{/each}}
 
-				<div class="col-6 col-sm-3">
+				<div class="col-6 col-sm-4">
 					<a href="https://www.bcorporation.net/find-a-b-corp/company/big-room-inc/" rel="noopener"><img src="{{ img-root }}/logos/{{t "global:bcorp.logo" }}" alt="B Corporation logo" width="75" height="110" loading="lazy" class="bcorp-logo"></a>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-6 col-sm-6">
+				<div class="col-6 col-sm-4">
+					<a href="https://go.eco/news/we-declare-a-climate-emergency/" rel="noopener" class="climate-emergency"><img src="{{ img-root }}/we-declare-a-climate-emergency-white-transparent.svg" alt="We Declare a Climate Emergency logo" width="142" height="60" loading="lazy"></a>
+				</div>
+				<div class="col-6 col-sm-4">
 					<a href="https://profiles.eco/go?ref=tm" rel="noopener" class="social-link"><img class="eco-trustmark" alt=".eco profile for go.eco" src="{{trustmark}}/go/eco-button.svg?color=%23FFFFFF" height="36" width="36" loading="lazy"></a>
 					<a href="https://www.linkedin.com/company/eco-domain/" rel="noopener" class="social-link"><img src="{{ img-root }}/In-White-34@2x.png" alt="LinkedIn logo" height="36" width="36" loading="lazy"></a>
 					<a href="https://mastodon.eco/@doteco/" rel="noopener me" class="social-link"><img src="{{ img-root }}/mastodon.svg" alt="Mastodon logo" height="36" width="36" loading="lazy"></a>
-					<a href="https://bsky.app/profile/go.eco" rel="noopener" class="social-link d-none d-sm-inline"><img src="{{img-root}}/bsky-white.svg" alt="Bluesky logo" height="36" width="36" loading="lazy"></a>
+					<a href="https://bsky.app/profile/go.eco" rel="noopener" class="social-link"><img src="{{img-root}}/bsky-white.svg" alt="Bluesky logo" height="36" width="36" loading="lazy"></a>
 				</div>
-				<div class="col-6 col-sm-3 offset-sm-3">
-					<a href="https://go.eco/news/we-declare-a-climate-emergency/" rel="noopener" class="climate-emergency"><img src="{{ img-root }}/we-declare-a-climate-emergency-white-transparent.svg" alt="We Declare a Climate Emergency logo" width="142" height="60" loading="lazy"></a>
-				</div>
+			</div>
+			<div class="row copyright">
 				<div class="col-12">&copy; {{ year }} <a href="https://bigroom.eco">Big Room Inc.</a></div>
 			</div>
 		</div>

@@ -35,25 +35,28 @@
         "<a href=\"/faq/\">FAQ</a>",
         "<a href=\"https://support.go.eco\">Support</a>",
         "<a href=\"/contact/\">Contact us</a>",
-        "<a href=\"https://ecodomainregistry.statuspage.io/\">System status</a>"
+        "<a href=\"https://ecodomainregistry.statuspage.io/\">System status</a>",
+        "<a href=\"/whois/\">Whois</a>"
       ]
     },
     {
-      "head": "Resources",
+      "head": "About",
       "items": [
         "<a href=\"/about/story/\">What is .eco?</a>",
         "<a href=\"/about/system/\">Why .eco?</a>",
-        "<a href=\"/whois/\">Whois</a>",
-        "<a href=\"/registrars/\">Registrars &amp; resellers</a>"
+        "<a href=\"/for/business/\">.eco for businesses</a>",
+        "<a href=\"/for/nonprofits/\">.eco for organizations</a>",
+        "<a href=\"/for/individuals/\">.eco for individuals</a>"
       ]
     },
     {
-      "head": "Legal",
+      "head": "Policies",
       "items": [
         "<a href=\"/policies/\">Registry policies</a>",
         "<a href=\"/privacy/\">Privacy policy</a>",
         "<a href=\"/impact/\">Sustainability policy</a>",
-        "<a href=\"/policies/accessibility/\">Accessibility statement</a>"
+        "<a href=\"/policies/accessibility/\">Accessibility statement</a>",
+        "<a href=\"/registrars/\">Registrars &amp; resellers</a>"
       ]
     }
   ],
