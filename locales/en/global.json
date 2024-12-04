@@ -33,10 +33,10 @@
       "head": "Help",
       "items": [
         "<a href=\"/faq/\">FAQ</a>",
+        "<a href=\"/whois/\">Whois</a>",
         "<a href=\"https://support.go.eco\">Support</a>",
         "<a href=\"/contact/\">Contact us</a>",
-        "<a href=\"https://ecodomainregistry.statuspage.io/\">System status</a>",
-        "<a href=\"/whois/\">Whois</a>"
+        "<a href=\"https://ecodomainregistry.statuspage.io/\">System status</a>"
       ]
     },
     {
