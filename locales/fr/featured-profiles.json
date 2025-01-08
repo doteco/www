@@ -51,7 +51,7 @@
   },
   {
     "domain": "bleu.eco",
-    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et lits écologiques en utilisant des matériaux naturels à des prix raisonnables. 3 arbres sont plantés pour chaque matelas vendu.",
+    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et lits écologiques utilisant des matériaux naturels à des prix raisonnables. 3 arbres sont plantés pour chaque matelas vendu.",
     "img": "/img/champion_logos/bleu.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -332,7 +332,7 @@
   {
     "domain": "tim.eco",
     "story": "<a href=\"https://tim.eco/\">Tim Falls</a> est un dirigeant du secteur technologique passionné par la protection du monde naturel.",
-    "img": "/img/champion_logos/tim-tile.webp",
+    "img": "/img/champion_logos/tim-tile2.webp",
     "type": "individual",
     "sector": "Technology consulting & services",
     "link": "https://profiles.eco/tim.eco",
