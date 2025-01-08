@@ -77,7 +77,7 @@
     "sector": "Fashion & Apparel",
     "link": "https://profiles.eco/goodonyou.eco",
     "location": "Australien",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "geca.eco",
@@ -277,14 +277,14 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
     "location": "Vereinigtes Königreich",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "abs.eco",
     "story": "<a href=\"https://abs.eco/\">ABS</a> stellt Produkte unter Verwendung natürlicher Mikroorganismen her, um schädliche Chemikalien bei der Abfallbehandlung und Schadstoffsanierung zu ersetzen.",
     "img": "/img/champion_logos/abs2.webp",
     "type": "business",
-    "sector": "",
+    "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/abs.eco",
     "location": "Vereinigtes Königreich",
     "priority": ""
@@ -294,17 +294,17 @@
     "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> ist ein Thinktank, der Sport ressourcenschonend, emissionsarm, naturfreundlich und sozial verantwortlich denkt.",
     "img": "/img/champion_logos/sportainable-football2.webp",
     "type": "nonprofit",
-    "sector": "",
+    "sector": "Athletics",
     "link": "/champions/sportainable/",
     "location": "Deutschland",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "letsfixthis.eco",
     "story": "<a href=\"https://letsfixthis.eco\">„Let’s Fix This“</a> ist ein neues Buch voller praktischer Schritt-für-Schritt-Ideen, wie Sie etwas zum Umweltschutz beitragen können.",
     "img": "/img/champion_logos/letsfixthis-tile.png",
     "type": "individual",
-    "sector": "",
+    "sector": "Books & publications",
     "link": "https://profiles.eco/letsfixthis.eco",
     "location": "Kanada",
     "priority": "3"
@@ -314,28 +314,39 @@
     "story": "Der <a href=\"https://livelightly.eco\">Live Lightly</a> -Podcast erkundet, wie wir ein gesundes Leben im Einklang mit der Natur führen können.",
     "img": "/img/champion_logos/livelightly-tile.webp",
     "type": "individual",
-    "sector": "",
+    "sector": "Podcasts",
     "link": "https://profiles.eco/livelightly.eco",
     "location": "Vereinigte Staaten",
-    "priority": "2"
+    "priority": "4"
   },
   {
     "domain": "caspian.eco",
     "story": "Das <a href=\"https://caspian.eco\">Caspian Environment Consortium</a> arbeitet daran, im Kaspischen Meer Algen zu züchten, um CO2 zu binden und das lokale Ökosystem wiederherzustellen.",
     "img": "/img/champion_logos/caspian-tile.webp",
     "type": "business",
-    "sector": "",
+    "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/caspian.eco",
     "location": "Kasachstan",
-    "priority": "1"
+    "priority": "2"
   },
   {
     "domain": "tim.eco",
     "story": "<a href=\"https://tim.eco/\">Tim Falls</a> ist ein Technologiemanager, der sich leidenschaftlich für den Schutz der Natur einsetzt.",
     "img": "/img/champion_logos/tim-tile.webp",
     "type": "individual",
+    "sector": "Technology consulting & services",
     "link": "https://profiles.eco/tim.eco",
     "location": "Vereinigte Staaten",
     "priority": ""
+  },
+  {
+    "domain": "klim.eco",
+    "story": "<a href=\"https://klim.eco/\">Klim</a> unterstützt Landwirte bei der Einführung regenerativer landwirtschaftlicher Praktiken, um ihren CO2-Fußabdruck zu reduzieren und die Artenvielfalt zu bewahren.",
+    "img": "/img/champion_logos/klim-tile.webp",
+    "type": "business",
+    "sector": "Agriculture technology",
+    "link": "https://profiles.eco/klim.eco",
+    "location": "Deutschland",
+    "priority": "1"
   }
 ]
