@@ -51,7 +51,7 @@
   },
   {
     "domain": "bleu.eco",
-    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et lits écologiques utilisant des matériaux naturels à des prix raisonnables. 3 arbres sont plantés pour chaque matelas vendu.",
+    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et lits écologiques en utilisant des matériaux naturels à des prix raisonnables. 3 arbres sont plantés pour chaque matelas vendu.",
     "img": "/img/champion_logos/bleu.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -341,7 +341,7 @@
   },
   {
     "domain": "klim.eco",
-    "story": "<a href=\"https://klim.eco/\">Klim</a> accompagne les agriculteurs dans l’adoption de pratiques agricoles régénératrices pour réduire leur empreinte carbone et préserver la biodiversité.",
+    "story": "<a href=\"https://www.klim.eco/en\">Klim</a> accompagne les agriculteurs dans l’adoption de pratiques agricoles régénératrices pour réduire leur empreinte carbone et préserver la biodiversité.",
     "img": "/img/champion_logos/klim-tile.webp",
     "type": "business",
     "sector": "Agriculture technology",
