@@ -207,6 +207,7 @@ const ms = Metalsmith(__dirname)
       '/shop': '/',
       '/affiliate': '/',
       '/bthechange2017': '/',
+      '/bcorpeco': '/news/eco-is-certified-b-corp/',
       '/names/premiums/': '/search/',
       '/partners/institute-of-public-environmental-affairs/': 'https://org.eco/',
       '/news/the-world-needs-more-tigers-13eb6e5eb394': '/news/',
