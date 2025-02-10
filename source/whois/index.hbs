@@ -1,6 +1,6 @@
 ---
 title: '.eco Whois Lookup'
-description: 'Look up ownership of .eco domains'
+description: 'Check who has registered a .eco domain'
 page-path: whois/
 og-image: opengraph/tiger-og.jpg
 og-width: 1200
@@ -15,7 +15,7 @@ exclude: true
    <h1 class="search-header">.eco whois</h1>
 
    <form method="get" class="search-form" role="search">
-     <h2 class="subheader"><label for="input-search">Check who owns a .eco domain name.</label></h2>
+     <h2 class="subheader"><label for="input-search">Check who has registered a .eco domain name.</label></h2>
 
      <div class="row">
        <div class="col-md-2"></div>
@@ -73,7 +73,7 @@ function handleSearchError (ex) {
       ctx: 'Failed to fetch whois data'
     }
   })
-  document.querySelector('.whois-results').innerHTML = 'Unable to look up domain ownership. Please try again.'
+  document.querySelector('.whois-results').innerHTML = 'Unable to look up domain details. Please try again.'
 }
 
 document.querySelector('.search-form').addEventListener('submit', function (e) {
