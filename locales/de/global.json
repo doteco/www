@@ -40,7 +40,8 @@
   "members": {
     "cta": "Holen Sie Ihre .eco und treten Sie der Community bei",
     "text": "Tausende führende Unternehmen, gemeinnützige Organisationen, Regierungen und Einzelpersonen, denen unser Planet am Herzen liegt, haben sich für eine .eco-Domain für ihre Website entschieden.",
-    "head": "Wer benutzt .eco?"
+    "head": "Wer benutzt .eco?",
+    "learn-more": "Erfahren Sie mehr über {{domain}}"
   },
   "partners": {
     "head": "Partnerschaften",

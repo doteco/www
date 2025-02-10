@@ -11,7 +11,8 @@
   "members": {
     "head": "Who is using .eco?",
     "text": ".eco websites are used by thousands of leading businesses, non-profits, governments and individuals who care about our planet.",
-    "cta": "Get your .eco and join the community!"
+    "cta": "Get your .eco and join the community!",
+    "learn-more": "Learn more about {{domain}}"
   },
   "search": {
     "head": "Find your perfect .eco",

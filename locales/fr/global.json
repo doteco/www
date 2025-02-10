@@ -11,7 +11,8 @@
   "members": {
     "head": "Qui utilise .eco&nbsp;?",
     "text": "Des milliers d'entreprises, d'organisations à but non lucratif, de gouvernements et d'individus de premier plan qui se soucient de notre planète ont choisi un domaine .eco pour leur site web.",
-    "cta": "Obtenez votre .eco et rejoignez la communauté"
+    "cta": "Obtenez votre .eco et rejoignez la communauté",
+    "learn-more": "En savoir plus sur {{domain}}"
   },
   "search": {
     "head": "Trouvez votre .eco idéal",
