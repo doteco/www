@@ -7,14 +7,14 @@
     "q": "Who can register a .eco domain?",
     "a": ".eco is available for businesses, non-profits and individuals who are committed to working toward a sustainable future. A .eco website should have an environmental focus or clearly articulate the eco-friendly actions you are taking. If you have any concerns about whether you qualify, please review our <a href=\"/policies/eligibility/\">eligibility policies</a>."
   }, {
-    "q": "How do I buy a .eco domain?",
+    "q": "How do I get a .eco domain?",
     "a": "Start by <a href=\"/search/\">searching for the name that you’re looking for</a>. We don’t sell .eco domains directly, but there are over <strong>100 retailers</strong> who do. You can apply filters to find a retailer that meets your needs. We recommend choosing an <a href=\"/news/finding-a-green-domain-retailer/\">eco-friendly retailer</a> that runs energy efficient data centers using renewable energy."
   }, {
     "q": "What if my usual registrar does not carry .eco domains?",
     "a": "We have been working hard to ensure that .eco is carried by as many retailers as possible. But we know that there are still some retailers that don’t yet offer .eco. The best way to get them onboard is to hear from customers like you asking for .eco domains. Feel free to reach out via <a class=\"chat-link\" href=\"#\">chat</a> or <a href=\"mailto:support@go.eco\">email</a> about it and we can discuss some options. Also, just because a registrar says that a particular .eco domain is unavailable, it might mean that they don’t carry it. The best way to know for sure is to <a href=\"/search/\">search for your .eco domain here</a>."
   }, {
-    "q": "Can I use .eco domains with Squarespace, Shopify, Wix or Weebly?",
-    "a": "Yes! Many members of the .eco community have built and host their website using these platforms. You will need to register your .eco domain using an <a href=\"/search/\">approved .eco retailer</a> and then connect it to your website builder account. Here's how to do that with <a href=\"https://support.squarespace.com/hc/en-us/articles/205812378-Connecting-a-domain-to-your-Squarespace-site/\">Squarespace</a>, <a href=\"https://help.shopify.com/en/manual/domains/add-a-domain/connecting-domains/\">Shopify</a>, <a href=\"https://support.wix.com/en/article/pointing-vs-name-servers-domain-connection-methods/\">Wix</a> and <a href=\"https://www.weebly.com/app/help/us/en/topics/how-to-use-a-domain-you-purchased-elsewhere\">Weebly</a>."
+    "q": "What is a domain name registry?",
+    "a": "A registry is responsible for managing the database of all registered domain names for a top-level domain (TLD). Domain registries for most TLDs are certified and monitored by <a href=\"https://icann.org/\">ICANN</a>. <a href=\"https://bigroom.eco/\">Big Room Inc</a> is the <a href=\"https://www.iana.org/domains/root/db/eco.html\">approved registry for the .eco top-level domain</a>."
   }, {
     "q": "How much does a .eco domain cost?",
     "a": ".eco domain names typically cost <strong>US$60-125/year</strong>. While the <a href=\"https://support.go.eco/en/articles/1721350-how-much-does-eco-cost\">price varies between retailers</a>, it is worth considering the full value of the package that you are buying as domain retailers also offer web hosting, email and DNS services."
@@ -34,6 +34,12 @@
     "q": "What is the .eco trustmark?",
     "a": "The .eco trustmark is a badge that you can put on your website that shows that you are a member of the .eco community. It is designed to be placed alongside your environmental certifications or social media icons."
   }, {
+    "q": "Can I use .eco domains with Squarespace, Shopify, Wix or Weebly?",
+    "a": "Yes! Many members of the .eco community have built and host their website using these platforms. You will need to register your .eco domain using an <a href=\"/search/\">approved .eco retailer</a> and then connect it to your website builder account. Here's how to do that with <a href=\"https://support.squarespace.com/hc/en-us/articles/205812378-Connecting-a-domain-to-your-Squarespace-site/\">Squarespace</a>, <a href=\"https://help.shopify.com/en/manual/domains/add-a-domain/connecting-domains/\">Shopify</a>, <a href=\"https://support.wix.com/en/article/pointing-vs-name-servers-domain-connection-methods/\">Wix</a> and <a href=\"https://www.weebly.com/app/help/us/en/topics/how-to-use-a-domain-you-purchased-elsewhere\">Weebly</a>."
+  }, {
+    "q": "How do I know who has registered a .eco domain?",
+    "a": "<a href=\"/whois\">Whois</a> is the standard way to check who is using a domain name. .eco provides another level of transparency using the .eco profile system. Please check the <a href=\"https://profiles.eco/\">.eco profile</a> for the domain you are curious about."
+  }, {
     "q": "How do I become a .eco champion?",
     "a": "Our mission is to help support the .eco community. One way to do so is to amplify your message to help tell the world about the inspiring work you’re doing. We are happy to help promote and connect members of the .eco community through our .eco champions program. If you have a story you would like us to help tell, send us a note via <a class=\"chat-link\" href=\"#\">chat</a> or at <span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span>."
   }, {
@@ -43,8 +49,11 @@
     "q": "Can I use my .eco domain with Google Workspace?",
     "a": "100%. In fact, we use Google Workspace ourselves. <a href=\"https://support.google.com/a/topic/1611273\">Google makes it easy</a> to start sending email using your new .eco domain name. One additional benefit of using Google Workspace, is that you can use your <a href=\"https://support.go.eco/en/articles/6026888-how-do-i-sign-up-for-or-sign-in-to-my-eco-profile-account\">Google-backed account to log in</a> to manage your .eco profile."
   }, {
-    "q": "What happened to Google Domains? How do I manage the .eco domain I registered with Google Domains?",
-    "a": "In September 2023, <a href=\"https://www.squarespace.com/\">Squarespace</a> acquired all domain name registrations from Google Domains. For information on how this affects you and your .eco domain registration, please see <a href=\"https://support.google.com/domains/answer/13689670\">Google Domains Help article</a>."
+    "q": "Does .eco support Internationalized Domain Names (IDNs)?",
+    "a": "Not yet. Currently you can register .eco domain names that contain non-accented characters from A-Z, digits or hyphens."
+  }, {
+    "q": "Does .eco support DNS Security (DNSSEC)?",
+    "a": "Yes! You can enable DNSSEC for your .eco domain, if your registrar or DNS provider supports it."
   }, {
     "q": "Did we answer your question?",
     "a": "If not, don't hesitate to contact us directly by <a class=\"chat-link\" href=\"#\">chat</a> or at <span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span>."

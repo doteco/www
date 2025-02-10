@@ -1,65 +1,64 @@
 {
-  "title": "FAQ | .eco",
-  "description": "Häufig gestellte Fragen zu .eco-Domainnamen.",
-  "header": "Häufig gestellte Fragen",
-  "subhead": "Hier ist, was wir häufig zu .eco gefragt werden",
-  "faq": [
-    {
-      "q": "Wer kann eine .eco-Domain registrieren?",
-      "a": ".eco steht Unternehmen, gemeinnützigen Organisationen und Einzelpersonen zur Verfügung, die sich für eine nachhaltige Zukunft einsetzen. Eine .eco-Website sollte einen Umweltfokus haben oder die umweltfreundlichen Maßnahmen, die Sie ergreifen, klar artikulieren. Wenn Sie Bedenken haben, ob Sie sich qualifizieren, lesen Sie bitte unsere <a href=\"/policies/eligibility/\">Richtlinien zur Berechtigung</a> ."
-    },
-    {
-      "q": "Wie kaufe ich eine .eco-Domain?",
-      "a": "<a href=\"/search/\">Suchen Sie zunächst nach dem gesuchten Namen</a> . Wir verkaufen .eco-Domains nicht direkt, aber es gibt über <strong>100 Einzelhändler</strong> , die dies tun. Sie können Filter anwenden, um einen Händler zu finden, der Ihren Anforderungen entspricht. Wir empfehlen die Wahl eines <a href=\"/news/finding-a-green-domain-retailer/\">umweltfreundlichen Einzelhändlers</a> , der energieeffiziente Rechenzentren mit erneuerbarer Energie betreibt."
-    },
-    {
-      "q": "Was ist, wenn mein üblicher Registrar keine .eco-Domains führt?",
-      "a": "Wir haben hart daran gearbeitet, dass .eco von so vielen Einzelhändlern wie möglich getragen wird. Aber wir wissen, dass es immer noch einige Händler gibt, die .eco noch nicht anbieten. Der beste Weg, sie an Bord zu holen, besteht darin, von Kunden wie Ihnen zu hören, die nach .eco-Domains fragen. Fühlen Sie sich frei, uns per <a class=\"chat-link\" href=\"#\">Chat</a> oder <a href=\"mailto:support@go.eco\">E-Mail</a> zu kontaktieren, und wir können einige Optionen besprechen. Nur weil ein Registrar sagt, dass eine bestimmte .eco-Domain nicht verfügbar ist, kann dies bedeuten, dass er sie nicht führt. Der beste Weg, es sicher zu wissen, ist, <a href=\"/search/\">hier nach Ihrer .eco-Domain zu suchen</a> ."
-    },
-    {
-      "q": "Was kostet eine .eco-Domain?",
-      "a": ".eco-Domänennamen kosten in der Regel <strong>60–125 US-Dollar pro Jahr</strong> . Obwohl der <a href=\"https://support.go.eco/en/articles/1721350-how-much-does-eco-cost\">Preis zwischen den Einzelhändlern variiert</a> , lohnt es sich, den vollen Wert des Pakets zu berücksichtigen, das Sie kaufen, da Domain-Einzelhändler auch Webhosting-, E-Mail- und DNS-Dienste anbieten."
-    },
-    {
-      "q": "Was unterscheidet .eco von anderen Domains?",
-      "a": ".eco ist die einzige <a href=\"https://icannwiki.org/Community_TLD\">Community-Top-Level-Domain</a> , die sich ausschließlich auf die Unterstützung der globalen Umweltgemeinschaft konzentriert. Unsere Charta und Richtlinien wurden von einem Konsortium führender Umweltorganisationen entworfen. Wir versuchen, nach diesen Werten zu leben, indem wir eine der <a href=\"/impact/\">wenigen klimaneutralen Domainregistrierungen</a> sind, sodass Sie sicher sein können, dass die mit der Verwaltung Ihres Domainnamens verbundenen Emissionen berücksichtigt werden."
-    },
-    {
-      "q": "Was muss ich tun, um meinen .eco-Domainnamen zu verwenden?",
-      "a": "Im Gegensatz zu anderen Domainnamen müssen Sie einige einfache Schritte ausführen. Bevor Sie Ihren .eco-Domainnamen verwenden, müssen Sie <strong>ein Versprechen unterzeichnen</strong> , das sich zu positiven Veränderungen für den Planeten verpflichtet, und <strong>ein .eco-Profil erstellen, in dem</strong> die von Ihnen ergriffenen Umweltmaßnahmen offengelegt werden. Dadurch erhalten Sie die Mitgliedschaft in der .eco-Community – einer Gruppe gleichgesinnter Unternehmen, gemeinnütziger Organisationen und Einzelpersonen, die gemeinsam zum Schutz unserer Umwelt handeln. Halten Sie nach der Registrierung Ihres .eco-Domainnamens Ausschau nach einer E- <a href=\"https://support.go.eco/en/articles/702177-how-do-i-get-my-eco-profile-activation-email\">Mail von uns mit Anweisungen zur Aktivierung Ihres .eco-Profils</a> ."
-    },
-    {
-      "q": "Was ist ein .eco-Profil?",
-      "a": "Ein .eco-Profil ist eine leichtgewichtige, strukturierte Nachhaltigkeitsrichtlinie für Sie oder Ihre Organisation. Sie können es verwenden, um die von Ihnen ergriffenen nachhaltigen Maßnahmen, die Umweltzertifizierungen, die Sie besitzen, oder die umweltfreundlichen Organisationen, die Sie unterstützen, aufzulisten."
-    },
-    {
-      "q": "Wie erhalte ich die Aktivierungs-E-Mail zum Erstellen meines .eco-Profils?",
-      "a": "Nachdem Sie Ihre .eco-Domain registriert haben, sollten Sie automatisch eine Aktivierungs-E-Mail mit einem Link erhalten, mit dem Sie Ihr .eco-Profil erstellen können. Im Allgemeinen sollte die E-Mail innerhalb einer Stunde nach der Registrierung eintreffen. Aber wenn Sie es nicht sehen, enthält dieser <a href=\"https://support.go.eco/en/articles/702177-how-do-i-get-my-eco-profile-activation-email\">Artikel</a> einige Tipps, um sicherzustellen, dass Sie die E-Mail erhalten."
-    },
-    {
-      "q": "Was ist das .eco-Gütesiegel?",
-      "a": "Das .eco-Vertrauenssiegel ist ein Abzeichen, das Sie auf Ihrer Website anbringen können und das zeigt, dass Sie Mitglied der .eco-Community sind. Es ist so konzipiert, dass es neben Ihren Umweltzertifizierungen oder Social-Media-Symbolen platziert werden kann."
-    },
-    {
-      "q": "Wie werde ich .eco-Champion?",
-      "a": "Unsere Mission ist es, die .eco-Community zu unterstützen. Eine Möglichkeit, dies zu tun, besteht darin, Ihre Botschaft zu verstärken, um der Welt von Ihrer inspirierenden Arbeit zu erzählen. Wir freuen uns, Mitglieder der .eco-Community durch unser .eco-Champions-Programm zu fördern und zu verbinden. Wenn Sie eine Geschichte haben, bei der wir Ihnen helfen sollen, sie zu erzählen, senden Sie uns eine Nachricht per <a class=\"chat-link\" href=\"#\">Chat</a> oder unter<span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span> ."
-    },
-    {
-      "q": "Kann ich meine .eco-Domain auf mein .eco-Profil verweisen?",
-      "a": "Absolut! Wir wissen, dass es einige Zeit dauern kann, bis eine neue Website erstellt und veröffentlicht wird. In der Zwischenzeit können Sie Ihr .eco-Profil gerne als fertige Website verwenden. Die meisten Domain-Händler unterstützen Domain-Umleitungen als Teil ihres DNS-Dienstes. Sie können einfach den gesamten Datenverkehr von Ihrer Domain auf Ihr öffentliches .eco-Profil umleiten."
-    },
-    {
-      "q": "Kann ich .eco mit einem Website-Builder verwenden?",
-      "a": "Ja definitiv. Viele Mitglieder der .eco-Community verwenden .eco-Domains mit Shopify, Squarespace, Wix, Weebly oder Wordpress. Dieser <a href=\"https://support.go.eco/en/articles/943759-do-website-builders-like-squarespace-or-wordpress-work-with-eco-domain-names\">Artikel enthält Anweisungen</a> zum Konfigurieren dieser Dienste für die Arbeit mit Ihrer .eco-Domain."
-    },
-    {
-      "q": "Kann ich meine .eco-Domain mit Google Workspace verwenden?",
-      "a": "100%. Tatsächlich verwenden wir selbst Google Workspace. <a href=\"https://support.google.com/a/topic/1611273\">Google macht es Ihnen leicht</a> , E-Mails mit Ihrem neuen .eco-Domainnamen zu versenden. Ein zusätzlicher Vorteil der Verwendung von Google Workspace besteht darin, dass Sie sich mit Ihrem von <a href=\"https://support.go.eco/en/articles/6026888-how-do-i-sign-up-for-or-sign-in-to-my-eco-profile-account\">Google unterstützten Konto anmelden</a> können, um Ihr .eco-Profil zu verwalten."
-    },
-    {
-      "q": "Was ist mit Google Domains passiert? Wie verwalte ich die .eco-Domain, die ich bei Google Domains registriert habe?",
-      "a": "Im September 2023 erwarb <a href=\"https://www.squarespace.com/\">Squarespace</a> alle Domainnamenregistrierungen von Google Domains. Informationen darüber, welche Auswirkungen dies auf Sie und Ihre .eco-Domainregistrierung hat, finden Sie <a href=\"https://support.google.com/domains/answer/13689670\">im Hilfeartikel zu Google Domains</a>."
-    }
-  ],
-  "next-cta": "Was unterscheidet .eco von anderen Domains?"
+"title": "Häufig gestellte Fragen (FAQ) zu .eco",
+"description": "Alles, was Sie über .eco-Domänennamen wissen möchten.",
+"header": "Häufig gestellte Fragen",
+"subhead": "Hier finden Sie die Fragen, die uns häufig zu .eco gestellt werden",
+"faq": [{
+"q": "Wer kann eine .eco-Domäne registrieren?",
+"a": ".eco ist für Unternehmen, gemeinnützige Organisationen und Einzelpersonen verfügbar, die sich für eine nachhaltige Zukunft einsetzen. Eine .eco-Website sollte einen Umweltschwerpunkt haben oder die umweltfreundlichen Maßnahmen, die Sie ergreifen, klar darlegen. Wenn Sie Zweifel haben, ob Sie qualifiziert sind, lesen Sie bitte unsere <a href=\"/policies/eligibility/\">Berechtigungsrichtlinien</a>."
+}, {
+"q": "Wie bekomme ich eine .eco-Domain?",
+"a": "Beginnen Sie mit der <a href=\"/search/\">Suche nach dem gewünschten Namen</a>. Wir verkaufen .eco-Domains nicht direkt, aber es gibt über <strong>100 Einzelhändler</strong>, die das tun. Sie können Filter anwenden, um einen Einzelhändler zu finden, der Ihren Anforderungen entspricht. Wir empfehlen, einen <a href=\"/news/finding-a-green-domain-retailer/\">umweltfreundlichen Einzelhändler</a> auszuwählen, der energieeffiziente Rechenzentren mit erneuerbarer Energie betreibt."
+}, {
+"q": "Was ist, wenn mein üblicher Registrar keine .eco-Domains führt?",
+"a": "Wir haben hart daran gearbeitet, dass .eco von so vielen Einzelhändlern wie möglich geführt wird. Aber wir wissen, dass es immer noch einige Einzelhändler gibt, die .eco noch nicht anbieten. Der beste Weg, sie an Bord zu holen, ist, von Kunden wie Ihnen zu hören, die nach .eco-Domains fragen. Kontaktieren Sie uns gerne per <a class=\"chat-link\" href=\"#\">Chat</a> oder <a href=\"mailto:support@go.eco\">E-Mail</a> und wir können einige Optionen besprechen. Nur weil ein Registrar sagt, dass eine bestimmte .eco-Domain nicht verfügbar ist, kann das auch bedeuten, dass er sie nicht führt. Um sicherzugehen, <a href=\"/search/\">suchen Sie hier nach Ihrer .eco-Domain</a>."
+}, {
+"q": "Was ist ein Domainnamen-Register?",
+"a": "Ein Register ist für die Verwaltung der Datenbank aller registrierten Domainnamen für eine Top-Level-Domain (TLD) verantwortlich. Domainregister für die meisten TLDs werden von <a href=\"https://icann.org/\">ICANN</a> zertifiziert und überwacht. <a href=\"https://bigroom.eco/\">Big Room Inc</a> ist das <a href=\"https://www.iana.org/domains/root/db/eco.html\">zugelassene Register für die Top-Level-Domain .eco</a>."
+}, {
+"q": "Wie viel kostet eine .eco-Domain?",
+"a": ".eco-Domainnamen kosten normalerweise <strong>60-125 US-Dollar pro Jahr</strong>. Obwohl der <a href=\"https://support.go.eco/en/articles/1721350-how-much-does-eco-cost\">Preis je nach Händler variiert</a>, lohnt es sich, den Gesamtwert des Pakets zu berücksichtigen, das Sie kaufen, da Domainhändler auch Webhosting, E-Mail und DNS-Dienste anbieten."
+}, {
+"q": "Was unterscheidet .eco von anderen Domains?",
+"a": ".eco ist die einzige <a href=\"https://icannwiki.org/Community_TLD\">Community-Top-Level-Domain</a>, deren einziger Fokus auf der Unterstützung der globalen Umweltgemeinschaft liegt. Unsere Charta und Richtlinien wurden von einem Konsortium führender Umweltorganisationen entworfen. Wir versuchen, nach diesen Werten zu leben, indem wir eines der wenigen <a href=\"/impact/\">CO2-neutralen Domain-Register</a> sind. Sie können sich also sicher sein, dass die mit der Verwaltung Ihres Domain-Namens verbundenen Emissionen berücksichtigt werden."
+}, {
+"q": "Was muss ich tun, um meinen .eco-Domänennamen zu verwenden?",
+"a": "Im Gegensatz zu anderen Domänennamen müssen Sie ein paar einfache Schritte ausführen. Bevor Sie Ihren .eco-Domänennamen verwenden, müssen Sie <strong>eine Verpflichtung unterzeichnen</strong>, in der Sie sich zu positiven Veränderungen für den Planeten verpflichten, und <strong>ein .eco-Profil erstellen</strong>, in dem Sie Ihre Umweltmaßnahmen offenlegen. Dadurch werden Sie Mitglied der .eco-Community – einer Gruppe gleichgesinnter Unternehmen, gemeinnütziger Organisationen und Einzelpersonen, die gemeinsam zum Schutz unserer Umwelt handeln. Achten Sie nach der Registrierung Ihres .eco-Domänennamens auf eine <a href=\"https://support.go.eco/en/articles/702177-how-do-i-get-my-eco-profile-activation-email\">E-Mail von uns mit Anweisungen zur Aktivierung Ihres .eco-Profils</a>."
+}, {
+"q": "Was ist ein .eco-Profil?",
+"a": "Ein .eco-Profil ist eine einfache, strukturierte Nachhaltigkeitsrichtlinie für Sie oder Ihre Organisation. Sie können darin Ihre nachhaltigen Maßnahmen, Ihre Umweltzertifizierungen oder die umweltfreundlichen Organisationen auflisten, die Sie unterstützen."
+}, {
+"q": "Wie erhalte ich die Aktivierungs-E-Mail zum Erstellen meines .eco-Profils?",
+"a": "Nachdem Sie Ihre .eco-Domain registriert haben, sollten Sie automatisch eine Aktivierungs-E-Mail mit einem Link erhalten, mit dem Sie Ihr .eco-Profil erstellen können. Normalerweise sollte die E-Mail innerhalb einer Stunde nach der Registrierung eintreffen. Wenn Sie sie jedoch nicht sehen, finden Sie in diesem <a href=\"https://support.go.eco/en/articles/702177-how-do-i-get-my-eco-profile-activation-email\">Artikel</a> einige Tipps, um sicherzustellen, dass Sie die E-Mail erhalten."
+}, {
+"q": "Was ist das .eco Trustmark?",
+"a": "Das .eco Trustmark ist ein Abzeichen, das Sie auf Ihrer Website platzieren können und das zeigt, dass Sie Mitglied der .eco-Community sind. Es ist so konzipiert, dass es neben Ihren Umweltzertifizierungen oder Social-Media-Symbolen platziert werden kann."
+}, {
+"q": "Kann ich .eco-Domains mit Squarespace, Shopify, Wix oder Weebly verwenden?",
+"a": "Ja! Viele Mitglieder der .eco-Community haben ihre Website mit diesen Plattformen erstellt und gehostet. Sie müssen Ihre .eco-Domain bei einem <a href=\"/search/\">zugelassenen .eco-Händler</a> registrieren und sie dann mit Ihrem Website-Builder-Konto verbinden. So geht das mit <a href=\"https://support.squarespace.com/hc/en-us/articles/205812378-Connecting-a-domain-to-your-Squarespace-site/\">Squarespace</a>, <a href=\"https://help.shopify.com/en/manual/domains/add-a-domain/connecting-domains/\">Shopify</a>, <a href=\"https://support.wix.com/en/article/pointing-vs-name-servers-domain-connection-methods/\">Wix</a> und <a href=\"https://www.weebly.com/app/help/us/en/topics/how-to-use-a-domain-you-purchased-elsewhere\">Weebly</a>."
+}, {
+"q": "Wie erfahre ich, wer eine .eco-Domain registriert hat?",
+"a": "<a href=\"/whois\">Whois</a> ist die Standardmethode, um zu prüfen, wer einen Domainnamen verwendet. .eco bietet mithilfe des .eco-Profilsystems eine weitere Ebene der Transparenz. Bitte prüfen Sie das <a href=\"https://profiles.eco/\">.eco-Profil</a> für die Domain, die Sie interessiert."
+}, {
+"q": "Wie werde ich ein .eco-Champion?",
+"a": "Unsere Mission ist es, die .eco-Community zu unterstützen. Eine Möglichkeit dazu besteht darin, Ihre Botschaft zu verbreiten und der Welt von Ihrer inspirierenden Arbeit zu erzählen. Wir freuen uns, Mitglieder der .eco-Community durch unser .eco-Champions-Programm zu fördern und zu vernetzen. Wenn Sie eine Geschichte haben, die wir erzählen sollen, senden Sie uns eine Nachricht per <a class=\"chat-link\" href=\"#\">Chat</a> oder an <span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span>."
+}, {
+"q": "Kann ich meine .eco-Domain auf mein .eco-Profil verweisen?",
+"a": "Absolut! Wir wissen, dass es einige Zeit dauern kann, bis eine neue Website erstellt und gestartet ist. In der Zwischenzeit können Sie Ihr .eco-Profil gerne als fertige Website verwenden. Die meisten Domain-Händler unterstützen Domain-Weiterleitungen als Teil ihres DNS-Dienstes. Sie können einfach den gesamten Datenverkehr von Ihrer Domain auf Ihr öffentliches .eco-Profil umleiten."
+}, {
+"q": "Kann ich meine .eco-Domain mit Google Workspace verwenden?",
+"a": "100 %. Tatsächlich verwenden wir Google Workspace selbst. <a href=\"https://support.google.com/a/topic/1611273\">Google macht es einfach</a>, mit Ihrem neuen .eco-Domainnamen E-Mails zu versenden. Ein weiterer Vorteil der Verwendung von Google Workspace besteht darin, dass Sie sich mit Ihrem <a href=\"https://support.go.eco/en/articles/6026888-how-do-i-sign-up-for-or-sign-in-to-my-eco-profile-account\">Google-gestützten Konto anmelden</a> können, um Ihr .eco-Profil zu verwalten."
+
+}, {
+"q": "Unterstützt .eco Internationalisierte Domänennamen (IDNs)?",
+"a": "Noch nicht. Derzeit können Sie .eco-Domänennamen registrieren, die nicht akzentuierte Zeichen von A-Z, Ziffern oder Bindestriche enthalten."
+}, {
+"q": "Unterstützt .eco DNS-Sicherheit (DNSSEC)?",
+"a": "Ja! Sie können DNSSEC für Ihre .eco-Domäne aktivieren, wenn Ihr Registrar oder DNS-Anbieter dies unterstützt."
+}, {
+"q": "Haben wir Ihre Frage beantwortet?",
+"a": "Wenn nicht, zögern Sie nicht, uns direkt per <a class=\"chat-link\" href=\"#\">Chat</a> oder unter <span class=\"email-link\" data-name=\"support\" data-domain=\"go.eco\"></span> zu kontaktieren."
+}
+],
+"next-cta": "Was unterscheidet .eco von anderen Domains?"
 }
