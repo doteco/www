@@ -1,6 +1,6 @@
 import sharp from 'sharp'
 
-const quality = 30
+const quality = 50
 
 function outputOptions (format) {
   switch (format) {
