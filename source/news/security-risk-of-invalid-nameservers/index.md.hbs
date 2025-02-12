@@ -54,7 +54,7 @@ We checked all of the nameservers associated with .eco domains and found **one**
 
 We also checked if any nameservers were incorrectly pointed at `.co` instead of `.com` or `.or` instead of `.org`, but didn’t find any. But that’s not to say we didn’t find some erroneous nameservers.
 
-We found **48** unique cases of nameservers that did not resolve. In other words, they pointed to domain names or subdomains that didn’t exist. In some cases this was due to typos or copy-paste errors and we contacted the registrants to alert them to this. There were other cases where people likely didn’t understand what a nameserver is and specified nameservers under their own domain (which would never resolve). 
+In addition, we found **48** unique cases of nameservers that did not resolve. In other words, they pointed to domain names or subdomains that didn’t exist. In some cases this was due to typos or copy-paste errors and we contacted the registrants to alert them to this. There were other cases where people likely didn’t understand what a nameserver is and specified nameservers under their own domain (which would never resolve). 
 
 There were also many cases of registrars and DNS providers using invalid subdomains. In some cases, this is likely due to nameservers that no longer exist (eg, `n1.*` and `n2.*` are valid, but `n3.*` is no longer used) - even large DNS providers have done this. In other cases, registrars used invalid subdomains to indicate that a domain has expired (eg. `domain.name.has.expired.*`). Both of these cases are odd as presumably the DNS provider would want to ensure that traffic to these nameservers is handled appropriately. However, as the registrar or DNS provider controlled the domain name, there isn’t much of a security risk.
 
@@ -76,7 +76,7 @@ This analysis does illustrate that there is room for improvement. Registrars sho
 
 As the domain registry, we do some basic validation to ensure that the entered nameserver is valid (eg. contains allowed characters and is formatted correctly). However, as the user is interacting directly with the registrar, the registrar is in the best position to provide feedback to the user if the nameserver is invalid.
 
-Recognizing that invalid nameservers do get entered for .eco domains, we pledge to continue to monitor the .eco namespace to alert members of the .eco community if this happens to their domain.
+Recognizing that invalid nameservers do get entered for .eco domains, we'll continue to monitor the .eco namespace to alert members of the .eco community if this happens to their domain.
 
 As always if you have any suggestions or comments on this, please <a class="chat-link" href="#">feel free to let us know</a>.
 
