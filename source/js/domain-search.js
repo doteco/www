@@ -18,7 +18,7 @@ window.domainSearch = function (config) {
 
   function uniqueFilterItems (registrars, field, labels = {}) {
     const itemsAll = registrars.reduce((arr, registrar) => {
-      registrar[field].forEach(v => (arr.push(v)))
+      registrar[field]?.forEach(v => (arr.push(v)))
       return arr
     }, [])
     const itemsUnique = Array.from(new Set(itemsAll)).filter(item => item.length > 0)
@@ -62,7 +62,11 @@ window.domainSearch = function (config) {
       filteredRegistrars = filteredRegistrars.filter(registrar => registrar.currencies.includes(currencyFilter))
     }
     if (policyFilter.length > 0) {
-      filteredRegistrars = filteredRegistrars.filter(registrar => registrar.envPolicy)
+      if (policyFilter === 'Yes') {
+        filteredRegistrars = filteredRegistrars.filter(registrar => registrar.envPolicy)
+      } else {
+        filteredRegistrars = filteredRegistrars.filter(registrar => registrar.ecoAttributes?.includes(policyFilter))
+      }
     }
     return filteredRegistrars
   }
@@ -78,7 +82,8 @@ window.domainSearch = function (config) {
     const languages = uniqueFilterItems(registrars, 'languages')
     const currencies = uniqueFilterItems(registrars, 'currencies')
     const regions = uniqueFilterItems(registrars, 'region', config.regionLabels)
-    const envPolicy = [{ value: 'Yes', label: config.envPolicyLabels.Yes }]
+    const envPolicy = uniqueFilterItems(registrars, 'ecoAttributes')
+    envPolicy.unshift({ value: 'Yes', label: config.envPolicyLabels.Yes })
 
     const filterLabels = config.filterLabels
     const filterHelp = config.filterHelp
