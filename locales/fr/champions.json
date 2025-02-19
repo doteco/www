@@ -4,6 +4,12 @@
   "head": "Rencontrez les champions du .eco",
   "subhead": "Ces entreprises, organisations à but non lucratif et personnes du monde entier partagent notre vision d'une communauté en ligne connectée à l'échelle mondiale et engagée dans la durabilité environnementale. Nous sommes honorés de reconnaître ici leur esprit d'innovation.",
   "wrapup": "Chez .eco, nous avons la chance d'être entourés d'une communauté d'entreprises, d'organisations et de particuliers qui travaillent dur pour protéger notre planète. Nous sommes honorés de faire connaître le travail formidable qu'ils accomplissent. Si vous êtes membre de la communauté .eco et que vous souhaitez être mis en avant, [contactez-nous](mailto:support@bigroom.eco).",
+  "details": {
+    "title": "détails du champion .eco",
+    "domain": "Domaine",
+    "since": "Membre de la communauté depuis",
+    "retailer": "Détaillant de domaine"
+  },
   "positiveproject": {
     "domain": "thepositiveproject.eco",
     "title": "The Positive Project - .eco champion",
@@ -52,6 +58,6 @@
       }
     ],
     "retailer": "Infomaniak",
-    "since": "March 2022"
+    "since": "Mars 2022"
   }
 }
