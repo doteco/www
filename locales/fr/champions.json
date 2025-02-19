@@ -2,5 +2,56 @@
   "title": "Rencontrez les champions .eco",
   "description": "Ces membres .eco partagent notre vision d'une communauté en ligne connectée à l'échelle mondiale et engagée dans la durabilité environnementale.",
   "head": "Rencontrez les champions du .eco",
-  "subhead": "Ces entreprises, organisations à but non lucratif et personnes du monde entier partagent notre vision d'une communauté en ligne connectée à l'échelle mondiale et engagée dans la durabilité environnementale. Nous sommes honorés de reconnaître ici leur esprit d'innovation."
+  "subhead": "Ces entreprises, organisations à but non lucratif et personnes du monde entier partagent notre vision d'une communauté en ligne connectée à l'échelle mondiale et engagée dans la durabilité environnementale. Nous sommes honorés de reconnaître ici leur esprit d'innovation.",
+  "wrapup": "Chez .eco, nous avons la chance d'être entourés d'une communauté d'entreprises, d'organisations et de particuliers qui travaillent dur pour protéger notre planète. Nous sommes honorés de faire connaître le travail formidable qu'ils accomplissent. Si vous êtes membre de la communauté .eco et que vous souhaitez être mis en avant, [contactez-nous](mailto:support@bigroom.eco).",
+  "positiveproject": {
+    "domain": "thepositiveproject.eco",
+    "title": "The Positive Project - .eco champion",
+    "alt": "Vue de la vallée en Suisse et logo B Corp",
+    "description": "Comment un cabinet de conseil suisse aide les organisations à devenir plus durables en traçant la voie vers un avenir plus positif.",
+    "excerpt": "Comment aidez-vous les organisations à devenir plus durables ? Nous avons discuté avec <a href=\"https://thepositiveproject.eco/\">The Positive Project</a> de la manière dont ils s'y prennent.",
+    "intro": "_Nous avons discuté avec **Margot Monnier**, consultante et directrice du développement durable chez <a href=\"https://thepositiveproject.eco/\">The Positive Project</a>, pour aider les PME dans leur parcours vers le développement durable._",
+    "questions": [
+      {
+        "q": "Qu'est-ce que The Positive Project ? D'où vient ce nom ?",
+        "a": [
+          "Nous sommes une société suisse d’accompagnement et de conseil en durabilité pour tout type d’organisation. Nous croyons fermement que les enjeux globaux d’aujourd’hui reflètent une nécessité de redéfinir le rôle et la mission des entreprises, et nous dirigeons nos efforts pour les accompagner dans cette réflexion et dans cette transformation.\n",
+          "Notre nom “The Positive Project” symbolise notre conviction que, dans une société bombardée d’informations négatives et douloureuses, la durabilité représente également une opportunité de générer du positif pour les individus et pour la planète, et de se reconnecter à ce qui nous rend véritablement heureux.",
+          "![L'équipe de The Positive Project](/img/champion_logos/thepositiveproject-team.webp)"
+        ]
+      },
+      {
+        "q": "Comment travaillez-vous avec les entreprises pour raconter leur histoire en matière de développement durable ?",
+        "a": [
+          "Notre travail commence toujours par un échange avec l'entreprise sur ses attentes et besoins, et nous définissons le contenu et déroulé de la mission en fonction de cet échange. Nous adoptons une approche collaborative pour combiner les besoins de l’entreprise, ce que l’on peut apporter, et ce qui est pertinent d’un point de vue scientifique afin de déterminer où et comment nous pouvons être le plus utiles. Notre approche est systémique, ce qui signifie que nous prenons en considération les activités de l’entreprise, sa structure de gouvernance, son modèle d’affaires et sa stratégie à long terme."
+        ]
+      },
+      {
+        "q": "Quels sont les plus grands défis auxquels sont confrontées les PME européennes pour se préparer aux défis environnementaux présents et futurs ?",
+        "a": [
+          "Nous avons remarqué dans notre travail qu’en dehors de certaines entreprises pionnières, la majorité des PMEs manquent cruellement de connaissances sur ce que comprend le concept de durabilité, quelles réglementations et normes vont entrer en vigueur et comment cela va les impacter à court, moyen et long terme. Il en résulte notamment un manque de soutien des organes dirigeants et une difficulté à mobiliser les ressources nécessaires pour adresser ces enjeux, ce qui laisse ces organisations vulnérables et non-préparées pour ce qui les attend."
+        ]
+      },
+      {
+        "q": "Vous êtes une entreprise certifiée B Corp et vous avez aidé d'autres personnes à obtenir leur certification B Corp. Selon vos clients, quelle est la partie la plus difficile de l'obtention de la certification ?",
+        "a": [
+          "Naviguer les implications légales et les aspects logistiques de la certification peut être difficile, en particuliers si des entreprises ont des activités dans plusieurs pays ou ont une structure interne particulière. Nous les accompagnons afin de récolter et préparer les bons documents pour chaque question et clarifions les aspects plus techniques. Nous pouvons aussi anticiper les barrières potentielles à la certification et proposer des solutions adaptées aux entreprises, ainsi que les préparer aux questions supplémentaires auxquelles elles pourraient faire face."
+        ]
+      },
+      {
+        "q": "Et quel est, selon eux, le plus grand avantage de devenir une B Corp ?",
+        "a": [
+          "Faire partie de la communauté B Corp offre un accès précieux à un large réseau d’organisations et peut ainsi donner lieux à de nouvelles opportunités pour ces entreprises. De plus, obtenir la certification envoie également un message fort à leurs parties prenantes que l’entreprise traite les enjeux de durabilité comme une priorité et s’engage à avoir un impact positif au-delà de la recherche du profit."
+        ]
+      },
+      {
+        "q": "Pourquoi avez-vous choisi un domaine .eco pour votre cabinet de conseil ?",
+        "a": [
+          "En tant qu’entreprise à impact, nous cherchons toujours à adopter une approche systémique et une cohérence entre notre mission et nos actes. Cela comprend également tout ce qui soutient notre existence et nos activités: notre site internet, le stockage de nos données, notre communication interne et externe, etc. Nous désirons adopter des solutions alignées avec nos valeurs et que nous assumons fièrement, ce qui est le cas pour .eco."
+        ]
+      }
+    ],
+    "retailer": "Infomaniak",
+    "since": "March 2022"
+  }
 }

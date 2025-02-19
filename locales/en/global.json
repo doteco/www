@@ -29,6 +29,11 @@
     "light": "Light",
     "toggle": "Theme toggle"
   },
+  "article": {
+    "published": "Published on {{date}}",
+    "updated": "Last updated:",
+    "author": "Written by {{author}}"
+  },
   "footer": [
     {
       "head": "Help",

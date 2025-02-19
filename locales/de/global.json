@@ -57,6 +57,11 @@
     "light": "Helles",
     "toggle": "Thema umschalten"
   },
+  "article": {
+    "published": "Veröffentlicht am {{date}}",
+    "updated": "Aktualisiert am",
+    "author": "Geschrieben von {{author}}"
+  },
   "profile-types": {
     "business": "Geschäft",
     "nonprofit": "Gemeinnützig",

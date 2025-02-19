@@ -83,5 +83,55 @@
     ],
     "retailer": "United Domains",
     "since": "January 2022"
+  },
+  "positiveproject": {
+    "domain": "thepositiveproject.eco",
+    "title": "The Positive Project - .eco champion",
+    "alt": "View of valley in Switzerland and B Corp logo",
+    "description": "How a Swiss boutique consultancy helps organisations to become more sustainable by charting a path to a more positive future.",
+    "excerpt": "How do you help organisations become more sustainable? We spoke with <a href=\"https://thepositiveproject.eco/\">The Positive Project</a> about how they are doing this.",
+    "intro": "_We spoke to **Margot Monnier**, Consultant and Chief Sustainability Officer at <a href=\"https://thepositiveproject.eco/\">The Positive Project</a>, about helping SMEs on their sustainability journey._",
+    "questions": [
+      {
+        "q": "What is The Positive Project? Where did the name come from?",
+        "a": [
+          "We are a Swiss boutique consultancy assisting organizations of all kinds and sizes in their sustainability journey. We strongly believe that the current global challenges reflect a necessity to redefine the role and purpose of companies, and we have made it our mission to accompany them in this transformation.\n",
+          "The name The Positive Project was chosen by our founder Sara and reflects our conviction that, in a society that is bombarded with heavy and negative information, sustainability is also an opportunity to foster positive impacts for humans and for the planet, and to reconnect with what makes us truly happy.",
+          "![The team at The Positive Project](/img/champion_logos/thepositiveproject-team.webp)"
+        ]
+      },
+      {
+        "q": "How do you work with companies to tell their sustainability story?",
+        "a": [
+          "Our work always starts with a discussion about the company’s expectations and we define the mission together. We adopt a collaborative approach and work to combine what the company wants, what we can provide, and what makes sense from a scientific standpoint to determine where and how we could be most useful. Our approach is systemic, meaning that we take into consideration the company’s activities, governance structure, business model and long-term strategy."
+        ]
+      },
+      {
+        "q": "What are the greatest challenges facing European SMEs preparing for present and future environmental challenges?",
+        "a": [
+          "What we notice in our work is that, apart from some pioneering companies, most SMEs lack crucial knowledge of what sustainability covers, what regulations will come into effect and how it will impact them. Consequently, they struggle to find support and mobilize resources to effectively address these challenges, leaving them vulnerable and greatly unprepared for what’s to come."
+        ]
+      },
+      {
+        "q": "You are a certified B Corp and you have helped others with their B Corp certification. What do your clients find to be the hardest part of getting certified?",
+        "a": [
+          "Navigating the legal implications and logistical aspects of the certification is not always easy, especially if companies operate in various countries or have a particular structure. We assist in compiling the right documents for each question and can clarify the technical aspects. We can also anticipate potential barriers to certification and present companies with relevant solutions, as well as prepare them for additional questions that they might face."
+        ]
+      },
+      {
+        "q": "And what have they found to be the greatest benefit of becoming a B Corp?",
+        "a": [
+          "Being part of the B Corp community gives them access to a wide network of organizations and can unlock new opportunities for those companies. Moreover, getting the certification also sends a strong signal to their stakeholders that sustainability is a priority and that they are committed to having a positive impact beyond profit. "
+        ]
+      },
+      {
+        "q": "Why did you choose a .eco domain for your consultancy?",
+        "a": [
+          "As an impact-driven company, we are always looking to have that systemic mindset and coherence between our mission and our actions. This is also true for everything that supports our existence and activities: website, data storage, communication, etc. We always look for the solutions that align with our values and which we will carry with pride, and this is the case for .eco."
+        ]
+      }
+    ],
+    "retailer": "Infomaniak",
+    "since": "March 2022"
   }
 }

@@ -23,6 +23,11 @@
     "champions": "Champions .eco",
     "nav": "Entête"
   },
+  "article": {
+    "published": "Publié le {{date}}",
+    "updated": "Mis à jour le",
+    "author": "Écrit par {{author}}"
+  },
   "footer": [
     {
       "head": "Aide",
