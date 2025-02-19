@@ -191,7 +191,7 @@
   },
   {
     "domain": "aem.eco",
-    "story": "<a href=\"https://aem.eco\">AEM</a> befähigt Gemeinschaften und Organisationen, angesichts zunehmender Umweltrisiken zu überleben und zu gedeihen. Durch den Einsatz von Sensornetzwerken und die Bereitstellung von Analysen ist AEM die wesentliche Quelle für Umwelteinblicke.",
+    "story": "<a href=\"https://aem.eco\">AEM</a> ermöglicht es Gemeinschaften und Organisationen, angesichts zunehmender Umweltrisiken zu überleben und zu gedeihen. Durch den Einsatz von Sensornetzwerken und die Bereitstellung von Analysen ist AEM die wesentliche Quelle für Umwelteinblicke.",
     "img": "/img/champion_logos/aem.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -297,7 +297,7 @@
     "sector": "Athletics",
     "link": "/champions/sportainable/",
     "location": "Deutschland",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "letsfixthis.eco",
@@ -307,7 +307,7 @@
     "sector": "Books & publications",
     "link": "https://profiles.eco/letsfixthis.eco",
     "location": "Kanada",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "livelightly.eco",
@@ -317,7 +317,7 @@
     "sector": "Podcasts",
     "link": "https://profiles.eco/livelightly.eco",
     "location": "Vereinigte Staaten",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "caspian.eco",
@@ -327,7 +327,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/caspian.eco",
     "location": "Kasachstan",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "tim.eco",
@@ -347,6 +347,16 @@
     "sector": "Agriculture technology",
     "link": "https://profiles.eco/klim.eco",
     "location": "Deutschland",
+    "priority": "2"
+  },
+  {
+    "domain": "thepositiveproject.eco",
+    "story": "<a href=\"https://thepositiveproject.eco/\">The Positive Project</a> hilft Organisationen, einen Weg in eine nachhaltigere Zukunft zu finden.",
+    "img": "/img/champion_logos/thepositiveproject-profile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/thepositiveproject.eco",
+    "location": "Schweiz",
     "priority": "1"
   }
 ]

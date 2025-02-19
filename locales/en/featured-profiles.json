@@ -297,7 +297,7 @@
     "sector": "Athletics",
     "link": "/champions/sportainable/",
     "location": "Germany",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "letsfixthis.eco",
@@ -307,7 +307,7 @@
     "sector": "Books & publications",
     "link": "/champions/letsfixthis/",
     "location": "Canada",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "livelightly.eco",
@@ -317,7 +317,7 @@
     "sector": "Podcasts",
     "link": "/champions/livelightly/",
     "location": "United States",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "caspian.eco",
@@ -327,7 +327,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/caspian/",
     "location": "Kazakhstan",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "tim.eco",
@@ -347,6 +347,16 @@
     "sector": "Agriculture technology",
     "link": "/champions/klim/",
     "location": "Germany",
+    "priority": "2"
+  },
+  {
+    "domain": "thepositiveproject.eco",
+    "story": "<a href=\"https://thepositiveproject.eco/\">The Positive Project</a> helps organisations chart a path to a more sustainable future.",
+    "img": "/img/champion_logos/thepositiveproject-profile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "/champions/the-positive-project/",
+    "location": "Switzerland",
     "priority": "1"
   }
 ]
