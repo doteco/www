@@ -51,7 +51,7 @@
   },
   {
     "domain": "bleu.eco",
-    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et lits écologiques en utilisant des matériaux naturels à des prix raisonnables. 3 arbres sont plantés pour chaque matelas vendu.",
+    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et lits écologiques utilisant des matériaux naturels à des prix raisonnables. 3 arbres sont plantés pour chaque matelas vendu.",
     "img": "/img/champion_logos/bleu.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -71,7 +71,7 @@
   },
   {
     "domain": "goodonyou.eco",
-    "story": "Les choix d&#39;achat ont un impact considérable sur la manière dont les entreprises traitent les personnes, la planète et les animaux. L&#39;application <a href=\"https://goodonyou.eco/\">Good On You</a> vous permet de faire vos achats en toute simplicité.",
+    "story": "Les choix d&#39;achat ont un impact considérable sur la manière dont les entreprises traitent les personnes, la planète et les animaux. L&#39;application <span class=\"notranslate\"><a href=\"https://goodonyou.eco/\">Good On You</a></span> vous permet de faire vos achats en toute simplicité.",
     "img": "/img/champion_logos/goodonyou.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -117,16 +117,6 @@
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/nuvola.eco",
     "location": "Suisse",
-    "priority": ""
-  },
-  {
-    "domain": "brightly.eco",
-    "story": "<a href=\"https://brightly.eco\">Brightly</a> est la destination n°1 pour découvrir de nouvelles marques et de nouveaux produits respectueux de l&#39;environnement. Brightly inspire chaque jour des millions d&#39;utilisateurs à adopter un mode de vie durable.",
-    "img": "/img/champion_logos/brightly.webp",
-    "type": "business",
-    "sector": "Consumer goods",
-    "link": "https://profiles.eco/brightly.eco",
-    "location": "États-Unis",
     "priority": ""
   },
   {
@@ -301,7 +291,7 @@
   },
   {
     "domain": "letsfixthis.eco",
-    "story": "<a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a> est un nouveau livre rempli d&#39;idées pratiques, étape par étape, sur la manière dont vous pouvez agir en faveur de l&#39;environnement.",
+    "story": "<span class=\"notranslate\"><a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a></span> est un nouveau livre rempli d&#39;idées pratiques, étape par étape, sur la manière dont vous pouvez agir en faveur de l&#39;environnement.",
     "img": "/img/champion_logos/letsfixthis-tile.png",
     "type": "individual",
     "sector": "Books & publications",
@@ -351,7 +341,7 @@
   },
   {
     "domain": "thepositiveproject.eco",
-    "story": "<a href=\"https://thepositiveproject.eco/\">The Positive Project</a> aide les organisations à tracer la voie vers un avenir plus durable.",
+    "story": "<span class=\"notranslate\"><a href=\"https://thepositiveproject.eco/\">The Positive Project</a></span> aide les organisations à tracer la voie vers un avenir plus durable.",
     "img": "/img/champion_logos/thepositiveproject-profile.webp",
     "type": "business",
     "sector": "Environmental consulting & services",

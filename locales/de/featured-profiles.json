@@ -71,7 +71,7 @@
   },
   {
     "domain": "goodonyou.eco",
-    "story": "Die Wahl Ihres Einkaufs beeinflusst maßgeblich, wie Unternehmen mit Menschen, dem Planeten und Tieren umgehen. Mit der App <a href=\"https://goodonyou.eco/\">„Good On You“</a> können Sie ganz einfach nach Ihren Werten einkaufen.",
+    "story": "Die Wahl Ihres Einkaufs beeinflusst maßgeblich, wie Unternehmen mit Menschen, dem Planeten und Tieren umgehen. Mit der App „ <span class=\"notranslate\"><a href=\"https://goodonyou.eco/\">Good On You</a></span> können Sie ganz einfach nach Ihren Werten einkaufen.",
     "img": "/img/champion_logos/goodonyou.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -117,16 +117,6 @@
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/nuvola.eco",
     "location": "Schweiz",
-    "priority": ""
-  },
-  {
-    "domain": "brightly.eco",
-    "story": "<a href=\"https://brightly.eco\">Brightly</a> ist die erste Adresse für Menschen, die neue, umweltfreundliche Marken und Produkte entdecken möchten. Brightly inspiriert derzeit täglich Millionen von Nutzern zu einem nachhaltigen Lebensstil.",
-    "img": "/img/champion_logos/brightly.webp",
-    "type": "business",
-    "sector": "Consumer goods",
-    "link": "https://profiles.eco/brightly.eco",
-    "location": "Vereinigte Staaten",
     "priority": ""
   },
   {
@@ -211,7 +201,7 @@
   },
   {
     "domain": "cycle.eco",
-    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es Tausenden von Fahrradkurieren täglich ein reibungsloses, schnelles und sicheres Zustellungserlebnis bietet.",
+    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es dafür sorgt, dass Tausende von Fahrradkurieren täglich eine reibungslose, schnelle und sichere Zustellung erleben.",
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
     "sector": "Transportation",
@@ -301,7 +291,7 @@
   },
   {
     "domain": "letsfixthis.eco",
-    "story": "<a href=\"https://letsfixthis.eco\">„Let’s Fix This“</a> ist ein neues Buch voller praktischer Schritt-für-Schritt-Ideen, wie Sie etwas zum Umweltschutz beitragen können.",
+    "story": "<span class=\"notranslate\"><a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a></span> ist ein neues Buch voller praktischer Schritt-für-Schritt-Ideen, wie Sie etwas zum Umweltschutz beitragen können.",
     "img": "/img/champion_logos/letsfixthis-tile.png",
     "type": "individual",
     "sector": "Books & publications",
@@ -351,7 +341,7 @@
   },
   {
     "domain": "thepositiveproject.eco",
-    "story": "<a href=\"https://thepositiveproject.eco/\">The Positive Project</a> hilft Organisationen, einen Weg in eine nachhaltigere Zukunft zu finden.",
+    "story": "<span class=\"notranslate\"><a href=\"https://thepositiveproject.eco/\">The Positive Project</a></span> hilft Organisationen, einen Weg in eine nachhaltigere Zukunft zu finden.",
     "img": "/img/champion_logos/thepositiveproject-profile.webp",
     "type": "business",
     "sector": "Environmental consulting & services",

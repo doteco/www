@@ -71,7 +71,7 @@
   },
   {
     "domain": "goodonyou.eco",
-    "story": "Shopping choices have a huge impact on how businesses treat people, the planet and animals.  The <a href=\"https://goodonyou.eco/\">Good On You</a> app makes it easy for you to shop your values.",
+    "story": "Shopping choices have a huge impact on how businesses treat people, the planet and animals.  The <span class=\"notranslate\"><a href=\"https://goodonyou.eco/\">Good On You</a></span> app makes it easy for you to shop your values.",
     "img": "/img/champion_logos/goodonyou.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -117,16 +117,6 @@
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/nuvola.eco",
     "location": "Switzerland",
-    "priority": ""
-  },
-  {
-    "domain": "brightly.eco",
-    "story": "<a href=\"https://brightly.eco\">Brightly</a> is the #1 destination for people to discover new, eco-friendly brands and products. Brightly currently inspires millions of users every day to live sustainable lifestyles.",
-    "img": "/img/champion_logos/brightly.webp",
-    "type": "business",
-    "sector": "Consumer goods",
-    "link": "https://profiles.eco/brightly.eco",
-    "location": "USA",
     "priority": ""
   },
   {
@@ -301,7 +291,7 @@
   },
   {
     "domain": "letsfixthis.eco",
-    "story": "<a href=\"https://letsfixthis.eco\">Let's Fix This</a> is a new book full of practical, step-by-step ideas of how you can take environmental action.",
+    "story": "<span class=\"notranslate\"><a href=\"https://letsfixthis.eco\">Let's Fix This</a></span> is a new book full of practical, step-by-step ideas of how you can take environmental action.",
     "img": "/img/champion_logos/letsfixthis-tile.png",
     "type": "individual",
     "sector": "Books & publications",
@@ -351,7 +341,7 @@
   },
   {
     "domain": "thepositiveproject.eco",
-    "story": "<a href=\"https://thepositiveproject.eco/\">The Positive Project</a> helps organisations chart a path to a more sustainable future.",
+    "story": "<span class=\"notranslate\"><a href=\"https://thepositiveproject.eco/\">The Positive Project</a></span> helps organisations chart a path to a more sustainable future.",
     "img": "/img/champion_logos/thepositiveproject-profile.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
