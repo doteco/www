@@ -54,7 +54,11 @@
     "South America": "South America"
   },
   "policy": {
-    "Yes": "Yes &#x1F33F;"
+    "Yes": "Any &#x1F33F;",
+    "Powered by renewable energy": "- Powered by renewable energy",
+    "Energy efficient data center": "- Energy-efficient data center",
+    "E-waste recycling": "- E-waste recycling",
+    "Purchases carbon offsets": "- Purchases carbon offsets"
   },
   "promos": {
     "header": "📣 Current .eco promotions 📣",

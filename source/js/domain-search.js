@@ -82,7 +82,7 @@ window.domainSearch = function (config) {
     const languages = uniqueFilterItems(registrars, 'languages')
     const currencies = uniqueFilterItems(registrars, 'currencies')
     const regions = uniqueFilterItems(registrars, 'region', config.regionLabels)
-    const envPolicy = uniqueFilterItems(registrars, 'ecoAttributes')
+    const envPolicy = uniqueFilterItems(registrars, 'ecoAttributes', config.envPolicyLabels)
     envPolicy.unshift({ value: 'Yes', label: config.envPolicyLabels.Yes })
 
     const filterLabels = config.filterLabels

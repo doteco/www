@@ -19,6 +19,13 @@
   "policy": {
     "Yes": "Ja &#x1F33F;"
   },
+  "policy": {
+    "Yes": "Beliebig &#x1F33F;",
+    "Powered by renewable energy": "- Angetrieben durch erneuerbare Energien",
+    "Energy efficient data center": "- Energieeffizientes Rechenzentrum",
+    "E-waste recycling": "- Recycling von Elektroschrott",
+    "Purchases carbon offsets": "- Kauft CO2-Ausgleiche"
+  },
   "promos": {
     "header": "📣 Aktuelle .eco-Aktionen 📣",
     "items": [
