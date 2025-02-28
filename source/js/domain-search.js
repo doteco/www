@@ -22,8 +22,9 @@ window.domainSearch = function (config) {
       return arr
     }, [])
     const itemsUnique = Array.from(new Set(itemsAll)).filter(item => item.length > 0)
-    itemsUnique.sort((a, b) => a.localeCompare(b))
-    return itemsUnique.map(item => ({ value: item, label: labels[item] || item }))
+    const items = itemsUnique.map(item => ({ value: item, label: labels[item] || item }))
+    items.sort((a, b) => a.label.localeCompare(b.label))
+    return items
   }
 
   function changeFilter (registrars) {
