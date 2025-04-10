@@ -40,7 +40,7 @@ As the .eco registry, we are responsible for the database of nameservers for eve
 
 ### MasterCard’s mistake
 
-The story mentioned above covers the work of an independent security researcher who noticed that one of the nameservers associated with `az.mastercard.com` had been incorrectly entered as `a22-67.akam.ne` instead of as `a22-67.akam.net`. The domain `akam.net` is owned by Content Delivery service provider Akamai. By mistyping `.net` as `.ne`, they ended up pointing to an unregistered domain under the country-code top-level domain for Nigeria. The security researcher registered the domain `akam.ne` and was able to receive DNS traffic intended for MasterCard (as well as for other domains that had made a similar typo). They contacted MasterCard about the error, which MasterCard has subsequently fixed.
+The story mentioned above covers the work of an independent security researcher who noticed that one of the nameservers associated with `az.mastercard.com` had been incorrectly entered as `a22-67.akam.ne` instead of as `a22-67.akam.net`. The domain `akam.net` is owned by Content Delivery service provider Akamai. By mistyping `.net` as `.ne`, they ended up pointing to an unregistered domain under the country-code top-level domain for Niger. The security researcher registered the domain `akam.ne` and was able to receive DNS traffic intended for MasterCard (as well as for other domains that had made a similar typo). They contacted MasterCard about the error, which MasterCard has subsequently fixed.
 
 The risk in this scenario is that a bad actor could register the domain associated with a mistyped nameserver and serve DNS records that would enable them to snoop on traffic to that domain and route it to servers that they control.
 
