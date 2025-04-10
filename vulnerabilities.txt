@@ -1,4 +1,2 @@
-NAME    INSTALLED  FIXED-IN                      TYPE       VULNERABILITY   SEVERITY 
-stdlib  go1.23.1   1.22.11, 1.23.5, 1.24.0-rc.2  go-module  CVE-2024-45341  Medium    
-stdlib  go1.23.1   1.22.11, 1.23.5, 1.24.0-rc.2  go-module  CVE-2024-45336  Medium    
-stdlib  go1.23.1   1.22.12, 1.23.6, 1.24.0-rc.3  go-module  CVE-2025-22866  Unknown
+NAME    INSTALLED  FIXED-IN         TYPE       VULNERABILITY   SEVERITY 
+stdlib  go1.23.7   *1.23.8, 1.24.2  go-module  CVE-2025-22871  Unknown

@@ -182,6 +182,7 @@ const ms = Metalsmith(__dirname)
     ]
   }))
   .use(layouts({
+    transform: 'handlebars',
     pattern: '**/*.html',
     default: 'default.hbs'
   }))
