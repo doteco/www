@@ -1,7 +1,7 @@
 [
   {
     "domain": "mico.eco",
-    "story": "<a href=\"https://mico.eco\">MiCO</a> (Migratory Connectivity in the Ocean) unterstützt weltweite Schutzbemühungen für wandernde Wasserarten wie Wale und Delfine und die Ozeane, von denen sie abhängen.",
+    "story": "<a href=\"https://mico.eco\">MiCO</a> (Migratory Connectivity in the Ocean) unterstützt weltweite Bemühungen zum Schutz wandernder Wassertiere wie Wale und Delfine und der Ozeane, von denen sie abhängen.",
     "img": "/img/champion_logos/mico.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -31,7 +31,7 @@
   },
   {
     "domain": "leap.eco",
-    "story": "<a href=\"https://leap.eco\">Leap</a> ist ein Designstudio, das an zielgerichtetes Design und die Schaffung von Arbeit glaubt, die von Bedeutung ist. Als B Corp schaffen sie verantwortungsvolle Lösungen, die die Triple-Bottom-Line-Standards übertreffen.",
+    "story": "<a href=\"https://leap.eco\">Leap</a> ist ein Designstudio, das an zielgerichtetes Design und die Schaffung von Arbeit mit Wert glaubt. Als B Corp entwickelt das Studio verantwortungsvolle Lösungen, die die Triple-Bottom-Line-Standards übertreffen.",
     "img": "/img/champion_logos/leap.webp",
     "type": "business",
     "sector": "Consulting and agencies",
@@ -71,7 +71,7 @@
   },
   {
     "domain": "goodonyou.eco",
-    "story": "Die Wahl Ihres Einkaufs beeinflusst maßgeblich, wie Unternehmen mit Menschen, dem Planeten und Tieren umgehen. Mit der App „ <span class=\"notranslate\"><a href=\"https://goodonyou.eco/\">Good On You</a></span> können Sie ganz einfach nach Ihren Werten einkaufen.",
+    "story": "Ihre Einkaufsentscheidungen haben großen Einfluss darauf, wie Unternehmen mit Menschen, dem Planeten und Tieren umgehen. Die <span class=\"notranslate\"><a href=\"https://goodonyou.eco/\">Good On You</a></span> App macht es Ihnen leicht, nach Ihren Werten einzukaufen.",
     "img": "/img/champion_logos/goodonyou.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -101,7 +101,7 @@
   },
   {
     "domain": "boox.eco",
-    "story": "<a href=\"https://boox.eco\">Boox</a> ist ein zertifiziertes B-Unternehmen, das wiederverwendbare Verpackungen herstellt. Mit Boox können Sie die Verpackung Ihrer Bestellung ganz einfach zurückgeben und wiederverwenden.",
+    "story": "<a href=\"https://boox.eco\">Boox</a> ist ein zertifiziertes B-Corp-Unternehmen, das wiederverwendbare Verpackungen herstellt. Mit Boox können Sie die Verpackung Ihrer Bestellung problemlos zurückgeben und wiederverwenden.",
     "img": "/img/champion_logos/boox.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -111,7 +111,7 @@
   },
   {
     "domain": "nuvola.eco",
-    "story": "<a href=\"https://nuvola.eco\">Nuvola</a> ist ein One-Stop-Shop für den Kauf abfallfreier, nachhaltiger, veganer und tierversuchsfreier Schönheits- und Hautpflegeprodukte.",
+    "story": "<a href=\"https://nuvola.eco\">Nuvola</a> ist ein One-Stop-Shop für den Kauf von abfallfreien, nachhaltigen, veganen und tierversuchsfreien Schönheits- und Hautpflegeprodukten.",
     "img": "/img/champion_logos/nuvola.webp",
     "type": "business",
     "sector": "Health & Beauty",
@@ -121,7 +121,7 @@
   },
   {
     "domain": "kusala.eco",
-    "story": "<a href=\"https://kusala.eco\">Kusala</a> produziert handwerklich hergestellte Seife mit gutem Karma im Sinne einer Kreislaufwirtschaft.",
+    "story": "<a href=\"https://kusala.eco\">Kusala</a> produziert handwerklich hergestellte Seife mit gutem Karma für eine Kreislaufwirtschaft.",
     "img": "/img/champion_logos/kusala.webp",
     "type": "business",
     "sector": "Health & Beauty",
@@ -131,7 +131,7 @@
   },
   {
     "domain": "ducky.eco",
-    "story": "<a href=\"https://ducky.eco\">Ducky</a> entwickelt digitale Tools, die Menschen und Organisationen dabei helfen, ihr Verhalten zu ändern und ihren CO2-Ausstoß zu reduzieren.",
+    "story": "<a href=\"https://ducky.eco\">Ducky</a> entwickelt digitale Tools, die Menschen und Organisationen dabei helfen, ihr Verhalten zu ändern und ihren CO2-Fußabdruck zu reduzieren.",
     "img": "/img/champion_logos/ducky.webp",
     "type": "business",
     "sector": "Digital agencies & software",
@@ -141,7 +141,7 @@
   },
   {
     "domain": "carboncopy.eco",
-    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> ist eine britische Wohltätigkeitsorganisation, die zu ehrgeizigen lokalen Klimaschutzmaßnahmen inspiriert, um unseren Fortschritt hin zu einer gerechteren, CO2-freien Zukunft zu beschleunigen.",
+    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> ist eine britische Wohltätigkeitsorganisation, die zu innovativen lokalen Klimaschutzmaßnahmen inspiriert, um unseren Fortschritt in Richtung einer gerechteren, CO2-freien Zukunft zu beschleunigen.",
     "img": "/img/champion_logos/carboncopy-hero.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -161,7 +161,7 @@
   },
   {
     "domain": "zeroco2.eco",
-    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> ist ein B Corp, das Einzelpersonen und Unternehmen hilft, die Klimakrise einzudämmen, indem es die nachhaltige Entwicklung von Gemeinschaften unterstützt, die auf wiederaufgeforsteten Flächen leben.",
+    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> ist eine B Corp, die Einzelpersonen und Unternehmen hilft, die Klimakrise einzudämmen, indem sie die nachhaltige Entwicklung von Gemeinschaften unterstützt, die auf wiederaufgeforsteten Flächen leben.",
     "img": "/img/champion_logos/zeroco2.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -171,7 +171,7 @@
   },
   {
     "domain": "terrabyte.eco",
-    "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> ist ein Greentech-Unternehmen, das sich darauf konzentriert, Kreativität und Technologie zu kombinieren, um Lösungen für die anhaltenden Umweltkrisen zu bieten.",
+    "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> ist ein Green-Tech-Unternehmen, das sich darauf konzentriert, Kreativität und Technologie zu kombinieren, um Lösungen für die anhaltende Umweltkrise zu bieten.",
     "img": "/img/champion_logos/terrabyte.webp",
     "type": "business",
     "sector": "Digital agencies & software",
@@ -181,7 +181,7 @@
   },
   {
     "domain": "aem.eco",
-    "story": "Durch den Einsatz von Sensornetzwerken und die Bereitstellung analytischer Erkenntnisse befähigt <a href=\"https://aem.eco\">AEM</a> Gemeinschaften und Organisationen, angesichts zunehmender Umweltrisiken zu überleben und zu gedeihen.",
+    "story": "<a href=\"https://aem.eco\">AEM</a> versetzt Gemeinden und Organisationen durch den Einsatz von Sensornetzwerken und die Bereitstellung analytischer Erkenntnisse in die Lage, angesichts zunehmender Umweltrisiken zu überleben und zu gedeihen.",
     "img": "/img/champion_logos/aem.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -191,7 +191,7 @@
   },
   {
     "domain": "pirkani.eco",
-    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> ist ein zukunftsorientiertes Label mit einem Unterschied. Mit Nachhaltigkeit im Mittelpunkt ist es unsere Mission, zeitgenössische britische Mode mit minimalistischer Designästhetik ethisch zu produzieren.",
+    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> ist ein zukunftsweisendes Label der besonderen Art. Nachhaltigkeit steht bei uns im Mittelpunkt und wir haben es uns zur Aufgabe gemacht, zeitgenössische britische Mode mit minimalistischer Designästhetik ethisch zu produzieren.",
     "img": "/img/champion_logos/pirkani3.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -201,7 +201,7 @@
   },
   {
     "domain": "cycle.eco",
-    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es Tausenden von Fahrradkurieren täglich ein reibungsloses, schnelles und sicheres Zustellungserlebnis bietet.",
+    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es dafür sorgt, dass Tausende von Fahrradkurieren täglich eine reibungslose, schnelle und sichere Zustellung erleben.",
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
     "sector": "Transportation",
@@ -281,7 +281,7 @@
   },
   {
     "domain": "sportainable.eco",
-    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> ist ein Thinktank, der Sport ressourcenschonend, emissionsarm, naturfreundlich und sozial verantwortlich denkt.",
+    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> ist ein Think Tank, der Sport neu denkt, um ihn ressourceneffizient, emissionsarm, naturfreundlich und sozial verantwortlich zu gestalten.",
     "img": "/img/champion_logos/sportainable-football2.webp",
     "type": "nonprofit",
     "sector": "Athletics",
@@ -291,13 +291,13 @@
   },
   {
     "domain": "letsfixthis.eco",
-    "story": "<span class=\"notranslate\"><a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a></span> ist ein neues Buch voller praktischer Schritt-für-Schritt-Ideen, wie Sie etwas zum Umweltschutz beitragen können.",
+    "story": "<span class=\"notranslate\"><a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a></span> ist ein neues Buch voller praktischer Schritt-für-Schritt-Anleitungen für Ihr Umweltengagement.",
     "img": "/img/champion_logos/letsfixthis-tile.png",
     "type": "individual",
     "sector": "Books & publications",
     "link": "https://profiles.eco/letsfixthis.eco",
     "location": "Kanada",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "livelightly.eco",
@@ -317,7 +317,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/caspian.eco",
     "location": "Kasachstan",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "tim.eco",
@@ -331,13 +331,13 @@
   },
   {
     "domain": "klim.eco",
-    "story": "<a href=\"https://www.klim.eco/en\">Klim</a> unterstützt Landwirte bei der Einführung regenerativer landwirtschaftlicher Praktiken, um ihren CO2-Fußabdruck zu reduzieren und die Artenvielfalt zu bewahren.",
+    "story": "<a href=\"https://www.klim.eco/en\">Klim</a> unterstützt Landwirte bei der Einführung regenerativer landwirtschaftlicher Praktiken, um ihren CO2-Fußabdruck zu reduzieren und die Artenvielfalt zu erhalten.",
     "img": "/img/champion_logos/klim-tile.webp",
     "type": "business",
     "sector": "Agriculture technology",
     "link": "https://profiles.eco/klim.eco",
     "location": "Deutschland",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "thepositiveproject.eco",
@@ -347,6 +347,16 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/thepositiveproject.eco",
     "location": "Schweiz",
+    "priority": "2"
+  },
+  {
+    "domain": "greeninitiative.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://greeninitiative.eco/\">Green Initiative</a></span> bietet Klimazertifizierungen und Beratungsdienste für führende Organisationen an, darunter auch für die UNESCO-Stätte Machu Picchu.",
+    "img": "/img/champion_logos/green-initiative-profile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/greeninitiative.eco",
+    "location": "Brasilien",
     "priority": "1"
   }
 ]

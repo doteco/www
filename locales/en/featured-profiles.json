@@ -297,7 +297,7 @@
     "sector": "Books & publications",
     "link": "/champions/letsfixthis/",
     "location": "Canada",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "livelightly.eco",
@@ -317,7 +317,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/caspian/",
     "location": "Kazakhstan",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "tim.eco",
@@ -337,7 +337,7 @@
     "sector": "Agriculture technology",
     "link": "/champions/klim/",
     "location": "Germany",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "thepositiveproject.eco",
@@ -347,6 +347,16 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/the-positive-project/",
     "location": "Switzerland",
+    "priority": "2"
+  },
+  {
+    "domain": "greeninitiative.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://greeninitiative.eco/\">Green Initiative</a></span> provides climate certification and advisory services to leading organizations, including UNESCO site Machu Picchu.",
+    "img": "/img/champion_logos/green-initiative-profile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "/champions/greeninitiative/",
+    "location": "Brazil",
     "priority": "1"
   }
 ]
