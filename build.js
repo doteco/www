@@ -177,6 +177,7 @@ const ms = Metalsmith(__dirname)
     }
   }))
   .use(inplace({
+    transform: 'handlebars',
     pattern: [
       '**/*.hbs', '**/*.md.hbs'
     ]
