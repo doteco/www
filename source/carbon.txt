@@ -1,11 +1,12 @@
-[upstream]	
-providers = [
-	{ domain = "aws.amazon.com", service = "object-storage" },
-	{ domain = "aws.amazon.com", service = "cdn" }
+[org]
+disclosures = [
+	{ doc_type='sustainability-page', url='https://go.eco/impact/', domain='go.eco' },
+	{ doc_type='annual-report', url='https://go.eco/impact/impact-report-2024/', domain='go.eco' },
+	{ doc_type='other', url='https://go.eco/news/eco-is-carbon-neutral-2024/', domain='go.eco' },
+	{ doc_type='annual-report', url='https://go.eco/impact/ghg-report-2024/', domain='go.eco' }
 ]
 
-[org]
-credentials = [
-	{ domain = "go.eco", doctype = "webpage", url = "https://go.eco/impact/" },
-	{ domain = "go.eco", doctype = "annual-report", url = "https://go.eco/news/2023-impact-report/" }
+[upstream]
+services = [
+	{ domain = "aws.amazon.com", service = ["cdn", "shared-hosting"] }
 ]
