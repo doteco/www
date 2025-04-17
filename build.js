@@ -182,6 +182,12 @@ const ms = Metalsmith(__dirname)
       '**/*.hbs', '**/*.md.hbs'
     ]
   }))
+  .use(inplace({
+    transform: 'marked',
+    pattern: [
+      '**/*.md'
+    ]
+  }))
   .use(layouts({
     transform: 'handlebars',
     pattern: '**/*.html',
