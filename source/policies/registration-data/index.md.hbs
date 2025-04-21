@@ -1,0 +1,60 @@
+---
+title: .eco Registration Data Policy
+description: Policy defining who can register a .eco domain name
+layout: policy.hbs
+page-path: policies/registration-data/
+og-image: opengraph/building-og.png
+og-width: 1200
+og-height: 630
+updated: 2025-04-21
+---
+
+This policy outlines the minimum registrant data that needs to be provided to register a .eco domain. This represents a subset of the data elements listed in [ICANN’s Registration Data Policy](https://www.icann.org/resources/pages/registration-data-policy-2024-02-21-en).
+
+The .eco registry supports the complete set of registrant data as specified in the [Extensible Provisioning Protocol (EPP) Contact Mapping RFC 5733](https://datatracker.ietf.org/doc/html/rfc5733). However, most of this data is not required by the registry. The purpose of this document is to clarify which data is mandatory and which data is optional.
+
+At this time, the registry will continue to collect and store all contact information supplied by registrars. We will not reject registrations or updates that contain more than the minimum required data. However, registrars can safely stop sending optional data to the registry to minimize the sharing of registrant personal information.
+
+### Contact Type
+
+The EPP protocol supports associating up to four types of contacts with a domain record. Those contact types are registrant, admin, technical or billing. Of these contact types, only the registrant contact is required. A .eco domain needs to have at least one registrant contact associated with it.
+
+| Contact Type | Required |
+|--------------|----------|
+|registrant|Yes|
+|admin|No|
+|technical|No|
+|billing|No|
+
+Registrars can safely omit the admin, technical and billing contacts. If the additional contacts are supplied, the registry will store them. However, following the [principle of data minimization](https://en.wikipedia.org/wiki/Data_minimization), we would encourage discontinuing sending this additional data.
+
+### Contact Data 
+
+On the contact entity, the following fields are currently required:
+
+| Required Fields | Length | Legal characters |
+|-----------------|--------|------------------|
+|contact:id|3-16|A-Z, a-z, 0-9, -|
+|contact:pw|8-16|A-Z, a-z, 0-9, -_!@#$%^*()+=[]{}\|;:'",.<>/?|
+|contact:name|2-255|All characters are valid|
+|contact:email|6-253|Must conform to [RFC5322](https://www.rfc-editor.org/rfc/rfc5322)|
+|contact:city|2-255|All characters are valid|
+|contact:country|2|Must conform to [ISO3166-1](https://en.wikipedia.org/wiki/ISO_3166-1)|
+
+At this time, the state or province field (`contact:sp`) is required for the following countries: United States, Canada and New Zealand and must be a valid 2-character state or province conforming to [ISO3166-2](https://en.wikipedia.org/wiki/ISO_3166-2). As of **May 15, 2025**, the state or province field will no longer be required for these countries.
+
+### Minimum Contact Data
+
+To summarize, the minimum registrant information required by the .eco registry is that each .eco domain should link to a single registrant contact that has the following fields provided: 
+- `contact:id`
+- `contact:pw`
+- `contact:name`
+- `contact:email`
+- `contact:city`
+- `contact:country`
+
+While the registry will not enforce this minimum dataset, we appreciate registrars taking whatever action is feasible to minimize the data sent to the registry.
+
+### Policy Effective Date
+
+This policy is effective as of **Jun 1, 2025** and will remain in effect going forward. We will update our registrar partners if any further changes need to be made.
