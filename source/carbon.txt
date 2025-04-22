@@ -8,5 +8,5 @@ disclosures = [
 
 [upstream]
 services = [
-	{ domain = "aws.amazon.com", service = ["cdn", "shared-hosting"] }
+	{ domain = "aws.amazon.com", service_type = ["cdn", "shared-hosting"] }
 ]
