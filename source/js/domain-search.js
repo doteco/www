@@ -1,9 +1,24 @@
 window.domainSearch = function (config) {
   'use strict'
 
+  const ecoAttributeLabels = {
+    'Powered by renewable energy': `<span title="${config.envPolicyLabels['Powered by renewable energy']}">&#x2600;</span>`,
+    'Energy efficient data center': `<span title="${config.envPolicyLabels['Energy efficient data center']}">⚡︎</span>`,
+    'E-waste recycling': `<span title="${config.envPolicyLabels['E-waste recycling']}">&#x267A;</span>`,
+    'Passes Green Web Check': `<span title="${config.envPolicyLabels['Passes Green Web Check']}">&#x2714;</span>`
+  }
+
+  function ecoAttributesLabel (registrar) {
+    if (!registrar.ecoAttributes) return ''
+    const ecoAttributes = registrar.ecoAttributes.map(function (a) {
+      return ecoAttributeLabels[a] || ''
+    })
+    return `<span class="registrar-green">${ecoAttributes.join(' ')}</span`
+  }
+
   function registrarLogoDiv (registrar, domain, languageFilter) {
     const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + (domain ? '&domain=' + encodeURIComponent(domain) : '') + (languageFilter ? '&lang=' + encodeURIComponent(languageFilter) : '')
-    const greenLabel = registrar.envPolicy ? `<span class="registrar-green" title="${config.envPolicyLabel}">&#x1F33F</span>` : ''
+    const greenLabel = ecoAttributesLabel(registrar)
     return `<div class="col-md-6 col-lg-4 registrar-button registrar-${registrar.registrar}"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link" title="${config.registerLabel.replace('%s', registrar.label)}"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="" class="registrar-logo" loading="lazy" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
   }
 
@@ -23,7 +38,7 @@ window.domainSearch = function (config) {
     }, [])
     const itemsUnique = Array.from(new Set(itemsAll)).filter(item => item.length > 0)
     const items = itemsUnique.map(item => ({ value: item, label: labels[item] || item }))
-    items.sort((a, b) => a.label.localeCompare(b.label))
+    items.sort((a, b) => a.label.localeCompare(b.label, { ignorePunctuation: true }))
     return items
   }
 

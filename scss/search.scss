@@ -64,6 +64,9 @@
 
 .registrar-green {
 	cursor: pointer;
+	position: absolute;
+	right: 12px;
+	color: $doteco-green;
 }
 
 .registrars-promo {
@@ -88,7 +91,6 @@
 .registrar-button {
 	height: 10rem;
 	display: table;
-	margin: auto;
 	position: relative;
 }
 

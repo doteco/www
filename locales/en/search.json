@@ -26,7 +26,7 @@
     "noRegistrars": "<p class=\"no-registrars\">No retailers currently match these filter criteria.</p>"
   },
   "greenRetailers": "<p class=\"registrars-green-retailers\"><a href=\"/news/finding-a-green-domain-retailer/\" target=\"_blank\">Learn more about environmentally-friendly .eco retailers &#x1F33F;</a></p>",
-  "multiyearpromo": "<p class=\"registrars-green-retailers\">&#x1F331; <a href=\"/news/2024-multi-year-registration-discount/\" target=\"_blank\">Register a .eco domain for 2+ years and save</a> &#x1F331;</p>",
+  "multiyearpromo": "<p class=\"registrars-green-retailers\">&#x1F331; <a href=\"/news/2024-multi-year-registration-discount/\" target=\"_blank\">Register a .eco domain for 2+ years and save</a></p>",
   "filterHelp": {
     "region": "The main regions where this retailer operates.",
     "envPolicy": "Is this retailer environmental-friendly?",
@@ -55,11 +55,10 @@
   },
   "policy": {
     "Yes": "Any &#x1F33F;",
-    "Powered by renewable energy": "- Powered by renewable energy",
-    "Energy efficient data center": "- Energy-efficient data center",
-    "E-waste recycling": "- E-waste recycling",
-    "Purchases carbon offsets": "- Purchases carbon offsets",
-    "Passes Green Web Check": "- Passes Green Web Check"
+    "Energy efficient data center": "Energy-efficient data center ⚡︎",
+    "E-waste recycling": "E-waste recycling &#x267A;",
+    "Passes Green Web Check": "Passes Green Web Check &#x2714;",
+    "Powered by renewable energy": "Powered by renewable energy &#x2600;"
   },
   "promos": {
     "header": "📣 Current .eco promotions 📣",
