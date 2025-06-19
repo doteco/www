@@ -55,11 +55,10 @@
   },
   "policy": {
     "Yes": "Oui &#x1F33F;",
-    "Powered by renewable energy": "- Alimenté par des énergies renouvelables",
-    "Energy efficient data center": "- Centre de données économe en énergie",
-    "E-waste recycling": "- Recyclage des déchets électroniques",
-    "Purchases carbon offsets": "- Achat de compensations carbone",
-    "Passes Green Web Check": "- Passe avec succès le « Green Web Check »"
+    "Energy efficient data center": "Centre de données économe en énergie ⚡︎",
+    "E-waste recycling": "Recyclage des déchets électroniques &#x267A;",
+    "Powered by renewable energy": "Alimenté par des énergies renouvelables &#x2600;",
+    "Passes Green Web Check": "Passe avec succès le « Green Web Check » &#x2714;"
   },
   "promos": {
     "header": "📣 Promotions .eco en cours 📣",

@@ -18,11 +18,10 @@
   },
   "policy": {
     "Yes": "Beliebig &#x1F33F;",
-    "Powered by renewable energy": "- Angetrieben durch erneuerbare Energien",
-    "Energy efficient data center": "- Energieeffizientes Rechenzentrum",
-    "E-waste recycling": "- Recycling von Elektroschrott",
-    "Purchases carbon offsets": "- Kauft CO2-Ausgleiche",
-    "Passes Green Web Check": "- Besteht den Green Web Check"
+    "Energy efficient data center": "Energieeffizientes Rechenzentrum ⚡︎",
+    "E-waste recycling": "Recycling von Elektroschrott &#x267A;",
+    "Powered by renewable energy": "Angetrieben durch erneuerbare Energien &#x2600;",
+    "Passes Green Web Check": "Besteht den Green Web Check &#x2714;"
   },
   "promos": {
     "header": "📣 Aktuelle .eco-Aktionen 📣",
