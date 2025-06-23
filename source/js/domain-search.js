@@ -2,10 +2,10 @@ window.domainSearch = function (config) {
   'use strict'
 
   const ecoAttributeLabels = {
-    'Powered by renewable energy': `<span title="${config.envPolicyLabels['Powered by renewable energy']}">&#x2600;</span>`,
-    'Energy efficient data center': `<span title="${config.envPolicyLabels['Energy efficient data center']}">⚡︎</span>`,
-    'E-waste recycling': `<span title="${config.envPolicyLabels['E-waste recycling']}">&#x267A;</span>`,
-    'Passes Green Web Check': `<span title="${config.envPolicyLabels['Passes Green Web Check']}">&#x2714;</span>`
+    'Powered by renewable energy': `<span title="${config.envPolicyLabels['Powered by renewable energy']}">&#x2600;&#xFE0E;</span>`,
+    'Energy efficient data center': `<span title="${config.envPolicyLabels['Energy efficient data center']}">&#x26A1;&#xFE0E;</span>`,
+    'E-waste recycling': `<span title="${config.envPolicyLabels['E-waste recycling']}">&#x267A;&#xFE0E;</span>`,
+    'Passes Green Web Check': `<span title="${config.envPolicyLabels['Passes Green Web Check']}">&#x2714;&#xFE0E;</span>`
   }
 
   function ecoAttributesLabel (registrar) {

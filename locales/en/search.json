@@ -55,10 +55,10 @@
   },
   "policy": {
     "Yes": "Any &#x1F33F;",
-    "Energy efficient data center": "Energy-efficient data center ⚡︎",
-    "E-waste recycling": "E-waste recycling &#x267A;",
-    "Passes Green Web Check": "Passes Green Web Check &#x2714;",
-    "Powered by renewable energy": "Powered by renewable energy &#x2600;"
+    "Energy efficient data center": "Energy-efficient data center &#x26A1;&#xFE0E;",
+    "E-waste recycling": "E-waste recycling &#x267A;&#xFE0E;",
+    "Passes Green Web Check": "Passes Green Web Check &#x2714;&#xFE0E;",
+    "Powered by renewable energy": "Powered by renewable energy &#x2600;&#xFE0E;"
   },
   "promos": {
     "header": "📣 Current .eco promotions 📣",
