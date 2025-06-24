@@ -257,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
     "location": "Royaume-Uni",
-    "priority": ""
+    "priority": "6"
   },
   {
     "domain": "sportainable.eco",
@@ -288,16 +288,6 @@
     "link": "https://profiles.eco/livelightly.eco",
     "location": "États-Unis",
     "priority": ""
-  },
-  {
-    "domain": "caspian.eco",
-    "story": "Le <a href=\"https://caspian.eco\">Consortium pour l’environnement de la mer Caspienne</a> s’efforce de cultiver des algues dans la mer Caspienne pour capturer le CO2 et restaurer l’écosystème local.",
-    "img": "/img/champion_logos/caspian-tile.webp",
-    "type": "business",
-    "sector": "Environmental consulting & services",
-    "link": "https://profiles.eco/caspian.eco",
-    "location": "Kazakhstan",
-    "priority": "6"
   },
   {
     "domain": "tim.eco",

@@ -257,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
     "location": "Vereinigtes Königreich",
-    "priority": ""
+    "priority": "6"
   },
   {
     "domain": "sportainable.eco",
@@ -288,16 +288,6 @@
     "link": "https://profiles.eco/livelightly.eco",
     "location": "Vereinigte Staaten",
     "priority": ""
-  },
-  {
-    "domain": "caspian.eco",
-    "story": "Das <a href=\"https://caspian.eco\">Caspian Environment Consortium</a> arbeitet daran, im Kaspischen Meer Algen zu züchten, um CO2 zu binden und das lokale Ökosystem wiederherzustellen.",
-    "img": "/img/champion_logos/caspian-tile.webp",
-    "type": "business",
-    "sector": "Environmental consulting & services",
-    "link": "https://profiles.eco/caspian.eco",
-    "location": "Kasachstan",
-    "priority": "6"
   },
   {
     "domain": "tim.eco",

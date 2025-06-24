@@ -257,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/skoot/",
     "location": "UK",
-    "priority": ""
+    "priority": "6"
   },
   {
     "domain": "sportainable.eco",
@@ -288,16 +288,6 @@
     "link": "/champions/livelightly/",
     "location": "United States",
     "priority": ""
-  },
-  {
-    "domain": "caspian.eco",
-    "story": "The <a href=\"https://caspian.eco\">Caspian Environment Consortium</a> is working to cultivate algae in the Caspian Sea to capture CO2 and restore the local ecosystem.",
-    "img": "/img/champion_logos/caspian-tile.webp",
-    "type": "business",
-    "sector": "Environmental consulting & services",
-    "link": "/champions/caspian/",
-    "location": "Kazakhstan",
-    "priority": "6"
   },
   {
     "domain": "tim.eco",
