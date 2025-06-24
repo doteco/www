@@ -29,7 +29,7 @@
   "multiyearpromo": "<p class=\"registrars-green-retailers\">&#x1F331; <a href=\"/news/2024-multi-year-registration-discount/\" target=\"_blank\">Register a .eco domain for 2+ years and save</a></p>",
   "filterHelp": {
     "region": "The main regions where this retailer operates.",
-    "envPolicy": "Is this retailer environmental-friendly?",
+    "envPolicy": "Is this retailer environmentally-friendly?",
     "language": "The languages this retailer supports.",
     "currency": "The currencies you can use to pay for your domain."
   },
