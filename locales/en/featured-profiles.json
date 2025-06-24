@@ -21,13 +21,13 @@
   },
   {
     "domain": "preserve.eco",
-    "story": "<a href=\"https://preserve.eco\">Preserve</a>, a certified B Corporation, makes stylish, eco-friendly products for the home including reusable tableware, food storage, and personal care products, using 100% recycled plastic.",
+    "story": "<a href=\"https://preserve.eco\">Preserve</a>, a certified B Corporation, makes stylish, eco-friendly products for the home using 100% recycled plastic.",
     "img": "/img/champion_logos/preserve.webp",
     "type": "business",
     "sector": "Consumer goods",
     "link": "/champions/preserve/",
     "location": "USA",
-    "priority": "1"
+    "priority": "2"
   },
   {
     "domain": "leap.eco",
@@ -257,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/skoot/",
     "location": "UK",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "sportainable.eco",
@@ -297,7 +297,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/caspian/",
     "location": "Kazakhstan",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "tim.eco",
@@ -317,7 +317,7 @@
     "sector": "Agriculture technology",
     "link": "/champions/klim/",
     "location": "Germany",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "thepositiveproject.eco",
@@ -327,7 +327,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/the-positive-project/",
     "location": "Switzerland",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "greeninitiative.eco",
@@ -337,6 +337,16 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/greeninitiative/",
     "location": "Brazil",
-    "priority": "2"
+    "priority": "3"
+  },
+  {
+    "domain": "netto.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://netto.eco/\">Netto</a></span> helps banks reduce the climate pollution from commercial buildings.",
+    "img": "/img/champion_logos/netto-profile.webp",
+    "type": "business",
+    "sector": "Digital agencies & software",
+    "link": "/champions/netto/",
+    "location": "Norway",
+    "priority": "1"
   }
 ]

@@ -21,13 +21,13 @@
   },
   {
     "domain": "preserve.eco",
-    "story": "<a href=\"https://preserve.eco\">Preserve</a> , eine zertifizierte B Corporation, stellt stilvolle, umweltfreundliche Produkte für den Haushalt her, darunter wiederverwendbares Geschirr, Lebensmittelaufbewahrungsprodukte und Körperpflegeprodukte aus 100 % recyceltem Kunststoff.",
+    "story": "<a href=\"https://preserve.eco\">Preserve</a> , eine zertifizierte B Corporation, stellt stilvolle, umweltfreundliche Produkte für das Zuhause aus 100 % recyceltem Kunststoff her.",
     "img": "/img/champion_logos/preserve.webp",
     "type": "business",
     "sector": "Consumer goods",
     "link": "https://profiles.eco/preserve.eco",
     "location": "Vereinigte Staaten",
-    "priority": "1"
+    "priority": "2"
   },
   {
     "domain": "leap.eco",
@@ -257,7 +257,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
     "location": "Vereinigtes Königreich",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "sportainable.eco",
@@ -297,7 +297,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/caspian.eco",
     "location": "Kasachstan",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "tim.eco",
@@ -317,7 +317,7 @@
     "sector": "Agriculture technology",
     "link": "https://profiles.eco/klim.eco",
     "location": "Deutschland",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "thepositiveproject.eco",
@@ -327,7 +327,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/thepositiveproject.eco",
     "location": "Schweiz",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "greeninitiative.eco",
@@ -337,6 +337,16 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/greeninitiative.eco",
     "location": "Brasilien",
-    "priority": "2"
+    "priority": "3"
+  },
+  {
+    "domain": "netto.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://netto.eco/\">Netto</a></span> unterstützt Banken dabei, die Klimabelastung durch Gewerbeimmobilien zu reduzieren.",
+    "img": "/img/champion_logos/netto-profile.webp",
+    "type": "business",
+    "sector": "Digital agencies & software",
+    "link": "https://profiles.eco/netto.eco",
+    "location": "Norwegen",
+    "priority": "1"
   }
 ]
