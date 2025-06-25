@@ -40,16 +40,6 @@
     "priority": ""
   },
   {
-    "domain": "grunbag.eco",
-    "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> fabrique des sacs de haute qualité qui durent, en utilisant uniquement des matériaux durables et recyclés pour réduire les déchets futurs.",
-    "img": "/img/champion_logos/grunbag.webp",
-    "type": "business",
-    "sector": "Consumer goods",
-    "link": "https://profiles.eco/grunbag.eco",
-    "location": "Danemark",
-    "priority": ""
-  },
-  {
     "domain": "bleu.eco",
     "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et lits écologiques en utilisant des matériaux naturels à des prix raisonnables. 3 arbres sont plantés pour chaque matelas vendu.",
     "img": "/img/champion_logos/bleu.webp",
@@ -257,7 +247,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
     "location": "Royaume-Uni",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "sportainable.eco",
@@ -288,6 +278,16 @@
     "link": "https://profiles.eco/livelightly.eco",
     "location": "États-Unis",
     "priority": ""
+  },
+  {
+    "domain": "caspian.eco",
+    "story": "Le <a href=\"https://caspian.eco\">Consortium pour l’environnement de la mer Caspienne</a> s’efforce de cultiver des algues dans la mer Caspienne pour capturer le CO2 et restaurer l’écosystème local.",
+    "img": "/img/champion_logos/caspian-tile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/caspian.eco",
+    "location": "Kazakhstan",
+    "priority": "6"
   },
   {
     "domain": "tim.eco",
