@@ -27,7 +27,7 @@
     "sector": "Consumer goods",
     "link": "/champions/preserve/",
     "location": "USA",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "leap.eco",
@@ -317,7 +317,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/the-positive-project/",
     "location": "Switzerland",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "greeninitiative.eco",
@@ -327,7 +327,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/greeninitiative/",
     "location": "Brazil",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "netto.eco",
@@ -338,5 +338,15 @@
     "link": "/champions/netto/",
     "location": "Norway",
     "priority": "1"
+  },
+  {
+    "domain": "octopass.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://octopass.eco/\">Octopass</a></span> helps organisations manage passes and permits to boost safety and sustainability.",
+    "img": "/img/champion_logos/octopass-profile.webp",
+    "type": "business",
+    "sector": "Digital agencies & software",
+    "link": "/champions/octopass/",
+    "location": "United Kingdom",
+    "priority": "2"
   }
 ]

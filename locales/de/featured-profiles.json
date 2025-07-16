@@ -27,7 +27,7 @@
     "sector": "Consumer goods",
     "link": "https://profiles.eco/preserve.eco",
     "location": "Vereinigte Staaten",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "leap.eco",
@@ -317,7 +317,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/thepositiveproject.eco",
     "location": "Schweiz",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "greeninitiative.eco",
@@ -327,7 +327,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/greeninitiative.eco",
     "location": "Brasilien",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "netto.eco",
@@ -338,5 +338,15 @@
     "link": "https://profiles.eco/netto.eco",
     "location": "Norwegen",
     "priority": "1"
+  },
+  {
+    "domain": "octopass.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://octopass.eco/\">Octopass</a></span> unterstützt Organisationen bei der Verwaltung von Pässen und Genehmigungen, um die Sicherheit und Nachhaltigkeit zu erhöhen.",
+    "img": "/img/champion_logos/octopass-profile.webp",
+    "type": "business",
+    "sector": "Digital agencies & software",
+    "link": "https://profiles.eco/octopass.eco",
+    "location": "Vereinigtes Königreich",
+    "priority": "2"
   }
 ]
