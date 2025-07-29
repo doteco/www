@@ -1,4 +1,5 @@
-const fs = require('fs')
+const fs = require('node:fs')
+const path = require('node:path')
 
 const Handlebars = require('handlebars')
 const { format: dateFormat } = require('date-fns')
@@ -74,8 +75,8 @@ Handlebars.registerHelper('typeIcon', function (typeStr) {
   }
 })
 
-Handlebars.registerHelper('embedSVG', function (path) {
-  return fs.readFileSync('public/' + path, { encoding: 'utf8' })
+Handlebars.registerHelper('embedSVG', function (relPath) {
+  return fs.readFileSync(path.join('public', relPath), { encoding: 'utf8' })
 })
 
 Handlebars.registerHelper('eachN', function (context, options) {
