@@ -1,4 +1,1 @@
-NAME    INSTALLED  FIXED-IN          TYPE       VULNERABILITY   SEVERITY  EPSS%  RISK  
-stdlib  go1.23.8   *1.23.10, 1.24.4  go-module  CVE-2025-4673   Medium    11.47  < 0.1  
-stdlib  go1.23.8   *1.23.10, 1.24.4  go-module  CVE-2025-22874  High       4.15  < 0.1  
-stdlib  go1.23.8   *1.23.10, 1.24.4  go-module  CVE-2025-0913   Medium     1.41  < 0.1
+No vulnerabilities found
