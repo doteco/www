@@ -1,3 +1,5 @@
+const fs = require('fs')
+
 const Handlebars = require('handlebars')
 const { format: dateFormat } = require('date-fns')
 const { de: deLocale } = require('date-fns/locale/de')
@@ -70,6 +72,10 @@ Handlebars.registerHelper('typeIcon', function (typeStr) {
     default:
       return 'eligibility-businesses.svg'
   }
+})
+
+Handlebars.registerHelper('embedSVG', function (path) {
+  return fs.readFileSync('public/' + path, { encoding: 'utf8' })
 })
 
 Handlebars.registerHelper('eachN', function (context, options) {

@@ -89,7 +89,7 @@ const options = ENV_OPTIONS[env]
 console.log('Using options:', options)
 const siteUrl = options['site-url'][lang] || options['site-url'].en
 
-const sitemapLinks = () => {
+const sitemapLinks = function () {
   return (files, metalsmith, done) => {
     for (const [path, file] of Object.entries(files)) {
       if (path.endsWith('.html')) {
