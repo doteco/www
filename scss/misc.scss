@@ -1,7 +1,7 @@
 #doteco {
 	.hero-404 {
 		background-image: url('/img/windmill-sunflowers.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/img/windmill-sunflowers.jpg');
+		background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url('/img/windmill-sunflowers.jpg');
 		background-size: cover;
 
 		.container {
@@ -34,7 +34,7 @@
 	.contact-header {
 		color: white;
 		background-image: url('/img/windmill-sunflowers.webp');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/windmill-sunflowers.webp');
+		background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('/img/windmill-sunflowers.webp');
 		background-size: cover;
 		background-position: top center;
 
@@ -47,7 +47,7 @@
 	.grants-header {
 		color: white;
 		background-image: url('/img/sewing-hero.jpg');
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/sewing-hero.jpg');
+		background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('/img/sewing-hero.jpg');
 		background-size: cover;
 		background-position: center;
 		height: 300px;

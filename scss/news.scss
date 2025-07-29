@@ -40,7 +40,7 @@
 		blockquote {
 			font-style: italic;
 			padding: 0 1rem;
-			border-left: 1px solid rgba(var(--bs-body-color-rgb), 0.25);
+			border-left: 1px solid rgb(var(--bs-body-color-rgb), 0.25);
 		}
 
 		blockquote > ol:last-child, blockquote > p:last-child {
@@ -146,11 +146,11 @@
 		top: 0;
 		height: 100%;
 		width: 100%;
-		background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+		background: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.9));
 	}
 
 	.news-tile-overlay:hover {
-		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
+		background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.9));
 	}
 
 	.news-tile-content {
@@ -193,12 +193,12 @@
 	@include color-mode(dark) {
 		.eco-event-sdg-shade {
 			th:nth-child(5) {
-				background-color: rgba(255, 255, 255, 0.95);
+				background-color: rgb(255, 255, 255, 0.95);
 				color: $doteco-charcoal;
 			}
 
 			td:nth-child(5) {
-				background-color: rgba(255, 255, 255, 0.95);
+				background-color: rgb(255, 255, 255, 0.95);
 			}
 		}
 	}
