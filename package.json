@@ -40,7 +40,8 @@
     "svgo": "3.3.2"
   },
   "scripts": {
-    "build": "node ./build.js",
+    "build": "npm run build:svg && npm run build:html",
+    "build:html": "node ./build.js",
     "build:svg": "svgo -f source/img/ -r -o public/img/",
     "minify": "node ./imagemin.mjs && cp -R public-img/img public && cp -R public-img/img public-de && cp -R public-img/img public-fr",
     "start": "npm run build",
