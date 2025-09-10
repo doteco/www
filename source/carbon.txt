@@ -1,9 +1,9 @@
 [org]
 disclosures = [
-	{ doc_type='sustainability-page', url='https://go.eco/impact/', domain='go.eco' },
-	{ doc_type='annual-report', url='https://go.eco/impact/impact-report-2024/', domain='go.eco' },
-	{ doc_type='other', url='https://go.eco/news/eco-is-carbon-neutral-2024/', domain='go.eco' },
-	{ doc_type='annual-report', url='https://go.eco/impact/ghg-report-2024/', domain='go.eco' }
+	{ doc_type="sustainability-page", url="https://go.eco/impact/", domain="go.eco" },
+	{ doc_type="web-page", url="https://go.eco/news/eco-is-carbon-neutral-2024/", domain="go.eco" },
+	{ doc_type="annual-report", url="https://go.eco/impact/impact-report-2024/", domain="go.eco" },
+	{ doc_type="annual-report", url="https://go.eco/impact/ghg-report-2024/", domain="go.eco" }
 ]
 
 [upstream]
