@@ -60,7 +60,7 @@ function whois () {
   const url = new URL('{{ searchUrl }}/whois')
   url.searchParams.set('domain', domain)
   window.fetch(url).then((response) => response.text()).then(function (results) {
-    document.querySelector('.whois-results').innerText = results.replace(/"/g, '').replace(/\\r\\n/g, '\r\n').replace(/\\n/g, '\n')
+    document.querySelector('.whois-results').innerText = results
   }).catch(handleSearchError)
   trackEvent('whois')
 }
