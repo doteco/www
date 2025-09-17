@@ -23,7 +23,7 @@ active: news
     {{#each collections.news}}
     <div class="col-md-{{newsColumns @index}}">
       <a href="/{{pagePath path}}">
-        <div class="news-tile">
+        <div class="news-tile {{ tile-class}}">
           <img class="news-tile-image" src="{{ header-img }}" loading="lazy" alt="{{ header-img-alt }}">
           <div class="news-tile-overlay">
             <div class="news-tile-content">
