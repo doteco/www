@@ -4,7 +4,7 @@ title: "2025 Eco Web Hosting Review"
 excerpt: "How many .eco websites are using eco-friendly web hosting in 2025? We reviewed all active .eco domains to find out."
 description: "Review of all active .eco websites to analyze how many are using eco-friendly hosting, which hosting providers are most popular and how .eco compares."
 header-img: /img/news/english_bay.webp
-header-img-alt: Stones piles on the shore at English Bay, Vancouver, Canada
+header-img-alt: Stones piled on the shore at English Bay, Vancouver, Canada
 pubdate: 2025-09-25
 author: Eco Domain (.eco)
 layout: article.hbs
@@ -26,9 +26,9 @@ more:
 ## {{excerpt}}
 
 <figure>
-<img alt="{{header-img-alt}}" src="{{header-img}}">
+<img alt="" src="{{header-img}}">
 <figcaption>
-Image by <a href="https://pixabay.com/users/dlohner-4631193/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3100049">dlohner</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3100049">Pixabay</a>
+{{header-img-alt}}
 </figcaption>
 </figure>
 
@@ -44,18 +44,25 @@ First, we should have a quick word about our approach. It's a bit technical, so 
 
 For this analysis we are only considering .eco domains that have an "active website". This means that:
 - the domain name should resolve to a valid website that returns a successful HTTP status code (200)
-- we exclude domains that redirect to a websites that isn't using a .eco domain
+- we exclude any domain that redirects to a website that isn't using a .eco domain
 - we exclude domains associated with a registrar parking or construction page or that are otherwise devoid of content
 
 There are a few reasons why we focus only on active websites:
-1. People care more about and have more control over their actual website than a parking page
-2. Our baseline contains only valid websites, so it provides a better basis of comparison (more on this later)
+1. People care more about their website if it is in active use and can make the best decision about where to host it
+2. Our baseline contains only valid websites so it provides a better basis of comparison (more on this later)
 
 ### 2025 Results
 
 As of September 29, 2025, **45% of active .eco websites** use an eco-friendly web hosting provider. This is a slight increase from last year.
 
-.eco domains use 95 different green web hosting providers. This is down quite significantly (38%) from last year. Over the past few years, we have seen the number of different green web hosts grow each year as more providers register with the Green Web Foundation. This is the first time we've seen the number of providers drop. It is likely due to [clean up of the hosting directory done by the Green Web Foundation](https://www.thegreenwebfoundation.org/news/an-update-on-finding-representatives-for-large-hosting-providers/), but it does have some fairly significant implications which we'll dig into later.
+.eco domains use 95 distinct green web hosting providers. This is down quite significantly from last year. Over the past few years, we have seen the number of green web hosts grow each year as more providers register with the Green Web Foundation. This is the first time we've seen the number of providers drop. It is likely due to [clean up of the hosting directory done by the Green Web Foundation](https://www.thegreenwebfoundation.org/news/an-update-on-finding-representatives-for-large-hosting-providers/), but it does have some fairly significant implications which we'll dig into later.
+
+<figure>
+<img alt="" src="/img/news/2025-eco-hosting-chart.webp">
+<figcaption>
+Chart showing the percentage of active .eco websites using eco-friendly hosting 2022-2025
+</figcaption>
+</figure>
 
 Here are the **top 10** eco-friendly hosting providers with the largest number of .eco domains:
 
@@ -64,7 +71,7 @@ Here are the **top 10** eco-friendly hosting providers with the largest number o
 | [Cloudflare](https://www.cloudflare.com/impact/) | 14% |
 | [OVH](https://corporate.ovhcloud.com/en/sustainability/environment/) | 5% |
 | [Google](https://sustainability.google/) | 5% |
-| [Hostinger](https://www.hetzner.com/unternehmen/umweltschutz/) | 3% |
+| [Hostinger](https://www.hostinger.com/sustainability) | 3% |
 | [Hetzer](https://www.hetzner.com/unternehmen/umweltschutz/) | 3% |
 | [IONOS](https://www.ionos.com/environment) | 2% |
 | [Infomaniak](https://www.infomaniak.com/en/ecology) | 1% |
@@ -79,15 +86,19 @@ Some notable omissions from last year's top 10 include:
 
 These hosting providers were likely removed from the Hosting Directory if the Green Web Foundation was unable to contact the provider to audit their green hosting claims.
 
-Notably, the largest gain in eco-friendly websites versus last year is Hostinger, which has not previously broken the top 10.
+Notably, the largest gain in eco-friendly websites versus last year is Hostinger, which has not previously broken the top 10. Cloudflare continues to occupy the top slot; however, as it is primarily a content-delivery network, it is not necessarily the case that the associated .eco domains are [using Cloudflare for hosting as well](https://www.thegreenwebfoundation.org/support/im-using-a-cloud-provider-why-is-my-site-showing-as-grey/).
+
+![Green Web Tracker by Green Web Foundation](/img/news/green-web-tracker.webp)
+
+To track the hosting status of .eco domains over time, we have worked with the Green Web Foundation and their Green Web Tracker project to publish an [index of .eco domains with active websites](https://tracker.greenweb.org/index/doteco-domains/). You can use this to see which .eco domains pass Green Web Check and how that status changes over time.
 
 ### Is 45% any good?
 
 To determine whether 45% of active .eco websites using eco-friendly hosting is relatively good, we need some sort of baseline.
 
-Last year, we used the [Cloudflare Radar](https://radar.cloudflare.com/domains) top 10,000 most popular website index as a basis of comparison. This index tracks the domain names that receive the most DNS traffic through [Cloudflare's DNS resolvers](https://developers.cloudflare.com/radar/glossary/#domain-rankings) based on the week of September 15-22 2025. This is a reasonably representative sample of the most popular websites on the Internet.
+Last year, we used the [Cloudflare Radar](https://radar.cloudflare.com/domains) Top 10,000 domain ranking list as a basis of comparison. Their domain ranking list tracks the domain names that receive the most DNS traffic through [Cloudflare's DNS resolvers](https://developers.cloudflare.com/radar/glossary/#domain-rankings) during the week of September 15-22 2025. This is a reasonably representative sample of the most popular websites on the Internet.
 
-Last year, running Cloudflare Radar’s top 10,000 websites through the Green Web Check, we found that **42%** of those domains use eco-friendly hosting. This year, that dropped to **27%**! That is likely due to removing AWS (a reduction of 8%) and Akamai (3%). That 11% accounts for most of the reduction versus last year.
+Last year, after running Cloudflare Radar’s Top 10,000 domains through Green Web Check, we found that **42%** of those domains use eco-friendly hosting. This year, that dropped to **27%**! The drop is likely due to removing AWS (a reduction of 8%) and Akamai (3%). That 11% accounts for most of the reduction versus last year.
 
 This suggests that removing major providers from the hosting directory reduced the proportion of websites using green hosting by a similar amount both for .eco and for the Cloudflare Radar baseline.
 
@@ -103,8 +114,8 @@ Here are the top 5 eco-friendly hosting providers for the Cloudflare Top 10,000:
  
 ### What’s next
 
-If you want to know if your website is using eco-friendly web hosting, you can enter your domain into the [Green Web Check](https://www.thegreenwebfoundation.org/green-web-check/). If your site is using a green host and you are using a .eco domain name, you can add a badge to your [.eco profile](https://profiles.eco/profile/certification/green-web-check) showing that. [Here’s how to do it](/news/green-web-check-ecolabel/).
+If you want to check if your website is using eco-friendly web hosting, you can enter your domain into the [Green Web Check](https://www.thegreenwebfoundation.org/green-web-check/). Alternately, if you have a .eco domain, you can check its performance using [Green Web Tracker](https://tracker.greenweb.org/index/doteco-domains/). If your site is using a green host and you are using a .eco domain name, you can add a badge to your [.eco profile](https://profiles.eco/profile/certification/green-web-check) showing that. [Here’s how to do it](/news/green-web-check-ecolabel/).
 
-If your site isn’t using an eco-friendly host, check out our [post on eco-friendly domain retailers](https://go.eco/news/finding-a-green-domain-retailer/) - they also offer web hosting services.
+If your site isn’t using an eco-friendly host, consider migrating to a web host that is. Here's some advice on how to [find an eco-friendly host for your website](/news/eco-friendly-web-host/).
 
 Let’s work together to achieve a **fossil-fuel free Internet by 2030**. Choosing a sustainable web hosting provider is a great place to start.
