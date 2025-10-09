@@ -21,13 +21,13 @@
   },
   {
     "domain": "preserve.eco",
-    "story": "<a href=\"https://preserve.eco\">Preserve</a> , eine zertifizierte B Corporation, stellt stilvolle, umweltfreundliche Produkte für das Zuhause aus 100 % recyceltem Kunststoff her.",
+    "story": "<a href=\"https://preserve.eco\">Preserve</a> , eine zertifizierte B Corporation, stellt stilvolle, umweltfreundliche Produkte für den Haushalt aus 100 % recyceltem Kunststoff her.",
     "img": "/img/champion_logos/preserve.webp",
     "type": "business",
     "sector": "Consumer goods",
     "link": "https://profiles.eco/preserve.eco",
     "location": "Vereinigte Staaten",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "leap.eco",
@@ -51,7 +51,7 @@
   },
   {
     "domain": "ecofario.eco",
-    "story": "Mikroplastik verschmutzt unsere Flüsse, Seen und Meere. <a href=\"https://ecofario.eco/\">ECOFARIO</a> hat ein neues Verfahren entwickelt, um den Eintrag von Mikroplastikpartikeln in die Umwelt deutlich zu reduzieren.",
+    "story": "Mikroplastik verschmutzt unsere Flüsse, Seen und Meere. <a href=\"https://ecofario.eco/\">ECOFARIO</a> hat ein neues Verfahren entwickelt, um die Freisetzung von Mikroplastikpartikeln in die Umwelt deutlich zu reduzieren.",
     "img": "/img/champion_logos/ecofario.webp",
     "type": "business",
     "sector": "Industrial",
@@ -61,7 +61,7 @@
   },
   {
     "domain": "goodonyou.eco",
-    "story": "Ihre Einkaufsentscheidungen haben großen Einfluss darauf, wie Unternehmen mit Menschen, dem Planeten und Tieren umgehen. Die <span class=\"notranslate\"><a href=\"https://goodonyou.eco/\">Good On You</a></span> App macht es Ihnen leicht, nach Ihren Werten einzukaufen.",
+    "story": "Ihre Einkaufsentscheidungen haben großen Einfluss darauf, wie Unternehmen mit Menschen, dem Planeten und Tieren umgehen. Mit der <span class=\"notranslate\"><a href=\"https://goodonyou.eco/\">Good On You</a></span> -App können Sie ganz einfach nach Ihren Werten einkaufen.",
     "img": "/img/champion_logos/goodonyou.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -121,7 +121,7 @@
   },
   {
     "domain": "carboncopy.eco",
-    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> ist eine britische Wohltätigkeitsorganisation, die zu innovativen lokalen Klimaschutzmaßnahmen inspiriert, um unseren Fortschritt in Richtung einer gerechteren, CO2-freien Zukunft zu beschleunigen.",
+    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> ist eine britische Wohltätigkeitsorganisation, die zu ehrgeizigen lokalen Klimaschutzmaßnahmen inspiriert, um unseren Fortschritt in Richtung einer gerechteren, CO2-freien Zukunft zu beschleunigen.",
     "img": "/img/champion_logos/carboncopy-hero.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -141,7 +141,7 @@
   },
   {
     "domain": "zeroco2.eco",
-    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> ist eine B Corp, die Einzelpersonen und Unternehmen hilft, die Klimakrise einzudämmen, indem sie die nachhaltige Entwicklung von Gemeinschaften unterstützt, die auf wiederaufgeforsteten Flächen leben.",
+    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> ist eine B Corp, die Einzelpersonen und Unternehmen dabei hilft, die Klimakrise zu mildern, indem sie die nachhaltige Entwicklung von Gemeinschaften unterstützt, die auf wiederaufgeforstetem Land leben.",
     "img": "/img/champion_logos/zeroco2.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -151,7 +151,7 @@
   },
   {
     "domain": "terrabyte.eco",
-    "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> ist ein Green-Tech-Unternehmen, das sich darauf konzentriert, Kreativität und Technologie zu kombinieren, um Lösungen für die anhaltende Umweltkrise zu bieten.",
+    "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> ist ein Green-Tech-Unternehmen, das sich auf die Kombination von Kreativität und Technologie konzentriert, um Lösungen für die anhaltende Umweltkrise zu bieten.",
     "img": "/img/champion_logos/terrabyte.webp",
     "type": "business",
     "sector": "Digital agencies & software",
@@ -211,7 +211,7 @@
   },
   {
     "domain": "carl.eco",
-    "story": "Die Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) hilft jedem Arbeitnehmer, ein Klima-Champion zu werden, indem sie Aktionsleitfäden für jeden Beruf veröffentlicht.",
+    "story": "Die Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) hilft jedem Arbeitnehmer, ein Klimaschützer zu werden, indem sie Aktionsleitfäden für jeden Beruf veröffentlicht.",
     "img": "/img/champion_logos/carl.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -251,7 +251,7 @@
   },
   {
     "domain": "sportainable.eco",
-    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> ist ein Think Tank, der Sport neu denkt, um ihn ressourceneffizient, emissionsarm, naturfreundlich und sozial verantwortlich zu gestalten.",
+    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> ist ein Think Tank, der Sport neu denkt, um ihn ressourceneffizient, emissionsarm, umweltfreundlich und sozial verantwortlich zu gestalten.",
     "img": "/img/champion_logos/sportainable-football2.webp",
     "type": "nonprofit",
     "sector": "Athletics",
@@ -261,7 +261,7 @@
   },
   {
     "domain": "letsfixthis.eco",
-    "story": "<span class=\"notranslate\"><a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a></span> ist ein neues Buch voller praktischer Schritt-für-Schritt-Anleitungen für Ihr Umweltengagement.",
+    "story": "<span class=\"notranslate\"><a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a></span> ist ein neues Buch voller praktischer Schritt-für-Schritt-Ideen, wie Sie Umweltschutzmaßnahmen ergreifen können.",
     "img": "/img/champion_logos/letsfixthis-tile.png",
     "type": "individual",
     "sector": "Books & publications",
@@ -271,7 +271,7 @@
   },
   {
     "domain": "livelightly.eco",
-    "story": "Der <a href=\"https://livelightly.eco\">Live Lightly</a> -Podcast erkundet, wie wir ein gesundes Leben im Einklang mit der Natur führen können.",
+    "story": "Der Podcast <a href=\"https://livelightly.eco\">„Live Lightly“</a> erkundet, wie wir ein gesundes Leben im Einklang mit der Natur führen können.",
     "img": "/img/champion_logos/livelightly-tile.webp",
     "type": "individual",
     "sector": "Podcasts",
@@ -331,13 +331,13 @@
   },
   {
     "domain": "netto.eco",
-    "story": "<span class=\"notranslate\"><a href=\"https://netto.eco/\">Netto</a></span> unterstützt Banken dabei, die Klimabelastung durch Gewerbeimmobilien zu reduzieren.",
+    "story": "<span class=\"notranslate\"><a href=\"https://netto.eco/\">Netto</a></span> unterstützt Banken dabei, die Klimabelastung durch Gewerbegebäude zu reduzieren.",
     "img": "/img/champion_logos/netto-profile.webp",
     "type": "business",
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/netto.eco",
     "location": "Norwegen",
-    "priority": "1"
+    "priority": "3"
   },
   {
     "domain": "octopass.eco",
@@ -348,5 +348,15 @@
     "link": "https://profiles.eco/octopass.eco",
     "location": "Vereinigtes Königreich",
     "priority": "2"
+  },
+  {
+    "domain": "gaia.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://gaia.eco/\">Gaia</a></span> ist ein Softwaretool zur Erforschung der erstaunlichen Artenvielfalt unseres Planeten.",
+    "img": "/img/champion_logos/gaia-profile.webp",
+    "type": "business",
+    "sector": "Digital agencies & software",
+    "link": "https://profiles.eco/gaia.eco",
+    "location": "Schweden",
+    "priority": "1"
   }
 ]

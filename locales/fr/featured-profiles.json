@@ -27,11 +27,11 @@
     "sector": "Consumer goods",
     "link": "https://profiles.eco/preserve.eco",
     "location": "États-Unis",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "leap.eco",
-    "story": "<a href=\"https://leap.eco\">Leap</a> est un studio de design qui croit en une conception réfléchie et en un travail qui compte. En tant que B Corp, ils créent des solutions responsables qui dépassent les normes du triple résultat net.",
+    "story": "<a href=\"https://leap.eco\">Leap</a> est un studio de design qui croit en une conception réfléchie et une création qui compte. En tant que B Corp, ils créent des solutions responsables qui dépassent les normes de triple résultat.",
     "img": "/img/champion_logos/leap.webp",
     "type": "business",
     "sector": "Consulting and agencies",
@@ -101,7 +101,7 @@
   },
   {
     "domain": "nuvola.eco",
-    "story": "<a href=\"https://nuvola.eco\">Nuvola</a> est un guichet unique pour acheter des produits de beauté et de soins de la peau zéro déchet, durables, végétaliens et sans cruauté.",
+    "story": "<a href=\"https://nuvola.eco\">Nuvola</a> est un guichet unique pour l&#39;achat de produits de beauté et de soins de la peau zéro déchet, durables, végétaliens et sans cruauté.",
     "img": "/img/champion_logos/nuvola.webp",
     "type": "business",
     "sector": "Health & Beauty",
@@ -121,7 +121,7 @@
   },
   {
     "domain": "carboncopy.eco",
-    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> est une organisation caritative britannique qui encourage une action climatique locale de grande envergure pour accélérer nos progrès vers un avenir plus juste et zéro carbone.",
+    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> est une association caritative britannique qui encourage une action climatique locale de grande envergure pour accélérer nos progrès vers un avenir plus juste et zéro carbone.",
     "img": "/img/champion_logos/carboncopy-hero.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -131,7 +131,7 @@
   },
   {
     "domain": "dragonfly.eco",
-    "story": "<a href=\"https://dragonfly.eco\">Dragonfly</a> catalogue et organise des éco-fictions qui explorent des thèmes environnementaux.",
+    "story": "<a href=\"https://dragonfly.eco\">Dragonfly</a> catalogue et organise des éco-fictions qui explorent les thèmes environnementaux.",
     "img": "/img/champion_logos/dragonfly-eco.webp",
     "type": "individual",
     "sector": "Individual",
@@ -171,7 +171,7 @@
   },
   {
     "domain": "pirkani.eco",
-    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> est une marque avant-gardiste et originale. Inscrite au cœur de nos préoccupations, notre mission est de produire de manière éthique une mode britannique contemporaine au design minimaliste.",
+    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> est une marque avant-gardiste qui se démarque. Inscrite au cœur de nos préoccupations, notre mission est de produire de manière éthique une mode britannique contemporaine au design minimaliste.",
     "img": "/img/champion_logos/pirkani3.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -181,7 +181,7 @@
   },
   {
     "domain": "cycle.eco",
-    "story": "<a href=\"https://cycle.eco\">Le cycle</a> change la livraison du dernier kilomètre et réduit les émissions de CO2 liées au trafic en garantissant à des milliers de coursiers à vélo une expérience de livraison fluide, rapide et sûre chaque jour.",
+    "story": "<a href=\"https://cycle.eco\">Cycle</a> change la livraison du dernier kilomètre et réduit les émissions de CO2 liées au trafic en garantissant à des milliers de coursiers à vélo une expérience de livraison fluide, rapide et sûre chaque jour.",
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
     "sector": "Transportation",
@@ -281,7 +281,7 @@
   },
   {
     "domain": "caspian.eco",
-    "story": "Le <a href=\"https://caspian.eco\">Consortium pour l’environnement de la mer Caspienne</a> s’efforce de cultiver des algues dans la mer Caspienne pour capturer le CO2 et restaurer l’écosystème local.",
+    "story": "Le <a href=\"https://caspian.eco\">Consortium pour l&#39;environnement de la mer Caspienne</a> s&#39;efforce de cultiver des algues dans la mer Caspienne pour capturer le CO2 et restaurer l&#39;écosystème local.",
     "img": "/img/champion_logos/caspian-tile.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -337,7 +337,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/netto.eco",
     "location": "Norvège",
-    "priority": "1"
+    "priority": "3"
   },
   {
     "domain": "octopass.eco",
@@ -348,5 +348,15 @@
     "link": "https://profiles.eco/octopass.eco",
     "location": "Royaume-Uni",
     "priority": "2"
+  },
+  {
+    "domain": "gaia.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://gaia.eco/\">Gaia</a></span> est un outil logiciel permettant d&#39;explorer l&#39;étonnante biodiversité de notre planète.",
+    "img": "/img/champion_logos/gaia-profile.webp",
+    "type": "business",
+    "sector": "Digital agencies & software",
+    "link": "https://profiles.eco/gaia.eco",
+    "location": "Suède",
+    "priority": "1"
   }
 ]

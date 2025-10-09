@@ -27,7 +27,7 @@
     "sector": "Consumer goods",
     "link": "/champions/preserve/",
     "location": "USA",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "leap.eco",
@@ -337,7 +337,7 @@
     "sector": "Digital agencies & software",
     "link": "/champions/netto/",
     "location": "Norway",
-    "priority": "1"
+    "priority": "3"
   },
   {
     "domain": "octopass.eco",
@@ -348,5 +348,15 @@
     "link": "/champions/octopass/",
     "location": "United Kingdom",
     "priority": "2"
+  },
+  {
+    "domain": "gaia.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://gaia.eco/\">Gaia</a></span> is a software tool for exploring our planet's amazing biodiversity.",
+    "img": "/img/champion_logos/gaia-profile.webp",
+    "type": "business",
+    "sector": "Digital agencies & software",
+    "link": "/champions/gaia/",
+    "location": "Sweden",
+    "priority": "1"
   }
 ]
