@@ -287,7 +287,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/caspian.eco",
     "location": "Kazakhstan",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "tim.eco",
@@ -307,7 +307,7 @@
     "sector": "Agriculture technology",
     "link": "https://profiles.eco/klim.eco",
     "location": "Allemagne",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "thepositiveproject.eco",
@@ -327,7 +327,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/greeninitiative.eco",
     "location": "Brésil",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "netto.eco",
@@ -337,7 +337,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/netto.eco",
     "location": "Norvège",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "octopass.eco",
@@ -347,7 +347,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/octopass.eco",
     "location": "Royaume-Uni",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "gaia.eco",
@@ -357,6 +357,16 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/gaia.eco",
     "location": "Suède",
+    "priority": "2"
+  },
+  {
+    "domain": "flamingo.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://flamingo.eco/\">Flamingo</a></span> est la première plateforme de financement participatif dédiée à la conservation des zones humides.",
+    "img": "/img/champion_logos/flamingo-wetlands-tile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/flamingo.eco",
+    "location": "Suisse",
     "priority": "1"
   }
 ]

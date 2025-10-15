@@ -287,7 +287,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/caspian.eco",
     "location": "Kasachstan",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "tim.eco",
@@ -307,7 +307,7 @@
     "sector": "Agriculture technology",
     "link": "https://profiles.eco/klim.eco",
     "location": "Deutschland",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "thepositiveproject.eco",
@@ -327,7 +327,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/greeninitiative.eco",
     "location": "Brasilien",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "netto.eco",
@@ -337,7 +337,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/netto.eco",
     "location": "Norwegen",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "octopass.eco",
@@ -347,7 +347,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/octopass.eco",
     "location": "Vereinigtes Königreich",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "gaia.eco",
@@ -357,6 +357,16 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/gaia.eco",
     "location": "Schweden",
+    "priority": "2"
+  },
+  {
+    "domain": "flamingo.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://flamingo.eco/\">Flamingo</a></span> ist die erste Crowdfunding-Plattform, die sich dem Schutz von Feuchtgebieten widmet.",
+    "img": "/img/champion_logos/flamingo-wetlands-tile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/flamingo.eco",
+    "location": "Schweiz",
     "priority": "1"
   }
 ]

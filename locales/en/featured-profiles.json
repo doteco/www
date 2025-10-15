@@ -287,7 +287,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/caspian/",
     "location": "Kazakhstan",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "tim.eco",
@@ -307,7 +307,7 @@
     "sector": "Agriculture technology",
     "link": "/champions/klim/",
     "location": "Germany",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "thepositiveproject.eco",
@@ -327,7 +327,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/greeninitiative/",
     "location": "Brazil",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "netto.eco",
@@ -337,7 +337,7 @@
     "sector": "Digital agencies & software",
     "link": "/champions/netto/",
     "location": "Norway",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "octopass.eco",
@@ -347,7 +347,7 @@
     "sector": "Digital agencies & software",
     "link": "/champions/octopass/",
     "location": "United Kingdom",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "gaia.eco",
@@ -357,6 +357,16 @@
     "sector": "Digital agencies & software",
     "link": "/champions/gaia/",
     "location": "Sweden",
+    "priority": "2"
+  },
+  {
+    "domain": "flamingo.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://flamingo.eco/\">Flamingo</a></span> is the first crowdfunding platform dedicated to wetlands conservation.",
+    "img": "/img/champion_logos/flamingo-wetlands-tile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "/champions/flamingo/",
+    "location": "Switzerland",
     "priority": "1"
   }
 ]
