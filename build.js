@@ -96,8 +96,8 @@ const sitemapLinks = function () {
         if (lang !== defaultLang && !file.i18nNamespace) {
           file.exclude = true
           file.redirectTo = '/'
-        } else if (file.i18nNamespace) {
-          file.sitemapLinks = Object.entries(options['site-url']).map(e => ({ lang: e[0], url: e[1] + '/' + path.replace('index.html', '') }))
+        } else if (file.i18nNamespace && file.i18nLangs) {
+          file.sitemapLinks = file.i18nLangs.map(lang => ({ lang, url: options['site-url'][lang] + '/' + path.replace('index.html', '') }))
         }
       }
     }
