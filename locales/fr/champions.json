@@ -66,47 +66,49 @@
     "title": "Flamingo - .eco champion",
     "alt": "Vue aérienne d'une zone humide avec trois petits bateaux.",
     "description": "Flamingo est une plateforme de financement participatif pour aider à préserver, protéger et restaurer les écosystèmes humides critiques en France.",
-    "excerpt": "Les zones humides sont un écosystème essentiel, quoique sous-estimé. Flamingo est une plateforme de financement participatif qui tente de changer cela.",
-    "intro": "_Nous avons discuté avec Alizée Ruel, co-fondatrice et COO de [Flamingo](https://flamingo.eco/), une plateforme franco-suisse qui soutient la conservation des zones humides._",
+    "excerpt": "Les zones humides sont parmi les écosystèmes les plus essentiels de notre planète… et pourtant parmi les plus sous-estimés (voir oubliés). Flamingo est une plateforme de financement participatif qui entend changer cette perception.",
+    "intro": "_Nous avons échangé avec Alizée Ruel, co-fondatrice et COO de [Flamingo](https://flamingo.eco), une plateforme franco-suisse dédiée à la préservation des zones humides._",
     "questions": [
       {
-        "q": "Comment vous est venue l’idée de Flamingo ?",
+        "q": "Comment est née l’idée de Flamingo ?",
         "a": [
-          "Flamingo est la première plateforme de financement participatif **entièrement dédiée aux zones humides**.\n",
-          "L'idée de Flamingo est née d'un constat simple : les zones humides sont vitales, mais invisibles. Notre mission est de transformer la sensibilisation en action et l'action collective en impact. Apporter un nouveau regard sur les zones humides et financer des initiatives locales dédiées à leur protection.\n",
-          "Inspirés par [Luc Hoffmann](https://en.wikipedia.org/wiki/Luc_Hoffmann), ornithologue visionnaire et fervent défenseur de la biodiversité, nous poursuivons sa mission avec passion, détermination et humilité."
+          "Flamingo est la première plateforme de financement participatif entièrement consacrée aux zones humides.\n",
+          "L’idée est née d’un constat simple : ces écosystèmes sont vitaux, mais largement invisibles. Notre mission est d’apporter un nouveau regard sur les zones humides et de financer des  initiatives locales engagées dans leur protection.\n",
+          "Inspirés par [Luc Hoffmann](https://fr.wikipedia.org/wiki/Luc_Hoffmann), ornithologue visionnaire et fervent défenseur de la biodiversité, nous poursuivons sa mission avec passion, détermination et humilité."
         ]
       },
       {
-        "q": "Pourquoi avez-vous décidé de vous concentrer sur les zones humides ?",
+        "q": "Pourquoi se concentrer sur les zones humides ?",
         "a": [
-          "Les zones humides sont bien plus que des endroits boueux infestés de moustiques !\n",
-          "Ils ne couvrent qu’environ 6 % de la surface terrestre, mais ils abritent **40 % de la biodiversité** et constituent un **puits de carbone terrestre** vital.\n",
-          "Ils agissent également comme de puissants alliés naturels : ils aident à réguler les cycles de l’eau pour prévenir les inondations et les sécheresses, purifient l’eau, rafraîchissent les zones urbaines et servent de tampons contre les tempêtes, ce qui les rend essentiels à la fois à la biodiversité et au bien-être humain.\n",
-          "Et pourtant, nous les détruisons trois fois plus vite que les forêts ! Les tourbières asséchées émettent autant de CO₂e que tout le trafic aérien mondial en une seule année. Et c'est un véritable fléau pour la planète !\n",
-          "Il n’y a pas de temps à perdre !"
+          "Les zones humides, ce ne sont pas seulement des endroits boueux remplis de moustiques !\n",
+          "Elles ne couvrent que **6 % de la surface terrestre**, mais abritent **40 % de la biodiversité mondiale** et constituent un **puits de carbone majeur**.\n",
+          "Elles régulent les cycles de l’eau, préviennent les inondations et les sécheresses, filtrent l’eau, rafraîchissent les villes et agissent comme des boucliers naturels contre les tempêtes.\n",
+          "Et pourtant, nous les détruisons trois fois plus vite que les forêts ! Les tourbières asséchées émettent autant de CO₂e que l’ensemble du trafic aérien mondial en une seule année. Un véritable désastre écologique.\n",
+          "Il n’y a plus une minute à perdre."
         ]
       },
       {
-        "q": "Comment sont sélectionnés les projets pour Flamingo ?",
+        "q": "Comment sont sélectionnés les projets ?",
         "a": [
-          "Les projets sur Flamingo sont sélectionnés en fonction de leur impact écologique, de leur ancrage local (France ou Suisse), de leur faisabilité et de leur capacité à inspirer et mobiliser.\n",
-          "Chaque projet est soumis à un processus de vérification préalable afin de garantir sa crédibilité et son adéquation avec la mission de Flamingo, qui consiste à protéger les zones humides. Notre comité de sélection des projets est composé de scientifiques et d'experts des zones humides. Pour figurer sur la liste, les porteurs de projet peuvent soumettre leur projet à info@flamingo.eco ou directement sur notre plateforme [flamingo.eco](https://flamingo.eco/)."
+          "Les projets présentés sur Flamingo sont choisis pour leur impact écologique, leur ancrage local (en France ou en Suisse), leur faisabilité et leur capacité à inspirer et mobiliser.\n",
+          "Chaque initiative fait l’objet d’un processus de validation rigoureux, supervisé par un comité scientifique d’experts des zones humides.\n",
+          "Les porteurs de projet peuvent soumettre leur candidature à info@flamingo.eco ou directement sur notre site [flamingo.eco](https://flamingo.eco/)."
         ]
       },
       {
         "q": "Comment les gens peuvent-ils en savoir plus sur les projets sur Flamingo, faire un don et suivre leur progression ?",
         "a": [
-          "Les zones humides regorgent de surprises ! Rejoignez notre communauté et découvrez leurs super-pouvoirs.\n",
-          "- _Envie d'en savoir plus_ ? Visitez notre [site Flamingo](https://flamingo.eco/), abonnez-vous à notre newsletter et suivez l'avancement de nos projets !",
-          "- _Déjà convaincu_ ? Faites un don directement au projet qui vous tient à cœur : aidez une espèce menacée d'extinction, soutenez un film artistique réalisé par des enfants ou restaurez les zones humides de votre région. Tous les projets sont situés en France !"
+          "Les zones humides sont pleines de surprises ! Rejoignez notre communauté et découvrez leurs super-pouvoirs.\n",
+          "- **Curieux ?** Visitez [notre site](https://flamingo.eco/), abonnez-vous à la newsletter et suivez l’avancement de nos projets.",
+          "- **Déjà convaincu ?** Faites un don au projet qui vous tient à cœur : soutenez une espèce menacée, financez un film artistique réalisé par des enfants ou contribuez à la restauration des zones humides de votre région.",
+          "\nTous les projets soutenus par Flamingo sont situés en France ou en Suisse."
         ]
       },
       {
-        "q": "Votre travail chez Flamingo s'intègre parfaitement à la communauté .eco. Pourquoi avoir choisi un domaine .eco ?",
+        "q": "Pourquoi avoir choisi un domaine .eco ?",
         "a": [
-          "Nous avons choisi un domaine .eco car il reflète parfaitement qui nous sommes et ce que nous représentons !\n",
-          "Flamingo se consacre à la protection des zones humides, des écosystèmes essentiels au climat, à la biodiversité et à l'humanité. L'extension .eco indique clairement à notre communauté que nous participons à un mouvement mondial pour l'action environnementale. Elle nous permet d'entrer en contact avec des organisations partageant les mêmes valeurs, comme la vôtre, et renforce notre mission : rendre la conservation des zones humides visible, accessible et inspirante."
+          "Nous avons choisi un domaine .eco parce qu’il reflète parfaitement qui nous sommes et ce que nous défendons.\n",
+          "L’extension .eco montre clairement à notre communauté que nous faisons partie d’un mouvement mondial pour l’action environnementale. Elle nous relie à des organisations partageant les mêmes valeurs et renforce notre mission : rendre la conservation des zones humides visible, accessible et inspirante."
         ]
       }
     ],
