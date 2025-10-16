@@ -10,6 +10,7 @@
     "since": "Membre de la communauté depuis",
     "retailer": "Détaillant de domaine"
   },
+  "profile": "profil .eco",
   "positiveproject": {
     "domain": "thepositiveproject.eco",
     "title": "The Positive Project - .eco champion",
@@ -59,5 +60,57 @@
     ],
     "retailer": "Infomaniak",
     "since": "Mars 2022"
+  },
+  "flamingo": {
+    "domain": "flamingo.eco",
+    "title": "Flamingo - .eco champion",
+    "alt": "Vue aérienne d'une zone humide avec trois petits bateaux.",
+    "description": "Flamingo est une plateforme de financement participatif pour aider à préserver, protéger et restaurer les écosystèmes humides critiques en France.",
+    "excerpt": "Les zones humides sont un écosystème essentiel, quoique sous-estimé. Flamingo est une plateforme de financement participatif qui tente de changer cela.",
+    "intro": "_Nous avons discuté avec Alizée Ruel, co-fondatrice et COO de [Flamingo](https://flamingo.eco/), une plateforme franco-suisse qui soutient la conservation des zones humides._",
+    "questions": [
+      {
+        "q": "Comment vous est venue l’idée de Flamingo ?",
+        "a": [
+          "Flamingo est la première plateforme de financement participatif **entièrement dédiée aux zones humides**.\n",
+          "L'idée de Flamingo est née d'un constat simple : les zones humides sont vitales, mais invisibles. Notre mission est de transformer la sensibilisation en action et l'action collective en impact. Apporter un nouveau regard sur les zones humides et financer des initiatives locales dédiées à leur protection.\n",
+          "Inspirés par [Luc Hoffmann](https://en.wikipedia.org/wiki/Luc_Hoffmann), ornithologue visionnaire et fervent défenseur de la biodiversité, nous poursuivons sa mission avec passion, détermination et humilité."
+        ]
+      },
+      {
+        "q": "Pourquoi avez-vous décidé de vous concentrer sur les zones humides ?",
+        "a": [
+          "Les zones humides sont bien plus que des endroits boueux infestés de moustiques !\n",
+          "Ils ne couvrent qu’environ 6 % de la surface terrestre, mais ils abritent **40 % de la biodiversité** et constituent un **puits de carbone terrestre** vital.\n",
+          "Ils agissent également comme de puissants alliés naturels : ils aident à réguler les cycles de l’eau pour prévenir les inondations et les sécheresses, purifient l’eau, rafraîchissent les zones urbaines et servent de tampons contre les tempêtes, ce qui les rend essentiels à la fois à la biodiversité et au bien-être humain.\n",
+          "Et pourtant, nous les détruisons trois fois plus vite que les forêts ! Les tourbières asséchées émettent autant de CO₂e que tout le trafic aérien mondial en une seule année. Et c'est un véritable fléau pour la planète !\n",
+          "Il n’y a pas de temps à perdre !"
+        ]
+      },
+      {
+        "q": "Comment sont sélectionnés les projets pour Flamingo ?",
+        "a": [
+          "Les projets sur Flamingo sont sélectionnés en fonction de leur impact écologique, de leur ancrage local (France ou Suisse), de leur faisabilité et de leur capacité à inspirer et mobiliser.\n",
+          "Chaque projet est soumis à un processus de vérification préalable afin de garantir sa crédibilité et son adéquation avec la mission de Flamingo, qui consiste à protéger les zones humides. Notre comité de sélection des projets est composé de scientifiques et d'experts des zones humides. Pour figurer sur la liste, les porteurs de projet peuvent soumettre leur projet à info@flamingo.eco ou directement sur notre plateforme [flamingo.eco](https://flamingo.eco/)."
+        ]
+      },
+      {
+        "q": "Comment les gens peuvent-ils en savoir plus sur les projets sur Flamingo, faire un don et suivre leur progression ?",
+        "a": [
+          "Les zones humides regorgent de surprises ! Rejoignez notre communauté et découvrez leurs super-pouvoirs.\n",
+          "- _Envie d'en savoir plus_ ? Visitez notre [site Flamingo](https://flamingo.eco/), abonnez-vous à notre newsletter et suivez l'avancement de nos projets !",
+          "- _Déjà convaincu_ ? Faites un don directement au projet qui vous tient à cœur : aidez une espèce menacée d'extinction, soutenez un film artistique réalisé par des enfants ou restaurez les zones humides de votre région. Tous les projets sont situés en France !"
+        ]
+      },
+      {
+        "q": "Votre travail chez Flamingo s'intègre parfaitement à la communauté .eco. Pourquoi avoir choisi un domaine .eco ?",
+        "a": [
+          "Nous avons choisi un domaine .eco car il reflète parfaitement qui nous sommes et ce que nous représentons !\n",
+          "Flamingo se consacre à la protection des zones humides, des écosystèmes essentiels au climat, à la biodiversité et à l'humanité. L'extension .eco indique clairement à notre communauté que nous participons à un mouvement mondial pour l'action environnementale. Elle nous permet d'entrer en contact avec des organisations partageant les mêmes valeurs, comme la vôtre, et renforce notre mission : rendre la conservation des zones humides visible, accessible et inspirante."
+        ]
+      }
+    ],
+    "retailer": "GoDaddy",
+    "since": "November 2024"
   }
 }

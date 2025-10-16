@@ -2,11 +2,11 @@
 collection:
 - news
 - studies
-title: "Flamingo: .eco champion"
-excerpt: Wetlands are an essential, albeit undervalued, ecosystem. Flamingo is a crowdfunding platform trying to change that.
-description: "Flamingo is a crowdfunding platform to help preserve, protect and restore critical wetland ecosystems in France."
+title: flamingo.title
+excerpt: flamingo.excerpt
+description: flamingo.description
 header-img: /img/champion_logos/flamingo-wetlands.webp
-header-img-alt: "Gaia logo with the subtitle Life On The Move on a constellation of different living species."
+header-img-alt: flamingo.alt
 pubdate: 2025-10-14
 author: Eco Domain (.eco)
 layout: article.hbs
@@ -14,62 +14,33 @@ og-image: champion_logos/flamingo-wetlands.jpg
 og-width: 1200
 og-height: 630
 page-path: champions/flamingo/
+i18nNamespace: champions
 ---
 
-# Flamingo: .eco&nbsp;champion
+# {{title}}
 
 ## {{{excerpt}}}
 
 ![{{header-img-alt}}]({{header-img}})
 
-_We spoke with Alizée Ruel, the co-founder and <abbr title="Chief Operating Officer">COO</abbr> of [Flamingo](https://flamingo.eco/), a French and Swiss platform helping to support wetland conservation._
+{{{ t "flamingo.intro"}}}
 
-### How did you come up with the idea for Flamingo?
+{{#each (t "flamingo.questions" returnObjects=true)}}
+### {{q}}
 
-Flamingo is the first crowdfunding platform **fully dedicated to wetlands**. 
+{{#each a}}
+{{{this}}}
+{{/each}}
 
-The idea for Flamingo came from a simple observation: wetlands are vital, but invisible. Our mission is to turn awareness into action, and collective action into impact. To bring a new perspective on wetlands and fund local initiatives dedicated to their protection. 
+{{/each}}
 
-Inspired by [Luc Hoffmann](https://en.wikipedia.org/wiki/Luc_Hoffmann), a visionary ornithologist and passionate defender of biodiversity, we carry on his mission with passion, determination, and humility.
-
-### Why did you decide to focus on wetlands?
-
-Wetlands are waaaaay more than muddy places infested by mosquitoes! 
-
-They cover only about 6% of the land surface but they host **40% of the biodiversity** and they are a vital **terrestrial carbon sink**.
-
-They also act as powerful natural allies: they help regulate water cycles to prevent floods and droughts, purify water, cool urban areas, and serve as buffers against storms making them essential to both biodiversity and human well-being. 
-
-And yet we are destroying them 3 times faster than forests! Drained peatlands emit as much CO₂e as all global air traffic in a single year. And that’s a real bug for the planet!
-
-There is no time to lose!
-
-### How are projects selected for Flamingo?
-
-Projects on Flamingo are selected based on their ecological impact, local anchoring (France or Switzerland), feasibility, and their ability to inspire and mobilize people. 
-
-Each project goes through a due-diligence process to ensure credibility and alignment with Flamingo’s mission to protect wetlands. We have a rocking project selection committee, made up of scientists and wetland experts. To get listed, project leaders can submit their project to info@flamingo.eco or directly on our platform [flamingo.eco](https://flamingo.eco/).
-
-### How can people learn more about projects on Flamingo, donate, and follow their progress?
-
-Wetlands are full of surprises! Join our community and discover their superpowers.
-
-- _Want to learn more?_ Visit our [Flamingo website](https://flamingo.eco/), subscribe to our newsletter, and follow the progress of our projects!
-- _Already convinced?_ Make a donation directly to the project of your heart: help a wetland species threatened with extinction, support an artistic film made by children, or restore wetlands in your region. All projects are located in France!
-
-### Your work at Flamingo is a great fit for the .eco community. Why did you choose a .eco domain?
-
-We chose a .eco domain because it perfectly reflects who we are and what we stand for!
-
-Flamingo is all about protecting wetlands, ecosystems that are essential for climate, biodiversity, and people. The .eco extension instantly tells our community that we are part of a global movement for environmental action. It helps us connect with like-minded organizations like yours and reinforces our mission to make wetland conservation visible, accessible, and inspiring.
-
-<aside class="inverted" title=".eco champion details">
+<aside class="inverted" title="{{t "details.title"}}">
   <ul>
-    <li><strong>Domain</strong>: <a href="https://flamingo.eco/">flamingo.eco</a> (<a href="https://profiles.eco/flamingo">.eco profile</a>)</li>
-    <li><strong>Community member since</strong>: November 2024</li>
-    <li><strong>Domain retailer</strong>: GoDaddy</li>
+    <li><strong>{{t "details.domain"}}</strong>: <a href="https://{{t "flamingo.domain"}}">{{t "flamingo.domain"}}</a> (<a href="https://profiles.eco/{{t "flamingo.domain"}}">{{t "profile"}}</a>)</li>
+    <li><strong>{{t "details.since"}}</strong>: {{t "flamingo.since"}}</li>
+    <li><strong>{{t "details.retailer"}}</strong>: {{t "flamingo.retailer"}}</li>
   </ul>
 </aside>
 
-At .eco, we are fortunate to be surrounded by a community of businesses, organizations and individuals working hard to protect our planet. We are honoured to spread the word about the great work they're doing. If you are a member of the .eco community and would like to be featured, [get in touch](mailto:support@bigroom.eco).
+{{t "wrapup"}}
 

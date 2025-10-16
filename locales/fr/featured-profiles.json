@@ -365,7 +365,7 @@
     "img": "/img/champion_logos/flamingo-wetlands-tile.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
-    "link": "https://profiles.eco/flamingo.eco",
+    "link": "/champions/flamingo/",
     "location": "Suisse",
     "priority": "1"
   }
