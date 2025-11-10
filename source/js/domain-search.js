@@ -212,7 +212,10 @@ window.domainSearch = function (config) {
       }
     })
     const searchResultsRow = document.querySelector('.search-results')
-    searchResultsRow.innerHTML = config.resultLabels.error
+    searchResultsRow.innerHTML = `<span class='domain-search-output title'>${config.resultLabels.error}</span>`
+
+    const searchResultsSection = document.querySelector('.search-results-section')
+    toggleVisibility(searchResultsSection, true)
   }
 
   function search (domain) {
@@ -227,13 +230,13 @@ window.domainSearch = function (config) {
     const searchBox = document.querySelector('.domain-search')
     searchBox.value = domain
 
-    const searchResultsSection = document.querySelector('.search-results-section')
-    toggleVisibility(searchResultsSection, hasDomain)
-
     if (domain) {
       config.onSearch(domain)
     }
     return fetchSearchResults(domain, config.searchEngine).then(response => {
+      const searchResultsSection = document.querySelector('.search-results-section')
+      toggleVisibility(searchResultsSection, hasDomain)
+
       if (!response.ok) {
         return handleSearchError(response.status + ': ' + response.statusText + ' - ' + response.type)
       }
