@@ -347,7 +347,7 @@
     "sector": "Digital agencies & software",
     "link": "/champions/octopass/",
     "location": "United Kingdom",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "gaia.eco",
@@ -357,7 +357,7 @@
     "sector": "Digital agencies & software",
     "link": "/champions/gaia/",
     "location": "Sweden",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "flamingo.eco",
@@ -367,6 +367,16 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/flamingo/",
     "location": "Switzerland",
+    "priority": "2"
+  },
+  {
+    "domain": "wype.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://wype.eco/\">Wype</a></span> makes and delivers sustainable bamboo-based toilet paper and facial tissues.",
+    "img": "/img/champion_logos/wype-tile.webp",
+    "type": "business",
+    "sector": "Health & Beauty",
+    "link": "/champions/wype/",
+    "location": "Canada",
     "priority": "1"
   }
 ]

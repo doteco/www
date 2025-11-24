@@ -1,7 +1,7 @@
 [
   {
     "domain": "mico.eco",
-    "story": "<a href=\"https://mico.eco\">MiCO</a> (Migratory Connectivity in the Ocean) unterstützt weltweite Bemühungen zum Schutz wandernder Wassertiere wie Wale und Delfine und der Ozeane, von denen sie abhängen.",
+    "story": "<a href=\"https://mico.eco\">MiCO</a> (Migratory Connectivity in the Ocean) unterstützt weltweite Schutzbemühungen für wandernde Wassertiere wie Wale und Delfine sowie für die Ozeane, von denen sie abhängig sind.",
     "img": "/img/champion_logos/mico.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -11,7 +11,7 @@
   },
   {
     "domain": "current.eco",
-    "story": "<a href=\"https://current.eco/\">CURRENT</a> ist eine komplette Komplettlösung für Unternehmen, die ihre Ladeinfrastruktur für Elektrofahrzeuge verwalten möchten.",
+    "story": "<a href=\"https://current.eco/\">CURRENT</a> ist eine umfassende Komplettlösung für Unternehmen, die ihre Ladeinfrastruktur für Elektrofahrzeuge verwalten möchten.",
     "img": "/img/champion_logos/current.webp",
     "type": "business",
     "sector": "Transportation",
@@ -21,7 +21,7 @@
   },
   {
     "domain": "preserve.eco",
-    "story": "<a href=\"https://preserve.eco\">Preserve</a> , eine zertifizierte B Corporation, stellt stilvolle, umweltfreundliche Produkte für den Haushalt aus 100 % recyceltem Kunststoff her.",
+    "story": "<a href=\"https://preserve.eco\">Preserve</a> , ein zertifiziertes B-Unternehmen, stellt stilvolle, umweltfreundliche Produkte für den Haushalt aus 100 % recyceltem Kunststoff her.",
     "img": "/img/champion_logos/preserve.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -31,7 +31,7 @@
   },
   {
     "domain": "leap.eco",
-    "story": "<a href=\"https://leap.eco\">Leap</a> ist ein Designstudio, das an zielgerichtetes Design und die Schaffung von Arbeit mit Wert glaubt. Als B Corp entwickelt das Studio verantwortungsvolle Lösungen, die die Triple-Bottom-Line-Standards übertreffen.",
+    "story": "<a href=\"https://leap.eco\">Leap</a> ist ein Designstudio, das sich dem sinnstiftenden Design und der Schaffung bedeutsamer Arbeit verschrieben hat. Als B Corp entwickelt das Studio verantwortungsvolle Lösungen, die die Standards der Nachhaltigkeits- und Nachhaltigkeitsstrategie übertreffen.",
     "img": "/img/champion_logos/leap.webp",
     "type": "business",
     "sector": "Consulting and agencies",
@@ -41,7 +41,7 @@
   },
   {
     "domain": "bleu.eco",
-    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> entwirft ökologische Matratzen und Betten aus natürlichen Materialien zu vernünftigen Preisen. Für jede verkaufte Matratze werden 3 Bäume gepflanzt.",
+    "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> entwirft ökologische Matratzen und Betten aus natürlichen Materialien zu fairen Preisen. Für jede verkaufte Matratze werden drei Bäume gepflanzt.",
     "img": "/img/champion_logos/bleu.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -51,7 +51,7 @@
   },
   {
     "domain": "ecofario.eco",
-    "story": "Mikroplastik verschmutzt unsere Flüsse, Seen und Meere. <a href=\"https://ecofario.eco/\">ECOFARIO</a> hat ein neues Verfahren entwickelt, um die Freisetzung von Mikroplastikpartikeln in die Umwelt deutlich zu reduzieren.",
+    "story": "Mikroplastik verschmutzt unsere Flüsse, Seen und Ozeane. <a href=\"https://ecofario.eco/\">ECOFARIO</a> hat ein neues Verfahren entwickelt, um die Menge der in die Umwelt freigesetzten Mikroplastikpartikel deutlich zu reduzieren.",
     "img": "/img/champion_logos/ecofario.webp",
     "type": "business",
     "sector": "Industrial",
@@ -61,7 +61,7 @@
   },
   {
     "domain": "goodonyou.eco",
-    "story": "Ihre Einkaufsentscheidungen haben großen Einfluss darauf, wie Unternehmen mit Menschen, dem Planeten und Tieren umgehen. Mit der <span class=\"notranslate\"><a href=\"https://goodonyou.eco/\">Good On You</a></span> -App können Sie ganz einfach nach Ihren Werten einkaufen.",
+    "story": "Unsere Kaufentscheidungen haben einen enormen Einfluss darauf, wie Unternehmen mit Menschen, der Umwelt und Tieren umgehen. Mit der <span class=\"notranslate\"><a href=\"https://goodonyou.eco/\">Good On You</a></span> App können Sie ganz einfach nach Ihren Werten einkaufen.",
     "img": "/img/champion_logos/goodonyou.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -71,7 +71,7 @@
   },
   {
     "domain": "geca.eco",
-    "story": "<a href=\"https://geca.eco/\">GECA (Global Environmental Choice Australia)</a> ist ein weltweit anerkanntes Umweltzeichen, das Käufern zeigt, dass Produkte und Dienstleistungen besser für die Umwelt sind.",
+    "story": "<a href=\"https://geca.eco/\">GECA (Global Environmental Choice Australia)</a> ist ein weltweit anerkanntes Umweltzeichen, das Käufern hilft zu erkennen, dass Produkte und Dienstleistungen umweltfreundlicher sind.",
     "img": "/img/champion_logos/geca.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -81,7 +81,7 @@
   },
   {
     "domain": "bumboo.eco",
-    "story": "<a href=\"https://bumboo.eco\">Bumboo</a> liefert nachhaltiges Toilettenpapier aus 100 % Bambus – und pflanzt für jede verkaufte Schachtel einen Baum.",
+    "story": "<a href=\"https://bumboo.eco\">Bumboo</a> bietet nachhaltiges Toilettenpapier aus 100 % Bambus an – und pflanzt für jede verkaufte Packung einen Baum.",
     "img": "/img/champion_logos/bumboo.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -91,7 +91,7 @@
   },
   {
     "domain": "boox.eco",
-    "story": "<a href=\"https://boox.eco\">Boox</a> ist ein zertifiziertes B-Corp-Unternehmen, das wiederverwendbare Verpackungen herstellt. Mit Boox können Sie die Verpackung Ihrer Bestellung problemlos zurückgeben und wiederverwenden.",
+    "story": "<a href=\"https://boox.eco\">Boox</a> ist ein zertifiziertes B-Corp-Unternehmen, das Mehrwegverpackungen herstellt. Mit Boox können Sie die Verpackung Ihrer Bestellung einfach zurücksenden und wiederverwenden lassen.",
     "img": "/img/champion_logos/boox.webp",
     "type": "business",
     "sector": "Consumer goods",
@@ -101,7 +101,7 @@
   },
   {
     "domain": "nuvola.eco",
-    "story": "<a href=\"https://nuvola.eco\">Nuvola</a> ist ein One-Stop-Shop für den Kauf von abfallfreien, nachhaltigen, veganen und tierversuchsfreien Schönheits- und Hautpflegeprodukten.",
+    "story": "<a href=\"https://nuvola.eco\">Nuvola</a> ist ein One-Stop-Shop für den Kauf von Zero-Waste-, nachhaltigen, veganen und tierversuchsfreien Schönheits- und Hautpflegeprodukten.",
     "img": "/img/champion_logos/nuvola.webp",
     "type": "business",
     "sector": "Health & Beauty",
@@ -111,7 +111,7 @@
   },
   {
     "domain": "ducky.eco",
-    "story": "<a href=\"https://ducky.eco\">Ducky</a> entwickelt digitale Tools, die Menschen und Organisationen dabei helfen, ihr Verhalten zu ändern und ihren CO2-Fußabdruck zu reduzieren.",
+    "story": "<a href=\"https://ducky.eco\">Ducky</a> entwickelt digitale Tools, um Menschen und Organisationen dabei zu helfen, ihr Verhalten zu ändern und ihren CO2-Fußabdruck zu reduzieren.",
     "img": "/img/champion_logos/ducky.webp",
     "type": "business",
     "sector": "Digital agencies & software",
@@ -121,7 +121,7 @@
   },
   {
     "domain": "carboncopy.eco",
-    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> ist eine britische Wohltätigkeitsorganisation, die zu ehrgeizigen lokalen Klimaschutzmaßnahmen inspiriert, um unseren Fortschritt in Richtung einer gerechteren, CO2-freien Zukunft zu beschleunigen.",
+    "story": "<a href=\"https://carboncopy.eco\">Carbon Copy</a> ist eine britische Wohltätigkeitsorganisation, die zu visionären lokalen Klimaschutzmaßnahmen anregt, um unseren Fortschritt hin zu einer gerechteren, kohlenstoffneutralen Zukunft zu beschleunigen.",
     "img": "/img/champion_logos/carboncopy-hero.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -131,7 +131,7 @@
   },
   {
     "domain": "dragonfly.eco",
-    "story": "<a href=\"https://dragonfly.eco\">Dragonfly</a> katalogisiert und kuratiert Öko-Fiction, die sich mit Umweltthemen befasst.",
+    "story": "<a href=\"https://dragonfly.eco\">Dragonfly</a> katalogisiert und kuratiert Öko-Fiktion, die sich mit Umweltthemen auseinandersetzt.",
     "img": "/img/champion_logos/dragonfly-eco.webp",
     "type": "individual",
     "sector": "Individual",
@@ -141,7 +141,7 @@
   },
   {
     "domain": "zeroco2.eco",
-    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> ist eine B Corp, die Einzelpersonen und Unternehmen dabei hilft, die Klimakrise zu mildern, indem sie die nachhaltige Entwicklung von Gemeinschaften unterstützt, die auf wiederaufgeforstetem Land leben.",
+    "story": "<a href=\"https://zeroco2.eco/\">zeroCO2</a> ist ein B Corp-Unternehmen, das Einzelpersonen und Firmen dabei hilft, die Klimakrise zu mildern, indem es die nachhaltige Entwicklung von Gemeinschaften unterstützt, die auf wiederaufgeforsteten Flächen leben.",
     "img": "/img/champion_logos/zeroco2.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -151,7 +151,7 @@
   },
   {
     "domain": "terrabyte.eco",
-    "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> ist ein Green-Tech-Unternehmen, das sich auf die Kombination von Kreativität und Technologie konzentriert, um Lösungen für die anhaltende Umweltkrise zu bieten.",
+    "story": "<a href=\"https://terrabyte.eco/\">Terrabyte</a> ist ein grünes Technologieunternehmen, das Kreativität und Technologie kombiniert, um Lösungen für die anhaltenden Umweltkrisen zu entwickeln.",
     "img": "/img/champion_logos/terrabyte.webp",
     "type": "business",
     "sector": "Digital agencies & software",
@@ -161,7 +161,7 @@
   },
   {
     "domain": "aem.eco",
-    "story": "<a href=\"https://aem.eco\">AEM</a> versetzt Gemeinden und Organisationen durch den Einsatz von Sensornetzwerken und die Bereitstellung analytischer Erkenntnisse in die Lage, angesichts zunehmender Umweltrisiken zu überleben und zu gedeihen.",
+    "story": "<a href=\"https://aem.eco\">AEM</a> versetzt Gemeinschaften und Organisationen in die Lage, angesichts zunehmender Umweltrisiken zu überleben und zu gedeihen, indem es Sensornetzwerke einsetzt und analytische Erkenntnisse liefert.",
     "img": "/img/champion_logos/aem.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -171,7 +171,7 @@
   },
   {
     "domain": "pirkani.eco",
-    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> ist ein zukunftsweisendes Label der besonderen Art. Nachhaltigkeit steht bei uns im Mittelpunkt und wir haben es uns zur Aufgabe gemacht, zeitgenössische britische Mode mit minimalistischer Designästhetik ethisch zu produzieren.",
+    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> ist ein trendweisendes Label mit einem besonderen Ansatz. Nachhaltigkeit steht bei uns im Mittelpunkt, und wir haben es uns zur Aufgabe gemacht, zeitgenössische britische Mode mit minimalistischer Designästhetik ethisch einwandfrei zu produzieren.",
     "img": "/img/champion_logos/pirkani3.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -181,7 +181,7 @@
   },
   {
     "domain": "cycle.eco",
-    "story": "<a href=\"https://cycle.eco\">Cycle</a> verändert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es dafür sorgt, dass Tausende von Fahrradkurieren täglich eine reibungslose, schnelle und sichere Zustellung erleben.",
+    "story": "<a href=\"https://cycle.eco\">Cycle</a> revolutioniert die Zustellung auf der letzten Meile und reduziert verkehrsbedingte CO2-Emissionen, indem es Tausenden von Fahrradkurieren täglich ein reibungsloses, schnelles und sicheres Liefererlebnis ermöglicht.",
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
     "sector": "Transportation",
@@ -191,7 +191,7 @@
   },
   {
     "domain": "koala.eco",
-    "story": "<a href=\"https://koala.eco\">Koala Eco</a> stellt sichere, pflanzliche Produkte für ein sauberes Zuhause, einen sauberen Körper und einen sauberen Geist her, die vor Ort mit australischen ätherischen Ölen hergestellt werden.",
+    "story": "<a href=\"https://koala.eco\">Koala Eco</a> stellt sichere, pflanzenbasierte Produkte für ein sauberes Zuhause, einen sauberen Körper und einen sauberen Geist her, die lokal mit australischen ätherischen Ölen hergestellt werden.",
     "img": "/img/champion_logos/koala.webp",
     "type": "business",
     "sector": "Health & Beauty",
@@ -201,7 +201,7 @@
   },
   {
     "domain": "greenworx.eco",
-    "story": "<a href=\"https://greenworx.eco\">Green Worx</a> stellt umweltfreundliche Reinigungsprodukte für Haushalte, Unternehmen und Industrien in ganz Afrika her.",
+    "story": "<a href=\"https://greenworx.eco\">Green Worx</a> stellt umweltverträgliche Reinigungsprodukte für Haushalte, Unternehmen und Industrien in ganz Afrika her.",
     "img": "/img/champion_logos/greenworx.webp",
     "type": "business",
     "sector": "Health & Beauty",
@@ -211,7 +211,7 @@
   },
   {
     "domain": "carl.eco",
-    "story": "Die Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) hilft jedem Arbeitnehmer, ein Klimaschützer zu werden, indem sie Aktionsleitfäden für jeden Beruf veröffentlicht.",
+    "story": "Die Climate Action Resource Library ( <a href=\"https://carl.eco/\">CARL</a> ) unterstützt jeden Arbeitnehmer dabei, ein Klimaschutz-Champion zu werden, indem sie Aktionsleitfäden für jeden Beruf veröffentlicht.",
     "img": "/img/champion_logos/carl.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -221,7 +221,7 @@
   },
   {
     "domain": "arbor.eco",
-    "story": "<a href=\"https://arbor.eco/\">Arbor</a> macht es jedem Unternehmen leicht, seinen CO2-Fußabdruck zu verstehen, indem es genaue und zuverlässige Daten für die gesamte Lieferkette verwendet.",
+    "story": "<a href=\"https://arbor.eco/\">Arbor</a> macht es jedem Unternehmen leicht, seine CO2-Bilanz zu verstehen, indem es genaue und zuverlässige Daten für die gesamte Lieferkette nutzt.",
     "img": "/img/champion_logos/arbor.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -231,7 +231,7 @@
   },
   {
     "domain": "sustainableagriculture.eco",
-    "story": "<a href=\"https://www.sustainableagriculture.eco/\">Das Sustainable Agriculture Network</a> ist ein globales Kooperationsnetzwerk, das Landwirten, Arbeitern und ländlichen Gemeinden zum Gedeihen verhilft.",
+    "story": "<a href=\"https://www.sustainableagriculture.eco/\">Das Sustainable Agriculture Network</a> ist ein globales Kooperationsnetzwerk, das Landwirten, Landarbeitern und ländlichen Gemeinschaften zu einem erfolgreichen Leben verhilft.",
     "img": "/img/champion_logos/san.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -241,7 +241,7 @@
   },
   {
     "domain": "skoot.eco",
-    "story": "<a href=\"https://skoot.eco/\">SkootEco</a> hilft Unternehmen und Einzelpersonen, ihren CO2-Fußabdruck zu reduzieren und zu beseitigen.",
+    "story": "<a href=\"https://skoot.eco/\">SkootEco</a> hilft Unternehmen und Privatpersonen dabei, ihren CO2-Fußabdruck zu reduzieren und zu beseitigen.",
     "img": "/img/champion_logos/skooteco-tile2.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -251,7 +251,7 @@
   },
   {
     "domain": "sportainable.eco",
-    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> ist ein Think Tank, der Sport neu denkt, um ihn ressourceneffizient, emissionsarm, umweltfreundlich und sozial verantwortlich zu gestalten.",
+    "story": "<a href=\"https://sportainable.eco/\">Sportainable</a> ist eine Denkfabrik, die den Sport neu denkt, um ihn ressourcenschonend, emissionsarm, naturfreundlich und sozial verantwortlich zu gestalten.",
     "img": "/img/champion_logos/sportainable-football2.webp",
     "type": "nonprofit",
     "sector": "Athletics",
@@ -261,7 +261,7 @@
   },
   {
     "domain": "letsfixthis.eco",
-    "story": "<span class=\"notranslate\"><a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a></span> ist ein neues Buch voller praktischer Schritt-für-Schritt-Ideen, wie Sie Umweltschutzmaßnahmen ergreifen können.",
+    "story": "<span class=\"notranslate\"><a href=\"https://letsfixthis.eco\">Let&#39;s Fix This</a></span> ist ein neues Buch voller praktischer Schritt-für-Schritt-Anleitungen, wie Sie aktiv zum Umweltschutz beitragen können.",
     "img": "/img/champion_logos/letsfixthis-tile.png",
     "type": "individual",
     "sector": "Books & publications",
@@ -271,7 +271,7 @@
   },
   {
     "domain": "livelightly.eco",
-    "story": "Der Podcast <a href=\"https://livelightly.eco\">„Live Lightly“</a> erkundet, wie wir ein gesundes Leben im Einklang mit der Natur führen können.",
+    "story": "Der Podcast <a href=\"https://livelightly.eco\">„Live Lightly“</a> untersucht, wie wir ein gesundes Leben im Einklang mit der Natur führen können.",
     "img": "/img/champion_logos/livelightly-tile.webp",
     "type": "individual",
     "sector": "Podcasts",
@@ -281,7 +281,7 @@
   },
   {
     "domain": "caspian.eco",
-    "story": "Das <a href=\"https://caspian.eco\">Caspian Environment Consortium</a> arbeitet daran, im Kaspischen Meer Algen zu züchten, um CO2 zu binden und das lokale Ökosystem wiederherzustellen.",
+    "story": "Das <a href=\"https://caspian.eco\">Caspian Environment Consortium</a> arbeitet daran, Algen im Kaspischen Meer zu züchten, um CO2 zu binden und das lokale Ökosystem wiederherzustellen.",
     "img": "/img/champion_logos/caspian-tile.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -291,7 +291,7 @@
   },
   {
     "domain": "tim.eco",
-    "story": "<a href=\"https://tim.eco/\">Tim Falls</a> ist ein Technologiemanager, der sich leidenschaftlich für den Schutz der Natur einsetzt.",
+    "story": "<a href=\"https://tim.eco/\">Tim Falls</a> ist ein Technologiemanager, dem der Schutz der Natur sehr am Herzen liegt.",
     "img": "/img/champion_logos/tim-tile2.webp",
     "type": "individual",
     "sector": "Technology consulting & services",
@@ -301,7 +301,7 @@
   },
   {
     "domain": "klim.eco",
-    "story": "<a href=\"https://www.klim.eco/en\">Klim</a> unterstützt Landwirte bei der Einführung regenerativer landwirtschaftlicher Praktiken, um ihren CO2-Fußabdruck zu reduzieren und die Artenvielfalt zu erhalten.",
+    "story": "<a href=\"https://www.klim.eco/en\">Klim</a> unterstützt Landwirte bei der Einführung regenerativer Anbaumethoden, um ihren CO2-Fußabdruck zu reduzieren und die Artenvielfalt zu erhalten.",
     "img": "/img/champion_logos/klim-tile.webp",
     "type": "business",
     "sector": "Agriculture technology",
@@ -311,7 +311,7 @@
   },
   {
     "domain": "thepositiveproject.eco",
-    "story": "<span class=\"notranslate\"><a href=\"https://thepositiveproject.eco/\">The Positive Project</a></span> hilft Organisationen, einen Weg in eine nachhaltigere Zukunft zu finden.",
+    "story": "<span class=\"notranslate\"><a href=\"https://thepositiveproject.eco/\">The Positive Project</a></span> hilft Organisationen dabei, einen Weg in eine nachhaltigere Zukunft zu finden.",
     "img": "/img/champion_logos/thepositiveproject-profile.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -321,7 +321,7 @@
   },
   {
     "domain": "greeninitiative.eco",
-    "story": "<span class=\"notranslate\"><a href=\"https://greeninitiative.eco/\">Green Initiative</a></span> bietet Klimazertifizierungen und Beratungsdienste für führende Organisationen an, darunter auch für die UNESCO-Stätte Machu Picchu.",
+    "story": "<span class=\"notranslate\"><a href=\"https://greeninitiative.eco/\">Green Initiative</a></span> bietet führenden Organisationen, darunter der UNESCO-Welterbestätte Machu Picchu, Klimazertifizierungs- und Beratungsdienstleistungen an.",
     "img": "/img/champion_logos/green-initiative-profile.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
@@ -331,7 +331,7 @@
   },
   {
     "domain": "netto.eco",
-    "story": "<span class=\"notranslate\"><a href=\"https://netto.eco/\">Netto</a></span> unterstützt Banken dabei, die Klimabelastung durch Gewerbegebäude zu reduzieren.",
+    "story": "<span class=\"notranslate\"><a href=\"https://netto.eco/\">Netto</a></span> hilft Banken dabei, die Klimabelastung durch Gewerbegebäude zu reduzieren.",
     "img": "/img/champion_logos/netto-profile.webp",
     "type": "business",
     "sector": "Digital agencies & software",
@@ -341,23 +341,23 @@
   },
   {
     "domain": "octopass.eco",
-    "story": "<span class=\"notranslate\"><a href=\"https://octopass.eco/\">Octopass</a></span> unterstützt Organisationen bei der Verwaltung von Pässen und Genehmigungen, um die Sicherheit und Nachhaltigkeit zu erhöhen.",
+    "story": "<span class=\"notranslate\"><a href=\"https://octopass.eco/\">Octopass</a></span> unterstützt Organisationen bei der Verwaltung von Genehmigungen und Erlaubnissen, um Sicherheit und Nachhaltigkeit zu verbessern.",
     "img": "/img/champion_logos/octopass-profile.webp",
     "type": "business",
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/octopass.eco",
     "location": "Vereinigtes Königreich",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "gaia.eco",
-    "story": "<span class=\"notranslate\"><a href=\"https://gaia.eco/\">Gaia</a></span> ist ein Softwaretool zur Erforschung der erstaunlichen Artenvielfalt unseres Planeten.",
+    "story": "<span class=\"notranslate\"><a href=\"https://gaia.eco/\">Gaia</a></span> ist ein Softwaretool zur Erforschung der erstaunlichen Biodiversität unseres Planeten.",
     "img": "/img/champion_logos/gaia-profile.webp",
     "type": "business",
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/gaia.eco",
     "location": "Schweden",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "flamingo.eco",
@@ -367,6 +367,16 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/flamingo.eco",
     "location": "Schweiz",
+    "priority": "2"
+  },
+  {
+    "domain": "wype.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://wype.eco/\">Wype</a></span> produziert und liefert nachhaltiges Toilettenpapier und Kosmetiktücher aus Bambus.",
+    "img": "/img/champion_logos/wype-tile.webp",
+    "type": "business",
+    "sector": "Health & Beauty",
+    "link": "https://profiles.eco/wype.eco",
+    "location": "Kanada",
     "priority": "1"
   }
 ]
