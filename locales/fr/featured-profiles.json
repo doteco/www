@@ -40,6 +40,16 @@
     "priority": ""
   },
   {
+    "domain": "grunbag.eco",
+    "story": "<a href=\"https://grunbag.eco/\">GRÜNBAG</a> fabrique des sacs de haute qualité et durables, en utilisant uniquement des matériaux recyclés et résistants afin de réduire les déchets futurs.",
+    "img": "/img/champion_logos/grunbag.webp",
+    "type": "business",
+    "sector": "Consumer goods",
+    "link": "https://profiles.eco/grunbag.eco",
+    "location": "Danemark",
+    "priority": ""
+  },
+  {
     "domain": "bleu.eco",
     "story": "<a href=\"https://bleu.eco/\">Bleu.eco</a> conçoit des matelas et des lits écologiques à partir de matériaux naturels et à des prix abordables. Trois arbres sont plantés pour chaque matelas vendu.",
     "img": "/img/champion_logos/bleu.webp",
