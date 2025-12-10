@@ -90,6 +90,15 @@
 			margin-bottom: 0;
 		}
 
+		figcaption {
+			margin-top: 0.5rem;
+		}
+
+		figure {
+			margin: 2rem 0;
+			text-align: center;
+		}
+
 		table {
 			@extend .table;
 			@extend .table-striped;
