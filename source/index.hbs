@@ -223,7 +223,7 @@ faq: true
 			return document.querySelector('.section.recent').style.display = 'none'
 		}
 
-		window.fetch('{{profiles}}/_api/domains/recent?count=20', {
+		window.fetch('{{profilesApi}}/domains/recent?count=20', {
 			credentials: 'omit',
 			headers: {
 				Accept: 'application/json'
