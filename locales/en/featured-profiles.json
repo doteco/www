@@ -347,7 +347,7 @@
     "sector": "Digital agencies & software",
     "link": "/champions/netto/",
     "location": "Norway",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "octopass.eco",
@@ -367,7 +367,7 @@
     "sector": "Digital agencies & software",
     "link": "/champions/gaia/",
     "location": "Sweden",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "flamingo.eco",
@@ -377,7 +377,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/flamingo/",
     "location": "Switzerland",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "wype.eco",
@@ -387,6 +387,16 @@
     "sector": "Health & Beauty",
     "link": "/champions/wype/",
     "location": "Canada",
+    "priority": "2"
+  },
+  {
+    "domain": "inhabit.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://inhabit.eco/\">Inhabit</a></span> provides professional climate consultants to assist SMEs in validating their carbon footprint.",
+    "img": "/img/champion_logos/inhabit-tile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "/champions/inhabit/",
+    "location": "United Kingdom",
     "priority": "1"
   }
 ]

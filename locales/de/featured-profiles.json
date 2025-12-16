@@ -347,7 +347,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/netto.eco",
     "location": "Norwegen",
-    "priority": "4"
+    "priority": ""
   },
   {
     "domain": "octopass.eco",
@@ -367,7 +367,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/gaia.eco",
     "location": "Schweden",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "flamingo.eco",
@@ -377,7 +377,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/flamingo.eco",
     "location": "Schweiz",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "wype.eco",
@@ -387,6 +387,16 @@
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/wype.eco",
     "location": "Kanada",
+    "priority": "2"
+  },
+  {
+    "domain": "inhabit.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://inhabit.eco/\">Inhabit</a></span> stellt professionelle Klimaberater zur Verfügung, die KMU bei der Validierung ihres CO2-Fußabdrucks unterstützen.",
+    "img": "/img/champion_logos/inhabit-tile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/inhabit.eco",
+    "location": "Vereinigtes Königreich",
     "priority": "1"
   }
 ]
