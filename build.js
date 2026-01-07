@@ -76,7 +76,7 @@ const ENV_OPTIONS = {
       fr: 'https://allez.eco'
     },
     watch: false,
-    profilesApi: 'https://profiles.eco/_api',
+    profilesApi: 'https://api.profiles.eco',
     trustmark: 'https://trust.profiles.eco',
     intercomAppID: 'hsovcclh',
     searchUrl: 'https://search.go.eco',
