@@ -317,7 +317,7 @@
     "sector": "Agriculture technology",
     "link": "https://profiles.eco/klim.eco",
     "location": "Allemagne",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "thepositiveproject.eco",
@@ -337,7 +337,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/greeninitiative.eco",
     "location": "Brésil",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "netto.eco",
@@ -367,7 +367,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/gaia.eco",
     "location": "Suède",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "flamingo.eco",
@@ -377,7 +377,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/flamingo/",
     "location": "Suisse",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "wype.eco",
@@ -387,7 +387,7 @@
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/wype.eco",
     "location": "Canada",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "inhabit.eco",
@@ -397,6 +397,16 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/inhabit.eco",
     "location": "Royaume-Uni",
+    "priority": "2"
+  },
+  {
+    "domain": "rebuilt.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://rebuilt.eco/\">Rebuilt</a></span> aide les fabricants de matériaux de construction à mesurer l&#39;empreinte carbone de leurs produits afin de soutenir la construction de bâtiments à faible émission de carbone.",
+    "img": "/img/champion_logos/rebuilt-tile.webp",
+    "type": "business",
+    "sector": "Digital agencies & software",
+    "link": "https://profiles.eco/rebuilt.eco",
+    "location": "Australie",
     "priority": "1"
   }
 ]

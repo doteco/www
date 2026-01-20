@@ -317,7 +317,7 @@
     "sector": "Agriculture technology",
     "link": "/champions/klim/",
     "location": "Germany",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "thepositiveproject.eco",
@@ -337,7 +337,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/greeninitiative/",
     "location": "Brazil",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "netto.eco",
@@ -367,7 +367,7 @@
     "sector": "Digital agencies & software",
     "link": "/champions/gaia/",
     "location": "Sweden",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "flamingo.eco",
@@ -377,7 +377,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/flamingo/",
     "location": "Switzerland",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "wype.eco",
@@ -387,7 +387,7 @@
     "sector": "Health & Beauty",
     "link": "/champions/wype/",
     "location": "Canada",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "inhabit.eco",
@@ -397,6 +397,16 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/inhabit/",
     "location": "United Kingdom",
+    "priority": "2"
+  },
+  {
+    "domain": "rebuilt.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://rebuilt.eco/\">Rebuilt</a></span> helps building materials manufacturers measure the carbon footprint of their products to support the construction of low carbon buildings.",
+    "img": "/img/champion_logos/rebuilt-tile.webp",
+    "type": "business",
+    "sector": "Digital agencies & software",
+    "link": "/champions/rebuilt/",
+    "location": "Australia",
     "priority": "1"
   }
 ]

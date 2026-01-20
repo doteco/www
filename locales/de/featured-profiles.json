@@ -337,7 +337,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/greeninitiative.eco",
     "location": "Brasilien",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "netto.eco",
@@ -367,7 +367,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/gaia.eco",
     "location": "Schweden",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "flamingo.eco",
@@ -377,7 +377,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/flamingo.eco",
     "location": "Schweiz",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "wype.eco",
@@ -387,7 +387,7 @@
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/wype.eco",
     "location": "Kanada",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "inhabit.eco",
@@ -397,6 +397,16 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/inhabit.eco",
     "location": "Vereinigtes Königreich",
+    "priority": "2"
+  },
+  {
+    "domain": "rebuilt.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://rebuilt.eco/\">Rebuilt</a></span> hilft Herstellern von Baumaterialien, den CO2-Fußabdruck ihrer Produkte zu messen, um den Bau von CO2-armen Gebäuden zu unterstützen.",
+    "img": "/img/champion_logos/rebuilt-tile.webp",
+    "type": "business",
+    "sector": "Digital agencies & software",
+    "link": "https://profiles.eco/rebuilt.eco",
+    "location": "Australien",
     "priority": "1"
   }
 ]
