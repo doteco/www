@@ -4,7 +4,7 @@ last_updated="2025-12-18"
 [org]
 disclosures = [
 	{ doc_type="sustainability-page", url="https://go.eco/impact/", domain="go.eco", title=".eco Sustainability Policy" },
-	{ doc_type="web-page", url="https://go.eco/news/eco-is-carbon-neutral-2024/", domain="go.eco", valid_until="2025-12-31", title=".eco is certified carbon neutral - 2024" },
+	{ doc_type="web-page", url="https://go.eco/news/eco-is-carbon-neutral-2025/", domain="go.eco", valid_until="2026-12-31", title=".eco is certified carbon neutral - 2025" },
 	{ doc_type="annual-report", url="https://go.eco/impact/impact-report-2025/", domain="go.eco", valid_until="2026-12-31", title="2025 Impact Report" },
 	{ doc_type="annual-report", url="https://go.eco/impact/ghg-report-2025/", domain="go.eco", valid_until="2026-12-31", title="Greenhouse Gas Emissions Report FY2025" }
 ]
