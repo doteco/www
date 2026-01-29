@@ -167,12 +167,11 @@ const ms = Metalsmith(__dirname)
   }))
   .use(collections({
     news: {
-      sortBy: 'pubdate',
-      reverse: true,
+      sort: 'pubdate:desc',
       refer: false
     },
     studies: {
-      sortBy: 'title',
+      sort: 'title',
       refer: false
     }
   }))

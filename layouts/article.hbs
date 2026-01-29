@@ -20,7 +20,7 @@
       <h3>Read more</h3>
       <ul>
 				{{#each more}}
-        {{#with (lookupArticle ../news this)}}
+        {{#with (lookupArticle ../collections/news this)}}
         <li><a href="/{{../this}}">{{title}}</a></li>
         {{/with}}
         {{/each}}

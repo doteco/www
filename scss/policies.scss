@@ -100,9 +100,9 @@
 		}
 
 		table {
-			@extend .table;
-			@extend .table-striped;
-			@extend .table-bordered;
+			@extend .table; /* stylelint-disable-line scss/at-extend-no-missing-placeholder */
+			@extend .table-striped;  /* stylelint-disable-line scss/at-extend-no-missing-placeholder */
+			@extend .table-bordered;  /* stylelint-disable-line scss/at-extend-no-missing-placeholder */
 
 			font-size: 1rem;
 		}
