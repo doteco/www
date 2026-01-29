@@ -109,6 +109,14 @@
 	width: 80%;
 }
 
+.registrar-justhost .registrar-logo {
+	width: 8rem;
+
+	&:hover {
+		width: 8.5rem;
+	}
+}
+
 .registrar-name {
 	text-align: center;
 	z-index: -1;
