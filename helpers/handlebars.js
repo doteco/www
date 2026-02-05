@@ -40,16 +40,10 @@ Handlebars.registerHelper('formatDay', (date, locale) => date && dateFormat(date
 
 Handlebars.registerHelper('formatUTC', date => date && dateFormat(date, 'yyyy-MM-dd'))
 
-function pagePath (path) {
-  return path?.replace(/index\..*$/, '')
-}
-
-Handlebars.registerHelper('pagePath', pagePath)
-
 Handlebars.registerHelper('newsColumns', index => (index % 4 === 0 || index % 4 === 3) ? 5 : 7)
 
 Handlebars.registerHelper('lookupArticle', function (collection, path) {
-  return collection.find(article => pagePath(article.path) === path)
+  return collection.find(article => article['page-path'] === path)
 })
 
 Handlebars.registerHelper('lookupProfile', function (profiles, domain) {
