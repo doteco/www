@@ -63,5 +63,6 @@
   "promos": {
     "header": "📣 Promotions .eco en cours 📣",
     "items": []
-  }
+  },
+  "missing": "Si vous ne trouvez pas le fournisseur de noms de domaine que vous recherchez, veuillez <a href=\"#\" class=\"chat-link\">nous le faire savoir</a> et nous pourrons envisager de l'ajouter."
 }

@@ -66,5 +66,6 @@
     "reserved": "<span class=\"searched-domain\">{searchDomain}</span> ist ein toller Name!<br/> Bitte fragen Sie uns nach den Preisen.",
     "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> ist bereits vergeben.<br/>Bitte versuchen Sie es mit einem anderen .eco-Namen"
   },
-  "title": "Suchen Sie nach einer .eco-Domain, um Ihre eigene zu erstellen"
+  "title": "Suchen Sie nach einer .eco-Domain, um Ihre eigene zu erstellen",
+  "missing": "Falls Sie den gewünschten Domain-Händler nicht finden können, teilen Sie uns dies bitte <a href=\"#\" class=\"chat-link\">mit</a> mit, und wir prüfen, ob wir ihn hinzufügen können."
 }
