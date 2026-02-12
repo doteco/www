@@ -221,8 +221,8 @@ window.domainSearch = function (config) {
   function search (domain) {
     const hasDomain = domain && domain.trim().length > 0 && domain.trim() !== '.eco'
     if (hasDomain) {
-      domain = domain.replace(/[\s,;:<>"'/=()?\\]/g, '').replace(/\..*$/, '')
-      domain += '.eco'
+      const cleanseRegex = /[\s!"#$%&'()*+,/:;<=>?@\[\]\\^_`]/g // eslint-disable-line no-useless-escape
+      domain = domain.replace(cleanseRegex, '').replace(/\..*$/, '') + '.eco'
     } else {
       domain = null
     }
