@@ -17,7 +17,14 @@ window.domainSearch = function (config) {
   }
 
   function registrarLogoDiv (registrar, domain, languageFilter) {
-    const goUrl = config.searchUrl + '/go?registrar=' + encodeURIComponent(registrar.registrar) + (domain ? '&domain=' + encodeURIComponent(domain) : '') + (languageFilter ? '&lang=' + encodeURIComponent(languageFilter) : '')
+    const goUrl = new URL('go', config.searchUrl)
+    goUrl.searchParams.set('registrar', registrar.registrar)
+    if (domain) {
+      goUrl.searchParams.set('domain', domain)
+    }
+    if (languageFilter) {
+      goUrl.searchParams.set('lang', languageFilter)
+    }
     const greenLabel = ecoAttributesLabel(registrar)
     return `<div class="col-md-6 col-lg-4 registrar-button registrar-${registrar.registrar}"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link" title="${config.registerLabel.replace('%s', registrar.label)}"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="" class="registrar-logo" loading="lazy" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
   }
