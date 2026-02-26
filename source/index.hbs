@@ -179,7 +179,8 @@ faq: true
 					if (html.length) {
 						html += ' &#8226; '
 					}
-					html += '<a href="https://profiles.eco/' + domains[idx] + '" class="registered-domain">' + domains[idx] + '</a>'
+					var url = new URL(domains[idx], '{{profilesUri}}')
+					html += '<a href="' + url + '" class="registered-domain">' + domains[idx] + '</a>'
 					count = idx + 1
 					if (count === domains.length) {
 						count = 0
