@@ -73,6 +73,11 @@ Handlebars.registerHelper('embedSVG', function (relPath) {
   return fs.readFileSync(path.join('public', relPath), { encoding: 'utf8' })
 })
 
+Handlebars.registerHelper('embedSVGSymbol', function (relPath, key) {
+  const svg = fs.readFileSync(path.join('public', relPath), { encoding: 'utf8' })
+  return svg.replace(/<svg .*?>/, `<symbol id="icons-${key}" viewBox="0 0 16 16" fill="currentColor">`).replace(/<\/svg>/, '</symbol>')
+})
+
 Handlebars.registerHelper('eachN', function (context, options) {
   let ret = ''
   const j = Math.min(context.length, 3)

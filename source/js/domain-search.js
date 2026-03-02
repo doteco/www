@@ -26,7 +26,8 @@ window.domainSearch = function (config) {
       goUrl.searchParams.set('lang', languageFilter)
     }
     const greenLabel = ecoAttributesLabel(registrar)
-    return `<div class="col-md-6 col-lg-4 registrar-button registrar-${registrar.registrar}"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link" title="${config.registerLabel.replace('%s', registrar.label)}"><img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="" class="registrar-logo" loading="lazy" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
+    const saleIcon = registrar.promo ? '<img src="/img/sale.svg" class="sale-icon">' : ''
+    return `<div class="col-md-6 col-lg-4 registrar-button registrar-${registrar.registrar}"><a data-registrar="${registrar.registrar}" href="${goUrl}" rel="noopener" class="registrar-link" title="${config.registerLabel.replace('%s', registrar.label)}">${saleIcon}<img src="https://cdn.profiles.eco/registrars/logos/${registrar.logo}" alt="" class="registrar-logo" loading="lazy" /><span class="registrar-name">${registrar.label}</span></a>${greenLabel}</div>`
   }
 
   function generateFilterHtml (id, defaultItem, items, defaultValue, helpText) {
