@@ -66,7 +66,8 @@
       "<a href=\"https://porkbun.com/tld/eco\">Porkbun</a> is selling .eco domains for $56.14 using the promo code <strong>AWESOMENESS</strong>",
       "<a href=\"https://spaceship.com\">Spaceship</a> has .eco domains for the low price of $56.76",
       "<a href=\"https://www.pairdomains.com/\">Pair Domains</a> lists .eco domains for $55.18"
-    ]
+    ],
+    "sale-header": ".eco domains are currently ~25% off at select retailers!"
   },
   "missing": "If you can't find the domain retailer you are looking for, please <a href=\"#\" class=\"chat-link\">let us know</a> and we can look into adding them."
 }

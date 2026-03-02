@@ -62,7 +62,8 @@
   },
   "promos": {
     "header": "📣 Promotions .eco en cours 📣",
-    "items": []
+    "items": [],
+    "sale-header": "Économisez 25 % sur le domaine .eco chez certains détaillants !"
   },
   "missing": "Si vous ne trouvez pas le fournisseur de noms de domaine que vous recherchez, veuillez <a href=\"#\" class=\"chat-link\">nous le faire savoir</a> et nous pourrons envisager de l'ajouter."
 }
