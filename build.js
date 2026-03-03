@@ -146,7 +146,8 @@ const ms = Metalsmith(__dirname)
     },
     style: 'compressed',
     sourceMap: true,
-    sourceMapContents: true
+    sourceMapContents: true,
+    silenceDeprecations: ['import', 'if-function', 'global-builtin', 'color-functions']
   }))
   .use(autoprefixer())
   .use(jsBundle({
