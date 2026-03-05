@@ -317,7 +317,7 @@
     "sector": "Agriculture technology",
     "link": "https://profiles.eco/klim.eco",
     "location": "Deutschland",
-    "priority": "6"
+    "priority": ""
   },
   {
     "domain": "thepositiveproject.eco",
@@ -367,7 +367,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/gaia.eco",
     "location": "Schweden",
-    "priority": "5"
+    "priority": "6"
   },
   {
     "domain": "flamingo.eco",
@@ -377,7 +377,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/flamingo.eco",
     "location": "Schweiz",
-    "priority": "4"
+    "priority": "5"
   },
   {
     "domain": "wype.eco",
@@ -387,7 +387,7 @@
     "sector": "Health & Beauty",
     "link": "https://profiles.eco/wype.eco",
     "location": "Kanada",
-    "priority": "3"
+    "priority": "4"
   },
   {
     "domain": "inhabit.eco",
@@ -397,7 +397,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/inhabit.eco",
     "location": "Vereinigtes Königreich",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "rebuilt.eco",
@@ -407,6 +407,16 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/rebuilt.eco",
     "location": "Australien",
+    "priority": "2"
+  },
+  {
+    "domain": "prefab.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://prefab.eco/\">EcoPrefab</a></span> baut in Uganda Schulen aus nachhaltig gewonnenen Materialien.",
+    "img": "/img/champion_logos/prefab-tile.webp",
+    "type": "business",
+    "sector": "Construction",
+    "link": "https://profiles.eco/prefab.eco",
+    "location": "Uganda",
     "priority": "1"
   }
 ]
