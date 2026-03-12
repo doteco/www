@@ -1,11 +1,12 @@
 ---
 collection: news
 title: "Security risk of invalid nameservers"
-excerpt: At the .eco registry, we are focused on helping members of the .eco community keep their domain names secure. We’re always interested in stories about the security risks for domain names, so when we came across [this article from Brian Krebs](https://krebsonsecurity.com/2025/01/mastercard-dns-error-went-unnoticed-for-years/) about how MasterCard had an invalid DNS nameserver associated with their domain for years, it really piqued our interest.
+excerpt: At the .eco registry, we are focused on helping members of the .eco community keep their domain names secure.
 description: "We analyzed the nameservers associated with all .eco domains and highlight the security risk of an invalid nameserver entry."
 header-img: /img/news/locks.webp
 header-img-alt: Three locks (2 open, one closed) and a chain
 pubdate: 2025-02-11
+update: 2026-03-12
 author: Eco Domain (.eco)
 layout: article.hbs
 og-image: opengraph/locks-og.jpg
@@ -27,11 +28,13 @@ Photo by <a href="https://unsplash.com/@flyd2069?utm_content=creditCopyText&utm_
 </figcaption>
 </figure>
 
+ We’re always interested in stories about security risks to domain names, so when we came across [this article from Brian Krebs](https://krebsonsecurity.com/2025/01/mastercard-dns-error-went-unnoticed-for-years/) about how MasterCard had an invalid DNS nameserver associated with their domain for years, it really piqued our interest.
+
 ### Nameservers 101
 
 First a bit of technical background: every domain name is associated with one or more authoritative DNS nameservers. A nameserver is responsible for returning the DNS records for any domain name associated with it. These DNS records specify things like the IP addresses of the servers hosting the domain’s website or where email to the domain should be sent.
 
-Domain names are looked up hierarchically (as shown in the diagram below). First the TLD nameservers are queried to find out the nameservers associated with the domain name. Then one of those domain nameservers is asked for the required DNS record. Finally, the server associated with that record is connected to.
+Domain names are looked up hierarchically (as shown in the diagram below). First the TLD nameservers are queried to find out which nameservers are associated with the domain name. Then one of those domain nameservers is asked for the required DNS record. Finally, the server associated with that record is connected to.
 
 ![Diagram illustrating how recursive dns query works](/img/news/recursive-dns.webp)
 
@@ -41,11 +44,11 @@ As the .eco registry, we are responsible for the database of nameservers for eve
 
 The story mentioned above covers the work of an independent security researcher who noticed that one of the nameservers associated with `az.mastercard.com` had been incorrectly entered as `a22-67.akam.ne` instead of as `a22-67.akam.net`. The domain `akam.net` is owned by Content Delivery service provider Akamai. By mistyping `.net` as `.ne`, they ended up pointing to an unregistered domain under the country-code top-level domain for Niger. The security researcher registered the domain `akam.ne` and was able to receive DNS traffic intended for MasterCard (as well as for other domains that had made a similar typo). They contacted MasterCard about the error, which MasterCard has subsequently fixed.
 
-The risk in this scenario is that a bad actor could register the domain associated with a mistyped nameserver and serve DNS records that would enable them to snoop on traffic to that domain and route it to servers that they control.
+The risk in this scenario is that a bad actor could register the `akam.ne` and serve DNS records that would enable them to snoop on traffic to that domain and route it to servers that they control.
 
 ### Checking all of .com
 
-This story was followed up by a [different security researcher](https://0xda.de/blog/2025/01/invalid-niger-nameservers-in-the-com-zone/) who scanned the nameservers for all `.com` domains to see if there were other domains using invalid nameservers. Out of the more than 150 million registered .com domains, they found 1,820 domains that had similar errors in their nameserver records.
+This story was followed up by a [different security researcher](https://0xda.de/blog/2025/01/invalid-niger-nameservers-in-the-com-zone/) who scanned the nameservers for all `.com` domains to see if there are other domains using invalid nameservers. Out of the more than 150 million registered .com domains, they found 1,820 domains that have similar errors in their nameserver records.
 
 All of this made us concerned about the risk that these types of errors posed for `.eco` domains. So we scanned the list of nameservers associated with every .eco domain and what we found surprised us.
 
@@ -55,7 +58,7 @@ We checked the nameservers associated with every .eco domain and found **one** c
 
 We also checked if any nameservers were incorrectly pointed at `.co` instead of `.com` or `.or` instead of `.org`, but didn’t find any. 
 
-That’s not to say we didn’t find some other interesting nameservers errors: we found **48** unique cases of nameservers that did not resolve. In other words, they pointed to domain names or subdomains that didn’t exist. In some cases this was due to typos or copy-paste errors and we contacted the registrants to alert them to this. There were other cases where people likely didn’t understand what a nameserver is and specified nameservers as subdomains under their own domain (which would never resolve).
+That’s not to say we didn’t find some other interesting nameservers errors: we found **48** unique cases of nameservers that did not resolve. In other words, they pointed to domain names or subdomains that didn’t exist. In some cases this was due to typos or copy-paste errors and we contacted the registrants to alert them to this.
 
 There were also many cases of registrars and DNS providers using invalid subdomains. In some cases, this is likely due to nameservers that no longer exist (eg, `n1.*` and `n2.*` are valid, but `n3.*` is no longer used) &mdash; even large DNS providers have done this. In other cases, registrars used invalid subdomains to indicate that a domain has expired (eg. `domain.name.has.expired.*`). Both of these cases are odd as presumably the registrar or DNS provider would want to ensure that traffic to these nameservers is handled appropriately. However, as the registrar or DNS provider controlled the apex domain name, there isn’t much of a security risk.
 
@@ -69,7 +72,7 @@ Many of these recursive DNS providers also apply a layer of security to DNS requ
 
 When we checked the invalid nameservers associated with the .eco domains mentioned above using recursive DNS, many of the DNS records were automatically fixed. This included replacing `.ne` with `.net`, and even fixing many typos. They did not remove invalid subdomains or all non-existent domain names which is somewhat puzzling.
 
-All this is to say, recursive DNS servers provide a layer of protection that reduces the security risk associated with invalid nameservers. That’s not to say that it isn’t worth fixing these errors. It’s worth checking to make sure that the nameservers associated are correct. But fortunately if you’ve made a mistake, most people are unlikely to be directly affected by it.
+All this is to say, recursive DNS servers provide a layer of protection that reduces the security risk associated with invalid nameservers. That’s not to say that it isn’t worth fixing these errors. It’s important to check and make sure that the entered nameservers are correct. But fortunately, if you have made a mistake, most people are unlikely to be directly affected by it.
 
 ### Room for improvement
 
