@@ -197,6 +197,9 @@ window.domainSearch = function (config) {
     } else if (r.summary === 'undelegated') {
       resultLabel = config.resultLabels.error
     }
+    if (r.idn) {
+      resultLabel += config.resultLabels.idn
+    }
     return resultLabel.replace(/{searchDomain}/g, searchDomain)
   }
 
