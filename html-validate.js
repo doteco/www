@@ -10,6 +10,7 @@ const skipFiles = [
   'public/registrar/index.html',
   'public/bcorpeco/index.html',
   'public/champions/terms/index.html',
+  'public/champions/abs/index.html',
   'public/community/grants/index.html',
   'public/community/tradenames/index.html',
   'public/studies/salishsea/index.html',
