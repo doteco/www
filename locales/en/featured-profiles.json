@@ -397,7 +397,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/inhabit/",
     "location": "United Kingdom",
-    "priority": "3"
+    "priority": ""
   },
   {
     "domain": "rebuilt.eco",
@@ -407,7 +407,7 @@
     "sector": "Digital agencies & software",
     "link": "/champions/rebuilt/",
     "location": "Australia",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "prefab.eco",
@@ -417,6 +417,16 @@
     "sector": "Construction",
     "link": "/champions/prefab/",
     "location": "Uganda",
+    "priority": "2"
+  },
+  {
+    "domain": "oaktree.eco",
+    "story": "<span class=\"notranslate\">The <a href=\"https://oaktree.eco/\">OakTREE Initiative</a></span> is helping to foster and build resilient communities in California.",
+    "img": "/img/champion_logos/oaktree-tile.webp",
+    "type": "nonprofit",
+    "sector": "Environmental consulting & services",
+    "link": "/champions/oaktree/",
+    "location": "USA",
     "priority": "1"
   }
 ]
