@@ -1,12 +1,13 @@
-version="0.4"
-last_updated="2026-01-20"
+version="0.5"
+last_updated="2026-04-22"
 
 [org]
 disclosures = [
 	{ doc_type="sustainability-page", url="https://go.eco/impact/", domain="go.eco", title=".eco Sustainability Policy" },
 	{ doc_type="certificate", url="https://go.eco/news/eco-is-carbon-neutral-2025/", domain="go.eco", valid_until="2026-12-31", title=".eco is certified carbon neutral - 2025" },
 	{ doc_type="annual-report", url="https://go.eco/impact/impact-report-2025/", domain="go.eco", valid_until="2026-12-31", title="2025 Impact Report" },
-	{ doc_type="annual-report", url="https://go.eco/impact/ghg-report-2025/", domain="go.eco", valid_until="2026-12-31", title="Greenhouse Gas Emissions Report FY2025" }
+	{ doc_type="annual-report", url="https://go.eco/impact/ghg-report-2025/", domain="go.eco", valid_until="2026-12-31", title="Greenhouse Gas Emissions Report FY2025" },
+	{ doc_type="sustainability-page", url="https://go.eco/policies/supplier/", domain="go.eco", title=".eco Supplier Policy" }
 ]
 
 [upstream]
