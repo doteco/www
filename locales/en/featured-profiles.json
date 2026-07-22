@@ -6,7 +6,7 @@
     "type": "nonprofit",
     "sector": "Nonprofit",
     "link": "https://profiles.eco/mico.eco",
-    "location": "USA",
+    "location": "United States",
     "priority": ""
   },
   {
@@ -26,17 +26,17 @@
     "type": "business",
     "sector": "Consumer goods",
     "link": "/champions/preserve/",
-    "location": "USA",
+    "location": "United States",
     "priority": ""
   },
   {
     "domain": "leap.eco",
-    "story": "<a href=\"https://leap.eco\">Leap</a> is a design studio that believes in designing with purpose and creating work that matters. As a B Corp, they create responsible solutions that exceed triple bottom line standards.",
+    "story": "<a href=\"https://leap.eco\">Leap</a> is a design studio with purpose and creating work that matters. As a B Corp, they create responsible solutions that exceed triple bottom line standards.",
     "img": "/img/champion_logos/leap.webp",
     "type": "business",
     "sector": "Consulting and agencies",
     "link": "/champions/leap/",
-    "location": "UK",
+    "location": "United Kingdom",
     "priority": ""
   },
   {
@@ -86,7 +86,7 @@
     "type": "business",
     "sector": "Consumer goods",
     "link": "https://profiles.eco/bumboo.eco",
-    "location": "UK",
+    "location": "United Kingdom",
     "priority": ""
   },
   {
@@ -96,7 +96,7 @@
     "type": "business",
     "sector": "Consumer goods",
     "link": "https://profiles.eco/boox.eco",
-    "location": "USA",
+    "location": "United States",
     "priority": ""
   },
   {
@@ -126,7 +126,7 @@
     "type": "nonprofit",
     "sector": "Nonprofit",
     "link": "https://profiles.eco/carboncopy.eco",
-    "location": "UK",
+    "location": "United Kingdom",
     "priority": ""
   },
   {
@@ -156,7 +156,7 @@
     "type": "business",
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/terrabyte.eco",
-    "location": "USA",
+    "location": "United States",
     "priority": ""
   },
   {
@@ -166,7 +166,7 @@
     "type": "business",
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/aem.eco",
-    "location": "USA",
+    "location": "United States",
     "priority": ""
   },
   {
@@ -176,7 +176,7 @@
     "type": "business",
     "sector": "Fashion & Apparel",
     "link": "/champions/pirkani/",
-    "location": "UK",
+    "location": "United Kingdom",
     "priority": ""
   },
   {
@@ -246,7 +246,7 @@
     "type": "business",
     "sector": "Environmental consulting & services",
     "link": "/champions/skoot/",
-    "location": "UK",
+    "location": "United Kingdom",
     "priority": ""
   },
   {
@@ -406,7 +406,7 @@
     "type": "nonprofit",
     "sector": "Environmental consulting & services",
     "link": "/champions/oaktree/",
-    "location": "USA",
+    "location": "United States",
     "priority": "2"
   },
   {

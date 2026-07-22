@@ -10,7 +10,7 @@ const translator = new Translate()
 
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 const spreadsheetId = '1DVxRuWxKh24oQPCCi1BT4CYxDrD1xs1Hyb58Rf9rDGo'
-const sheetRange = 'Sheet1!A1:Z'
+const sheetRange = 'Champions!A1:Z'
 
 async function getSpreadSheetValues (spreadsheetId, sheetName) {
   console.log(`Authorization using ${process.env.GOOGLE_APPLICATION_CREDENTIALS}`)
@@ -28,8 +28,6 @@ async function getSpreadSheetValues (spreadsheetId, sheetName) {
 
 function parseSpreadsheet (response) {
   const rows = response.data.values
-
-  rows.shift() // topline
   const headers = rows.shift()
   const h = headers.reduce((h, header, i) => {
     h[header] = i
