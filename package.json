@@ -10,7 +10,7 @@
     "@metalsmith/layouts": "3.0.0",
     "@metalsmith/rss": "github:doteco/rss",
     "@metalsmith/sass": "1.14.0",
-    "autoprefixer": "10.5.0",
+    "autoprefixer": "10.5.4",
     "browser-sync": "3.0.4",
     "date-fns": "4.4.0",
     "googleapis": "173.0.0",
@@ -31,13 +31,13 @@
     "metalsmith-robots": "1.1.0",
     "metalsmith-sitemap": "1.2.2",
     "metalsmith-watch": "github:doteco/metalsmith-watch",
-    "p-map": "7.0.4",
-    "sharp": "0.34.5",
+    "p-map": "7.0.5",
+    "sharp": "0.35.3",
     "standard": "17.1.2",
-    "stylelint": "17.13.0",
+    "stylelint": "17.14.0",
     "stylelint-config-standard": "40.0.0",
     "stylelint-config-standard-scss": "17.0.0",
-    "svgo": "4.0.1"
+    "svgo": "4.0.2"
   },
   "scripts": {
     "build": "npm run build:svg && npm run build:html",
