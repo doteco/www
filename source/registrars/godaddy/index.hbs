@@ -11,7 +11,7 @@ og-height: 630
 
 <div class="jumbotron compare-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/person-browsing-website.webp'); background-size: cover">
 	<div class="container">
-		<h1>GoDaddy and .eco</h1>
+		<h1>GoDaddy &amp; .eco</h1>
 		<p>GoDaddy is a popular place to get your .eco domain. Here&apos;s why .eco and GoDaddy work well together.</p>
 	</div>
 </div>
@@ -33,13 +33,26 @@ og-height: 630
 
 <div class="section policy bg-purple">
 	<div class="container">
-		<h2>Get your .eco at GoDaddy</h2>
+		<h2>Get your .eco today at GoDaddy</h2>
+			<form method="get" class="search-form" role="search">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="input-group">
+							<input id="input-search" type="search" class="form-control domain-search" name="domain" placeholder="example.eco" autocomplete="off" autocapitalize="off">
+							<button class="btn btn-search" title="{{t 'global:search.cta'}}">
+								<svg xmlns="http://www.w3.org/2000/svg" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+							</button>
+						</div>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+			</form>
 			<ul>
 				<li>Registration: $109.99 USD ($10 off first year, <a href="/news/2024-multi-year-registration-discount/">discount for multiple years</a>)</li>
 				<li>Renewal: $119.99 USD</li>
 				<li>Domain privacy: ✅ (please see our <a href="https://support.go.eco/en/articles/702177-how-do-i-get-my-eco-profile-activation-email">support article</a>)</li>
 			</ul>
-			<a href="/search/?registrar=godaddy" class="btn btn-primary text-center d-block mx-auto w-50">Find your .eco at GoDaddy today!</a>
+
 	</div>
 </div>
 
@@ -55,3 +68,30 @@ og-height: 630
     </div>
 	</div>
 </div>
+
+<script>
+	function search() {
+		try {
+			track('JVGELPUR')
+			var url = new URL('/search/', window.location)
+			url.searchParams.append('domain', document.querySelector('.domain-search').value)
+			url.searchParams.append('registrar', 'godaddy')
+			window.location = url.href
+		} catch (e) {
+			window.location = '/search/?registrar=godaddy&domain=' + encodeURI(document.querySelector('.domain-search').value)
+		}
+		return false
+	}
+
+	document.querySelector('.btn-search').addEventListener('click', function (e) {
+		e.preventDefault()
+		return search()
+	})
+
+	document.querySelector('.domain-search').addEventListener('keydown', function (e) {
+		if (e.keyCode === 13) {
+			e.preventDefault()
+			return search()
+		}
+	})
+</script>
