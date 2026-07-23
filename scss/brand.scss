@@ -110,6 +110,7 @@ $navbar-padding-y: 0;
 		--bs-btn-bg: #{$doteco-citrine};
 		--bs-btn-active-bg: #{color.adjust($doteco-citrine, $lightness: -15%)};
 		--bs-btn-hover-bg: #{color.adjust($doteco-citrine, $lightness: -15%)};
+
 		color: $doteco-charcoal;
 	}
 }
