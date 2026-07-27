@@ -194,6 +194,8 @@ window.domainSearch = function (config) {
       resultLabel = config.resultLabels.premium
     } else if (r.summary === 'reserved') {
       resultLabel = config.resultLabels.reserved
+    } else if (r.summary === 'blocked') {
+      resultLabel = config.resultLabels.blocked
     } else if (r.summary === 'undelegated') {
       resultLabel = config.resultLabels.error
     }

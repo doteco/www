@@ -65,6 +65,7 @@
     "error": "Fehler bei der Suche nach dem Domainnamen. Bitte versuchen Sie es später noch einmal.",
     "invalid": "<span class=\"searched-domain\">{searchDomain}</span> ist ungültig.<br>Bitte versuchen Sie einen anderen Namen.",
     "reserved": "<span class=\"searched-domain\">{searchDomain}</span> ist ein toller Name!<br>Bitte fragen Sie uns nach den Preisen.",
+    "blocked": "<span class=\"searched-domain\">{searchDomain}</span> ist nicht erreichbar.<br>Bitte versuchen Sie einen anderen Namen.",
     "unavailable": "<span class=\"searched-domain\">{searchDomain}</span> ist bereits vergeben.<br>Bitte versuchen Sie es mit einem anderen .eco-Namen",
     "idn": "<br>Da diese Domain Sonderzeichen enthält, werden nur Händler aufgelistet, die .eco-Domains unterstützen."
   },
