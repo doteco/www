@@ -1,0 +1,76 @@
+---
+title: .eco and Namecheap
+description: Namecheap is a popular place to get your .eco domain. Here's why .eco and Namecheap work well together.
+page-path: registrars/namecheap/
+og-image: opengraph/person-browsing-website-og.jpg
+og-width: 1200
+og-height: 630
+---
+
+<link rel="preload" as="image" href="/img/person-browsing-website.webp">
+
+<div class="jumbotron compare-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/person-browsing-website.webp'); background-size: cover">
+	<div class="container">
+		<h1>Namecheap &amp; .eco</h1>
+		<p>Namecheap is a popular and affordable place to get your .eco domain. Here&apos;s why .eco and Namecheap work well together.</p>
+	</div>
+</div>
+
+<div class="section policy">
+	<div class="container">
+		<h2>What&apos;s Namecheap?</h2>
+		<p><strong>Namecheap</strong> is the one of the world&apos;s largest domain registrars helping people get online for less. Namecheap offers domain names, website and Wordpress hosting, and email.</p>
+
+		<p>🌱 Namecheap's <a href="https://www.namecheap.com/blog/whats-a-green-internet/">EU and UK data centers</a> are powered by renewable energy and are commited to Net Zero emissions by 2040 as part of The Climate Pledge.</p>
+	</div>
+</div>
+
+{{#> search-registrar registrar='namecheap' title='Get your .eco today at Namecheap' }}
+			<ul>
+				<li>Registration: $72.98 USD (<a href="/news/2024-multi-year-registration-discount/">discount for multiple years</a>)</li>
+				<li>Renewal: $101.98 USD</li>
+				<li>Domain privacy: ✅ </li>
+				<li>Get a .eco domain with <a href="https://www.namecheap.com/hosting/shared/">Stellar EU hosting package</a> and save!</li>
+			</ul>
+{{/search-registrar}}
+
+<div class="section policy">
+	<div class="container">
+		<h2>Namecheap and the .eco community</h2>
+		Many members of the .eco community have chosen to register their .eco domain at Namecheap. Here are just a few of them:
+    <div class="sector-profiles grid grid--m1d2">
+      {{> profile profile=(lookupProfile featuredProfiles 'goodonyou.eco') }}
+      {{> profile profile=(lookupProfile featuredProfiles 'bumboo.eco') }}
+      {{> profile profile=(lookupProfile featuredProfiles 'boox.eco') }}
+      {{> profile profile=(lookupProfile featuredProfiles 'carboncopy.eco') }}
+    </div>
+	</div>
+</div>
+
+<script>
+	function search() {
+		const registrar = 'namecheap'
+		try {
+			track('JVGELPUR')
+			var url = new URL('/search/', window.location)
+			url.searchParams.append('domain', document.querySelector('.domain-search').value)
+			url.searchParams.append('registrar', registrar)
+			window.location = url.href
+		} catch (e) {
+			window.location = '/search/?registrar=' + registrar + '&domain=' + encodeURI(document.querySelector('.domain-search').value)
+		}
+		return false
+	}
+
+	document.querySelector('.btn-search').addEventListener('click', function (e) {
+		e.preventDefault()
+		return search()
+	})
+
+	document.querySelector('.domain-search').addEventListener('keydown', function (e) {
+		if (e.keyCode === 13) {
+			e.preventDefault()
+			return search()
+		}
+	})
+</script>
