@@ -13,7 +13,9 @@ i18nLangs:
 faq: true
 ---
 
- <div class="jumbotron system-header">
+<link rel="preload" as="image" href="/img/system-header.webp" fetchpriority="high">
+
+ <div class="jumbotron system-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/system-header.webp'); background-attachment: fixed">
 	<div class="container" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 		<h1 itemprop="name">{{t "head"}}</h1>
 		<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
