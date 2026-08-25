@@ -1,8 +1,9 @@
 <script defer>
 	window.sentryOnLoad = function () {
 		Sentry.init({
+			release: 'go.eco-{{ env }}@{{ date }}',
 			allowUrls: [
-				"{{site-url}}"
+				'{{site-url}}'
 			]
 		})
 	}

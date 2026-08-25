@@ -111,9 +111,10 @@ const sitemapLinks = function () {
 const jsEntries = {}
 jsEntries[`js/bootstrap/${bootstrapVersion}/bootstrap.custom.min`] = 'source/js/bootstrap.custom.js'
 
+const now = new Date()
 const ms = Metalsmith(__dirname)
   .metadata({
-    year: new Date().getFullYear(),
+    year: now.getFullYear(),
     'img-root': '/img',
     'site-url': siteUrl,
     'twitter-id': '@doteco',
@@ -132,7 +133,9 @@ const ms = Metalsmith(__dirname)
     filterDefaults,
     featuredProfiles,
     priorityProfiles,
-    bootstrapVersion
+    bootstrapVersion,
+    env,
+    date: `${now.getFullYear()}${now.getMonth()+1}${now.getDate()}`
   })
   .source('./source')
   .destination(dest)
