@@ -51,7 +51,6 @@
 	<link rel="preload" as="font" href="/css/fonts/opensans.woff2" crossorigin="" type="font/woff2">
 
 	<link rel="stylesheet" href="/{{ fingerprint.[css/main.css] }}">
-	<script defer src="/js/bootstrap/{{bootstrapVersion}}/bootstrap.custom.min.js"></script>
 
 	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 	<link rel="manifest" href="/site-v1.webmanifest">
@@ -59,18 +58,6 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#9F1744">
 	<meta name="msapplication-TileColor" content="#9F1744">
 	<meta name="theme-color" content="#ffffff">
-
-	<script>
-		window.sentryOnLoad = function () {
-			Sentry.init({
-				allowUrls: [
-					"{{site-url}}"
-				]
-			})
-		}
-	</script>
-	<script src="{{sentryUri}}" crossorigin="anonymous"></script>
-	<script src="https://cdn.usefathom.com/script.js" data-site="ZKSAKYVJ" defer></script>
 
 {{#if (equal active "home")}}
 	<script type="application/ld+json">
