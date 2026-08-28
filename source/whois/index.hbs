@@ -10,7 +10,7 @@ noindex: true
 exclude: true
 ---
 
-<div class="section whois bg-purple">
+<section class="section whois bg-purple">
  <div class="container">
    <h1 class="search-header">.eco whois</h1>
 
@@ -31,19 +31,21 @@ exclude: true
      </div>
    </form>
  </div>
-</div>
+</section>
 
-<div class="section">
-  <pre class="container whois-results">
-  </pre>
-</div>
+<section class="section">
+  <div class="container whois-results" hidden>
+  </div>
+</section>
 
 <script>
 function whois () {
   const domainInput = document.querySelector('.domain-search')
+  const resultsDiv = document.querySelector('.whois-results')
   let domain = domainInput.value
   if (!domain) {
-    document.querySelector('.whois-results').innerHTML = 'Please enter a .eco domain to look up.'
+    resultsDiv.removeAttribute('hidden')
+    resultsDiv.innerHTML = '<h3>Please enter a .eco domain name to look up.</h3>'
     return
   }
 
@@ -57,12 +59,57 @@ function whois () {
     window.history.pushState({}, '', url)
   }
 
-  const url = new URL('{{ searchUrl }}/whois')
+  const url = new URL('{{ searchUrl }}/rdap')
   url.searchParams.set('domain', domain)
-  window.fetch(url).then((response) => response.text()).then(function (results) {
-    document.querySelector('.whois-results').innerText = results
+  window.fetch(url).then(response => {
+    resultsDiv.removeAttribute('hidden')
+    if (response.ok) {
+      return response.json().then(function (results) {
+        resultsDiv.innerHTML = generateWhoisOutput(results)
+      })
+    }
+    if (response.status === 404) {
+      resultsDiv.innerHTML = `${domain} has not been registered. Try <a href="/search?domain=${domain}">searching to see if it's available</a>.`
+    }
   }).catch(handleSearchError)
   trackEvent('whois')
+}
+
+function formatDate (dateString) {
+  const date = new Date(dateString)
+  return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
+}
+
+function badgeList (list) {
+  return list.map(l => `<span class="badge text-bg-secondary">${l}</span>`).join(' ')
+}
+
+function generateWhoisOutput (results) {
+  console.log(results)
+  const lastUpdatedOutput = results.lastChanged ? `<dt>Last updated</dt><dd>${formatDate(results.lastChanged)}</dd>` : ''
+  const onServerhold = results.status.find(s => s === 'server hold')
+  const profileLink = onServerhold ? '' : ` (<a href="https://profiles.eco/${results.domain}">.eco profile</a>)`
+  const domainOutput = `<div>
+    <h3>Domain</h3>
+    <dl>
+      <dt>Name</dt><dd>${results.domain}${profileLink}</dd>
+      <dt>Registrar</dt><dd><a href="${results.registrar.url}">${ results.registrar.name }</a></dd>
+      <dt>Registered</dt><dd>${formatDate(results.registered)}</dd>
+      <dt>Expires</dt><dd>${formatDate(results.expiration)}</dd>
+      ${lastUpdatedOutput}
+      <dt>Status</dt><dd>${badgeList(results.status)}</dd>
+      <dt>Nameservers</dt><dd>${badgeList(results.nameservers)}</dd>
+      <dt>DNSSEC</dt><dd>${results.dnssec ? 'Enabled' : 'Not enabled'}</dd>
+    </dl>
+  </div>`
+  const registrantOutput = `<div>
+    <h3>Registered by</h3>
+    <dl>
+      <dt>Organization</dt><dd>${results.registrant.org}</dd>
+      <dt>Country</dt><dd>${results.registrant.address.country}</dd>
+    </dl>
+  </div>`
+  return domainOutput + registrantOutput
 }
 
 function handleSearchError (ex) {
@@ -73,7 +120,7 @@ function handleSearchError (ex) {
       ctx: 'Failed to fetch whois data'
     }
   })
-  document.querySelector('.whois-results').innerHTML = 'Unable to look up domain details. Please try again.'
+  document.querySelector('.whois-results').innerHTML = '<h3>Unable to look up domain details. Please try again.</h3>'
 }
 
 document.querySelector('.search-form').addEventListener('submit', function (e) {

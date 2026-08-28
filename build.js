@@ -135,7 +135,7 @@ const ms = Metalsmith(__dirname)
     priorityProfiles,
     bootstrapVersion,
     env,
-    date: `${now.getFullYear()}${now.getMonth()+1}${now.getDate()}`
+    date: `${now.getFullYear()}${now.getMonth() + 1}${now.getDate()}`
   })
   .source('./source')
   .destination(dest)
