@@ -67,10 +67,10 @@ function whois () {
       return response.json().then(function (results) {
         resultsDiv.innerHTML = generateWhoisOutput(results)
       })
+    } else if (response.status === 404) {
+      return resultsDiv.innerHTML = `<h3>${domain} is not registered.<br><a href="/search?domain=${domain}">Search</a> to check if it is available.</h3>`
     }
-    if (response.status === 404) {
-      resultsDiv.innerHTML = `${domain} has not been registered. Try <a href="/search?domain=${domain}">searching to see if it's available</a>.`
-    }
+    throw new Error('Error fetching WHOIS data for domain ' + domain)
   }).catch(handleSearchError)
   trackEvent('whois')
 }
@@ -85,7 +85,6 @@ function badgeList (list) {
 }
 
 function generateWhoisOutput (results) {
-  console.log(results)
   const lastUpdatedOutput = results.lastChanged ? `<dt>Last updated</dt><dd>${formatDate(results.lastChanged)}</dd>` : ''
   const onServerhold = results.status.find(s => s === 'server hold')
   const profileLink = onServerhold ? '' : ` (<a href="https://profiles.eco/${results.domain}">.eco profile</a>)`
@@ -93,7 +92,6 @@ function generateWhoisOutput (results) {
     <h3>Domain</h3>
     <dl>
       <dt>Name</dt><dd>${results.domain}${profileLink}</dd>
-      <dt>Registrar</dt><dd><a href="${results.registrar.url}">${ results.registrar.name }</a></dd>
       <dt>Registered</dt><dd>${formatDate(results.registered)}</dd>
       <dt>Expires</dt><dd>${formatDate(results.expiration)}</dd>
       ${lastUpdatedOutput}
@@ -105,7 +103,8 @@ function generateWhoisOutput (results) {
   const registrantOutput = `<div>
     <h3>Registered by</h3>
     <dl>
-      <dt>Organization</dt><dd>${results.registrant.org}</dd>
+      <dt>Registrar</dt><dd><a href="${results.registrar.url}">${ results.registrar.name }</a></dd>
+      <dt>Organization</dt><dd>${results.registrant.org || 'Unknown'}</dd>
       <dt>Country</dt><dd>${results.registrant.address.country}</dd>
     </dl>
   </div>`
