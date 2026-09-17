@@ -237,7 +237,7 @@
     "sector": "Nonprofit",
     "link": "https://profiles.eco/sustainableagriculture.eco",
     "location": "Costa Rica",
-    "priority": "1"
+    "priority": ""
   },
   {
     "domain": "skoot.eco",
@@ -407,7 +407,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/oaktree.eco",
     "location": "États-Unis",
-    "priority": "3"
+    "priority": "2"
   },
   {
     "domain": "labels.eco",
@@ -417,6 +417,16 @@
     "sector": "Manufacturing",
     "link": "https://profiles.eco/labels.eco",
     "location": "Royaume-Uni",
-    "priority": "2"
+    "priority": "3"
+  },
+  {
+    "domain": "tote.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://tote.eco/\">TOTE</a></span> est un service conçu pour aider les résidents à trier leurs déchets et à les déposer dans le bon bac de recyclage.",
+    "img": "/img/champion_logos/tote-header-tile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/tote.eco",
+    "location": "Portugal",
+    "priority": "1"
   }
 ]

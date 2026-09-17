@@ -171,7 +171,7 @@
   },
   {
     "domain": "pirkani.eco",
-    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> ist ein trendweisendes Label mit einem besonderen Ansatz. Nachhaltigkeit steht bei uns im Mittelpunkt, und wir haben es uns zur Aufgabe gemacht, zeitgenössische britische Mode mit minimalistischer Designästhetik ethisch einwandfrei zu produzieren.",
+    "story": "<a href=\"https://pirkani.eco/\">Pirkani</a> ist ein trendweisendes Label mit dem gewissen Etwas. Nachhaltigkeit steht bei uns im Mittelpunkt, und wir haben es uns zur Aufgabe gemacht, zeitgenössische britische Mode mit minimalistischer Designästhetik ethisch einwandfrei zu produzieren.",
     "img": "/img/champion_logos/pirkani3.webp",
     "type": "business",
     "sector": "Fashion & Apparel",
@@ -237,7 +237,7 @@
     "sector": "Nonprofit",
     "link": "https://profiles.eco/sustainableagriculture.eco",
     "location": "Costa Rica",
-    "priority": "1"
+    "priority": ""
   },
   {
     "domain": "skoot.eco",
@@ -407,7 +407,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/oaktree.eco",
     "location": "Vereinigte Staaten",
-    "priority": "3"
+    "priority": "2"
   },
   {
     "domain": "labels.eco",
@@ -417,6 +417,16 @@
     "sector": "Manufacturing",
     "link": "https://profiles.eco/labels.eco",
     "location": "Vereinigtes Königreich",
-    "priority": "2"
+    "priority": "3"
+  },
+  {
+    "domain": "tote.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://tote.eco/\">TOTE</a></span> ist ein Service, der Anwohnern dabei helfen soll, ihren sortierten Abfall in den richtigen Recyclingbehälter zu werfen.",
+    "img": "/img/champion_logos/tote-header-tile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "https://profiles.eco/tote.eco",
+    "location": "Portugal",
+    "priority": "1"
   }
 ]

@@ -237,7 +237,7 @@
     "sector": "Nonprofit",
     "link": "/champions/san/",
     "location": "Costa Rica",
-    "priority": "1"
+    "priority": ""
   },
   {
     "domain": "skoot.eco",
@@ -407,7 +407,7 @@
     "sector": "Environmental consulting & services",
     "link": "/champions/oaktree/",
     "location": "United States",
-    "priority": "3"
+    "priority": "2"
   },
   {
     "domain": "labels.eco",
@@ -417,6 +417,16 @@
     "sector": "Manufacturing",
     "link": "/champions/labels/",
     "location": "United Kingdom",
-    "priority": "2"
+    "priority": "3"
+  },
+  {
+    "domain": "tote.eco",
+    "story": "<span class=\"notranslate\"><a href=\"https://tote.eco/\">TOTE</a></span> is a service designed to help residents get their sorted waste into the correct recycling bin.",
+    "img": "/img/champion_logos/tote-header-tile.webp",
+    "type": "business",
+    "sector": "Environmental consulting & services",
+    "link": "/champions/tote/",
+    "location": "Portugal",
+    "priority": "1"
   }
 ]
