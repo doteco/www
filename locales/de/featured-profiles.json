@@ -231,13 +231,13 @@
   },
   {
     "domain": "skoot.eco",
-    "story": "<a href=\"https://skoot.eco/\">SkootEco</a> hilft Unternehmen und Privatpersonen dabei, ihren CO2-Fußabdruck zu reduzieren und zu beseitigen.",
-    "img": "/img/champion_logos/skooteco-tile2.webp",
+    "story": "<span class=\"notranslate\"><a href=\"https://skoot.eco/\">SkootEco</a></span> ist eine ESG-Beratungsfirma und Nachhaltigkeitsplattform, die Unternehmen dabei unterstützt, ihre ökologischen und sozialen Auswirkungen zu verstehen und entsprechende Maßnahmen zu ergreifen.",
+    "img": "/img/champion_logos/skooteco-tile-champion.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
     "location": "Vereinigtes Königreich",
-    "priority": ""
+    "priority": "1"
   },
   {
     "domain": "sportainable.eco",
@@ -377,7 +377,7 @@
     "sector": "Digital agencies & software",
     "link": "https://profiles.eco/rebuilt.eco",
     "location": "Australien",
-    "priority": "5"
+    "priority": ""
   },
   {
     "domain": "prefab.eco",
@@ -397,7 +397,7 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/oaktree.eco",
     "location": "Vereinigte Staaten",
-    "priority": "2"
+    "priority": "3"
   },
   {
     "domain": "labels.eco",
@@ -407,7 +407,7 @@
     "sector": "Manufacturing",
     "link": "https://profiles.eco/labels.eco",
     "location": "Vereinigtes Königreich",
-    "priority": "3"
+    "priority": "5"
   },
   {
     "domain": "tote.eco",
@@ -417,6 +417,6 @@
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/tote.eco",
     "location": "Portugal",
-    "priority": "1"
+    "priority": "2"
   }
 ]
