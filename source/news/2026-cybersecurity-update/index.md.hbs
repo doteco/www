@@ -1,0 +1,90 @@
+---
+collection: news
+title: "2026 Cybersecurity Update"
+excerpt: "Haloween 🎃 may be over, but there are still lots of spooky things circling around the Internet 🙀. We want to share some of the latest threats and let you know how we are working to keep your .eco domain safe. Think of us as Ghostbusters for your domain name 👻."
+description: "Here are some of the top cybersecurity risks in 2026 and how the .eco registry is working to protect .eco domains."
+header-img: /img/news/skeletons.webp
+header-img-alt: Skeleton Halloween decorations outside of a house
+pubdate: 2026-11-03
+author: Eco Domain (.eco)
+layout: article.hbs
+og-image: opengraph/skeletons-og.jpg
+og-width: 1200
+og-height: 630
+page-path: news/2026-cybersecurity-update/
+more:
+- news/security-risk-of-invalid-nameservers/
+- news/securing-your-eco-domain/
+---
+
+# {{title}}
+
+## {{excerpt}}
+
+<figure>
+<img alt="" src="{{header-img}}">
+<figcaption>
+{{header-img-alt}}. Photo by <a href="https://unsplash.com/@heyquilia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Quilia</a> on <a href="https://unsplash.com/photos/two-skeleton-near-white-concrete-building-with-string-lights-at-daytime-A59lWOrZVnw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</figcaption>
+</figure>
+
+### Chilling emails 🥶
+
+One scam that has reappearred this year is fake ICANN verification phishing emails. These are emails sent to a domain owner asking them to immediately verify ownership of their domain or risk having the domain suspended. The emails look official and sound urgent; however they are fake.
+
+[ICANN](http://icann.org/) is the intergovernmental body that oversees domain names on the Internet. However, ICANN does not directly contact domain owners about their domain (see [ICANN's official statement](https://www.icann.org/en/blogs/details/what-you-should-do-if-you-receive-a-suspected-fraudulent-icann-email-30-12-2016-en) about this).
+
+That said, your domain registrar is required by ICANN to send an email to new customers as part of their work to know and validate their customers. So it is likely that you have received a legitimate email like this.
+
+That's what makes this scam difficult to deal with. You need to carefully inspect the email sender and links to make sure that they come from where you registered your domain name.
+
+If you receive one of these scam emails, clicking on a link in it will take you to a website that might look like your domain retailer. If you try logging in, the scammer will capture your credentials, log into your registrar account and then steal your domain names.
+
+Here are a few things that you can do to protect yourself from this type of scam:
+- use multi-factor authentication on your registrar account. This way even if your credentials are leaked, the scammer won't be able to access your account.
+- use a unique email address for your domain name registration. Treat any emails to this address with extra suspicion. There may be legitimate emails too, so you can't entirely disregard the inbox.
+- hover over links in your browser or email client before clicking anything to ensure that you can see the full URL and make sure it corresponds to a legitimate site.
+
+At the .eco registry, we may contact you occasionally about your domain name. However, we will not contact you regarding registering, renewing or restoring a domain name. Those are handled by your domain retailer. Any emails from us will originate from an [@bigroom.eco](https://bigroom.eco/) or [@profiles.eco](https://profiles.eco/) email address.
+
+### Undead domains 🪦
+
+Most people don't think about what happens to their domain name after they're done with it. At the registry, we often see domain names get re-registered not long after they expire. Sometimes people accidentally let their domain expire and then re-register it. But sometimes domain names are re-registered with bad intentions.
+
+Domain names tend to be sticky. There ends up being lots of links that refer back to them. This ensures that a domain will continue to receive web traffic even after it expires. If someone registers an expired domain, they will start to be recipient of that web traffic. That traffic is valuable to scammers. They can use the domain to legitimize and drive traffic to questionable websites.
+
+In some cases we see shallow copies of the original website set up by the new owner. This gives an impression that the original site is still active. It could be used to redirect traffic, but it could also be used to scam or defraud your former customers or partners.
+
+What's even more pernicious is that the new owner of the domain can start receiving all emails sent to it. It is pretty easy to set up a [catch-all email address](https://www.billhartzer.com/domain-names/expired-domain-names-goldmine-data-exposure-risk/) that will receive all email sent to any address under the domain name. This could compromise your former customers or contacts that try to reach you at your old email address.
+
+Moreover, a hacker could access any third-party account that you set up under this domain by requesting a password reset email.
+
+If you do need to let go of your domain name, here are some things to do first:
+- close down any third-party accounts that you created under an email address associated with the domain name.
+- set up an email auto-responder to let people know that your business has closed and that you will no longer being using the domain.
+- clearly indicate on your website that you've shut down operations.
+- monitor email and web traffic to the domain for a period of at least 6 months.
+
+If you have stopped using your .eco domain name and you see that it has been registered by another party, you can report the domain to us if it is using a clear copy of your original website content and it appears to be used for malicious intent. We will investigate and if appropriate shut down the domain.
+
+### Nameserver gremlins 😈
+
+Nameservers are used to identify where to find the DNS records for your domain. If you use the DNS services provided by your domain retailer, the nameservers for your domain name will be set automatically. However, if you want to use a different DNS service, you can specify any nameservers you like. Unfortunately, if the nameserver is mistyped it can create an opportunity for a malicious actor to serve invalid DNS records for your domain and direct your web traffic to a different website.  We wrote about this [risk last year](/news/security-risk-of-invalid-nameservers/).
+
+To mitigate this problem, we periodically scan all nameservers in the .eco zone to identify those that are invalid and then contact the domain holder to let them know. If you hear from us about this, please take action to fix the nameserver record. We will not fix this for you.
+
+### Scary vulnerabilities 🫣
+
+In October, high severity vulnerabilities were discovered in [PHP](https://www.php.net/archive/2026.php#2026-10-21-5), some [intermediate SSL certificates](https://ifin.network/t/emudhra-intermediate-certificates-compromised/909), and [Linux](https://socprime.com/blog/cve-2026-99999-analysis/). The PHP vulnerability is particularly bad as PHP is widely used and it opens the webserver to remote execution of commands. PHP powers many types of web sites, including all of those using Wordpress, Drupal or Joomla. If you are running this type of website, please ensure that you're are using a recent, patched version. 
+
+### .eco domain security 🔐
+
+We want to wrap things up with a bit of good news to dispell the gloom 🌈.
+
+Based on our [last count](/news/2026-eco-web-hosting-review/), 86% of active .eco websites are using HTTPS. This is good practice as it ensures all traffic to your website is encrypted and can't be snooped. These days, most web hosts make it easy to add an SSL certificate to your website, so it's worth looking into if you don't have one.
+
+DNSSEC is an additional layer of security that you can add that encrypts your domain records to keep them from being poisoned or corrupted. At least 38 of our registrar partners support enabling DNSSEC for your .eco domain. Some of them automatically apply DNSSEC or give you the option to enable it for free or a small charge.
+
+We recently ratched up the strength of the DNSSEC encryption algorithms used for .eco domains by deprecating some older, less secure algorithms and adding newer, stronger ones.
+
+If you have any questions about keeping your domain secure or have some tips to share, please <a class="chat-link" href="#">get in touch</a>. Remember: if there's something spooky with your .eco domain name, you can call on us at the .eco registry 👻.
