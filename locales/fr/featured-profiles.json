@@ -1,7 +1,7 @@
 [
   {
     "domain": "mico.eco",
-    "story": "<a href=\"https://mico.eco\">MiCO</a> (Migratory Connectivity in the Ocean) soutient les efforts de conservation mondiaux pour les espèces aquatiques migratrices comme les baleines et les dauphins, et les océans dont elles dépendent.",
+    "story": "<a href=\"https://mico.eco\">MiCO</a> (Migratory Connectivity in the Ocean) soutient les efforts de conservation mondiaux des espèces aquatiques migratrices comme les baleines et les dauphins, et des océans dont elles dépendent.",
     "img": "/img/champion_logos/mico.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -71,7 +71,7 @@
   },
   {
     "domain": "geca.eco",
-    "story": "<a href=\"https://geca.eco/\">GECA (Global Environmental Choice Australia)</a> est un écolabel mondialement reconnu qui aide les acheteurs à savoir que les produits et services sont meilleurs pour l&#39;environnement.",
+    "story": "<a href=\"https://geca.eco/\">GECA (Global Environmental Choice Australia)</a> est un écolabel mondialement reconnu qui aide les consommateurs à savoir que les produits et services sont meilleurs pour l&#39;environnement.",
     "img": "/img/champion_logos/geca.webp",
     "type": "nonprofit",
     "sector": "Nonprofit",
@@ -171,7 +171,7 @@
   },
   {
     "domain": "cycle.eco",
-    "story": "<a href=\"https://cycle.eco\">Cycle</a> révolutionne la livraison du dernier kilomètre et réduit les émissions de CO2 liées au trafic en garantissant à des milliers de coursiers à vélo une expérience de livraison fluide, rapide et sûre chaque jour.",
+    "story": "<a href=\"https://cycle.eco\">Cycle</a> révolutionne la livraison du dernier kilomètre et réduit les émissions de CO2 liées à la circulation en garantissant à des milliers de coursiers à vélo une expérience de livraison fluide, rapide et sûre chaque jour.",
     "img": "/img/champion_logos/cycle.webp",
     "type": "business",
     "sector": "Transportation",
@@ -232,7 +232,7 @@
   {
     "domain": "skoot.eco",
     "story": "<span class=\"notranslate\"><a href=\"https://skoot.eco/\">SkootEco</a></span> est une plateforme de conseil en ESG et de développement durable qui aide les entreprises à comprendre leur impact environnemental et social et à agir en conséquence.",
-    "img": "/img/champion_logos/skooteco-tile-champion.webp",
+    "img": "/img/champion_logos/skooteco-tile-champion2.webp",
     "type": "business",
     "sector": "Environmental consulting & services",
     "link": "https://profiles.eco/skoot.eco",
