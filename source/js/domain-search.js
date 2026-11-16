@@ -87,7 +87,7 @@ window.domainSearch = function (config) {
     }
     if (policyFilter.length > 0) {
       if (policyFilter === 'Yes') {
-        filteredRegistrars = filteredRegistrars.filter(registrar => registrar.envPolicy)
+        filteredRegistrars = filteredRegistrars.filter(registrar => registrar.ecoAttributes?.length)
       } else {
         filteredRegistrars = filteredRegistrars.filter(registrar => registrar.ecoAttributes?.includes(policyFilter))
       }
