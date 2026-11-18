@@ -186,5 +186,60 @@
     ],
     "retailer": "GoDaddy",
     "since": "November 2024"
-  }
+  },
+  "shift": {
+    "domain": "shift.eco",
+    "title": "SHIFT - .eco champion",
+    "alt": "A hand holding a SHIFT phone and some of the awards SHIFT has received.",
+    "description": "Phones and laptops are an essential tool of modern life. But when they break, they often can’t be repaired and they have a large environmental footprint to replace. SHIFT is addressing this by designing electronic devices that are easy to fix.",
+    "excerpt": "Phones and laptops are essential tools of modern life. But when they break, they often can’t be repaired and incur a large environmental footprint to replace. SHIFT is addressing this by designing electronic devices that are easy to fix.",
+    "intro": "_We spoke with Leon von Zepelin, Sustainability Manager at [SHIFT](https://shift.eco/), a German electronics company making modular, repairable devices._",
+    "questions": [
+      {
+        "q": "What is SHIFT?",
+        "a": [
+          "SHIFT is a German social business founded in 2014 by Samuel and Carsten Waldeck. We develop smartphones and other electronic devices. But SHIFT is about more than just technology. We also want to show that business can work differently. We are a purpose-driven company. That means that making a positive impact on people and the environment is the most important thing for us &mdash; not profit maximization. We are a small team in Germany and we develop our products here.\n",
+          "We do the design and the final assembly of our devices here and the smartphones are made in our own production facility in China. As China is the place where most of the components are coming from, it makes sense to put them all together there. Having a very small production facility gives us more control of the working conditions and the way the products are made."
+        ]
+      },
+      {
+        "q": "What makes SHIFT’s products different?",
+        "a": [
+          "I think the biggest difference is that selling a product is not the end of the story. It's more like the start of a relationship.\n",
+          "We prefer to think in circular systems. We are guided by the [SHIFT 13 Rs](https://www.shift.eco/13rs/). This covers the full product lifecycle &mdash; everything from redesign, repair and refurbish &mdash; and we try to close as many cycles as possible. This ensures that every device is in use as long as possible. That reduces the overall environmental footprint of a product because the production phase creates most of the environmental impact.\n",
+          "What really makes SHIFT different is that our phones and products are designed based on repair statistics. We make sure that what breaks most often can be easily replaced or is easy to repair. For example, the battery can be replaced in a few seconds. You don't need any tools for that. You can just swap one in and take the old one out. Similarly the screen is also very easy to replace. You just need to remove 10 screws and then you can access the screen. The screws are all the same size, so you don't have to worry about putting the wrong screw in the wrong hole and accidentally destroying anything.\n",
+          "What led the founders to start SHIFT was they both had bad experiences repairing devices where they destroyed their devices while trying to repair them. For example, Samuel used the wrong screw and destroyed the main board because the screw was a bit too long. They were also really annoyed by how smartphones were increasingly glued together, making repair more difficult or even impossible.\n",
+          "We want to show that modularity and repairability is possible without sacrificing performance, price or design. Our phones are the same size as other standard smartphones. With our latest phone we have IP66 water protection. It was an argument of big manufacturers that it's not possible to have repairable phones which are also water protected. We showed that it's really possible. If a small company can do it then why can't they?\n",
+          "A really important part of SHIFT is our repair shop where people can repair their own phone or we can repair it for them. This is where we learn how we can improve with the design of our next phone, how we can make it more modular and so on. This is part of thinking in circles. In nature there is no such thing as waste; everything is a resource that can be reused or repurposed."
+        ]
+      },
+      {
+        "q": "What is the shifted iPhone?",
+        "a": [
+          "Before the founders launched SHIFT, they were both Apple users and they really liked their products, but had bad experiences repairing Apple devices. So we wondered if we could apply what we learned about making phones more repairable to the iPhone?\n",
+          "We ran a research project to see what is possible and we realized that the back cover is the door to repairability. This part is hard to repair as it is made out of glass and can break easily when putting force on it and the glue securing it is really sticky.\n",
+          "So we developed a back cover which you can open quite easily just using a suction cup and still get water protection. If you have an iPhone you can either purchase our back cover or we sell refurbished iPhones with the back cover already replaced.\n",
+          "iPhones are really great products but they aren’t easy to repair yourself. They can be expensive to repair so we wanted to show what is possible and to give people an option to more easily open and fix their phone."
+        ]
+      },
+      {
+        "q": "How is SHIFT addressing the EmpCo / ECGT directive?",
+        "a": [
+          "First of all, we think that it's a good directive because transparency and honest communication are very important. [EmpCo](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L0825) is about empowering consumers and that is fundamentally what SHIFT is doing with our focus on repairability.\n",
+          "As an environmentally-focused product company, it can be challenging to understand how to update our messaging to comply with the directive, but I think in the long run it will help make our communication clearer.\n",
+          "For example, in our communications we might say something is sustainable, but what we meant by it was not directly explained because we have a subpage or our sustainability report with the details. So we are using this as an opportunity to make sure our language is clear and concrete enough that someone can really understand what we mean. Is the claim understandable or do we need to explain that our product is sustainable because repairing saves resources and reduces waste?\n",
+          "The word sustainability is really tough when you link it to a product nowadays as it's so general and hard to prove. What we can say that is really concrete is that our phones are repairable and assembled under fair working conditions and no warranty is voided when you open your phone. All of this makes the phone more sustainable, but we can’t easily just use sustainability as a placeholder.\n",
+          "The directive is really about having a direct connection between a claim and the evidence supporting the claim. This can sometimes be challenging but I think this is good for the consumer. In my opinion, maybe the directive is a bit late. It would have been nice if it had been in place five years ago. But it is an effective measure against greenwashing."
+        ]
+      },
+      {
+        "q": "How has using a .eco domain affected your business?",
+        "a": [
+          "A .eco domain reflects what SHIFT stands for. For us sustainability is not just a marketing topic. It's fundamental to how we develop products. Having a .eco domain makes this commitment visible right from the beginning, it communicates our values and makes it clear what kind of company we want to be. Of course, the domain name itself doesn't make a business sustainable, so it's really up to us to show what we do."
+        ]
+      }
+    ],
+    "retailer": "INWX",
+    "since": "January 2020"
+  }  
 }
